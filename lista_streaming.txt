@@ -26,12 +26,13 @@ altadefinizione.pink
 altadefinizione.solutions
 # CINEBLOG
 cb01.construction
+cineblog01.red
 cineblog01.bid
 cb01.li
 cbo1.fun
 cb01.press
 cineblog01.legal
-cineblge01.in
+cineblog01.in
 cb01.vision
 cineblog01.cx
 themsj.com
