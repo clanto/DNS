@@ -5,11 +5,17 @@
 # STREAMING LEGALE NON UTILIZZABILE
 # ------------------------------------[STREAMING LEGALE NON UTILIZZABILE IN LUOGHI PUBBLICI / SCUOLE]-------------------------------------
 netflix.com
+www.netflix.com
 primevideo.com
+www.primevideo.com
 nowtv.it
+www.nowtv.it
 infinitytv.it
+www.infinitytv.it
 mediasetplay.mediaset.it
+www.mediasetplay.mediaset.it
 disneyplus.com
+www.disneyplus.com
 # Piattaforme utilizzabili
 #raiplay.it
 #pluto.tv
