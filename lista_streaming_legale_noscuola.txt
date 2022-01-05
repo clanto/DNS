@@ -1,10 +1,4 @@
-# ------------------------------------[SUPPORTO]-------------------------------------
-# Puoi supportarci aggiungendo altri domini
-# Aggiornamento 22/12/21
-# -------------------------------------[INFO]---------------------------------------
-# STREAMING LEGALE NON UTILIZZABILE
-# ------------------------------------[STREAMING LEGALE NON UTILIZZABILE IN LUOGHI PUBBLICI / SCUOLE]-------------------------------------
-
+# STREAMING LEGALE NON UTILIZZABILE IN LUOGHI PUBBLICI / SCUOLE
 primevideo.com
 www.primevideo.com
 nowtv.it
@@ -15,10 +9,11 @@ mediasetplay.mediaset.it
 www.mediasetplay.mediaset.it
 disneyplus.com
 www.disneyplus.com
-# Piattaforme utilizzabili
+# Sotto questa riga le piattaforme utilizzabili non bloccate
 # raiplay.it
 # pluto.tv
 #vvvvid.it
-# Piattaforma utilizzabili parzialmente
+# Netflix è utilizzabile esclusivamente per vedere film contiene nella descrizione la dicitura:
+# AUTORIZZAZIONE CONCESSA PER FINI EDUCATIVI
 # netflix.com
 # www.netflix.com
