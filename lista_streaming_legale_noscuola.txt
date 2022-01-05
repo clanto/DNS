@@ -4,8 +4,7 @@
 # -------------------------------------[INFO]---------------------------------------
 # STREAMING LEGALE NON UTILIZZABILE
 # ------------------------------------[STREAMING LEGALE NON UTILIZZABILE IN LUOGHI PUBBLICI / SCUOLE]-------------------------------------
-netflix.com
-www.netflix.com
+
 primevideo.com
 www.primevideo.com
 nowtv.it
@@ -17,6 +16,9 @@ www.mediasetplay.mediaset.it
 disneyplus.com
 www.disneyplus.com
 # Piattaforme utilizzabili
-#raiplay.it
-#pluto.tv
+# raiplay.it
+# pluto.tv
 #vvvvid.it
+# Piattaforma utilizzabili parzialmente
+# netflix.com
+# www.netflix.com
