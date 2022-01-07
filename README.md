@@ -63,3 +63,5 @@ https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt
 
 https://blocklist.site/
 - liste categorizzate dell'Università di Tolosa
+
+https://dsi.ut-capitole.fr/blacklists/index_en.php
