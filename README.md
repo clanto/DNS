@@ -1,5 +1,5 @@
 # DNS-Blocklists
-Liste blocco DNS:
+## Liste blocco DNS
 
 - Lista App Spia
 
@@ -37,3 +37,9 @@ https://raw.githubusercontent.com/clanto/DNS/main/liste/vpn.txt
 - Lista siti Warez per scaricare giochi e applicazioni illegamente
 
 https://raw.githubusercontent.com/clanto/DNS/main/liste/warez.txt
+
+## Lista domini ed IP DNS over HTTPS da bloccare per evitare di bypassare le regole DNS
+https://raw.githubusercontent.com/clanto/DNS/main/DNSoverHTTPS/doh.txt
+
+## File di configurazione UboudDNS per forzare la navigazione sicura sui motori supportati (Google, Bing, Duckduck Go, Yandex, YouTube, Pixabay)
+https://raw.githubusercontent.com/clanto/DNS/main/safe_search/ubound_safesearch.conf
