@@ -44,10 +44,22 @@ https://raw.githubusercontent.com/clanto/DNS/main/DNSoverHTTPS/doh.txt
 ## File di configurazione UboudDNS per forzare la navigazione sicura sui motori supportati (Google, Bing, Duckduck Go, Yandex, YouTube, Pixabay)
 https://raw.githubusercontent.com/clanto/DNS/main/safe_search/ubound_safesearch.conf
 
-## Altre liste non gestite da noi:
+## Altre liste utili
 - Lista nodi Tor aggiornata quotidianamente IPv4
 
 https://unlockforus.com/pfblockerng/tor_nodes_ipv4.txt
 - Lista nodi Tor aggiornata quotidianamente IPv6
 
 https://unlockforus.com/pfblockerng/tor_nodes_ipv6.txt
+- Siti porno più visitati
+
+https://raw.githubusercontent.com/chadmayfield/pihole-blocklists/master/lists/pi_blocklist_porn_top1m.list
+- Lista AdGuard solo domini per bloccare la pubblicità a livello di DNS
+
+https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt
+
+## Portali contenenti altre liste
+- Blocklist.site un portale con tante liste aggiornate quotidinamente divise per categorie
+
+https://blocklist.site/
+- liste categorizzate dell'Università di Tolosa
