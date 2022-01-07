@@ -43,3 +43,11 @@ https://raw.githubusercontent.com/clanto/DNS/main/DNSoverHTTPS/doh.txt
 
 ## File di configurazione UboudDNS per forzare la navigazione sicura sui motori supportati (Google, Bing, Duckduck Go, Yandex, YouTube, Pixabay)
 https://raw.githubusercontent.com/clanto/DNS/main/safe_search/ubound_safesearch.conf
+
+## Altre liste non gestite da noi:
+- Lista nodi Tor aggiornata quotidianamente IPv4
+
+https://unlockforus.com/pfblockerng/tor_nodes_ipv4.txt
+- Lista nodi Tor aggiornata quotidianamente IPv6
+
+https://unlockforus.com/pfblockerng/tor_nodes_ipv6.txt
