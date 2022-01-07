@@ -9,11 +9,12 @@ mediasetplay.mediaset.it
 www.mediasetplay.mediaset.it
 disneyplus.com
 www.disneyplus.com
-# Netflix è utilizzabile esclusivamente per vedere film contiene nella descrizione la dicitura:
-# AUTORIZZAZIONE CONCESSA PER FINI EDUCATIVI
 netflix.com
 www.netflix.com
+# Netflix nella lista è BLOCCATO ed è l'unica piattaforma utilizzabile esclusivamente per vedere film contiene nella descrizione la dicitura:
+# AUTORIZZAZIONE CONCESSA PER FINI EDUCATIVI
+#
 # Sotto questa riga le piattaforme utilizzabili non bloccate
 # raiplay.it
 # pluto.tv
-#vvvvid.it
+# vvvvid.it
