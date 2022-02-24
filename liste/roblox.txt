@@ -2491,6 +2491,7 @@ realtime.roblox.com
 realtime3.roblox.com
 recommendations.api.roblox.com
 rjobs.roblox.com
+roblox.com
 roles.api.roblox.com
 rp-web5.wiki.roblox.com
 rp-web8.corp.roblox.com
