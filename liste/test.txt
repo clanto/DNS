@@ -1,1 +1,1 @@
-(?:(?!clanto\.it)(?:.|\n))*clanto\.it
+.*\.xxx
