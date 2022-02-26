@@ -25,6 +25,7 @@ altadefinizione.cloud
 altadefinizione.pink
 altadefinizione.solutions
 # CINEBLOG
+cb01.football
 cb01.construction
 cineblog01.red
 cineblog01.bid
