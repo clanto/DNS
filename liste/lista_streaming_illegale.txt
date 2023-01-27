@@ -24,6 +24,7 @@ altadefinizione.exchange
 altadefinizione.cloud
 altadefinizione.pink
 altadefinizione.solutions
+altadefinizione-originale.online
 # CINEBLOG
 cb01.football
 cb01.construction
@@ -36,8 +37,9 @@ cineblog01.legal
 cineblog01.in
 cb01.vision
 cineblog01.cx
-themsj.com
 cineblog-01.club
+cb01.recipes
+cineblog01.taxi
 # EUROSTREAMING
 eurostreaming.farm
 eurostreaming.vote
@@ -45,3 +47,6 @@ eurostreaming.xyz
 eurostreaming.earth
 eurostreaming.actor
 eurostreaming.design
+eurostreaming.gives
+# ALTRI
+themsj.com
