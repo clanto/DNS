@@ -3,7 +3,6 @@ www.baidu.com
 startpage.com
 www.startpage.com
 www.ecosia.org
-www.qwant.com
 searchencrypt.com
 www.searchencrypt.com
 searx.me
