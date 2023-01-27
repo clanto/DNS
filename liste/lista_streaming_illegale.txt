@@ -1,6 +1,6 @@
 # ------------------------------------[SUPPORTO]-------------------------------------
 # Puoi supportarci aggiungendo altri domini
-# Aggiornamento 22/12/21
+# Aggiornamento 27/01/23
 # -------------------------------------[INFO]---------------------------------------
 # STREAMING ILLEGALE
 # ------------------------------------[STREAMING ILLEGALE]-------------------------------------
@@ -25,6 +25,7 @@ altadefinizione.cloud
 altadefinizione.pink
 altadefinizione.solutions
 altadefinizione-originale.online
+altadefinizione4k.tv
 # CINEBLOG
 cb01.football
 cb01.construction
@@ -50,3 +51,15 @@ eurostreaming.design
 eurostreaming.gives
 # ALTRI
 themsj.com
+ilgeniodellostreaming.hair
+ilgeniodellostreaming.live
+filmsenzalimiti.uno
+filmstreaming.page
+guardaserie.estate
+filmpertutti.tips
+streamingcommunity.online
+eurostreaming.vision
+casacinema.cam
+tuttostream.com
+onlyseries.net
+cinemalibero.city
