@@ -41,6 +41,7 @@ cineblog01.cx
 cineblog-01.club
 cb01.recipes
 cineblog01.taxi
+cb01.day
 # EUROSTREAMING
 eurostreaming.farm
 eurostreaming.vote
@@ -49,6 +50,7 @@ eurostreaming.earth
 eurostreaming.actor
 eurostreaming.design
 eurostreaming.gives
+eurostreaming.lat
 # ALTRI
 themsj.com
 ilgeniodellostreaming.hair
