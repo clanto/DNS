@@ -5,12 +5,3 @@ infinitytv.it
 www.infinitytv.it
 mediasetplay.mediaset.it
 www.mediasetplay.mediaset.it
-# Netflix nella lista è BLOCCATO ed è l'unica piattaforma utilizzabile esclusivamente per vedere film che contengono nella descrizione la dicitura:
-# AUTORIZZAZIONE CONCESSA PER FINI EDUCATIVI
-#
-# Sotto questa riga le piattaforme utilizzabili non bloccate
-# raiplay.it
-# pluto.tv
-# vvvvid.it
-# netflix.com
-# www.netflix.com
