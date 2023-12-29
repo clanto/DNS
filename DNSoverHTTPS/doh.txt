@@ -2132,6 +2132,7 @@ keymiagar.ir
 khsan.com
 kids-adguard.duckdns.org
 kids.5ososea.com
+kids.dns0.eu
 kids.vietdns.vn
 kilabit.info
 killads.vpms.xyz
@@ -2984,6 +2985,7 @@ zak.ath.cx
 zakshinovh.duckdns.org
 zblank.cn
 zephyrus.id
+zero.dns0.eu
 zetland.rm-ni.uk
 zougloub.eu
 zrh1-ns01.monzoon.net
