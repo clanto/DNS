@@ -1,0 +1,4 @@
+# Allowlist domini - pa
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Solo host indispensabili, mai domini interi di vendor. Non deve coprire voci delle blocklist.
+idproxy.consap.it | 2026-09-24 | regola storica AdGuard: accesso Consap | -

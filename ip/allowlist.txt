@@ -1,0 +1,9 @@
+# Allowlist IP: queste reti vengono SEMPRE rimosse da tutti i feed, anche se presenti in fonti o liste manuali.
+# Formato: IP/CIDR/intervallo | data AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+#
+# Inserire qui come minimo:
+# - IP pubblici del server AdGuard centrale e dei resolver usati dai firewall
+# - IP pubblici WAN delle sedi e dei clienti gestiti
+# - Falsi positivi segnalati (es. IP condivisi CDN/cloud finiti nei feed DoH)
+#
+# Le reti private, loopback, link-local, multicast e riservate sono già escluse dal build.

@@ -1,0 +1,25 @@
+# Blocklist domini - malevoli
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Ogni dominio include i sottodomini. Nel motivo MAI dati personali: solo descrizione tecnica e ID ticket.
+bimbilive.live | 2026-09-24 | regola storica AdGuard: truffa voto concorsi / furto account WhatsApp | -
+futureballot.life | 2026-09-24 | regola storica AdGuard: truffa voto concorsi / furto account WhatsApp | -
+tinyballot.top | 2026-09-24 | regola storica AdGuard: truffa voto concorsi / furto account WhatsApp | -
+dancestarsvote.pro | 2026-09-24 | regola storica AdGuard: truffa voto concorsi / furto account WhatsApp | -
+ngdancekidsvote.top | 2026-09-24 | regola storica AdGuard: truffa voto concorsi / furto account WhatsApp | -
+voice-kids2026.bond | 2026-09-24 | regola storica AdGuard: truffa voto concorsi / furto account WhatsApp | -
+dancelifetop.live | 2026-09-24 | regola storica AdGuard: truffa voto concorsi / furto account WhatsApp | -
+whatsverify.com | 2026-09-24 | regola storica AdGuard: truffa voto concorsi / furto account WhatsApp | -
+mysterfim.top | 2026-09-24 | regola storica AdGuard: truffa voto concorsi / furto account WhatsApp | -
+makewin.pro | 2026-09-24 | regola storica AdGuard: truffa voto concorsi / furto account WhatsApp | -
+makepastf.pro | 2026-09-24 | regola storica AdGuard: truffa voto concorsi / furto account WhatsApp | -
+lastfinal.pro | 2026-09-24 | regola storica AdGuard: truffa voto concorsi / furto account WhatsApp | -
+letitdance.pro | 2026-09-24 | regola storica AdGuard: truffa voto concorsi / furto account WhatsApp | -
+milsakura.pro | 2026-09-24 | regola storica AdGuard: truffa voto concorsi / furto account WhatsApp | -
+thankswisdom.pro | 2026-09-24 | regola storica AdGuard: truffa voto concorsi / furto account WhatsApp | -
+slowgim.fun | 2026-09-24 | regola storica AdGuard: truffa voto concorsi / furto account WhatsApp | -
+votello.live | 2026-09-24 | regola storica AdGuard: truffa voto concorsi / furto account WhatsApp | -
+braintrax.info | 2026-09-24 | regola storica AdGuard: dominio malevolo | -
+soprecision.de | 2026-09-24 | regola storica AdGuard: dominio malevolo | -
+petrahanschke.de | 2026-09-24 | regola storica AdGuard: dominio malevolo | -
+caritasvigevano.com | 2026-09-24 | regola storica AdGuard: dominio malevolo | -
+get.activated.win | 2026-09-24 | regola storica AdGuard: script di attivazione Windows/Office non autorizzata | -

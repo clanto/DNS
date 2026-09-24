@@ -1,0 +1,72 @@
+# Liste domini curate da noi, pubblicate per AdGuard (e Unbound/pfBlockerNG/OPNsense).
+#   [allow.<cat>] → domains/allowlist/<cat>.txt → dist/adguard/allow-<cat>.txt
+#   [block.<cat>] → domains/blocklist/<cat>.txt → dist/adguard/block-<cat>.txt (+ dist/unbound/)
+# Opzioni:
+#   in_base   (solo allow) inclusa in allow-base.txt, da applicare a tutti. Default true.
+#   important aggiunge $important: vince anche su regole di blocco $important. Default true per allow, false per block.
+#   tld       le voci sono TLD interi (es. xxx), non domini.
+# Le liste upstream a cui AdGuard è abbonato direttamente sono catalogate in domains/upstream.toml.
+
+# Regola: in allowlist solo host indispensabili. Mai domini interi di vendor, mai voci che contraddicono
+# le blocklist (il build lo verifica) o le liste di bypass DNS/VPN upstream (verificato da check_domains.py).
+own_domains = ["clanto.cloud"]  # domini propri: esclusi dal controllo bypass (es. dns.clanto.cloud)
+
+[allow.google]
+description = "Servizi Google indispensabili (Safe Browsing, app Android)"
+
+[allow.apple]
+description = "Notifiche push Apple"
+
+[allow.microsoft]
+description = "Microsoft 365, licenze, Defender, Power BI"
+
+[allow.pa]
+description = "PA italiana"
+
+[allow.pagamenti]
+description = "Checkout PayPal e antifrode"
+
+[allow.vendor-it]
+description = "Documentazione vendor, GeoIP, RMM"
+
+[allow.siti-web]
+description = "Script di terze parti senza cui i siti non funzionano (consenso cookie, font, tag manager, CDN)"
+
+[allow.smart-tv]
+description = "App Samsung TV"
+
+[allow.scuola]
+description = "Piattaforme didattiche"
+
+[allow.varie]
+description = "Siti specifici bloccati per errore"
+
+[allow.streaming]
+description = "Host specifici delle piattaforme streaming"
+in_base = false  # non per le scuole: annullerebbe liste/lista_streaming_legale_noscuola.txt
+
+[block.tld]
+description = "TLD interi bloccati"
+tld = true
+
+[block.malevoli]
+description = "Domini malevoli e truffe segnalati da noi"
+
+[block.pubblicita]
+description = "Pubblicità sfuggita alle liste upstream"
+important = true
+
+[block.accesso-remoto]
+description = "Strumenti di accesso remoto (abusati in truffe e ransomware): escludere il proprio RMM"
+
+[block.ai-generativa]
+description = "Chatbot di AI generativa (policy di prevenzione fuga dati)"
+
+[block.file-sharing]
+description = "File sharing e trasferimento file anonimi (policy di prevenzione fuga dati)"
+
+[block.social]
+description = "Social network e piattaforme community (scuole)"
+
+[block.gaming]
+description = "Giochi online e piattaforme di gaming (scuole)"

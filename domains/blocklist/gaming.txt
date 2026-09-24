@@ -1,0 +1,23 @@
+# Blocklist domini - gaming
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Ogni dominio include i sottodomini. Nel motivo MAI dati personali: solo descrizione tecnica e ID ticket.
+epicgames.com | 2026-09-24 | piattaforme gaming | -
+epicgames.dev | 2026-09-24 | piattaforme gaming | -
+fortnite.com | 2026-09-24 | piattaforme gaming | -
+steampowered.com | 2026-09-24 | piattaforme gaming | -
+steamcommunity.com | 2026-09-24 | piattaforme gaming | -
+steamstatic.com | 2026-09-24 | piattaforme gaming | -
+steamcontent.com | 2026-09-24 | piattaforme gaming | -
+ea.com | 2026-09-24 | piattaforme gaming | -
+riotgames.com | 2026-09-24 | piattaforme gaming | -
+leagueoflegends.com | 2026-09-24 | piattaforme gaming | -
+playvalorant.com | 2026-09-24 | piattaforme gaming | -
+battle.net | 2026-09-24 | piattaforme gaming | -
+blizzard.com | 2026-09-24 | piattaforme gaming | -
+supercell.com | 2026-09-24 | piattaforme gaming | -
+miniclip.com | 2026-09-24 | giochi da browser | -
+poki.com | 2026-09-24 | giochi da browser | -
+crazygames.com | 2026-09-24 | giochi da browser | -
+friv.com | 2026-09-24 | giochi da browser | -
+y8.com | 2026-09-24 | giochi da browser | -
+coolmathgames.com | 2026-09-24 | giochi da browser | -

@@ -1,0 +1,9 @@
+@@||api-eu-central-1.datadome.co^$important
+@@||ct.ddc.paypal.com.fpc.datadome.co^$important
+@@||geo.ddc.paypal.com.fpc.datadome.co^$important
+@@||c6.paypal.com^$important
+@@||ddbm2.paypal.com^$important
+@@||ct.ddc.paypal.com^$important
+@@||geo.ddc.paypal.com^$important
+@@||b.stats.paypal.com^$important
+@@||t.paypal.com^$important

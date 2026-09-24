@@ -1,0 +1,80 @@
+name: Build feed
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "ip/sources.toml"
+      - "ip/custom/**"
+      - "ip/allowlist.txt"
+      - "domains/**"
+      - "scripts/**"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: build-feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - name: Genera feed
+        id: build
+        run: python scripts/build_ip.py --report "$RUNNER_TEMP/report.md"
+
+      - name: Genera liste domini
+        id: allow
+        continue-on-error: true
+        run: python scripts/build_domains.py
+
+      - name: Pubblica
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ANOMALY: ${{ steps.build.outputs.anomaly }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add -A dist ip/cache DNSoverHTTPS/ipv4.txt
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica ai feed"
+            exit 0
+          fi
+          msg="feed: aggiornamento liste $(date -u +%F)"
+          if [ "$ANOMALY" = "true" ]; then
+            open=$(gh pr list --state open --json headRefName --jq '[.[] | select(.headRefName | startswith("ip-update/"))] | length')
+            if [ "$open" != "0" ]; then
+              echo "::warning::Variazione anomala, ma esiste già una PR ip-update aperta: nessuna nuova PR"
+              exit 0
+            fi
+            branch="ip-update/$(date -u +%Y%m%d-%H%M)"
+            git switch -c "$branch"
+            git commit -m "$msg (variazione anomala)"
+            git push origin "$branch"
+            gh pr create --base main --head "$branch" \
+              --title "$msg: variazione anomala da verificare" \
+              --body-file "$RUNNER_TEMP/report.md"
+          else
+            git commit -m "$msg"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Segnala errori nelle liste manuali
+        if: steps.build.outputs.errors != '0' || steps.allow.outcome == 'failure'
+        run: |
+          echo "::error::Righe non valide nelle liste manuali: ignorate, vedi il riepilogo del job"
+          exit 1

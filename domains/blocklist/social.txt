@@ -1,0 +1,30 @@
+# Blocklist domini - social
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Ogni dominio include i sottodomini. Nel motivo MAI dati personali: solo descrizione tecnica e ID ticket.
+facebook.com | 2026-09-24 | social network | -
+fbcdn.net | 2026-09-24 | social network | -
+instagram.com | 2026-09-24 | social network | -
+cdninstagram.com | 2026-09-24 | social network | -
+tiktok.com | 2026-09-24 | social network | -
+tiktokcdn.com | 2026-09-24 | social network | -
+tiktokv.com | 2026-09-24 | social network | -
+snapchat.com | 2026-09-24 | social network | -
+sc-cdn.net | 2026-09-24 | social network | -
+twitter.com | 2026-09-24 | social network | -
+x.com | 2026-09-24 | social network | -
+twimg.com | 2026-09-24 | social network | -
+reddit.com | 2026-09-24 | social network | -
+redditmedia.com | 2026-09-24 | social network | -
+pinterest.com | 2026-09-24 | social network | -
+pinimg.com | 2026-09-24 | social network | -
+tumblr.com | 2026-09-24 | social network | -
+threads.net | 2026-09-24 | social network | -
+threads.com | 2026-09-24 | social network | -
+bsky.app | 2026-09-24 | social network | -
+bere.al | 2026-09-24 | social network | -
+discord.com | 2026-09-24 | community e chat | -
+discordapp.com | 2026-09-24 | community e chat | -
+discord.gg | 2026-09-24 | community e chat | -
+twitch.tv | 2026-09-24 | community e chat | -
+telegram.org | 2026-09-24 | community e chat | -
+t.me | 2026-09-24 | community e chat | -

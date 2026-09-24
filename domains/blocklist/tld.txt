@@ -1,0 +1,9 @@
+# Blocklist domini - tld
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Ogni dominio include i sottodomini. Nel motivo MAI dati personali: solo descrizione tecnica e ID ticket.
+xxx | 2026-09-24 | regola storica AdGuard: TLD per adulti | -
+porn | 2026-09-24 | regola storica AdGuard: TLD per adulti | -
+adult | 2026-09-24 | regola storica AdGuard: TLD per adulti | -
+sex | 2026-09-24 | regola storica AdGuard: TLD per adulti | -
+desi | 2026-09-24 | regola storica AdGuard: TLD per adulti | -
+world | 2026-09-24 | regola storica AdGuard: TLD abusato | -

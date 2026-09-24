@@ -1,0 +1,6 @@
+@@||socrative-teacher-2.pcm63b82qz.us-east-1.elasticbeanstalk.com^$important
+@@||www.pixton.com^$important
+@@||zspace-https.aws.snxd.com^$important
+@@||axis.snxd.com^$important
+@@||teacher.socrative.com^$important
+@@||kronos.portaleargo.it^$important

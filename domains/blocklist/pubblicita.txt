@@ -1,0 +1,6 @@
+# Blocklist domini - pubblicita
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Ogni dominio include i sottodomini. Nel motivo MAI dati personali: solo descrizione tecnica e ID ticket.
+adv.everyeye.it | 2026-09-24 | regola storica AdGuard: pubblicità | -
+api.everyeye.it | 2026-09-24 | regola storica AdGuard: pubblicità | -
+widgetbay.3labs.it | 2026-09-24 | regola storica AdGuard: pubblicità | -

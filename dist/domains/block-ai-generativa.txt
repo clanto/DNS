@@ -1,0 +1,14 @@
+character.ai
+claude.ai
+meta.ai
+chat.mistral.ai
+perplexity.ai
+chatgpt.com
+deepseek.com
+gemini.google.com
+grok.com
+copilot.microsoft.com
+oaiusercontent.com
+openai.com
+poe.com
+you.com

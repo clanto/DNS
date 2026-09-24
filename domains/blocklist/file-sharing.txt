@@ -1,0 +1,18 @@
+# Blocklist domini - file-sharing
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Ogni dominio include i sottodomini. Nel motivo MAI dati personali: solo descrizione tecnica e ID ticket.
+wetransfer.com | 2026-09-24 | file sharing | -
+we.tl | 2026-09-24 | file sharing | -
+mega.nz | 2026-09-24 | file sharing | -
+mega.io | 2026-09-24 | file sharing | -
+mediafire.com | 2026-09-24 | file sharing | -
+sendspace.com | 2026-09-24 | file sharing | -
+filemail.com | 2026-09-24 | file sharing | -
+transfernow.net | 2026-09-24 | file sharing | -
+fromsmash.com | 2026-09-24 | file sharing | -
+gofile.io | 2026-09-24 | file sharing | -
+pixeldrain.com | 2026-09-24 | file sharing | -
+file.io | 2026-09-24 | file sharing | -
+catbox.moe | 2026-09-24 | file sharing | -
+swisstransfer.com | 2026-09-24 | file sharing | -
+4shared.com | 2026-09-24 | file sharing | -

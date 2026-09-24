@@ -1,0 +1,9 @@
+# Allowlist domini - varie
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Solo host indispensabili, mai domini interi di vendor. Non deve coprire voci delle blocklist.
+csasalerno.it | 2026-09-24 | regola storica AdGuard: sito bloccato per errore | -
+lamweb.it | 2026-09-24 | regola storica AdGuard: sito bloccato per errore | -
+armada.it | 2026-09-24 | regola storica AdGuard: sito bloccato per errore | -
+operaprima.info | 2026-09-24 | regola storica AdGuard: sito bloccato per errore | -
+www.uniform-agri.com | 2026-09-24 | regola storica AdGuard: sito bloccato per errore | -
+clanto.cloud | 2026-09-24 | regola storica AdGuard: dominio Clanto | -

@@ -1,0 +1,26 @@
+# Allowlist domini - siti-web
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Solo host indispensabili, mai domini interi di vendor. Non deve coprire voci delle blocklist.
+cookielaw.org | 2026-09-24 | regola storica AdGuard: banner consenso cookie (GDPR) | -
+cookie-script.com | 2026-09-24 | regola storica AdGuard: banner consenso cookie (GDPR) | -
+www.cookieyes.com | 2026-09-24 | regola storica AdGuard: banner consenso cookie (GDPR) | -
+iubenda.com | 2026-09-24 | regola storica AdGuard: banner consenso cookie (GDPR) | -
+use.typekit.net | 2026-09-24 | regola storica AdGuard: Adobe Fonts | -
+state.typekit.net | 2026-09-24 | regola storica AdGuard: Adobe Fonts | -
+data.typekit.net | 2026-09-24 | regola storica AdGuard: Adobe Fonts | -
+platform-assets.typekit.net | 2026-09-24 | regola storica AdGuard: Adobe Fonts | -
+assets.adobedtm.com | 2026-09-24 | regola storica AdGuard: tag manager necessari ai siti | -
+tags.tiqcdn.com | 2026-09-24 | regola storica AdGuard: tag manager necessari ai siti | -
+tags-eu.tiqcdn.com | 2026-09-24 | regola storica AdGuard: tag manager necessari ai siti | -
+sgtm.dipendentincloud.it | 2026-09-24 | regola storica AdGuard: tag manager necessari ai siti | -
+posteitalianespa.sc.omtrdc.net | 2026-09-24 | regola storica AdGuard: Poste Italiane | -
+shortpixel.ai | 2026-09-24 | regola storica AdGuard: CDN immagini e video | -
+zencdn.net | 2026-09-24 | regola storica AdGuard: CDN immagini e video | -
+i.plug.it | 2026-09-24 | regola storica AdGuard: CDN immagini e video | -
+i1.plug.it | 2026-09-24 | regola storica AdGuard: CDN immagini e video | -
+i2.plug.it | 2026-09-24 | regola storica AdGuard: CDN immagini e video | -
+i5.plug.it | 2026-09-24 | regola storica AdGuard: CDN immagini e video | -
+assets.ryanair.com | 2026-09-24 | regola storica AdGuard: CDN immagini e video | -
+sites.hubspot.net | 2026-09-24 | regola storica AdGuard: siti ospitati su HubSpot | -
+pubnub.com | 2026-09-24 | regola storica AdGuard: backend realtime di app web | -
+js-cdn.dynatrace.com | 2026-09-24 | regola storica AdGuard: monitoraggio prestazioni richiesto da siti | -

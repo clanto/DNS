@@ -1,0 +1,25 @@
+# Voci IP manuali - categoria: warez
+# Formato: IP/CIDR/intervallo | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Nel motivo MAI dati personali (nomi, email, telefoni): solo descrizione tecnica e ID ticket.
+206.132.42.196 | 2022-01-05 | legacy liste/warez.txt | -
+206.132.42.208 | 2022-01-05 | legacy liste/warez.txt | -
+207.192.95.95 | 2022-01-05 | legacy liste/warez.txt | -
+208.231.27.46 | 2022-01-05 | legacy liste/warez.txt | -
+209.123.156.72 | 2022-01-05 | legacy liste/warez.txt | -
+209.132.86.60 | 2022-01-05 | legacy liste/warez.txt | -
+209.196.24.84 | 2022-01-05 | legacy liste/warez.txt | -
+209.8.178.163 | 2022-01-05 | legacy liste/warez.txt | -
+212.97.205.12 | 2022-01-05 | legacy liste/warez.txt | -
+216.13.28.105 | 2022-01-05 | legacy liste/warez.txt | -
+216.205.29.232 | 2022-01-05 | legacy liste/warez.txt | -
+216.234.161.144 | 2022-01-05 | legacy liste/warez.txt | -
+216.234.161.233 | 2022-01-05 | legacy liste/warez.txt | -
+216.25.101.63 | 2022-01-05 | legacy liste/warez.txt | -
+216.25.99.61 | 2022-01-05 | legacy liste/warez.txt | -
+216.65.119.51 | 2022-01-05 | legacy liste/warez.txt | -
+23.29.122.58 | 2022-01-05 | legacy liste/warez.txt | -
+68.235.37.75 | 2022-01-05 | legacy liste/warez.txt | -
+78.129.143.173 | 2022-01-05 | legacy liste/warez.txt | -
+88.191.122.25 | 2022-01-05 | legacy liste/warez.txt | -
+88.191.20.240 | 2022-01-05 | legacy liste/warez.txt | -
+91.121.105.155 | 2022-01-05 | legacy liste/warez.txt | -
