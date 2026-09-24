@@ -1,12 +1,12 @@
 {
   "feed": {
-    "doh-v4.txt": 1989,
+    "doh-v4.txt": 1965,
     "doh-v6.txt": 1109,
-    "tor-v4.txt": 791,
+    "tor-v4.txt": 800,
     "tor-v6.txt": 0,
-    "threat-v4.txt": 29771,
+    "threat-v4.txt": 29828,
     "threat-v6.txt": 0,
-    "inbound-v4.txt": 86701,
+    "inbound-v4.txt": 86554,
     "inbound-v6.txt": 0,
     "c2-v4.txt": 5,
     "c2-v6.txt": 0,
@@ -18,7 +18,7 @@
     "warez-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 12,
-    "all-v4.txt": 32496,
+    "all-v4.txt": 32537,
     "all-v6.txt": 1109
   },
   "fonti": [
@@ -29,7 +29,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 2013,
+      "entries": 1975,
       "detail": "scartate 1 non instradabile"
     },
     {
@@ -49,7 +49,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1369,
+      "entries": 1380,
       "detail": ""
     },
     {
@@ -69,7 +69,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 17621,
+      "entries": 17708,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -99,7 +99,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 96256,
+      "entries": 96049,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
