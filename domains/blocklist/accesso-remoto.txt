@@ -1,0 +1,21 @@
+# Blocklist domini - accesso-remoto
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Ogni dominio include i sottodomini. Nel motivo MAI dati personali: solo descrizione tecnica e ID ticket.
+anydesk.com | 2026-09-24 | accesso remoto | -
+teamviewer.com | 2026-09-24 | accesso remoto | -
+rustdesk.com | 2026-09-24 | accesso remoto | -
+splashtop.com | 2026-09-24 | accesso remoto | -
+logmein.com | 2026-09-24 | accesso remoto | -
+gotoassist.com | 2026-09-24 | accesso remoto | -
+getscreen.me | 2026-09-24 | accesso remoto | -
+supremocontrol.com | 2026-09-24 | accesso remoto | -
+ammyy.com | 2026-09-24 | accesso remoto | -
+ultraviewer.net | 2026-09-24 | accesso remoto | -
+remotepc.com | 2026-09-24 | accesso remoto | -
+dwservice.net | 2026-09-24 | accesso remoto | -
+realvnc.com | 2026-09-24 | accesso remoto | -
+screenconnect.com | 2026-09-24 | accesso remoto | -
+assist.zoho.com | 2026-09-24 | accesso remoto | -
+assist.zoho.eu | 2026-09-24 | accesso remoto | -
+remotedesktop.google.com | 2026-09-24 | assistenza remota integrata abusata (vishing) | -
+remoteassistance.support.services.microsoft.com | 2026-09-24 | assistenza remota integrata abusata (vishing) | -

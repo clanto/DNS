@@ -1,0 +1,5 @@
+# Allowlist domini - smart-tv
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Solo host indispensabili, mai domini interi di vendor. Non deve coprire voci delle blocklist.
+cdn.samsungcloudsolution.com | 2026-09-24 | regola storica AdGuard: app Samsung TV | -
+osb-apps-v2.samsungqbe.com | 2026-09-24 | regola storica AdGuard: app Samsung TV | -

@@ -1,0 +1,9 @@
+# Allowlist domini - scuola
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Solo host indispensabili, mai domini interi di vendor. Non deve coprire voci delle blocklist.
+teacher.socrative.com | 2026-09-24 | regola storica AdGuard: didattica | -
+socrative-teacher-2.pcm63b82qz.us-east-1.elasticbeanstalk.com | 2026-09-24 | regola storica AdGuard: didattica | -
+zspace-https.aws.snxd.com | 2026-09-24 | regola storica AdGuard: didattica | -
+axis.snxd.com | 2026-09-24 | regola storica AdGuard: didattica | -
+www.pixton.com | 2026-09-24 | regola storica AdGuard: didattica | -
+kronos.portaleargo.it | 2026-09-24 | regola storica AdGuard: didattica | -

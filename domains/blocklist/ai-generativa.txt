@@ -1,0 +1,17 @@
+# Blocklist domini - ai-generativa
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Ogni dominio include i sottodomini. Nel motivo MAI dati personali: solo descrizione tecnica e ID ticket.
+chatgpt.com | 2026-09-24 | chatbot AI | -
+openai.com | 2026-09-24 | chatbot AI | -
+oaiusercontent.com | 2026-09-24 | chatbot AI | -
+claude.ai | 2026-09-24 | chatbot AI | -
+gemini.google.com | 2026-09-24 | chatbot AI | -
+copilot.microsoft.com | 2026-09-24 | chatbot AI | -
+perplexity.ai | 2026-09-24 | chatbot AI | -
+deepseek.com | 2026-09-24 | chatbot AI | -
+chat.mistral.ai | 2026-09-24 | chatbot AI | -
+poe.com | 2026-09-24 | chatbot AI | -
+character.ai | 2026-09-24 | chatbot AI | -
+you.com | 2026-09-24 | chatbot AI | -
+grok.com | 2026-09-24 | chatbot AI | -
+meta.ai | 2026-09-24 | chatbot AI | -

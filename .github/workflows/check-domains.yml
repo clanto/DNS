@@ -1,0 +1,30 @@
+name: Verifica DNS liste curate
+
+on:
+  schedule:
+    - cron: "41 5 * * 1"
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "domains/allowlist/**"
+      - "domains/blocklist/**"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - name: Installa dig
+        run: command -v dig || (sudo apt-get update && sudo apt-get install -y dnsutils)
+
+      - name: Verifica esistenza domini e conflitti con liste di bypass
+        run: python scripts/check_domains.py

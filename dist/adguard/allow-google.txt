@@ -1,0 +1,6 @@
+@@||analytics.google.com^$important
+@@||ogads-pa.clients6.google.com^$important
+@@||safebrowsing.google.com^$important
+@@||digitalassetlinks.googleapis.com^$important
+@@||firebaseinstallations.googleapis.com^$important
+@@||safebrowsing.googleapis.com^$important

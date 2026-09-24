@@ -1,0 +1,2 @@
+@@||cdn.samsungcloudsolution.com^$important
+@@||osb-apps-v2.samsungqbe.com^$important

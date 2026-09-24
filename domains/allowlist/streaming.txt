@@ -1,0 +1,16 @@
+# Allowlist domini - streaming
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Solo host indispensabili, mai domini interi di vendor. Non deve coprire voci delle blocklist.
+heads-fa-tls13.spotifycdn.com | 2026-09-24 | regola storica AdGuard: Spotify | -
+spclient.wg.spotify.com | 2026-09-24 | regola storica AdGuard: Spotify | -
+open.spotify.com | 2026-09-24 | regola storica AdGuard: Spotify | -
+api-partner.spotify.com | 2026-09-24 | regola storica AdGuard: Spotify | -
+mosaic.scdn.co | 2026-09-24 | regola storica AdGuard: Spotify | -
+gew4-spclient.spotify.com | 2026-09-24 | regola storica AdGuard: Spotify | -
+partners.wg.spotify.com | 2026-09-24 | regola storica AdGuard: Spotify | -
+assets.nflxext.com | 2026-09-24 | regola storica AdGuard: Netflix | -
+secure.netflix.com | 2026-09-24 | regola storica AdGuard: Netflix | -
+api-global.netflix.com | 2026-09-24 | regola storica AdGuard: Netflix | -
+disney-portal.my.onetrust.com | 2026-09-24 | regola storica AdGuard: Disney+ | -
+cdn.sites.disney.com | 2026-09-24 | regola storica AdGuard: Disney+ | -
+indazn.com | 2026-09-24 | regola storica AdGuard: DAZN | -

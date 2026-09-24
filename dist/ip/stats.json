@@ -1,0 +1,188 @@
+{
+  "feed": {
+    "doh-v4.txt": 1989,
+    "doh-v6.txt": 1109,
+    "tor-v4.txt": 792,
+    "tor-v6.txt": 0,
+    "threat-v4.txt": 29838,
+    "threat-v6.txt": 0,
+    "inbound-v4.txt": 86701,
+    "inbound-v6.txt": 0,
+    "c2-v4.txt": 5,
+    "c2-v6.txt": 0,
+    "vpn-v4.txt": 11508,
+    "vpn-v6.txt": 414,
+    "hacking-v4.txt": 73,
+    "hacking-v6.txt": 0,
+    "warez-v4.txt": 22,
+    "warez-v6.txt": 0,
+    "bogon-v4.txt": 14,
+    "bogon-v6.txt": 12,
+    "all-v4.txt": 32564,
+    "all-v6.txt": 1109
+  },
+  "fonti": [
+    {
+      "id": "dibdot-doh-v4",
+      "category": "doh",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
+      "enabled": true,
+      "status": "cache",
+      "entries": 2013,
+      "detail": ""
+    },
+    {
+      "id": "dibdot-doh-v6",
+      "category": "doh",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
+      "enabled": true,
+      "status": "cache",
+      "entries": 1370,
+      "detail": ""
+    },
+    {
+      "id": "tor-exit",
+      "category": "tor",
+      "license": "CC0 (Tor Metrics)",
+      "homepage": "https://metrics.torproject.org/",
+      "enabled": true,
+      "status": "cache",
+      "entries": 1370,
+      "detail": ""
+    },
+    {
+      "id": "ipsum-level3",
+      "category": "threat",
+      "license": "Unlicense",
+      "homepage": "https://github.com/stamparm/ipsum",
+      "enabled": true,
+      "status": "cache",
+      "entries": 19549,
+      "detail": "IP presenti in almeno 3 blacklist pubbliche"
+    },
+    {
+      "id": "shadowwhisperer-threats",
+      "category": "threat",
+      "license": "Unlicense",
+      "homepage": "https://github.com/ShadowWhisperer/IPs",
+      "enabled": true,
+      "status": "cache",
+      "entries": 17698,
+      "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
+    },
+    {
+      "id": "shadowwhisperer-dns",
+      "category": "doh",
+      "license": "Unlicense",
+      "homepage": "https://github.com/ShadowWhisperer/IPs",
+      "enabled": true,
+      "status": "cache",
+      "entries": 183,
+      "detail": "Resolver DNS pubblici"
+    },
+    {
+      "id": "shadowwhisperer-tunnels",
+      "category": "vpn",
+      "license": "Unlicense",
+      "homepage": "https://github.com/ShadowWhisperer/IPs",
+      "enabled": true,
+      "status": "cache",
+      "entries": 13138,
+      "detail": "Proxy e VPN"
+    },
+    {
+      "id": "data-shield",
+      "category": "inbound",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
+      "enabled": true,
+      "status": "cache",
+      "entries": 96256,
+      "detail": "Sonde e SIEM propri, non aggregatore"
+    },
+    {
+      "id": "abusech-feodo",
+      "category": "c2",
+      "license": "CC0",
+      "homepage": "https://feodotracker.abuse.ch/blocklist/",
+      "enabled": true,
+      "status": "cache",
+      "entries": 5,
+      "detail": "CC0 dichiarato sulla pagina Feodo Tracker (regime diverso dai ToS generali abuse.ch)"
+    },
+    {
+      "id": "x4b-vpn-v4",
+      "category": "vpn",
+      "license": "MIT",
+      "homepage": "https://github.com/X4BNet/lists_vpn",
+      "enabled": true,
+      "status": "cache",
+      "entries": 10921,
+      "detail": ""
+    },
+    {
+      "id": "x4b-vpn-v6",
+      "category": "vpn",
+      "license": "MIT",
+      "homepage": "https://github.com/X4BNet/lists_vpn",
+      "enabled": true,
+      "status": "cache",
+      "entries": 414,
+      "detail": ""
+    },
+    {
+      "id": "et-compromised",
+      "category": "threat",
+      "license": "ET Open (BSD/GPLv2, file non etichettato)",
+      "homepage": "https://rules.emergingthreats.net/",
+      "enabled": false,
+      "status": "disattivata",
+      "entries": 0,
+      "detail": "Chiarire con Proofpoint quale licenza copre il file"
+    },
+    {
+      "id": "cins-badguys",
+      "category": "threat",
+      "license": "Non pubblicata",
+      "homepage": "https://cinsscore.com/",
+      "enabled": false,
+      "status": "disattivata",
+      "entries": 0,
+      "detail": "Serve contatto con CINS"
+    },
+    {
+      "id": "blocklist-de",
+      "category": "threat",
+      "license": "Non esplicita",
+      "homepage": "https://www.blocklist.de/",
+      "enabled": false,
+      "status": "disattivata",
+      "entries": 0,
+      "detail": "Serve contatto con blocklist.de"
+    }
+  ],
+  "manuali": {
+    "bogon": {
+      "attive": 29,
+      "scadute": 0
+    },
+    "doh": {
+      "attive": 336,
+      "scadute": 0
+    },
+    "hacking": {
+      "attive": 77,
+      "scadute": 0
+    },
+    "warez": {
+      "attive": 22,
+      "scadute": 0
+    }
+  },
+  "allowlist": {
+    "voci": 0,
+    "reti_modificate": 0
+  }
+}

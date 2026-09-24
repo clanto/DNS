@@ -1,0 +1,332 @@
+# Catalogo delle liste a cui AdGuard è abbonato direttamente (non ripubblicate da noi).
+# status: attiva | consigliata | da rimuovere | solo riferimento
+# Licenze verificate il 2026-09-24 (API GitHub/GitLab e pagine dei termini).
+
+# --- Pubblicità e tracking ---
+[[lists]]
+name = "AdGuard DNS filter"
+url = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+category = "ads/tracking"
+license = "GPL-3.0"
+status = "attiva"
+
+[[lists]]
+name = "AdAway Default Blocklist"
+url = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt"
+category = "ads"
+license = "GPL-3.0"
+status = "attiva"
+
+[[lists]]
+name = "HaGeZi Multi PRO"
+url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt"
+category = "multi"
+license = "GPL-3.0"
+status = "attiva"
+
+[[lists]]
+name = "BlocklistProject Ads"
+url = "https://blocklistproject.github.io/Lists/adguard/ads-ags.txt"
+category = "ads"
+license = "Unlicense"
+status = "attiva"
+
+[[lists]]
+name = "BlocklistProject Tracking"
+url = "https://blocklistproject.github.io/Lists/adguard/tracking-ags.txt"
+category = "tracking"
+license = "Unlicense"
+status = "attiva"
+
+[[lists]]
+name = "HaGeZi Pop-Up Ads"
+url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt"
+category = "ads"
+license = "GPL-3.0"
+status = "consigliata"
+
+# --- Sicurezza ---
+[[lists]]
+name = "HaGeZi Threat Intelligence Feeds"
+url = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt"
+category = "malware/phishing"
+license = "GPL-3.0"
+status = "attiva"
+note = "Fonte principale di sicurezza"
+
+[[lists]]
+name = "Phishing URL Blocklist (malware-filter)"
+url = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt"
+category = "phishing"
+license = "MIT"
+status = "attiva"
+
+[[lists]]
+name = "uBlock Badware risks"
+url = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt"
+category = "malware"
+license = "GPL-3.0"
+status = "attiva"
+
+[[lists]]
+name = "DurableNapkin Scam"
+url = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_10.txt"
+category = "scam"
+license = "MIT"
+status = "attiva"
+
+[[lists]]
+name = "ShadowWhisperer Malware"
+url = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt"
+category = "malware"
+license = "Unlicense"
+status = "attiva"
+
+[[lists]]
+name = "Stalkerware Indicators"
+url = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt"
+category = "spyware"
+license = "CC BY-4.0"
+status = "attiva"
+note = "Integra liste/appspia.txt"
+
+[[lists]]
+name = "NoCoin"
+url = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt"
+category = "cryptojacking"
+license = "MIT"
+status = "attiva"
+note = "Sostituisce liste/criptojacking.txt (4.804 righe corrotte)"
+
+[[lists]]
+name = "BlocklistProject Fraud"
+url = "https://blocklistproject.github.io/Lists/adguard/fraud-ags.txt"
+category = "scam"
+license = "Unlicense"
+status = "attiva"
+
+[[lists]]
+name = "BlocklistProject Malware"
+url = "https://blocklistproject.github.io/Lists/adguard/malware-ags.txt"
+category = "malware"
+license = "Unlicense"
+status = "attiva"
+note = "2,6M righe, molto sovrapposta a HaGeZi TIF"
+
+[[lists]]
+name = "BlocklistProject Phishing"
+url = "https://blocklistproject.github.io/Lists/adguard/phishing-ags.txt"
+category = "phishing"
+license = "Unlicense"
+status = "attiva"
+
+[[lists]]
+name = "BlocklistProject Ransomware"
+url = "https://blocklistproject.github.io/Lists/adguard/ransomware-ags.txt"
+category = "ransomware"
+license = "Unlicense"
+status = "attiva"
+
+[[lists]]
+name = "BlocklistProject Scam"
+url = "https://blocklistproject.github.io/Lists/adguard/scam-ags.txt"
+category = "scam"
+license = "Unlicense"
+status = "attiva"
+
+[[lists]]
+name = "BlocklistProject Redirect"
+url = "https://blocklistproject.github.io/Lists/adguard/redirect-ags.txt"
+category = "redirect"
+license = "Unlicense"
+status = "attiva"
+note = "Origine probabile di liste/redirect.txt"
+
+[[lists]]
+name = "HaGeZi NRD 7 giorni"
+url = "https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd7.txt"
+category = "domini nuovi"
+license = "GPL-3.0"
+status = "consigliata"
+note = "3,6M righe: verificare RAM di AdGuard; i successivi nrd14-8, nrd21-15, nrd28-22 aggiungono ~2-3M ciascuno"
+
+[[lists]]
+name = "HaGeZi DGA 7 giorni"
+url = "https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/dga7.txt"
+category = "malware (DGA)"
+license = "GPL-3.0"
+status = "consigliata"
+
+[[lists]]
+name = "HaGeZi DynDNS"
+url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt"
+category = "dns dinamici"
+license = "GPL-3.0"
+status = "consigliata"
+
+[[lists]]
+name = "HaGeZi Spam TLDs"
+url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt"
+category = "tld abusati"
+license = "GPL-3.0"
+status = "consigliata"
+
+[[lists]]
+name = "HaGeZi Fake"
+url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt"
+category = "scam"
+license = "GPL-3.0"
+status = "consigliata"
+
+[[lists]]
+name = "HaGeZi DoH/VPN/TOR/Proxy Bypass"
+url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt"
+category = "bypass"
+license = "GPL-3.0"
+status = "consigliata"
+note = "Integra liste/vpn.txt e DNSoverHTTPS/doh.txt"
+
+[[lists]]
+name = "dibdot DoH domains"
+url = "https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-domains.txt"
+category = "bypass"
+license = "GPL-3.0"
+status = "attiva"
+
+[[lists]]
+name = "Dandelion Sprout Anti-Malware"
+url = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_12.txt"
+category = "malware"
+license = "Dandelicence (non standard)"
+status = "da rimuovere"
+note = "Clausole non standard, incompatibili con GPL-3.0 e con uso commerciale certo; coperta da HaGeZi TIF"
+
+[[lists]]
+name = "Phishing Army"
+url = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt"
+category = "phishing"
+license = "CC BY-NC 4.0"
+status = "da rimuovere"
+note = "Non commerciale: vietata per un MSP senza licenza dell'autore"
+
+[[lists]]
+name = "Big List of Hacked Malware Sites"
+url = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt"
+category = "malware"
+license = "MIT"
+status = "da rimuovere"
+note = "Ferma da ottobre 2023"
+
+[[lists]]
+name = "URLhaus (malware-filter)"
+url = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt"
+category = "malware"
+license = "ToS abuse.ch"
+status = "attiva"
+note = "ToS abuse.ch: uso commerciale può richiedere abbonamento Spamhaus; chiedere conferma ad abuse.ch"
+
+# --- Telemetria e tracker ---
+[[lists]]
+name = "WindowsSpyBlocker spy"
+url = "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt"
+category = "telemetria Windows"
+license = "MIT"
+status = "consigliata"
+note = "Formato hosts; extra.txt è più aggressivo. Verificare che non rompa Windows Update/Defender"
+
+[[lists]]
+name = "Perflyst Smart TV (AdGuard)"
+url = "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt"
+category = "telemetria smart TV"
+license = "MIT"
+status = "consigliata"
+note = "allow-smart-tv ($important) mantiene comunque i servizi Samsung sbloccati"
+
+[[lists]]
+name = "Frogeye first-party trackers"
+url = "https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt"
+category = "tracker CNAME cloaking"
+license = "MIT"
+status = "consigliata"
+
+# --- Contenuti e policy ---
+[[lists]]
+name = "BlocklistProject Porn"
+url = "https://blocklistproject.github.io/Lists/adguard/porn-ags.txt"
+category = "adulti"
+license = "Unlicense"
+status = "attiva"
+
+[[lists]]
+name = "HaGeZi NSFW"
+url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt"
+category = "adulti"
+license = "GPL-3.0"
+status = "consigliata"
+
+[[lists]]
+name = "HaGeZi Gambling"
+url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt"
+category = "scommesse"
+license = "GPL-3.0"
+status = "consigliata"
+
+[[lists]]
+name = "HaGeZi Anti-Piracy"
+url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt"
+category = "pirateria"
+license = "GPL-3.0"
+status = "consigliata"
+note = "Integra liste/warez.txt e liste/lista_streaming_illegale.txt"
+
+[[lists]]
+name = "ADM siti di gioco inibiti"
+url = "https://www.adm.gov.it/portale/siti-web-inibiti-giochi"
+category = "scommesse"
+license = "Non dichiarata"
+status = "solo riferimento"
+note = "Il file TXT ha URL versionato che cambia a ogni aggiornamento; licenza di riuso non indicata"
+
+[[lists]]
+name = "UT1 Université Toulouse Capitole"
+url = "https://dsi.ut-capitole.fr/blacklists/index_en.php"
+category = "categorie scuola"
+license = "CC BY-SA 4.0"
+status = "consigliata"
+note = "Uso commerciale consentito con attribuzione e ShareAlike"
+
+# --- Allowlist ---
+[[lists]]
+name = "HaGeZi Allowlist Referral"
+url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/whitelist-referral.txt"
+category = "allowlist"
+license = "GPL-3.0"
+status = "consigliata"
+note = "Link di affiliazione/referral legittimi"
+
+[[lists]]
+name = "HaGeZi Allowlist URL Shortener"
+url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/whitelist-urlshortener.txt"
+category = "allowlist"
+license = "GPL-3.0"
+status = "consigliata"
+note = "Solo se si usa la blocklist redirect"
+
+[[lists]]
+name = "Ultimate Hosts Blacklist whitelist"
+url = "https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/whitelist/master/domains.list"
+category = "allowlist"
+license = "MIT"
+status = "solo riferimento"
+note = "Ferma da luglio 2026: utile per cercare falsi positivi, non come abbonamento"
+
+# Escluse dopo verifica 2026-09-24: romainmarcoux/malicious-domains (aggrega C2IntelFeeds NC e AlienVault OTX),
+# GlobalAntiScamOrg (dati di terzi senza licenza), DigitalSide e lightswitch05 (ferme), notracking (archiviata).
+
+[[lists]]
+name = "AdGuard HttpsExclusions banche"
+url = "https://github.com/AdguardTeam/HttpsExclusions"
+category = "allowlist banche"
+license = "Nessuna"
+status = "solo riferimento"
+note = "Senza licenza: consultabile, non ridistribuibile"

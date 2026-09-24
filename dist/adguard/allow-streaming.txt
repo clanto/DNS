@@ -1,0 +1,13 @@
+@@||mosaic.scdn.co^$important
+@@||cdn.sites.disney.com^$important
+@@||indazn.com^$important
+@@||api-global.netflix.com^$important
+@@||secure.netflix.com^$important
+@@||assets.nflxext.com^$important
+@@||disney-portal.my.onetrust.com^$important
+@@||api-partner.spotify.com^$important
+@@||gew4-spclient.spotify.com^$important
+@@||open.spotify.com^$important
+@@||partners.wg.spotify.com^$important
+@@||spclient.wg.spotify.com^$important
+@@||heads-fa-tls13.spotifycdn.com^$important

@@ -1,0 +1,44 @@
+name: Valida liste
+
+on:
+  pull_request:
+    paths:
+      - "ip/**"
+      - "DNSoverHTTPS/ipv4.txt"
+      - "dist/**"
+      - "domains/**"
+      - "scripts/**"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - name: Valida configurazione e liste manuali
+        run: |
+          python scripts/build_ip.py --check
+          python scripts/build_domains.py --check
+
+      - name: Blocca modifiche manuali ai file generati
+        if: github.event.pull_request.user.login != 'github-actions[bot]'
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          changed=$(git diff --name-only "origin/$BASE_REF...HEAD" -- dist ip/cache DNSoverHTTPS/ipv4.txt)
+          if [ -n "$changed" ]; then
+            echo "::error::File generati modificati a mano (vengono sovrascritti dal build):"
+            echo "$changed"
+            echo "Modificare invece ip/custom/, ip/allowlist.txt, ip/sources.toml o domains/."
+            exit 1
+          fi

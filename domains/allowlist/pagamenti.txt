@@ -1,0 +1,12 @@
+# Allowlist domini - pagamenti
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Solo host indispensabili, mai domini interi di vendor. Non deve coprire voci delle blocklist.
+ct.ddc.paypal.com | 2026-09-24 | regola storica AdGuard: PayPal checkout e antifrode | -
+geo.ddc.paypal.com | 2026-09-24 | regola storica AdGuard: PayPal checkout e antifrode | -
+t.paypal.com | 2026-09-24 | regola storica AdGuard: PayPal checkout e antifrode | -
+c6.paypal.com | 2026-09-24 | regola storica AdGuard: PayPal checkout e antifrode | -
+ddbm2.paypal.com | 2026-09-24 | regola storica AdGuard: PayPal checkout e antifrode | -
+b.stats.paypal.com | 2026-09-24 | regola storica AdGuard: PayPal checkout e antifrode | -
+ct.ddc.paypal.com.fpc.datadome.co | 2026-09-24 | regola storica AdGuard: PayPal checkout e antifrode | -
+geo.ddc.paypal.com.fpc.datadome.co | 2026-09-24 | regola storica AdGuard: PayPal checkout e antifrode | -
+api-eu-central-1.datadome.co | 2026-09-24 | regola storica AdGuard: PayPal checkout e antifrode | -

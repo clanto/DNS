@@ -1,0 +1,9 @@
+# Allowlist domini - google
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Solo host indispensabili, mai domini interi di vendor. Non deve coprire voci delle blocklist.
+safebrowsing.google.com | 2026-09-24 | regola storica AdGuard: Safe Browsing (protezione browser) | -
+safebrowsing.googleapis.com | 2026-09-24 | regola storica AdGuard: Safe Browsing (protezione browser) | -
+digitalassetlinks.googleapis.com | 2026-09-24 | regola storica AdGuard: app Android e link verificati | -
+firebaseinstallations.googleapis.com | 2026-09-24 | regola storica AdGuard: app Android e link verificati | -
+ogads-pa.clients6.google.com | 2026-09-24 | regola storica AdGuard: barra app Google | -
+analytics.google.com | 2026-09-24 | regola storica AdGuard: console Google Analytics | -

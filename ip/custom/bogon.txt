@@ -1,0 +1,32 @@
+# Reti riservate/private (IANA special-purpose, RFC 6890 e successive).
+# Da usare SOLO come blocco in ingresso sulle interfacce WAN: contiene anche le reti LAN private.
+# Formato: IP/CIDR | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza (opzionale)
+0.0.0.0/8 | 2026-09-24 | RFC 791 "this network" | -
+10.0.0.0/8 | 2026-09-24 | RFC 1918 privata | -
+100.64.0.0/10 | 2026-09-24 | RFC 6598 CGNAT | -
+127.0.0.0/8 | 2026-09-24 | RFC 1122 loopback | -
+169.254.0.0/16 | 2026-09-24 | RFC 3927 link-local | -
+172.16.0.0/12 | 2026-09-24 | RFC 1918 privata | -
+192.0.0.0/24 | 2026-09-24 | RFC 6890 IETF protocol assignments | -
+192.0.2.0/24 | 2026-09-24 | RFC 5737 TEST-NET-1 | -
+192.88.99.0/24 | 2026-09-24 | RFC 7526 6to4 relay deprecato | -
+192.168.0.0/16 | 2026-09-24 | RFC 1918 privata | -
+198.18.0.0/15 | 2026-09-24 | RFC 2544 benchmarking | -
+198.51.100.0/24 | 2026-09-24 | RFC 5737 TEST-NET-2 | -
+203.0.113.0/24 | 2026-09-24 | RFC 5737 TEST-NET-3 | -
+224.0.0.0/4 | 2026-09-24 | RFC 5771 multicast | -
+240.0.0.0/4 | 2026-09-24 | RFC 1112 riservata | -
+::/128 | 2026-09-24 | RFC 4291 non specificato | -
+::1/128 | 2026-09-24 | RFC 4291 loopback | -
+::ffff:0:0/96 | 2026-09-24 | RFC 4291 IPv4-mapped | -
+64:ff9b:1::/48 | 2026-09-24 | RFC 8215 traduzione locale | -
+100::/64 | 2026-09-24 | RFC 6666 discard-only | -
+2001:2::/48 | 2026-09-24 | RFC 5180 benchmarking | -
+2001:db8::/32 | 2026-09-24 | RFC 3849 documentazione | -
+2001:10::/28 | 2026-09-24 | RFC 4843 ORCHID deprecato | -
+3fff::/20 | 2026-09-24 | RFC 9637 documentazione | -
+5f00::/16 | 2026-09-24 | RFC 9602 SRv6 SID | -
+fc00::/7 | 2026-09-24 | RFC 4193 unique local | -
+fe80::/10 | 2026-09-24 | RFC 4291 link-local | -
+fec0::/10 | 2026-09-24 | RFC 3879 site-local deprecato | -
+ff00::/8 | 2026-09-24 | RFC 4291 multicast | -
