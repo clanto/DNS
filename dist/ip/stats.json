@@ -1,16 +1,16 @@
 {
   "feed": {
     "doh-v4.txt": 1964,
-    "doh-v6.txt": 1112,
-    "tor-v4.txt": 804,
+    "doh-v6.txt": 1110,
+    "tor-v4.txt": 805,
     "tor-v6.txt": 0,
-    "threat-v4.txt": 28601,
+    "threat-v4.txt": 28615,
     "threat-v6.txt": 0,
-    "inbound-v4.txt": 85205,
+    "inbound-v4.txt": 84705,
     "inbound-v6.txt": 0,
     "c2-v4.txt": 5,
     "c2-v6.txt": 0,
-    "vpn-v4.txt": 11576,
+    "vpn-v4.txt": 11564,
     "vpn-v6.txt": 414,
     "hacking-v4.txt": 73,
     "hacking-v6.txt": 0,
@@ -18,8 +18,8 @@
     "warez-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 12,
-    "all-v4.txt": 31327,
-    "all-v6.txt": 1112
+    "all-v4.txt": 31343,
+    "all-v6.txt": 1110
   },
   "fonti": [
     {
@@ -29,7 +29,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1974,
+      "entries": 1973,
       "detail": "scartate 1 non instradabile"
     },
     {
@@ -39,7 +39,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1373,
+      "entries": 1371,
       "detail": "scartate 1 non instradabile"
     },
     {
@@ -49,7 +49,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1382,
+      "entries": 1383,
       "detail": ""
     },
     {
@@ -69,7 +69,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 17390,
+      "entries": 17412,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -99,7 +99,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 94668,
+      "entries": 94132,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -119,7 +119,7 @@
       "homepage": "https://github.com/X4BNet/lists_vpn",
       "enabled": true,
       "status": "ok",
-      "entries": 10989,
+      "entries": 10977,
       "detail": ""
     },
     {
