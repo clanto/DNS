@@ -1,16 +1,16 @@
 {
   "feed": {
-    "doh-v4.txt": 1961,
+    "doh-v4.txt": 1963,
     "doh-v6.txt": 1110,
-    "tor-v4.txt": 792,
+    "tor-v4.txt": 783,
     "tor-v6.txt": 0,
-    "threat-v4.txt": 28593,
+    "threat-v4.txt": 28605,
     "threat-v6.txt": 0,
-    "inbound-v4.txt": 84478,
+    "inbound-v4.txt": 83918,
     "inbound-v6.txt": 0,
     "c2-v4.txt": 5,
     "c2-v6.txt": 0,
-    "vpn-v4.txt": 11564,
+    "vpn-v4.txt": 11600,
     "vpn-v6.txt": 414,
     "hacking-v4.txt": 73,
     "hacking-v6.txt": 0,
@@ -18,7 +18,7 @@
     "warez-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 12,
-    "all-v4.txt": 31278,
+    "all-v4.txt": 31283,
     "all-v6.txt": 1110
   },
   "fonti": [
@@ -29,7 +29,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1968,
+      "entries": 1971,
       "detail": "scartate 1 non instradabile"
     },
     {
@@ -49,7 +49,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1366,
+      "entries": 1357,
       "detail": ""
     },
     {
@@ -69,7 +69,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 17392,
+      "entries": 17415,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -99,7 +99,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 93959,
+      "entries": 93337,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -119,7 +119,7 @@
       "homepage": "https://github.com/X4BNet/lists_vpn",
       "enabled": true,
       "status": "ok",
-      "entries": 10977,
+      "entries": 11013,
       "detail": ""
     },
     {
