@@ -1,12 +1,12 @@
 {
   "feed": {
-    "doh-v4.txt": 1960,
-    "doh-v6.txt": 1108,
-    "tor-v4.txt": 832,
+    "doh-v4.txt": 1957,
+    "doh-v6.txt": 1104,
+    "tor-v4.txt": 833,
     "tor-v6.txt": 0,
-    "threat-v4.txt": 28341,
+    "threat-v4.txt": 28391,
     "threat-v6.txt": 0,
-    "inbound-v4.txt": 83549,
+    "inbound-v4.txt": 83244,
     "inbound-v6.txt": 0,
     "c2-v4.txt": 5,
     "c2-v6.txt": 0,
@@ -18,8 +18,8 @@
     "warez-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 12,
-    "all-v4.txt": 31090,
-    "all-v6.txt": 1108
+    "all-v4.txt": 31124,
+    "all-v6.txt": 1104
   },
   "fonti": [
     {
@@ -39,7 +39,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1371,
+      "entries": 1367,
       "detail": "scartate 1 non instradabile"
     },
     {
@@ -49,7 +49,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1407,
+      "entries": 1408,
       "detail": ""
     },
     {
@@ -59,7 +59,7 @@
       "homepage": "https://github.com/stamparm/ipsum",
       "enabled": true,
       "status": "ok",
-      "entries": 17604,
+      "entries": 17754,
       "detail": "IP presenti in almeno 3 blacklist pubbliche"
     },
     {
@@ -69,7 +69,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 17478,
+      "entries": 17464,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -99,7 +99,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 93176,
+      "entries": 92921,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
