@@ -1,16 +1,16 @@
 {
   "feed": {
-    "doh-v4.txt": 1961,
-    "doh-v6.txt": 1114,
-    "tor-v4.txt": 831,
+    "doh-v4.txt": 1965,
+    "doh-v6.txt": 1113,
+    "tor-v4.txt": 822,
     "tor-v6.txt": 0,
-    "threat-v4.txt": 26185,
+    "threat-v4.txt": 26202,
     "threat-v6.txt": 0,
-    "inbound-v4.txt": 79259,
+    "inbound-v4.txt": 79480,
     "inbound-v6.txt": 0,
     "c2-v4.txt": 5,
     "c2-v6.txt": 0,
-    "vpn-v4.txt": 11526,
+    "vpn-v4.txt": 11590,
     "vpn-v6.txt": 414,
     "hacking-v4.txt": 73,
     "hacking-v6.txt": 0,
@@ -18,8 +18,8 @@
     "warez-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 12,
-    "all-v4.txt": 28905,
-    "all-v6.txt": 1114
+    "all-v4.txt": 28919,
+    "all-v6.txt": 1113
   },
   "fonti": [
     {
@@ -29,7 +29,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1969,
+      "entries": 1971,
       "detail": "scartate 1 non instradabile"
     },
     {
@@ -39,7 +39,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1377,
+      "entries": 1376,
       "detail": "scartate 1 non instradabile"
     },
     {
@@ -49,7 +49,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1398,
+      "entries": 1384,
       "detail": ""
     },
     {
@@ -69,7 +69,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 17281,
+      "entries": 17313,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -99,7 +99,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 88910,
+      "entries": 89160,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -119,7 +119,7 @@
       "homepage": "https://github.com/X4BNet/lists_vpn",
       "enabled": true,
       "status": "ok",
-      "entries": 10939,
+      "entries": 11003,
       "detail": ""
     },
     {
