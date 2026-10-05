@@ -1,12 +1,12 @@
 {
   "feed": {
-    "doh-v4.txt": 1965,
-    "doh-v6.txt": 1113,
-    "tor-v4.txt": 822,
+    "doh-v4.txt": 1964,
+    "doh-v6.txt": 1112,
+    "tor-v4.txt": 818,
     "tor-v6.txt": 0,
-    "threat-v4.txt": 26202,
+    "threat-v4.txt": 26665,
     "threat-v6.txt": 0,
-    "inbound-v4.txt": 79480,
+    "inbound-v4.txt": 80287,
     "inbound-v6.txt": 0,
     "c2-v4.txt": 5,
     "c2-v6.txt": 0,
@@ -18,8 +18,8 @@
     "warez-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 12,
-    "all-v4.txt": 28919,
-    "all-v6.txt": 1113
+    "all-v4.txt": 29387,
+    "all-v6.txt": 1112
   },
   "fonti": [
     {
@@ -29,7 +29,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1971,
+      "entries": 1970,
       "detail": "scartate 1 non instradabile"
     },
     {
@@ -39,7 +39,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1376,
+      "entries": 1375,
       "detail": "scartate 1 non instradabile"
     },
     {
@@ -49,7 +49,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1384,
+      "entries": 1380,
       "detail": ""
     },
     {
@@ -59,7 +59,7 @@
       "homepage": "https://github.com/stamparm/ipsum",
       "enabled": true,
       "status": "ok",
-      "entries": 16495,
+      "entries": 16812,
       "detail": "IP presenti in almeno 3 blacklist pubbliche"
     },
     {
@@ -69,7 +69,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 17313,
+      "entries": 17150,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -99,7 +99,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 89160,
+      "entries": 90027,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
