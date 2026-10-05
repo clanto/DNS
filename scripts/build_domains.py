@@ -20,9 +20,10 @@ import tomllib
 from datetime import date
 from pathlib import Path
 
-from build_ip import EMAIL_RE, RAW_BASE, ROOT, TICKET_RE, contains_pii, fail, valid_date
+from build_ip import EMAIL_RE, RAW_BASE, ROOT, TICKET_RE, contains_pii, fail, fetch, valid_date, warn
 
 DOMAINS_DIR = ROOT / "domains"
+CACHE_DIR = DOMAINS_DIR / "cache"
 CONFIG_PATH = DOMAINS_DIR / "domains.toml"
 UPSTREAM_PATH = DOMAINS_DIR / "upstream.toml"
 ADGUARD_DIR = ROOT / "dist" / "adguard"
@@ -95,6 +96,62 @@ def load(path: Path, *, tld: bool, today: date, errors: list[str]) -> tuple[list
     return names, expired
 
 
+def parse_domain_text(text: str, fmt: str) -> tuple[set[str], int]:
+    """Estrae domini da liste 'domains', 'adblock' (||dominio^) o 'hosts'. Restituisce (domini, scartati)."""
+    names: set[str] = set()
+    rejected = 0
+    for raw in text.splitlines():
+        line = raw.strip().lower()
+        if not line or line[0] in "#!":
+            continue
+        if fmt == "adblock":
+            m = re.match(r"^\|\|([^\^/$|]+)\^$", line)
+            if not m:
+                continue  # regole con modificatori o eccezioni: non sono domini da bloccare
+            token = m.group(1)
+        else:
+            parts = line.split("#", 1)[0].split()
+            if not parts:
+                continue
+            token = parts[1] if fmt == "hosts" and len(parts) > 1 else parts[0]
+        try:
+            name = normalize(token)
+        except UnicodeError:
+            name = ""
+        if DOMAIN_RE.match(name):
+            names.add(name)
+        else:
+            rejected += 1
+    return names, rejected
+
+
+def load_domain_source(src: dict, offline: bool, persist: bool, max_drop: float = 0.5) -> tuple[set[str], str]:
+    """Fonte di una blocklist: file locale (path) o URL con cache e guardrail come i feed IP."""
+    fmt = src.get("format", "domains")
+    if "path" in src:
+        names, rejected = parse_domain_text((ROOT / src["path"]).read_text(encoding="utf-8"), fmt)
+        return names, f"locale, {len(names)} voci" + (f", scartate {rejected}" if rejected else "")
+    cache_path = CACHE_DIR / f"{src['id']}.txt"
+    cached: set[str] = set()
+    if cache_path.exists():
+        cached, _ = parse_domain_text(cache_path.read_text(encoding="utf-8"), "domains")
+    if offline:
+        return cached, f"cache, {len(cached)} voci"
+    try:
+        names, rejected = parse_domain_text(fetch(src["url"]), fmt)
+        if not names:
+            raise ValueError("nessuna voce valida")
+        if cached and len(names) < len(cached) * (1 - max_drop):
+            raise ValueError(f"calo sospetto {len(cached)} → {len(names)} voci")
+    except Exception as exc:  # qualsiasi errore di rete/parsing: si ripiega sulla cache
+        warn(f"fonte {src['id']}: {exc}; uso la cache ({len(cached)} voci)")
+        return cached, f"cache ({exc}), {len(cached)} voci"
+    if persist:
+        CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        cache_path.write_text("".join(f"{d}\n" for d in sorted(names)), encoding="utf-8", newline="\n")
+    return names, f"ok, {len(names)} voci" + (f", scartate {rejected}" if rejected else "")
+
+
 def drop_covered(names: set[str]) -> list[str]:
     """Rimuove i sottodomini già coperti da un dominio padre presente in lista."""
     def covered(d: str) -> bool:
@@ -151,7 +208,9 @@ def render_readme(outputs: dict[str, tuple[str, str, int]], upstream: list[dict]
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--check", action="store_true", help="solo validazione, nessuna scrittura")
+    parser.add_argument("--offline", action="store_true", help="fonti upstream solo dalla cache")
     args = parser.parse_args()
+    offline = args.offline or args.check
     for stream in (sys.stdout, sys.stderr):
         if hasattr(stream, "reconfigure"):
             stream.reconfigure(encoding="utf-8")
@@ -173,33 +232,65 @@ def main() -> int:
     base: set[str] = set()
     entries: dict[str, list[tuple[str, str]]] = {"allow": [], "block": []}  # kind → (categoria, voce)
 
+    own = cfg.get("own_domains", [])
+    source_report: list[str] = []
+    collected: dict[tuple[str, str], tuple[set[str], int]] = {}  # (kind, cat) → (voci, scadute)
     for kind, sub in KINDS.items():
         cats = cfg.get(kind, {})
         for path in sorted((DOMAINS_DIR / sub).glob("*.txt")):
-            cat = path.stem
-            if cat not in cats:
-                errors.append(f"{path.relative_to(ROOT).as_posix()}: categoria '{cat}' non definita in [{kind}] di domains.toml")
-                continue
-            opts = cats[cat]
-            names, expired = load(path, tld=opts.get("tld", False), today=today, errors=errors)
-            final = drop_covered(set(names))
-            important = opts.get("important", kind == "allow")
-            suffix = "$important" if important else ""
-            prefix = "@@||" if kind == "allow" else "||"
-            fname = f"{kind}-{cat}.txt"
-            adguard[fname] = "".join(f"{prefix}{d}^{suffix}\n" for d in final)
-            if kind == "block":
-                entries["block"] += [(cat, d) for d in names]
-                simple = [d for d in final if "*" not in d]
-                plain[fname] = "".join(f"{d}\n" for d in simple)
-                unbound[f"block-{cat}.conf"] = "".join(f'local-zone: "{d}." always_nxdomain\n' for d in simple)
-            else:
-                entries["allow"] += [(cat, d) for d in names]
-                if opts.get("in_base", True):
-                    base.update(names)
-            meta[fname] = (opts.get("description", ""), fname if kind == "block" else "", len(final))
-            print(f"- {kind}/{cat}: {len(final)} voci, {expired} scadute")
+            if path.stem not in cats:
+                errors.append(f"{path.relative_to(ROOT).as_posix()}: categoria '{path.stem}' non definita in [{kind}] di domains.toml")
+        for cat, opts in cats.items():
+            path = DOMAINS_DIR / sub / f"{cat}.txt"
+            names, expired = (load(path, tld=opts.get("tld", False), today=today, errors=errors)
+                              if path.exists() else ([], 0))
+            collected[(kind, cat)] = (set(names), expired)
 
+    ids: set[str] = set()
+    for src in cfg.get("sources", []):
+        sid, cat = src.get("id", "?"), src.get("category")
+        if sid in ids:
+            errors.append(f"domains.toml: fonte '{sid}' duplicata")
+        ids.add(sid)
+        if ("block", cat) not in collected:
+            errors.append(f"domains.toml: fonte '{sid}' con categoria block inesistente '{cat}'")
+            continue
+        if not src.get("license") or not (src.get("path") or str(src.get("url", "")).startswith("https://")):
+            errors.append(f"domains.toml: fonte '{sid}' senza licenza o senza URL HTTPS/path")
+            continue
+        names, status = load_domain_source(src, offline, persist=not args.check)
+        collected[("block", cat)][0].update(names)
+        source_report.append(f"- fonte `{sid}` ({cat}): {status}")
+
+    for cat, opts in cfg.get("block", {}).items():
+        names = collected[("block", cat)][0]
+        for other in opts.get("exclude", []):
+            names -= collected.get(("block", other), (set(), 0))[0]
+        # I domini propri (es. dns.clanto.cloud) non devono mai finire in blocco
+        names -= {n for n in names if any(covers(o, n) for o in own)}
+
+    for (kind, cat), (name_set, expired) in collected.items():
+        opts = cfg[kind][cat]
+        names = sorted(name_set)
+        final = drop_covered(name_set)
+        important = opts.get("important", kind == "allow")
+        suffix = "$important" if important else ""
+        prefix = "@@||" if kind == "allow" else "||"
+        fname = f"{kind}-{cat}.txt"
+        adguard[fname] = "".join(f"{prefix}{d}^{suffix}\n" for d in final)
+        if kind == "block":
+            entries["block"] += [(cat, d) for d in names]
+            simple = [d for d in final if "*" not in d]
+            plain[fname] = "".join(f"{d}\n" for d in simple)
+            unbound[f"block-{cat}.conf"] = "".join(f'local-zone: "{d}." always_nxdomain\n' for d in simple)
+        else:
+            entries["allow"] += [(cat, d) for d in names]
+            if opts.get("in_base", True):
+                base.update(names)
+        meta[fname] = (opts.get("description", ""), fname if kind == "block" else "", len(final))
+        print(f"- {kind}/{cat}: {len(final)} voci, {expired} scadute")
+
+    print("\n".join(source_report))
     # Un'allowlist non deve mai annullare una nostra blocklist (es. sbloccare nordvpn e bloccare le VPN)
     for acat, a in entries["allow"]:
         for bcat, b in entries["block"]:

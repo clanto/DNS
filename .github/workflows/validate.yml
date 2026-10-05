@@ -35,7 +35,7 @@ jobs:
         env:
           BASE_REF: ${{ github.base_ref }}
         run: |
-          changed=$(git diff --name-only "origin/$BASE_REF...HEAD" -- dist ip/cache DNSoverHTTPS/ipv4.txt)
+          changed=$(git diff --name-only "origin/$BASE_REF...HEAD" -- dist ip/cache domains/cache DNSoverHTTPS/ipv4.txt)
           if [ -n "$changed" ]; then
             echo "::error::File generati modificati a mano (vengono sovrascritti dal build):"
             echo "$changed"

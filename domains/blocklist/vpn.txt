@@ -1,0 +1,3 @@
+# Blocklist domini - vpn
+# Aggiunte manuali oltre alle fonti dinamiche (domains.toml): solo voci non già presenti in esse.
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)

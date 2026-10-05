@@ -1,9 +1,9 @@
 {
   "feed": {
-    "doh-v4.txt": 1959,
+    "doh-v4.txt": 1787,
     "doh-v6.txt": 1112,
-    "tor-v4.txt": 5311,
-    "tor-v6.txt": 2426,
+    "tor-v4.txt": 5265,
+    "tor-v6.txt": 2411,
     "threat-v4.txt": 26692,
     "threat-v6.txt": 0,
     "c2-v4.txt": 5,
@@ -18,10 +18,10 @@
     "hacking-v6.txt": 0,
     "warez-v4.txt": 22,
     "warez-v6.txt": 0,
-    "all-v4.txt": 33806,
-    "all-v6.txt": 3538,
-    "all-scuole-v4.txt": 45218,
-    "all-scuole-v6.txt": 3902
+    "all-v4.txt": 33588,
+    "all-v6.txt": 3523,
+    "all-scuole-v4.txt": 45002,
+    "all-scuole-v6.txt": 3890
   },
   "fonti": [
     {
@@ -51,7 +51,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "cache",
-      "entries": 1357,
+      "entries": 1356,
       "detail": ""
     },
     {
@@ -61,7 +61,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "cache",
-      "entries": 9565,
+      "entries": 9541,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -181,7 +181,7 @@
       "scadute": 0
     },
     "doh": {
-      "attive": 336,
+      "attive": 0,
       "scadute": 0
     },
     "hacking": {

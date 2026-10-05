@@ -41,6 +41,10 @@ jobs:
         continue-on-error: true
         run: python scripts/build_domains.py
 
+      - name: Genera liste FQDN per OPNsense
+        continue-on-error: true
+        run: python scripts/build_opnsense.py
+
       - name: Pubblica
         env:
           GH_TOKEN: ${{ github.token }}
@@ -48,7 +52,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add -A dist ip/cache DNSoverHTTPS/ipv4.txt
+          git add -A dist ip/cache domains/cache DNSoverHTTPS/ipv4.txt
           if git diff --cached --quiet; then
             echo "Nessuna modifica ai feed"
             exit 0

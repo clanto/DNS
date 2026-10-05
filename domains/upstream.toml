@@ -184,7 +184,7 @@ url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-
 category = "bypass"
 license = "GPL-3.0"
 status = "consigliata"
-note = "Integra liste/vpn.txt e DNSoverHTTPS/doh.txt"
+note = "Ripubblicata in dist/adguard/block-doh.txt e block-vpn.txt"
 
 [[lists]]
 name = "dibdot DoH domains"

@@ -74,12 +74,25 @@ Solo host indispensabili, mai domini interi. Nessuna voce può contraddire le no
 | [block-file-sharing.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-file-sharing.txt) | WeTransfer, Mega, Gofile… (prevenzione fuga dati) | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-file-sharing.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-file-sharing.txt) |
 | [block-social.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-social.txt) | Social network e community (scuole) | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-social.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-social.txt) |
 | [block-gaming.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-gaming.txt) | Piattaforme gaming e giochi da browser (scuole) | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-gaming.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-gaming.txt) |
+| [block-doh.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-doh.txt) | Resolver DoH/DoT/DoQ: HaGeZi e dibdot, aggiornati ogni 6 ore | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-doh.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-doh.txt) |
+| [block-vpn.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-vpn.txt) | VPN, proxy e bypass, esclusi i DoH: HaGeZi, aggiornati ogni 6 ore (scuole) | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-vpn.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-vpn.txt) |
 
 Le liste di policy (accesso remoto, AI, file sharing, social, gaming, streaming) in AdGuard Home valgono per **tutti** i client: vanno applicate solo sulle istanze dei clienti che le richiedono.
 
 Le regole per singolo cliente (`$client`) restano nelle regole personalizzate di AdGuard: contengono nomi e IP dei clienti e **non vanno nel repository pubblico**.
 
 ---
+
+### Liste FQDN per alias OPNsense
+
+OPNsense risolve ogni dominio dell'alias e blocca gli IP ottenuti, quindi segue anche gli anycast. Le liste sono generate dalle blocklist `doh` e `vpn`, risolte in CI: sono **esclusi i domini morti** (solo carico sul resolver) e quelli su **IP di CDN condivise** (Cloudflare, CloudFront, Fastly), che bloccherebbero anche siti legittimi.
+
+| Lista | Contenuto |
+|---|---|
+| [doh.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/doh.txt) | Resolver DoH/DoT/DoQ con IP dedicato |
+| [vpn.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/vpn.txt) | VPN e proxy con IP dedicato (scuole) |
+
+Dettaglio di domini pubblicati, morti e su CDN: [dist/opnsense/README.md](dist/opnsense/README.md). Per AdGuard usare le liste complete `block-doh.txt` e `block-vpn.txt`.
 
 ## Liste upstream consigliate per AdGuard
 
@@ -110,7 +123,7 @@ Principali liste esterne, con licenza verificata per l'uso commerciale. Il catal
 
 ## Liste storiche
 
-File originali del repository, mantenuti agli stessi URL per compatibilità.
+File originali del repository, mantenuti agli stessi URL per compatibilità. `DNSoverHTTPS/doh.txt` e `liste/vpn.txt` sono stati rimossi: li sostituiscono le liste dinamiche [block-doh.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-doh.txt) e [block-vpn.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-vpn.txt).
 
 | Lista | Contenuto | Stato |
 |---|---|---|
@@ -125,8 +138,6 @@ File originali del repository, mantenuti agli stessi URL per compatibilità.
 | [pornoextra.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/pornoextra.txt) | Siti porno che superavano i filtri | Curata da noi |
 | [redirect.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/redirect.txt) | Redirect e URL shortener | Ferma; sostituita da BlocklistProject Redirect |
 | [roblox.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/roblox.txt) | Roblox | Curata da noi |
-| [vpn.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/vpn.txt) | Siti VPN | Curata da noi; integrata da HaGeZi Bypass |
-| [doh.txt](https://raw.githubusercontent.com/clanto/DNS/main/DNSoverHTTPS/doh.txt) | Domini DNS-over-HTTPS | Curata da noi |
 | [ipv4.txt](https://raw.githubusercontent.com/clanto/DNS/main/DNSoverHTTPS/ipv4.txt) | IP DNS-over-HTTPS | **Generata**: uguale a `dist/ip/doh-v4.txt` |
 | [ubound_safesearch.conf](https://raw.githubusercontent.com/clanto/DNS/main/safe_search/ubound_safesearch.conf) | Unbound: Safe Search forzato (Google, Bing, DuckDuckGo, Yandex, YouTube, Pixabay) | Curata da noi |
 

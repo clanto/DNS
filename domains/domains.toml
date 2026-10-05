@@ -5,11 +5,15 @@
 #   in_base   (solo allow) inclusa in allow-base.txt, da applicare a tutti. Default true.
 #   important aggiunge $important: vince anche su regole di blocco $important. Default true per allow, false per block.
 #   tld       le voci sono TLD interi (es. xxx), non domini.
+#   exclude   (solo block) toglie le voci già presenti nelle categorie elencate.
+#   opnsense  (solo block) genera anche dist/opnsense/<cat>.txt: domini risolti in CI, senza morti e
+#             senza quelli su IP CDN condivisi, da usare come alias FQDN su OPNsense.
+# Fonti upstream di una categoria: [[sources]] (stessi guardrail dei feed IP, cache in domains/cache/).
 # Le liste upstream a cui AdGuard è abbonato direttamente sono catalogate in domains/upstream.toml.
 
 # Regola: in allowlist solo host indispensabili. Mai domini interi di vendor, mai voci che contraddicono
 # le blocklist (il build lo verifica) o le liste di bypass DNS/VPN upstream (verificato da check_domains.py).
-own_domains = ["clanto.cloud"]  # domini propri: esclusi dal controllo bypass (es. dns.clanto.cloud)
+own_domains = ["clanto.cloud"]  # domini propri: mai bloccati, esclusi dal controllo bypass (es. dns.clanto.cloud)
 
 [allow.google]
 description = "Servizi Google indispensabili (Safe Browsing, app Android)"
@@ -70,3 +74,42 @@ description = "Social network e piattaforme community (scuole)"
 
 [block.gaming]
 description = "Giochi online e piattaforme di gaming (scuole)"
+
+[block.doh]
+description = "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale"
+opnsense = true
+
+[block.vpn]
+description = "VPN, proxy e servizi di bypass (scuole)"
+opnsense = true
+exclude = ["doh"]  # i domini DoH stanno già nella categoria doh
+
+# ---------------------------------------------------------------------------
+# Fonti upstream delle blocklist
+# format: domains (un dominio per riga) | adblock (||dominio^) | hosts (0.0.0.0 dominio)
+# ---------------------------------------------------------------------------
+
+[[sources]]
+id = "hagezi-doh"
+category = "doh"
+url = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/doh-onlydomains.txt"
+format = "domains"
+homepage = "https://github.com/hagezi/dns-blocklists"
+license = "GPL-3.0"
+
+[[sources]]
+id = "dibdot-doh"
+category = "doh"
+url = "https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-domains.txt"
+format = "domains"
+homepage = "https://github.com/dibdot/DoH-IP-blocklists"
+license = "GPL-3.0"
+
+[[sources]]
+id = "hagezi-bypass"
+category = "vpn"
+url = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/doh-vpn-proxy-bypass-onlydomains.txt"
+format = "domains"
+homepage = "https://github.com/hagezi/dns-blocklists"
+license = "GPL-3.0"
+note = "Contiene anche i DoH: la categoria doh li copre già, qui servono VPN e proxy"
