@@ -131,6 +131,12 @@ def parse_source_text(text: str, min_prefix: dict[int, int] | None) -> tuple[set
     return nets, rejected
 
 
+def onionoo_to_text(text: str) -> str:
+    """Converte la risposta Onionoo (relay Tor) in un IP per riga: or_addresses è 'ip:porta' o '[ipv6]:porta'."""
+    relays = json.loads(text).get("relays", [])
+    return "\n".join(addr.rsplit(":", 1)[0].strip("[]") for r in relays for addr in r.get("or_addresses", []))
+
+
 def valid_date(value: str) -> bool:
     if not DATE_RE.match(value):
         return False
@@ -216,6 +222,14 @@ def load_config(errors: list[str]) -> dict:
             errors.append(f"sources.toml: fonte '{sid}' deve usare HTTPS")
         if not src.get("license"):
             errors.append(f"sources.toml: fonte '{sid}' senza licenza dichiarata")
+        if src.get("format", "text") not in ("text", "onionoo"):
+            errors.append(f"sources.toml: fonte '{sid}' con formato sconosciuto '{src.get('format')}'")
+    for name, agg in cfg.get("aggregates", {}).items():
+        if name in categories:
+            errors.append(f"sources.toml: aggregato '{name}' ha lo stesso nome di una categoria")
+        for c in agg.get("categories", []):
+            if c not in categories or categories[c].get("reserved"):
+                errors.append(f"sources.toml: aggregato '{name}' con categoria non valida '{c}'")
     return cfg
 
 
@@ -246,7 +260,10 @@ def load_source(src: dict, settings: dict, offline: bool, persist: bool,
         result.status, result.entries = "cache", len(cached)
         return cached, result
     try:
-        nets, rejected = parse_source_text(fetch(src["url"]), min_prefix)
+        text = fetch(src["url"])
+        if src.get("format") == "onionoo":
+            text = onionoo_to_text(text)
+        nets, rejected = parse_source_text(text, min_prefix)
         if not nets:
             raise ValueError("nessuna voce valida")
         drop = settings.get("max_drop_ratio", 0.5)
@@ -318,8 +335,8 @@ def render_readme(cfg: dict, outputs: dict[str, list[Network]], sources: list[So
         "| Feed | Descrizione | IPv4 | IPv6 |",
         "|---|---|---|---|",
     ]
-    in_all = [c for c, m in cfg["categories"].items() if m.get("in_all", True) and not m.get("reserved")]
-    rows = [("all", f"Aggregato: {', '.join(in_all)}")]
+    rows = [(n, f"{a.get('description', '')} — aggregato: {', '.join(a['categories'])}")
+            for n, a in cfg.get("aggregates", {}).items()]
     rows += [(c, m.get("description", "")) for c, m in cfg["categories"].items()]
     for name, desc in rows:
         v4, v6 = f"{name}-v4.txt", f"{name}-v6.txt"
@@ -384,11 +401,12 @@ def main() -> int:
         for v in FAMILIES:
             outputs[f"{cat}-v{v}.txt"], touched = finalize(per_cat[cat], cat_allow, v)
             allow_hits += touched
-    # Unione dei feed già filtrati: ogni categoria mantiene la propria allowlist
-    in_all = [c for c, m in categories.items() if m.get("in_all", True) and not m.get("reserved")]
-    for v in FAMILIES:
-        merged = (n for c in in_all for n in outputs[f"{c}-v{v}.txt"])
-        outputs[f"all-v{v}.txt"] = sorted(ipaddress.collapse_addresses(merged), key=sort_key)
+    # Aggregati come unione dei feed di categoria già filtrati dall'allowlist
+    for name, agg in cfg.get("aggregates", {}).items():
+        valid = [c for c in agg.get("categories", []) if c in categories and not categories[c].get("reserved")]
+        for v in FAMILIES:
+            merged = (n for c in valid for n in outputs[f"{c}-v{v}.txt"])
+            outputs[f"{name}-v{v}.txt"] = sorted(ipaddress.collapse_addresses(merged), key=sort_key)
 
     anomalies: list[str] = []
     threshold = settings.get("pr_threshold", 0.25)

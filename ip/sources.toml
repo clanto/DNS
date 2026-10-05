@@ -13,7 +13,6 @@ max_entries = 0           # 0 = nessun limite; >0 segnala i feed che superano i 
 
 # ---------------------------------------------------------------------------
 # Categorie: ognuna produce dist/ip/<categoria>-v4.txt e -v6.txt (URL stabili).
-# in_all = false  esclude la categoria dal feed aggregato all-v4/all-v6.
 # reserved = true accetta reti private/riservate e non applica l'allowlist (solo bogon).
 # ---------------------------------------------------------------------------
 
@@ -22,32 +21,41 @@ description = "Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del D
 compat_v4 = ["DNSoverHTTPS/ipv4.txt"]
 
 [categories.tor]
-description = "Nodi di uscita della rete Tor"
+description = "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)"
 
 [categories.threat]
 description = "IP malevoli attivi (scanner, brute force, attacchi) segnalati da più blacklist"
-
-[categories.inbound]
-description = "IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN"
-in_all = false  # ~90k voci: tabella separata da applicare sulle regole WAN in ingresso
 
 [categories.c2]
 description = "Server di comando e controllo di botnet e malware"
 
 [categories.vpn]
 description = "VPN commerciali e proxy anonimizzanti"
-in_all = false  # rischio di bloccare VPN aziendali legittime: da applicare solo dove serve (es. scuole)
 
-[categories.hacking]
-description = "IP di siti hacking (curati manualmente)"
-
-[categories.warez]
-description = "IP di siti warez (curati manualmente)"
+[categories.inbound]
+description = "IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN"
 
 [categories.bogon]
 description = "Reti riservate/private (RFC 6890): SOLO in ingresso su interfacce WAN, mai su LAN"
-in_all = false
 reserved = true
+
+[categories.hacking]
+description = "IP di siti hacking (non più curati, mantenuti per compatibilità)"
+
+[categories.warez]
+description = "IP di siti warez (non più curati, mantenuti per compatibilità)"
+
+# ---------------------------------------------------------------------------
+# Feed aggregati: dist/ip/<nome>-v4.txt e -v6.txt, unione delle categorie elencate.
+# ---------------------------------------------------------------------------
+
+[aggregates.all]
+description = "Aziende: uscita e ingresso"
+categories = ["doh", "tor", "threat", "c2"]
+
+[aggregates.all-scuole]
+description = "Scuole: come all, più VPN commerciali e proxy"
+categories = ["doh", "tor", "threat", "c2", "vpn"]
 
 # ---------------------------------------------------------------------------
 # Fonti di blocco attive
@@ -73,6 +81,15 @@ category = "tor"
 url = "https://check.torproject.org/torbulkexitlist"
 homepage = "https://metrics.torproject.org/"
 license = "CC0 (Tor Metrics)"
+
+[[sources]]
+id = "tor-relay"
+category = "tor"
+url = "https://onionoo.torproject.org/details?running=true&fields=or_addresses"
+format = "onionoo"
+homepage = "https://metrics.torproject.org/onionoo.html"
+license = "CC0 (Tor Metrics)"
+note = "Tutti i relay attivi (guard, middle, exit)"
 
 [[sources]]
 id = "ipsum-level3"

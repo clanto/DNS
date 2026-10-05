@@ -23,14 +23,13 @@ Formato: un IP o CIDR per riga, senza commenti. Compatibile con alias *URL Table
 
 | Feed | Contenuto | Direzione | IPv4 | IPv6 |
 |---|---|---|---|---|
-| **all** | Aggregato: doh, tor, threat, c2, hacking, warez | Uscita e ingresso | [all-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt) | [all-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v6.txt) |
+| **all** | **Aziende**: doh, tor, threat, c2 | Uscita e ingresso | [all-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt) | [all-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v6.txt) |
+| **all-scuole** | **Scuole**: come `all`, più vpn | Uscita e ingresso | [all-scuole-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v4.txt) | [all-scuole-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v6.txt) |
 | doh | Resolver DNS-over-HTTPS/TLS pubblici (anti-bypass del DNS aziendale) | Uscita | [doh-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v4.txt) | [doh-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v6.txt) |
 | threat | IP malevoli attivi (exploit, sistemi compromessi, scanner) | Uscita e ingresso | [threat-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v4.txt) | [threat-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v6.txt) |
 | c2 | Server di comando e controllo di botnet | Uscita | [c2-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v4.txt) | [c2-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v6.txt) |
-| tor | Nodi di uscita Tor | Uscita e ingresso | [tor-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt) | [tor-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v6.txt) |
-| hacking | IP di siti hacking (curati da noi) | Uscita | [hacking-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/hacking-v4.txt) | [hacking-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/hacking-v6.txt) |
-| warez | IP di siti warez (curati da noi) | Uscita | [warez-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/warez-v4.txt) | [warez-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/warez-v6.txt) |
-| vpn | VPN commerciali e proxy (non in `all`: solo dove serve, es. scuole) | Uscita | [vpn-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v4.txt) | [vpn-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v6.txt) |
+| tor | Rete Tor: nodi di uscita e relay (blocca anche l'uso di Tor Browser) | Uscita e ingresso | [tor-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt) | [tor-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v6.txt) |
+| vpn | VPN commerciali e proxy (in `all-scuole`, non in `all`) | Uscita | [vpn-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v4.txt) | [vpn-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v6.txt) |
 | inbound | Scanner e brute force verso servizi esposti (~90k voci, non in `all`) | **Solo ingresso WAN** | [inbound-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v4.txt) | [inbound-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v6.txt) |
 | bogon | Reti riservate RFC 6890, comprese le private (non in `all`) | **Solo ingresso WAN** | [bogon-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/bogon-v4.txt) | [bogon-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/bogon-v6.txt) |
 
@@ -118,7 +117,6 @@ File originali del repository, mantenuti agli stessi URL per compatibilità.
 | [appspia.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/appspia.txt) | App spia | Integrata da Stalkerware Indicators |
 | [criptojacking.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/criptojacking.txt) | Cryptojacking | Ferma; sostituita da NoCoin |
 | [ddos.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/ddos.txt) | Servizi di attacco DDoS | Curata da noi |
-| [hacking.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/hacking.txt) | Siti hacking | Curata da noi; IP anche nel feed `hacking` |
 | [lista_streaming_illegale.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/lista_streaming_illegale.txt) | Streaming illegale | Curata da noi |
 | [lista_streaming_legale_noscuola.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/lista_streaming_legale_noscuola.txt) | Streaming legale non ammesso a scuola | Curata da noi |
 | [malware.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/malware.txt) | Malware | Ferma dal 2022; sostituita da HaGeZi TIF |
@@ -128,7 +126,6 @@ File originali del repository, mantenuti agli stessi URL per compatibilità.
 | [redirect.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/redirect.txt) | Redirect e URL shortener | Ferma; sostituita da BlocklistProject Redirect |
 | [roblox.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/roblox.txt) | Roblox | Curata da noi |
 | [vpn.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/vpn.txt) | Siti VPN | Curata da noi; integrata da HaGeZi Bypass |
-| [warez.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/warez.txt) | Warez | Curata da noi; IP anche nel feed `warez` |
 | [doh.txt](https://raw.githubusercontent.com/clanto/DNS/main/DNSoverHTTPS/doh.txt) | Domini DNS-over-HTTPS | Curata da noi |
 | [ipv4.txt](https://raw.githubusercontent.com/clanto/DNS/main/DNSoverHTTPS/ipv4.txt) | IP DNS-over-HTTPS | **Generata**: uguale a `dist/ip/doh-v4.txt` |
 | [ubound_safesearch.conf](https://raw.githubusercontent.com/clanto/DNS/main/safe_search/ubound_safesearch.conf) | Unbound: Safe Search forzato (Google, Bing, DuckDuckGo, Yandex, YouTube, Pixabay) | Curata da noi |

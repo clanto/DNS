@@ -56,8 +56,9 @@ Formati riconosciuti:
 URL base: `https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/`
 
 Feed consigliati:
-- `all-v4.txt` / `all-v6.txt`: tutto tranne VPN e bogon.
-- In aggiunta `vpn-v4.txt` solo dove serve, per esempio nelle scuole.
+- **Aziende**: `all-v4.txt` / `all-v6.txt` (doh, tor, threat, c2).
+- **Scuole**: `all-scuole-v4.txt` / `all-scuole-v6.txt` (come `all`, più vpn).
+- Gli aggregati si configurano in `[aggregates]` di `sources.toml`: aggiungere una categoria lì la porta su tutti i firewall che usano quel feed.
 - `inbound-v4.txt` sulle regole **WAN in ingresso**: scanner e brute force verso i servizi esposti (~90k voci).
 - `bogon-v4/v6.txt` **solo in ingresso sulla WAN**: contiene anche le reti LAN private. Su pfSense e OPNsense conviene l'opzione nativa *Block bogon networks*.
 - Blocco per paese: usare il GeoIP nativo dei firewall. I dati RIR non sono ridistribuibili.
