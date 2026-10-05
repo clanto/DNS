@@ -2,15 +2,15 @@
   "feed": {
     "doh-v4.txt": 1787,
     "doh-v6.txt": 1112,
-    "tor-v4.txt": 5265,
-    "tor-v6.txt": 2411,
+    "tor-v4.txt": 5276,
+    "tor-v6.txt": 2427,
     "threat-v4.txt": 26692,
     "threat-v6.txt": 0,
     "c2-v4.txt": 5,
     "c2-v6.txt": 0,
     "vpn-v4.txt": 11858,
     "vpn-v6.txt": 414,
-    "inbound-v4.txt": 79474,
+    "inbound-v4.txt": 79695,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
@@ -18,10 +18,10 @@
     "hacking-v6.txt": 0,
     "warez-v4.txt": 22,
     "warez-v6.txt": 0,
-    "all-v4.txt": 33588,
-    "all-v6.txt": 3523,
-    "all-scuole-v4.txt": 45002,
-    "all-scuole-v6.txt": 3890
+    "all-v4.txt": 33599,
+    "all-v6.txt": 3539,
+    "all-scuole-v4.txt": 45011,
+    "all-scuole-v6.txt": 3906
   },
   "fonti": [
     {
@@ -61,7 +61,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "ok",
-      "entries": 9566,
+      "entries": 9540,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -111,7 +111,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 89125,
+      "entries": 89367,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
