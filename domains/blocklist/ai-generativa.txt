@@ -15,3 +15,6 @@ character.ai | 2026-09-24 | chatbot AI | -
 you.com | 2026-09-24 | chatbot AI | -
 grok.com | 2026-09-24 | chatbot AI | -
 meta.ai | 2026-09-24 | chatbot AI | -
+astra-ai.it | 2026-10-06 | chatbot AI tutor per studenti (sito) | -
+astra-ai.co | 2026-10-06 | chatbot AI tutor per studenti (app e API) | -
+astra-ai.si | 2026-10-06 | chatbot AI tutor per studenti (CDN) | -

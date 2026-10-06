@@ -26,6 +26,7 @@ IP_DIR = ROOT / "ip"
 CONFIG_PATH = IP_DIR / "sources.toml"
 CUSTOM_DIR = IP_DIR / "custom"
 ALLOWLIST_PATH = IP_DIR / "allowlist.txt"
+SHARED_PATH = IP_DIR / "condivisi.txt"
 CACHE_DIR = IP_DIR / "cache"
 DIST_DIR = ROOT / "dist" / "ip"
 RAW_BASE = "https://raw.githubusercontent.com/clanto/DNS/main"
@@ -285,6 +286,31 @@ def load_source(src: dict, settings: dict, offline: bool, persist: bool,
     return nets, result
 
 
+def load_shared(cfg: dict, errors: list[str]) -> list[Network]:
+    """Intervalli di CDN/hosting condivisi: fonti ufficiali + ip/condivisi.txt. Solleva eccezione se non raggiungibili."""
+    nets: list[Network] = []
+    for src in cfg.get("shared_sources", []):
+        text = fetch(src["url"])
+        fmt_ = src.get("format", "text")
+        if fmt_ == "aws":
+            data = json.loads(text)
+            services = set(src.get("services", []))
+            cidrs = [p["ip_prefix"] for p in data["prefixes"] if p["service"] in services]
+            cidrs += [p["ipv6_prefix"] for p in data["ipv6_prefixes"] if p["service"] in services]
+        elif fmt_ == "fastly":
+            data = json.loads(text)
+            cidrs = data.get("addresses", []) + data.get("ipv6_addresses", [])
+        else:
+            cidrs = text.split()
+        if not cidrs:
+            raise ValueError(f"intervalli condivisi '{src['id']}' vuoti")
+        nets += [ipaddress.ip_network(c, strict=False) for c in cidrs]
+    if SHARED_PATH.exists():
+        entries, _ = load_annotated(SHARED_PATH, min_prefix=None, today=date.today(), errors=errors)
+        nets += [e.net for e in entries]
+    return [n for v in FAMILIES for n in ipaddress.collapse_addresses(x for x in nets if x.version == v)]
+
+
 def subtract(nets: list[Network], allow: list[Network]) -> tuple[list[Network], int]:
     """Rimuove le reti in allowlist, spezzando i CIDR che le contengono."""
     out: list[Network] = []
@@ -395,9 +421,26 @@ def main() -> int:
         per_cat[src["category"]].update(nets)
         source_results.append(res)
 
+    shared: list[Network] = []
+    if any(m.get("exclude_shared") for m in categories.values()):
+        if args.check:
+            # Solo validazione, nessuna scrittura: basta il file manuale
+            shared = [e.net for e in load_annotated(SHARED_PATH, min_prefix=None, today=today, errors=errors)[0]] \
+                if SHARED_PATH.exists() else []
+        else:
+            # Anche con --offline: un feed scritto senza filtro bloccherebbe siti legittimi.
+            # Errore di rete → il build fallisce prima di scrivere, restano i feed precedenti.
+            shared = load_shared(cfg, errors)
+
     allow_hits = 0
+    shared_hits = 0
     for cat, meta in categories.items():
         cat_allow = [] if meta.get("reserved") else allow
+        if meta.get("exclude_shared"):
+            before = {v: sum(1 for n in per_cat[cat] if n.version == v) for v in FAMILIES}
+            per_cat[cat] = {n for n in per_cat[cat]
+                            if not any(n.version == s.version and n.overlaps(s) for s in shared)}
+            shared_hits += sum(before.values()) - len(per_cat[cat])
         for v in FAMILIES:
             outputs[f"{cat}-v{v}.txt"], touched = finalize(per_cat[cat], cat_allow, v)
             allow_hits += touched
@@ -439,6 +482,7 @@ def main() -> int:
             "fonti": [vars(s) for s in source_results],
             "manuali": custom_stats,
             "allowlist": {"voci": len(allow), "reti_modificate": allow_hits},
+            "condivisi": {"intervalli": len(shared), "voci_escluse": shared_hits},
         }
         (DIST_DIR / "stats.json").write_text(json.dumps(stats, indent=2, ensure_ascii=False) + "\n",
                                              encoding="utf-8", newline="\n")
@@ -447,7 +491,8 @@ def main() -> int:
 
     report = ["## Build feed IP", ""]
     report += [f"- `{s.id}`: {s.status}, {s.entries} voci {s.detail}".rstrip() for s in source_results if s.enabled]
-    report += [f"- allowlist: {len(allow)} voci, {allow_hits} reti modificate", ""]
+    report += [f"- allowlist: {len(allow)} voci, {allow_hits} reti modificate",
+               f"- infrastrutture condivise: {len(shared)} intervalli, {shared_hits} voci escluse", ""]
     if anomalies:
         report += ["### Variazioni anomale", ""] + [f"- {a}" for a in anomalies] + [""]
     if errors:

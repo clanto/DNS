@@ -14,11 +14,13 @@ max_entries = 0           # 0 = nessun limite; >0 segnala i feed che superano i 
 # ---------------------------------------------------------------------------
 # Categorie: ognuna produce dist/ip/<categoria>-v4.txt e -v6.txt (URL stabili).
 # reserved = true accetta reti private/riservate e non applica l'allowlist (solo bogon).
+# exclude_shared = true non blocca mai IP di CDN/hosting condivisi ([[shared_sources]] e ip/condivisi.txt).
 # ---------------------------------------------------------------------------
 
 [categories.doh]
 description = "Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del DNS aziendale"
 compat_v4 = ["DNSoverHTTPS/ipv4.txt"]
+exclude_shared = true  # le fonti DoH includono IP CDN condivisi (es. AWS Global Accelerator di argoeducation.com)
 
 [categories.tor]
 description = "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)"
@@ -31,6 +33,7 @@ description = "Server di comando e controllo di botnet e malware"
 
 [categories.vpn]
 description = "VPN commerciali e proxy anonimizzanti"
+exclude_shared = true
 
 [categories.inbound]
 description = "IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN"
@@ -44,6 +47,34 @@ description = "IP di siti hacking (non più curati, mantenuti per compatibilità
 
 [categories.warez]
 description = "IP di siti warez (non più curati, mantenuti per compatibilità)"
+
+# ---------------------------------------------------------------------------
+# Infrastrutture condivise: intervalli ufficiali di CDN/hosting usati solo per il filtro exclude_shared
+# (e per le liste OPNsense). Non vengono pubblicati né salvati in cache: se non sono raggiungibili il
+# build fallisce e restano online i feed precedenti.
+# format: text (un CIDR per riga) | aws (ip-ranges.json, con services) | fastly (public-ip-list)
+# ---------------------------------------------------------------------------
+
+[[shared_sources]]
+id = "cloudflare-v4"
+url = "https://www.cloudflare.com/ips-v4"
+format = "text"
+
+[[shared_sources]]
+id = "cloudflare-v6"
+url = "https://www.cloudflare.com/ips-v6"
+format = "text"
+
+[[shared_sources]]
+id = "aws"
+url = "https://ip-ranges.amazonaws.com/ip-ranges.json"
+format = "aws"
+services = ["CLOUDFRONT", "GLOBALACCELERATOR"]
+
+[[shared_sources]]
+id = "fastly"
+url = "https://api.fastly.com/public-ip-list"
+format = "fastly"
 
 # ---------------------------------------------------------------------------
 # Feed aggregati: dist/ip/<nome>-v4.txt e -v6.txt, unione delle categorie elencate.

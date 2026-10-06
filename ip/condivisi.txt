@@ -1,0 +1,8 @@
+# Reti di infrastrutture condivise (hosting/CDN) che non pubblicano i propri intervalli.
+# Nelle categorie con exclude_shared = true questi IP non vengono MAI bloccati: ospitano migliaia di siti.
+# Cloudflare, AWS CloudFront/Global Accelerator e Fastly sono scaricati in automatico (sources.toml).
+# Formato: IP/CIDR | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza (opzionale)
+76.76.21.0/24 | 2026-10-06 | Vercel anycast (siti ospitati su Vercel) | -
+66.33.60.0/24 | 2026-10-06 | Vercel | -
+64.239.109.0/24 | 2026-10-06 | Vercel (rete VERCEL-11, es. astra-ai.it) | -
+64.239.123.0/24 | 2026-10-06 | Vercel (es. app.astra-ai.co) | -

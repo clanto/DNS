@@ -3,6 +3,7 @@ claude.ai
 meta.ai
 chat.mistral.ai
 perplexity.ai
+astra-ai.co
 chatgpt.com
 deepseek.com
 gemini.google.com
@@ -12,3 +13,5 @@ oaiusercontent.com
 openai.com
 poe.com
 you.com
+astra-ai.it
+astra-ai.si

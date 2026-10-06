@@ -32,6 +32,17 @@ Campi: `IP / CIDR / intervallo a-b | data inserimento | motivo | ticket o - | sc
 
 Si aggiunge la rete a `ip/allowlist.txt`, con lo stesso formato. Viene tolta da **tutti** i feed; se è contenuta in un CIDR più ampio, il CIDR viene spezzato.
 
+## Infrastrutture condivise
+
+Le fonti DoH e VPN contengono anche IP di CDN e piattaforme di hosting condivise: un resolver DoH ospitato su AWS Global Accelerator, Cloudflare o Vercel ha lo stesso IP di migliaia di siti legittimi. Nelle categorie con `exclude_shared = true` (`doh`, `vpn`) questi IP non vengono mai bloccati:
+
+- intervalli ufficiali scaricati a ogni build: Cloudflare, AWS CloudFront e Global Accelerator, Fastly (`[[shared_sources]]` in `sources.toml`); non vengono pubblicati;
+- reti che non pubblicano i propri intervalli, inserite a mano in `ip/condivisi.txt` (es. Vercel).
+
+Se gli intervalli ufficiali non sono raggiungibili il build fallisce e restano online i feed precedenti. I resolver con IP dedicato (1.1.1.1, 8.8.8.8, 9.9.9.9…) restano bloccati; i loro domini sono comunque bloccati da AdGuard con `block-doh`.
+
+Se un sito si rompe per colpa di un feed: trovare l'IP bloccato nel log del firewall e, se è una rete condivisa, aggiungerla a `ip/condivisi.txt`; se è un singolo falso positivo, a `ip/allowlist.txt`.
+
 ## Aggiungere una fonte
 
 1. Verificare che la licenza sia compatibile con GPL-3.0 e con l'uso commerciale. Le fonti con clausole non commerciali (NC) sono escluse.

@@ -149,6 +149,7 @@ File originali del repository, mantenuti agli stessi URL per compatibilità. `DN
 |---|---|---|
 | Aggiungere un IP da bloccare | `ip/custom/<categoria>.txt` | [ip/README.md](ip/README.md#aggiungere-un-ip-a-mano) |
 | Sbloccare un IP (falso positivo) | [ip/allowlist.txt](ip/allowlist.txt) | [ip/README.md](ip/README.md#sbloccare-un-falso-positivo) |
+| Segnalare una rete di hosting/CDN condivisa | [ip/condivisi.txt](ip/condivisi.txt) | [ip/README.md](ip/README.md#infrastrutture-condivise) |
 | Aggiungere una fonte IP | [ip/sources.toml](ip/sources.toml) | [ip/README.md](ip/README.md#aggiungere-una-fonte) |
 | Bloccare o sbloccare un dominio | [domains/blocklist/](domains/blocklist/), [domains/allowlist/](domains/allowlist/) | formato sotto |
 | Catalogare una lista upstream | [domains/upstream.toml](domains/upstream.toml) | licenza obbligatoria |

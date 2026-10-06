@@ -546,7 +546,6 @@
 ||resolver-eu.haringstad.com^
 ||office.heimtec.com^
 ||dns.hellozhao.com^
-||dns.msk.hexagon1736.com^
 ||hexxitcompany.com^
 ||httpdns.ocloud.heytapmobi.com^
 ||httpdns-push.heytapmobile.com^
@@ -1679,7 +1678,6 @@
 ||adg.geili.me^
 ||dns.griffioen.me^
 ||gztech.me^
-||hdnsadguardhome.me^
 ||hitian.me^
 ||ns.hjk.me^
 ||ns1.hjk.me^
@@ -2228,7 +2226,6 @@
 ||dns4eu.online^
 ||excelkin.online^
 ||herkes.online^
-||dns.hopkinton.online^
 ||inpssh.online^
 ||externalmobiel.lekdijk.online^
 ||dns.mahiro.online^
@@ -2902,7 +2899,6 @@
 ||minilla.store^
 ||node9.servernode.store^
 ||dmit.wangjiaqi.store^
-||adguard.homenetmedia.stream^
 ||villalazza.stream^
 ||dns.fizz.studio^
 ||dns.xuming.studio^

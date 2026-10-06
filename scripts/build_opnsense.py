@@ -5,7 +5,8 @@ OPNsense risolve ogni FQDN dell'alias e blocca gli IP ottenuti. Per evitare dann
 vengono scartati:
   - domini che non risolvono (morti): solo carico sul resolver
   - domini che risolvono su IP non instradabili (sinkhole)
-  - domini su IP di CDN condivise (Cloudflare, CloudFront, Fastly): bloccarli fermerebbe migliaia di siti
+  - domini su IP di CDN/hosting condivisi (Cloudflare, CloudFront, Global Accelerator, Fastly, Vercel…):
+    bloccarli fermerebbe migliaia di siti
 
 Gli intervalli CDN vengono scaricati solo per il filtro e non sono pubblicati.
 Va eseguito su una rete con DNS non filtrato (runner GitHub Actions).
@@ -17,21 +18,15 @@ from __future__ import annotations
 
 import concurrent.futures as cf
 import ipaddress
-import json
 import os
 import socket
 import sys
 import tomllib
 
 from build_domains import CONFIG_PATH, PLAIN_DIR
-from build_ip import RAW_BASE, ROOT, fetch, warn
+from build_ip import CONFIG_PATH as IP_CONFIG, RAW_BASE, ROOT, load_shared, warn
 
 OUT_DIR = ROOT / "dist" / "opnsense"
-CDN_SOURCES = {
-    "Cloudflare": ["https://www.cloudflare.com/ips-v4", "https://www.cloudflare.com/ips-v6"],
-    "CloudFront": ["https://ip-ranges.amazonaws.com/ip-ranges.json"],
-    "Fastly": ["https://api.fastly.com/public-ip-list"],
-}
 MIN_RESOLVED_RATIO = 0.2  # sotto questa quota di domini risolti si presume un problema di rete
 MAX_DROP_RATIO = 0.5
 
@@ -39,21 +34,13 @@ Network = ipaddress.IPv4Network | ipaddress.IPv6Network
 
 
 def cdn_ranges() -> list[Network]:
-    nets: list[Network] = []
-    for name, urls in CDN_SOURCES.items():
-        for url in urls:
-            text = fetch(url)
-            if url.endswith("ip-ranges.json"):
-                data = json.loads(text)
-                cidrs = [p["ip_prefix"] for p in data["prefixes"] if p["service"] == "CLOUDFRONT"]
-                cidrs += [p["ipv6_prefix"] for p in data["ipv6_prefixes"] if p["service"] == "CLOUDFRONT"]
-            elif url.endswith("public-ip-list"):
-                data = json.loads(text)
-                cidrs = data.get("addresses", []) + data.get("ipv6_addresses", [])
-            else:
-                cidrs = text.split()
-            nets += [ipaddress.ip_network(c, strict=False) for c in cidrs]
-        print(f"- intervalli CDN {name}: caricati")
+    """Stessi intervalli condivisi del filtro exclude_shared dei feed IP (ip/sources.toml + ip/condivisi.txt)."""
+    cfg = tomllib.loads(IP_CONFIG.read_text(encoding="utf-8"))
+    errors: list[str] = []
+    nets = load_shared(cfg, errors)
+    if errors:
+        raise ValueError("; ".join(errors))
+    print(f"- intervalli condivisi: {len(nets)}")
     return nets
 
 
@@ -121,7 +108,7 @@ def main() -> int:
             "",
             "OPNsense risolve ogni dominio dell'alias e blocca gli IP ottenuti, quindi segue anche gli anycast.",
             "Rispetto alle liste AdGuard sono esclusi i domini morti, quelli su IP non instradabili e quelli",
-            "su IP di CDN condivise (Cloudflare, CloudFront, Fastly), che bloccherebbero anche siti legittimi.",
+            "su IP di CDN/hosting condivisi (Cloudflare, AWS, Fastly, Vercel…), che bloccherebbero anche siti legittimi.",
             "",
             "| Lista | Descrizione | Pubblicati | Morti | CDN condivise | Totale AdGuard |",
             "|---|---|---|---|---|---|",
