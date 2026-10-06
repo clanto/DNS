@@ -1194,6 +1194,7 @@ dns.thebuckners.org
 dns.thedayg0ne.ru
 dns.therifleman.name
 dns.thezudrive.xyz
+dns.thore.cloud
 dns.timboeh.me
 dns.tipsy.coffee
 dns.titov.cz
@@ -2632,6 +2633,7 @@ xjpdns.354688.xyz
 xkariak.asuscomm.com
 xm.ln7371.top
 xn--80aeak3akfgk.xn--p1acf
+xpen.ns01.info
 y3suyx0cg2lewi2dmn.advaitghaisas.in
 yanggan.eu.org
 ychk.ft1991.top

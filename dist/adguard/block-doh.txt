@@ -144,7 +144,6 @@
 ||dns.yuzia.cc^
 ||ns.cd^
 ||dns.keweon.center^
-||ux.go20.cf^
 ||deep-henchman-excuse.cfd^
 ||ajlxwk4kedu5.absq.ch^
 ||pebdbvi58gbc.absq.ch^
