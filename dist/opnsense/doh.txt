@@ -754,7 +754,6 @@ dns.dreamworker.idv.tw
 dns.dremaxx.de
 dns.dualhosting.eu
 dns.dumk.in
-dns.dyn1.de
 dns.dynx.pro
 dns.dzkji.cn
 dns.easyhns.com
@@ -2450,7 +2449,6 @@ tky-dns.bitdefender.net
 tll01.dnscry.pt
 tls.jackyhou.idv.tw
 tls.windyvale.net
-tlz.asia
 tngch.mydns.jp
 toaster.lol
 tokyo.559299366.xyz

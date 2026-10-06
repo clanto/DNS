@@ -1,16 +1,16 @@
 {
   "feed": {
-    "doh-v4.txt": 1787,
-    "doh-v6.txt": 1112,
-    "tor-v4.txt": 5286,
-    "tor-v6.txt": 2432,
+    "doh-v4.txt": 1792,
+    "doh-v6.txt": 1111,
+    "tor-v4.txt": 5278,
+    "tor-v6.txt": 2431,
     "threat-v4.txt": 26692,
     "threat-v6.txt": 0,
     "c2-v4.txt": 5,
     "c2-v6.txt": 0,
     "vpn-v4.txt": 11858,
     "vpn-v6.txt": 414,
-    "inbound-v4.txt": 79695,
+    "inbound-v4.txt": 79838,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
@@ -18,10 +18,10 @@
     "hacking-v6.txt": 0,
     "warez-v4.txt": 22,
     "warez-v6.txt": 0,
-    "all-v4.txt": 33609,
-    "all-v6.txt": 3544,
-    "all-scuole-v4.txt": 45021,
-    "all-scuole-v6.txt": 3904
+    "all-v4.txt": 33606,
+    "all-v6.txt": 3542,
+    "all-scuole-v4.txt": 45018,
+    "all-scuole-v6.txt": 3910
   },
   "fonti": [
     {
@@ -31,7 +31,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1967,
+      "entries": 1969,
       "detail": "scartate 1 non instradabile"
     },
     {
@@ -41,7 +41,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1375,
+      "entries": 1374,
       "detail": "scartate 1 non instradabile"
     },
     {
@@ -51,7 +51,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1356,
+      "entries": 1359,
       "detail": ""
     },
     {
@@ -61,7 +61,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "ok",
-      "entries": 9519,
+      "entries": 9579,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -111,7 +111,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 89367,
+      "entries": 89533,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {

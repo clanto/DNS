@@ -1053,7 +1053,6 @@ bhpuvkri.com
 bhuibv.ipv64.net
 bhuosr.ipv64.net
 bhupygnj.com
-bichvpn.ru
 bienna.ru
 big.tent.cloud-ip.cc
 bigbang.pics
@@ -1343,6 +1342,7 @@ classes.ipv64.net
 classicpen.us
 classlink.com.de
 classlink.com.de.cdn.cloudflare.net
+classroom.broomleigh.org
 classroom.haoqiw.com
 classroom.ipv64.de
 clever-error-logging-in.web.app
@@ -3733,7 +3733,6 @@ pawxy.com
 pay4app.store
 paydar.goooalir.co.uk
 pbavtqle.com
-pbproxy.red
 pbproxy2.co
 pcb7767.easterndns.com
 pcxyca9z.com
@@ -4183,6 +4182,7 @@ rctproxy-shadow9.easterndns.com
 read.registration.abrdns.com
 reading.englishpapers.online
 readingforfun.co.com
+realityvpn.ru
 recharger.link
 recordzan.herfeibash.info
 redfinger.com
@@ -5052,6 +5052,7 @@ uwqjkirj.com
 uytjhuyghbjkuiyhbjku.fghvhbvghjgj.bonded-game.com
 uzrzhcyx.com
 v-2ray.com
+v.cheerfun.dev
 v.theartieschaffer.com
 v0jlq071shapnlnhj0p9.online
 v22013121930515853.yourvserver.net
