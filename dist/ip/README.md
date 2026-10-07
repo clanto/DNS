@@ -8,14 +8,14 @@
 
 | Feed | Descrizione | IPv4 | IPv6 |
 |---|---|---|---|
-| `all` | Aziende: uscita e ingresso — aggregato: doh, tor, threat, c2 | [34100](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt) | [3149](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v6.txt) |
-| `all-scuole` | Scuole: come all, più VPN commerciali e proxy — aggregato: doh, tor, threat, c2, vpn | [45386](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v4.txt) | [3512](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v6.txt) |
-| `doh` | Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del DNS aziendale | [1330](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v4.txt) | [684](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v6.txt) |
-| `tor` | Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser) | [5220](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt) | [2465](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v6.txt) |
-| `threat` | IP malevoli attivi (scanner, brute force, attacchi) segnalati da più blacklist | [27707](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v4.txt) | [0](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v6.txt) |
+| `all` | Aziende: uscita e ingresso — aggregato: doh, tor, threat, c2 | [34082](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt) | [3127](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v6.txt) |
+| `all-scuole` | Scuole: come all, più VPN commerciali e proxy — aggregato: doh, tor, threat, c2, vpn | [45251](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v4.txt) | [3488](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v6.txt) |
+| `doh` | Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del DNS aziendale | [1330](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v4.txt) | [688](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v6.txt) |
+| `tor` | Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser) | [5185](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt) | [2439](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v6.txt) |
+| `threat` | IP malevoli attivi (scanner, brute force, attacchi) segnalati da più blacklist | [27724](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v4.txt) | [0](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v6.txt) |
 | `c2` | Server di comando e controllo di botnet e malware | [5](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v4.txt) | [0](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v6.txt) |
-| `vpn` | VPN commerciali e proxy anonimizzanti | [11780](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v4.txt) | [414](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v6.txt) |
-| `inbound` | IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN | [78442](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v4.txt) | [0](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v6.txt) |
+| `vpn` | VPN commerciali e proxy anonimizzanti | [11661](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v4.txt) | [414](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v6.txt) |
+| `inbound` | IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN | [79496](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v4.txt) | [0](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v6.txt) |
 | `bogon` | Reti riservate/private (RFC 6890): SOLO in ingresso su interfacce WAN, mai su LAN | [14](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/bogon-v4.txt) | [11](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/bogon-v6.txt) |
 | `hacking` | IP di siti hacking (non più curati, mantenuti per compatibilità) | [73](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/hacking-v4.txt) | [0](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/hacking-v6.txt) |
 | `warez` | IP di siti warez (non più curati, mantenuti per compatibilità) | [22](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/warez-v4.txt) | [0](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/warez-v6.txt) |
@@ -24,17 +24,17 @@
 
 | ID | Categoria | Licenza | Stato | Voci | Note |
 |---|---|---|---|---|---|
-| [dibdot-doh-v4](https://github.com/dibdot/DoH-IP-blocklists) | doh | GPL-3.0 | ok | 1979 | scartate 1 non instradabile |
-| [dibdot-doh-v6](https://github.com/dibdot/DoH-IP-blocklists) | doh | GPL-3.0 | ok | 1379 | scartate 1 non instradabile |
-| [tor-exit](https://metrics.torproject.org/) | tor | CC0 (Tor Metrics) | ok | 1275 |  |
-| [tor-relay](https://metrics.torproject.org/onionoo.html) | tor | CC0 (Tor Metrics) | ok | 9662 | Tutti i relay attivi (guard, middle, exit) |
+| [dibdot-doh-v4](https://github.com/dibdot/DoH-IP-blocklists) | doh | GPL-3.0 | ok | 1967 | scartate 1 non instradabile |
+| [dibdot-doh-v6](https://github.com/dibdot/DoH-IP-blocklists) | doh | GPL-3.0 | ok | 1383 | scartate 1 non instradabile |
+| [tor-exit](https://metrics.torproject.org/) | tor | CC0 (Tor Metrics) | ok | 1236 |  |
+| [tor-relay](https://metrics.torproject.org/onionoo.html) | tor | CC0 (Tor Metrics) | ok | 9599 | Tutti i relay attivi (guard, middle, exit) |
 | [ipsum-level3](https://github.com/stamparm/ipsum) | threat | Unlicense | ok | 17732 | IP presenti in almeno 3 blacklist pubbliche |
-| [shadowwhisperer-threats](https://github.com/ShadowWhisperer/IPs) | threat | Unlicense | ok | 17050 | Honeypot propri: exploit, sistemi compromessi, dropper |
+| [shadowwhisperer-threats](https://github.com/ShadowWhisperer/IPs) | threat | Unlicense | ok | 17091 | Honeypot propri: exploit, sistemi compromessi, dropper |
 | [shadowwhisperer-dns](https://github.com/ShadowWhisperer/IPs) | doh | Unlicense | ok | 183 | Resolver DNS pubblici |
 | [shadowwhisperer-tunnels](https://github.com/ShadowWhisperer/IPs) | vpn | Unlicense | ok | 13138 | scartate 1 non instradabile |
-| [data-shield](https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist) | inbound | GPL-3.0 | ok | 88166 | Sonde e SIEM propri, non aggregatore |
+| [data-shield](https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist) | inbound | GPL-3.0 | ok | 89245 | Sonde e SIEM propri, non aggregatore |
 | [abusech-feodo](https://feodotracker.abuse.ch/blocklist/) | c2 | CC0 | ok | 5 | CC0 dichiarato sulla pagina Feodo Tracker (regime diverso dai ToS generali abuse.ch) |
-| [x4b-vpn-v4](https://github.com/X4BNet/lists_vpn) | vpn | MIT | ok | 11200 |  |
+| [x4b-vpn-v4](https://github.com/X4BNet/lists_vpn) | vpn | MIT | ok | 11081 |  |
 | [x4b-vpn-v6](https://github.com/X4BNet/lists_vpn) | vpn | MIT | ok | 414 | scartate 84 troppo ampia |
 | [et-compromised](https://rules.emergingthreats.net/) | threat | ET Open (BSD/GPLv2, file non etichettato) | disattivata | 0 | Chiarire con Proofpoint quale licenza copre il file |
 | [cins-badguys](https://cinsscore.com/) | threat | Non pubblicata | disattivata | 0 | Serve contatto con CINS |

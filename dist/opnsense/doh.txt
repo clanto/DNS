@@ -21,6 +21,7 @@
 23.106.141.137.16clouds.com
 3.11i.eu
 3.local-dns.noridev.moe
+3dcosas.xyz
 3dns.eu
 3jjxxl.tech
 51576162.ru
@@ -880,6 +881,7 @@ dns.ha-dvin.pp.ua
 dns.hahnjo.de
 dns.haka.se
 dns.hakim.one
+dns.hakutakucn.com
 dns.hanmey.de
 dns.hashemlabs.co.uk
 dns.hellozhao.com
@@ -1269,7 +1271,6 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
-dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -1293,7 +1294,6 @@ dns.xivilay.dev
 dns.xv.fi
 dns.xwdmw.xyz
 dns.xwu.us
-dns.xyz.ddnss.eu
 dns.y2f.xyz
 dns.yameenassotally.com
 dns.yandex.ru
@@ -1536,7 +1536,6 @@ doh.phdns2.lonet.org
 doh.pi-dns.com
 doh.plaawan.uk
 doh.plop.cc
-doh.powerdns.org
 doh.ptqy.gitv.tv
 doh.pub
 doh.pyry.me
@@ -1762,6 +1761,7 @@ guard.miracloud.fr
 guard.pp.ua
 guard.telesterion.de
 guidetoworld.link
+gustamadh.dynv6.net
 gva01.dnscry.pt
 gw1.dns.haynetwork.id
 h.gjrick.tw
@@ -1814,7 +1814,6 @@ home.bruckmoser.it
 home.dlinkddns.com
 home.fc.idv.tw
 home.fendya.com
-home.marcrnt.de
 home.norvrandt.co.uk
 home.px.i81.ru
 home.qbak.net
@@ -2511,6 +2510,7 @@ szyrzyk.pl
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
+tecdrive.site
 tecworx.at
 telex.app
 test.adg.siudzinski.net
@@ -2541,6 +2541,7 @@ tky-dns.bitdefender.net
 tll01.dnscry.pt
 tls.jackyhou.idv.tw
 tls.windyvale.net
+tlz.asia
 tngch.mydns.jp
 toaster.lol
 tokyo.559299366.xyz
@@ -2565,6 +2566,7 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
+tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
