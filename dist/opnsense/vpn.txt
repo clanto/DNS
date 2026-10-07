@@ -999,7 +999,6 @@ besplatnyvpn.ru
 best-dock.surge.sh
 best-proxy.com
 bestdaygame.com
-bestproxy.xyz
 bestssh.net
 bestvpn.help
 bestvpnonline.online
@@ -1176,7 +1175,6 @@ bxvpn5.top
 bydcs.ipv64.net
 byebyedpivpn.help
 byevpn.help
-byewall.com
 bypassable.com
 bypassed.wtf
 bypasser.us
@@ -1941,6 +1939,7 @@ galaxyisthebest.tcloud.my
 gallery.talebi.co.uk
 galloon.rounceval.cloud-ip.cc
 galtvpn.com
+galxy.autos
 gamers-nor.com
 gamgasyoppakuteri-zenttodabi.gslb.info
 gamingssh.com
@@ -2723,6 +2722,7 @@ kslsivnv.com
 ksuu.loan
 ktm.ooo
 kuai-fan.com.cn
+kuai-lian.pub
 kuaifan.club
 kuaifan.co
 kuaifan666.com
@@ -4762,6 +4762,7 @@ uwqjkirj.com
 uytjhuyghbjkuiyhbjku.fghvhbvghjgj.bonded-game.com
 uzrzhcyx.com
 v-2ray.com
+v.cheerfun.dev
 v.theartieschaffer.com
 v0jlq071shapnlnhj0p9.online
 v22013121930515853.yourvserver.net
