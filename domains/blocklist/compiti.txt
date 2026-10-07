@@ -1,0 +1,20 @@
+# Blocklist domini - compiti
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+photomath.com | 2026-10-08 | risolutore foto di esercizi | -
+photomath.net | 2026-10-08 | risolutore foto di esercizi | -
+brainly.com | 2026-10-08 | risposte ai compiti | -
+brainly.it | 2026-10-08 | risposte ai compiti | -
+gauthmath.com | 2026-10-08 | risolutore IA (Gauth) | -
+gauth.com | 2026-10-08 | risolutore IA (Gauth) | -
+questionai.com | 2026-10-08 | risolutore IA | -
+studyx.ai | 2026-10-08 | risolutore IA | -
+chegg.com | 2026-10-08 | risposte ai compiti | -
+coursehero.com | 2026-10-08 | risposte ai compiti | -
+studocu.com | 2026-10-08 | appunti e soluzioni | -
+mathway.com | 2026-10-08 | risolutore matematica | -
+symbolab.com | 2026-10-08 | risolutore matematica | -
+wolframalpha.com | 2026-10-08 | risolutore matematica | -
+math.microsoft.com | 2026-10-08 | Microsoft Math Solver | -
+socratic.org | 2026-10-08 | tutor IA | -
+skuola.net | 2026-10-08 | soluzioni compiti e traduzioni | -
+splashlatino.it | 2026-10-08 | traduzioni latino | -

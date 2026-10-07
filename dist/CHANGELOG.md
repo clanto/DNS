@@ -3,6 +3,11 @@
 > Generato da `scripts/changelog.py` a ogni build: aggiunte e rimozioni rispetto alla versione precedente.
 > Ultime voci in alto. Per gli IP è indicata la fonte (`ip/cache/`) o `manuale`.
 
+## 2026-10-07 20:20 UTC
+
+- `dist/adguard/block-compiti.txt`: nuova lista, 18 voci
+- `dist/adguard/block-tunnel.txt`: nuova lista, 40 voci
+
 ## 2026-10-07 19:44 UTC
 
 - `dist/ip/all-scuole-v4.txt`: +231 / -391 (totale 42706)

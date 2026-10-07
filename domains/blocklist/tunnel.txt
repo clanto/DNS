@@ -1,0 +1,42 @@
+# Blocklist domini - tunnel
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+ngrok.io | 2026-10-08 | tunnel ngrok | -
+ngrok.app | 2026-10-08 | tunnel ngrok | -
+ngrok.dev | 2026-10-08 | tunnel ngrok | -
+ngrok-free.app | 2026-10-08 | tunnel ngrok (gratuito) | -
+ngrok-free.dev | 2026-10-08 | tunnel ngrok (gratuito) | -
+trycloudflare.com | 2026-10-08 | tunnel rapidi Cloudflare (cloudflared) | -
+loca.lt | 2026-10-08 | localtunnel | -
+localtunnel.me | 2026-10-08 | localtunnel | -
+serveo.net | 2026-10-08 | tunnel SSH serveo | -
+localhost.run | 2026-10-08 | tunnel SSH localhost.run | -
+lhr.life | 2026-10-08 | tunnel SSH localhost.run | -
+pinggy.io | 2026-10-08 | tunnel pinggy | -
+pinggy.link | 2026-10-08 | tunnel pinggy | -
+playit.gg | 2026-10-08 | tunnel playit (abusato da malware) | -
+portmap.io | 2026-10-08 | tunnel portmap | -
+loclx.io | 2026-10-08 | tunnel LocalXpose | -
+localxpose.io | 2026-10-08 | tunnel LocalXpose | -
+bore.pub | 2026-10-08 | tunnel bore | -
+localtonet.com | 2026-10-08 | tunnel localtonet | -
+devtunnels.ms | 2026-10-08 | Microsoft Dev Tunnels: sbloccare per gli sviluppatori che lo usano | -
+webhook.site | 2026-10-08 | raccolta richieste HTTP usata da stealer | -
+pipedream.net | 2026-10-08 | webhook Pipedream usati da stealer | -
+requestcatcher.com | 2026-10-08 | raccolta richieste HTTP | -
+interact.sh | 2026-10-08 | interactsh: DNS/HTTP out-of-band | -
+oast.fun | 2026-10-08 | interactsh: DNS/HTTP out-of-band | -
+oast.pro | 2026-10-08 | interactsh: DNS/HTTP out-of-band | -
+oast.live | 2026-10-08 | interactsh: DNS/HTTP out-of-band | -
+oast.site | 2026-10-08 | interactsh: DNS/HTTP out-of-band | -
+oast.online | 2026-10-08 | interactsh: DNS/HTTP out-of-band | -
+oast.me | 2026-10-08 | interactsh: DNS/HTTP out-of-band | -
+burpcollaborator.net | 2026-10-08 | Burp Collaborator: out-of-band | -
+dnslog.cn | 2026-10-08 | DNS out-of-band | -
+ceye.io | 2026-10-08 | DNS out-of-band | -
+pastebin.com | 2026-10-08 | paste usato per staging malware | -
+paste.ee | 2026-10-08 | paste usato per staging malware | -
+rentry.co | 2026-10-08 | paste usato per staging malware | -
+hastebin.com | 2026-10-08 | paste usato per staging malware | -
+paste.rs | 2026-10-08 | paste usato per staging malware | -
+dpaste.org | 2026-10-08 | paste usato per staging malware | -
+temp.sh | 2026-10-08 | upload temporaneo anonimo | -

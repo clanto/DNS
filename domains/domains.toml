@@ -95,6 +95,12 @@ exclude = ["doh"]  # i domini DoH stanno già nella categoria doh
 description = "Contenuti per adulti (HaGeZi NSFW + siti che superavano i filtri)"
 outputs = ["adguard", "domains"]
 
+[block.tunnel]
+description = "Tunnel, esfiltrazione e canali di controllo: ngrok, trycloudflare, webhook, out-of-band, paste (aziende)"
+
+[block.compiti]
+description = "Risolutori e tutor per i compiti: da attivare durante verifiche ed esami (scuole)"
+
 [block.malware]
 description = "Malware e minacce confermate (HaGeZi Threat Intelligence mini)"
 outputs = ["adguard", "domains"]
