@@ -24,18 +24,18 @@
 
 | ID | Categoria | Licenza | Stato | Voci | Note |
 |---|---|---|---|---|---|
-| [dibdot-doh-v4](https://github.com/dibdot/DoH-IP-blocklists) | doh | GPL-3.0 | cache | 1979 |  |
-| [dibdot-doh-v6](https://github.com/dibdot/DoH-IP-blocklists) | doh | GPL-3.0 | cache | 1379 |  |
-| [tor-exit](https://metrics.torproject.org/) | tor | CC0 (Tor Metrics) | cache | 1275 |  |
-| [tor-relay](https://metrics.torproject.org/onionoo.html) | tor | CC0 (Tor Metrics) | cache | 9672 | Tutti i relay attivi (guard, middle, exit) |
-| [ipsum-level3](https://github.com/stamparm/ipsum) | threat | Unlicense | cache | 17732 | IP presenti in almeno 3 blacklist pubbliche |
-| [shadowwhisperer-threats](https://github.com/ShadowWhisperer/IPs) | threat | Unlicense | cache | 17039 | Honeypot propri: exploit, sistemi compromessi, dropper |
-| [shadowwhisperer-dns](https://github.com/ShadowWhisperer/IPs) | doh | Unlicense | cache | 183 | Resolver DNS pubblici |
-| [shadowwhisperer-tunnels](https://github.com/ShadowWhisperer/IPs) | vpn | Unlicense | cache | 13138 | Proxy e VPN |
-| [data-shield](https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist) | inbound | GPL-3.0 | cache | 88314 | Sonde e SIEM propri, non aggregatore |
-| [abusech-feodo](https://feodotracker.abuse.ch/blocklist/) | c2 | CC0 | cache | 5 | CC0 dichiarato sulla pagina Feodo Tracker (regime diverso dai ToS generali abuse.ch) |
-| [x4b-vpn-v4](https://github.com/X4BNet/lists_vpn) | vpn | MIT | cache | 11200 |  |
-| [x4b-vpn-v6](https://github.com/X4BNet/lists_vpn) | vpn | MIT | cache | 414 |  |
+| [dibdot-doh-v4](https://github.com/dibdot/DoH-IP-blocklists) | doh | GPL-3.0 | ok | 1979 | scartate 1 non instradabile |
+| [dibdot-doh-v6](https://github.com/dibdot/DoH-IP-blocklists) | doh | GPL-3.0 | ok | 1379 | scartate 1 non instradabile |
+| [tor-exit](https://metrics.torproject.org/) | tor | CC0 (Tor Metrics) | ok | 1275 |  |
+| [tor-relay](https://metrics.torproject.org/onionoo.html) | tor | CC0 (Tor Metrics) | ok | 9672 | Tutti i relay attivi (guard, middle, exit) |
+| [ipsum-level3](https://github.com/stamparm/ipsum) | threat | Unlicense | ok | 17732 | IP presenti in almeno 3 blacklist pubbliche |
+| [shadowwhisperer-threats](https://github.com/ShadowWhisperer/IPs) | threat | Unlicense | ok | 17039 | Honeypot propri: exploit, sistemi compromessi, dropper |
+| [shadowwhisperer-dns](https://github.com/ShadowWhisperer/IPs) | doh | Unlicense | ok | 183 | Resolver DNS pubblici |
+| [shadowwhisperer-tunnels](https://github.com/ShadowWhisperer/IPs) | vpn | Unlicense | ok | 13138 | scartate 1 non instradabile |
+| [data-shield](https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist) | inbound | GPL-3.0 | ok | 88314 | Sonde e SIEM propri, non aggregatore |
+| [abusech-feodo](https://feodotracker.abuse.ch/blocklist/) | c2 | CC0 | ok | 5 | CC0 dichiarato sulla pagina Feodo Tracker (regime diverso dai ToS generali abuse.ch) |
+| [x4b-vpn-v4](https://github.com/X4BNet/lists_vpn) | vpn | MIT | ok | 11200 |  |
+| [x4b-vpn-v6](https://github.com/X4BNet/lists_vpn) | vpn | MIT | ok | 414 | scartate 84 troppo ampia |
 | [et-compromised](https://rules.emergingthreats.net/) | threat | ET Open (BSD/GPLv2, file non etichettato) | disattivata | 0 | Chiarire con Proofpoint quale licenza copre il file |
 | [cins-badguys](https://cinsscore.com/) | threat | Non pubblicata | disattivata | 0 | Serve contatto con CINS |
 | [blocklist-de](https://www.blocklist.de/) | threat | Non esplicita | disattivata | 0 | Serve contatto con blocklist.de |

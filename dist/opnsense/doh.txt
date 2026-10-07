@@ -157,7 +157,6 @@ adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
 adguard.jfchenier.ca
-adguard.johanliebert.top
 adguard.k-likhachev.ru
 adguard.kantinyoyok.xyz
 adguard.kiboko.it
@@ -603,7 +602,6 @@ dns-three.lins.co.tt
 dns-tls.bitwiseshift.net
 dns-uk.puregeni.us
 dns-unfiltered.adguard.com
-dns-us.ibmcloud.top
 dns.0ooo.icu
 dns.13evl.com
 dns.23-4.cn
@@ -1768,7 +1766,6 @@ gva01.dnscry.pt
 gw1.dns.haynetwork.id
 h.gjrick.tw
 h.ra3.in
-h4g3z1-doh.web.app
 haf01.dnscry.pt
 han01.dnscry.pt
 hanniel.tech
@@ -2067,6 +2064,7 @@ mikrobill.dns-cloud.net
 mil01.dnscry.pt
 mipelinusa.ddns.net
 mipelinusa.duckdns.org
+mnsvless.ikwb.com
 moamao.shop
 moe01.dnscry.pt
 moidns.hopto.org
@@ -2247,6 +2245,7 @@ phantom3c.net
 phongg.vn
 phx01.dnscry.pt
 pi.homeanywhere.org
+pidoh.mapledns.net
 pihole.aws.ketan.dev
 pihole.datamatter.co.za
 pihole1.hoerli.net
@@ -2513,6 +2512,7 @@ szyrzyk.pl
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
+tecdrive.site
 tecworx.at
 telex.app
 test.adg.siudzinski.net
@@ -2543,7 +2543,6 @@ tky-dns.bitdefender.net
 tll01.dnscry.pt
 tls.jackyhou.idv.tw
 tls.windyvale.net
-tlz.asia
 tngch.mydns.jp
 toaster.lol
 tokyo.559299366.xyz
@@ -2568,7 +2567,6 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
-tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
@@ -2668,7 +2666,6 @@ vps-ovh.pb2004.pl
 vps.202316.xyz
 vps.559299366.xyz
 vps.atomix.in
-vps.avc.cx
 vps.cloaknet.eu
 vps.deckberg.de
 vps.grussenmeyer.com
@@ -2743,6 +2740,7 @@ xjpdns.354688.xyz
 xkariak.asuscomm.com
 xm.ln7371.top
 xn--80aeak3akfgk.xn--p1acf
+xpen.ns01.info
 y3suyx0cg2lewi2dmn.advaitghaisas.in
 yanggan.eu.org
 ychk.ft1991.top

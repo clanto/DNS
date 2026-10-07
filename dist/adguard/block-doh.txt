@@ -933,7 +933,6 @@
 ||dns1.luan.contact^
 ||polisitogel.contractors^
 ||noad.kipp.cool^
-||vps.avc.cx^
 ||atris.cyou^
 ||adguard.dantynes.cyou^
 ||adguard.eischmann.cz^
@@ -1946,7 +1945,6 @@
 ||http-dns.imoim.net^
 ||adblock.indianets.net^
 ||doh.infracell.net^
-||premiumtier-network.instadart.net^
 ||dns.irk38.net^
 ||dns.it-pa.net^
 ||pdns.itxe.net^
@@ -1969,6 +1967,7 @@
 ||adgaurd.lingmont.net^
 ||africadns1.liquidtelecom.net^
 ||africadns2.liquidtelecom.net^
+||pidoh.mapledns.net^
 ||dns.marbledfennec.net^
 ||dns.mfud.net^
 ||securenet.mhsystems.net^
@@ -2385,7 +2384,6 @@
 ||hshh.org^
 ||hkg.hytec.org^
 ||ur.hytec.org^
-||adguard.johnnypatras.org^
 ||josephfamily.org^
 ||joshberg.org^
 ||dns.jundev.org^
@@ -2924,7 +2922,6 @@
 ||host8.248.cloudhost.in.th^
 ||doh.us.moe.tips^
 ||duyyen.tk^
-||dns.kapoww.tk^
 ||guard.magic-pics.tk^
 ||adguard.neelyha.tk^
 ||dns.readlook.tk^
