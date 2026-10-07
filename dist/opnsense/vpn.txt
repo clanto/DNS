@@ -989,6 +989,7 @@ besplatnyvpn.ru
 best-dock.surge.sh
 best-proxy.com
 bestdaygame.com
+bestproxy.xyz
 bestssh.net
 bestvpn.help
 bestvpnonline.online
@@ -1433,7 +1434,6 @@ desk.registration.abrdns.com
 desm0s.vercel.app
 desm0slearning.vercel.app
 dev-ngrok.com
-dev.e.cool.qzz.io.cdn.cloudflare.net
 dfa-appointment.com
 dfddjn.ipv64.net
 dfujkias8.easterndns.com
@@ -4238,6 +4238,7 @@ streamr.network
 streisand.blog
 streisand.pics
 streisandvpn.biz
+studebaker.ir
 study.englishpapers.online
 studyingsofun.smathis.com
 studysurf.com
@@ -5352,7 +5353,6 @@ yogavpn.com
 yogawiki.in
 you.foltmeingop.co.uk
 youboost.app
-youboost.click
 youboost.info
 youcanhide.net
 youproxytube.com
