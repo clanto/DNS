@@ -1,16 +1,16 @@
 {
   "feed": {
-    "doh-v4.txt": 1541,
-    "doh-v6.txt": 879,
-    "tor-v4.txt": 5224,
-    "tor-v6.txt": 2470,
-    "threat-v4.txt": 27684,
+    "doh-v4.txt": 1330,
+    "doh-v6.txt": 683,
+    "tor-v4.txt": 5228,
+    "tor-v6.txt": 2461,
+    "threat-v4.txt": 27689,
     "threat-v6.txt": 0,
     "c2-v4.txt": 5,
     "c2-v6.txt": 0,
     "vpn-v4.txt": 11780,
     "vpn-v6.txt": 414,
-    "inbound-v4.txt": 79035,
+    "inbound-v4.txt": 78944,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
@@ -18,10 +18,10 @@
     "hacking-v6.txt": 0,
     "warez-v4.txt": 22,
     "warez-v6.txt": 0,
-    "all-v4.txt": 34292,
-    "all-v6.txt": 3349,
-    "all-scuole-v4.txt": 45582,
-    "all-scuole-v6.txt": 3712
+    "all-v4.txt": 34090,
+    "all-v6.txt": 3144,
+    "all-scuole-v4.txt": 45379,
+    "all-scuole-v6.txt": 3507
   },
   "fonti": [
     {
@@ -50,8 +50,8 @@
       "license": "CC0 (Tor Metrics)",
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
-      "status": "ok",
-      "entries": 1269,
+      "status": "cache",
+      "entries": 1270,
       "detail": ""
     },
     {
@@ -60,8 +60,8 @@
       "license": "CC0 (Tor Metrics)",
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
-      "status": "ok",
-      "entries": 9689,
+      "status": "cache",
+      "entries": 9676,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -80,8 +80,8 @@
       "license": "Unlicense",
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
-      "status": "ok",
-      "entries": 17012,
+      "status": "cache",
+      "entries": 17021,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -110,8 +110,8 @@
       "license": "GPL-3.0",
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
-      "status": "ok",
-      "entries": 88791,
+      "status": "cache",
+      "entries": 88691,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -198,7 +198,7 @@
     "reti_modificate": 3
   },
   "condivisi": {
-    "intervalli": 325,
-    "voci_escluse": 497
+    "intervalli": 335,
+    "voci_escluse": 1348
   }
 }

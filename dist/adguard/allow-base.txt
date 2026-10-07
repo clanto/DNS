@@ -4,6 +4,7 @@
 @@||ct.ddc.paypal.com.fpc.datadome.co^$important
 @@||geo.ddc.paypal.com.fpc.datadome.co^$important
 @@||assets.adobedtm.com^$important
+@@||lcdn-locator.apple.com^$important
 @@||push.apple.com^$important
 @@||cookie-script.com^$important
 @@||www.cookieyes.com^$important

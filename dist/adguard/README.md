@@ -11,9 +11,9 @@ solo su istanze dedicate ai clienti che le richiedono.
 
 | Lista | Descrizione | Voci | AdGuard | Formato semplice |
 |---|---|---|---|---|
-| `allow-base.txt` | Aggregato allowlist: google, apple, microsoft, pa, pagamenti, vendor-it, siti-web, smart-tv, scuola, varie | 66 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-base.txt) | — |
+| `allow-base.txt` | Aggregato allowlist: google, apple, microsoft, pa, pagamenti, vendor-it, siti-web, smart-tv, scuola, varie | 67 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-base.txt) | — |
 | `allow-google.txt` | Servizi Google indispensabili (Safe Browsing, app Android) | 6 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-google.txt) | — |
-| `allow-apple.txt` | Notifiche push Apple | 1 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-apple.txt) | — |
+| `allow-apple.txt` | Notifiche push Apple | 2 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-apple.txt) | — |
 | `allow-microsoft.txt` | Microsoft 365, licenze, Defender, Power BI | 6 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-microsoft.txt) | — |
 | `allow-pa.txt` | PA italiana | 1 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-pa.txt) | — |
 | `allow-pagamenti.txt` | Checkout PayPal e antifrode | 9 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-pagamenti.txt) | — |

@@ -2,3 +2,4 @@
 # Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
 # Solo host indispensabili, mai domini interi di vendor. Non deve coprire voci delle blocklist.
 push.apple.com | 2026-09-24 | regola storica AdGuard: notifiche push APNs | -
+lcdn-locator.apple.com | 2026-10-07 | Apple Content Caching (aggiornamenti iPad nelle scuole), bloccato da BlocklistProject Tracking | -
