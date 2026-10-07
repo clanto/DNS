@@ -153,7 +153,6 @@ adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
 adguard.jfchenier.ca
-adguard.johanliebert.top
 adguard.k-likhachev.ru
 adguard.kantinyoyok.xyz
 adguard.kiboko.it
@@ -1613,6 +1612,7 @@ fi-hel-w-p-1.nashkan.net
 fidelius.top
 filter.myaddr.io
 filya.vpn.i81.ru
+fimoshinckaya-federation.site
 flat.loisy.it
 flyloadguard.dynu.net
 fnt01.dnscry.pt
@@ -1954,6 +1954,7 @@ maincloud.ir
 malanser.ru
 man01.dnscry.pt
 maqgie.xyz
+mask-canary.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2393,6 +2394,7 @@ szyrzyk.pl
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
+tecdrive.site
 tecworx.at
 telex.app
 test.adg.siudzinski.net
@@ -2447,6 +2449,7 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
+tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
