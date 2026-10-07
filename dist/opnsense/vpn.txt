@@ -1001,7 +1001,6 @@ besplatnyvpn.ru
 best-dock.surge.sh
 best-proxy.com
 bestdaygame.com
-bestproxy.xyz
 bestssh.net
 bestvpn.help
 bestvpnonline.online
@@ -1260,6 +1259,7 @@ cheapv2.net
 check.peer2profit.site
 check.ragpets.com
 cheddar-chute.com
+chicken.nuggets.are.good.privateimport.jp
 chickenalert.camdvr.org
 chik-chirikvpn.com
 chinacitybit.click
@@ -1268,6 +1268,7 @@ chinapeopleinfo.com
 chinastoryshop.com
 chkttzrt.com
 chocolated.org
+chopmixcook.com
 chrome-vpntype.com
 chromevpn.homes
 chstextbook.github.io
@@ -1291,7 +1292,6 @@ classes.ipv64.net
 classicpen.us
 classlink.com.de
 classlink.com.de.cdn.cloudflare.net
-classroom.broomleigh.org
 classroom.haoqiw.com
 classroom.ipv64.de
 clever-error-logging-in.web.app
@@ -3281,6 +3281,7 @@ nekoray.help
 nemuinemui-nemui.easterndns.com
 nerbix.xyz
 neru.cc
+net-work-private.ru
 net4ebur.fra1.digitaloceanspaces.com
 netdefenderpro.com
 netdrift.cyou

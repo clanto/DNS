@@ -1872,6 +1872,7 @@ jpdns.hker.me
 jpser.ra3.us
 juicysalmon.ru
 jurre-home.duckdns.org
+justfor.myasustor.com
 justhost.bedro.cloud
 juuri.hagezi.org
 k3n.pw
@@ -2016,6 +2017,7 @@ naganohara-yoimiya.momokko.moe
 najiakeji.top
 nanopi.cybergroove.net
 nas-fusion.loisy.it
+nas-scheiben34.myasustor.com
 nas.patrick-antoine.fr
 nas.stefanoperna.it
 nas1403.duckdns.org
@@ -2632,6 +2634,7 @@ yyz02.dnscry.pt
 z.vipit.one
 zakaria.website
 zal01.dnscry.pt
+zanty123456.myasustor.com
 zapranet.my.id
 zaziss.com
 zdn.ro
