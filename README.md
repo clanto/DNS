@@ -92,7 +92,7 @@ OPNsense risolve ogni dominio dell'alias e blocca gli IP ottenuti, quindi segue 
 | [doh.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/doh.txt) | Resolver DoH/DoT/DoQ con IP dedicato |
 | [vpn.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/vpn.txt) | VPN e proxy con IP dedicato (scuole) |
 
-Dettaglio di domini pubblicati, morti e su CDN: [dist/opnsense/README.md](dist/opnsense/README.md). Per AdGuard usare le liste complete `block-doh.txt` e `block-vpn.txt`.
+Dettaglio di domini pubblicati, morti e su CDN: [dist/opnsense/README.md](dist/opnsense/README.md). Ogni lunedì un controllo risolve di nuovo le liste e segnala gli IP che stanno su CDN o hosting condivisi non ancora esclusi (Akamai, Netlify, GitHub Pages, front-end Google…) o che ospitano più domini: la rete va aggiunta a `ip/condivisi.txt`. Per AdGuard usare le liste complete `block-doh.txt` e `block-vpn.txt`.
 
 ## Liste upstream consigliate per AdGuard
 

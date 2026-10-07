@@ -10,6 +10,7 @@ on:
       - "domains/blocklist/**"
       - "ip/custom/**"
       - "ip/sources.toml"
+      - "domains/domains.toml"
 
 permissions:
   contents: read
@@ -17,7 +18,7 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
@@ -34,3 +35,7 @@ jobs:
       - name: Verifica reti dei provider DNS dedicati
         if: always()
         run: python scripts/check_asn.py
+
+      - name: Verifica IP risolti dalle liste OPNsense
+        if: always()
+        run: python scripts/check_opnsense_ips.py

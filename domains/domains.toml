@@ -113,3 +113,20 @@ format = "domains"
 homepage = "https://github.com/hagezi/dns-blocklists"
 license = "GPL-3.0"
 note = "Contiene anche i DoH: la categoria doh li copre già, qui servono VPN e proxy"
+
+# ---------------------------------------------------------------------------
+# Controllo settimanale delle liste OPNsense (scripts/check_opnsense_ips.py): risolve i domini e segnala
+# gli IP su CDN/hosting condivisi, che OPNsense bloccherebbe insieme ad altri siti.
+# shared_as_keywords: nomi di AS di CDN/hosting condivisi (non i cloud con VM dedicate)
+# shared_asn:         AS specifici condivisi (15169 = front-end dei servizi Google)
+# min_domains_per_ip: segnala un IP se ospita almeno N domini diversi della lista
+# ignore:             domini da non segnalare perché bloccati di proposito (es. dns.google = 8.8.8.8)
+# ---------------------------------------------------------------------------
+
+[opnsense_check]
+shared_as_keywords = ["AKAMAI", "FASTLY", "NETLIFY", "GITHUB", "HEROKU", "AUTOMATTIC", "SQUARESPACE",
+                      "WIX", "SHOPIFY", "INCAPSULA", "IMPERVA", "STACKPATH", "EDGECAST", "EDGIO",
+                      "LIMELIGHT", "BUNNY", "GCORE", "SUCURI", "CLOUDFLARE", "VERCEL"]
+shared_asn = [15169]
+min_domains_per_ip = 3
+ignore = ["dns.google", "dns64.dns.google", "8888.google", "google-public-dns-a.google.com", "google-public-dns-b.google.com"]
