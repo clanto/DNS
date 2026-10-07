@@ -7,3 +7,6 @@
 # - Falsi positivi segnalati (es. IP condivisi CDN/cloud finiti nei feed DoH)
 #
 # Le reti private, loopback, link-local, multicast e riservate sono già escluse dal build.
+172.253.114.101 | 2026-10-07 | rete servizi Google 172.253.0.0/16 (falso positivo vpn da ShadowWhisperer Tunnels) | -
+172.253.114.139 | 2026-10-07 | rete servizi Google 172.253.0.0/16 (falso positivo vpn da ShadowWhisperer Tunnels) | -
+35.235.153.76 | 2026-10-07 | rete servizi Google 35.224.0.0/12, non Google Cloud (falso positivo threat da ShadowWhisperer Threats) | -

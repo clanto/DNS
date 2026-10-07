@@ -6,3 +6,5 @@
 66.33.60.0/24 | 2026-10-06 | Vercel | -
 64.239.109.0/24 | 2026-10-06 | Vercel (rete VERCEL-11, es. astra-ai.it) | -
 64.239.123.0/24 | 2026-10-06 | Vercel (es. app.astra-ai.co) | -
+58.68.128.0/18 | 2026-10-07 | ChinaCache CDN (era in vpn da X4B) | -
+58.68.192.0/19 | 2026-10-07 | ChinaCache CDN (era in vpn da X4B) | -
