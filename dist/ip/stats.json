@@ -1,16 +1,16 @@
 {
   "feed": {
-    "doh-v4.txt": 1330,
+    "doh-v4.txt": 1327,
     "doh-v6.txt": 683,
-    "tor-v4.txt": 5231,
-    "tor-v6.txt": 2466,
-    "threat-v4.txt": 27689,
+    "tor-v4.txt": 5236,
+    "tor-v6.txt": 2473,
+    "threat-v4.txt": 27692,
     "threat-v6.txt": 0,
     "c2-v4.txt": 5,
     "c2-v6.txt": 0,
     "vpn-v4.txt": 11780,
     "vpn-v6.txt": 414,
-    "inbound-v4.txt": 78944,
+    "inbound-v4.txt": 78861,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
@@ -18,10 +18,10 @@
     "hacking-v6.txt": 0,
     "warez-v4.txt": 22,
     "warez-v6.txt": 0,
-    "all-v4.txt": 34093,
-    "all-v6.txt": 3149,
-    "all-scuole-v4.txt": 45382,
-    "all-scuole-v6.txt": 3512
+    "all-v4.txt": 34098,
+    "all-v6.txt": 3156,
+    "all-scuole-v4.txt": 45387,
+    "all-scuole-v6.txt": 3517
   },
   "fonti": [
     {
@@ -30,9 +30,9 @@
       "license": "GPL-3.0",
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 1972,
-      "detail": "scartate 1 non instradabile"
+      "detail": ""
     },
     {
       "id": "dibdot-doh-v6",
@@ -40,9 +40,9 @@
       "license": "GPL-3.0",
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 1376,
-      "detail": "scartate 1 non instradabile"
+      "detail": ""
     },
     {
       "id": "tor-exit",
@@ -50,8 +50,8 @@
       "license": "CC0 (Tor Metrics)",
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
-      "status": "ok",
-      "entries": 1270,
+      "status": "cache",
+      "entries": 1272,
       "detail": ""
     },
     {
@@ -60,8 +60,8 @@
       "license": "CC0 (Tor Metrics)",
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
-      "status": "ok",
-      "entries": 9690,
+      "status": "cache",
+      "entries": 9699,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -70,7 +70,7 @@
       "license": "Unlicense",
       "homepage": "https://github.com/stamparm/ipsum",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 17732,
       "detail": "IP presenti in almeno 3 blacklist pubbliche"
     },
@@ -80,8 +80,8 @@
       "license": "Unlicense",
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
-      "status": "ok",
-      "entries": 17021,
+      "status": "cache",
+      "entries": 17027,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -90,7 +90,7 @@
       "license": "Unlicense",
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 183,
       "detail": "Resolver DNS pubblici"
     },
@@ -100,9 +100,9 @@
       "license": "Unlicense",
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 13138,
-      "detail": "scartate 1 non instradabile"
+      "detail": "Proxy e VPN"
     },
     {
       "id": "data-shield",
@@ -110,8 +110,8 @@
       "license": "GPL-3.0",
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
-      "status": "ok",
-      "entries": 88691,
+      "status": "cache",
+      "entries": 88608,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -120,7 +120,7 @@
       "license": "CC0",
       "homepage": "https://feodotracker.abuse.ch/blocklist/",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 5,
       "detail": "CC0 dichiarato sulla pagina Feodo Tracker (regime diverso dai ToS generali abuse.ch)"
     },
@@ -130,7 +130,7 @@
       "license": "MIT",
       "homepage": "https://github.com/X4BNet/lists_vpn",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 11200,
       "detail": ""
     },
@@ -140,9 +140,9 @@
       "license": "MIT",
       "homepage": "https://github.com/X4BNet/lists_vpn",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 414,
-      "detail": "scartate 84 troppo ampia"
+      "detail": ""
     },
     {
       "id": "et-compromised",
@@ -181,7 +181,7 @@
       "scadute": 0
     },
     "doh": {
-      "attive": 0,
+      "attive": 5,
       "scadute": 0
     },
     "hacking": {

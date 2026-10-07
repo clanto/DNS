@@ -1,4 +1,4 @@
-name: Verifica DNS liste curate
+name: Verifica settimanale liste
 
 on:
   schedule:
@@ -8,6 +8,8 @@ on:
     paths:
       - "domains/allowlist/**"
       - "domains/blocklist/**"
+      - "ip/custom/**"
+      - "ip/sources.toml"
 
 permissions:
   contents: read
@@ -28,3 +30,7 @@ jobs:
 
       - name: Verifica esistenza domini e conflitti con liste di bypass
         run: python scripts/check_domains.py
+
+      - name: Verifica reti dei provider DNS dedicati
+        if: always()
+        run: python scripts/check_asn.py

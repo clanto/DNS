@@ -1,8 +1,10 @@
+battle.net
 blizzard.com
 coolmathgames.com
 crazygames.com
 ea.com
 epicgames.com
+epicgames.dev
 fortnite.com
 friv.com
 leagueoflegends.com
@@ -16,5 +18,3 @@ steampowered.com
 steamstatic.com
 supercell.com
 y8.com
-epicgames.dev
-battle.net

@@ -281,7 +281,8 @@ def main() -> int:
         if kind == "block":
             entries["block"] += [(cat, d) for d in names]
             simple = [d for d in final if "*" not in d]
-            plain[fname] = "".join(f"{d}\n" for d in simple)
+            # Lista completa, senza deduplica per dominio padre: OPNsense risolve solo il nome esatto
+            plain[fname] = "".join(f"{d}\n" for d in names if "*" not in d)
             unbound[f"block-{cat}.conf"] = "".join(f'local-zone: "{d}." always_nxdomain\n' for d in simple)
         else:
             entries["allow"] += [(cat, d) for d in names]

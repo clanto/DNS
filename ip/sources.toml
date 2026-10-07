@@ -77,6 +77,17 @@ url = "https://api.fastly.com/public-ip-list"
 format = "fastly"
 
 # ---------------------------------------------------------------------------
+# Provider DNS con AS dedicato: le loro reti stanno in ip/custom/<categoria>.txt e un controllo
+# settimanale (scripts/check_asn.py) segnala reti nuove annunciate dall'AS. Solo AS che fanno
+# esclusivamente DNS: mai provider con altri servizi sulla stessa rete (AdGuard, Cloudflare, Google).
+# ---------------------------------------------------------------------------
+
+[[asn_checks]]
+asn = 34939
+name = "NextDNS, Inc."
+category = "doh"
+
+# ---------------------------------------------------------------------------
 # Feed aggregati: dist/ip/<nome>-v4.txt e -v6.txt, unione delle categorie elencate.
 # ---------------------------------------------------------------------------
 

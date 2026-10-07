@@ -1,3 +1,7 @@
 # Blocklist domini - doh
 # Aggiunte manuali oltre alle fonti dinamiche (domains.toml): solo voci non già presenti in esse.
 # Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+anycast.dns1.nextdns.io | 2026-10-07 | endpoint NextDNS indicato dallo staff (help.nextdns.io) | -
+anycast.dns2.nextdns.io | 2026-10-07 | endpoint NextDNS indicato dallo staff (help.nextdns.io) | -
+ultralow.dns1.nextdns.io | 2026-10-07 | endpoint NextDNS indicato dallo staff (help.nextdns.io) | -
+ultralow.dns2.nextdns.io | 2026-10-07 | endpoint NextDNS indicato dallo staff (help.nextdns.io) | -

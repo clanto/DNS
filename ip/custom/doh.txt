@@ -4,3 +4,8 @@
 # Il feed doh è coperto dalle fonti dinamiche (sources.toml): qui solo resolver DoH non presenti in esse,
 # preferibilmente con scadenza, perché gli IP cloud vengono riassegnati.
 # I 336 IP storici (2023-2026) sono stati rimossi il 2026-10-05: restano nella cronologia git.
+45.90.28.0/22 | 2026-10-07 | NextDNS, Inc. AS34939: rete dedicata ai resolver NextDNS (IP per configurazione) | -
+23.247.212.0/22 | 2026-10-07 | NextDNS, Inc. AS34939: rete dedicata ai resolver NextDNS | -
+146.19.14.0/24 | 2026-10-07 | NextDNS, Inc. AS34939: rete dedicata ai resolver NextDNS | -
+2a07:a8c0::/33 | 2026-10-07 | NextDNS, Inc. AS34939: IPv6 per configurazione (2a07:a8c0::<id>) | -
+2a07:a8c1::/33 | 2026-10-07 | NextDNS, Inc. AS34939: IPv6 per configurazione (2a07:a8c1::<id>) | -
