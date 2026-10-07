@@ -15,7 +15,6 @@
 2.baiyue.eu.org
 2.dns.noridev.moe
 2.dnscrypt-cert.ffmuc.net
-2.dnscrypt-cert.pumplex.com
 20010114.xyz
 2024.laijy.top
 220913.xyz
@@ -38,7 +37,6 @@ a5135324.csie.io
 abe01.dnscry.pt
 abel.waringer-atg.de
 ablock.fuckit.ovh
-abluehope.com
 abn01.dnscry.pt
 abpvn.org
 abrakadabra.pro
@@ -128,7 +126,6 @@ adguard.cell.co.id
 adguard.chanhome.xyz
 adguard.clawsucht.eu
 adguard.cnbeining.com
-adguard.crestfallen.de
 adguard.dantynes.cyou
 adguard.depieri.net
 adguard.dervart.ru
@@ -321,7 +318,6 @@ agh3.server.my.id
 agha.sunryu.site
 ahcek.com
 ahoj.email
-aicx99.shop
 ajlxwk4kedu5.absq.ch
 akari.anime.com.my
 akhilkalwakurthy.dyndns.org
@@ -364,7 +360,6 @@ applied-privacy.net
 apps.truckbel.com
 aqua.is.my.waifu.cz
 aqx01.dnscry.pt
-arashi.net.eu.org
 arashi.solutions
 arches-srv1.8ws.net
 arches-srv2.8ws.net
@@ -385,7 +380,6 @@ atsilva.link
 au-syd-w-f-1.nashkan.net
 au-syd-w-p-1.nashkan.net
 axaxa.fun
-axistechsupport.com
 aydank.freeddns.org
 ayman-dns.731my.com
 az.dz4fun.top
@@ -606,7 +600,6 @@ dns.abdullahabas.online
 dns.abhimankolte.com
 dns.abppro.ru
 dns.adguard.com
-dns.adguarddns.com
 dns.adnull.com
 dns.adriason.co.uk
 dns.aicreate360.com
@@ -762,7 +755,6 @@ dns.echpochmak-club.ru
 dns.eddi.net
 dns.edgeburnmedia.com
 dns.edgeworkssystems.ca
-dns.edgy.network
 dns.efficientdocuments.com
 dns.ekinao.com
 dns.electrotm.org
@@ -794,7 +786,6 @@ dns.family.fraiss.at
 dns.fancyorg.at
 dns.farshidhakimy.de
 dns.farshmc.ru
-dns.faze.dev
 dns.fc.idv.tw
 dns.fehlsprache.de
 dns.ffnw.de
@@ -962,7 +953,6 @@ dns.listo.click
 dns.lithvik.com
 dns.litong.dev
 dns.lmir.info
-dns.lobbygod.com
 dns.lsho.top
 dns.luismm2311.com
 dns.luma-medien.com
@@ -1090,7 +1080,6 @@ dns.proprietarypenguin.com
 dns.pttien.id.vn
 dns.pub
 dns.pumpkinvrar.com
-dns.pumplex.com
 dns.qkc.fr
 dns.qpt.one
 dns.qq.com
@@ -1225,7 +1214,6 @@ dns.veikus.com
 dns.venclous.org
 dns.vietdns.vn
 dns.vinnyp.xyz
-dns.vip-kingstore.xyz
 dns.virtual-qr.ir
 dns.vk09.ru
 dns.vlo.cc
@@ -1352,7 +1340,6 @@ dns2.thylacine.co.nz
 dns3.wistarip.com
 dns35.allone.dpdns.org
 dns4.bortus.io
-dns4eu.online
 dns4me.net
 dns6.web.id
 dns8.org
@@ -1610,7 +1597,6 @@ eyg01.dnscry.pt
 f1.dns.s3cure.me
 f4f.es
 facomunit.ddns.net
-family.adguarddns.com
 family.dns.doubleangels.com
 family.dns.dremaxx.com
 family.dns.teknoholistik.com
@@ -1830,7 +1816,6 @@ iev02.dnscry.pt
 igor.vpn.i81.ru
 ihctw.synology.me
 iij.jp
-ikarosalpha.xyz
 imperio.top
 inadsware.ddns.net
 incaseineeditoneday.com
@@ -1887,7 +1872,6 @@ jpdns.hker.me
 jpser.ra3.us
 juicysalmon.ru
 jurre-home.duckdns.org
-justfor.myasustor.com
 justhost.bedro.cloud
 juuri.hagezi.org
 k3n.pw
@@ -1994,8 +1978,6 @@ midgard.asguardian.de
 midns.clicinternet.com
 mijoregner.de
 mikatos.de
-mikewaddick.com
-mikezhang.xyz
 mikrobill.dns-cloud.net
 mil01.dnscry.pt
 mipelinusa.ddns.net
@@ -2034,7 +2016,6 @@ naganohara-yoimiya.momokko.moe
 najiakeji.top
 nanopi.cybergroove.net
 nas-fusion.loisy.it
-nas-scheiben34.myasustor.com
 nas.patrick-antoine.fr
 nas.stefanoperna.it
 nas1403.duckdns.org
@@ -2107,7 +2088,6 @@ ns6.ygy.ru
 nsc.torgues.net
 nsec.arnor.org
 nsnacho.sytes.net
-nsown.com
 ntwrkh.pro
 nue01.dnscry.pt
 nvi-dns.bitdefender.net
@@ -2178,7 +2158,6 @@ pihole.datamatter.co.za
 pihole1.hoerli.net
 pihole2.hoerli.net
 pihole3.hoerli.net
-pingbi.xyz
 pips.kpsn.org
 pitchforkwaydns.duckdns.org
 pl-waw-w-p-2.nashkan.net
@@ -2252,7 +2231,6 @@ resolver.haringstad.com
 resolver.r0cket.net
 resolver.rferee.dev
 resolver.sunet.se
-resolver.unstoppable.io
 resolver1-fs.opendns.com
 resolver1.absolight.net
 resolver1.amlegion.org
@@ -2322,7 +2300,6 @@ sdkconfig.tlivedns.com
 sdns22.gkonuralp.com
 sdvizhkov.ru
 sea01.dnscry.pt
-searxng.rcxpony.name
 sec.iamninja.ru
 secure-dns.gridlax.com
 secure-dns.pleumkungz.com
@@ -2451,7 +2428,6 @@ tky-dns.bitdefender.net
 tll01.dnscry.pt
 tls.jackyhou.idv.tw
 tls.windyvale.net
-tlz.asia
 tngch.mydns.jp
 toaster.lol
 tokyo.559299366.xyz
@@ -2487,7 +2463,6 @@ udns.weixin.qq.com
 ueni.dyndns.org
 unasw.eu
 uncensoreddns.org
-unfiltered.adguarddns.com
 unfiltered.joindns4.eu
 unicast.censurfridns.dk
 unicast.uncensoreddns.dk
@@ -2657,7 +2632,6 @@ yyz02.dnscry.pt
 z.vipit.one
 zakaria.website
 zal01.dnscry.pt
-zanty123456.myasustor.com
 zapranet.my.id
 zaziss.com
 zdn.ro
