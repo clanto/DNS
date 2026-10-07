@@ -30,10 +30,12 @@ Formato: un IP o CIDR per riga, senza commenti. Compatibile con alias *URL Table
 | c2 | Server di comando e controllo di botnet | Uscita | [c2-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v4.txt) | [c2-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v6.txt) |
 | tor | Rete Tor: nodi di uscita e relay (blocca anche l'uso di Tor Browser) | Uscita e ingresso | [tor-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt) | [tor-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v6.txt) |
 | vpn | VPN commerciali e proxy (in `all-scuole`, non in `all`) | Uscita | [vpn-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v4.txt) | [vpn-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v6.txt) |
+| social | Meta (Facebook, Instagram, **WhatsApp**), TikTok, X, Telegram, per AS (non negli aggregati) | Uscita | [social-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/social-v4.txt) | [social-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/social-v6.txt) |
 | inbound | Scanner e brute force verso servizi esposti (~90k voci, non in `all`) | **Solo ingresso WAN** | [inbound-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v4.txt) | [inbound-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v6.txt) |
 | bogon | Reti riservate RFC 6890, comprese le private (non in `all`) | **Solo ingresso WAN** | [bogon-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/bogon-v4.txt) | [bogon-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/bogon-v6.txt) |
 
 - **Dettagli**: numero di voci, fonti, licenze e stato dell'ultimo aggiornamento sono in [dist/ip/README.md](dist/ip/README.md); le statistiche in formato JSON in [stats.json](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/stats.json).
+- **Registro variazioni**: [dist/CHANGELOG.md](dist/CHANGELOG.md), aggiunte e rimozioni a ogni build con la fonte di ogni IP. Primo posto da guardare quando un sito smette di funzionare.
 - **Configurazione dei firewall**: in [ip/README.md](ip/README.md#configurazione-firewall).
 - **Blocco per paese e bogon completi**: usare le funzioni native dei firewall (GeoIP, *Block bogon networks*). I dati di origine non sono ridistribuibili.
 
@@ -50,6 +52,7 @@ Solo host indispensabili, mai domini interi. Nessuna voce può contraddire le no
 | Lista | Contenuto |
 |---|---|
 | **[allow-base.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-base.txt)** | Tutte le categorie qui sotto tranne streaming: **da applicare a tutti** |
+| [allow-protetti.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-protetti.txt) | **Servizi critici** (Workspace, Gmail SMTP, Microsoft 365, iCloud/MDM, registri elettronici, SPID, pagoPA): mai bloccati da liste domini, feed IP e liste OPNsense |
 | [allow-google.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-google.txt) | Safe Browsing, app Android |
 | [allow-apple.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-apple.txt) | Notifiche push Apple |
 | [allow-microsoft.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-microsoft.txt) | Microsoft 365, licenze, Defender, Power BI |
@@ -149,6 +152,7 @@ File originali del repository, mantenuti agli stessi URL per compatibilità. `DN
 |---|---|---|
 | Aggiungere un IP da bloccare | `ip/custom/<categoria>.txt` | [ip/README.md](ip/README.md#aggiungere-un-ip-a-mano) |
 | Sbloccare un IP (falso positivo) | [ip/allowlist.txt](ip/allowlist.txt) | [ip/README.md](ip/README.md#sbloccare-un-falso-positivo) |
+| Proteggere un servizio critico | [domains/allowlist/protetti.txt](domains/allowlist/protetti.txt) | solo host esatti |
 | Segnalare una rete di hosting/CDN condivisa | [ip/condivisi.txt](ip/condivisi.txt) | [ip/README.md](ip/README.md#infrastrutture-condivise) |
 | Aggiungere una fonte IP | [ip/sources.toml](ip/sources.toml) | [ip/README.md](ip/README.md#aggiungere-una-fonte) |
 | Bloccare o sbloccare un dominio | [domains/blocklist/](domains/blocklist/), [domains/allowlist/](domains/allowlist/) | formato sotto |

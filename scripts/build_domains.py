@@ -269,6 +269,22 @@ def main() -> int:
         # I domini propri (es. dns.clanto.cloud) non devono mai finire in blocco
         names -= {n for n in names if any(covers(o, n) for o in own)}
 
+    # Servizi protetti: tolti dalle blocklist (voce identica); se una blocklist ne contiene il dominio padre
+    # la voce resta (AdGuard sblocca comunque con $important) e viene segnalata
+    protected = {n for (kind, cat), (cat_names, _) in collected.items()
+                 if kind == "allow" and cfg["allow"][cat].get("protect") for n in cat_names}
+    protect_report: list[str] = []
+    for cat in cfg.get("block", {}):
+        names = collected[("block", cat)][0]
+        removed = names & protected
+        names -= removed
+        protect_report += [f"- protetto `{d}` tolto da block/{cat}" for d in sorted(removed)]
+        for p in protected:
+            parts = p.split(".")
+            parents = {".".join(parts[i:]) for i in range(1, len(parts) - 1)} & names
+            protect_report += [f"- protetto `{p}` coperto dal padre `{x}` in block/{cat} (sbloccato solo su AdGuard)"
+                               for x in sorted(parents)]
+
     for (kind, cat), (name_set, expired) in collected.items():
         opts = cfg[kind][cat]
         names = sorted(name_set)
@@ -293,7 +309,12 @@ def main() -> int:
 
     print("\n".join(source_report))
     # Un'allowlist non deve mai annullare una nostra blocklist (es. sbloccare nordvpn e bloccare le VPN)
+    for line in protect_report:
+        warn(line.lstrip("- ").replace("`", ""))
+    print("\n".join(protect_report))
     for acat, a in entries["allow"]:
+        if cfg["allow"][acat].get("protect"):
+            continue  # gestiti sopra: rimozione o segnalazione, mai errore
         for bcat, b in entries["block"]:
             if overlaps(a, b):
                 errors.append(f"conflitto: allow/{acat} '{a}' contraddice block/{bcat} '{b}'")

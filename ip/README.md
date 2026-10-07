@@ -37,7 +37,13 @@ Si aggiunge la rete a `ip/allowlist.txt`, con lo stesso formato. Viene tolta da 
 Le fonti DoH e VPN contengono anche IP di CDN e piattaforme di hosting condivise: un resolver DoH ospitato su AWS Global Accelerator, Cloudflare o Vercel ha lo stesso IP di migliaia di siti legittimi. Nelle categorie con `exclude_shared = true` (`doh`, `vpn`) questi IP non vengono mai bloccati:
 
 - intervalli ufficiali scaricati a ogni build: Cloudflare, AWS CloudFront e Global Accelerator, Fastly (`[[shared_sources]]` in `sources.toml`); non vengono pubblicati;
-- reti che non pubblicano i propri intervalli, inserite a mano in `ip/condivisi.txt` (es. Vercel).
+- CDN e hosting condivisi senza elenco completo, esclusi **per AS** (Akamai, GitHub Pages, Imperva, Bunny, Fastly, Cloudflare, front-end Google) con le reti di iptoasn.com (pubblico dominio); esclusi di proposito AWS, Azure, Google Cloud e Gcore, che ospitano VM dedicate;
+- reti che non pubblicano i propri intervalli, inserite a mano in `ip/condivisi.txt` (es. Vercel, Apple, Firebase Hosting);
+- eccezioni `keep`: resolver pubblici con IP dedicato dentro reti condivise (Google Public DNS, Cloudflare 1.1.1.1), che restano bloccati.
+
+## Servizi protetti
+
+Gli host di `domains/allowlist/protetti.txt` (Workspace, Gmail SMTP, Microsoft 365, iCloud/MDM, registri elettronici, SPID, pagoPA…) vengono risolti a ogni build: i loro IP sono esclusi da tutti i feed e dalle liste OPNsense, e ogni esclusione viene segnalata nel riepilogo del job come falso positivo evitato. Su AdGuard sono sbloccati da `allow-base`.
 
 Se gli intervalli ufficiali non sono raggiungibili il build fallisce e restano online i feed precedenti. I resolver con IP dedicato (1.1.1.1, 8.8.8.8, 9.9.9.9…) restano bloccati; i loro domini sono comunque bloccati da AdGuard con `block-doh`.
 

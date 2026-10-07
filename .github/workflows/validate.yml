@@ -8,6 +8,7 @@ on:
       - "dist/**"
       - "domains/**"
       - "scripts/**"
+      - "tests/**"
 
 permissions:
   contents: read
@@ -15,7 +16,7 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -29,6 +30,9 @@ jobs:
         run: |
           python scripts/build_ip.py --check
           python scripts/build_domains.py --check
+
+      - name: Test delle liste
+        run: python tests/test_liste.py
 
       - name: Blocca modifiche manuali ai file generati
         if: github.event.pull_request.user.login != 'github-actions[bot]'

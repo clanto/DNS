@@ -1,16 +1,18 @@
 {
   "feed": {
-    "doh-v4.txt": 1332,
-    "doh-v6.txt": 688,
-    "tor-v4.txt": 5179,
-    "tor-v6.txt": 2470,
-    "threat-v4.txt": 27244,
+    "doh-v4.txt": 1330,
+    "doh-v6.txt": 689,
+    "tor-v4.txt": 5209,
+    "tor-v6.txt": 2461,
+    "threat-v4.txt": 27700,
     "threat-v6.txt": 0,
     "c2-v4.txt": 5,
     "c2-v6.txt": 0,
-    "vpn-v4.txt": 11661,
+    "vpn-v4.txt": 9247,
     "vpn-v6.txt": 414,
-    "inbound-v4.txt": 78636,
+    "social-v4.txt": 211,
+    "social-v6.txt": 119,
+    "inbound-v4.txt": 78572,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
@@ -18,10 +20,10 @@
     "hacking-v6.txt": 0,
     "warez-v4.txt": 22,
     "warez-v6.txt": 0,
-    "all-v4.txt": 33606,
-    "all-v6.txt": 3158,
-    "all-scuole-v4.txt": 44816,
-    "all-scuole-v6.txt": 3515
+    "all-v4.txt": 34082,
+    "all-v6.txt": 3150,
+    "all-scuole-v4.txt": 42835,
+    "all-scuole-v6.txt": 3513
   },
   "fonti": [
     {
@@ -115,6 +117,46 @@
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
+      "id": "social-meta",
+      "category": "social",
+      "license": "PDDL 1.0 (iptoasn.com)",
+      "homepage": "https://iptoasn.com/",
+      "enabled": true,
+      "status": "ok",
+      "entries": 120,
+      "detail": "Meta: Facebook, Instagram, WhatsApp, Threads"
+    },
+    {
+      "id": "social-tiktok",
+      "category": "social",
+      "license": "PDDL 1.0 (iptoasn.com)",
+      "homepage": "https://iptoasn.com/",
+      "enabled": true,
+      "status": "ok",
+      "entries": 181,
+      "detail": "ByteDance e TikTok (i contenuti video passano anche da CDN condivise: bloccare anche via DNS)"
+    },
+    {
+      "id": "social-x",
+      "category": "social",
+      "license": "PDDL 1.0 (iptoasn.com)",
+      "homepage": "https://iptoasn.com/",
+      "enabled": true,
+      "status": "ok",
+      "entries": 17,
+      "detail": "X (Twitter)"
+    },
+    {
+      "id": "social-telegram",
+      "category": "social",
+      "license": "PDDL 1.0 (iptoasn.com)",
+      "homepage": "https://iptoasn.com/",
+      "enabled": true,
+      "status": "ok",
+      "entries": 12,
+      "detail": "Telegram"
+    },
+    {
       "id": "abusech-feodo",
       "category": "c2",
       "license": "CC0",
@@ -194,11 +236,15 @@
     }
   },
   "allowlist": {
-    "voci": 3,
+    "voci": 121,
     "reti_modificate": 1
   },
   "condivisi": {
-    "intervalli": 782,
-    "voci_escluse": 1339
+    "intervalli": 11269,
+    "voci_escluse": 3880
+  },
+  "protetti": {
+    "ip_risolti": 118,
+    "voci_escluse": []
   }
 }

@@ -1,0 +1,50 @@
+# Allowlist domini - protetti: servizi critici che non devono MAI essere bloccati.
+# Effetti: AdGuard li sblocca (allow-base); il build li toglie dalle nostre blocklist; a ogni build in CI
+# i loro IP risolti vengono esclusi da tutti i feed IP e dalle liste OPNsense (con segnalazione).
+# Solo host esatti e indispensabili. Formato: dominio | data AAAA-MM-GG | motivo | ticket (o -) | scadenza (opzionale)
+www.google.com | 2026-10-08 | Google Workspace: ricerca e accesso | -
+accounts.google.com | 2026-10-08 | Google Workspace: autenticazione | -
+mail.google.com | 2026-10-08 | Gmail | -
+smtp.gmail.com | 2026-10-08 | Gmail SMTP (invio posta da client e dispositivi) | -
+smtp-relay.gmail.com | 2026-10-08 | Google Workspace SMTP relay (stampanti, applicativi) | -
+imap.gmail.com | 2026-10-08 | Gmail IMAP | -
+aspmx.l.google.com | 2026-10-08 | MX Google Workspace | -
+docs.google.com | 2026-10-08 | Google Documenti | -
+drive.google.com | 2026-10-08 | Google Drive | -
+classroom.google.com | 2026-10-08 | Google Classroom | -
+meet.google.com | 2026-10-08 | Google Meet | -
+calendar.google.com | 2026-10-08 | Google Calendar | -
+admin.google.com | 2026-10-08 | Console Google Workspace | -
+login.microsoftonline.com | 2026-10-08 | Microsoft 365: autenticazione Entra ID | -
+login.live.com | 2026-10-08 | Account Microsoft | -
+outlook.office365.com | 2026-10-08 | Exchange Online | -
+smtp.office365.com | 2026-10-08 | Exchange Online SMTP | -
+outlook.office.com | 2026-10-08 | Outlook web | -
+www.office.com | 2026-10-08 | Portale Microsoft 365 | -
+teams.microsoft.com | 2026-10-08 | Microsoft Teams | -
+graph.microsoft.com | 2026-10-08 | Microsoft Graph (app e sincronizzazioni) | -
+enterpriseregistration.windows.net | 2026-10-08 | Join dei dispositivi a Entra ID | -
+manage.microsoft.com | 2026-10-08 | Intune | -
+push.apple.com | 2026-10-08 | Notifiche push Apple (MDM, Apple Classroom) | -
+setup.icloud.com | 2026-10-08 | Accesso iCloud e Managed Apple Account | -
+api.apple-cloudkit.com | 2026-10-08 | CloudKit (dati delle app Apple) | -
+deviceenrollment.apple.com | 2026-10-08 | Apple Business/School Manager: iscrizione dispositivi | -
+mdmenrollment.apple.com | 2026-10-08 | Apple MDM: iscrizione | -
+iprofiles.apple.com | 2026-10-08 | Apple MDM: profili | -
+school.apple.com | 2026-10-08 | Apple School Manager | -
+albert.apple.com | 2026-10-08 | Attivazione dispositivi Apple | -
+mesu.apple.com | 2026-10-08 | Aggiornamenti iOS/iPadOS | -
+www.portaleargo.it | 2026-10-08 | Registro elettronico Argo | -
+argoeducation.com | 2026-10-08 | Argo Education | -
+web.spaggiari.eu | 2026-10-08 | Registro elettronico ClasseViva | -
+nuvola.madisoft.it | 2026-10-08 | Registro elettronico Nuvola | -
+www.istruzione.it | 2026-10-08 | Ministero Istruzione e Merito | -
+unica.istruzione.gov.it | 2026-10-08 | Piattaforma Unica MIM | -
+login.agid.gov.it | 2026-10-08 | SPID | -
+www.spid.gov.it | 2026-10-08 | SPID | -
+checkout.pagopa.it | 2026-10-08 | pagoPA | -
+io.italia.it | 2026-10-08 | App IO | -
+www.inps.it | 2026-10-08 | INPS | -
+www.agenziaentrate.gov.it | 2026-10-08 | Agenzia delle Entrate | -
+ivaservizi.agenziaentrate.gov.it | 2026-10-08 | Fatture e corrispettivi | -
+posteid.poste.it | 2026-10-08 | PosteID (SPID) | -

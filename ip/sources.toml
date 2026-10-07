@@ -35,6 +35,10 @@ description = "Server di comando e controllo di botnet e malware"
 description = "VPN commerciali e proxy anonimizzanti"
 exclude_shared = true
 
+[categories.social]
+description = "Social network e messaggistica per AS: Meta (Facebook, Instagram, WhatsApp), TikTok, X, Telegram"
+# Non in all/all-scuole: blocca anche WhatsApp. Alias separato dove serve (es. scuole).
+
 [categories.inbound]
 description = "IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN"
 
@@ -52,7 +56,7 @@ description = "IP di siti warez (non più curati, mantenuti per compatibilità)"
 # Infrastrutture condivise: intervalli ufficiali di CDN/hosting usati solo per il filtro exclude_shared
 # (e per le liste OPNsense). Non vengono pubblicati né salvati in cache: se non sono raggiungibili il
 # build fallisce e restano online i feed precedenti.
-# format: text (un CIDR per riga) | aws (ip-ranges.json, con services) | fastly (public-ip-list) | google (goog.json)
+# format: text (un CIDR per riga) | aws (ip-ranges.json, con services) | fastly (public-ip-list) | google (goog.json) | asn (asns)
 # subtract_url: reti da togliere dall'infrastruttura; keep: reti che restano comunque bloccabili
 # ---------------------------------------------------------------------------
 
@@ -78,13 +82,31 @@ url = "https://api.fastly.com/public-ip-list"
 format = "fastly"
 
 [[shared_sources]]
+id = "cdn-asn"
+format = "asn"
+# CDN e hosting condivisi senza elenco pubblico completo (reti da iptoasn.com, PDDL).
+# Esclusi di proposito AWS, Azure, Google Cloud, Gcore: ospitano VM dedicate usate anche per attacchi.
+asns = [20940, 16625, 21342,   # Akamai
+        32787,                 # Prolexic (Akamai)
+        36459,                 # GitHub Pages
+        19551,                 # Imperva Incapsula
+        200325,                # BunnyCDN
+        54113,                 # Fastly (anche Firebase Hosting)
+        13335,                 # Cloudflare
+        15169]                 # Google front-end (Gmail, Workspace, App Engine, Blogger)
+# keep (vale su tutte le fonti condivise): resolver pubblici con IP dedicati dentro reti condivise,
+# che devono restare bloccati nel feed doh
+keep = ["8.8.8.8/32", "8.8.4.4/32", "2001:4860:4860::/64",                    # Google Public DNS
+        "1.1.1.1/32", "1.1.1.2/31", "1.0.0.1/32", "1.0.0.2/31", "2606:4700:4700::/48"]  # Cloudflare 1.1.1.1
+
+[[shared_sources]]
 id = "google"
 url = "https://www.gstatic.com/ipranges/goog.json"
 format = "google"
 subtract_url = "https://www.gstatic.com/ipranges/cloud.json"  # le VM Google Cloud hanno IP dedicati
 # I front-end Google servono insieme Gmail/SMTP, Workspace, App Engine, Firebase, Cloud Run, Blogger:
 # un dominio VPN su *.web.app o *.appspot.com risolverebbe su IP condivisi con smtp.gmail.com.
-# keep: resolver Google Public DNS, che restano bloccati nel feed doh.
+# keep: resolver Google Public DNS, che restano bloccati nel feed doh (keep vale su tutte le fonti).
 keep = ["8.8.8.8/32", "8.8.4.4/32", "2001:4860:4860::/64"]
 
 # ---------------------------------------------------------------------------
@@ -183,6 +205,54 @@ url = "https://raw.githubusercontent.com/duggytuxy/Data-Shield_IPv4_Blocklist/re
 homepage = "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist"
 license = "GPL-3.0"
 note = "Sonde e SIEM propri, non aggregatore"
+
+[[sources]]
+id = "social-meta"
+category = "social"
+format = "asn"
+asns = [32934, 63293, 54115]
+url = "https://iptoasn.com/"
+homepage = "https://iptoasn.com/"
+license = "PDDL 1.0 (iptoasn.com)"
+min_prefix_v4 = 12
+min_prefix_v6 = 24
+note = "Meta: Facebook, Instagram, WhatsApp, Threads"
+
+[[sources]]
+id = "social-tiktok"
+category = "social"
+format = "asn"
+asns = [396986, 138699]
+url = "https://iptoasn.com/"
+homepage = "https://iptoasn.com/"
+license = "PDDL 1.0 (iptoasn.com)"
+min_prefix_v4 = 12
+min_prefix_v6 = 24
+note = "ByteDance e TikTok (i contenuti video passano anche da CDN condivise: bloccare anche via DNS)"
+
+[[sources]]
+id = "social-x"
+category = "social"
+format = "asn"
+asns = [13414, 35995]
+url = "https://iptoasn.com/"
+homepage = "https://iptoasn.com/"
+license = "PDDL 1.0 (iptoasn.com)"
+min_prefix_v4 = 12
+min_prefix_v6 = 24
+note = "X (Twitter)"
+
+[[sources]]
+id = "social-telegram"
+category = "social"
+format = "asn"
+asns = [62041, 59930, 62014, 44907, 211157]
+url = "https://iptoasn.com/"
+homepage = "https://iptoasn.com/"
+license = "PDDL 1.0 (iptoasn.com)"
+min_prefix_v4 = 12
+min_prefix_v6 = 24
+note = "Telegram"
 
 [[sources]]
 id = "abusech-feodo"

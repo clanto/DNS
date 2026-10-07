@@ -11,7 +11,8 @@ solo su istanze dedicate ai clienti che le richiedono.
 
 | Lista | Descrizione | Voci | AdGuard | Formato semplice |
 |---|---|---|---|---|
-| `allow-base.txt` | Aggregato allowlist: google, apple, microsoft, pa, pagamenti, vendor-it, siti-web, smart-tv, scuola, varie | 71 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-base.txt) | — |
+| `allow-base.txt` | Aggregato allowlist: protetti, google, apple, microsoft, pa, pagamenti, vendor-it, siti-web, smart-tv, scuola, varie | 116 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-base.txt) | — |
+| `allow-protetti.txt` | Servizi critici: mai bloccati da liste domini, feed IP e liste OPNsense | 46 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-protetti.txt) | — |
 | `allow-google.txt` | Servizi Google indispensabili (Safe Browsing, app Android) | 8 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-google.txt) | — |
 | `allow-apple.txt` | Notifiche push Apple | 2 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-apple.txt) | — |
 | `allow-microsoft.txt` | Microsoft 365, licenze, Defender, Power BI | 8 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-microsoft.txt) | — |

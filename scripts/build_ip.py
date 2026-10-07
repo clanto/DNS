@@ -9,10 +9,13 @@ Uso:
 from __future__ import annotations
 
 import argparse
+import bisect
+import concurrent.futures as cf
 import ipaddress
 import json
 import os
 import re
+import socket
 import sys
 import tomllib
 import urllib.request
@@ -21,12 +24,15 @@ from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
 
+import asn
+
 ROOT = Path(__file__).resolve().parent.parent
 IP_DIR = ROOT / "ip"
 CONFIG_PATH = IP_DIR / "sources.toml"
 CUSTOM_DIR = IP_DIR / "custom"
 ALLOWLIST_PATH = IP_DIR / "allowlist.txt"
 SHARED_PATH = IP_DIR / "condivisi.txt"
+PROTECTED_PATH = ROOT / "domains" / "allowlist" / "protetti.txt"
 CACHE_DIR = IP_DIR / "cache"
 DIST_DIR = ROOT / "dist" / "ip"
 RAW_BASE = "https://raw.githubusercontent.com/clanto/DNS/main"
@@ -223,7 +229,7 @@ def load_config(errors: list[str]) -> dict:
             errors.append(f"sources.toml: fonte '{sid}' deve usare HTTPS")
         if not src.get("license"):
             errors.append(f"sources.toml: fonte '{sid}' senza licenza dichiarata")
-        if src.get("format", "text") not in ("text", "onionoo"):
+        if src.get("format", "text") not in ("text", "onionoo", "asn"):
             errors.append(f"sources.toml: fonte '{sid}' con formato sconosciuto '{src.get('format')}'")
     for name, agg in cfg.get("aggregates", {}).items():
         if name in categories:
@@ -261,7 +267,11 @@ def load_source(src: dict, settings: dict, offline: bool, persist: bool,
         result.status, result.entries = "cache", len(cached)
         return cached, result
     try:
-        text = fetch(src["url"])
+        if src.get("format") == "asn":
+            # Reti annunciate dagli AS indicati (iptoasn.com): url documenta la fonte
+            text = "\n".join(str(n) for n in asn.networks(src["asns"]))
+        else:
+            text = fetch(src["url"])
         if src.get("format") == "onionoo":
             text = onionoo_to_text(text)
         nets, rejected = parse_source_text(text, min_prefix)
@@ -289,9 +299,17 @@ def load_source(src: dict, settings: dict, offline: bool, persist: bool,
 def load_shared(cfg: dict, errors: list[str]) -> list[Network]:
     """Intervalli di CDN/hosting condivisi: fonti ufficiali + ip/condivisi.txt. Solleva eccezione se non raggiungibili."""
     nets: list[Network] = []
+    keep: list[Network] = []
     for src in cfg.get("shared_sources", []):
-        text = fetch(src["url"])
         fmt_ = src.get("format", "text")
+        keep += [ipaddress.ip_network(k) for k in src.get("keep", [])]
+        if fmt_ == "asn":
+            asn_nets = asn.networks(src["asns"])
+            if not asn_nets:
+                raise ValueError(f"intervalli condivisi '{src['id']}' vuoti")
+            nets += asn_nets
+            continue
+        text = fetch(src["url"])
         if fmt_ == "aws":
             data = json.loads(text)
             services = set(src.get("services", []))
@@ -309,14 +327,10 @@ def load_shared(cfg: dict, errors: list[str]) -> list[Network]:
             raise ValueError(f"intervalli condivisi '{src['id']}' vuoti")
         src_nets = [ipaddress.ip_network(c, strict=False) for c in cidrs]
         # subtract_url: reti da togliere (es. clienti Google Cloud, che hanno IP dedicati)
-        # keep: reti che restano bloccabili anche se dentro l'infrastruttura (es. 8.8.8.8)
-        minus: list[Network] = []
         if src.get("subtract_url"):
             sub = json.loads(fetch(src["subtract_url"])) if fmt_ == "google" else None
-            minus += [ipaddress.ip_network(p.get("ipv4Prefix") or p.get("ipv6Prefix")) for p in sub["prefixes"]] \
+            minus = [ipaddress.ip_network(p.get("ipv4Prefix") or p.get("ipv6Prefix")) for p in sub["prefixes"]] \
                 if sub else [ipaddress.ip_network(c, strict=False) for c in fetch(src["subtract_url"]).split()]
-        minus += [ipaddress.ip_network(k) for k in src.get("keep", [])]
-        if minus:
             src_nets = [n for v in FAMILIES for n in subtract(
                 list(ipaddress.collapse_addresses(x for x in src_nets if x.version == v)),
                 list(ipaddress.collapse_addresses(m for m in minus if m.version == v)))[0]]
@@ -324,16 +338,72 @@ def load_shared(cfg: dict, errors: list[str]) -> list[Network]:
     if SHARED_PATH.exists():
         entries, _ = load_annotated(SHARED_PATH, min_prefix=None, today=date.today(), errors=errors)
         nets += [e.net for e in entries]
-    return [n for v in FAMILIES for n in ipaddress.collapse_addresses(x for x in nets if x.version == v)]
+    merged = [n for v in FAMILIES for n in ipaddress.collapse_addresses(x for x in nets if x.version == v)]
+    # keep vale su tutte le fonti: reti che restano bloccabili anche dentro un'infrastruttura condivisa
+    # (es. 8.8.8.8 è sia in goog.json sia nell'AS15169)
+    if keep:
+        merged = [n for v in FAMILIES for n in subtract(
+            [x for x in merged if x.version == v],
+            list(ipaddress.collapse_addresses(k for k in keep if k.version == v)))[0]]
+    return merged
+
+
+def resolve_protected() -> dict[Network, set[str]]:
+    """IP attuali dei servizi protetti (domains/allowlist/protetti.txt) → host che li usano."""
+    if not PROTECTED_PATH.exists():
+        return {}
+    hosts = [line.split("|")[0].strip().lower() for line in PROTECTED_PATH.read_text(encoding="utf-8").splitlines()
+             if line.strip() and not line.startswith("#")]
+
+    def lookup(host: str) -> list[tuple[Network, str]]:
+        try:
+            infos = socket.getaddrinfo(host, None, proto=socket.IPPROTO_TCP)
+        except (socket.gaierror, UnicodeError, OSError):
+            return []
+        addrs = {ipaddress.ip_address(i[4][0].split("%")[0]) for i in infos}
+        return [(ipaddress.ip_network(a), host) for a in addrs if a.is_global]
+
+    out: dict[Network, set[str]] = {}
+    with cf.ThreadPoolExecutor(32) as ex:
+        for pairs in ex.map(lookup, hosts):
+            for net, host in pairs:
+                out.setdefault(net, set()).add(host)
+    return out
+
+
+class NetIndex:
+    """Ricerca veloce (binaria) delle reti di un insieme che si sovrappongono a una rete data."""
+
+    def __init__(self, nets) -> None:
+        nets = list(nets)  # può arrivare un generatore: va letto una volta per famiglia IP
+        self._idx = {}
+        for v in FAMILIES:
+            col = list(ipaddress.collapse_addresses(n for n in nets if n.version == v))
+            self._idx[v] = ([int(n.network_address) for n in col], [int(n.broadcast_address) for n in col], col)
+
+    def overlapping(self, net: Network) -> list[Network]:
+        starts, ends, col = self._idx[net.version]
+        lo, hi = int(net.network_address), int(net.broadcast_address)
+        i = bisect.bisect_right(starts, hi) - 1
+        found = []
+        # reti accorpate: ordinate e disgiunte, quindi anche le fine sono crescenti
+        while i >= 0 and ends[i] >= lo:
+            found.append(col[i])
+            i -= 1
+        return found
+
+    def overlaps(self, net: Network) -> bool:
+        return bool(self.overlapping(net))
 
 
 def subtract(nets: list[Network], allow: list[Network]) -> tuple[list[Network], int]:
     """Rimuove le reti in allowlist, spezzando i CIDR che le contengono."""
     out: list[Network] = []
     touched = 0
+    index = NetIndex(allow)
     for net in nets:
         pieces = [net]
-        for a in allow:
+        for a in index.overlapping(net):
             if a.version != net.version:
                 continue
             nxt: list[Network] = []
@@ -448,15 +518,31 @@ def main() -> int:
             # Errore di rete → il build fallisce prima di scrivere, restano i feed precedenti.
             shared = load_shared(cfg, errors)
 
-    allow_hits = 0
     shared_hits = 0
+    shared_index = NetIndex(shared)
+    for cat, meta in categories.items():
+        if meta.get("exclude_shared"):
+            before = len(per_cat[cat])
+            per_cat[cat] = {n for n in per_cat[cat] if not shared_index.overlaps(n)}
+            shared_hits += before - len(per_cat[cat])
+
+    # Servizi protetti: i loro IP attuali non devono mai finire nei feed (solo in build, serve DNS).
+    # Segnalati solo quelli rimasti dopo il filtro delle infrastrutture condivise: sono falsi positivi nuovi.
+    protected = {} if args.check else resolve_protected()
+    protected_hits: list[str] = []
+    for cat, meta in categories.items():
+        if meta.get("reserved") or not protected:
+            continue
+        cat_index = NetIndex(per_cat[cat])
+        for p, hosts in protected.items():
+            protected_hits += [f"{cat}: {n} usato da {', '.join(sorted(hosts))}" for n in cat_index.overlapping(p)]
+    for hit in protected_hits:
+        warn(f"servizio protetto nelle fonti, escluso: {hit}")
+    allow = allow + list(protected)
+
+    allow_hits = 0
     for cat, meta in categories.items():
         cat_allow = [] if meta.get("reserved") else allow
-        if meta.get("exclude_shared"):
-            before = {v: sum(1 for n in per_cat[cat] if n.version == v) for v in FAMILIES}
-            per_cat[cat] = {n for n in per_cat[cat]
-                            if not any(n.version == s.version and n.overlaps(s) for s in shared)}
-            shared_hits += sum(before.values()) - len(per_cat[cat])
         for v in FAMILIES:
             outputs[f"{cat}-v{v}.txt"], touched = finalize(per_cat[cat], cat_allow, v)
             allow_hits += touched
@@ -499,6 +585,7 @@ def main() -> int:
             "manuali": custom_stats,
             "allowlist": {"voci": len(allow), "reti_modificate": allow_hits},
             "condivisi": {"intervalli": len(shared), "voci_escluse": shared_hits},
+            "protetti": {"ip_risolti": len(protected), "voci_escluse": protected_hits},
         }
         (DIST_DIR / "stats.json").write_text(json.dumps(stats, indent=2, ensure_ascii=False) + "\n",
                                              encoding="utf-8", newline="\n")
@@ -508,7 +595,11 @@ def main() -> int:
     report = ["## Build feed IP", ""]
     report += [f"- `{s.id}`: {s.status}, {s.entries} voci {s.detail}".rstrip() for s in source_results if s.enabled]
     report += [f"- allowlist: {len(allow)} voci, {allow_hits} reti modificate",
-               f"- infrastrutture condivise: {len(shared)} intervalli, {shared_hits} voci escluse", ""]
+               f"- infrastrutture condivise: {len(shared)} intervalli, {shared_hits} voci escluse",
+               f"- servizi protetti: {len(protected)} IP risolti, {len(protected_hits)} voci escluse dai feed", ""]
+    if protected_hits:
+        report += ["### Servizi protetti trovati nelle fonti (falsi positivi evitati)", ""]
+        report += [f"- {h}" for h in protected_hits] + [""]
     if anomalies:
         report += ["### Variazioni anomale", ""] + [f"- {a}" for a in anomalies] + [""]
     if errors:

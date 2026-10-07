@@ -5,6 +5,7 @@
 #   in_base   (solo allow) inclusa in allow-base.txt, da applicare a tutti. Default true.
 #   important aggiunge $important: vince anche su regole di blocco $important. Default true per allow, false per block.
 #   tld       le voci sono TLD interi (es. xxx), non domini.
+#   protect   (solo allow) le voci vengono tolte da tutte le blocklist e i loro IP risolti esclusi dai feed IP.
 #   exclude   (solo block) toglie le voci già presenti nelle categorie elencate.
 #   opnsense  (solo block) genera anche dist/opnsense/<cat>.txt: domini risolti in CI, senza morti e
 #             senza quelli su IP CDN condivisi, da usare come alias FQDN su OPNsense.
@@ -14,6 +15,10 @@
 # Regola: in allowlist solo host indispensabili. Mai domini interi di vendor, mai voci che contraddicono
 # le blocklist (il build lo verifica) o le liste di bypass DNS/VPN upstream (verificato da check_domains.py).
 own_domains = ["clanto.cloud"]  # domini propri: mai bloccati, esclusi dal controllo bypass (es. dns.clanto.cloud)
+
+[allow.protetti]
+description = "Servizi critici: mai bloccati da liste domini, feed IP e liste OPNsense"
+protect = true  # tolti dalle nostre blocklist invece di generare un conflitto
 
 [allow.google]
 description = "Servizi Google indispensabili (Safe Browsing, app Android)"

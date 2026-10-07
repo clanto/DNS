@@ -5,6 +5,7 @@ OPNsense risolve ogni FQDN dell'alias e blocca gli IP ottenuti. Per evitare dann
 vengono scartati:
   - domini che non risolvono (morti): solo carico sul resolver
   - domini che risolvono su IP non instradabili (sinkhole)
+  - domini sugli IP di servizi protetti (domains/allowlist/protetti.txt)
   - domini su IP di CDN/hosting condivisi (Cloudflare, CloudFront, Global Accelerator, Fastly, Vercel…):
     bloccarli fermerebbe migliaia di siti
 
@@ -24,7 +25,7 @@ import sys
 import tomllib
 
 from build_domains import CONFIG_PATH, PLAIN_DIR
-from build_ip import CONFIG_PATH as IP_CONFIG, RAW_BASE, ROOT, load_shared, warn
+from build_ip import CONFIG_PATH as IP_CONFIG, RAW_BASE, ROOT, NetIndex, load_shared, resolve_protected, warn
 
 OUT_DIR = ROOT / "dist" / "opnsense"
 MIN_RESOLVED_RATIO = 0.2  # sotto questa quota di domini risolti si presume un problema di rete
@@ -52,13 +53,16 @@ def resolve(name: str) -> list[ipaddress.IPv4Address | ipaddress.IPv6Address]:
     return list({ipaddress.ip_address(i[4][0].split("%")[0]) for i in infos})
 
 
-def classify(name: str, cdn: list[Network]) -> str:
+def classify(name: str, cdn: NetIndex, protected: NetIndex) -> str:
     addrs = resolve(name)
     if not addrs:
         return "morto"
     if any(not a.is_global for a in addrs):
         return "sinkhole"
-    if any(a in n for a in addrs for n in cdn if n.version == a.version):
+    nets = [ipaddress.ip_network(a) for a in addrs]
+    if any(protected.overlaps(n) for n in nets):
+        return "protetto"  # stesso IP di un servizio critico (domains/allowlist/protetti.txt)
+    if any(cdn.overlaps(n) for n in nets):
         return "cdn"
     return "ok"
 
@@ -70,7 +74,8 @@ def main() -> int:
     cfg = tomllib.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     cats = {c: o for c, o in cfg.get("block", {}).items() if o.get("opnsense")}
     try:
-        cdn = cdn_ranges()
+        cdn = NetIndex(cdn_ranges())
+        protected = NetIndex(resolve_protected())
     except Exception as exc:  # senza filtro CDN non si pubblica: meglio tenere la versione precedente
         warn(f"intervalli CDN non disponibili ({exc}): liste OPNsense invariate")
         return 0
@@ -80,9 +85,9 @@ def main() -> int:
     for cat, opts in cats.items():
         names = [l for l in (PLAIN_DIR / f"block-{cat}.txt").read_text(encoding="utf-8").split() if l]
         with cf.ThreadPoolExecutor(64) as ex:
-            verdicts = dict(zip(names, ex.map(lambda n: classify(n, cdn), names)))
+            verdicts = dict(zip(names, ex.map(lambda n: classify(n, cdn, protected), names)))
         ok = sorted(n for n, v in verdicts.items() if v == "ok")
-        counts = {k: sum(1 for v in verdicts.values() if v == k) for k in ("ok", "morto", "sinkhole", "cdn")}
+        counts = {k: sum(1 for v in verdicts.values() if v == k) for k in ("ok", "morto", "sinkhole", "cdn", "protetto")}
         out = OUT_DIR / f"{cat}.txt"
         prev = len(out.read_text(encoding="utf-8").split()) if out.exists() else 0
         resolved = len(names) - counts["morto"]
@@ -98,7 +103,8 @@ def main() -> int:
         out.write_text("".join(f"{n}\n" for n in ok), encoding="utf-8", newline="\n")
         rows.append((cat, opts.get("description", ""), len(names), counts))
         print(f"- {cat}: {counts['ok']} pubblicati su {len(names)} "
-              f"(morti {counts['morto']}, sinkhole {counts['sinkhole']}, CDN condivise {counts['cdn']})")
+              f"(morti {counts['morto']}, sinkhole {counts['sinkhole']}, CDN condivise {counts['cdn']}, "
+              f"su IP di servizi protetti {counts['protetto']})")
 
     if rows:
         lines = [
@@ -119,7 +125,7 @@ def main() -> int:
                              f"versione precedente (ultimo build non valido) | | | {total} |")
                 continue
             lines.append(f"| [{cat}.txt]({RAW_BASE}/dist/opnsense/{cat}.txt) | {desc} | {c['ok']} | "
-                         f"{c['morto'] + c['sinkhole']} | {c['cdn']} | {total} |")
+                         f"{c['morto'] + c['sinkhole']} | {c['cdn'] + c['protetto']} | {total} |")
         (OUT_DIR / "README.md").write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
     return 0
 
