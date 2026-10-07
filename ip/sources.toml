@@ -52,7 +52,8 @@ description = "IP di siti warez (non più curati, mantenuti per compatibilità)"
 # Infrastrutture condivise: intervalli ufficiali di CDN/hosting usati solo per il filtro exclude_shared
 # (e per le liste OPNsense). Non vengono pubblicati né salvati in cache: se non sono raggiungibili il
 # build fallisce e restano online i feed precedenti.
-# format: text (un CIDR per riga) | aws (ip-ranges.json, con services) | fastly (public-ip-list)
+# format: text (un CIDR per riga) | aws (ip-ranges.json, con services) | fastly (public-ip-list) | google (goog.json)
+# subtract_url: reti da togliere dall'infrastruttura; keep: reti che restano comunque bloccabili
 # ---------------------------------------------------------------------------
 
 [[shared_sources]]
@@ -75,6 +76,16 @@ services = ["CLOUDFRONT", "GLOBALACCELERATOR"]
 id = "fastly"
 url = "https://api.fastly.com/public-ip-list"
 format = "fastly"
+
+[[shared_sources]]
+id = "google"
+url = "https://www.gstatic.com/ipranges/goog.json"
+format = "google"
+subtract_url = "https://www.gstatic.com/ipranges/cloud.json"  # le VM Google Cloud hanno IP dedicati
+# I front-end Google servono insieme Gmail/SMTP, Workspace, App Engine, Firebase, Cloud Run, Blogger:
+# un dominio VPN su *.web.app o *.appspot.com risolverebbe su IP condivisi con smtp.gmail.com.
+# keep: resolver Google Public DNS, che restano bloccati nel feed doh.
+keep = ["8.8.8.8/32", "8.8.4.4/32", "2001:4860:4860::/64"]
 
 # ---------------------------------------------------------------------------
 # Provider DNS con AS dedicato: le loro reti stanno in ip/custom/<categoria>.txt e un controllo

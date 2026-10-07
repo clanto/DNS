@@ -2,15 +2,15 @@
   "feed": {
     "doh-v4.txt": 1330,
     "doh-v6.txt": 684,
-    "tor-v4.txt": 5236,
-    "tor-v6.txt": 2473,
-    "threat-v4.txt": 27692,
+    "tor-v4.txt": 5209,
+    "tor-v6.txt": 2461,
+    "threat-v4.txt": 27700,
     "threat-v6.txt": 0,
     "c2-v4.txt": 5,
     "c2-v6.txt": 0,
     "vpn-v4.txt": 11780,
     "vpn-v6.txt": 414,
-    "inbound-v4.txt": 78861,
+    "inbound-v4.txt": 78572,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
@@ -18,10 +18,10 @@
     "hacking-v6.txt": 0,
     "warez-v4.txt": 22,
     "warez-v6.txt": 0,
-    "all-v4.txt": 34101,
-    "all-v6.txt": 3157,
-    "all-scuole-v4.txt": 45388,
-    "all-scuole-v6.txt": 3518
+    "all-v4.txt": 34082,
+    "all-v6.txt": 3145,
+    "all-scuole-v4.txt": 45368,
+    "all-scuole-v6.txt": 3508
   },
   "fonti": [
     {
@@ -51,7 +51,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "cache",
-      "entries": 1274,
+      "entries": 1275,
       "detail": ""
     },
     {
@@ -61,7 +61,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "cache",
-      "entries": 9699,
+      "entries": 9672,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -81,7 +81,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "cache",
-      "entries": 17027,
+      "entries": 17039,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -111,7 +111,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "cache",
-      "entries": 88608,
+      "entries": 88314,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -195,10 +195,10 @@
   },
   "allowlist": {
     "voci": 3,
-    "reti_modificate": 3
+    "reti_modificate": 1
   },
   "condivisi": {
-    "intervalli": 335,
-    "voci_escluse": 1352
+    "intervalli": 775,
+    "voci_escluse": 1354
   }
 }

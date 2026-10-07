@@ -18,3 +18,4 @@
 2620:149::/32 | 2026-10-07 | Apple AS714: Private Relay e DoH Apple condividono gli IP con iCloud/CloudKit (iPad, Apple Classroom); Private Relay si blocca via DNS (block-doh) | -
 2a01:b740::/32 | 2026-10-07 | Apple AS714: Private Relay e DoH Apple condividono gli IP con iCloud/CloudKit (iPad, Apple Classroom); Private Relay si blocca via DNS (block-doh) | -
 2a01:b747::/32 | 2026-10-07 | Apple AS714: Private Relay e DoH Apple condividono gli IP con iCloud/CloudKit (iPad, Apple Classroom); Private Relay si blocca via DNS (block-doh) | -
+199.36.158.0/24 | 2026-10-08 | Firebase Hosting (*.web.app, *.firebaseapp.com) su Fastly AS54113, IP condiviso non presente nell'elenco pubblico Fastly | -

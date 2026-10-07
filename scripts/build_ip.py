@@ -300,11 +300,27 @@ def load_shared(cfg: dict, errors: list[str]) -> list[Network]:
         elif fmt_ == "fastly":
             data = json.loads(text)
             cidrs = data.get("addresses", []) + data.get("ipv6_addresses", [])
+        elif fmt_ == "google":
+            data = json.loads(text)
+            cidrs = [p.get("ipv4Prefix") or p.get("ipv6Prefix") for p in data["prefixes"]]
         else:
             cidrs = text.split()
         if not cidrs:
             raise ValueError(f"intervalli condivisi '{src['id']}' vuoti")
-        nets += [ipaddress.ip_network(c, strict=False) for c in cidrs]
+        src_nets = [ipaddress.ip_network(c, strict=False) for c in cidrs]
+        # subtract_url: reti da togliere (es. clienti Google Cloud, che hanno IP dedicati)
+        # keep: reti che restano bloccabili anche se dentro l'infrastruttura (es. 8.8.8.8)
+        minus: list[Network] = []
+        if src.get("subtract_url"):
+            sub = json.loads(fetch(src["subtract_url"])) if fmt_ == "google" else None
+            minus += [ipaddress.ip_network(p.get("ipv4Prefix") or p.get("ipv6Prefix")) for p in sub["prefixes"]] \
+                if sub else [ipaddress.ip_network(c, strict=False) for c in fetch(src["subtract_url"]).split()]
+        minus += [ipaddress.ip_network(k) for k in src.get("keep", [])]
+        if minus:
+            src_nets = [n for v in FAMILIES for n in subtract(
+                list(ipaddress.collapse_addresses(x for x in src_nets if x.version == v)),
+                list(ipaddress.collapse_addresses(m for m in minus if m.version == v)))[0]]
+        nets += src_nets
     if SHARED_PATH.exists():
         entries, _ = load_annotated(SHARED_PATH, min_prefix=None, today=date.today(), errors=errors)
         nets += [e.net for e in entries]
