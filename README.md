@@ -65,7 +65,7 @@ Solo host indispensabili, mai domini interi. Nessuna voce può contraddire le no
 | [allow-varie.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-varie.txt) | Siti specifici bloccati per errore |
 | [allow-streaming.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-streaming.txt) | Host di Spotify, Netflix, Disney+, DAZN: **non per le scuole** |
 
-### Blocklist curate
+### Blocklist
 
 | Lista | Contenuto | Unbound | Solo domini |
 |---|---|---|---|
@@ -79,6 +79,12 @@ Solo host indispensabili, mai domini interi. Nessuna voce può contraddire le no
 | [block-gaming.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-gaming.txt) | Piattaforme gaming e giochi da browser (scuole) | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-gaming.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-gaming.txt) |
 | [block-doh.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-doh.txt) | Resolver DoH/DoT/DoQ: HaGeZi e dibdot, aggiornati ogni 6 ore | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-doh.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-doh.txt) |
 | [block-vpn.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-vpn.txt) | VPN, proxy e bypass, esclusi i DoH: HaGeZi, aggiornati ogni 6 ore (scuole) | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-vpn.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-vpn.txt) |
+| [block-malware.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware.txt) | Malware e minacce confermate (HaGeZi Threat Intelligence mini, ~207.000) | — | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware.txt) |
+| [block-phishing.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-phishing.txt) | Phishing attivo (Phishing.Database, ~390.000) | — | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-phishing.txt) |
+| [block-redirect.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-redirect.txt) | Redirect e URL shortener (BlocklistProject, ~109.000) | — | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-redirect.txt) |
+| [block-pirateria.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pirateria.txt) | Pirateria, warez, streaming illegale (HaGeZi Anti-Piracy + voci nostre) | — | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pirateria.txt) |
+| [block-spyware.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-spyware.txt) | Stalkerware e app spia (Stalkerware Indicators + voci nostre) | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-spyware.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-spyware.txt) |
+| [block-cryptojacking.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-cryptojacking.txt) | Mining di criptovalute nel browser (NoCoin) | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-cryptojacking.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-cryptojacking.txt) |
 
 Le liste di policy (accesso remoto, AI, file sharing, social, gaming, streaming) in AdGuard Home valgono per **tutti** i client: vanno applicate solo sulle istanze dei clienti che le richiedono.
 
@@ -126,20 +132,14 @@ Principali liste esterne, con licenza verificata per l'uso commerciale. Il catal
 
 ## Liste storiche
 
-File originali del repository, mantenuti agli stessi URL per compatibilità. `DNSoverHTTPS/doh.txt` e `liste/vpn.txt` sono stati rimossi: li sostituiscono le liste dinamiche [block-doh.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-doh.txt) e [block-vpn.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-vpn.txt).
+Liste storiche **curate a mano**, mantenute agli stessi URL per compatibilità. Quelle sostituite da liste dinamiche sono state rimosse: `appspia` → `block-spyware`, `criptojacking` → `block-cryptojacking`, `malware` → `block-malware`, `pishing` → `block-phishing`, `redirect` → `block-redirect`, `warez` e `lista_streaming_illegale` → `block-pirateria` (le voci curate da noi sono confluite nelle nuove liste). `DNSoverHTTPS/doh.txt` e `liste/vpn.txt` sono stati rimossi: li sostituiscono le liste dinamiche [block-doh.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-doh.txt) e [block-vpn.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-vpn.txt).
 
 | Lista | Contenuto | Stato |
 |---|---|---|
-| [appspia.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/appspia.txt) | App spia | Integrata da Stalkerware Indicators |
-| [criptojacking.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/criptojacking.txt) | Cryptojacking | Ferma; sostituita da NoCoin |
 | [ddos.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/ddos.txt) | Servizi di attacco DDoS | Curata da noi |
-| [lista_streaming_illegale.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/lista_streaming_illegale.txt) | Streaming illegale | Curata da noi |
 | [lista_streaming_legale_noscuola.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/lista_streaming_legale_noscuola.txt) | Streaming legale non ammesso a scuola | Curata da noi |
-| [malware.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/malware.txt) | Malware | Ferma dal 2022; sostituita da HaGeZi TIF |
 | [motori_ricerca_nosafesearch.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/motori_ricerca_nosafesearch.txt) | Motori di ricerca senza Safe Search | Curata da noi |
-| [pishing.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/pishing.txt) | Phishing | Ferma; già contenuta in malware.txt |
 | [pornoextra.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/pornoextra.txt) | Siti porno che superavano i filtri | Curata da noi |
-| [redirect.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/redirect.txt) | Redirect e URL shortener | Ferma; sostituita da BlocklistProject Redirect |
 | [roblox.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/roblox.txt) | Roblox | Curata da noi |
 | [ipv4.txt](https://raw.githubusercontent.com/clanto/DNS/main/DNSoverHTTPS/ipv4.txt) | IP DNS-over-HTTPS | **Generata**: uguale a `dist/ip/doh-v4.txt` |
 | [ubound_safesearch.conf](https://raw.githubusercontent.com/clanto/DNS/main/safe_search/ubound_safesearch.conf) | Unbound: Safe Search forzato (Google, Bing, DuckDuckGo, Yandex, YouTube, Pixabay) | Curata da noi |

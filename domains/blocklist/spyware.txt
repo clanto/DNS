@@ -1,0 +1,25 @@
+# Blocklist domini - spyware
+# Aggiunte manuali oltre alle fonti dinamiche (domains.toml).
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+apispyhuman.com | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+appspy.net | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+catwatchful.com | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+flexispy.com | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+guestspy.com | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+ikeymonitor.fr | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+ispyoo.com | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+logger.mobi | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+mobispy.net | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+mtracker.fortess.net | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+netspy.net | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+onlinefundb.com | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+reptilicus.net | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+shadow-logs.com | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+snoopza.com | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+spy-datacenter.com | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+spy2mobile.com | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+tchsrvce.com | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+thetruthspy.com | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+trackmyphones.com | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+wisemo.com | 2022-01-05 | legacy liste/appspia.txt: app spia | -
+xnore.com | 2022-01-05 | legacy liste/appspia.txt: app spia | -

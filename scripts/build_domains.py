@@ -245,6 +245,8 @@ def main() -> int:
             names, expired = (load(path, tld=opts.get("tld", False), today=today, errors=errors)
                               if path.exists() else ([], 0))
             collected[(kind, cat)] = (set(names), expired)
+    # voci manuali delle blocklist: un conflitto con l'allowlist su queste è un errore
+    manual = {cat: set(collected[("block", cat)][0]) for cat in cfg.get("block", {})}
 
     ids: set[str] = set()
     for src in cfg.get("sources", []):
@@ -285,6 +287,42 @@ def main() -> int:
             protect_report += [f"- protetto `{p}` coperto dal padre `{x}` in block/{cat} (sbloccato solo su AdGuard)"
                                for x in sorted(parents)]
 
+    # Un'allowlist non deve mai annullare una nostra blocklist (es. sbloccare nordvpn e bloccare le VPN).
+    # Voce manuale in conflitto → errore. Voce da fonte upstream: tolta se l'allowlist la copre, segnalata se
+    # ne è il dominio padre (AdGuard sblocca comunque l'host con $important). Ricerca per insiemi: le liste
+    # dinamiche hanno centinaia di migliaia di voci.
+    allow_items = [(cat, a) for (kind, cat), (cat_names, _) in collected.items()
+                   if kind == "allow" and not cfg["allow"][cat].get("protect") for a in cat_names]
+    allow_exact = {a: cat for cat, a in allow_items if "*" not in a}
+    allow_wild = [(cat, a) for cat, a in allow_items if "*" in a]
+    conflict_report: list[str] = []
+
+    def suffixes(name: str) -> list[str]:
+        parts = name.split(".")
+        return [".".join(parts[i:]) for i in range(len(parts))]
+
+    for cat in cfg.get("block", {}):
+        names = collected[("block", cat)][0]
+        for b in sorted(names):
+            hits = [(allow_exact[s], s) for s in suffixes(b) if s in allow_exact]
+            hits += [(acat, a) for acat, a in allow_wild if covers(a, b)]
+            if not hits:
+                continue
+            acat, a = hits[0]
+            if b in manual[cat]:
+                errors.append(f"conflitto: allow/{acat} '{a}' contraddice block/{cat} '{b}'")
+            else:
+                names.discard(b)
+                conflict_report.append(f"- `{b}` (fonte upstream) tolto da block/{cat}: in allow/{acat} '{a}'")
+        for a, acat in allow_exact.items():
+            for parent in suffixes(a)[1:]:
+                if parent in names:
+                    if parent in manual[cat]:
+                        errors.append(f"conflitto: allow/{acat} '{a}' contraddice block/{cat} '{parent}'")
+                    else:
+                        conflict_report.append(f"- allow/{acat} `{a}` coperto da `{parent}` (fonte upstream) in "
+                                               f"block/{cat}: sbloccato solo su AdGuard")
+
     for (kind, cat), (name_set, expired) in collected.items():
         opts = cfg[kind][cat]
         names = sorted(name_set)
@@ -293,31 +331,26 @@ def main() -> int:
         suffix = "$important" if important else ""
         prefix = "@@||" if kind == "allow" else "||"
         fname = f"{kind}-{cat}.txt"
-        adguard[fname] = "".join(f"{prefix}{d}^{suffix}\n" for d in final)
+        outputs = opts.get("outputs", ["adguard", "domains", "unbound"])
+        if "adguard" in outputs or kind == "allow":
+            adguard[fname] = "".join(f"{prefix}{d}^{suffix}\n" for d in final)
         if kind == "block":
-            entries["block"] += [(cat, d) for d in names]
             simple = [d for d in final if "*" not in d]
-            # Lista completa, senza deduplica per dominio padre: OPNsense risolve solo il nome esatto
-            plain[fname] = "".join(f"{d}\n" for d in names if "*" not in d)
-            unbound[f"block-{cat}.conf"] = "".join(f'local-zone: "{d}." always_nxdomain\n' for d in simple)
-        else:
-            entries["allow"] += [(cat, d) for d in names]
-            if opts.get("in_base", True):
-                base.update(names)
-        meta[fname] = (opts.get("description", ""), fname if kind == "block" else "", len(final))
+            if "domains" in outputs:
+                # Lista completa, senza deduplica per dominio padre: OPNsense risolve solo il nome esatto
+                plain[fname] = "".join(f"{d}\n" for d in names if "*" not in d)
+            if "unbound" in outputs:
+                unbound[f"block-{cat}.conf"] = "".join(f'local-zone: "{d}." always_nxdomain\n' for d in simple)
+        elif opts.get("in_base", True):
+            base.update(names)
+        meta[fname] = (opts.get("description", ""), fname if kind == "block" and "domains" in outputs else "",
+                       len(final))
         print(f"- {kind}/{cat}: {len(final)} voci, {expired} scadute")
 
     print("\n".join(source_report))
-    # Un'allowlist non deve mai annullare una nostra blocklist (es. sbloccare nordvpn e bloccare le VPN)
-    for line in protect_report:
+    for line in protect_report + conflict_report:
         warn(line.lstrip("- ").replace("`", ""))
-    print("\n".join(protect_report))
-    for acat, a in entries["allow"]:
-        if cfg["allow"][acat].get("protect"):
-            continue  # gestiti sopra: rimozione o segnalazione, mai errore
-        for bcat, b in entries["block"]:
-            if overlaps(a, b):
-                errors.append(f"conflitto: allow/{acat} '{a}' contraddice block/{bcat} '{b}'")
+    print("\n".join(protect_report + conflict_report))
 
     final_base = drop_covered(base)
     adguard["allow-base.txt"] = "".join(f"@@||{d}^$important\n" for d in final_base)

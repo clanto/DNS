@@ -2,9 +2,9 @@
   "feed": {
     "doh-v4.txt": 1330,
     "doh-v6.txt": 689,
-    "tor-v4.txt": 5209,
-    "tor-v6.txt": 2461,
-    "threat-v4.txt": 27700,
+    "tor-v4.txt": 5230,
+    "tor-v6.txt": 2458,
+    "threat-v4.txt": 27710,
     "threat-v6.txt": 0,
     "c2-v4.txt": 5,
     "c2-v6.txt": 0,
@@ -12,7 +12,7 @@
     "vpn-v6.txt": 414,
     "social-v4.txt": 211,
     "social-v6.txt": 119,
-    "inbound-v4.txt": 78572,
+    "inbound-v4.txt": 78368,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
@@ -20,10 +20,10 @@
     "hacking-v6.txt": 0,
     "warez-v4.txt": 22,
     "warez-v6.txt": 0,
-    "all-v4.txt": 34082,
-    "all-v6.txt": 3150,
-    "all-scuole-v4.txt": 42835,
-    "all-scuole-v6.txt": 3513
+    "all-v4.txt": 34113,
+    "all-v6.txt": 3147,
+    "all-scuole-v4.txt": 42866,
+    "all-scuole-v6.txt": 3508
   },
   "fonti": [
     {
@@ -53,7 +53,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1232,
+      "entries": 1277,
       "detail": ""
     },
     {
@@ -62,9 +62,9 @@
       "license": "CC0 (Tor Metrics)",
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
-      "status": "ok",
-      "entries": 9652,
-      "detail": "Tutti i relay attivi (guard, middle, exit)"
+      "status": "cache",
+      "entries": 9615,
+      "detail": "<urlopen error [Errno 11002] getaddrinfo failed>"
     },
     {
       "id": "ipsum-level3",
@@ -83,7 +83,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 16925,
+      "entries": 17056,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -113,7 +113,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 88457,
+      "entries": 88090,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -236,15 +236,15 @@
     }
   },
   "allowlist": {
-    "voci": 121,
+    "voci": 123,
     "reti_modificate": 1
   },
   "condivisi": {
-    "intervalli": 11269,
+    "intervalli": 11268,
     "voci_escluse": 3880
   },
   "protetti": {
-    "ip_risolti": 118,
+    "ip_risolti": 120,
     "voci_escluse": []
   }
 }

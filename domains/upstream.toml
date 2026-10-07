@@ -90,7 +90,7 @@ url = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt"
 category = "spyware"
 license = "CC BY-4.0"
 status = "attiva"
-note = "Integra liste/appspia.txt"
+note = "Ripubblicata in dist/adguard/block-spyware.txt"
 
 [[lists]]
 name = "NoCoin"
@@ -98,7 +98,7 @@ url = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt"
 category = "cryptojacking"
 license = "MIT"
 status = "attiva"
-note = "Sostituisce liste/criptojacking.txt (4.804 righe corrotte)"
+note = "Ripubblicata in dist/adguard/block-cryptojacking.txt"
 
 [[lists]]
 name = "BlocklistProject Fraud"
@@ -142,7 +142,7 @@ url = "https://blocklistproject.github.io/Lists/adguard/redirect-ags.txt"
 category = "redirect"
 license = "Unlicense"
 status = "attiva"
-note = "Origine probabile di liste/redirect.txt"
+note = "Ripubblicata in dist/adguard/block-redirect.txt"
 
 [[lists]]
 name = "HaGeZi NRD 7 giorni"
@@ -279,7 +279,7 @@ url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.pir
 category = "pirateria"
 license = "GPL-3.0"
 status = "consigliata"
-note = "Integra liste/warez.txt e liste/lista_streaming_illegale.txt"
+note = "Ripubblicata in dist/adguard/block-pirateria.txt"
 
 [[lists]]
 name = "ADM siti di gioco inibiti"

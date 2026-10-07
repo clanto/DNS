@@ -32,8 +32,14 @@ solo su istanze dedicate ai clienti che le richiedono.
 | `block-file-sharing.txt` | File sharing e trasferimento file anonimi (policy di prevenzione fuga dati) | 15 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-file-sharing.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-file-sharing.txt) |
 | `block-social.txt` | Social network e piattaforme community (scuole) | 27 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-social.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-social.txt) |
 | `block-gaming.txt` | Giochi online e piattaforme di gaming (scuole) | 20 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-gaming.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-gaming.txt) |
-| `block-doh.txt` | Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale | 3299 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-doh.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-doh.txt) |
-| `block-vpn.txt` | VPN, proxy e servizi di bypass (scuole) | 12798 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-vpn.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-vpn.txt) |
+| `block-doh.txt` | Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale | 3305 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-doh.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-doh.txt) |
+| `block-vpn.txt` | VPN, proxy e servizi di bypass (scuole) | 12853 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-vpn.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-vpn.txt) |
+| `block-malware.txt` | Malware e minacce confermate (HaGeZi Threat Intelligence mini) | 207189 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware.txt) |
+| `block-phishing.txt` | Phishing attivo (Phishing.Database, solo domini attivi) | 371769 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-phishing.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-phishing.txt) |
+| `block-spyware.txt` | Stalkerware e app spia | 528 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-spyware.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-spyware.txt) |
+| `block-cryptojacking.txt` | Mining di criptovalute nel browser | 296 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-cryptojacking.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-cryptojacking.txt) |
+| `block-redirect.txt` | Redirect e URL shortener (BlocklistProject) | 108680 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-redirect.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-redirect.txt) |
+| `block-pirateria.txt` | Pirateria, warez e streaming illegale | 54778 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pirateria.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pirateria.txt) |
 
 ## Catalogo liste upstream (abbonamento diretto su AdGuard)
 
@@ -50,14 +56,14 @@ solo su istanze dedicate ai clienti che le richiedono.
 | [uBlock Badware risks](https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt) | malware | GPL-3.0 | attiva |  |
 | [DurableNapkin Scam](https://adguardteam.github.io/HostlistsRegistry/assets/filter_10.txt) | scam | MIT | attiva |  |
 | [ShadowWhisperer Malware](https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt) | malware | Unlicense | attiva |  |
-| [Stalkerware Indicators](https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt) | spyware | CC BY-4.0 | attiva | Integra liste/appspia.txt |
-| [NoCoin](https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt) | cryptojacking | MIT | attiva | Sostituisce liste/criptojacking.txt (4.804 righe corrotte) |
+| [Stalkerware Indicators](https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt) | spyware | CC BY-4.0 | attiva | Ripubblicata in dist/adguard/block-spyware.txt |
+| [NoCoin](https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt) | cryptojacking | MIT | attiva | Ripubblicata in dist/adguard/block-cryptojacking.txt |
 | [BlocklistProject Fraud](https://blocklistproject.github.io/Lists/adguard/fraud-ags.txt) | scam | Unlicense | attiva |  |
 | [BlocklistProject Malware](https://blocklistproject.github.io/Lists/adguard/malware-ags.txt) | malware | Unlicense | attiva | 2,6M righe, molto sovrapposta a HaGeZi TIF |
 | [BlocklistProject Phishing](https://blocklistproject.github.io/Lists/adguard/phishing-ags.txt) | phishing | Unlicense | attiva |  |
 | [BlocklistProject Ransomware](https://blocklistproject.github.io/Lists/adguard/ransomware-ags.txt) | ransomware | Unlicense | attiva |  |
 | [BlocklistProject Scam](https://blocklistproject.github.io/Lists/adguard/scam-ags.txt) | scam | Unlicense | attiva |  |
-| [BlocklistProject Redirect](https://blocklistproject.github.io/Lists/adguard/redirect-ags.txt) | redirect | Unlicense | attiva | Origine probabile di liste/redirect.txt |
+| [BlocklistProject Redirect](https://blocklistproject.github.io/Lists/adguard/redirect-ags.txt) | redirect | Unlicense | attiva | Ripubblicata in dist/adguard/block-redirect.txt |
 | [HaGeZi NRD 7 giorni](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd7.txt) | domini nuovi | GPL-3.0 | consigliata | 3,6M righe: verificare RAM di AdGuard; i successivi nrd14-8, nrd21-15, nrd28-22 aggiungono ~2-3M ciascuno |
 | [HaGeZi DGA 7 giorni](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/dga7.txt) | malware (DGA) | GPL-3.0 | consigliata |  |
 | [HaGeZi DynDNS](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt) | dns dinamici | GPL-3.0 | consigliata |  |
@@ -75,7 +81,7 @@ solo su istanze dedicate ai clienti che le richiedono.
 | [BlocklistProject Porn](https://blocklistproject.github.io/Lists/adguard/porn-ags.txt) | adulti | Unlicense | attiva |  |
 | [HaGeZi NSFW](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt) | adulti | GPL-3.0 | consigliata |  |
 | [HaGeZi Gambling](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt) | scommesse | GPL-3.0 | consigliata |  |
-| [HaGeZi Anti-Piracy](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt) | pirateria | GPL-3.0 | consigliata | Integra liste/warez.txt e liste/lista_streaming_illegale.txt |
+| [HaGeZi Anti-Piracy](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt) | pirateria | GPL-3.0 | consigliata | Ripubblicata in dist/adguard/block-pirateria.txt |
 | [ADM siti di gioco inibiti](https://www.adm.gov.it/portale/siti-web-inibiti-giochi) | scommesse | Non dichiarata | solo riferimento | Il file TXT ha URL versionato che cambia a ogni aggiornamento; licenza di riuso non indicata |
 | [UT1 Université Toulouse Capitole](https://dsi.ut-capitole.fr/blacklists/index_en.php) | categorie scuola | CC BY-SA 4.0 | consigliata | Uso commerciale consentito con attribuzione e ShareAlike |
 | [HaGeZi Allowlist Referral](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/whitelist-referral.txt) | allowlist | GPL-3.0 | consigliata | Link di affiliazione/referral legittimi |

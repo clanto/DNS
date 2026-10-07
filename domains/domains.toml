@@ -7,6 +7,7 @@
 #   tld       le voci sono TLD interi (es. xxx), non domini.
 #   protect   (solo allow) le voci vengono tolte da tutte le blocklist e i loro IP risolti esclusi dai feed IP.
 #   exclude   (solo block) toglie le voci già presenti nelle categorie elencate.
+#   outputs   formati da generare: adguard, domains, unbound (default tutti; liste grandi senza unbound).
 #   opnsense  (solo block) genera anche dist/opnsense/<cat>.txt: domini risolti in CI, senza morti e
 #             senza quelli su IP CDN condivisi, da usare come alias FQDN su OPNsense.
 # Fonti upstream di una categoria: [[sources]] (stessi guardrail dei feed IP, cache in domains/cache/).
@@ -89,6 +90,28 @@ description = "VPN, proxy e servizi di bypass (scuole)"
 opnsense = true
 exclude = ["doh"]  # i domini DoH stanno già nella categoria doh
 
+[block.malware]
+description = "Malware e minacce confermate (HaGeZi Threat Intelligence mini)"
+outputs = ["adguard", "domains"]
+
+[block.phishing]
+description = "Phishing attivo (Phishing.Database, solo domini attivi)"
+outputs = ["adguard", "domains"]
+
+[block.spyware]
+description = "Stalkerware e app spia"
+
+[block.cryptojacking]
+description = "Mining di criptovalute nel browser"
+
+[block.redirect]
+description = "Redirect e URL shortener (BlocklistProject)"
+outputs = ["adguard", "domains"]
+
+[block.pirateria]
+description = "Pirateria, warez e streaming illegale"
+outputs = ["adguard", "domains"]
+
 # ---------------------------------------------------------------------------
 # Fonti upstream delle blocklist
 # format: domains (un dominio per riga) | adblock (||dominio^) | hosts (0.0.0.0 dominio)
@@ -135,3 +158,51 @@ shared_as_keywords = ["AKAMAI", "FASTLY", "NETLIFY", "GITHUB", "HEROKU", "AUTOMA
 shared_asn = [15169]
 min_domains_per_ip = 3
 ignore = ["dns.google", "dns64.dns.google", "8888.google", "google-public-dns-a.google.com", "google-public-dns-b.google.com"]
+
+[[sources]]
+id = "hagezi-tif-mini"
+category = "malware"
+url = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.mini-onlydomains.txt"
+format = "domains"
+homepage = "https://github.com/hagezi/dns-blocklists"
+license = "GPL-3.0"
+
+[[sources]]
+id = "phishing-database-active"
+category = "phishing"
+url = "https://raw.githubusercontent.com/Phishing-Database/Phishing.Database/master/phishing-domains-ACTIVE.txt"
+format = "domains"
+homepage = "https://github.com/Phishing-Database/Phishing.Database"
+license = "MIT"
+
+[[sources]]
+id = "stalkerware-indicators"
+category = "spyware"
+url = "https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts"
+format = "domains"
+homepage = "https://github.com/AssoEchap/stalkerware-indicators"
+license = "CC BY 4.0 (Echap)"
+
+[[sources]]
+id = "nocoin"
+category = "cryptojacking"
+url = "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt"
+format = "hosts"
+homepage = "https://github.com/hoshsadiq/adblock-nocoin-list"
+license = "MIT"
+
+[[sources]]
+id = "blocklistproject-redirect"
+category = "redirect"
+url = "https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt"
+format = "domains"
+homepage = "https://github.com/blocklistproject/Lists"
+license = "Unlicense"
+
+[[sources]]
+id = "hagezi-anti-piracy"
+category = "pirateria"
+url = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/anti.piracy-onlydomains.txt"
+format = "domains"
+homepage = "https://github.com/hagezi/dns-blocklists"
+license = "GPL-3.0"
