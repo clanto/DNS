@@ -2672,6 +2672,7 @@ newlibrarian.myqnapcloud.com
 next.atomix.in
 next.miao.ninja
 nextcloud.d-alahmad.de
+nextdns.io
 nfnvr.noiselink.com
 nickcan.xyz
 nicknarayong.ddns.net

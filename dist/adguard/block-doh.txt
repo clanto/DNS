@@ -1518,12 +1518,7 @@
 ||dns.mafyuh.io^
 ||filter.myaddr.io^
 ||dns.n23.io^
-||anycast.nextdns.io^
-||dns.nextdns.io^
-||dns1.nextdns.io^
-||dns2.nextdns.io^
-||edge.nextdns.io^
-||steering.nextdns.io^
+||nextdns.io^
 ||dns1.ntus.io^
 ||resolver4.dns.openinternet.io^
 ||de.dns.privex.io^
