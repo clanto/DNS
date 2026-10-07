@@ -50,7 +50,7 @@
       "license": "CC0 (Tor Metrics)",
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
-      "status": "cache",
+      "status": "ok",
       "entries": 1270,
       "detail": ""
     },
@@ -60,7 +60,7 @@
       "license": "CC0 (Tor Metrics)",
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
-      "status": "cache",
+      "status": "ok",
       "entries": 9676,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
@@ -80,7 +80,7 @@
       "license": "Unlicense",
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
-      "status": "cache",
+      "status": "ok",
       "entries": 17021,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
@@ -110,7 +110,7 @@
       "license": "GPL-3.0",
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
-      "status": "cache",
+      "status": "ok",
       "entries": 88691,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },

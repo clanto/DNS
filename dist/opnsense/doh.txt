@@ -21,7 +21,6 @@
 23.106.141.137.16clouds.com
 3.11i.eu
 3.local-dns.noridev.moe
-3dcosas.xyz
 3dns.eu
 3jjxxl.tech
 51576162.ru
@@ -571,6 +570,7 @@ dns-three.lins.co.tt
 dns-tls.bitwiseshift.net
 dns-uk.puregeni.us
 dns-unfiltered.adguard.com
+dns-us.ibmcloud.top
 dns.0ooo.icu
 dns.13evl.com
 dns.23-4.cn
@@ -1378,7 +1378,6 @@ doh-03.spectrum.com
 doh-2.seby.io
 doh-ca.naftalie.net
 doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr
-doh-dns-apple-com.v.aaplimg.com
 doh-lb-atl.dnsflex.com
 doh-lb-br.dnsflex.com
 doh-lb-ca-tor.dnsflex.com
@@ -1423,8 +1422,6 @@ doh.cox.net
 doh.datahata.by
 doh.defaultroutes.de
 doh.denypradana.com
-doh.dns.apple.com
-doh.dns.apple.com.v.aaplimg.com
 doh.dns4all.eu
 doh.dnscrypt.uk
 doh.dnswarden.com
@@ -1751,6 +1748,7 @@ home.weisbrod.me
 home.wriedts.de
 home27.duckdns.org
 home34.su
+homec92.dns.army
 homedns.gumeniuk.com
 homeguard.sleziona.org
 homejerem.duckdns.org
@@ -1956,10 +1954,6 @@ maincloud.ir
 malanser.ru
 man01.dnscry.pt
 maqgie.xyz
-mask-api.icloud.com
-mask-canary.icloud.com
-mask-h2.icloud.com
-mask.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2399,7 +2393,6 @@ szyrzyk.pl
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
-tecdrive.site
 tecworx.at
 telex.app
 test.adg.siudzinski.net
@@ -2454,7 +2447,6 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
-tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
