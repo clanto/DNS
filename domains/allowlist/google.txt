@@ -7,3 +7,5 @@ digitalassetlinks.googleapis.com | 2026-09-24 | regola storica AdGuard: app Andr
 firebaseinstallations.googleapis.com | 2026-09-24 | regola storica AdGuard: app Android e link verificati | -
 ogads-pa.clients6.google.com | 2026-09-24 | regola storica AdGuard: barra app Google | -
 analytics.google.com | 2026-09-24 | regola storica AdGuard: console Google Analytics | -
+stun.l.google.com | 2026-10-07 | STUN di Google Meet (qualità chiamate); bloccato da BlocklistProject Tracking | -
+gg.google.com | 2026-10-07 | dominio richiesto da Google Workspace (support.google.com/a/answer/2589954); bloccato da HaGeZi Pro | -

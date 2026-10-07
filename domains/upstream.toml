@@ -30,6 +30,7 @@ url = "https://blocklistproject.github.io/Lists/adguard/ads-ags.txt"
 category = "ads"
 license = "Unlicense"
 status = "attiva"
+note = "Aggressiva: blocca push.apple.com (MDM, Apple Classroom) e wns.windows.com (notifiche Teams); coperta da HaGeZi Pro. Valutare la rimozione"
 
 [[lists]]
 name = "BlocklistProject Tracking"
@@ -37,6 +38,7 @@ url = "https://blocklistproject.github.io/Lists/adguard/tracking-ags.txt"
 category = "tracking"
 license = "Unlicense"
 status = "attiva"
+note = "Aggressiva: blocca shellprod.msocdn.com (office.com), stun.l.google.com (Meet), lcdn-locator.apple.com; coperta da HaGeZi Pro. Valutare la rimozione"
 
 [[lists]]
 name = "HaGeZi Pop-Up Ads"

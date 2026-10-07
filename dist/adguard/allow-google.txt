@@ -1,5 +1,7 @@
 @@||analytics.google.com^$important
 @@||ogads-pa.clients6.google.com^$important
+@@||gg.google.com^$important
+@@||stun.l.google.com^$important
 @@||safebrowsing.google.com^$important
 @@||digitalassetlinks.googleapis.com^$important
 @@||firebaseinstallations.googleapis.com^$important

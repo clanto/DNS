@@ -1,6 +1,8 @@
 @@||fpt.dfp.microsoft.com^$important
 @@||ov-df.microsoft.com^$important
 @@||vlscppe.microsoft.com^$important
+@@||shellprod.msocdn.com^$important
 @@||app.powerbi.com^$important
+@@||wns.windows.com^$important
 @@||m365.cloud.microsoft^$important
 @@||eitdxlcustomerpstorep.z6.web.core.windows.net^$important

@@ -11,10 +11,10 @@ solo su istanze dedicate ai clienti che le richiedono.
 
 | Lista | Descrizione | Voci | AdGuard | Formato semplice |
 |---|---|---|---|---|
-| `allow-base.txt` | Aggregato allowlist: google, apple, microsoft, pa, pagamenti, vendor-it, siti-web, smart-tv, scuola, varie | 67 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-base.txt) | — |
-| `allow-google.txt` | Servizi Google indispensabili (Safe Browsing, app Android) | 6 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-google.txt) | — |
+| `allow-base.txt` | Aggregato allowlist: google, apple, microsoft, pa, pagamenti, vendor-it, siti-web, smart-tv, scuola, varie | 71 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-base.txt) | — |
+| `allow-google.txt` | Servizi Google indispensabili (Safe Browsing, app Android) | 8 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-google.txt) | — |
 | `allow-apple.txt` | Notifiche push Apple | 2 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-apple.txt) | — |
-| `allow-microsoft.txt` | Microsoft 365, licenze, Defender, Power BI | 6 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-microsoft.txt) | — |
+| `allow-microsoft.txt` | Microsoft 365, licenze, Defender, Power BI | 8 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-microsoft.txt) | — |
 | `allow-pa.txt` | PA italiana | 1 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-pa.txt) | — |
 | `allow-pagamenti.txt` | Checkout PayPal e antifrode | 9 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-pagamenti.txt) | — |
 | `allow-vendor-it.txt` | Documentazione vendor, GeoIP, RMM | 6 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-vendor-it.txt) | — |
@@ -41,8 +41,8 @@ solo su istanze dedicate ai clienti che le richiedono.
 | [AdGuard DNS filter](https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt) | ads/tracking | GPL-3.0 | attiva |  |
 | [AdAway Default Blocklist](https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt) | ads | GPL-3.0 | attiva |  |
 | [HaGeZi Multi PRO](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt) | multi | GPL-3.0 | attiva |  |
-| [BlocklistProject Ads](https://blocklistproject.github.io/Lists/adguard/ads-ags.txt) | ads | Unlicense | attiva |  |
-| [BlocklistProject Tracking](https://blocklistproject.github.io/Lists/adguard/tracking-ags.txt) | tracking | Unlicense | attiva |  |
+| [BlocklistProject Ads](https://blocklistproject.github.io/Lists/adguard/ads-ags.txt) | ads | Unlicense | attiva | Aggressiva: blocca push.apple.com (MDM, Apple Classroom) e wns.windows.com (notifiche Teams); coperta da HaGeZi Pro. Valutare la rimozione |
+| [BlocklistProject Tracking](https://blocklistproject.github.io/Lists/adguard/tracking-ags.txt) | tracking | Unlicense | attiva | Aggressiva: blocca shellprod.msocdn.com (office.com), stun.l.google.com (Meet), lcdn-locator.apple.com; coperta da HaGeZi Pro. Valutare la rimozione |
 | [HaGeZi Pop-Up Ads](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt) | ads | GPL-3.0 | consigliata |  |
 | [HaGeZi Threat Intelligence Feeds](https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt) | malware/phishing | GPL-3.0 | attiva | Fonte principale di sicurezza |
 | [Phishing URL Blocklist (malware-filter)](https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt) | phishing | MIT | attiva |  |

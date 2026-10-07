@@ -12,6 +12,8 @@
 @@||socrative-teacher-2.pcm63b82qz.us-east-1.elasticbeanstalk.com^$important
 @@||analytics.google.com^$important
 @@||ogads-pa.clients6.google.com^$important
+@@||gg.google.com^$important
+@@||stun.l.google.com^$important
 @@||safebrowsing.google.com^$important
 @@||digitalassetlinks.googleapis.com^$important
 @@||firebaseinstallations.googleapis.com^$important
@@ -23,6 +25,7 @@
 @@||fpt.dfp.microsoft.com^$important
 @@||ov-df.microsoft.com^$important
 @@||vlscppe.microsoft.com^$important
+@@||shellprod.msocdn.com^$important
 @@||www.netgate.com^$important
 @@||c6.paypal.com^$important
 @@||ddbm2.paypal.com^$important
@@ -43,6 +46,7 @@
 @@||tags.tiqcdn.com^$important
 @@||tags-eu.tiqcdn.com^$important
 @@||www.uniform-agri.com^$important
+@@||wns.windows.com^$important
 @@||operaprima.info^$important
 @@||icanhazip.tacticalrmm.io^$important
 @@||armada.it^$important

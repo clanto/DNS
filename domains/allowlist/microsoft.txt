@@ -7,3 +7,5 @@ ov-df.microsoft.com | 2026-09-24 | regola storica AdGuard: licenze e Defender | 
 fpt.dfp.microsoft.com | 2026-09-24 | regola storica AdGuard: licenze e Defender | -
 app.powerbi.com | 2026-09-24 | regola storica AdGuard: Power BI | -
 eitdxlcustomerpstorep.z6.web.core.windows.net | 2026-09-24 | regola storica AdGuard: portale su Azure | -
+wns.windows.com | 2026-10-07 | Windows Push Notification Services (notifiche Teams), endpoint M365 richiesto; bloccato da BlocklistProject Ads | -
+shellprod.msocdn.com | 2026-10-07 | intestazione e app launcher di office.com/Outlook web, endpoint M365 richiesto; bloccato da BlocklistProject Tracking | -
