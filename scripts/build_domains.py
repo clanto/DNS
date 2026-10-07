@@ -362,7 +362,8 @@ def main() -> int:
                                           (UNBOUND_DIR, unbound, "*.conf")):
             directory.mkdir(parents=True, exist_ok=True)
             for stale in directory.glob(pattern):
-                if stale.name not in files:
+                # solo file generati da qui: dist/unbound contiene anche safesearch.conf (build_safesearch.py)
+                if stale.name.startswith(("block-", "allow-")) and stale.name not in files:
                     stale.unlink()
             for name, content in files.items():
                 (directory / name).write_text(content, encoding="utf-8", newline="\n")

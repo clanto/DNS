@@ -45,6 +45,10 @@ jobs:
         continue-on-error: true
         run: python scripts/build_opnsense.py
 
+      - name: Genera SafeSearch per Unbound
+        continue-on-error: true
+        run: python scripts/build_safesearch.py
+
       - name: Registro variazioni
         continue-on-error: true
         run: python scripts/changelog.py

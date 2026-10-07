@@ -46,12 +46,6 @@ description = "IP che attaccano servizi esposti (scanner, brute force): SOLO in 
 description = "Reti riservate/private (RFC 6890): SOLO in ingresso su interfacce WAN, mai su LAN"
 reserved = true
 
-[categories.hacking]
-description = "IP di siti hacking (non più curati, mantenuti per compatibilità)"
-
-[categories.warez]
-description = "IP di siti warez (non più curati, mantenuti per compatibilità)"
-
 # ---------------------------------------------------------------------------
 # Infrastrutture condivise: intervalli ufficiali di CDN/hosting usati solo per il filtro exclude_shared
 # (e per le liste OPNsense). Non vengono pubblicati né salvati in cache: se non sono raggiungibili il

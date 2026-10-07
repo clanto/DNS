@@ -77,6 +77,7 @@ description = "File sharing e trasferimento file anonimi (policy di prevenzione 
 
 [block.social]
 description = "Social network e piattaforme community (scuole)"
+outputs = ["adguard", "domains"]
 
 [block.gaming]
 description = "Giochi online e piattaforme di gaming (scuole)"
@@ -89,6 +90,10 @@ opnsense = true
 description = "VPN, proxy e servizi di bypass (scuole)"
 opnsense = true
 exclude = ["doh"]  # i domini DoH stanno già nella categoria doh
+
+[block.porno]
+description = "Contenuti per adulti (HaGeZi NSFW + siti che superavano i filtri)"
+outputs = ["adguard", "domains"]
 
 [block.malware]
 description = "Malware e minacce confermate (HaGeZi Threat Intelligence mini)"
@@ -206,3 +211,44 @@ url = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/ant
 format = "domains"
 homepage = "https://github.com/hagezi/dns-blocklists"
 license = "GPL-3.0"
+
+[[sources]]
+id = "hagezi-nsfw"
+category = "porno"
+url = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/nsfw-onlydomains.txt"
+format = "domains"
+homepage = "https://github.com/hagezi/dns-blocklists"
+license = "GPL-3.0"
+
+[[sources]]
+id = "blocklistproject-facebook"
+category = "social"
+url = "https://blocklistproject.github.io/Lists/alt-version/facebook-nl.txt"
+format = "domains"
+homepage = "https://github.com/blocklistproject/Lists"
+license = "Unlicense"
+note = "Facebook, Instagram, Messenger, Oculus"
+
+[[sources]]
+id = "blocklistproject-tiktok"
+category = "social"
+url = "https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt"
+format = "domains"
+homepage = "https://github.com/blocklistproject/Lists"
+license = "Unlicense"
+
+[[sources]]
+id = "blocklistproject-twitter"
+category = "social"
+url = "https://blocklistproject.github.io/Lists/alt-version/twitter-nl.txt"
+format = "domains"
+homepage = "https://github.com/blocklistproject/Lists"
+license = "Unlicense"
+
+[[sources]]
+id = "blocklistproject-fortnite"
+category = "gaming"
+url = "https://blocklistproject.github.io/Lists/alt-version/fortnite-nl.txt"
+format = "domains"
+homepage = "https://github.com/blocklistproject/Lists"
+license = "Unlicense"

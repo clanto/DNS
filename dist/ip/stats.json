@@ -1,29 +1,25 @@
 {
   "feed": {
-    "doh-v4.txt": 1330,
-    "doh-v6.txt": 689,
-    "tor-v4.txt": 5230,
-    "tor-v6.txt": 2458,
-    "threat-v4.txt": 27710,
+    "doh-v4.txt": 1328,
+    "doh-v6.txt": 690,
+    "tor-v4.txt": 5178,
+    "tor-v6.txt": 2439,
+    "threat-v4.txt": 27717,
     "threat-v6.txt": 0,
     "c2-v4.txt": 5,
     "c2-v6.txt": 0,
-    "vpn-v4.txt": 9247,
+    "vpn-v4.txt": 9128,
     "vpn-v6.txt": 414,
     "social-v4.txt": 211,
     "social-v6.txt": 119,
-    "inbound-v4.txt": 78368,
+    "inbound-v4.txt": 79114,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "hacking-v4.txt": 73,
-    "hacking-v6.txt": 0,
-    "warez-v4.txt": 22,
-    "warez-v6.txt": 0,
-    "all-v4.txt": 34113,
-    "all-v6.txt": 3147,
-    "all-scuole-v4.txt": 42866,
-    "all-scuole-v6.txt": 3508
+    "all-v4.txt": 34066,
+    "all-v6.txt": 3129,
+    "all-scuole-v4.txt": 42706,
+    "all-scuole-v6.txt": 3491
   },
   "fonti": [
     {
@@ -32,9 +28,9 @@
       "license": "GPL-3.0",
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
-      "status": "ok",
-      "entries": 1968,
-      "detail": "scartate 1 non instradabile"
+      "status": "cache",
+      "entries": 1783,
+      "detail": ""
     },
     {
       "id": "dibdot-doh-v6",
@@ -42,9 +38,9 @@
       "license": "GPL-3.0",
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
-      "status": "ok",
-      "entries": 1383,
-      "detail": "scartate 1 non instradabile"
+      "status": "cache",
+      "entries": 1201,
+      "detail": ""
     },
     {
       "id": "tor-exit",
@@ -52,8 +48,8 @@
       "license": "CC0 (Tor Metrics)",
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
-      "status": "ok",
-      "entries": 1277,
+      "status": "cache",
+      "entries": 1237,
       "detail": ""
     },
     {
@@ -63,8 +59,8 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "cache",
-      "entries": 9615,
-      "detail": "<urlopen error [Errno 11002] getaddrinfo failed>"
+      "entries": 9589,
+      "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
       "id": "ipsum-level3",
@@ -72,8 +68,8 @@
       "license": "Unlicense",
       "homepage": "https://github.com/stamparm/ipsum",
       "enabled": true,
-      "status": "ok",
-      "entries": 17372,
+      "status": "cache",
+      "entries": 17732,
       "detail": "IP presenti in almeno 3 blacklist pubbliche"
     },
     {
@@ -82,8 +78,8 @@
       "license": "Unlicense",
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
-      "status": "ok",
-      "entries": 17056,
+      "status": "cache",
+      "entries": 17076,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -92,7 +88,7 @@
       "license": "Unlicense",
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 183,
       "detail": "Resolver DNS pubblici"
     },
@@ -102,9 +98,9 @@
       "license": "Unlicense",
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 13138,
-      "detail": "scartate 1 non instradabile"
+      "detail": "Proxy e VPN"
     },
     {
       "id": "data-shield",
@@ -112,8 +108,8 @@
       "license": "GPL-3.0",
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
-      "status": "ok",
-      "entries": 88090,
+      "status": "cache",
+      "entries": 88830,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -122,7 +118,7 @@
       "license": "PDDL 1.0 (iptoasn.com)",
       "homepage": "https://iptoasn.com/",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 120,
       "detail": "Meta: Facebook, Instagram, WhatsApp, Threads"
     },
@@ -132,7 +128,7 @@
       "license": "PDDL 1.0 (iptoasn.com)",
       "homepage": "https://iptoasn.com/",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 181,
       "detail": "ByteDance e TikTok (i contenuti video passano anche da CDN condivise: bloccare anche via DNS)"
     },
@@ -142,7 +138,7 @@
       "license": "PDDL 1.0 (iptoasn.com)",
       "homepage": "https://iptoasn.com/",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 17,
       "detail": "X (Twitter)"
     },
@@ -152,7 +148,7 @@
       "license": "PDDL 1.0 (iptoasn.com)",
       "homepage": "https://iptoasn.com/",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 12,
       "detail": "Telegram"
     },
@@ -162,7 +158,7 @@
       "license": "CC0",
       "homepage": "https://feodotracker.abuse.ch/blocklist/",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 5,
       "detail": "CC0 dichiarato sulla pagina Feodo Tracker (regime diverso dai ToS generali abuse.ch)"
     },
@@ -172,7 +168,7 @@
       "license": "MIT",
       "homepage": "https://github.com/X4BNet/lists_vpn",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 11081,
       "detail": ""
     },
@@ -182,9 +178,9 @@
       "license": "MIT",
       "homepage": "https://github.com/X4BNet/lists_vpn",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 414,
-      "detail": "scartate 84 troppo ampia"
+      "detail": ""
     },
     {
       "id": "et-compromised",
@@ -225,26 +221,18 @@
     "doh": {
       "attive": 5,
       "scadute": 0
-    },
-    "hacking": {
-      "attive": 77,
-      "scadute": 0
-    },
-    "warez": {
-      "attive": 22,
-      "scadute": 0
     }
   },
   "allowlist": {
-    "voci": 123,
+    "voci": 128,
     "reti_modificate": 1
   },
   "condivisi": {
     "intervalli": 11268,
-    "voci_escluse": 3880
+    "voci_escluse": 3506
   },
   "protetti": {
-    "ip_risolti": 120,
+    "ip_risolti": 125,
     "voci_escluse": []
   }
 }

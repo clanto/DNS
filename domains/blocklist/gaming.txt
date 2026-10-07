@@ -21,3 +21,5 @@ crazygames.com | 2026-09-24 | giochi da browser | -
 friv.com | 2026-09-24 | giochi da browser | -
 y8.com | 2026-09-24 | giochi da browser | -
 coolmathgames.com | 2026-09-24 | giochi da browser | -
+roblox.com | 2022-02-24 | legacy liste/roblox.txt (6.295 sottodomini di roblox.com) | -
+rbxcdn.com | 2026-10-07 | CDN dei contenuti Roblox | -

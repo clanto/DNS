@@ -242,14 +242,21 @@ def section_domains():
             blocked |= {line[2:].split("^")[0] for line in lines}
     minimi = {"block-doh.txt": 1000, "block-vpn.txt": 1000, "block-malware.txt": 50000, "block-phishing.txt": 50000,
               "block-redirect.txt": 20000, "block-pirateria.txt": 10000, "block-spyware.txt": 300,
-              "block-cryptojacking.txt": 100}
+              "block-cryptojacking.txt": 100, "block-porno.txt": 20000, "block-social.txt": 100}
     for name, minimo in minimi.items():
         check(len((ROOT / "dist/adguard" / name).read_text().splitlines()) > minimo, f"{name}: troppo poche voci")
-    for cat in ("malware", "phishing", "redirect", "pirateria"):
+    for cat in ("malware", "phishing", "redirect", "pirateria", "porno", "social"):
         check(not (ROOT / f"dist/unbound/block-{cat}.conf").exists(), f"block-{cat}: Unbound non previsto per liste grandi")
-    for legacy in ("appspia", "criptojacking", "malware", "pishing", "redirect", "warez", "lista_streaming_illegale"):
+    for legacy in ("appspia", "criptojacking", "malware", "pishing", "redirect", "warez", "lista_streaming_illegale",
+                   "pornoextra", "roblox", "test"):
         check(not (ROOT / f"liste/{legacy}.txt").exists(), f"liste/{legacy}.txt sostituita ma ancora presente")
-    for p in (ROOT / "dist/unbound").glob("*.conf"):
+    check(not (ROOT / "safe_search").exists(), "safe_search/ sostituita ma ancora presente")
+    ss = (ROOT / "dist/unbound/safesearch.conf").read_text(encoding="utf-8")
+    for needle in ('"www.google.it A ', '"www.youtube.com A ', '"www.bing.com A ', '"pixabay.com A '):
+        check(needle in ss, f"safesearch.conf senza {needle}")
+    gaming = (ROOT / "dist/domains/block-gaming.txt").read_text().split()
+    check("roblox.com" in gaming, "roblox.com non in block-gaming")
+    for p in (ROOT / "dist/unbound").glob("block-*.conf"):
         bad = [line for line in p.read_text(encoding="utf-8").splitlines()
                if not re.match(r'^local-zone: "[a-z0-9._-]+\." always_nxdomain$', line)]
         check(not bad, f"{p.name}: righe Unbound non valide {bad[:3]}")
