@@ -67,6 +67,8 @@ Formati riconosciuti:
 - **Fonte irraggiungibile, vuota o calata oltre il 50%**: si usa la cache e il job mostra un warning.
 - **Feed che varia oltre il 25%**: al posto del commit su `main` viene aperta una PR da approvare.
 - **Righe manuali non valide**: vengono saltate, i feed escono comunque e il job risulta fallito, così arriva la notifica.
+- **Feed fermi**: ogni giorno il workflow *Controllo aggiornamento feed* fallisce (e notifica) se i feed IP non vengono aggiornati da più di 24 ore.
+- **Domini morti**: ogni lunedì le voci delle blocklist manuali che risultano inesistenti (NXDOMAIN su Cloudflare e Google) vengono tolte con una PR da approvare.
 
 ## Configurazione firewall
 

@@ -2,7 +2,7 @@
   "feed": {
     "doh-v4.txt": 1328,
     "doh-v6.txt": 690,
-    "tor-v4.txt": 5180,
+    "tor-v4.txt": 5179,
     "tor-v6.txt": 2432,
     "threat-v4.txt": 27719,
     "threat-v6.txt": 0,
@@ -16,9 +16,9 @@
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "all-v4.txt": 34070,
+    "all-v4.txt": 34069,
     "all-v6.txt": 3122,
-    "all-scuole-v4.txt": 42715,
+    "all-scuole-v4.txt": 42714,
     "all-scuole-v6.txt": 3484
   },
   "fonti": [
@@ -49,7 +49,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "cache",
-      "entries": 1237,
+      "entries": 1236,
       "detail": ""
     },
     {
@@ -224,15 +224,15 @@
     }
   },
   "allowlist": {
-    "voci": 113,
+    "voci": 124,
     "reti_modificate": 1
   },
   "condivisi": {
-    "intervalli": 11268,
+    "intervalli": 11269,
     "voci_escluse": 3500
   },
   "protetti": {
-    "ip_risolti": 110,
+    "ip_risolti": 121,
     "voci_escluse": []
   }
 }

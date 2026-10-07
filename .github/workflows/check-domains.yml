@@ -13,7 +13,8 @@ on:
       - "domains/domains.toml"
 
 permissions:
-  contents: read
+  contents: write        # solo per la PR di pulizia (mai sulle PR)
+  pull-requests: write
 
 jobs:
   check:
@@ -30,7 +31,34 @@ jobs:
         run: command -v dig || (sudo apt-get update && sudo apt-get install -y dnsutils)
 
       - name: Verifica esistenza domini e conflitti con liste di bypass
-        run: python scripts/check_domains.py
+        env:
+          FIX: ${{ github.event_name != 'pull_request' && '--fix' || '' }}
+        run: python scripts/check_domains.py $FIX | tee "$RUNNER_TEMP/domini.md"
+
+      - name: Apri PR con la pulizia dei domini morti
+        if: always() && github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- domains/blocklist; then
+            echo "Nessun dominio morto da togliere"
+            exit 0
+          fi
+          open=$(gh pr list --state open --json headRefName --jq '[.[] | select(.headRefName | startswith("pulizia-domini/"))] | length')
+          if [ "$open" != "0" ]; then
+            echo "::warning::Esiste già una PR di pulizia aperta: nessuna nuova PR"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          branch="pulizia-domini/$(date -u +%Y%m%d)"
+          git switch -c "$branch"
+          git add domains/blocklist
+          git commit -m "domini: rimozione voci manuali non più esistenti (NXDOMAIN su due resolver)"
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" \
+            --title "Pulizia blocklist manuali: domini non più esistenti" \
+            --body-file "$RUNNER_TEMP/domini.md"
 
       - name: Verifica reti dei provider DNS dedicati
         if: always()
