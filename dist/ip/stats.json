@@ -30,9 +30,9 @@
       "license": "GPL-3.0",
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 1979,
-      "detail": "scartate 1 non instradabile"
+      "detail": ""
     },
     {
       "id": "dibdot-doh-v6",
@@ -40,9 +40,9 @@
       "license": "GPL-3.0",
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 1379,
-      "detail": "scartate 1 non instradabile"
+      "detail": ""
     },
     {
       "id": "tor-exit",
@@ -50,7 +50,7 @@
       "license": "CC0 (Tor Metrics)",
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 1274,
       "detail": ""
     },
@@ -60,7 +60,7 @@
       "license": "CC0 (Tor Metrics)",
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 9699,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
@@ -70,7 +70,7 @@
       "license": "Unlicense",
       "homepage": "https://github.com/stamparm/ipsum",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 17732,
       "detail": "IP presenti in almeno 3 blacklist pubbliche"
     },
@@ -80,7 +80,7 @@
       "license": "Unlicense",
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 17027,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
@@ -90,7 +90,7 @@
       "license": "Unlicense",
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 183,
       "detail": "Resolver DNS pubblici"
     },
@@ -100,9 +100,9 @@
       "license": "Unlicense",
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 13138,
-      "detail": "scartate 1 non instradabile"
+      "detail": "Proxy e VPN"
     },
     {
       "id": "data-shield",
@@ -110,7 +110,7 @@
       "license": "GPL-3.0",
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 88608,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
@@ -120,7 +120,7 @@
       "license": "CC0",
       "homepage": "https://feodotracker.abuse.ch/blocklist/",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 5,
       "detail": "CC0 dichiarato sulla pagina Feodo Tracker (regime diverso dai ToS generali abuse.ch)"
     },
@@ -130,7 +130,7 @@
       "license": "MIT",
       "homepage": "https://github.com/X4BNet/lists_vpn",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 11200,
       "detail": ""
     },
@@ -140,9 +140,9 @@
       "license": "MIT",
       "homepage": "https://github.com/X4BNet/lists_vpn",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 414,
-      "detail": "scartate 84 troppo ampia"
+      "detail": ""
     },
     {
       "id": "et-compromised",

@@ -64,21 +64,62 @@ Formati riconosciuti:
 
 ## Configurazione firewall
 
-URL base: `https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/`
+URL base: `https://raw.githubusercontent.com/clanto/DNS/main/dist/`
 
-Feed consigliati:
-- **Aziende**: `all-v4.txt` / `all-v6.txt` (doh, tor, threat, c2).
-- **Scuole**: `all-scuole-v4.txt` / `all-scuole-v6.txt` (come `all`, più vpn).
+### Quali liste
+
+| Lista | URL | Scuole | Aziende | Dove si applica |
+|---|---|---|---|---|
+| Feed IP aggregato | `ip/all-scuole-v4.txt` / `-v6` | ✅ | — | LAN → WAN e WAN → LAN |
+| Feed IP aggregato | `ip/all-v4.txt` / `-v6` | — | ✅ | LAN → WAN e WAN → LAN |
+| Attacchi in ingresso | `ip/inbound-v4.txt` | ✅ | ✅ | solo WAN → LAN, se ci sono servizi esposti |
+| Resolver DoH/DoT/DoQ (FQDN) | `opnsense/doh.txt` | ✅ | ✅ | LAN → WAN (solo OPNsense) |
+| VPN e proxy (FQDN) | `opnsense/vpn.txt` | ✅ | — | LAN → WAN (solo OPNsense) |
+
 - Gli aggregati si configurano in `[aggregates]` di `sources.toml`: aggiungere una categoria lì la porta su tutti i firewall che usano quel feed.
-- `inbound-v4.txt` sulle regole **WAN in ingresso**: scanner e brute force verso i servizi esposti (~90k voci).
-- `bogon-v4/v6.txt` **solo in ingresso sulla WAN**: contiene anche le reti LAN private. Su pfSense e OPNsense conviene l'opzione nativa *Block bogon networks*.
-- Blocco per paese: usare il GeoIP nativo dei firewall. I dati RIR non sono ridistribuibili.
+- Bogon: usare l'opzione nativa del firewall (*Block bogon networks* / *Block private networks* sulla WAN); in alternativa `ip/bogon-v4/v6.txt`, **solo in ingresso sulla WAN**.
+- Blocco per paese: GeoIP nativo del firewall (i dati RIR non sono ridistribuibili).
+
+### OPNsense
+
+**Alias** (Firewall → Aliases), tutti di tipo **URL Table (IPs)**, refresh ogni 6-12 ore:
+
+| Alias | Contenuto |
+|---|---|
+| `blk_all`, `blk_all6` | `all-scuole` (scuole) o `all` (aziende), v4 e v6 |
+| `blk_inbound` | `inbound-v4` |
+| `blk_doh_fqdn` | `opnsense/doh.txt` |
+| `blk_vpn_fqdn` | `opnsense/vpn.txt` (scuole) |
+
+Le liste `opnsense/*.txt` contengono **nomi di dominio**: OPNsense li risolve (record A e AAAA) a ogni aggiornamento dell'alias, quindi segue anche gli anycast. La documentazione cita solo IP, ma il comportamento è nel codice (`scripts/filter/lib/alias/base.py`, `resolve_dns()`), verificato nei rami stabili da 23.7 a 25.7.
+
+> **Condizione indispensabile**: OPNsense risolve i nomi con il DNS del firewall stesso. Se il firewall usa AdGuard, AdGuard blocca proprio questi domini (risposta `0.0.0.0`) e l'alias resta di fatto vuoto, senza errori. Soluzioni: in AdGuard aggiungere l'IP del firewall come *client* con filtro disattivato, oppure impostare per il firewall un DNS non filtrato (System → Settings → General) o Unbound ricorsivo. Verifica: Firewall → Diagnostics → Aliases → `blk_doh_fqdn` deve contenere migliaia di IP reali, non `0.0.0.0`.
+
+**Regole LAN → WAN**, in quest'ordine:
+
+| # | Azione | Protocollo | Destinazione | Porta | Scuole | Aziende |
+|---|---|---|---|---|---|---|
+| 1 | Pass | TCP/UDP | AdGuard | 53, 853 | ✅ | ✅ |
+| 2 | Block | **any** | `blk_all`, `blk_all6` | any | ✅ | ✅ |
+| 3 | Block | **any** | `blk_doh_fqdn` | any | ✅ | ✅ |
+| 4 | Block | **any** | `blk_vpn_fqdn` | any | ✅ | — |
+| 5 | Block | TCP/UDP | any | 853 (DoT, DoQ) | ✅ | ✅ |
+| 6 | Block | UDP | any | 443 (QUIC, DoH su HTTP/3) | ✅ dopo una settimana di prova con log | facoltativa |
+
+Più un **NAT Port Forward** sulla LAN: TCP/UDP 53 verso destinazioni diverse da AdGuard → redirect ad AdGuard.
+
+Il protocollo **any** nelle regole 2-4 è essenziale: con solo TCP o solo porta 443 passano DoQ (UDP 853) e DoH su HTTP/3 (UDP 443). Bloccare UDP 443 non rompe Meet, Teams e Zoom (usano altre porte UDP per audio e video): browser e app ripiegano su TCP 443.
+
+**Regole WAN → LAN** (solo con servizi esposti: VPN, RDP, portali), sopra le regole che aprono le porte: block da `blk_inbound` e da `blk_all`.
+
+**Impostazioni**: Firewall → Settings → Advanced → *Firewall Maximum Table Entries* almeno 500.000 (gli alias insieme superano le 130.000 voci). Attivare il log sulle regole di blocco nelle prime settimane per individuare i falsi positivi.
+
+### Altri firewall
 
 | Firewall | Dove |
 |---|---|
-| OPNsense | Firewall → Aliases → tipo *URL Table (IPs)*, refresh 1 giorno |
 | pfSense | Firewall → Aliases → *URL Table (IPs)*, oppure pfBlockerNG → IPv4/IPv6 |
-| FortiGate | Security Fabric → External Connectors → Threat Feeds → *IP Address* |
-| SonicWall | Oggetti indirizzo dinamici esterni: il percorso di menu dipende dalla versione di SonicOS |
+| FortiGate | Security Fabric → External Connectors → Threat Feeds → *IP Address*; nella policy servizio **ALL** |
+| SonicWall | Oggetti indirizzo dinamici esterni: il percorso di menu dipende dalla versione di SonicOS; servizio **Any** |
 
-I limiti di voci per feed di FortiGate e SonicWall dipendono da modello e firmware e vanno verificati sui dispositivi. Si possono impostare in `max_entries` (`sources.toml`) per ricevere un avviso.
+Le liste `opnsense/*.txt` (FQDN) sono verificate solo su OPNsense: sugli altri firewall usare i feed IP. I limiti di voci per feed di FortiGate e SonicWall dipendono da modello e firmware e vanno verificati sui dispositivi; si possono impostare in `max_entries` (`sources.toml`) per ricevere un avviso.
