@@ -19657,7 +19657,6 @@
 ||nakedproxy.com^
 ||nakedsquid.com^
 ||namapare.com^
-||name.com^
 ||namecious.com^
 ||nameswave.com^
 ||website.nankou.com^

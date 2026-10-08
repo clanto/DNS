@@ -95,7 +95,6 @@
 ||hxv.app^
 ||hzvpn.app^
 ||jsqcn.app^
-||koyeb.app^
 ||larva.app^
 ||libertyvpn.app^
 ||litevpn.app^
@@ -4789,7 +4788,6 @@
 ||paimist.com^
 ||paladinvpn.com^
 ||paleoy.com^
-||pandasecurity.com^
 ||pandavpnpro.com^
 ||pangdavpn.com^
 ||pango-cloud.com^
@@ -9206,7 +9204,6 @@
 ||douplay.net^
 ||dowindows.net^
 ||doyoutube.net^
-||duba.net^
 ||earth-vpn.net^
 ||easyandroid.net^
 ||easyaox.net^

@@ -66,3 +66,29 @@ yacy.net | 2026-10-09 | software di ricerca peer-to-peer YaCy (ShadowWhisperer M
 entireweb.com | 2026-10-09 | motore di ricerca (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
 techbargains.com | 2026-10-09 | sito di offerte (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
 pcpitstop.com | 2026-10-09 | strumenti di diagnostica PC (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+gravatar.com | 2026-10-09 | Gravatar (Automattic): falso positivo da Phishing.Database | -
+nflxvideo.net | 2026-10-09 | CDN video Netflix: falso positivo | -
+mercadolibre.com.ar | 2026-10-09 | MercadoLibre: falso positivo | -
+mercadolibre.cl | 2026-10-09 | MercadoLibre: falso positivo | -
+amazon.ie | 2026-10-09 | Amazon Irlanda: falso positivo | -
+getpocket.com | 2026-10-09 | Pocket (Mozilla): falso positivo | -
+name.com | 2026-10-09 | registrar Name.com: falso positivo (phishing e redirect) | -
+yotpo.com | 2026-10-09 | piattaforma recensioni e-commerce: falso positivo | -
+unstoppabledomains.com | 2026-10-09 | registrar Unstoppable Domains: falso positivo | -
+telegra.ph | 2026-10-09 | piattaforma di pubblicazione: bloccare solo le singole pagine, non il dominio | -
+angelfire.com | 2026-10-09 | hosting di siti: bloccare solo i sottodomini | -
+filesusr.com | 2026-10-09 | file statici dei siti Wix: il blocco rompe i siti Wix | -
+linklist.bio | 2026-10-09 | pagine link-in-bio: bloccare solo le singole pagine | -
+lynk.id | 2026-10-09 | pagine link-in-bio: bloccare solo le singole pagine | -
+plesk.page | 2026-10-09 | hosting Plesk: bloccare solo i sottodomini | -
+rustdesk.io | 2026-10-09 | sito del progetto RustDesk (rustdesk.com resta in block-accesso-remoto) | -
+ludashisafe.com | 2026-10-09 | software Ludashi: falso positivo | -
+wps-cn.com | 2026-10-09 | WPS Office Cina: falso positivo | -
+fandango.com | 2026-10-09 | biglietteria cinema: falso positivo in pirateria | -
+switch.ch | 2026-10-09 | rete universitaria svizzera (il resolver DoH ha un sottodominio proprio) | -
+moph.go.th | 2026-10-09 | ministero della salute thailandese: falso positivo in doh | -
+iij.jp | 2026-10-09 | provider giapponese IIJ (i resolver hanno sottodomini propri) | -
+pandasecurity.com | 2026-10-09 | antivirus Panda Security: falso positivo in vpn | -
+koyeb.app | 2026-10-09 | piattaforma di hosting: bloccare solo i sottodomini | -
+duba.net | 2026-10-09 | antivirus Kingsoft: falso positivo in vpn | -
+bit.ly | 2026-10-09 | URL shortener: bloccare i singoli link non è possibile via DNS, il dominio intero rompe i link legittimi | -

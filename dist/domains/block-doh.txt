@@ -2411,7 +2411,6 @@ iev01.dnscry.pt
 iev02.dnscry.pt
 igor.vpn.i81.ru
 ihctw.synology.me
-iij.jp
 ikarosalpha.xyz
 imperio.top
 in-blr.doh.sb
@@ -2644,7 +2643,6 @@ moamao.shop
 moe01.dnscry.pt
 moidns.hopto.org
 moise-et-maurice-gardent-la-maison.schneiderus.org
-moph.go.th
 morbitzer.de
 morgenegg.duckdns.org
 moto.adg.siudzinski.net
@@ -3202,7 +3200,6 @@ surviil.duckdns.org
 svg33.eu
 swe.try-dns.com
 sweethome.in.eu.org
-switch.ch
 switzerland.privacy-dns.pw
 syd.adfilter.net
 syd.core.access.zznet.fun

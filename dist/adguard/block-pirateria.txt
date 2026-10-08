@@ -6585,7 +6585,6 @@
 ||download.f60s.com^
 ||facai-tv.com^
 ||fakeidcenter.com^
-||fandango.com^
 ||muds.fandom.com^
 ||smashingmods.fandom.com^
 ||vsrecommendedgames.fandom.com^

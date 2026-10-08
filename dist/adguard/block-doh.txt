@@ -161,7 +161,9 @@
 ||doh.quickline.ch^
 ||dot.quickline.ch^
 ||dns.simplylinux.ch^
-||switch.ch^
+||dns.switch.ch^
+||dns-cache.switch.ch^
+||dns-cache2.switch.ch^
 ||dns.pointless.chat^
 ||adguard.ruby.ci^
 ||agh.kacike.cl^
@@ -1535,7 +1537,7 @@
 ||homenet.telecomitalia.it^
 ||galileo.math.unipd.it^
 ||dns1-secure.wifire.it^
-||iij.jp^
+||dns.iij.jp^
 ||tngch.mydns.jp^
 ||tk2-404-43267.vs.sakura.ne.jp^
 ||x210-131-219-118.static.xvps.ne.jp^
@@ -2870,7 +2872,6 @@
 ||voyage-s01.cloudku.technology^
 ||voyage-s02.cloudku.technology^
 ||dns.kawa.tf^
-||moph.go.th^
 ||host8.248.cloudhost.in.th^
 ||doh.us.moe.tips^
 ||duyyen.tk^
