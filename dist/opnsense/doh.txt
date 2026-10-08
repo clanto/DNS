@@ -409,6 +409,7 @@ beacon.dog
 beautifullife.eu.org
 beautifulthings.eu.org
 bei01.dnscry.pt
+bestwon203.com
 bh.wael.name
 biba.ydns.eu
 bkk01.dnscry.pt
@@ -1271,7 +1272,6 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
-dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -1826,6 +1826,7 @@ home.weisbrod.me
 home.wriedts.de
 home27.duckdns.org
 home34.su
+homec92.dns.army
 homedns.gumeniuk.com
 homeguard.sleziona.org
 homejerem.duckdns.org
@@ -1908,7 +1909,6 @@ ire.danielfreyr.com
 irgrdns.nullapp.xyz
 isb01.dnscry.pt
 isecsolutions.ddns.net
-isekai.anime.com.my
 isfrntshck-pipka.duckdns.org
 isolacje.homeip.net
 ist01.dnscry.pt
@@ -1946,7 +1946,6 @@ jp.95576.app
 jp.hannielzhang.com
 jp.tiar.app
 jp01.dns4me.net
-jp01.just-a-web.com
 jp193.flyzhouyc.win
 jp2.ooroot.com
 jpdns.cola16.app
@@ -2514,7 +2513,6 @@ szyrzyk.pl
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
-tecdrive.site
 tecworx.at
 telex.app
 test.adg.siudzinski.net
@@ -2569,7 +2567,6 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
-tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
