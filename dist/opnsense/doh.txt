@@ -21,7 +21,6 @@
 23.106.141.137.16clouds.com
 3.11i.eu
 3.local-dns.noridev.moe
-3dcosas.xyz
 3dns.eu
 3jjxxl.tech
 51576162.ru
@@ -274,7 +273,6 @@ adns.onlinetools.rocks
 ads.hunga1k47.com
 ads.therman.eu
 adsl.viettel.vn
-adult-filter-dns.cleanbrowsing.org
 ae-agh1.dns.cryptroute.net
 ae-fuj-w-p-1.nashkan.net
 ae-fuj-w-p-2.nashkan.net
@@ -603,6 +601,7 @@ dns-three.lins.co.tt
 dns-tls.bitwiseshift.net
 dns-uk.puregeni.us
 dns-unfiltered.adguard.com
+dns-us.ibmcloud.top
 dns.0ooo.icu
 dns.13evl.com
 dns.23-4.cn
@@ -1271,6 +1270,7 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
+dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -1294,6 +1294,7 @@ dns.xivilay.dev
 dns.xv.fi
 dns.xwdmw.xyz
 dns.xwu.us
+dns.xyz.ddnss.eu
 dns.y2f.xyz
 dns.yameenassotally.com
 dns.yandex.ru
@@ -1536,6 +1537,7 @@ doh.phdns2.lonet.org
 doh.pi-dns.com
 doh.plaawan.uk
 doh.plop.cc
+doh.powerdns.org
 doh.ptqy.gitv.tv
 doh.pub
 doh.pyry.me
@@ -1811,9 +1813,9 @@ hole.elbschloss.xyz
 home.azagra.dev
 home.basthorst.eu
 home.bruckmoser.it
-home.dlinkddns.com
 home.fc.idv.tw
 home.fendya.com
+home.marcrnt.de
 home.norvrandt.co.uk
 home.px.i81.ru
 home.qbak.net
@@ -2066,7 +2068,6 @@ mnsvless.ikwb.com
 moamao.shop
 moe01.dnscry.pt
 moidns.hopto.org
-moise-et-maurice-gardent-la-maison.schneiderus.org
 morbitzer.de
 morgenegg.duckdns.org
 moto.adg.siudzinski.net
@@ -2566,7 +2567,6 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
-tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
