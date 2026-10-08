@@ -10,6 +10,7 @@ max_drop_ratio = 0.5      # se una fonte cala oltre il 50% rispetto all'ultima v
 pr_threshold = 0.25       # variazione oltre il 25% su un feed → PR da approvare invece del commit diretto
 anomaly_min_entries = 100 # sotto questa soglia i feed non generano anomalie (liste manuali piccole)
 max_entries = 0           # 0 = nessun limite; >0 segnala i feed che superano i limiti dei firewall
+source_max_age_days = 7   # fonte il cui contenuto non cambia da più giorni → controllo giornaliero fallito (max_age_days per fonte)
 
 # ---------------------------------------------------------------------------
 # Categorie: ognuna produce dist/ip/<categoria>-v4.txt e -v6.txt (URL stabili).
@@ -178,6 +179,7 @@ note = "Honeypot propri: exploit, sistemi compromessi, dropper"
 
 [[sources]]
 id = "shadowwhisperer-dns"
+max_age_days = 60
 category = "doh"
 url = "https://raw.githubusercontent.com/ShadowWhisperer/IPs/master/Lists/DNS"
 homepage = "https://github.com/ShadowWhisperer/IPs"
@@ -186,6 +188,7 @@ note = "Resolver DNS pubblici"
 
 [[sources]]
 id = "shadowwhisperer-tunnels"
+max_age_days = 30
 category = "vpn"
 url = "https://raw.githubusercontent.com/ShadowWhisperer/IPs/master/Lists/Tunnels"
 homepage = "https://github.com/ShadowWhisperer/IPs"
@@ -202,6 +205,7 @@ note = "Sonde e SIEM propri, non aggregatore"
 
 [[sources]]
 id = "social-meta"
+max_age_days = 90
 category = "social"
 format = "asn"
 asns = [32934, 63293, 54115]
@@ -214,6 +218,7 @@ note = "Meta: Facebook, Instagram, WhatsApp, Threads"
 
 [[sources]]
 id = "social-tiktok"
+max_age_days = 90
 category = "social"
 format = "asn"
 asns = [396986, 138699]
@@ -226,6 +231,7 @@ note = "ByteDance e TikTok (i contenuti video passano anche da CDN condivise: bl
 
 [[sources]]
 id = "social-x"
+max_age_days = 90
 category = "social"
 format = "asn"
 asns = [13414, 35995]
@@ -238,6 +244,7 @@ note = "X (Twitter)"
 
 [[sources]]
 id = "social-telegram"
+max_age_days = 90
 category = "social"
 format = "asn"
 asns = [62041, 59930, 62014, 44907, 211157]
@@ -250,6 +257,7 @@ note = "Telegram"
 
 [[sources]]
 id = "abusech-feodo"
+max_age_days = 30
 category = "c2"
 url = "https://feodotracker.abuse.ch/downloads/ipblocklist.txt"
 homepage = "https://feodotracker.abuse.ch/blocklist/"
@@ -266,6 +274,7 @@ min_prefix_v4 = 12
 
 [[sources]]
 id = "x4b-vpn-v6"
+max_age_days = 120
 category = "vpn"
 url = "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv6.txt"
 homepage = "https://github.com/X4BNet/lists_vpn"

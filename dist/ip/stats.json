@@ -2,9 +2,9 @@
   "feed": {
     "doh-v4.txt": 1329,
     "doh-v6.txt": 693,
-    "tor-v4.txt": 5223,
-    "tor-v6.txt": 2471,
-    "threat-v4.txt": 27230,
+    "tor-v4.txt": 5204,
+    "tor-v6.txt": 2477,
+    "threat-v4.txt": 27233,
     "threat-v6.txt": 0,
     "c2-v4.txt": 5,
     "c2-v6.txt": 0,
@@ -16,10 +16,10 @@
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "all-v4.txt": 33632,
-    "all-v6.txt": 3164,
-    "all-scuole-v4.txt": 42313,
-    "all-scuole-v6.txt": 3521
+    "all-v4.txt": 33616,
+    "all-v6.txt": 3170,
+    "all-scuole-v4.txt": 42297,
+    "all-scuole-v6.txt": 3527
   },
   "fonti": [
     {
@@ -28,9 +28,9 @@
       "license": "GPL-3.0",
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 1966,
-      "detail": "scartate 1 non instradabile"
+      "detail": ""
     },
     {
       "id": "dibdot-doh-v6",
@@ -38,9 +38,9 @@
       "license": "GPL-3.0",
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 1383,
-      "detail": "scartate 1 non instradabile"
+      "detail": ""
     },
     {
       "id": "tor-exit",
@@ -48,8 +48,8 @@
       "license": "CC0 (Tor Metrics)",
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
-      "status": "ok",
-      "entries": 1237,
+      "status": "cache",
+      "entries": 1235,
       "detail": ""
     },
     {
@@ -58,8 +58,8 @@
       "license": "CC0 (Tor Metrics)",
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
-      "status": "ok",
-      "entries": 9626,
+      "status": "cache",
+      "entries": 9639,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -68,7 +68,7 @@
       "license": "Unlicense",
       "homepage": "https://github.com/stamparm/ipsum",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 17372,
       "detail": "IP presenti in almeno 3 blacklist pubbliche"
     },
@@ -78,8 +78,8 @@
       "license": "Unlicense",
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
-      "status": "ok",
-      "entries": 16897,
+      "status": "cache",
+      "entries": 16902,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -88,7 +88,7 @@
       "license": "Unlicense",
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 183,
       "detail": "Resolver DNS pubblici"
     },
@@ -98,9 +98,9 @@
       "license": "Unlicense",
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 13138,
-      "detail": "scartate 1 non instradabile"
+      "detail": "Proxy e VPN"
     },
     {
       "id": "data-shield",
@@ -108,7 +108,7 @@
       "license": "GPL-3.0",
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 89046,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
@@ -118,7 +118,7 @@
       "license": "PDDL 1.0 (iptoasn.com)",
       "homepage": "https://iptoasn.com/",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 120,
       "detail": "Meta: Facebook, Instagram, WhatsApp, Threads"
     },
@@ -128,7 +128,7 @@
       "license": "PDDL 1.0 (iptoasn.com)",
       "homepage": "https://iptoasn.com/",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 181,
       "detail": "ByteDance e TikTok (i contenuti video passano anche da CDN condivise: bloccare anche via DNS)"
     },
@@ -138,7 +138,7 @@
       "license": "PDDL 1.0 (iptoasn.com)",
       "homepage": "https://iptoasn.com/",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 17,
       "detail": "X (Twitter)"
     },
@@ -148,7 +148,7 @@
       "license": "PDDL 1.0 (iptoasn.com)",
       "homepage": "https://iptoasn.com/",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 12,
       "detail": "Telegram"
     },
@@ -158,7 +158,7 @@
       "license": "CC0",
       "homepage": "https://feodotracker.abuse.ch/blocklist/",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 5,
       "detail": "CC0 dichiarato sulla pagina Feodo Tracker (regime diverso dai ToS generali abuse.ch)"
     },
@@ -168,7 +168,7 @@
       "license": "MIT",
       "homepage": "https://github.com/X4BNet/lists_vpn",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 11081,
       "detail": ""
     },
@@ -178,9 +178,9 @@
       "license": "MIT",
       "homepage": "https://github.com/X4BNet/lists_vpn",
       "enabled": true,
-      "status": "ok",
+      "status": "cache",
       "entries": 414,
-      "detail": "scartate 84 troppo ampia"
+      "detail": ""
     },
     {
       "id": "et-compromised",
@@ -224,15 +224,15 @@
     }
   },
   "allowlist": {
-    "voci": 128,
+    "voci": 119,
     "reti_modificate": 1
   },
   "condivisi": {
-    "intervalli": 11262,
+    "intervalli": 11263,
     "voci_escluse": 3859
   },
   "protetti": {
-    "ip_risolti": 125,
+    "ip_risolti": 116,
     "voci_escluse": []
   }
 }

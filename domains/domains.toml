@@ -15,6 +15,7 @@
 
 # Regola: in allowlist solo host indispensabili. Mai domini interi di vendor, mai voci che contraddicono
 # le blocklist (il build lo verifica) o le liste di bypass DNS/VPN upstream (verificato da check_domains.py).
+source_max_age_days = 7  # fonte il cui contenuto non cambia da più giorni → controllo giornaliero fallito
 own_domains = ["clanto.cloud"]  # domini propri: mai bloccati, esclusi dal controllo bypass (es. dns.clanto.cloud)
 
 [allow.protetti]
@@ -188,6 +189,7 @@ license = "MIT"
 
 [[sources]]
 id = "stalkerware-indicators"
+max_age_days = 45
 category = "spyware"
 url = "https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts"
 format = "domains"
@@ -196,6 +198,7 @@ license = "CC BY 4.0 (Echap)"
 
 [[sources]]
 id = "nocoin"
+max_age_days = 120
 category = "cryptojacking"
 url = "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt"
 format = "hosts"
@@ -204,6 +207,7 @@ license = "MIT"
 
 [[sources]]
 id = "blocklistproject-redirect"
+max_age_days = 120
 category = "redirect"
 url = "https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt"
 format = "domains"
@@ -228,6 +232,7 @@ license = "GPL-3.0"
 
 [[sources]]
 id = "blocklistproject-facebook"
+max_age_days = 120
 category = "social"
 url = "https://blocklistproject.github.io/Lists/alt-version/facebook-nl.txt"
 format = "domains"
@@ -237,6 +242,7 @@ note = "Facebook, Instagram, Messenger, Oculus"
 
 [[sources]]
 id = "blocklistproject-tiktok"
+max_age_days = 120
 category = "social"
 url = "https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt"
 format = "domains"
@@ -245,6 +251,7 @@ license = "Unlicense"
 
 [[sources]]
 id = "blocklistproject-twitter"
+max_age_days = 120
 category = "social"
 url = "https://blocklistproject.github.io/Lists/alt-version/twitter-nl.txt"
 format = "domains"
@@ -253,6 +260,7 @@ license = "Unlicense"
 
 [[sources]]
 id = "blocklistproject-fortnite"
+max_age_days = 180
 category = "gaming"
 url = "https://blocklistproject.github.io/Lists/alt-version/fortnite-nl.txt"
 format = "domains"
