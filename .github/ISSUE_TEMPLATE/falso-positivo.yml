@@ -1,0 +1,46 @@
+name: Segnala un falso positivo
+description: Un sito o servizio legittimo viene bloccato da una delle nostre liste
+title: "[Falso positivo] "
+labels: ["falso-positivo"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Non inserire dati personali** (nomi, email, telefoni, IP di clienti o dipendenti): il repository è pubblico.
+        Indica solo dati tecnici e l'ID del ticket interno.
+  - type: input
+    id: voce
+    attributes:
+      label: Dominio o IP bloccato
+      description: Host esatto (es. app.esempio.it) o IP/CIDR
+      placeholder: app.esempio.it
+    validations:
+      required: true
+  - type: dropdown
+    id: dove
+    attributes:
+      label: Dove viene bloccato
+      options:
+        - AdGuard (lista domini)
+        - Firewall (feed IP)
+        - OPNsense (alias FQDN)
+        - Non lo so
+    validations:
+      required: true
+  - type: input
+    id: lista
+    attributes:
+      label: Lista o feed, se noto
+      description: Es. block-redirect, all-scuole, doh. Lo trovi nel log del firewall o di AdGuard, o in dist/CHANGELOG.md
+  - type: textarea
+    id: impatto
+    attributes:
+      label: Cosa non funziona
+      description: Servizio coinvolto e sintomo (es. "invio posta da smtp.gmail.com in timeout")
+    validations:
+      required: true
+  - type: input
+    id: ticket
+    attributes:
+      label: Ticket interno
+      placeholder: TCK-1234

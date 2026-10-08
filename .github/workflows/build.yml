@@ -49,6 +49,10 @@ jobs:
         continue-on-error: true
         run: python scripts/build_safesearch.py
 
+      - name: Catalogo e attribuzioni
+        continue-on-error: true
+        run: python scripts/build_index.py
+
       - name: Registro variazioni
         continue-on-error: true
         run: python scripts/changelog.py

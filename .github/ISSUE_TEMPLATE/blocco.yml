@@ -1,0 +1,40 @@
+name: Proponi un blocco
+description: Un dominio o IP che dovrebbe essere bloccato
+title: "[Blocco] "
+labels: ["blocco"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Non inserire dati personali**: il repository è pubblico. Solo dati tecnici e ID del ticket.
+  - type: input
+    id: voce
+    attributes:
+      label: Dominio o IP da bloccare
+      placeholder: phishing-esempio.com
+    validations:
+      required: true
+  - type: dropdown
+    id: categoria
+    attributes:
+      label: Categoria
+      options:
+        - malevoli (truffe, phishing, malware)
+        - doh / vpn (aggiramento del DNS)
+        - tunnel (esfiltrazione)
+        - policy scuole (social, gaming, compiti, AI, porno)
+        - altro
+    validations:
+      required: true
+  - type: textarea
+    id: motivo
+    attributes:
+      label: Motivo ed evidenze
+      description: Perché va bloccato (es. campagna di phishing vista il, segnalazione di)
+    validations:
+      required: true
+  - type: input
+    id: ticket
+    attributes:
+      label: Ticket interno
+      placeholder: TCK-1234

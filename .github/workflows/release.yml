@@ -1,0 +1,62 @@
+name: Release settimanale liste
+
+# Ogni lunedì una release datata con tutte le liste, le impronte SHA-256 e un archivio zip.
+# Serve per rollback (puntare i firewall alla release precedente) e per audit (cosa veniva bloccato).
+# Vengono conservate le ultime 12 release.
+
+on:
+  schedule:
+    - cron: "37 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-liste
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Prepara i file
+        run: |
+          out="$RUNNER_TEMP/release"
+          mkdir -p "$out"
+          for f in dist/ip/*.txt dist/adguard/*.txt dist/domains/*.txt dist/unbound/*.conf dist/opnsense/*.txt; do
+            [ -f "$f" ] || continue
+            # nome univoco: cartella-file (es. ip-all-v4.txt, adguard-block-doh.txt)
+            cp "$f" "$out/$(basename "$(dirname "$f")")-$(basename "$f")"
+          done
+          cp dist/index.json dist/CHANGELOG.md dist/THIRD_PARTY.md "$out/"
+          (cd "$out" && sha256sum * > SHA256SUMS && zip -q liste.zip * && sha256sum liste.zip >> SHA256SUMS)
+          ls "$out" | wc -l
+
+      - name: Pubblica la release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="liste-$(date -u +%Y-%m-%d)"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo "Release $tag già presente"
+            exit 0
+          fi
+          printf '%s\n\n%s\n%s\n' \
+            "Copia delle liste al $(date -u +%Y-%m-%d), commit ${GITHUB_SHA::7}." \
+            "Rollback: sostituire nell'URL del feed \`raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt\` con \`github.com/clanto/DNS/releases/download/$tag/ip-all-v4.txt\` (stesso schema cartella-file per le altre liste)." \
+            "Verifica: \`sha256sum -c SHA256SUMS\`." > "$RUNNER_TEMP/note.md"
+          gh release create "$tag" "$RUNNER_TEMP"/release/* --title "Liste $tag" --notes-file "$RUNNER_TEMP/note.md"
+
+      - name: Conserva solo le ultime 12 release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release list --limit 100 --json tagName,createdAt \
+            --jq '[.[] | select(.tagName | startswith("liste-"))] | sort_by(.createdAt) | reverse | .[12:] | .[].tagName' |
+          while read -r old; do
+            gh release delete "$old" --yes --cleanup-tag
+          done

@@ -3,6 +3,39 @@
 > Generato da `scripts/changelog.py` a ogni build: aggiunte e rimozioni rispetto alla versione precedente.
 > Ultime voci in alto. Per gli IP è indicata la fonte (`ip/cache/`) o `manuale`.
 
+## 2026-10-08 04:17 UTC
+
+- `dist/ip/all-scuole-v4.txt`: +3732 / -3954 (totale 42492)
+  - aggiunte: `1.145.25.235` (ipsum-level3), `1.179.47.32` (data-shield, ipsum-level3), `1.24.16.126` (data-shield, ipsum-level3), `1.24.16.128` (data-shield, ipsum-level3), `1.24.16.8` (ipsum-level3), `1.24.16.81` (ipsum-level3), `1.24.16.98` (data-shield, ipsum-level3), `1.85.42.195` (data-shield, ipsum-level3) e altre 3724
+  - rimosse: `1.203.186.149`, `1.24.16.120`, `1.53.227.203`, `1.9.211.178`, `1.92.82.192`, `1.94.53.50`, `100.29.192.100/30`, `100.29.192.104/29` e altre 3946
+- `dist/ip/all-scuole-v6.txt`: +81 / -42 (totale 3523)
+  - aggiunte: `2001:19f0:8000:1cae:5400:4ff:fed0:15b4` (tor-relay), `2001:1b40:5700:9bf5::1` (tor-relay), `2001:41c8:51:490:feff:ff:fe00:3214` (tor-relay), `2001:41d0:2:8bd1::1` (tor-relay), `2001:41d0:f00:5600::d22c:aeae` (tor-relay), `2001:4610:a:136::604a` (tor-relay), `2001:b011:d000:1516:211:32ff:fe79:26cd` (dibdot-doh-v6), `2001:b030:2422::7234` (tor-relay) e altre 73
+  - rimosse: `2001:19f0:c800:2a8c:5400:5ff:fe8c:69e3`, `2001:1af8:4010:a077:3::5`, `2001:b011:d000:104b:211:32ff:fe79:26cd`, `2003:180:2::4:0:53`, `2003:180:2:b000:0:4:0:53`, `2003:e6:704:bd00:2ecf:67ff:fe71:a4f5`, `2400:6180:0:d2:0:3:6b6:b000`, `2404:2280:1b4:0:3::54/127` e altre 34
+- `dist/ip/all-v4.txt`: +3755 / -4008 (totale 33816)
+  - aggiunte: `1.145.25.235` (ipsum-level3), `1.179.47.32` (data-shield, ipsum-level3), `1.24.16.126` (data-shield, ipsum-level3), `1.24.16.128` (data-shield, ipsum-level3), `1.24.16.8` (ipsum-level3), `1.24.16.81` (ipsum-level3), `1.24.16.98` (data-shield, ipsum-level3), `1.85.42.195` (data-shield, ipsum-level3) e altre 3747
+  - rimosse: `1.203.186.149`, `1.24.16.120`, `1.53.227.203`, `1.9.211.178`, `1.92.82.192`, `1.94.53.50`, `100.29.192.100/30`, `100.29.192.104/29` e altre 4000
+- `dist/ip/all-v6.txt`: +84 / -42 (totale 3164)
+  - aggiunte: `2001:19f0:8000:1cae:5400:4ff:fed0:15b4` (tor-relay), `2001:1b40:5700:9bf5::1` (tor-relay), `2001:41c8:51:490:feff:ff:fe00:3214` (tor-relay), `2001:41d0:2:8bd1::1` (tor-relay), `2001:41d0:f00:5600::d22c:aeae` (tor-relay), `2001:4610:a:136::604a` (tor-relay), `2001:b011:d000:1516:211:32ff:fe79:26cd` (dibdot-doh-v6), `2001:b030:2422::7234` (tor-relay) e altre 76
+  - rimosse: `2001:19f0:c800:2a8c:5400:5ff:fe8c:69e3`, `2001:1af8:4010:a077:3::5`, `2001:b011:d000:104b:211:32ff:fe79:26cd`, `2003:180:2::4:0:53`, `2003:180:2:b000:0:4:0:53`, `2003:e6:704:bd00:2ecf:67ff:fe71:a4f5`, `2400:6180:0:d2:0:3:6b6:b000`, `2404:2280:1b4:0:3::54/127` e altre 34
+- `dist/ip/doh-v4.txt`: +22 / -21 (totale 1329)
+  - aggiunte: `100.60.153.71` (dibdot-doh-v4), `104.128.62.173` (dibdot-doh-v4), `114.12.15.182` (dibdot-doh-v4), `129.80.39.60` (dibdot-doh-v4), `152.233.50.1` (dibdot-doh-v4, x4b-vpn-v4), `163.181.246.188/30` (dibdot-doh-v4), `163.181.246.192/30` (dibdot-doh-v4), `176.182.153.130` (dibdot-doh-v4) e altre 14
+  - rimosse: `13.222.46.66`, `148.113.190.161`, `155.102.54.129`, `155.102.54.130/31`, `155.102.54.132/30`, `155.102.54.136`, `185.51.200.2`, `195.35.113.73` e altre 13
+- `dist/ip/doh-v6.txt`: +9 / -6 (totale 693)
+  - aggiunte: `2001:b011:d000:1516:211:32ff:fe79:26cd` (dibdot-doh-v6), `2003:180:2:1000:0:4:0:53` (dibdot-doh-v6), `2003:180:2:4000:0:4:0:53` (dibdot-doh-v6), `2404:2280:180:0:3::c/127` (dibdot-doh-v6), `2407:0:3f68:6e8a::1` (dibdot-doh-v6), `2602:ffbb:100:4::2` (dibdot-doh-v6), `2606:2040:140:131::2` (dibdot-doh-v6), `2606:2040:1800:bb::2` (dibdot-doh-v6) e altre 1
+  - rimosse: `2001:b011:d000:104b:211:32ff:fe79:26cd`, `2003:180:2::4:0:53`, `2003:180:2:b000:0:4:0:53`, `2404:2280:1b4:0:3::54/127`, `2607:5300:20e:a100::`, `2a02:c206:2156:7915::1`
+- `dist/ip/inbound-v4.txt`: +931 / -945 (totale 79349)
+  - aggiunte: `1.24.16.102` (data-shield), `1.24.16.139` (data-shield), `1.24.16.171` (data-shield), `1.24.16.176/31` (data-shield), `1.24.16.52` (data-shield), `101.53.225.13` (data-shield), `101.53.255.1` (data-shield), `102.0.26.164` (data-shield) e altre 923
+  - rimosse: `1.14.149.228`, `1.161.40.100`, `1.165.69.102`, `1.168.64.94`, `1.171.41.187`, `1.181.136.76`, `1.24.16.160`, `1.24.16.176` e altre 937
+- `dist/ip/threat-v4.txt`: +3588 / -3873 (totale 27434)
+  - aggiunte: `1.145.25.235` (ipsum-level3), `1.179.47.32` (data-shield, ipsum-level3), `1.24.16.126` (data-shield, ipsum-level3), `1.24.16.128` (data-shield, ipsum-level3), `1.24.16.8` (ipsum-level3), `1.24.16.81` (ipsum-level3), `1.24.16.98` (data-shield, ipsum-level3), `1.85.42.195` (data-shield, ipsum-level3) e altre 3580
+  - rimosse: `1.203.186.149`, `1.24.16.120`, `1.53.227.203`, `1.9.211.178`, `1.92.82.192`, `1.94.53.50`, `100.29.192.100/30`, `100.29.192.104/29` e altre 3865
+- `dist/ip/tor-v4.txt`: +199 / -175 (totale 5203)
+  - aggiunte: `103.174.51.78` (tor-relay), `104.207.158.50` (tor-relay), `104.223.62.71` (tor-relay), `107.150.20.181` (tor-relay), `107.172.157.34` (tor-relay), `107.175.136.39` (tor-relay), `109.151.106.29` (tor-relay), `109.250.46.226` (tor-relay) e altre 191
+  - rimosse: `104.152.209.153`, `107.173.148.30`, `107.173.167.241`, `107.175.238.154`, `109.250.47.35`, `109.98.1.200`, `128.110.218.246`, `129.159.11.234` e altre 167
+- `dist/ip/tor-v6.txt`: +75 / -36 (totale 2471)
+  - aggiunte: `2001:19f0:8000:1cae:5400:4ff:fed0:15b4` (tor-relay), `2001:1b40:5700:9bf5::1` (tor-relay), `2001:41c8:51:490:feff:ff:fe00:3214` (tor-relay), `2001:41d0:2:8bd1::1` (tor-relay), `2001:41d0:f00:5600::d22c:aeae` (tor-relay), `2001:4610:a:136::604a` (tor-relay), `2001:b030:2422::7234` (tor-relay), `2001:ba0:2a9:a000::1` (tor-relay) e altre 67
+  - rimosse: `2001:19f0:c800:2a8c:5400:5ff:fe8c:69e3`, `2001:1af8:4010:a077:3::5`, `2003:e6:704:bd00:2ecf:67ff:fe71:a4f5`, `2400:6180:0:d2:0:3:6b6:b000`, `2600:1701:441:35d0::1b`, `2600:3c06::f03c:93ff:fef9:e549`, `2600:3c09::f03c:94ff:fed9:cd13`, `2600:4040:a2b8:9200:e8bf:2ded:9fd:7630` e altre 28
+
 ## 2026-10-07 20:20 UTC
 
 - `dist/adguard/block-compiti.txt`: nuova lista, 18 voci

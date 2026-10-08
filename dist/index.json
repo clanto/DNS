@@ -1,0 +1,1978 @@
+{
+  "repository": "https://github.com/clanto/DNS",
+  "licenza": "GPL-3.0",
+  "generato": "2026-10-08T04:19:06Z",
+  "attribuzioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/THIRD_PARTY.md",
+  "registro_variazioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/CHANGELOG.md",
+  "feed": [
+    {
+      "id": "ip/all-v4",
+      "tipo": "ip",
+      "versione_ip": 4,
+      "aggregato": true,
+      "categorie": [
+        "doh",
+        "tor",
+        "threat",
+        "c2"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt",
+      "voci": 33816,
+      "descrizione": "Aziende: uscita e ingresso",
+      "fonti": [
+        {
+          "id": "dibdot-doh-v4",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "dibdot-doh-v6",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "tor-exit",
+          "licenza": "CC0 (Tor Metrics)",
+          "homepage": "https://metrics.torproject.org/"
+        },
+        {
+          "id": "tor-relay",
+          "licenza": "CC0 (Tor Metrics)",
+          "homepage": "https://metrics.torproject.org/onionoo.html"
+        },
+        {
+          "id": "ipsum-level3",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/stamparm/ipsum"
+        },
+        {
+          "id": "shadowwhisperer-threats",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/IPs"
+        },
+        {
+          "id": "shadowwhisperer-dns",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/IPs"
+        },
+        {
+          "id": "abusech-feodo",
+          "licenza": "CC0",
+          "homepage": "https://feodotracker.abuse.ch/blocklist/"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "ip/custom/doh.txt"
+        }
+      ]
+    },
+    {
+      "id": "ip/all-v6",
+      "tipo": "ip",
+      "versione_ip": 6,
+      "aggregato": true,
+      "categorie": [
+        "doh",
+        "tor",
+        "threat",
+        "c2"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v6.txt",
+      "voci": 3164,
+      "descrizione": "Aziende: uscita e ingresso",
+      "fonti": [
+        {
+          "id": "dibdot-doh-v4",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "dibdot-doh-v6",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "tor-exit",
+          "licenza": "CC0 (Tor Metrics)",
+          "homepage": "https://metrics.torproject.org/"
+        },
+        {
+          "id": "tor-relay",
+          "licenza": "CC0 (Tor Metrics)",
+          "homepage": "https://metrics.torproject.org/onionoo.html"
+        },
+        {
+          "id": "ipsum-level3",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/stamparm/ipsum"
+        },
+        {
+          "id": "shadowwhisperer-threats",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/IPs"
+        },
+        {
+          "id": "shadowwhisperer-dns",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/IPs"
+        },
+        {
+          "id": "abusech-feodo",
+          "licenza": "CC0",
+          "homepage": "https://feodotracker.abuse.ch/blocklist/"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "ip/custom/doh.txt"
+        }
+      ]
+    },
+    {
+      "id": "ip/all-scuole-v4",
+      "tipo": "ip",
+      "versione_ip": 4,
+      "aggregato": true,
+      "categorie": [
+        "doh",
+        "tor",
+        "threat",
+        "c2",
+        "vpn"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v4.txt",
+      "voci": 42492,
+      "descrizione": "Scuole: come all, più VPN commerciali e proxy",
+      "fonti": [
+        {
+          "id": "dibdot-doh-v4",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "dibdot-doh-v6",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "tor-exit",
+          "licenza": "CC0 (Tor Metrics)",
+          "homepage": "https://metrics.torproject.org/"
+        },
+        {
+          "id": "tor-relay",
+          "licenza": "CC0 (Tor Metrics)",
+          "homepage": "https://metrics.torproject.org/onionoo.html"
+        },
+        {
+          "id": "ipsum-level3",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/stamparm/ipsum"
+        },
+        {
+          "id": "shadowwhisperer-threats",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/IPs"
+        },
+        {
+          "id": "shadowwhisperer-dns",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/IPs"
+        },
+        {
+          "id": "shadowwhisperer-tunnels",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/IPs"
+        },
+        {
+          "id": "abusech-feodo",
+          "licenza": "CC0",
+          "homepage": "https://feodotracker.abuse.ch/blocklist/"
+        },
+        {
+          "id": "x4b-vpn-v4",
+          "licenza": "MIT",
+          "homepage": "https://github.com/X4BNet/lists_vpn"
+        },
+        {
+          "id": "x4b-vpn-v6",
+          "licenza": "MIT",
+          "homepage": "https://github.com/X4BNet/lists_vpn"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "ip/custom/doh.txt"
+        }
+      ]
+    },
+    {
+      "id": "ip/all-scuole-v6",
+      "tipo": "ip",
+      "versione_ip": 6,
+      "aggregato": true,
+      "categorie": [
+        "doh",
+        "tor",
+        "threat",
+        "c2",
+        "vpn"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v6.txt",
+      "voci": 3523,
+      "descrizione": "Scuole: come all, più VPN commerciali e proxy",
+      "fonti": [
+        {
+          "id": "dibdot-doh-v4",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "dibdot-doh-v6",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "tor-exit",
+          "licenza": "CC0 (Tor Metrics)",
+          "homepage": "https://metrics.torproject.org/"
+        },
+        {
+          "id": "tor-relay",
+          "licenza": "CC0 (Tor Metrics)",
+          "homepage": "https://metrics.torproject.org/onionoo.html"
+        },
+        {
+          "id": "ipsum-level3",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/stamparm/ipsum"
+        },
+        {
+          "id": "shadowwhisperer-threats",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/IPs"
+        },
+        {
+          "id": "shadowwhisperer-dns",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/IPs"
+        },
+        {
+          "id": "shadowwhisperer-tunnels",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/IPs"
+        },
+        {
+          "id": "abusech-feodo",
+          "licenza": "CC0",
+          "homepage": "https://feodotracker.abuse.ch/blocklist/"
+        },
+        {
+          "id": "x4b-vpn-v4",
+          "licenza": "MIT",
+          "homepage": "https://github.com/X4BNet/lists_vpn"
+        },
+        {
+          "id": "x4b-vpn-v6",
+          "licenza": "MIT",
+          "homepage": "https://github.com/X4BNet/lists_vpn"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "ip/custom/doh.txt"
+        }
+      ]
+    },
+    {
+      "id": "ip/doh-v4",
+      "tipo": "ip",
+      "versione_ip": 4,
+      "aggregato": false,
+      "categorie": [
+        "doh"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v4.txt",
+      "voci": 1329,
+      "descrizione": "Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del DNS aziendale",
+      "fonti": [
+        {
+          "id": "dibdot-doh-v4",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "dibdot-doh-v6",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "shadowwhisperer-dns",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/IPs"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "ip/custom/doh.txt"
+        }
+      ]
+    },
+    {
+      "id": "ip/doh-v6",
+      "tipo": "ip",
+      "versione_ip": 6,
+      "aggregato": false,
+      "categorie": [
+        "doh"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v6.txt",
+      "voci": 693,
+      "descrizione": "Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del DNS aziendale",
+      "fonti": [
+        {
+          "id": "dibdot-doh-v4",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "dibdot-doh-v6",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "shadowwhisperer-dns",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/IPs"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "ip/custom/doh.txt"
+        }
+      ]
+    },
+    {
+      "id": "ip/tor-v4",
+      "tipo": "ip",
+      "versione_ip": 4,
+      "aggregato": false,
+      "categorie": [
+        "tor"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt",
+      "voci": 5203,
+      "descrizione": "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)",
+      "fonti": [
+        {
+          "id": "tor-exit",
+          "licenza": "CC0 (Tor Metrics)",
+          "homepage": "https://metrics.torproject.org/"
+        },
+        {
+          "id": "tor-relay",
+          "licenza": "CC0 (Tor Metrics)",
+          "homepage": "https://metrics.torproject.org/onionoo.html"
+        }
+      ]
+    },
+    {
+      "id": "ip/tor-v6",
+      "tipo": "ip",
+      "versione_ip": 6,
+      "aggregato": false,
+      "categorie": [
+        "tor"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v6.txt",
+      "voci": 2471,
+      "descrizione": "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)",
+      "fonti": [
+        {
+          "id": "tor-exit",
+          "licenza": "CC0 (Tor Metrics)",
+          "homepage": "https://metrics.torproject.org/"
+        },
+        {
+          "id": "tor-relay",
+          "licenza": "CC0 (Tor Metrics)",
+          "homepage": "https://metrics.torproject.org/onionoo.html"
+        }
+      ]
+    },
+    {
+      "id": "ip/threat-v4",
+      "tipo": "ip",
+      "versione_ip": 4,
+      "aggregato": false,
+      "categorie": [
+        "threat"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v4.txt",
+      "voci": 27434,
+      "descrizione": "IP malevoli attivi (scanner, brute force, attacchi) segnalati da più blacklist",
+      "fonti": [
+        {
+          "id": "ipsum-level3",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/stamparm/ipsum"
+        },
+        {
+          "id": "shadowwhisperer-threats",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/IPs"
+        }
+      ]
+    },
+    {
+      "id": "ip/threat-v6",
+      "tipo": "ip",
+      "versione_ip": 6,
+      "aggregato": false,
+      "categorie": [
+        "threat"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v6.txt",
+      "voci": 0,
+      "descrizione": "IP malevoli attivi (scanner, brute force, attacchi) segnalati da più blacklist",
+      "fonti": [
+        {
+          "id": "ipsum-level3",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/stamparm/ipsum"
+        },
+        {
+          "id": "shadowwhisperer-threats",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/IPs"
+        }
+      ]
+    },
+    {
+      "id": "ip/c2-v4",
+      "tipo": "ip",
+      "versione_ip": 4,
+      "aggregato": false,
+      "categorie": [
+        "c2"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v4.txt",
+      "voci": 5,
+      "descrizione": "Server di comando e controllo di botnet e malware",
+      "fonti": [
+        {
+          "id": "abusech-feodo",
+          "licenza": "CC0",
+          "homepage": "https://feodotracker.abuse.ch/blocklist/"
+        }
+      ]
+    },
+    {
+      "id": "ip/c2-v6",
+      "tipo": "ip",
+      "versione_ip": 6,
+      "aggregato": false,
+      "categorie": [
+        "c2"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v6.txt",
+      "voci": 0,
+      "descrizione": "Server di comando e controllo di botnet e malware",
+      "fonti": [
+        {
+          "id": "abusech-feodo",
+          "licenza": "CC0",
+          "homepage": "https://feodotracker.abuse.ch/blocklist/"
+        }
+      ]
+    },
+    {
+      "id": "ip/vpn-v4",
+      "tipo": "ip",
+      "versione_ip": 4,
+      "aggregato": false,
+      "categorie": [
+        "vpn"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v4.txt",
+      "voci": 9134,
+      "descrizione": "VPN commerciali e proxy anonimizzanti",
+      "fonti": [
+        {
+          "id": "shadowwhisperer-tunnels",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/IPs"
+        },
+        {
+          "id": "x4b-vpn-v4",
+          "licenza": "MIT",
+          "homepage": "https://github.com/X4BNet/lists_vpn"
+        },
+        {
+          "id": "x4b-vpn-v6",
+          "licenza": "MIT",
+          "homepage": "https://github.com/X4BNet/lists_vpn"
+        }
+      ]
+    },
+    {
+      "id": "ip/vpn-v6",
+      "tipo": "ip",
+      "versione_ip": 6,
+      "aggregato": false,
+      "categorie": [
+        "vpn"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v6.txt",
+      "voci": 414,
+      "descrizione": "VPN commerciali e proxy anonimizzanti",
+      "fonti": [
+        {
+          "id": "shadowwhisperer-tunnels",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/IPs"
+        },
+        {
+          "id": "x4b-vpn-v4",
+          "licenza": "MIT",
+          "homepage": "https://github.com/X4BNet/lists_vpn"
+        },
+        {
+          "id": "x4b-vpn-v6",
+          "licenza": "MIT",
+          "homepage": "https://github.com/X4BNet/lists_vpn"
+        }
+      ]
+    },
+    {
+      "id": "ip/social-v4",
+      "tipo": "ip",
+      "versione_ip": 4,
+      "aggregato": false,
+      "categorie": [
+        "social"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/social-v4.txt",
+      "voci": 211,
+      "descrizione": "Social network e messaggistica per AS: Meta (Facebook, Instagram, WhatsApp), TikTok, X, Telegram",
+      "fonti": [
+        {
+          "id": "social-meta",
+          "licenza": "PDDL 1.0 (iptoasn.com)",
+          "homepage": "https://iptoasn.com/"
+        },
+        {
+          "id": "social-tiktok",
+          "licenza": "PDDL 1.0 (iptoasn.com)",
+          "homepage": "https://iptoasn.com/"
+        },
+        {
+          "id": "social-x",
+          "licenza": "PDDL 1.0 (iptoasn.com)",
+          "homepage": "https://iptoasn.com/"
+        },
+        {
+          "id": "social-telegram",
+          "licenza": "PDDL 1.0 (iptoasn.com)",
+          "homepage": "https://iptoasn.com/"
+        }
+      ]
+    },
+    {
+      "id": "ip/social-v6",
+      "tipo": "ip",
+      "versione_ip": 6,
+      "aggregato": false,
+      "categorie": [
+        "social"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/social-v6.txt",
+      "voci": 119,
+      "descrizione": "Social network e messaggistica per AS: Meta (Facebook, Instagram, WhatsApp), TikTok, X, Telegram",
+      "fonti": [
+        {
+          "id": "social-meta",
+          "licenza": "PDDL 1.0 (iptoasn.com)",
+          "homepage": "https://iptoasn.com/"
+        },
+        {
+          "id": "social-tiktok",
+          "licenza": "PDDL 1.0 (iptoasn.com)",
+          "homepage": "https://iptoasn.com/"
+        },
+        {
+          "id": "social-x",
+          "licenza": "PDDL 1.0 (iptoasn.com)",
+          "homepage": "https://iptoasn.com/"
+        },
+        {
+          "id": "social-telegram",
+          "licenza": "PDDL 1.0 (iptoasn.com)",
+          "homepage": "https://iptoasn.com/"
+        }
+      ]
+    },
+    {
+      "id": "ip/inbound-v4",
+      "tipo": "ip",
+      "versione_ip": 4,
+      "aggregato": false,
+      "categorie": [
+        "inbound"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v4.txt",
+      "voci": 79349,
+      "descrizione": "IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN",
+      "fonti": [
+        {
+          "id": "data-shield",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist"
+        }
+      ]
+    },
+    {
+      "id": "ip/inbound-v6",
+      "tipo": "ip",
+      "versione_ip": 6,
+      "aggregato": false,
+      "categorie": [
+        "inbound"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v6.txt",
+      "voci": 0,
+      "descrizione": "IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN",
+      "fonti": [
+        {
+          "id": "data-shield",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist"
+        }
+      ]
+    },
+    {
+      "id": "ip/bogon-v4",
+      "tipo": "ip",
+      "versione_ip": 4,
+      "aggregato": false,
+      "categorie": [
+        "bogon"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/bogon-v4.txt",
+      "voci": 14,
+      "descrizione": "Reti riservate/private (RFC 6890): SOLO in ingresso su interfacce WAN, mai su LAN",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "ip/custom/bogon.txt"
+        }
+      ]
+    },
+    {
+      "id": "ip/bogon-v6",
+      "tipo": "ip",
+      "versione_ip": 6,
+      "aggregato": false,
+      "categorie": [
+        "bogon"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/bogon-v6.txt",
+      "voci": 11,
+      "descrizione": "Reti riservate/private (RFC 6890): SOLO in ingresso su interfacce WAN, mai su LAN",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "ip/custom/bogon.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/allow-protetti",
+      "tipo": "dominio",
+      "azione": "sblocco",
+      "categoria": "protetti",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-protetti.txt",
+      "voci": 46,
+      "descrizione": "Servizi critici: mai bloccati da liste domini, feed IP e liste OPNsense",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/allowlist/protetti.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/allow-google",
+      "tipo": "dominio",
+      "azione": "sblocco",
+      "categoria": "google",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-google.txt",
+      "voci": 8,
+      "descrizione": "Servizi Google indispensabili (Safe Browsing, app Android)",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/allowlist/google.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/allow-apple",
+      "tipo": "dominio",
+      "azione": "sblocco",
+      "categoria": "apple",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-apple.txt",
+      "voci": 2,
+      "descrizione": "Notifiche push Apple",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/allowlist/apple.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/allow-microsoft",
+      "tipo": "dominio",
+      "azione": "sblocco",
+      "categoria": "microsoft",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-microsoft.txt",
+      "voci": 8,
+      "descrizione": "Microsoft 365, licenze, Defender, Power BI",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/allowlist/microsoft.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/allow-pa",
+      "tipo": "dominio",
+      "azione": "sblocco",
+      "categoria": "pa",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-pa.txt",
+      "voci": 1,
+      "descrizione": "PA italiana",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/allowlist/pa.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/allow-pagamenti",
+      "tipo": "dominio",
+      "azione": "sblocco",
+      "categoria": "pagamenti",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-pagamenti.txt",
+      "voci": 9,
+      "descrizione": "Checkout PayPal e antifrode",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/allowlist/pagamenti.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/allow-vendor-it",
+      "tipo": "dominio",
+      "azione": "sblocco",
+      "categoria": "vendor-it",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-vendor-it.txt",
+      "voci": 6,
+      "descrizione": "Documentazione vendor, GeoIP, RMM",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/allowlist/vendor-it.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/allow-siti-web",
+      "tipo": "dominio",
+      "azione": "sblocco",
+      "categoria": "siti-web",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-siti-web.txt",
+      "voci": 23,
+      "descrizione": "Script di terze parti senza cui i siti non funzionano (consenso cookie, font, tag manager, CDN)",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/allowlist/siti-web.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/allow-smart-tv",
+      "tipo": "dominio",
+      "azione": "sblocco",
+      "categoria": "smart-tv",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-smart-tv.txt",
+      "voci": 2,
+      "descrizione": "App Samsung TV",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/allowlist/smart-tv.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/allow-scuola",
+      "tipo": "dominio",
+      "azione": "sblocco",
+      "categoria": "scuola",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-scuola.txt",
+      "voci": 6,
+      "descrizione": "Piattaforme didattiche",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/allowlist/scuola.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/allow-varie",
+      "tipo": "dominio",
+      "azione": "sblocco",
+      "categoria": "varie",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-varie.txt",
+      "voci": 6,
+      "descrizione": "Siti specifici bloccati per errore",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/allowlist/varie.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/allow-streaming",
+      "tipo": "dominio",
+      "azione": "sblocco",
+      "categoria": "streaming",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-streaming.txt",
+      "voci": 13,
+      "descrizione": "Host specifici delle piattaforme streaming",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/allowlist/streaming.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-tld",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "tld",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-tld.txt",
+      "voci": 6,
+      "descrizione": "TLD interi bloccati",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/tld.txt"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-tld",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "tld",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-tld.txt",
+      "voci": 6,
+      "descrizione": "TLD interi bloccati",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/tld.txt"
+        }
+      ]
+    },
+    {
+      "id": "unbound/block-tld",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "tld",
+      "formato": "local-zone Unbound",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-tld.conf",
+      "voci": 6,
+      "descrizione": "TLD interi bloccati",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/tld.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-malevoli",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "malevoli",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malevoli.txt",
+      "voci": 22,
+      "descrizione": "Domini malevoli e truffe segnalati da noi",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/malevoli.txt"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-malevoli",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "malevoli",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malevoli.txt",
+      "voci": 22,
+      "descrizione": "Domini malevoli e truffe segnalati da noi",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/malevoli.txt"
+        }
+      ]
+    },
+    {
+      "id": "unbound/block-malevoli",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "malevoli",
+      "formato": "local-zone Unbound",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-malevoli.conf",
+      "voci": 22,
+      "descrizione": "Domini malevoli e truffe segnalati da noi",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/malevoli.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-pubblicita",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "pubblicita",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita.txt",
+      "voci": 3,
+      "descrizione": "Pubblicità sfuggita alle liste upstream",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/pubblicita.txt"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-pubblicita",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "pubblicita",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita.txt",
+      "voci": 3,
+      "descrizione": "Pubblicità sfuggita alle liste upstream",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/pubblicita.txt"
+        }
+      ]
+    },
+    {
+      "id": "unbound/block-pubblicita",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "pubblicita",
+      "formato": "local-zone Unbound",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-pubblicita.conf",
+      "voci": 3,
+      "descrizione": "Pubblicità sfuggita alle liste upstream",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/pubblicita.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-accesso-remoto",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "accesso-remoto",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-accesso-remoto.txt",
+      "voci": 18,
+      "descrizione": "Strumenti di accesso remoto (abusati in truffe e ransomware): escludere il proprio RMM",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/accesso-remoto.txt"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-accesso-remoto",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "accesso-remoto",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-accesso-remoto.txt",
+      "voci": 18,
+      "descrizione": "Strumenti di accesso remoto (abusati in truffe e ransomware): escludere il proprio RMM",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/accesso-remoto.txt"
+        }
+      ]
+    },
+    {
+      "id": "unbound/block-accesso-remoto",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "accesso-remoto",
+      "formato": "local-zone Unbound",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-accesso-remoto.conf",
+      "voci": 18,
+      "descrizione": "Strumenti di accesso remoto (abusati in truffe e ransomware): escludere il proprio RMM",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/accesso-remoto.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-ai-generativa",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "ai-generativa",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-ai-generativa.txt",
+      "voci": 17,
+      "descrizione": "Chatbot di AI generativa (policy di prevenzione fuga dati)",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/ai-generativa.txt"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-ai-generativa",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "ai-generativa",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-ai-generativa.txt",
+      "voci": 17,
+      "descrizione": "Chatbot di AI generativa (policy di prevenzione fuga dati)",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/ai-generativa.txt"
+        }
+      ]
+    },
+    {
+      "id": "unbound/block-ai-generativa",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "ai-generativa",
+      "formato": "local-zone Unbound",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-ai-generativa.conf",
+      "voci": 17,
+      "descrizione": "Chatbot di AI generativa (policy di prevenzione fuga dati)",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/ai-generativa.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-file-sharing",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "file-sharing",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-file-sharing.txt",
+      "voci": 15,
+      "descrizione": "File sharing e trasferimento file anonimi (policy di prevenzione fuga dati)",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/file-sharing.txt"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-file-sharing",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "file-sharing",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-file-sharing.txt",
+      "voci": 15,
+      "descrizione": "File sharing e trasferimento file anonimi (policy di prevenzione fuga dati)",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/file-sharing.txt"
+        }
+      ]
+    },
+    {
+      "id": "unbound/block-file-sharing",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "file-sharing",
+      "formato": "local-zone Unbound",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-file-sharing.conf",
+      "voci": 15,
+      "descrizione": "File sharing e trasferimento file anonimi (policy di prevenzione fuga dati)",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/file-sharing.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-social",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "social",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-social.txt",
+      "voci": 421,
+      "descrizione": "Social network e piattaforme community (scuole)",
+      "fonti": [
+        {
+          "id": "blocklistproject-facebook",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/blocklistproject/Lists"
+        },
+        {
+          "id": "blocklistproject-tiktok",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/blocklistproject/Lists"
+        },
+        {
+          "id": "blocklistproject-twitter",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/blocklistproject/Lists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/social.txt"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-social",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "social",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-social.txt",
+      "voci": 27298,
+      "descrizione": "Social network e piattaforme community (scuole)",
+      "fonti": [
+        {
+          "id": "blocklistproject-facebook",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/blocklistproject/Lists"
+        },
+        {
+          "id": "blocklistproject-tiktok",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/blocklistproject/Lists"
+        },
+        {
+          "id": "blocklistproject-twitter",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/blocklistproject/Lists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/social.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-gaming",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "gaming",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-gaming.txt",
+      "voci": 23,
+      "descrizione": "Giochi online e piattaforme di gaming (scuole)",
+      "fonti": [
+        {
+          "id": "blocklistproject-fortnite",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/blocklistproject/Lists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/gaming.txt"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-gaming",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "gaming",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-gaming.txt",
+      "voci": 27,
+      "descrizione": "Giochi online e piattaforme di gaming (scuole)",
+      "fonti": [
+        {
+          "id": "blocklistproject-fortnite",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/blocklistproject/Lists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/gaming.txt"
+        }
+      ]
+    },
+    {
+      "id": "unbound/block-gaming",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "gaming",
+      "formato": "local-zone Unbound",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-gaming.conf",
+      "voci": 23,
+      "descrizione": "Giochi online e piattaforme di gaming (scuole)",
+      "fonti": [
+        {
+          "id": "blocklistproject-fortnite",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/blocklistproject/Lists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/gaming.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-doh",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "doh",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-doh.txt",
+      "voci": 3305,
+      "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
+      "fonti": [
+        {
+          "id": "hagezi-doh",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "dibdot-doh",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/doh.txt"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-doh",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "doh",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-doh.txt",
+      "voci": 3469,
+      "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
+      "fonti": [
+        {
+          "id": "hagezi-doh",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "dibdot-doh",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/doh.txt"
+        }
+      ]
+    },
+    {
+      "id": "unbound/block-doh",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "doh",
+      "formato": "local-zone Unbound",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-doh.conf",
+      "voci": 3305,
+      "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
+      "fonti": [
+        {
+          "id": "hagezi-doh",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "dibdot-doh",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/doh.txt"
+        }
+      ]
+    },
+    {
+      "id": "opnsense/block-doh",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "doh",
+      "formato": "FQDN per alias OPNsense URL Table (IPs)",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/doh.txt",
+      "voci": 2784,
+      "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
+      "fonti": [
+        {
+          "id": "hagezi-doh",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "dibdot-doh",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/doh.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-vpn",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "vpn",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-vpn.txt",
+      "voci": 12853,
+      "descrizione": "VPN, proxy e servizi di bypass (scuole)",
+      "fonti": [
+        {
+          "id": "hagezi-bypass",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/vpn.txt"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-vpn",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "vpn",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-vpn.txt",
+      "voci": 12853,
+      "descrizione": "VPN, proxy e servizi di bypass (scuole)",
+      "fonti": [
+        {
+          "id": "hagezi-bypass",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/vpn.txt"
+        }
+      ]
+    },
+    {
+      "id": "unbound/block-vpn",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "vpn",
+      "formato": "local-zone Unbound",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-vpn.conf",
+      "voci": 12853,
+      "descrizione": "VPN, proxy e servizi di bypass (scuole)",
+      "fonti": [
+        {
+          "id": "hagezi-bypass",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/vpn.txt"
+        }
+      ]
+    },
+    {
+      "id": "opnsense/block-vpn",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "vpn",
+      "formato": "FQDN per alias OPNsense URL Table (IPs)",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/vpn.txt",
+      "voci": 5494,
+      "descrizione": "VPN, proxy e servizi di bypass (scuole)",
+      "fonti": [
+        {
+          "id": "hagezi-bypass",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/vpn.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-porno",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "porno",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-porno.txt",
+      "voci": 84547,
+      "descrizione": "Contenuti per adulti (HaGeZi NSFW + siti che superavano i filtri)",
+      "fonti": [
+        {
+          "id": "hagezi-nsfw",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/porno.txt"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-porno",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "porno",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-porno.txt",
+      "voci": 84573,
+      "descrizione": "Contenuti per adulti (HaGeZi NSFW + siti che superavano i filtri)",
+      "fonti": [
+        {
+          "id": "hagezi-nsfw",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/porno.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-tunnel",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "tunnel",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-tunnel.txt",
+      "voci": 40,
+      "descrizione": "Tunnel, esfiltrazione e canali di controllo: ngrok, trycloudflare, webhook, out-of-band, paste (aziende)",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/tunnel.txt"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-tunnel",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "tunnel",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-tunnel.txt",
+      "voci": 40,
+      "descrizione": "Tunnel, esfiltrazione e canali di controllo: ngrok, trycloudflare, webhook, out-of-band, paste (aziende)",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/tunnel.txt"
+        }
+      ]
+    },
+    {
+      "id": "unbound/block-tunnel",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "tunnel",
+      "formato": "local-zone Unbound",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-tunnel.conf",
+      "voci": 40,
+      "descrizione": "Tunnel, esfiltrazione e canali di controllo: ngrok, trycloudflare, webhook, out-of-band, paste (aziende)",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/tunnel.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-compiti",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "compiti",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-compiti.txt",
+      "voci": 18,
+      "descrizione": "Risolutori e tutor per i compiti: da attivare durante verifiche ed esami (scuole)",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/compiti.txt"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-compiti",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "compiti",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-compiti.txt",
+      "voci": 18,
+      "descrizione": "Risolutori e tutor per i compiti: da attivare durante verifiche ed esami (scuole)",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/compiti.txt"
+        }
+      ]
+    },
+    {
+      "id": "unbound/block-compiti",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "compiti",
+      "formato": "local-zone Unbound",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-compiti.conf",
+      "voci": 18,
+      "descrizione": "Risolutori e tutor per i compiti: da attivare durante verifiche ed esami (scuole)",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/compiti.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-malware",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "malware",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware.txt",
+      "voci": 207189,
+      "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini)",
+      "fonti": [
+        {
+          "id": "hagezi-tif-mini",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-malware",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "malware",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware.txt",
+      "voci": 207189,
+      "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini)",
+      "fonti": [
+        {
+          "id": "hagezi-tif-mini",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-phishing",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "phishing",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-phishing.txt",
+      "voci": 371769,
+      "descrizione": "Phishing attivo (Phishing.Database, solo domini attivi)",
+      "fonti": [
+        {
+          "id": "phishing-database-active",
+          "licenza": "MIT",
+          "homepage": "https://github.com/Phishing-Database/Phishing.Database"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-phishing",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "phishing",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-phishing.txt",
+      "voci": 386593,
+      "descrizione": "Phishing attivo (Phishing.Database, solo domini attivi)",
+      "fonti": [
+        {
+          "id": "phishing-database-active",
+          "licenza": "MIT",
+          "homepage": "https://github.com/Phishing-Database/Phishing.Database"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-spyware",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "spyware",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-spyware.txt",
+      "voci": 528,
+      "descrizione": "Stalkerware e app spia",
+      "fonti": [
+        {
+          "id": "stalkerware-indicators",
+          "licenza": "CC BY 4.0 (Echap)",
+          "homepage": "https://github.com/AssoEchap/stalkerware-indicators"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/spyware.txt"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-spyware",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "spyware",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-spyware.txt",
+      "voci": 935,
+      "descrizione": "Stalkerware e app spia",
+      "fonti": [
+        {
+          "id": "stalkerware-indicators",
+          "licenza": "CC BY 4.0 (Echap)",
+          "homepage": "https://github.com/AssoEchap/stalkerware-indicators"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/spyware.txt"
+        }
+      ]
+    },
+    {
+      "id": "unbound/block-spyware",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "spyware",
+      "formato": "local-zone Unbound",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-spyware.conf",
+      "voci": 528,
+      "descrizione": "Stalkerware e app spia",
+      "fonti": [
+        {
+          "id": "stalkerware-indicators",
+          "licenza": "CC BY 4.0 (Echap)",
+          "homepage": "https://github.com/AssoEchap/stalkerware-indicators"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/spyware.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-cryptojacking",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "cryptojacking",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-cryptojacking.txt",
+      "voci": 296,
+      "descrizione": "Mining di criptovalute nel browser",
+      "fonti": [
+        {
+          "id": "nocoin",
+          "licenza": "MIT",
+          "homepage": "https://github.com/hoshsadiq/adblock-nocoin-list"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-cryptojacking",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "cryptojacking",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-cryptojacking.txt",
+      "voci": 312,
+      "descrizione": "Mining di criptovalute nel browser",
+      "fonti": [
+        {
+          "id": "nocoin",
+          "licenza": "MIT",
+          "homepage": "https://github.com/hoshsadiq/adblock-nocoin-list"
+        }
+      ]
+    },
+    {
+      "id": "unbound/block-cryptojacking",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "cryptojacking",
+      "formato": "local-zone Unbound",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-cryptojacking.conf",
+      "voci": 296,
+      "descrizione": "Mining di criptovalute nel browser",
+      "fonti": [
+        {
+          "id": "nocoin",
+          "licenza": "MIT",
+          "homepage": "https://github.com/hoshsadiq/adblock-nocoin-list"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-redirect",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "redirect",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-redirect.txt",
+      "voci": 108680,
+      "descrizione": "Redirect e URL shortener (BlocklistProject)",
+      "fonti": [
+        {
+          "id": "blocklistproject-redirect",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/blocklistproject/Lists"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-redirect",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "redirect",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-redirect.txt",
+      "voci": 108684,
+      "descrizione": "Redirect e URL shortener (BlocklistProject)",
+      "fonti": [
+        {
+          "id": "blocklistproject-redirect",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/blocklistproject/Lists"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-pirateria",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "pirateria",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pirateria.txt",
+      "voci": 54778,
+      "descrizione": "Pirateria, warez e streaming illegale",
+      "fonti": [
+        {
+          "id": "hagezi-anti-piracy",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/pirateria.txt"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-pirateria",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "pirateria",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pirateria.txt",
+      "voci": 54786,
+      "descrizione": "Pirateria, warez e streaming illegale",
+      "fonti": [
+        {
+          "id": "hagezi-anti-piracy",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/pirateria.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/allow-base",
+      "tipo": "dominio",
+      "azione": "sblocco",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-base.txt",
+      "voci": 116,
+      "descrizione": "Aggregato delle allowlist da applicare a tutti",
+      "fonti": []
+    },
+    {
+      "id": "unbound/safesearch",
+      "tipo": "dominio",
+      "azione": "safesearch",
+      "formato": "local-data Unbound",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/safesearch.conf",
+      "voci": 210,
+      "descrizione": "SafeSearch forzato (Google, YouTube, Bing, DuckDuckGo, Yandex, Pixabay)",
+      "fonti": []
+    }
+  ]
+}

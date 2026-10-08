@@ -300,6 +300,24 @@ def section_domains():
     check(BD.normalize("città.it") == "xn--citt-3na.it", "normalize IDN")
 
 
+def section_catalog():
+    import build_index
+    check(quiet(build_index.main) == 0, "build_index fallisce")
+    index = json.loads((ROOT / "dist/index.json").read_text(encoding="utf-8"))
+    check(len(index["feed"]) > 50, "index.json: troppo pochi feed")
+    for f in index["feed"]:
+        rel = f["url"].removeprefix(B.RAW_BASE + "/")
+        check((ROOT / rel).exists(), f"index.json: {f['id']} punta a un file inesistente")
+        check(f["voci"] == sum(1 for line in (ROOT / rel).read_text(encoding="utf-8").splitlines()
+                               if line.strip() and not line.startswith("#")), f"index.json: voci errate per {f['id']}")
+    third = (ROOT / "dist/THIRD_PARTY.md").read_text(encoding="utf-8")
+    for cfg_path in ("ip/sources.toml", "domains/domains.toml"):
+        cfg = tomllib.loads((ROOT / cfg_path).read_text(encoding="utf-8"))
+        for s in cfg.get("sources", []):
+            if s.get("enabled", True):
+                check(f"| {s['id']} |" in third, f"THIRD_PARTY.md senza la fonte {s['id']}")
+
+
 def section_repository():
     for wf in (ROOT / ".github/workflows").glob("*.yml"):
         text = wf.read_text(encoding="utf-8")
@@ -341,7 +359,7 @@ def main() -> int:
         if hasattr(stream, "reconfigure"):
             stream.reconfigure(encoding="utf-8")
     for section in (section_ip_build, section_ip_outputs, section_parsers, section_guardrails,
-                    section_domains, section_repository):
+                    section_domains, section_catalog, section_repository):
         section()
     print(f"PASS: {PASSES}  FAIL: {len(FAILS)}")
     for f in FAILS:

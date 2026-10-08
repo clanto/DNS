@@ -148,6 +148,12 @@ Liste storiche **curate a mano**, mantenute agli stessi URL per compatibilità. 
 
 [safesearch.conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/safesearch.conf): SafeSearch forzato su Google, YouTube (moderato), Bing, DuckDuckGo, Yandex e Pixabay. Generato a ogni build risolvendo i nomi ufficiali (`forcesafesearch.google.com`, `strict.bing.com`…), con record A e AAAA: gli IP restano corretti anche quando i motori li cambiano. Domini gestiti in [domains/safesearch.toml](domains/safesearch.toml). Su AdGuard Home usare l'opzione nativa *Ricerca sicura*.
 
+## Catalogo, attribuzioni e release
+
+- **Catalogo per automazioni**: [index.json](https://raw.githubusercontent.com/clanto/DNS/main/dist/index.json) elenca ogni feed e lista con URL, formato, numero di voci, descrizione e fonti.
+- **Attribuzioni**: [THIRD_PARTY.md](dist/THIRD_PARTY.md) riporta tutte le fonti di terze parti con licenza e link.
+- **Release settimanali**: ogni lunedì una [release](https://github.com/clanto/DNS/releases) datata con tutte le liste, `SHA256SUMS` e `liste.zip`; conservate le ultime 12. Per un **rollback** si sostituisce nell'URL del feed `raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt` con `github.com/clanto/DNS/releases/download/liste-AAAA-MM-GG/ip-all-v4.txt` (stesso schema `cartella-file` per le altre liste).
+
 ---
 
 ## Contribuire
@@ -161,6 +167,8 @@ Liste storiche **curate a mano**, mantenute agli stessi URL per compatibilità. 
 | Aggiungere una fonte IP | [ip/sources.toml](ip/sources.toml) | [ip/README.md](ip/README.md#aggiungere-una-fonte) |
 | Bloccare o sbloccare un dominio | [domains/blocklist/](domains/blocklist/), [domains/allowlist/](domains/allowlist/) | formato sotto |
 | Catalogare una lista upstream | [domains/upstream.toml](domains/upstream.toml) | licenza obbligatoria |
+
+Regole complete in [CONTRIBUTING.md](CONTRIBUTING.md); segnalazioni con i moduli delle issue (*Segnala un falso positivo*, *Proponi un blocco*); problemi di sicurezza in privato, vedi [SECURITY.md](SECURITY.md).
 
 Formato delle voci manuali, una per riga:
 
@@ -181,4 +189,4 @@ Risorse esterne, non mantenute da noi:
 
 ## Licenza
 
-[GPL-3.0](LICENSE). Le attribuzioni delle fonti sono in [dist/ip/README.md](dist/ip/README.md) e [dist/adguard/README.md](dist/adguard/README.md).
+[GPL-3.0](LICENSE). Attribuzioni delle fonti in [dist/THIRD_PARTY.md](dist/THIRD_PARTY.md).
