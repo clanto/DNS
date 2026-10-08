@@ -282,3 +282,22 @@ url = "https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/refs/heads/mast
 format = "tweetfeed"
 homepage = "https://github.com/0xDanielLopez/TweetFeed"
 license = "CC0-1.0"
+
+[[sources]]
+id = "shadowwhisperer-tunnels-domains"
+category = "vpn"
+url = "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tunnels"
+format = "domains"
+homepage = "https://github.com/ShadowWhisperer/BlockLists"
+license = "Unlicense"
+max_age_days = 60
+note = "VPN e proxy; servizi aziendali esclusi in domains/escludi.txt"
+
+[[sources]]
+id = "shadowwhisperer-dns-domains"
+category = "doh"
+url = "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/DNS"
+format = "domains"
+homepage = "https://github.com/ShadowWhisperer/BlockLists"
+license = "Unlicense"
+max_age_days = 60

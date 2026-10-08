@@ -12,6 +12,7 @@ Le liste in `dist/` sono **generate**: non si modificano mai a mano. Si modifica
 | Bloccare un IP | `ip/custom/<categoria>.txt` |
 | Sbloccare un IP | `ip/allowlist.txt` |
 | Rete di hosting/CDN condivisa | `ip/condivisi.txt` |
+| Escludere un dominio legittimo che arriva da una fonte esterna | `domains/escludi.txt` (solo nome esatto; non è un'allowlist) |
 | Nuova fonte | `ip/sources.toml` o `domains/domains.toml` |
 
 ## Formato delle voci

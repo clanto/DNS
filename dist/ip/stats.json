@@ -2,24 +2,24 @@
   "feed": {
     "doh-v4.txt": 1332,
     "doh-v6.txt": 692,
-    "tor-v4.txt": 5175,
-    "tor-v6.txt": 2471,
-    "threat-v4.txt": 27243,
+    "tor-v4.txt": 5211,
+    "tor-v6.txt": 2459,
+    "threat-v4.txt": 27244,
     "threat-v6.txt": 0,
-    "c2-v4.txt": 441,
+    "c2-v4.txt": 446,
     "c2-v6.txt": 0,
     "vpn-v4.txt": 9134,
     "vpn-v6.txt": 414,
     "social-v4.txt": 211,
     "social-v6.txt": 119,
-    "inbound-v4.txt": 78636,
+    "inbound-v4.txt": 78490,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "all-v4.txt": 34033,
-    "all-v6.txt": 3163,
-    "all-scuole-v4.txt": 42713,
-    "all-scuole-v6.txt": 3520
+    "all-v4.txt": 34076,
+    "all-v6.txt": 3151,
+    "all-scuole-v4.txt": 42757,
+    "all-scuole-v6.txt": 3507
   },
   "fonti": [
     {
@@ -49,7 +49,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "cache",
-      "entries": 1233,
+      "entries": 1232,
       "detail": ""
     },
     {
@@ -59,7 +59,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "cache",
-      "entries": 9646,
+      "entries": 9610,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -79,7 +79,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "cache",
-      "entries": 16923,
+      "entries": 16925,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -109,7 +109,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "cache",
-      "entries": 88457,
+      "entries": 88302,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -159,7 +159,7 @@
       "homepage": "https://github.com/0xDanielLopez/TweetFeed",
       "enabled": true,
       "status": "cache",
-      "entries": 443,
+      "entries": 448,
       "detail": "IoC degli ultimi 30 giorni condivisi da ricercatori di sicurezza"
     },
     {
@@ -234,7 +234,7 @@
     }
   },
   "allowlist": {
-    "voci": 114,
+    "voci": 118,
     "reti_modificate": 1
   },
   "condivisi": {
@@ -242,7 +242,7 @@
     "voci_escluse": 3865
   },
   "protetti": {
-    "ip_risolti": 111,
+    "ip_risolti": 115,
     "voci_escluse": []
   }
 }

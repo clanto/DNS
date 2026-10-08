@@ -27,6 +27,7 @@ from build_ip import EMAIL_RE, RAW_BASE, ROOT, TICKET_RE, contains_pii, fail, fe
 DOMAINS_DIR = ROOT / "domains"
 CACHE_DIR = DOMAINS_DIR / "cache"
 CONFIG_PATH = DOMAINS_DIR / "domains.toml"
+EXCLUDE_PATH = DOMAINS_DIR / "escludi.txt"  # esclusioni di cura dalle fonti esterne
 UPSTREAM_PATH = DOMAINS_DIR / "upstream.toml"
 ADGUARD_DIR = ROOT / "dist" / "adguard"
 PLAIN_DIR = ROOT / "dist" / "domains"
@@ -291,6 +292,15 @@ def main() -> int:
         collected[("block", cat)][0].update(names)
         per_source.setdefault(cat, {})[sid] = names
         source_report.append(f"- fonte `{sid}` ({cat}): {status}")
+
+    # Esclusioni di cura: nomi esatti tolti dalle voci delle fonti esterne (le voci manuali restano)
+    curated = set(load(EXCLUDE_PATH, tld=False, today=today, errors=errors)[0]) if EXCLUDE_PATH.exists() else set()
+    for cat in cfg.get("block", {}):
+        names = collected[("block", cat)][0]
+        dropped = (names & curated) - manual[cat]
+        names -= dropped
+        if dropped:
+            source_report.append(f"- esclusioni di cura in block/{cat}: {len(dropped)} ({', '.join(sorted(dropped)[:5])})")
 
     for cat, opts in cfg.get("block", {}).items():
         names = collected[("block", cat)][0]

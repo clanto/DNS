@@ -254,6 +254,11 @@ def section_domains():
     ss = (ROOT / "dist/unbound/safesearch.conf").read_text(encoding="utf-8")
     for needle in ('"www.google.it A ', '"www.youtube.com A ', '"www.bing.com A ', '"pixabay.com A '):
         check(needle in ss, f"safesearch.conf senza {needle}")
+    vpn = set((ROOT / "dist/domains/block-vpn.txt").read_text().split())
+    doh = set((ROOT / "dist/domains/block-doh.txt").read_text().split())
+    for excluded in ("fortinet.com", "checkpoint.com", "wellpoint.com", "opendns.com", "adguard.io"):
+        check(excluded not in vpn and excluded not in doh, f"esclusione di cura non applicata: {excluded}")
+    check("doh.opendns.com" in doh, "le esclusioni non devono toccare i sottodomini (doh.opendns.com)")
     gaming = (ROOT / "dist/domains/block-gaming.txt").read_text().split()
     check("roblox.com" in gaming, "roblox.com non in block-gaming")
     for p in (ROOT / "dist/unbound").glob("block-*.conf"):

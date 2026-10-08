@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/clanto/DNS",
   "licenza": "GPL-3.0",
-  "generato": "2026-10-08T12:13:07Z",
+  "generato": "2026-10-08T14:22:44Z",
   "attribuzioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/THIRD_PARTY.md",
   "registro_variazioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/CHANGELOG.md",
   "feed": [
@@ -18,7 +18,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt",
-      "voci": 34033,
+      "voci": 34076,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -86,7 +86,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v6.txt",
-      "voci": 3163,
+      "voci": 3151,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -155,7 +155,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v4.txt",
-      "voci": 42713,
+      "voci": 42757,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -239,7 +239,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v6.txt",
-      "voci": 3520,
+      "voci": 3507,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -389,7 +389,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt",
-      "voci": 5175,
+      "voci": 5211,
       "descrizione": "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)",
       "fonti": [
         {
@@ -414,7 +414,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v6.txt",
-      "voci": 2471,
+      "voci": 2459,
       "descrizione": "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)",
       "fonti": [
         {
@@ -439,7 +439,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v4.txt",
-      "voci": 27243,
+      "voci": 27244,
       "descrizione": "IP malevoli attivi (scanner, brute force, attacchi) segnalati da più blacklist",
       "fonti": [
         {
@@ -489,7 +489,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v4.txt",
-      "voci": 441,
+      "voci": 446,
       "descrizione": "Server di comando e controllo di botnet e malware",
       "fonti": [
         {
@@ -669,7 +669,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v4.txt",
-      "voci": 78636,
+      "voci": 78490,
       "descrizione": "IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN",
       "fonti": [
         {
@@ -1386,7 +1386,7 @@
       "categoria": "doh",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-doh.txt",
-      "voci": 3299,
+      "voci": 3264,
       "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -1398,6 +1398,11 @@
           "id": "dibdot-doh",
           "licenza": "GPL-3.0",
           "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "shadowwhisperer-dns-domains",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
         },
         {
           "id": "manuale",
@@ -1413,7 +1418,7 @@
       "categoria": "doh",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-doh.txt",
-      "voci": 3463,
+      "voci": 3528,
       "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -1425,6 +1430,11 @@
           "id": "dibdot-doh",
           "licenza": "GPL-3.0",
           "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "shadowwhisperer-dns-domains",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
         },
         {
           "id": "manuale",
@@ -1440,7 +1450,7 @@
       "categoria": "doh",
       "formato": "local-zone Unbound",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-doh.conf",
-      "voci": 3299,
+      "voci": 3264,
       "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -1452,6 +1462,11 @@
           "id": "dibdot-doh",
           "licenza": "GPL-3.0",
           "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "shadowwhisperer-dns-domains",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
         },
         {
           "id": "manuale",
@@ -1467,7 +1482,7 @@
       "categoria": "doh",
       "formato": "FQDN per alias OPNsense URL Table (IPs)",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/doh.txt",
-      "voci": 2784,
+      "voci": 2787,
       "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -1479,6 +1494,11 @@
           "id": "dibdot-doh",
           "licenza": "GPL-3.0",
           "homepage": "https://github.com/dibdot/DoH-IP-blocklists"
+        },
+        {
+          "id": "shadowwhisperer-dns-domains",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
         },
         {
           "id": "manuale",
@@ -1494,13 +1514,18 @@
       "categoria": "vpn",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-vpn.txt",
-      "voci": 12798,
+      "voci": 12964,
       "descrizione": "VPN, proxy e servizi di bypass (scuole)",
       "fonti": [
         {
           "id": "hagezi-bypass",
           "licenza": "GPL-3.0",
           "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "shadowwhisperer-tunnels-domains",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
         },
         {
           "id": "manuale",
@@ -1516,13 +1541,18 @@
       "categoria": "vpn",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-vpn.txt",
-      "voci": 12798,
+      "voci": 12964,
       "descrizione": "VPN, proxy e servizi di bypass (scuole)",
       "fonti": [
         {
           "id": "hagezi-bypass",
           "licenza": "GPL-3.0",
           "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "shadowwhisperer-tunnels-domains",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
         },
         {
           "id": "manuale",
@@ -1538,13 +1568,18 @@
       "categoria": "vpn",
       "formato": "local-zone Unbound",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-vpn.conf",
-      "voci": 12798,
+      "voci": 12964,
       "descrizione": "VPN, proxy e servizi di bypass (scuole)",
       "fonti": [
         {
           "id": "hagezi-bypass",
           "licenza": "GPL-3.0",
           "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "shadowwhisperer-tunnels-domains",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
         },
         {
           "id": "manuale",
@@ -1560,13 +1595,18 @@
       "categoria": "vpn",
       "formato": "FQDN per alias OPNsense URL Table (IPs)",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/vpn.txt",
-      "voci": 5505,
+      "voci": 5524,
       "descrizione": "VPN, proxy e servizi di bypass (scuole)",
       "fonti": [
         {
           "id": "hagezi-bypass",
           "licenza": "GPL-3.0",
           "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "shadowwhisperer-tunnels-domains",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
         },
         {
           "id": "manuale",
@@ -1728,7 +1768,7 @@
       "categoria": "malware",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware.txt",
-      "voci": 239544,
+      "voci": 239557,
       "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed)",
       "fonti": [
         {
@@ -1750,7 +1790,7 @@
       "categoria": "malware",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware.txt",
-      "voci": 239572,
+      "voci": 239588,
       "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed)",
       "fonti": [
         {

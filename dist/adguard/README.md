@@ -32,12 +32,12 @@ solo su istanze dedicate ai clienti che le richiedono.
 | `block-file-sharing.txt` | File sharing e trasferimento file anonimi (policy di prevenzione fuga dati) | 15 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-file-sharing.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-file-sharing.txt) |
 | `block-social.txt` | Social network e piattaforme community (scuole) | 421 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-social.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-social.txt) |
 | `block-gaming.txt` | Giochi online e piattaforme di gaming (scuole) | 23 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-gaming.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-gaming.txt) |
-| `block-doh.txt` | Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale | 3299 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-doh.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-doh.txt) |
-| `block-vpn.txt` | VPN, proxy e servizi di bypass (scuole) | 12798 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-vpn.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-vpn.txt) |
+| `block-doh.txt` | Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale | 3264 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-doh.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-doh.txt) |
+| `block-vpn.txt` | VPN, proxy e servizi di bypass (scuole) | 12964 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-vpn.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-vpn.txt) |
 | `block-porno.txt` | Contenuti per adulti (HaGeZi NSFW + siti che superavano i filtri) | 84747 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-porno.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-porno.txt) |
 | `block-tunnel.txt` | Tunnel, esfiltrazione e canali di controllo: ngrok, trycloudflare, webhook, out-of-band, paste (aziende) | 40 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-tunnel.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-tunnel.txt) |
 | `block-compiti.txt` | Risolutori e tutor per i compiti: da attivare durante verifiche ed esami (scuole) | 18 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-compiti.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-compiti.txt) |
-| `block-malware.txt` | Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed) | 239544 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware.txt) |
+| `block-malware.txt` | Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed) | 239557 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware.txt) |
 | `block-phishing.txt` | Phishing attivo (Phishing.Database, Validin) | 444552 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-phishing.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-phishing.txt) |
 | `block-spyware.txt` | Stalkerware e app spia | 528 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-spyware.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-spyware.txt) |
 | `block-cryptojacking.txt` | Mining di criptovalute nel browser | 296 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-cryptojacking.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-cryptojacking.txt) |
@@ -78,13 +78,14 @@ Voci pubblicate che arrivano **solo** da una fonte: misura quanto una lista dipe
 | Lista | Fonte | Voci esclusive | Quota |
 |---|---|---|---|
 | block-cryptojacking | nocoin | 312 | 100.0% |
-| block-doh | dibdot-doh | 170 | 4.9% |
-| block-doh | hagezi-doh | 2090 | 60.4% |
-| block-doh | manuale | 5 | 0.1% |
+| block-doh | dibdot-doh | 168 | 4.8% |
+| block-doh | hagezi-doh | 2076 | 58.8% |
+| block-doh | manuale | 4 | 0.1% |
+| block-doh | shadowwhisperer-dns-domains | 66 | 1.9% |
 | block-gaming | blocklistproject-fortnite | 5 | 18.5% |
 | block-gaming | manuale | 22 | 81.5% |
 | block-malware | hagezi-tif-mini | 238094 | 99.4% |
-| block-malware | tweetfeed-domains | 366 | 0.2% |
+| block-malware | tweetfeed-domains | 382 | 0.2% |
 | block-phishing | phishing-database-active | 383041 | 81.4% |
 | block-phishing | validin-phish | 83775 | 17.8% |
 | block-pirateria | hagezi-anti-piracy | 53827 | 97.5% |
@@ -98,6 +99,7 @@ Voci pubblicate che arrivano **solo** da una fonte: misura quanto una lista dipe
 | block-social | manuale | 18 | 0.1% |
 | block-spyware | manuale | 7 | 0.7% |
 | block-spyware | stalkerware-indicators | 913 | 97.6% |
-| block-vpn | hagezi-bypass | 12798 | 100.0% |
+| block-vpn | hagezi-bypass | 11955 | 92.2% |
+| block-vpn | shadowwhisperer-tunnels-domains | 220 | 1.7% |
 
 Pubblicato sotto GPL-3.0.

@@ -3,6 +3,17 @@
 > Generato da `scripts/changelog.py` a ogni build: aggiunte e rimozioni rispetto alla versione precedente.
 > Ultime voci in alto. Per gli IP è indicata la fonte (`ip/cache/`) o `manuale`.
 
+## 2026-10-08 14:14 UTC
+
+- `dist/adguard/block-doh.txt`: +67 / -102 (totale 3264)
+  - aggiunte: `||adfilter.net^`, `||adguard-dns.io^`, `||arapurayil.com^`, `||bebasid.com^`, `||blahdns.com^`, `||blokada.org^`, `||censurfridns.dk^`, `||comododns.com^` e altre 59
+  - rimosse: `||2.dnscrypt-cert.blahdns.com^`, `||2.dnscrypt-cert.captnemo.in^`, `||2.dnscrypt-cert.dns.seby.io^`, `||2.dnscrypt-cert.ffmuc.net^`, `||2.dnscrypt-cert.pumplex.com^`, `||2.dnscrypt-cert.quad9.net^`, `||2.dnscrypt-cert.shield-2.dnsbycomodo.com^`, `||adblock-dot.dnswarden.com^` e altre 94
+- `dist/adguard/block-malware.txt`: +13 / -0 (totale 239557)
+  - aggiunte: `||96roafw91vs3hqv.top^`, `||9xkcaayaagvr1p2.top^`, `||abret.org^`, `||activekala.shop^`, `||admin-heteml.com^`, `||cf-cdn.viktorkraynov.com^`, `||fw-static.nashbashracing.org^`, `||js-stable.pupplements.com^` e altre 5
+- `dist/adguard/block-vpn.txt`: +220 / -54 (totale 12964)
+  - aggiunte: `||0000a-fast-proxy.de^`, `||123ani.me^`, `||123book.info^`, `||123ddl.com^`, `||123down.org^`, `||123fr.info^`, `||123free.info^`, `||123li.me^` e altre 212
+  - rimosse: `||adfilter.net^`, `||adguard.io^`, `||arapurayil.com^`, `||bebasid.com^`, `||blahdns.com^`, `||blokada.org^`, `||censurfridns.dk^`, `||comododns.com^` e altre 46
+
 ## 2026-10-08 12:10 UTC
 
 - `dist/ip/all-scuole-v4.txt`: +545 / -129 (totale 42713)

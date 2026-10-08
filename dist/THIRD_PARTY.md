@@ -26,8 +26,10 @@
 | nocoin | lista domini `cryptojacking` | MIT | https://github.com/hoshsadiq/adblock-nocoin-list |
 | phishing-database-active | lista domini `phishing` | MIT | https://github.com/Phishing-Database/Phishing.Database |
 | shadowwhisperer-dns | feed IP `doh` | Unlicense | https://github.com/ShadowWhisperer/IPs |
+| shadowwhisperer-dns-domains | lista domini `doh` | Unlicense | https://github.com/ShadowWhisperer/BlockLists |
 | shadowwhisperer-threats | feed IP `threat` | Unlicense | https://github.com/ShadowWhisperer/IPs |
 | shadowwhisperer-tunnels | feed IP `vpn` | Unlicense | https://github.com/ShadowWhisperer/IPs |
+| shadowwhisperer-tunnels-domains | lista domini `vpn` | Unlicense | https://github.com/ShadowWhisperer/BlockLists |
 | social-meta | feed IP `social` | PDDL 1.0 (iptoasn.com) | https://iptoasn.com/ |
 | social-telegram | feed IP `social` | PDDL 1.0 (iptoasn.com) | https://iptoasn.com/ |
 | social-tiktok | feed IP `social` | PDDL 1.0 (iptoasn.com) | https://iptoasn.com/ |

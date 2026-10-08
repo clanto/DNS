@@ -1,0 +1,27 @@
+# Esclusioni di cura: domini tolti dalle voci che arrivano dalle FONTI ESTERNE delle blocklist.
+# Non sono allowlist: AdGuard non li sblocca se li blocca un'altra lista, e le nostre voci manuali restano.
+# Solo il nome esatto: i sottodomini restano (es. escludere opendns.com non toglie doh.opendns.com).
+# Formato: dominio | data AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+fortinet.com | 2026-10-08 | aggiornamenti FortiGate/FortiClient | -
+fortinet.net | 2026-10-08 | FortiGuard e FortiClient | -
+fortiwebcloud.net | 2026-10-08 | Fortinet FortiWeb Cloud | -
+checkpoint.com | 2026-10-08 | aggiornamenti e servizi Check Point | -
+gpcloudservice.com | 2026-10-08 | Palo Alto GlobalProtect / Prisma Access | -
+zscalertwo.net | 2026-10-08 | Zscaler (accesso aziendale) | -
+zpath.net | 2026-10-08 | Zscaler Private Access | -
+openvpn.net | 2026-10-08 | OpenVPN: client usati per le VPN aziendali e scolastiche | -
+openvpn.com | 2026-10-08 | OpenVPN Inc. | -
+talk2m.com | 2026-10-08 | eWON Talk2M: accesso remoto industriale | -
+sparklabs.com | 2026-10-08 | client VPN Viscosity | -
+wireguard.com | 2026-10-08 | sito del progetto WireGuard | -
+stunnel.org | 2026-10-08 | sito del progetto stunnel | -
+adguard.com | 2026-10-08 | sito e servizi AdGuard | -
+adguard.io | 2026-10-08 | servizi AdGuard | -
+opendns.com | 2026-10-08 | console Cisco Umbrella (doh.opendns.com resta bloccato) | -
+dns-oarc.net | 2026-10-08 | organizzazione di ricerca DNS | -
+sslip.io | 2026-10-08 | DNS wildcard per sviluppo, non un resolver | -
+wellpoint.com | 2026-10-08 | assicurazione sanitaria: falso positivo | -
+spaceship.com | 2026-10-08 | registrar e hosting: falso positivo | -
+spaceship-cdn.com | 2026-10-08 | CDN di Spaceship: falso positivo | -
+restena.lu | 2026-10-08 | rete universitaria del Lussemburgo (dns.restena.lu resta bloccato) | -
+digitale-gesellschaft.ch | 2026-10-08 | associazione (dns.digitale-gesellschaft.ch resta bloccato) | -
