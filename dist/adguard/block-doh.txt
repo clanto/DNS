@@ -1564,7 +1564,6 @@
 ||adguard.kiboko.it^
 ||flat.loisy.it^
 ||nas-fusion.loisy.it^
-||dns.mcexp.it^
 ||dns.neeb.it^
 ||doh.luigi.nexific.it^
 ||dns.npsolution.it^
@@ -2778,7 +2777,6 @@
 ||komo4ek.ru^
 ||kondrcloud.ru^
 ||kopcm.ru^
-||landerbrauver.ru^
 ||malanser.ru^
 ||dns.msxnet.ru^
 ||muxyuji.ru^
@@ -2898,7 +2896,6 @@
 ||cloud.beerloga.su^
 ||egorovna.su^
 ||home34.su^
-||sers.lirlab.su^
 ||reniac.su^
 ||nl.dns.shx.su^
 ||smartcamp.su^
@@ -2922,7 +2919,6 @@
 ||host8.248.cloudhost.in.th^
 ||doh.us.moe.tips^
 ||duyyen.tk^
-||guard.magic-pics.tk^
 ||adguard.neelyha.tk^
 ||dns.readlook.tk^
 ||ag.teqilla.tk^
@@ -3092,7 +3088,6 @@
 ||dns.xwu.us^
 ||doh.aipps.vip^
 ||dns.horcrux.vip^
-||dt.marss.vip^
 ||dns.mtoo.vip^
 ||dns.nicolas.vip^
 ||qingmo.vip^
@@ -3247,7 +3242,6 @@
 ||adguard.kantinyoyok.xyz^
 ||dns.kerekes.xyz^
 ||adguard.kitakitsune.xyz^
-||ko-18948-tr.xyz^
 ||kx-97795-tr.xyz^
 ||tr.league1.xyz^
 ||dns.libost.xyz^

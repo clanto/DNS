@@ -21,6 +21,7 @@
 23.106.141.137.16clouds.com
 3.11i.eu
 3.local-dns.noridev.moe
+3dcosas.xyz
 3dns.eu
 3jjxxl.tech
 51576162.ru
@@ -273,6 +274,7 @@ adns.onlinetools.rocks
 ads.hunga1k47.com
 ads.therman.eu
 adsl.viettel.vn
+adult-filter-dns.cleanbrowsing.org
 ae-agh1.dns.cryptroute.net
 ae-fuj-w-p-1.nashkan.net
 ae-fuj-w-p-2.nashkan.net
@@ -407,7 +409,6 @@ beacon.dog
 beautifullife.eu.org
 beautifulthings.eu.org
 bei01.dnscry.pt
-bestwon203.com
 bh.wael.name
 biba.ydns.eu
 bkk01.dnscry.pt
@@ -1314,7 +1315,6 @@ dns.zky666.fun
 dns.zmobiletech.com
 dns.zui.lol
 dns.zzuhacker.cn
-dns0.eu
 dns0.permafrostmiami.com
 dns0.tardishost.ru
 dns01.enginyring.com
@@ -1813,6 +1813,7 @@ hole.elbschloss.xyz
 home.azagra.dev
 home.basthorst.eu
 home.bruckmoser.it
+home.dlinkddns.com
 home.fc.idv.tw
 home.fendya.com
 home.marcrnt.de
@@ -2040,6 +2041,7 @@ maincloud.ir
 malanser.ru
 man01.dnscry.pt
 maqgie.xyz
+mask-canary.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2068,6 +2070,7 @@ mnsvless.ikwb.com
 moamao.shop
 moe01.dnscry.pt
 moidns.hopto.org
+moise-et-maurice-gardent-la-maison.schneiderus.org
 morbitzer.de
 morgenegg.duckdns.org
 moto.adg.siudzinski.net
@@ -2542,7 +2545,6 @@ tky-dns.bitdefender.net
 tll01.dnscry.pt
 tls.jackyhou.idv.tw
 tls.windyvale.net
-tlz.asia
 tngch.mydns.jp
 toaster.lol
 tokyo.559299366.xyz
@@ -2567,6 +2569,7 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
+tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
