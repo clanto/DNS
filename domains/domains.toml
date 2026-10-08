@@ -103,11 +103,11 @@ description = "Tunnel, esfiltrazione e canali di controllo: ngrok, trycloudflare
 description = "Risolutori e tutor per i compiti: da attivare durante verifiche ed esami (scuole)"
 
 [block.malware]
-description = "Malware e minacce confermate (HaGeZi Threat Intelligence mini)"
+description = "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed)"
 outputs = ["adguard", "domains"]
 
 [block.phishing]
-description = "Phishing attivo (Phishing.Database, solo domini attivi)"
+description = "Phishing attivo (Phishing.Database, Validin)"
 outputs = ["adguard", "domains"]
 
 [block.spyware]
@@ -266,3 +266,19 @@ url = "https://blocklistproject.github.io/Lists/alt-version/fortnite-nl.txt"
 format = "domains"
 homepage = "https://github.com/blocklistproject/Lists"
 license = "Unlicense"
+
+[[sources]]
+id = "validin-phish"
+category = "phishing"
+url = "https://raw.githubusercontent.com/MikhailKasimov/validin-phish-feed/main/validin-phish-feed.txt"
+format = "domains"
+homepage = "https://github.com/MikhailKasimov/validin-phish-feed"
+license = "MIT"
+
+[[sources]]
+id = "tweetfeed-domains"
+category = "malware"
+url = "https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/refs/heads/master/month.csv"
+format = "tweetfeed"
+homepage = "https://github.com/0xDanielLopez/TweetFeed"
+license = "CC0-1.0"

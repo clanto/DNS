@@ -1,25 +1,25 @@
 {
   "feed": {
-    "doh-v4.txt": 1329,
-    "doh-v6.txt": 693,
-    "tor-v4.txt": 5204,
-    "tor-v6.txt": 2477,
-    "threat-v4.txt": 27233,
+    "doh-v4.txt": 1332,
+    "doh-v6.txt": 692,
+    "tor-v4.txt": 5175,
+    "tor-v6.txt": 2471,
+    "threat-v4.txt": 27243,
     "threat-v6.txt": 0,
-    "c2-v4.txt": 5,
+    "c2-v4.txt": 441,
     "c2-v6.txt": 0,
     "vpn-v4.txt": 9134,
     "vpn-v6.txt": 414,
     "social-v4.txt": 211,
     "social-v6.txt": 119,
-    "inbound-v4.txt": 79218,
+    "inbound-v4.txt": 78636,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "all-v4.txt": 33616,
-    "all-v6.txt": 3170,
-    "all-scuole-v4.txt": 42297,
-    "all-scuole-v6.txt": 3527
+    "all-v4.txt": 34033,
+    "all-v6.txt": 3163,
+    "all-scuole-v4.txt": 42713,
+    "all-scuole-v6.txt": 3520
   },
   "fonti": [
     {
@@ -29,7 +29,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "cache",
-      "entries": 1966,
+      "entries": 1968,
       "detail": ""
     },
     {
@@ -49,7 +49,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "cache",
-      "entries": 1235,
+      "entries": 1233,
       "detail": ""
     },
     {
@@ -59,7 +59,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "cache",
-      "entries": 9639,
+      "entries": 9646,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -79,7 +79,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "cache",
-      "entries": 16902,
+      "entries": 16923,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -109,7 +109,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "cache",
-      "entries": 89046,
+      "entries": 88457,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -151,6 +151,16 @@
       "status": "cache",
       "entries": 12,
       "detail": "Telegram"
+    },
+    {
+      "id": "tweetfeed-ip",
+      "category": "c2",
+      "license": "CC0-1.0",
+      "homepage": "https://github.com/0xDanielLopez/TweetFeed",
+      "enabled": true,
+      "status": "cache",
+      "entries": 443,
+      "detail": "IoC degli ultimi 30 giorni condivisi da ricercatori di sicurezza"
     },
     {
       "id": "abusech-feodo",
@@ -224,15 +234,15 @@
     }
   },
   "allowlist": {
-    "voci": 119,
+    "voci": 114,
     "reti_modificate": 1
   },
   "condivisi": {
-    "intervalli": 11263,
-    "voci_escluse": 3859
+    "intervalli": 11272,
+    "voci_escluse": 3865
   },
   "protetti": {
-    "ip_risolti": 116,
+    "ip_risolti": 111,
     "voci_escluse": []
   }
 }

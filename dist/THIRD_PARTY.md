@@ -35,6 +35,9 @@
 | stalkerware-indicators | lista domini `spyware` | CC BY 4.0 (Echap) | https://github.com/AssoEchap/stalkerware-indicators |
 | tor-exit | feed IP `tor` | CC0 (Tor Metrics) | https://metrics.torproject.org/ |
 | tor-relay | feed IP `tor` | CC0 (Tor Metrics) | https://metrics.torproject.org/onionoo.html |
+| tweetfeed-domains | lista domini `malware` | CC0-1.0 | https://github.com/0xDanielLopez/TweetFeed |
+| tweetfeed-ip | feed IP `c2` | CC0-1.0 | https://github.com/0xDanielLopez/TweetFeed |
+| validin-phish | lista domini `phishing` | MIT | https://github.com/MikhailKasimov/validin-phish-feed |
 | x4b-vpn-v4 | feed IP `vpn` | MIT | https://github.com/X4BNet/lists_vpn |
 | x4b-vpn-v6 | feed IP `vpn` | MIT | https://github.com/X4BNet/lists_vpn |
 

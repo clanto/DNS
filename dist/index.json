@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/clanto/DNS",
   "licenza": "GPL-3.0",
-  "generato": "2026-10-08T07:59:21Z",
+  "generato": "2026-10-08T12:13:07Z",
   "attribuzioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/THIRD_PARTY.md",
   "registro_variazioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/CHANGELOG.md",
   "feed": [
@@ -18,7 +18,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt",
-      "voci": 33616,
+      "voci": 34033,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -55,6 +55,11 @@
           "id": "shadowwhisperer-dns",
           "licenza": "Unlicense",
           "homepage": "https://github.com/ShadowWhisperer/IPs"
+        },
+        {
+          "id": "tweetfeed-ip",
+          "licenza": "CC0-1.0",
+          "homepage": "https://github.com/0xDanielLopez/TweetFeed"
         },
         {
           "id": "abusech-feodo",
@@ -81,7 +86,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v6.txt",
-      "voci": 3170,
+      "voci": 3163,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -118,6 +123,11 @@
           "id": "shadowwhisperer-dns",
           "licenza": "Unlicense",
           "homepage": "https://github.com/ShadowWhisperer/IPs"
+        },
+        {
+          "id": "tweetfeed-ip",
+          "licenza": "CC0-1.0",
+          "homepage": "https://github.com/0xDanielLopez/TweetFeed"
         },
         {
           "id": "abusech-feodo",
@@ -145,7 +155,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v4.txt",
-      "voci": 42297,
+      "voci": 42713,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -187,6 +197,11 @@
           "id": "shadowwhisperer-tunnels",
           "licenza": "Unlicense",
           "homepage": "https://github.com/ShadowWhisperer/IPs"
+        },
+        {
+          "id": "tweetfeed-ip",
+          "licenza": "CC0-1.0",
+          "homepage": "https://github.com/0xDanielLopez/TweetFeed"
         },
         {
           "id": "abusech-feodo",
@@ -224,7 +239,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v6.txt",
-      "voci": 3527,
+      "voci": 3520,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -268,6 +283,11 @@
           "homepage": "https://github.com/ShadowWhisperer/IPs"
         },
         {
+          "id": "tweetfeed-ip",
+          "licenza": "CC0-1.0",
+          "homepage": "https://github.com/0xDanielLopez/TweetFeed"
+        },
+        {
           "id": "abusech-feodo",
           "licenza": "CC0",
           "homepage": "https://feodotracker.abuse.ch/blocklist/"
@@ -299,7 +319,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v4.txt",
-      "voci": 1329,
+      "voci": 1332,
       "descrizione": "Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -334,7 +354,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v6.txt",
-      "voci": 693,
+      "voci": 692,
       "descrizione": "Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -369,7 +389,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt",
-      "voci": 5204,
+      "voci": 5175,
       "descrizione": "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)",
       "fonti": [
         {
@@ -394,7 +414,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v6.txt",
-      "voci": 2477,
+      "voci": 2471,
       "descrizione": "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)",
       "fonti": [
         {
@@ -419,7 +439,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v4.txt",
-      "voci": 27233,
+      "voci": 27243,
       "descrizione": "IP malevoli attivi (scanner, brute force, attacchi) segnalati da più blacklist",
       "fonti": [
         {
@@ -469,9 +489,14 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v4.txt",
-      "voci": 5,
+      "voci": 441,
       "descrizione": "Server di comando e controllo di botnet e malware",
       "fonti": [
+        {
+          "id": "tweetfeed-ip",
+          "licenza": "CC0-1.0",
+          "homepage": "https://github.com/0xDanielLopez/TweetFeed"
+        },
         {
           "id": "abusech-feodo",
           "licenza": "CC0",
@@ -492,6 +517,11 @@
       "voci": 0,
       "descrizione": "Server di comando e controllo di botnet e malware",
       "fonti": [
+        {
+          "id": "tweetfeed-ip",
+          "licenza": "CC0-1.0",
+          "homepage": "https://github.com/0xDanielLopez/TweetFeed"
+        },
         {
           "id": "abusech-feodo",
           "licenza": "CC0",
@@ -639,7 +669,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v4.txt",
-      "voci": 79218,
+      "voci": 78636,
       "descrizione": "IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN",
       "fonti": [
         {
@@ -1356,7 +1386,7 @@
       "categoria": "doh",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-doh.txt",
-      "voci": 3305,
+      "voci": 3299,
       "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -1383,7 +1413,7 @@
       "categoria": "doh",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-doh.txt",
-      "voci": 3469,
+      "voci": 3463,
       "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -1410,7 +1440,7 @@
       "categoria": "doh",
       "formato": "local-zone Unbound",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-doh.conf",
-      "voci": 3305,
+      "voci": 3299,
       "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -1464,7 +1494,7 @@
       "categoria": "vpn",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-vpn.txt",
-      "voci": 12853,
+      "voci": 12798,
       "descrizione": "VPN, proxy e servizi di bypass (scuole)",
       "fonti": [
         {
@@ -1486,7 +1516,7 @@
       "categoria": "vpn",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-vpn.txt",
-      "voci": 12853,
+      "voci": 12798,
       "descrizione": "VPN, proxy e servizi di bypass (scuole)",
       "fonti": [
         {
@@ -1508,7 +1538,7 @@
       "categoria": "vpn",
       "formato": "local-zone Unbound",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-vpn.conf",
-      "voci": 12853,
+      "voci": 12798,
       "descrizione": "VPN, proxy e servizi di bypass (scuole)",
       "fonti": [
         {
@@ -1552,7 +1582,7 @@
       "categoria": "porno",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-porno.txt",
-      "voci": 84547,
+      "voci": 84747,
       "descrizione": "Contenuti per adulti (HaGeZi NSFW + siti che superavano i filtri)",
       "fonti": [
         {
@@ -1574,7 +1604,7 @@
       "categoria": "porno",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-porno.txt",
-      "voci": 84573,
+      "voci": 84773,
       "descrizione": "Contenuti per adulti (HaGeZi NSFW + siti che superavano i filtri)",
       "fonti": [
         {
@@ -1698,13 +1728,18 @@
       "categoria": "malware",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware.txt",
-      "voci": 207189,
-      "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini)",
+      "voci": 239544,
+      "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed)",
       "fonti": [
         {
           "id": "hagezi-tif-mini",
           "licenza": "GPL-3.0",
           "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "tweetfeed-domains",
+          "licenza": "CC0-1.0",
+          "homepage": "https://github.com/0xDanielLopez/TweetFeed"
         }
       ]
     },
@@ -1715,13 +1750,18 @@
       "categoria": "malware",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware.txt",
-      "voci": 207189,
-      "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini)",
+      "voci": 239572,
+      "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed)",
       "fonti": [
         {
           "id": "hagezi-tif-mini",
           "licenza": "GPL-3.0",
           "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "tweetfeed-domains",
+          "licenza": "CC0-1.0",
+          "homepage": "https://github.com/0xDanielLopez/TweetFeed"
         }
       ]
     },
@@ -1732,13 +1772,18 @@
       "categoria": "phishing",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-phishing.txt",
-      "voci": 371769,
-      "descrizione": "Phishing attivo (Phishing.Database, solo domini attivi)",
+      "voci": 444552,
+      "descrizione": "Phishing attivo (Phishing.Database, Validin)",
       "fonti": [
         {
           "id": "phishing-database-active",
           "licenza": "MIT",
           "homepage": "https://github.com/Phishing-Database/Phishing.Database"
+        },
+        {
+          "id": "validin-phish",
+          "licenza": "MIT",
+          "homepage": "https://github.com/MikhailKasimov/validin-phish-feed"
         }
       ]
     },
@@ -1749,13 +1794,18 @@
       "categoria": "phishing",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-phishing.txt",
-      "voci": 386593,
-      "descrizione": "Phishing attivo (Phishing.Database, solo domini attivi)",
+      "voci": 470368,
+      "descrizione": "Phishing attivo (Phishing.Database, Validin)",
       "fonti": [
         {
           "id": "phishing-database-active",
           "licenza": "MIT",
           "homepage": "https://github.com/Phishing-Database/Phishing.Database"
+        },
+        {
+          "id": "validin-phish",
+          "licenza": "MIT",
+          "homepage": "https://github.com/MikhailKasimov/validin-phish-feed"
         }
       ]
     },
@@ -1917,7 +1967,7 @@
       "categoria": "pirateria",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pirateria.txt",
-      "voci": 54778,
+      "voci": 55227,
       "descrizione": "Pirateria, warez e streaming illegale",
       "fonti": [
         {
@@ -1939,7 +1989,7 @@
       "categoria": "pirateria",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pirateria.txt",
-      "voci": 54786,
+      "voci": 55235,
       "descrizione": "Pirateria, warez e streaming illegale",
       "fonti": [
         {

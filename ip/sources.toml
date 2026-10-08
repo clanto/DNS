@@ -31,6 +31,7 @@ description = "IP malevoli attivi (scanner, brute force, attacchi) segnalati da 
 
 [categories.c2]
 description = "Server di comando e controllo di botnet e malware"
+exclude_shared = true  # gli IoC possono puntare a hosting condivisi
 
 [categories.vpn]
 description = "VPN commerciali e proxy anonimizzanti"
@@ -254,6 +255,15 @@ license = "PDDL 1.0 (iptoasn.com)"
 min_prefix_v4 = 12
 min_prefix_v6 = 24
 note = "Telegram"
+
+[[sources]]
+id = "tweetfeed-ip"
+category = "c2"
+url = "https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/refs/heads/master/month.csv"
+format = "tweetfeed"
+homepage = "https://github.com/0xDanielLopez/TweetFeed"
+license = "CC0-1.0"
+note = "IoC degli ultimi 30 giorni condivisi da ricercatori di sicurezza"
 
 [[sources]]
 id = "abusech-feodo"

@@ -11,6 +11,8 @@ from __future__ import annotations
 import argparse
 import bisect
 import concurrent.futures as cf
+import csv
+import io
 import ipaddress
 import json
 import os
@@ -144,6 +146,11 @@ def onionoo_to_text(text: str) -> str:
     return "\n".join(addr.rsplit(":", 1)[0].strip("[]") for r in relays for addr in r.get("or_addresses", []))
 
 
+def tweetfeed_to_text(text: str, kind: str) -> str:
+    """TweetFeed CSV (data,utente,tipo,valore,tag,tweet): solo i valori del tipo richiesto (ip o domain)."""
+    return "\n".join(cols[3].strip() for cols in csv.reader(io.StringIO(text)) if len(cols) >= 4 and cols[2] == kind)
+
+
 def valid_date(value: str) -> bool:
     if not DATE_RE.match(value):
         return False
@@ -229,7 +236,7 @@ def load_config(errors: list[str]) -> dict:
             errors.append(f"sources.toml: fonte '{sid}' deve usare HTTPS")
         if not src.get("license"):
             errors.append(f"sources.toml: fonte '{sid}' senza licenza dichiarata")
-        if src.get("format", "text") not in ("text", "onionoo", "asn"):
+        if src.get("format", "text") not in ("text", "onionoo", "asn", "tweetfeed"):
             errors.append(f"sources.toml: fonte '{sid}' con formato sconosciuto '{src.get('format')}'")
     for name, agg in cfg.get("aggregates", {}).items():
         if name in categories:
@@ -274,6 +281,8 @@ def load_source(src: dict, settings: dict, offline: bool, persist: bool,
             text = fetch(src["url"])
         if src.get("format") == "onionoo":
             text = onionoo_to_text(text)
+        elif src.get("format") == "tweetfeed":
+            text = tweetfeed_to_text(text, "ip")
         nets, rejected = parse_source_text(text, min_prefix)
         if not nets:
             raise ValueError("nessuna voce valida")

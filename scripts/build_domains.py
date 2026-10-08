@@ -13,7 +13,9 @@ Uso: python scripts/build_domains.py [--check]
 from __future__ import annotations
 
 import argparse
+import csv
 import fnmatch
+import io
 import re
 import sys
 import tomllib
@@ -97,9 +99,13 @@ def load(path: Path, *, tld: bool, today: date, errors: list[str]) -> tuple[list
 
 
 def parse_domain_text(text: str, fmt: str) -> tuple[set[str], int]:
-    """Estrae domini da liste 'domains', 'adblock' (||dominio^) o 'hosts'. Restituisce (domini, scartati)."""
+    """Estrae domini da liste 'domains', 'adblock' (||dominio^), 'hosts' o 'tweetfeed' (CSV). Restituisce (domini, scartati)."""
     names: set[str] = set()
     rejected = 0
+    if fmt == "tweetfeed":
+        # CSV data,utente,tipo,valore,...: solo i domini (gli URL possono puntare a host condivisi)
+        text = "\n".join(cols[3] for cols in csv.reader(io.StringIO(text)) if len(cols) >= 4 and cols[2] == "domain")
+        fmt = "domains"
     for raw in text.splitlines():
         line = raw.strip().lower()
         if not line or line[0] in "#!":
@@ -172,7 +178,27 @@ def overlaps(a: str, b: str) -> bool:
     return covers(a, b) or covers(b, a)
 
 
-def render_readme(outputs: dict[str, tuple[str, str, int]], upstream: list[dict]) -> str:
+def contribution(per_source: dict[str, dict[str, set[str]]], manual: dict[str, set[str]],
+                 final: dict[str, set[str]]) -> list[str]:
+    """Per ogni lista con più fonti: quante voci pubblicate arrivano solo da ciascuna fonte."""
+    lines = ["## Contributo delle fonti", "",
+             "Voci pubblicate che arrivano **solo** da una fonte: misura quanto una lista dipende da ciascuna.", "",
+             "| Lista | Fonte | Voci esclusive | Quota |", "|---|---|---|---|"]
+    for cat, sources in sorted(per_source.items()):
+        named = dict(sources)
+        if manual.get(cat):
+            named["manuale"] = manual[cat]
+        published = final[cat]
+        for sid, names in sorted(named.items()):
+            others = set().union(*(v for k, v in named.items() if k != sid))
+            only = len((names - others) & published)
+            share = 100 * only / len(published) if published else 0
+            lines.append(f"| block-{cat} | {sid} | {only} | {share:.1f}% |")
+    return lines + [""]
+
+
+def render_readme(outputs: dict[str, tuple[str, str, int]], upstream: list[dict],
+                  extra: list[str] | None = None) -> str:
     lines = [
         "# Liste domini per AdGuard",
         "",
@@ -201,7 +227,7 @@ def render_readme(outputs: dict[str, tuple[str, str, int]], upstream: list[dict]
     ]
     for u in upstream:
         lines.append(f"| [{u['name']}]({u['url']}) | {u['category']} | {u['license']} | {u['ambito']} | {u.get('note', '')} |")
-    lines += ["", "Pubblicato sotto GPL-3.0.", ""]
+    lines += [""] + (extra or []) + ["Pubblicato sotto GPL-3.0.", ""]
     return "\n".join(lines)
 
 
@@ -249,6 +275,7 @@ def main() -> int:
     manual = {cat: set(collected[("block", cat)][0]) for cat in cfg.get("block", {})}
 
     ids: set[str] = set()
+    per_source: dict[str, dict[str, set[str]]] = {}  # categoria → fonte → voci (per il contributo delle fonti)
     for src in cfg.get("sources", []):
         sid, cat = src.get("id", "?"), src.get("category")
         if sid in ids:
@@ -262,6 +289,7 @@ def main() -> int:
             continue
         names, status = load_domain_source(src, offline, persist=not args.check)
         collected[("block", cat)][0].update(names)
+        per_source.setdefault(cat, {})[sid] = names
         source_report.append(f"- fonte `{sid}` ({cat}): {status}")
 
     for cat, opts in cfg.get("block", {}).items():
@@ -367,7 +395,9 @@ def main() -> int:
                     stale.unlink()
             for name, content in files.items():
                 (directory / name).write_text(content, encoding="utf-8", newline="\n")
-        (ADGUARD_DIR / "README.md").write_text(render_readme(meta, upstream), encoding="utf-8", newline="\n")
+        finals = {cat: collected[("block", cat)][0] for cat in cfg.get("block", {})}
+        extra = contribution(per_source, manual, finals)
+        (ADGUARD_DIR / "README.md").write_text(render_readme(meta, upstream, extra), encoding="utf-8", newline="\n")
 
     for e in errors:
         fail(e)
