@@ -454,7 +454,7 @@ def render_readme(cfg: dict, outputs: dict[str, list[Network]], sources: list[So
         v4, v6 = f"{name}-v4.txt", f"{name}-v6.txt"
         lines.append(f"| `{name}` | {desc} | [{len(outputs[v4])}]({base}/{v4}) | [{len(outputs[v6])}]({base}/{v6}) |")
     lines += ["", "## Fonti", "", "| ID | Categoria | Licenza | Stato | Voci | Note |", "|---|---|---|---|---|---|"]
-    for s in sources:
+    for s in [s for s in sources if s.enabled]:
         sid = f"[{s.id}]({s.homepage})" if s.homepage else s.id
         lines.append(f"| {sid} | {s.category} | {s.license} | {s.status} | {s.entries} | {s.detail} |")
     lines += ["", "## Voci manuali", "", "| Categoria | Attive | Scadute |", "|---|---|---|"]

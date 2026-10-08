@@ -12,7 +12,9 @@ URL base dei file: `https://raw.githubusercontent.com/clanto/DNS/main/`
 | [Feed IP per firewall](#feed-ip-per-firewall) | IP da bloccare, per categoria |
 | [Liste domini per AdGuard](#liste-domini-per-adguard) | Allowlist e blocklist curate |
 | [Liste upstream](#liste-upstream-consigliate-per-adguard) | Liste esterne con licenza verificata |
-| [Liste storiche](#liste-storiche) | File originali del repository |
+| [Altre liste](#altre-liste) | Liste curate a mano agli URL originali |
+| [SafeSearch per Unbound](#safesearch-per-unbound) | SafeSearch forzato via DNS |
+| [Catalogo, attribuzioni e release](#catalogo-attribuzioni-e-release) | Catalogo JSON, licenze, copie settimanali |
 | [Contribuire](#contribuire) | Come aggiungere IP, domini e fonti |
 
 ---
@@ -97,52 +99,56 @@ Le regole per singolo cliente (`$client`) restano nelle regole personalizzate di
 
 ### Liste FQDN per alias OPNsense
 
-OPNsense risolve ogni dominio dell'alias e blocca gli IP ottenuti, quindi segue anche gli anycast. Le liste sono generate dalle blocklist `doh` e `vpn`, risolte in CI: sono **esclusi i domini morti** (solo carico sul resolver) e quelli su **IP di CDN condivise** (Cloudflare, CloudFront, Fastly), che bloccherebbero anche siti legittimi.
+OPNsense risolve ogni dominio dell'alias e blocca gli IP ottenuti, quindi segue anche gli anycast. Le liste sono generate dalle blocklist `doh` e `vpn`, risolte in CI: sono **esclusi i domini morti**, quelli in sinkhole, quelli su **infrastrutture condivise** (CDN e hosting) e quelli sugli IP dei servizi protetti, che bloccherebbero anche siti legittimi.
 
 | Lista | Contenuto |
 |---|---|
 | [doh.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/doh.txt) | Resolver DoH/DoT/DoQ con IP dedicato |
 | [vpn.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/vpn.txt) | VPN e proxy con IP dedicato (scuole) |
 
-Alias di tipo **URL Table (IPs)**. Il firewall deve risolvere i nomi con un DNS **non filtrato da AdGuard**, altrimenti l'alias resta vuoto: guida completa in [ip/README.md](ip/README.md#opnsense). Dettaglio di domini pubblicati, morti e su CDN: [dist/opnsense/README.md](dist/opnsense/README.md). Ogni lunedì un controllo risolve di nuovo le liste e segnala gli IP che stanno su CDN o hosting condivisi non ancora esclusi (Akamai, Netlify, GitHub Pages, front-end Google…) o che ospitano più domini: la rete va aggiunta a `ip/condivisi.txt`. Per AdGuard usare le liste complete `block-doh.txt` e `block-vpn.txt`.
+Alias di tipo **URL Table (IPs)**. Il firewall deve risolvere i nomi con un DNS **non filtrato da AdGuard**, altrimenti l'alias resta vuoto: guida completa in [ip/README.md](ip/README.md#opnsense). Dettaglio di domini pubblicati, morti e su CDN: [dist/opnsense/README.md](dist/opnsense/README.md). Ogni lunedì un controllo risolve di nuovo le liste e segnala gli IP su hosting condivisi o che ospitano più domini: la rete va aggiunta a `ip/condivisi.txt`. Per AdGuard usare le liste complete `block-doh.txt` e `block-vpn.txt`.
 
 ## Liste upstream consigliate per AdGuard
 
-Principali liste esterne, con licenza verificata per l'uso commerciale. Il catalogo completo, con lo stato di ogni lista (attiva, consigliata, da rimuovere), è in [dist/adguard/README.md](dist/adguard/README.md#catalogo-liste-upstream-abbonamento-diretto-su-adguard).
+Liste esterne da abbonare direttamente su AdGuard, insieme alle nostre liste di `dist/adguard/`. Le fonti che ripubblichiamo (DoH, VPN, redirect, spyware, cryptojacking, porno, pirateria, social) si prendono dalle nostre, che aggiungono voci curate, servizi protetti e controllo dei conflitti con le allowlist. Licenze verificate per l'uso commerciale; note per ogni lista in [dist/adguard/README.md](dist/adguard/README.md#liste-upstream-consigliate-abbonamento-diretto-su-adguard).
 
-| Lista | Categoria | Licenza |
-|---|---|---|
-| [HaGeZi Multi PRO](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt) | Pubblicità, tracking, malware | GPL-3.0 |
-| [HaGeZi Threat Intelligence Feeds](https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt) | Malware, phishing | GPL-3.0 |
-| [HaGeZi DoH/VPN/TOR/Proxy Bypass](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt) | Bypass del DNS | GPL-3.0 |
-| [HaGeZi NRD 7 giorni](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd7.txt) | Domini registrati da poco (~3,6M righe) | GPL-3.0 |
-| [HaGeZi DynDNS](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt) | DNS dinamici | GPL-3.0 |
-| [HaGeZi Gambling](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt) | Scommesse | GPL-3.0 |
-| [HaGeZi NSFW](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt) | Contenuti per adulti | GPL-3.0 |
-| [HaGeZi Anti-Piracy](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt) | Pirateria | GPL-3.0 |
-| [AdGuard DNS filter](https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt) | Pubblicità, tracking | GPL-3.0 |
-| [Stalkerware Indicators](https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt) | App spia | CC BY 4.0 |
-| [NoCoin](https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt) | Cryptojacking | MIT |
-| [WindowsSpyBlocker](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt) | Telemetria Windows | MIT |
-| [Perflyst Smart TV](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt) | Telemetria smart TV | MIT |
-
-**Da rimuovere da AdGuard**:
-- **Phishing Army** (CC BY-NC: non consentita per uso commerciale)
-- **Dandelion Sprout** (licenza non standard)
-- **Big List of Hacked Malware** (ferma dal 2023)
+| Lista | Categoria | Ambito | Licenza |
+|---|---|---|---|
+| [HaGeZi Multi PRO](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt) | pubblicità, tracking | tutti | GPL-3.0 |
+| [HaGeZi Pop-Up Ads](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt) | pubblicità | tutti | GPL-3.0 |
+| [HaGeZi Threat Intelligence Feeds](https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt) | malware, phishing | tutti | GPL-3.0 |
+| [Phishing URL Blocklist (malware-filter)](https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt) | phishing | tutti | MIT |
+| [uBlock Badware risks](https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt) | malware | tutti | GPL-3.0 |
+| [DurableNapkin Scam](https://adguardteam.github.io/HostlistsRegistry/assets/filter_10.txt) | truffe | tutti | MIT |
+| [ShadowWhisperer Malware](https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt) | malware | tutti | Unlicense |
+| [BlocklistProject Fraud](https://blocklistproject.github.io/Lists/adguard/fraud-ags.txt) | truffe | tutti | Unlicense |
+| [BlocklistProject Scam](https://blocklistproject.github.io/Lists/adguard/scam-ags.txt) | truffe | tutti | Unlicense |
+| [BlocklistProject Ransomware](https://blocklistproject.github.io/Lists/adguard/ransomware-ags.txt) | ransomware | tutti | Unlicense |
+| [URLhaus (malware-filter)](https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt) | malware | tutti | Termini abuse.ch |
+| [HaGeZi DynDNS](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt) | DNS dinamici | tutti | GPL-3.0 |
+| [HaGeZi Spam TLDs](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt) | TLD abusati | tutti | GPL-3.0 |
+| [HaGeZi Fake](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt) | truffe | tutti | GPL-3.0 |
+| [HaGeZi DGA 7 giorni](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/dga7.txt) | malware (domini generati) | tutti | GPL-3.0 |
+| [HaGeZi NRD 7 giorni](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd7.txt) | domini registrati da poco | tutti | GPL-3.0 |
+| [Frogeye first-party trackers](https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt) | tracker CNAME cloaking | tutti | MIT |
+| [Perflyst Smart TV (AdGuard)](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt) | telemetria smart TV | tutti | MIT |
+| [WindowsSpyBlocker spy](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt) | telemetria Windows | aziende | MIT |
+| [HaGeZi Gambling](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt) | scommesse | scuole | GPL-3.0 |
+| [UT1 Université Toulouse Capitole](https://dsi.ut-capitole.fr/blacklists/index_en.php) | categorie per scuole | scuole | CC BY-SA 4.0 |
+| [HaGeZi Allowlist Referral](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/whitelist-referral.txt) | allowlist (link di affiliazione) | tutti | GPL-3.0 |
 
 ---
 
-## Liste storiche
+## Altre liste
 
-Liste storiche **curate a mano**, mantenute agli stessi URL per compatibilità. Quelle sostituite da liste dinamiche sono state rimosse: `pornoextra` → `block-porno`, `roblox` → `block-gaming`, `ubound_safesearch.conf` → [`dist/unbound/safesearch.conf`](#safesearch-per-unbound), `appspia` → `block-spyware`, `criptojacking` → `block-cryptojacking`, `malware` → `block-malware`, `pishing` → `block-phishing`, `redirect` → `block-redirect`, `warez` e `lista_streaming_illegale` → `block-pirateria` (le voci curate da noi sono confluite nelle nuove liste). `DNSoverHTTPS/doh.txt` e `liste/vpn.txt` sono stati rimossi: li sostituiscono le liste dinamiche [block-doh.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-doh.txt) e [block-vpn.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-vpn.txt).
+Liste curate a mano, agli URL originali.
 
-| Lista | Contenuto | Stato |
-|---|---|---|
-| [ddos.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/ddos.txt) | Servizi di attacco DDoS | Curata da noi |
-| [lista_streaming_legale_noscuola.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/lista_streaming_legale_noscuola.txt) | Streaming legale non ammesso a scuola | Curata da noi |
-| [motori_ricerca_nosafesearch.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/motori_ricerca_nosafesearch.txt) | Motori di ricerca senza Safe Search | Curata da noi |
-| [ipv4.txt](https://raw.githubusercontent.com/clanto/DNS/main/DNSoverHTTPS/ipv4.txt) | IP DNS-over-HTTPS | **Generata**: uguale a `dist/ip/doh-v4.txt` |
+| Lista | Contenuto |
+|---|---|
+| [ddos.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/ddos.txt) | Servizi di attacco DDoS |
+| [lista_streaming_legale_noscuola.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/lista_streaming_legale_noscuola.txt) | Streaming legale non ammesso a scuola |
+| [motori_ricerca_nosafesearch.txt](https://raw.githubusercontent.com/clanto/DNS/main/liste/motori_ricerca_nosafesearch.txt) | Motori di ricerca senza SafeSearch |
+| [ipv4.txt](https://raw.githubusercontent.com/clanto/DNS/main/DNSoverHTTPS/ipv4.txt) | IP DNS-over-HTTPS: generata, uguale a `dist/ip/doh-v4.txt` |
 
 ## SafeSearch per Unbound
 

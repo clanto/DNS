@@ -44,52 +44,31 @@ solo su istanze dedicate ai clienti che le richiedono.
 | `block-redirect.txt` | Redirect e URL shortener (BlocklistProject) | 108680 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-redirect.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-redirect.txt) |
 | `block-pirateria.txt` | Pirateria, warez e streaming illegale | 54778 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pirateria.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pirateria.txt) |
 
-## Catalogo liste upstream (abbonamento diretto su AdGuard)
+## Liste upstream consigliate (abbonamento diretto su AdGuard)
 
-| Lista | Categoria | Licenza | Stato | Note |
+| Lista | Categoria | Licenza | Ambito | Note |
 |---|---|---|---|---|
-| [AdGuard DNS filter](https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt) | ads/tracking | GPL-3.0 | attiva |  |
-| [AdAway Default Blocklist](https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt) | ads | GPL-3.0 | attiva |  |
-| [HaGeZi Multi PRO](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt) | multi | GPL-3.0 | attiva |  |
-| [BlocklistProject Ads](https://blocklistproject.github.io/Lists/adguard/ads-ags.txt) | ads | Unlicense | attiva | Aggressiva: blocca push.apple.com (MDM, Apple Classroom) e wns.windows.com (notifiche Teams); coperta da HaGeZi Pro. Valutare la rimozione |
-| [BlocklistProject Tracking](https://blocklistproject.github.io/Lists/adguard/tracking-ags.txt) | tracking | Unlicense | attiva | Aggressiva: blocca shellprod.msocdn.com (office.com), stun.l.google.com (Meet), lcdn-locator.apple.com; coperta da HaGeZi Pro. Valutare la rimozione |
-| [HaGeZi Pop-Up Ads](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt) | ads | GPL-3.0 | consigliata |  |
-| [HaGeZi Threat Intelligence Feeds](https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt) | malware/phishing | GPL-3.0 | attiva | Fonte principale di sicurezza |
-| [Phishing URL Blocklist (malware-filter)](https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt) | phishing | MIT | attiva |  |
-| [uBlock Badware risks](https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt) | malware | GPL-3.0 | attiva |  |
-| [DurableNapkin Scam](https://adguardteam.github.io/HostlistsRegistry/assets/filter_10.txt) | scam | MIT | attiva |  |
-| [ShadowWhisperer Malware](https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt) | malware | Unlicense | attiva |  |
-| [Stalkerware Indicators](https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt) | spyware | CC BY-4.0 | attiva | Ripubblicata in dist/adguard/block-spyware.txt |
-| [NoCoin](https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt) | cryptojacking | MIT | attiva | Ripubblicata in dist/adguard/block-cryptojacking.txt |
-| [BlocklistProject Fraud](https://blocklistproject.github.io/Lists/adguard/fraud-ags.txt) | scam | Unlicense | attiva |  |
-| [BlocklistProject Malware](https://blocklistproject.github.io/Lists/adguard/malware-ags.txt) | malware | Unlicense | attiva | 2,6M righe, molto sovrapposta a HaGeZi TIF |
-| [BlocklistProject Phishing](https://blocklistproject.github.io/Lists/adguard/phishing-ags.txt) | phishing | Unlicense | attiva |  |
-| [BlocklistProject Ransomware](https://blocklistproject.github.io/Lists/adguard/ransomware-ags.txt) | ransomware | Unlicense | attiva |  |
-| [BlocklistProject Scam](https://blocklistproject.github.io/Lists/adguard/scam-ags.txt) | scam | Unlicense | attiva |  |
-| [BlocklistProject Redirect](https://blocklistproject.github.io/Lists/adguard/redirect-ags.txt) | redirect | Unlicense | attiva | Ripubblicata in dist/adguard/block-redirect.txt |
-| [HaGeZi NRD 7 giorni](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd7.txt) | domini nuovi | GPL-3.0 | consigliata | 3,6M righe: verificare RAM di AdGuard; i successivi nrd14-8, nrd21-15, nrd28-22 aggiungono ~2-3M ciascuno |
-| [HaGeZi DGA 7 giorni](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/dga7.txt) | malware (DGA) | GPL-3.0 | consigliata |  |
-| [HaGeZi DynDNS](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt) | dns dinamici | GPL-3.0 | consigliata |  |
-| [HaGeZi Spam TLDs](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt) | tld abusati | GPL-3.0 | consigliata |  |
-| [HaGeZi Fake](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt) | scam | GPL-3.0 | consigliata |  |
-| [HaGeZi DoH/VPN/TOR/Proxy Bypass](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt) | bypass | GPL-3.0 | consigliata | Ripubblicata in dist/adguard/block-doh.txt e block-vpn.txt |
-| [dibdot DoH domains](https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-domains.txt) | bypass | GPL-3.0 | attiva |  |
-| [Dandelion Sprout Anti-Malware](https://adguardteam.github.io/HostlistsRegistry/assets/filter_12.txt) | malware | Dandelicence (non standard) | da rimuovere | Clausole non standard, incompatibili con GPL-3.0 e con uso commerciale certo; coperta da HaGeZi TIF |
-| [Phishing Army](https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt) | phishing | CC BY-NC 4.0 | da rimuovere | Non commerciale: vietata per un MSP senza licenza dell'autore |
-| [Big List of Hacked Malware Sites](https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt) | malware | MIT | da rimuovere | Ferma da ottobre 2023 |
-| [URLhaus (malware-filter)](https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt) | malware | ToS abuse.ch | attiva | ToS abuse.ch: uso commerciale può richiedere abbonamento Spamhaus; chiedere conferma ad abuse.ch |
-| [WindowsSpyBlocker spy](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt) | telemetria Windows | MIT | consigliata | Formato hosts; extra.txt è più aggressivo. Verificare che non rompa Windows Update/Defender |
-| [Perflyst Smart TV (AdGuard)](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt) | telemetria smart TV | MIT | consigliata | allow-smart-tv ($important) mantiene comunque i servizi Samsung sbloccati |
-| [Frogeye first-party trackers](https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt) | tracker CNAME cloaking | MIT | consigliata |  |
-| [BlocklistProject Porn](https://blocklistproject.github.io/Lists/adguard/porn-ags.txt) | adulti | Unlicense | attiva |  |
-| [HaGeZi NSFW](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt) | adulti | GPL-3.0 | consigliata |  |
-| [HaGeZi Gambling](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt) | scommesse | GPL-3.0 | consigliata |  |
-| [HaGeZi Anti-Piracy](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt) | pirateria | GPL-3.0 | consigliata | Ripubblicata in dist/adguard/block-pirateria.txt |
-| [ADM siti di gioco inibiti](https://www.adm.gov.it/portale/siti-web-inibiti-giochi) | scommesse | Non dichiarata | solo riferimento | Il file TXT ha URL versionato che cambia a ogni aggiornamento; licenza di riuso non indicata |
-| [UT1 Université Toulouse Capitole](https://dsi.ut-capitole.fr/blacklists/index_en.php) | categorie scuola | CC BY-SA 4.0 | consigliata | Uso commerciale consentito con attribuzione e ShareAlike |
-| [HaGeZi Allowlist Referral](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/whitelist-referral.txt) | allowlist | GPL-3.0 | consigliata | Link di affiliazione/referral legittimi |
-| [HaGeZi Allowlist URL Shortener](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/whitelist-urlshortener.txt) | allowlist | GPL-3.0 | consigliata | Solo se si usa la blocklist redirect |
-| [Ultimate Hosts Blacklist whitelist](https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/whitelist/master/domains.list) | allowlist | MIT | solo riferimento | Ferma da luglio 2026: utile per cercare falsi positivi, non come abbonamento |
-| [AdGuard HttpsExclusions banche](https://github.com/AdguardTeam/HttpsExclusions) | allowlist banche | Nessuna | solo riferimento | Senza licenza: consultabile, non ridistribuibile |
+| [HaGeZi Multi PRO](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt) | pubblicità, tracking | GPL-3.0 | tutti |  |
+| [HaGeZi Pop-Up Ads](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt) | pubblicità | GPL-3.0 | tutti |  |
+| [HaGeZi Threat Intelligence Feeds](https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt) | malware, phishing | GPL-3.0 | tutti | Versione completa: con questa la nostra block-malware (versione mini) non serve |
+| [Phishing URL Blocklist (malware-filter)](https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt) | phishing | MIT | tutti |  |
+| [uBlock Badware risks](https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt) | malware | GPL-3.0 | tutti |  |
+| [DurableNapkin Scam](https://adguardteam.github.io/HostlistsRegistry/assets/filter_10.txt) | truffe | MIT | tutti |  |
+| [ShadowWhisperer Malware](https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt) | malware | Unlicense | tutti |  |
+| [BlocklistProject Fraud](https://blocklistproject.github.io/Lists/adguard/fraud-ags.txt) | truffe | Unlicense | tutti |  |
+| [BlocklistProject Scam](https://blocklistproject.github.io/Lists/adguard/scam-ags.txt) | truffe | Unlicense | tutti |  |
+| [BlocklistProject Ransomware](https://blocklistproject.github.io/Lists/adguard/ransomware-ags.txt) | ransomware | Unlicense | tutti |  |
+| [URLhaus (malware-filter)](https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt) | malware | Termini abuse.ch | tutti | Per l'uso commerciale i termini abuse.ch possono richiedere un abbonamento |
+| [HaGeZi DynDNS](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt) | DNS dinamici | GPL-3.0 | tutti |  |
+| [HaGeZi Spam TLDs](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt) | TLD abusati | GPL-3.0 | tutti |  |
+| [HaGeZi Fake](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt) | truffe | GPL-3.0 | tutti |  |
+| [HaGeZi DGA 7 giorni](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/dga7.txt) | malware (domini generati) | GPL-3.0 | tutti |  |
+| [HaGeZi NRD 7 giorni](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd7.txt) | domini registrati da poco | GPL-3.0 | tutti | Circa 3,6 milioni di voci: verificare la RAM di AdGuard |
+| [Frogeye first-party trackers](https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt) | tracker CNAME cloaking | MIT | tutti |  |
+| [Perflyst Smart TV (AdGuard)](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt) | telemetria smart TV | MIT | tutti |  |
+| [WindowsSpyBlocker spy](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt) | telemetria Windows | MIT | aziende | Provare prima su pochi PC: può interferire con Windows Update e Defender |
+| [HaGeZi Gambling](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt) | scommesse | GPL-3.0 | scuole |  |
+| [UT1 Université Toulouse Capitole](https://dsi.ut-capitole.fr/blacklists/index_en.php) | categorie per scuole | CC BY-SA 4.0 | scuole | Liste per categoria da scegliere sul sito |
+| [HaGeZi Allowlist Referral](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/whitelist-referral.txt) | allowlist (link di affiliazione) | GPL-3.0 | tutti |  |
 
 Pubblicato sotto GPL-3.0.

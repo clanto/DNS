@@ -3,6 +3,33 @@
 > Generato da `scripts/changelog.py` a ogni build: aggiunte e rimozioni rispetto alla versione precedente.
 > Ultime voci in alto. Per gli IP è indicata la fonte (`ip/cache/`) o `manuale`.
 
+## 2026-10-08 06:34 UTC
+
+- `dist/ip/all-scuole-v4.txt`: +155 / -334 (totale 42313)
+  - aggiunte: `103.175.3.2` (tor-relay), `103.73.65.146` (tor-relay), `103.78.167.94` (shadowwhisperer-threats), `129.159.11.234` (tor-relay), `136.50.95.13` (tor-relay), `141.78.181.29` (tor-relay), `144.76.140.110` (tor-relay), `150.136.84.98` (tor-relay) e altre 147
+  - rimosse: `1.201.176.169`, `100.1.157.56`, `101.126.66.30`, `101.126.91.34`, `101.32.244.206`, `101.52.130.122`, `103.105.176.69`, `103.114.147.217` e altre 326
+- `dist/ip/all-scuole-v6.txt`: +24 / -26 (totale 3521)
+  - aggiunte: `2001:19f0:c800:2a8c:5400:5ff:fe8c:69e3` (tor-relay), `2001:9e8:1a69:4900:0:dead:beef:cafe` (tor-relay), `2001:9e8:bf:6300:d250:99ff:fec2:ffb3` (tor-relay), `2001:df0:b240:218::1` (tor-relay), `2003:c7:4f30:f800:2e0:4cff:fea2:8420` (tor-relay), `2406:ef80:3:9bc6::1337:c0de` (tor-relay), `2600:3c06::f03c:93ff:fef9:e549` (tor-relay), `2603:c020:8020:5100:0:f059:2b86:468f` (tor-relay) e altre 16
+  - rimosse: `2001:1b40:5700:972f::1`, `2001:41c8:51:490:feff:ff:fe00:3214`, `2001:9e8:1a58:8200:0:dead:beef:cafe`, `2003:c7:4f1e:2500:2e0:4cff:fea2:8420`, `2003:e6:9718:2200:66ae:b9fc:e508:bfeb`, `2400:6180:0:d0::1a6:f001`, `2400:d320:2202:5765::1`, `2401:c080:1000:5a3c:138f:916a:21a1:ab0a` e altre 18
+- `dist/ip/all-v4.txt`: +155 / -339 (totale 33632)
+  - aggiunte: `103.175.3.2` (tor-relay), `103.73.65.146` (tor-relay), `103.78.167.94` (shadowwhisperer-threats), `129.159.11.234` (tor-relay), `136.50.95.13` (tor-relay), `141.78.181.29` (tor-relay), `144.76.140.110` (tor-relay), `150.136.84.98` (tor-relay) e altre 147
+  - rimosse: `1.201.176.169`, `100.1.157.56`, `101.126.66.30`, `101.126.91.34`, `101.32.244.206`, `101.52.130.122`, `103.105.176.69`, `103.114.147.217` e altre 331
+- `dist/ip/all-v6.txt`: +27 / -27 (totale 3164)
+  - aggiunte: `2001:19f0:c800:2a8c:5400:5ff:fe8c:69e3` (tor-relay), `2001:9e8:1a69:4900:0:dead:beef:cafe` (tor-relay), `2001:9e8:bf:6300:d250:99ff:fec2:ffb3` (tor-relay), `2001:df0:b240:218::1` (tor-relay), `2003:c7:4f30:f800:2e0:4cff:fea2:8420` (tor-relay), `2406:ef80:3:9bc6::1337:c0de` (tor-relay), `2600:3c06::f03c:93ff:fef9:e549` (tor-relay), `2603:c020:8020:5100:0:f059:2b86:468f` (tor-relay) e altre 19
+  - rimosse: `2001:1b40:5700:972f::1`, `2001:41c8:51:490:feff:ff:fe00:3214`, `2001:9e8:1a58:8200:0:dead:beef:cafe`, `2003:c7:4f1e:2500:2e0:4cff:fea2:8420`, `2003:e6:9718:2200:66ae:b9fc:e508:bfeb`, `2400:6180:0:d0::1a6:f001`, `2400:d320:2202:5765::1`, `2401:c080:1000:5a3c:138f:916a:21a1:ab0a` e altre 19
+- `dist/ip/inbound-v4.txt`: +305 / -436 (totale 79218)
+  - aggiunte: `1.14.149.228` (data-shield), `1.24.16.108/31` (data-shield), `1.24.16.29` (data-shield), `103.157.238.165` (data-shield), `103.165.194.82` (data-shield), `103.166.103.166/31` (data-shield), `103.175.189.137` (data-shield), `103.227.17.10` (data-shield) e altre 297
+  - rimosse: `1.24.16.108`, `103.105.176.67`, `103.166.103.167`, `110.249.202.128`, `111.92.157.232/30`, `111.92.157.237`, `111.92.157.238/31`, `139.135.44.225` e altre 428
+- `dist/ip/threat-v4.txt`: +6 / -210 (totale 27230)
+  - aggiunte: `103.78.167.94` (shadowwhisperer-threats), `161.35.14.57` (shadowwhisperer-threats), `172.94.9.112` (data-shield, shadowwhisperer-threats), `23.229.15.145` (shadowwhisperer-threats), `5.206.21.154` (shadowwhisperer-threats), `91.80.188.177` (shadowwhisperer-threats)
+  - rimosse: `101.126.66.30`, `101.126.91.34`, `101.32.244.206`, `101.52.130.122`, `103.105.176.69`, `103.114.147.217`, `103.161.170.12`, `103.210.21.242` e altre 202
+- `dist/ip/tor-v4.txt`: +149 / -129 (totale 5223)
+  - aggiunte: `103.175.3.2` (tor-relay), `103.73.65.146` (tor-relay), `129.159.11.234` (tor-relay), `136.50.95.13` (tor-relay), `141.78.181.29` (tor-relay), `144.76.140.110` (tor-relay), `150.136.84.98` (tor-relay), `157.90.92.107` (tor-relay) e altre 141
+  - rimosse: `1.201.176.169`, `100.1.157.56`, `108.181.4.23`, `109.192.105.3`, `109.78.221.34`, `128.199.131.168`, `132.243.165.77`, `141.78.129.2` e altre 121
+- `dist/ip/tor-v6.txt`: +27 / -27 (totale 2471)
+  - aggiunte: `2001:19f0:c800:2a8c:5400:5ff:fe8c:69e3` (tor-relay), `2001:9e8:1a69:4900:0:dead:beef:cafe` (tor-relay), `2001:9e8:bf:6300:d250:99ff:fec2:ffb3` (tor-relay), `2001:df0:b240:218::1` (tor-relay), `2003:c7:4f30:f800:2e0:4cff:fea2:8420` (tor-relay), `2406:ef80:3:9bc6::1337:c0de` (tor-relay), `2600:3c06::f03c:93ff:fef9:e549` (tor-relay), `2603:c020:8020:5100:0:f059:2b86:468f` (tor-relay) e altre 19
+  - rimosse: `2001:1b40:5700:972f::1`, `2001:41c8:51:490:feff:ff:fe00:3214`, `2001:9e8:1a58:8200:0:dead:beef:cafe`, `2003:c7:4f1e:2500:2e0:4cff:fea2:8420`, `2003:e6:9718:2200:66ae:b9fc:e508:bfeb`, `2400:6180:0:d0::1a6:f001`, `2400:d320:2202:5765::1`, `2401:c080:1000:5a3c:138f:916a:21a1:ab0a` e altre 19
+
 ## 2026-10-08 04:17 UTC
 
 - `dist/ip/all-scuole-v4.txt`: +3732 / -3954 (totale 42492)

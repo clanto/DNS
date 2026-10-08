@@ -194,13 +194,13 @@ def render_readme(outputs: dict[str, tuple[str, str, int]], upstream: list[dict]
         lines.append(f"| `{name}` | {desc} | {count} | {adg} | {pl} |")
     lines += [
         "",
-        "## Catalogo liste upstream (abbonamento diretto su AdGuard)",
+        "## Liste upstream consigliate (abbonamento diretto su AdGuard)",
         "",
-        "| Lista | Categoria | Licenza | Stato | Note |",
+        "| Lista | Categoria | Licenza | Ambito | Note |",
         "|---|---|---|---|---|",
     ]
     for u in upstream:
-        lines.append(f"| [{u['name']}]({u['url']}) | {u['category']} | {u['license']} | {u['status']} | {u.get('note', '')} |")
+        lines.append(f"| [{u['name']}]({u['url']}) | {u['category']} | {u['license']} | {u['ambito']} | {u.get('note', '')} |")
     lines += ["", "Pubblicato sotto GPL-3.0.", ""]
     return "\n".join(lines)
 
@@ -219,7 +219,7 @@ def main() -> int:
     cfg = tomllib.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     upstream = tomllib.loads(UPSTREAM_PATH.read_text(encoding="utf-8")).get("lists", [])
     for u in upstream:
-        missing = {"name", "url", "category", "license", "status"} - u.keys()
+        missing = {"name", "url", "category", "license", "ambito"} - u.keys()
         if missing:
             errors.append(f"upstream.toml: '{u.get('name', '?')}' senza {', '.join(sorted(missing))}")
     today = date.today()

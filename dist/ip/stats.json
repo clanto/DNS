@@ -2,9 +2,9 @@
   "feed": {
     "doh-v4.txt": 1329,
     "doh-v6.txt": 693,
-    "tor-v4.txt": 5203,
+    "tor-v4.txt": 5223,
     "tor-v6.txt": 2471,
-    "threat-v4.txt": 27434,
+    "threat-v4.txt": 27230,
     "threat-v6.txt": 0,
     "c2-v4.txt": 5,
     "c2-v6.txt": 0,
@@ -12,14 +12,14 @@
     "vpn-v6.txt": 414,
     "social-v4.txt": 211,
     "social-v6.txt": 119,
-    "inbound-v4.txt": 79349,
+    "inbound-v4.txt": 79218,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "all-v4.txt": 33816,
+    "all-v4.txt": 33632,
     "all-v6.txt": 3164,
-    "all-scuole-v4.txt": 42492,
-    "all-scuole-v6.txt": 3523
+    "all-scuole-v4.txt": 42313,
+    "all-scuole-v6.txt": 3521
   },
   "fonti": [
     {
@@ -49,7 +49,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1236,
+      "entries": 1237,
       "detail": ""
     },
     {
@@ -59,7 +59,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "ok",
-      "entries": 9634,
+      "entries": 9626,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -79,7 +79,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 17110,
+      "entries": 16897,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -109,7 +109,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 89174,
+      "entries": 89046,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -224,7 +224,7 @@
     }
   },
   "allowlist": {
-    "voci": 127,
+    "voci": 128,
     "reti_modificate": 1
   },
   "condivisi": {
@@ -232,7 +232,7 @@
     "voci_escluse": 3859
   },
   "protetti": {
-    "ip_risolti": 124,
+    "ip_risolti": 125,
     "voci_escluse": []
   }
 }
