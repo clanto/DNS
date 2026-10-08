@@ -1167,11 +1167,7 @@
 ||dns.grinevich.eu^
 ||hgrps.eu^
 ||dns.jiyi.eu^
-||child.joindns4.eu^
-||child-noads.joindns4.eu^
-||noads.joindns4.eu^
-||protective.joindns4.eu^
-||unfiltered.joindns4.eu^
+||joindns4.eu^
 ||dns1.klcd.eu^
 ||dns2.klcd.eu^
 ||xray.krnl.eu^
@@ -2938,7 +2934,6 @@
 ||dns.thiz.top^
 ||kr.tomgirl.top^
 ||us44nas.top^
-||dns.wahr.top^
 ||bwh.why4free.top^
 ||wiqi.top^
 ||xholgm.top^

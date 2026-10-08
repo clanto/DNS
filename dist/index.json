@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/clanto/DNS",
   "licenza": "GPL-3.0",
-  "generato": "2026-10-08T14:22:44Z",
+  "generato": "2026-10-08T22:43:50Z",
   "attribuzioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/THIRD_PARTY.md",
   "registro_variazioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/CHANGELOG.md",
   "feed": [
@@ -18,7 +18,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt",
-      "voci": 34076,
+      "voci": 34006,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -86,7 +86,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v6.txt",
-      "voci": 3151,
+      "voci": 3102,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -155,7 +155,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v4.txt",
-      "voci": 42757,
+      "voci": 42641,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -239,7 +239,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v6.txt",
-      "voci": 3507,
+      "voci": 3458,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -319,7 +319,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v4.txt",
-      "voci": 1332,
+      "voci": 1326,
       "descrizione": "Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -389,7 +389,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt",
-      "voci": 5211,
+      "voci": 5119,
       "descrizione": "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)",
       "fonti": [
         {
@@ -414,7 +414,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v6.txt",
-      "voci": 2459,
+      "voci": 2410,
       "descrizione": "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)",
       "fonti": [
         {
@@ -439,7 +439,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v4.txt",
-      "voci": 27244,
+      "voci": 27260,
       "descrizione": "IP malevoli attivi (scanner, brute force, attacchi) segnalati da più blacklist",
       "fonti": [
         {
@@ -489,7 +489,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v4.txt",
-      "voci": 446,
+      "voci": 458,
       "descrizione": "Server di comando e controllo di botnet e malware",
       "fonti": [
         {
@@ -539,7 +539,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v4.txt",
-      "voci": 9134,
+      "voci": 9090,
       "descrizione": "VPN commerciali e proxy anonimizzanti",
       "fonti": [
         {
@@ -669,7 +669,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v4.txt",
-      "voci": 78490,
+      "voci": 79318,
       "descrizione": "IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN",
       "fonti": [
         {
@@ -1386,7 +1386,7 @@
       "categoria": "doh",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-doh.txt",
-      "voci": 3264,
+      "voci": 3259,
       "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -1450,7 +1450,7 @@
       "categoria": "doh",
       "formato": "local-zone Unbound",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-doh.conf",
-      "voci": 3264,
+      "voci": 3259,
       "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -1768,8 +1768,8 @@
       "categoria": "malware",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware.txt",
-      "voci": 239557,
-      "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed)",
+      "voci": 273309,
+      "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam)",
       "fonti": [
         {
           "id": "hagezi-tif-mini",
@@ -1780,6 +1780,16 @@
           "id": "tweetfeed-domains",
           "licenza": "CC0-1.0",
           "homepage": "https://github.com/0xDanielLopez/TweetFeed"
+        },
+        {
+          "id": "shadowwhisperer-malware-domains",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
+        },
+        {
+          "id": "spmedia-crypto-scam",
+          "licenza": "MIT",
+          "homepage": "https://github.com/spmedia/Crypto-Scam-and-Crypto-Phishing-Threat-Intel-Feed"
         }
       ]
     },
@@ -1790,8 +1800,8 @@
       "categoria": "malware",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware.txt",
-      "voci": 239588,
-      "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed)",
+      "voci": 274306,
+      "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam)",
       "fonti": [
         {
           "id": "hagezi-tif-mini",
@@ -1802,6 +1812,16 @@
           "id": "tweetfeed-domains",
           "licenza": "CC0-1.0",
           "homepage": "https://github.com/0xDanielLopez/TweetFeed"
+        },
+        {
+          "id": "shadowwhisperer-malware-domains",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
+        },
+        {
+          "id": "spmedia-crypto-scam",
+          "licenza": "MIT",
+          "homepage": "https://github.com/spmedia/Crypto-Scam-and-Crypto-Phishing-Threat-Intel-Feed"
         }
       ]
     },

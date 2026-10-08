@@ -1627,7 +1627,6 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
-dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -2462,6 +2461,7 @@ jnb01.dnscry.pt
 jnb02.dnscry.pt
 jnprd.com
 johneldenring.lol
+joindns4.eu
 jonathanaugusto.freeddns.org
 jonzalvo.duckdns.org
 josephfamily.org

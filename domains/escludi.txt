@@ -25,3 +25,44 @@ spaceship.com | 2026-10-08 | registrar e hosting: falso positivo | -
 spaceship-cdn.com | 2026-10-08 | CDN di Spaceship: falso positivo | -
 restena.lu | 2026-10-08 | rete universitaria del Lussemburgo (dns.restena.lu resta bloccato) | -
 digitale-gesellschaft.ch | 2026-10-08 | associazione (dns.digitale-gesellschaft.ch resta bloccato) | -
+amplifyapp.com | 2026-10-09 | AWS Amplify: hosting di applicazioni web (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+awsdns-531.com | 2026-10-09 | Amazon Route 53: server DNS autorevoli (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+suddenlink.net | 2026-10-09 | provider Internet (Optimum/Altice) (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+unifiedlayer.com | 2026-10-09 | hosting Newfold Digital (Bluehost) (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+mysynology.net | 2026-10-09 | Synology DDNS: accesso ai NAS aziendali (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+randomuser.me | 2026-10-09 | API di dati di prova per sviluppatori (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+vulnweb.com | 2026-10-09 | siti dimostrativi vulnerabili Acunetix: test di sicurezza (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+pubhtml5.com | 2026-10-09 | piattaforma di pubblicazione di cataloghi e riviste (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+start.me | 2026-10-09 | pagina iniziale personalizzabile (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+bnbchain.org | 2026-10-09 | sito ufficiale BNB Chain (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+infourok.ru | 2026-10-09 | piattaforma didattica (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+nichost.ru | 2026-10-09 | hosting e registrar RU-Center (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+myjino.ru | 2026-10-09 | hosting Jino (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+hosted-by-vdsina.ru | 2026-10-09 | hosting VDSina (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+kro.kr | 2026-10-09 | registro di domini coreano di terzo livello (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+akamaized.ca | 2026-10-09 | CDN Akamai (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+tencentcs.com | 2026-10-09 | Tencent Cloud (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+sinacloud.net | 2026-10-09 | cloud storage Sina (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+hs-sites-eu1.com | 2026-10-09 | HubSpot: siti ospitati (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+icpnet.pl | 2026-10-09 | provider e hosting polacco (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+neostrada.pl | 2026-10-09 | hosting Neostrada (Orange Polska) (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+cfolks.pl | 2026-10-09 | hosting polacco (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+bbtec.net | 2026-10-09 | provider Internet SoftBank (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+bbexcite.jp | 2026-10-09 | provider Internet Excite Japan (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+kazeo.com | 2026-10-09 | piattaforma di blog (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+sitey.me | 2026-10-09 | costruttore di siti web (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+creatorlink.net | 2026-10-09 | costruttore di siti web (Naver) (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+webwave.dev | 2026-10-09 | costruttore di siti web (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+hubside.fr | 2026-10-09 | hosting francese (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+baixaki.com.br | 2026-10-09 | portale di download software (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+hao123.com | 2026-10-09 | portale web Baidu (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+17173.com | 2026-10-09 | portale di videogiochi (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+radio.am | 2026-10-09 | portale radio (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+laban.vn | 2026-10-09 | dizionario online (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+getfireshot.com | 2026-10-09 | estensione browser Fireshot (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+titanhq.com | 2026-10-09 | sicurezza e-mail/web (WebTitan) (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+totalav.com | 2026-10-09 | antivirus commerciale TotalAV (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+yacy.net | 2026-10-09 | software di ricerca peer-to-peer YaCy (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+entireweb.com | 2026-10-09 | motore di ricerca (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+techbargains.com | 2026-10-09 | sito di offerte (ShadowWhisperer Malware: dominio popolare, falso positivo) | -
+pcpitstop.com | 2026-10-09 | strumenti di diagnostica PC (ShadowWhisperer Malware: dominio popolare, falso positivo) | -

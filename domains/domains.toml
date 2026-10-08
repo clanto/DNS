@@ -103,7 +103,7 @@ description = "Tunnel, esfiltrazione e canali di controllo: ngrok, trycloudflare
 description = "Risolutori e tutor per i compiti: da attivare durante verifiche ed esami (scuole)"
 
 [block.malware]
-description = "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed)"
+description = "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam)"
 outputs = ["adguard", "domains"]
 
 [block.phishing]
@@ -301,3 +301,23 @@ format = "domains"
 homepage = "https://github.com/ShadowWhisperer/BlockLists"
 license = "Unlicense"
 max_age_days = 60
+
+[[sources]]
+id = "shadowwhisperer-malware-domains"
+category = "malware"
+url = "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware"
+format = "domains"
+homepage = "https://github.com/ShadowWhisperer/BlockLists"
+license = "Unlicense"
+max_age_days = 60
+note = "Malware, PUP e browser hijacker; domini legittimi popolari esclusi in domains/escludi.txt"
+
+[[sources]]
+id = "spmedia-crypto-scam"
+category = "malware"
+url = "https://raw.githubusercontent.com/spmedia/Crypto-Scam-and-Crypto-Phishing-Threat-Intel-Feed/refs/heads/main/detected_urls.txt"
+format = "domains"
+homepage = "https://github.com/spmedia/Crypto-Scam-and-Crypto-Phishing-Threat-Intel-Feed"
+license = "MIT"
+max_age_days = 30
+note = "Truffe e phishing di criptovalute (nonostante il nome del file, contiene solo domini)"

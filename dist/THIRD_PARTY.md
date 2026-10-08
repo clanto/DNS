@@ -27,6 +27,7 @@
 | phishing-database-active | lista domini `phishing` | MIT | https://github.com/Phishing-Database/Phishing.Database |
 | shadowwhisperer-dns | feed IP `doh` | Unlicense | https://github.com/ShadowWhisperer/IPs |
 | shadowwhisperer-dns-domains | lista domini `doh` | Unlicense | https://github.com/ShadowWhisperer/BlockLists |
+| shadowwhisperer-malware-domains | lista domini `malware` | Unlicense | https://github.com/ShadowWhisperer/BlockLists |
 | shadowwhisperer-threats | feed IP `threat` | Unlicense | https://github.com/ShadowWhisperer/IPs |
 | shadowwhisperer-tunnels | feed IP `vpn` | Unlicense | https://github.com/ShadowWhisperer/IPs |
 | shadowwhisperer-tunnels-domains | lista domini `vpn` | Unlicense | https://github.com/ShadowWhisperer/BlockLists |
@@ -34,6 +35,7 @@
 | social-telegram | feed IP `social` | PDDL 1.0 (iptoasn.com) | https://iptoasn.com/ |
 | social-tiktok | feed IP `social` | PDDL 1.0 (iptoasn.com) | https://iptoasn.com/ |
 | social-x | feed IP `social` | PDDL 1.0 (iptoasn.com) | https://iptoasn.com/ |
+| spmedia-crypto-scam | lista domini `malware` | MIT | https://github.com/spmedia/Crypto-Scam-and-Crypto-Phishing-Threat-Intel-Feed |
 | stalkerware-indicators | lista domini `spyware` | CC BY 4.0 (Echap) | https://github.com/AssoEchap/stalkerware-indicators |
 | tor-exit | feed IP `tor` | CC0 (Tor Metrics) | https://metrics.torproject.org/ |
 | tor-relay | feed IP `tor` | CC0 (Tor Metrics) | https://metrics.torproject.org/onionoo.html |
