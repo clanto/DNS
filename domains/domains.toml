@@ -7,6 +7,8 @@
 #   tld       le voci sono TLD interi (es. xxx), non domini.
 #   protect   (solo allow) le voci vengono tolte da tutte le blocklist e i loro IP risolti esclusi dai feed IP.
 #   exclude   (solo block) toglie le voci già presenti nelle categorie elencate.
+#   exclude_platforms (solo block) toglie le voci delle fonti esterne che sono domini di piattaforme
+#             (sezione privata della Public Suffix List: github.io, pages.dev...); i sottodomini restano.
 #   outputs   formati da generare: adguard, domains, unbound (default tutti; liste grandi senza unbound).
 #   opnsense  (solo block) genera anche dist/opnsense/<cat>.txt: domini risolti in CI, senza morti e
 #             senza quelli su IP CDN condivisi, da usare come alias FQDN su OPNsense.
@@ -16,6 +18,7 @@
 # Regola: in allowlist solo host indispensabili. Mai domini interi di vendor, mai voci che contraddicono
 # le blocklist (il build lo verifica) o le liste di bypass DNS/VPN upstream (verificato da check_domains.py).
 source_max_age_days = 7  # fonte il cui contenuto non cambia da più giorni → controllo giornaliero fallito
+psl_url = "https://publicsuffix.org/list/public_suffix_list.dat"  # MPL-2.0, per exclude_platforms
 own_domains = ["clanto.cloud"]  # domini propri: mai bloccati, esclusi dal controllo bypass (es. dns.clanto.cloud)
 
 [allow.protetti]
@@ -105,20 +108,25 @@ description = "Risolutori e tutor per i compiti: da attivare durante verifiche e
 [block.malware]
 description = "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam)"
 outputs = ["adguard", "domains"]
+exclude_platforms = true
 
 [block.phishing]
 description = "Phishing attivo (Phishing.Database, Validin)"
 outputs = ["adguard", "domains"]
+exclude_platforms = true
 
 [block.spyware]
 description = "Stalkerware e app spia"
+exclude_platforms = true
 
 [block.cryptojacking]
 description = "Mining di criptovalute nel browser"
+exclude_platforms = true
 
 [block.redirect]
 description = "Redirect e URL shortener (BlocklistProject)"
 outputs = ["adguard", "domains"]
+exclude_platforms = true
 
 [block.pirateria]
 description = "Pirateria, warez e streaming illegale"

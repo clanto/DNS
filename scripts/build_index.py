@@ -106,6 +106,9 @@ def third_party() -> str:
     for s in IP_CFG.get("shared_sources", []):
         url = s.get("url", "https://iptoasn.com/ (licenza PDDL)")
         lines.append(f"| {s['id']} | esclusione di infrastrutture condivise dai feed | {url} |")
+    if DOM_CFG.get("psl_url"):
+        lines.append(f"| Public Suffix List (sezione privata) | domini di piattaforme mai bloccati per intero "
+                     f"nelle liste di sicurezza | {DOM_CFG['psl_url']} (MPL-2.0) |")
     lines += ["| iptoasn.com | reti per AS (esclusioni, feed social, controlli) | https://iptoasn.com/ (PDDL 1.0) |",
               "", "## Liste upstream consigliate per AdGuard", "",
               "Non ripubblicate: AdGuard le scarica direttamente. Catalogo con licenze in "

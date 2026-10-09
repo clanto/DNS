@@ -29,6 +29,7 @@ CACHE_DIR = DOMAINS_DIR / "cache"
 CONFIG_PATH = DOMAINS_DIR / "domains.toml"
 EXCLUDE_PATH = DOMAINS_DIR / "escludi.txt"  # esclusioni di cura dalle fonti esterne
 UPSTREAM_PATH = DOMAINS_DIR / "upstream.toml"
+PSL_CACHE = CACHE_DIR / "psl-private.txt"  # sezione privata della Public Suffix List (MPL-2.0)
 ADGUARD_DIR = ROOT / "dist" / "adguard"
 PLAIN_DIR = ROOT / "dist" / "domains"
 UNBOUND_DIR = ROOT / "dist" / "unbound"
@@ -157,6 +158,47 @@ def load_domain_source(src: dict, offline: bool, persist: bool, max_drop: float 
         CACHE_DIR.mkdir(parents=True, exist_ok=True)
         cache_path.write_text("".join(f"{d}\n" for d in sorted(names)), encoding="utf-8", newline="\n")
     return names, f"ok, {len(names)} voci" + (f", scartate {rejected}" if rejected else "")
+
+
+def parse_psl_private(text: str) -> set[str]:
+    """Suffissi della sezione privata della PSL: piattaforme dove chiunque crea sottodomini
+    (github.io, pages.dev, blogspot.com...). Le regole *.x diventano x, le eccezioni !x si ignorano."""
+    found: set[str] = set()
+    inside = False
+    for raw in text.splitlines():
+        line = raw.strip()
+        if line.startswith("// ===BEGIN PRIVATE DOMAINS==="):
+            inside = True
+        elif line.startswith("// ===END PRIVATE DOMAINS==="):
+            break
+        elif inside and line and not line.startswith(("//", "!")):
+            try:
+                name = normalize(line.split()[0])
+            except UnicodeError:
+                continue
+            if DOMAIN_RE.match(name):
+                found.add(name)
+    return found
+
+
+def load_psl(cfg: dict, offline: bool, persist: bool) -> tuple[set[str], str]:
+    """Suffissi privati PSL con cache e guardrail di calo come le altre fonti."""
+    cached = set(parse_domain_text(PSL_CACHE.read_text(encoding="utf-8"), "domains")[0]) if PSL_CACHE.exists() else set()
+    url = cfg.get("psl_url")
+    if offline or not url:
+        return cached, f"cache, {len(cached)} suffissi"
+    try:
+        names = parse_psl_private(fetch(url))
+        if not names or (cached and len(names) < len(cached) * 0.5):
+            raise ValueError(f"calo sospetto {len(cached)} → {len(names)} suffissi")
+    except Exception as exc:  # errore di rete/parsing: si ripiega sulla cache
+        warn(f"Public Suffix List: {exc}; uso la cache ({len(cached)} suffissi)")
+        return cached, f"cache ({exc}), {len(cached)} suffissi"
+    if persist:
+        CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        PSL_CACHE.write_text(f"# Public Suffix List, sezione privata. Fonte: {url} (MPL-2.0)\n"
+                             + "".join(f"{d}\n" for d in sorted(names)), encoding="utf-8", newline="\n")
+    return names, f"ok, {len(names)} suffissi"
 
 
 def drop_covered(names: set[str]) -> list[str]:
@@ -295,6 +337,22 @@ def main() -> int:
 
     # Esclusioni di cura: nomi esatti tolti dalle voci delle fonti esterne (le voci manuali restano)
     curated = set(load(EXCLUDE_PATH, tld=False, today=today, errors=errors)[0]) if EXCLUDE_PATH.exists() else set()
+    # Piattaforme (sezione privata PSL): nelle categorie con exclude_platforms il dominio della piattaforma
+    # arrivato da una fonte esterna si toglie, i singoli sottodomini malevoli restano
+    if any(o.get("exclude_platforms") for o in cfg.get("block", {}).values()):
+        platforms, status = load_psl(cfg, offline, persist=not args.check)
+        source_report.append(f"- Public Suffix List (piattaforme): {status}")
+        if not platforms:
+            errors.append("Public Suffix List vuota: exclude_platforms non applicabile")
+        for cat, opts in cfg.get("block", {}).items():
+            if not opts.get("exclude_platforms"):
+                continue
+            names = collected[("block", cat)][0]
+            dropped = (names & platforms) - manual[cat]
+            names -= dropped
+            if dropped:
+                source_report.append(f"- piattaforme escluse da block/{cat}: {len(dropped)} ({', '.join(sorted(dropped)[:8])})")
+
     for cat in cfg.get("block", {}):
         names = collected[("block", cat)][0]
         dropped = (names & curated) - manual[cat]

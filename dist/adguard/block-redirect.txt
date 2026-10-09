@@ -23169,7 +23169,6 @@
 ||proxy.seri-expert.com^
 ||proxy.seroquelisnotsafe.com^
 ||serrazul.com^
-||servebeer.com^
 ||webproxy2.servehttp.com^
 ||browseunlocked.server-dedicat.com^
 ||server-sniffer.com^
@@ -64669,7 +64668,6 @@
 ||kezfun.net^
 ||surf.kfco.net^
 ||khios.net^
-||kicks-ass.net^
 ||proxy.kidsdressup.net^
 ||killerproxy.net^
 ||proxy.king-baby.net^
@@ -65493,7 +65491,6 @@
 ||raqc.net^
 ||ratsshack.net^
 ||freeproxy.rbcvpn.net^
-||redirectme.net^
 ||redirecturls.net^
 ||redprox.net^
 ||redproxy.net^

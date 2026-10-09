@@ -28,6 +28,7 @@ description = "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor 
 
 [categories.threat]
 description = "IP malevoli attivi (scanner, brute force, attacchi) segnalati da più blacklist"
+exclude_shared = true  # un IP di CDN condivisa non è un attaccante: bloccarlo rompe siti legittimi
 
 [categories.c2]
 description = "Server di comando e controllo di botnet e malware"
@@ -43,6 +44,7 @@ description = "Social network e messaggistica per AS: Meta (Facebook, Instagram,
 
 [categories.inbound]
 description = "IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN"
+exclude_shared = true
 
 [categories.bogon]
 description = "Reti riservate/private (RFC 6890): SOLO in ingresso su interfacce WAN, mai su LAN"

@@ -48845,7 +48845,6 @@ kickopen.info
 kickoutsurf.tk
 kickoutsurfis.tk
 kickoutsurfsurf.tk
-kicks-ass.net
 kicktheadmin.info
 kickthecops.tk
 kickyouradmin.info
@@ -77874,7 +77873,6 @@ redintruder.tk
 redir.adengage.com
 redir.ebumna.net
 redir.ws
-redirectme.net
 redirector.yournic.com
 redirecturls.net
 redkiss.tk
@@ -81824,7 +81822,6 @@ serveall.cf
 serveall.ga
 serveall.gq
 serveall.ml
-servebeer.com
 servebomber.tk
 served.clawed.info
 serveproxy.tk

@@ -91,6 +91,8 @@ Solo host indispensabili, mai domini interi. Nessuna voce può contraddire le no
 | [block-spyware.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-spyware.txt) | Stalkerware e app spia (Stalkerware Indicators + voci nostre) | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-spyware.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-spyware.txt) |
 | [block-cryptojacking.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-cryptojacking.txt) | Mining di criptovalute nel browser (NoCoin) | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-cryptojacking.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-cryptojacking.txt) |
 
+Nelle liste di sicurezza (malware, phishing, spyware, cryptojacking, redirect) il dominio di una **piattaforma** su cui chiunque crea siti (github.io, pages.dev, amplifyapp.com…, sezione privata della [Public Suffix List](https://publicsuffix.org/)) non viene mai bloccato per intero: restano bloccati solo i singoli sottodomini malevoli.
+
 Le liste di policy (accesso remoto, AI, file sharing, social, gaming, streaming) in AdGuard Home valgono per **tutti** i client: vanno applicate solo sulle istanze dei clienti che le richiedono.
 
 Le regole per singolo cliente (`$client`) restano nelle regole personalizzate di AdGuard: contengono nomi e IP dei clienti e **non vanno nel repository pubblico**.
