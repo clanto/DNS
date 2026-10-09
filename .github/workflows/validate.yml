@@ -34,6 +34,9 @@ jobs:
       - name: Test delle liste
         run: python tests/test_liste.py
 
+      - name: Test del pivot sull'infrastruttura (offline, dati sintetici)
+        run: python tests/test_pivot.py
+
       - name: Blocca modifiche manuali ai file generati
         if: github.event.pull_request.user.login != 'github-actions[bot]'
         env:

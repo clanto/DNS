@@ -1,0 +1,62 @@
+name: Pivot infrastruttura malevola
+
+# Ogni settimana risolve un campione dei domini malevoli confermati e propone, con una PR da approvare,
+# gli IP dedicati (ip/custom/c2.txt) e i domini collegati (domains/blocklist/malware.txt), con scadenza.
+# Nessuna voce viene pubblicata senza approvazione.
+
+on:
+  schedule:
+    - cron: "23 4 * * 3"
+  workflow_dispatch:
+
+permissions:
+  contents: write        # solo per il branch della PR con i candidati
+  pull-requests: write
+
+concurrency:
+  group: pivot-infra
+  cancel-in-progress: false
+
+jobs:
+  pivot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - name: Cerca IP e domini sull'infrastruttura dei domini malevoli
+        run: python scripts/pivot_infra.py --apply --report "$RUNNER_TEMP/pivot.md" --json "$RUNNER_TEMP/pivot.json"
+
+      - name: Valida le liste con i candidati
+        run: |
+          python scripts/build_ip.py --check
+          python scripts/build_domains.py --check
+
+      - name: Apri PR con i candidati
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$(git status --porcelain -- ip/custom/c2.txt domains/blocklist/malware.txt)" ]; then
+            echo "Nessun candidato nuovo"
+            exit 0
+          fi
+          open=$(gh pr list --state open --json headRefName --jq '[.[] | select(.headRefName | startswith("pivot/"))] | length')
+          if [ "$open" != "0" ]; then
+            echo "::warning::Esiste già una PR pivot aperta: nessuna nuova PR"
+            exit 0
+          fi
+          head -c 60000 "$RUNNER_TEMP/pivot.md" > "$RUNNER_TEMP/body.md"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          branch="pivot/$(date -u +%Y%m%d)"
+          git switch -c "$branch"
+          git add ip/custom/c2.txt domains/blocklist/malware.txt
+          git commit -m "pivot: candidati derivati dall'infrastruttura dei domini malevoli (scadenza 30 giorni)"
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" \
+            --title "Pivot infrastruttura: IP e domini malevoli derivati da approvare" \
+            --body-file "$RUNNER_TEMP/body.md"
