@@ -316,6 +316,83 @@ def section_domains():
     check(BD.normalize("città.it") == "xn--citt-3na.it", "normalize IDN")
 
 
+def section_security():
+    import gzip
+    import urllib.error
+    import urllib.request
+
+    import asn
+    try:
+        asn.read_https("http://example.invalid/x", timeout=1, limit=10)
+        FAILS.append("read_https: URL http accettato")
+    except ValueError:
+        check(True, "")
+    handler = asn._HttpsOnlyRedirect()
+    req = urllib.request.Request("https://example.invalid/a")
+    try:
+        handler.redirect_request(req, None, 302, "Found", {}, "http://example.invalid/b")
+        FAILS.append("redirect verso http seguito")
+    except urllib.error.URLError:
+        check(True, "")
+    check(handler.redirect_request(req, None, 302, "Found", {}, "https://example.invalid/b") is not None,
+          "redirect verso https rifiutato")
+
+    class FakeResp(io.BytesIO):
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *a):
+            self.close()
+
+    class FakeOpener:
+        def open(self, req, timeout):
+            return FakeResp(b"x" * 4096)
+
+    orig = asn._OPENER
+    asn._OPENER = FakeOpener()
+    try:
+        try:
+            asn.read_https("https://example.invalid/x", timeout=1, limit=1024)
+            FAILS.append("read_https: risposta oltre il limite accettata")
+        except ValueError:
+            check(True, "")
+        check(asn.read_https("https://example.invalid/x", timeout=1, limit=8192) == b"x" * 4096,
+              "read_https: risposta entro il limite rifiutata")
+        check(len(B.fetch("https://example.invalid/x")) == 4096, "fetch non usa read_https")
+    finally:
+        asn._OPENER = orig
+    bomb = gzip.compress(b"\0" * (4 * 1024 * 1024))
+    try:
+        asn.gunzip(bomb, limit=1024 * 1024)
+        FAILS.append("gunzip: limite di decompressione ignorato")
+    except ValueError:
+        check(True, "")
+    check(asn.gunzip(gzip.compress(b"abc")) == b"abc", "gunzip: contenuto valido rifiutato")
+
+    cell = B.md_cell("HTTP Error 500: x | [clic](http://evil.example) <img src=x>\n`y`")
+    check(not any(c in cell for c in "|[]<>`\n"), f"md_cell non sanifica: {cell}")
+    src = {"id": "_sec", "category": "threat", "url": "https://example.invalid/x", "license": "x"}
+    orig_fetch = B.fetch
+
+    def evil(_url):
+        raise OSError("errore | [link](http://evil.example)")
+
+    try:
+        B.fetch = evil
+        _, r = quiet(B.load_source, src, {}, False, False)
+        check("|" not in r.detail and "[" not in r.detail, f"dettaglio errore non sanificato nel README: {r.detail}")
+    finally:
+        B.fetch = orig_fetch
+    for bad in ("../x", "a/b", "..", "A", "x\\y", ""):
+        check(not B.SOURCE_ID_RE.match(bad), f"id di fonte non valido accettato: {bad!r}")
+    check(B.SOURCE_ID_RE.match("hagezi-tif-mini"), "id di fonte valido rifiutato")
+    try:
+        BD.normalize("faß.de")
+        FAILS.append("normalize: 'faß.de' convertito con IDNA 2003 in fass.de")
+    except UnicodeError:
+        check(True, "")
+
+
 def section_catalog():
     import build_index
     check(quiet(build_index.main) == 0, "build_index fallisce")
@@ -374,7 +451,7 @@ def main() -> int:
     for stream in (sys.stdout, sys.stderr):
         if hasattr(stream, "reconfigure"):
             stream.reconfigure(encoding="utf-8")
-    for section in (section_ip_build, section_ip_outputs, section_parsers, section_guardrails,
+    for section in (section_ip_build, section_ip_outputs, section_parsers, section_guardrails, section_security,
                     section_domains, section_catalog, section_repository):
         section()
     print(f"PASS: {PASSES}  FAIL: {len(FAILS)}")

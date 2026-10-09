@@ -22,7 +22,7 @@ import tomllib
 from datetime import date
 from pathlib import Path
 
-from build_ip import EMAIL_RE, RAW_BASE, ROOT, TICKET_RE, contains_pii, fail, fetch, valid_date, warn
+from build_ip import EMAIL_RE, RAW_BASE, ROOT, SOURCE_ID_RE, TICKET_RE, contains_pii, fail, fetch, valid_date, warn
 
 DOMAINS_DIR = ROOT / "domains"
 CACHE_DIR = DOMAINS_DIR / "cache"
@@ -34,11 +34,13 @@ ADGUARD_DIR = ROOT / "dist" / "adguard"
 PLAIN_DIR = ROOT / "dist" / "domains"
 UNBOUND_DIR = ROOT / "dist" / "unbound"
 KINDS = {"allow": "allowlist", "block": "blocklist"}
+SOURCE_FORMATS = ("domains", "adblock", "ublock", "hosts", "tweetfeed")
 
 DOMAIN_RE = re.compile(r"^(?=.{1,253}$)(?:[a-z0-9_](?:[a-z0-9_-]{0,61}[a-z0-9])?\.)+[a-z][a-z0-9-]{0,61}[a-z0-9]$")
 # Pattern AdGuard con '*' dentro un'etichetta (es. *-pa.googleapis.com): solo output AdGuard
 PATTERN_RE = re.compile(r"^(?=.{1,253}$)[a-z0-9*_-]+(?:\.[a-z0-9_-]+)+$")
 TLD_RE = re.compile(r"^[a-z][a-z0-9-]{0,61}[a-z0-9]$")
+IDNA_DEVIATIONS = frozenset("\u00df\u03c2\u200c\u200d")  # ß, ς, ZWNJ, ZWJ
 
 
 def normalize(token: str) -> str:
@@ -47,6 +49,9 @@ def normalize(token: str) -> str:
         token = token[2:]
     if "*" in token:
         return token
+    if any(c in IDNA_DEVIATIONS for c in token):
+        # il codec idna di Python è IDNA 2003: 'faß.de' diventerebbe 'fass.de', un dominio diverso
+        raise UnicodeError(f"carattere con codifica ambigua tra IDNA 2003 e 2008 in '{token}'")
     return token.encode("idna").decode("ascii")
 
 
@@ -334,6 +339,9 @@ def main() -> int:
             continue
         if not src.get("license") or not (src.get("path") or str(src.get("url", "")).startswith("https://")):
             errors.append(f"domains.toml: fonte '{sid}' senza licenza o senza URL HTTPS/path")
+            continue
+        if not SOURCE_ID_RE.match(str(sid)) or src.get("format", "domains") not in SOURCE_FORMATS:
+            errors.append(f"domains.toml: fonte '{sid}' con id non valido o formato sconosciuto '{src.get('format')}'")
             continue
         names, status = load_domain_source(src, offline, persist=not args.check)
         collected[("block", cat)][0].update(names)

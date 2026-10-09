@@ -141,7 +141,8 @@ outputs = ["adguard", "domains"]
 
 # ---------------------------------------------------------------------------
 # Fonti upstream delle blocklist
-# format: domains (un dominio per riga) | adblock (||dominio^) | hosts (0.0.0.0 dominio)
+# format: domains (un dominio per riga) | adblock (||dominio^) | ublock (anche $doc/$all) | hosts (0.0.0.0 dominio)
+#         | tweetfeed (CSV TweetFeed, solo i domini)
 # ---------------------------------------------------------------------------
 
 [[sources]]
