@@ -316,6 +316,122 @@ def section_domains():
     check(BD.normalize("città.it") == "xn--citt-3na.it", "normalize IDN")
 
 
+def section_punteggio():
+    import perche
+    import punteggio as P
+    cfg = tomllib.loads((ROOT / "domains/domains.toml").read_text(encoding="utf-8"))
+    soglie = cfg["punteggio"]["strict"]
+    conf = {**P.DEFAULTS, **{k: v for k, v in cfg["punteggio"].items() if not isinstance(v, dict)}}
+    check(set(soglie) == {"malware", "phishing", "spyware", "cryptojacking", "redirect", "pubblicita", "traccianti"},
+          "livello strict: categorie diverse da quelle di sicurezza")
+
+    # formula: voce manuale sempre 100; due fonti valgono più di una; la persistenza alza il punteggio
+    check(P.punteggio([], 0, True, conf) == 100, "punteggio: voce manuale non a 100")
+    nuova, vecchia = P.punteggio([0.8], 0, False, conf), P.punteggio([0.8], 1000, False, conf)
+    check(nuova < vecchia, "punteggio: la persistenza non conta")
+    check(P.punteggio([0.8, 0.8], 0, False, conf) > nuova, "punteggio: due fonti non valgono più di una")
+    check(P.punteggio([0.7], 10 ** 6, False, conf) < soglie["malware"],
+          "soglia strict: una sola fonte con peso 0,7 non deve bastare")
+    check(P.punteggio([0.8], 10 ** 6, False, conf) >= soglie["malware"],
+          "soglia strict: una fonte affidabile e persistente deve bastare")
+    stato = P.aggiorna_stato({"a.com": 10, "b.com": 12}, {"a.com", "c.com"}, 20)
+    check(stato == {"a.com": 10, "c.com": 20}, f"persistenza: aggiornamento errato {stato}")
+    check(P.controlla_calo({"x.txt": 1000}, {"x.txt": 700}, 0.2, 100) != [], "guardrail strict: calo del 30% non segnalato")
+    check(P.controlla_calo({"x.txt": 1000}, {"x.txt": 900}, 0.2, 100) == [], "guardrail strict: calo del 10% segnalato")
+    check(P.controlla_calo({"x.txt": 50}, {"x.txt": 0}, 0.2, 100) == [], "guardrail strict: liste piccole controllate")
+
+    # strict sottoinsieme della lista completa (stessi host bloccati o meno), voci manuali sempre presenti
+    for cat in soglie:
+        full_plain = set((ROOT / f"dist/domains/block-{cat}.txt").read_text().split())
+        strict_plain = set((ROOT / f"dist/domains/block-{cat}-strict.txt").read_text().split())
+        check(strict_plain <= full_plain, f"block-{cat}-strict (domini) non è sottoinsieme della lista completa")
+        full_adg = {line[2:-1] for line in (ROOT / f"dist/adguard/block-{cat}.txt").read_text().splitlines()}
+        strict_adg = [line[2:-1] for line in (ROOT / f"dist/adguard/block-{cat}-strict.txt").read_text().splitlines()]
+        scoperte = [d for d in strict_adg if not any(s in full_adg for s in perche.suffissi(d))]
+        check(not scoperte, f"block-{cat}-strict (AdGuard) blocca host fuori dalla lista completa: {scoperte[:3]}")
+        manuale = ROOT / f"domains/blocklist/{cat}.txt"
+        if manuale.exists():
+            voci = {line.split("|")[0].strip() for line in manuale.read_text(encoding="utf-8").splitlines()
+                    if line.strip() and not line.startswith("#")}
+            mancanti = [v for v in voci if "*" not in v and v not in strict_plain and v in full_plain]
+            check(not mancanti, f"block-{cat}-strict senza voci manuali {mancanti[:3]}")
+
+    # il percorso di anomalia scatta se una lista strict perde più della quota configurata
+    target = ROOT / "dist/domains/block-spyware-strict.txt"
+    bak = target.read_bytes()
+    with tempfile.TemporaryDirectory() as td:
+        gh_out = Path(td) / "gh_out"
+        target.write_text("".join(f"finto{i}.example\n" for i in range(5000)), encoding="utf-8", newline="\n")
+        os.environ["GITHUB_OUTPUT"] = str(gh_out)
+        try:
+            run_main(BD, "--check")
+        finally:
+            del os.environ["GITHUB_OUTPUT"]
+            target.write_bytes(bak)
+        check("anomaly=true" in gh_out.read_text(), "calo della lista strict non segnalato come anomalia")
+
+    # indice «Perché è bloccato?»: partizioni coerenti, voci tolte con motivo, allowlist
+    meta = json.loads((ROOT / "dist/perche/meta.json").read_text(encoding="utf-8"))
+    parts = sorted(p.stem for p in (ROOT / "dist/perche").glob("*.json") if p.stem != "meta")
+    check(len(parts) == meta["partizioni"], "indice: numero di partizioni errato")
+    check(perche.partizione("esempio.it", 256) == f"{__import__('zlib').crc32(b'esempio.it') % 256:02x}", "indice: hash")
+    idx = perche.Indice()
+    for nome in ("duckdns.org", "fortinet.com", "push.apple.com"):
+        check(nome in json.loads((ROOT / f"dist/perche/{perche.partizione(nome)}.json").read_text())["d"],
+              f"indice: {nome} nella partizione sbagliata o assente")
+    r = perche.spiega("app.qualcosa.duckdns.org", idx)
+    check(r["bloccato"] and any(b["lista"] == "block-ddns" and b["padre"] for b in r["blocchi"]),
+          "perche: sottodominio DDNS non spiegato con la regola sul padre")
+    r = perche.spiega("fortinet.com", idx)
+    check(not r["bloccato"] and any("esclusione di cura" in t["motivo"] for t in r["tolte"]),
+          "perche: esclusione di cura di fortinet.com non spiegata")
+    r = perche.spiega("push.apple.com", idx)
+    check(not r["bloccato"] and any(c["lista"] == "allow-protetti" for c in r["consentite"]),
+          "perche: servizio protetto non spiegato")
+    check(any("protetto" in t["motivo"] for t in r["tolte"]), "perche: voce tolta perché protetta non spiegata")
+    spy = next(line.split("|")[0].strip() for line in (ROOT / "domains/blocklist/spyware.txt").read_text(encoding="utf-8")
+               .splitlines() if line.strip() and not line.startswith("#"))
+    r = perche.spiega(spy, idx)
+    check(any(b["lista"] == "block-spyware" and b["punteggio"] == 100 and b["strict"] for b in r["blocchi"]),
+          f"perche: voce manuale {spy} senza punteggio 100 o fuori dallo strict")
+    for testo, atteso in (("https://Login.Esempio.IT:8443/a?b=c", "login.esempio.it"), ("||ads.esempio.it^", "ads.esempio.it"),
+                          ("città.it", "xn--citt-3na.it"), ("esempio.it.", "esempio.it")):
+        check(perche.estrai_host(testo) == atteso, f"perche: estrai_host('{testo}') = {perche.estrai_host(testo)}")
+
+    # la pagina statica usa lo stesso hash e la stessa estrazione dell'host (verifica con Node se disponibile)
+    page = (ROOT / "docs/perche-bloccato.html").read_text(encoding="utf-8")
+    check("<script src" not in page and "<link" not in page and "googletagmanager" not in page,
+          "perche-bloccato.html: dipendenze o tracker esterni")
+    check(re.findall(r"https://[a-z0-9.-]+", page) and all(
+        u in ("https://raw.githubusercontent.com", "https://github.com", "https://app.esempio.it") for u in re.findall(r"https://[a-z0-9.-]+", page)),
+        "perche-bloccato.html: domini esterni diversi da GitHub")
+    check(".innerHTML" not in page, "perche-bloccato.html: innerHTML (i dati dell'indice vanno inseriti come testo)")
+    check('"./perche/"' in page and "raw.githubusercontent.com" not in page,
+          "perche-bloccato.html: l'indice va letto dallo stesso sito Pages, non dai raw URL")
+    # l'indice cambia a ogni build: mai nella storia git (pubblicato solo su GitHub Pages)
+    ignorato = subprocess.run(["git", "check-ignore", "-q", "dist/perche/meta.json"], cwd=ROOT).returncode == 0
+    check(ignorato, "dist/perche non è in .gitignore")
+    build_wf = (ROOT / ".github/workflows/build.yml").read_text(encoding="utf-8")
+    check("upload-pages-artifact" in build_wf and "deploy-pages" in build_wf, "build.yml: pubblicazione Pages assente")
+    node = __import__("shutil").which("node")
+    if node:
+        core = page.split("  var TABLE = ")[1].split("var cache = {}")[0]
+        casi = ["esempio.it", "login.esempio.it", "xn--citt-3na.it", "duckdns.org"]
+        url_casi = ["https://Login.Esempio.IT:8443/a?b=c", "||ads.esempio.it^", "città.it", "esempio.it."]
+        js = ("var TABLE = " + core + "\nconsole.log(JSON.stringify({p: "
+              + json.dumps(casi) + ".map(function(d){return partizione(d, 256)}), h: " + json.dumps(url_casi)
+              + ".map(estraiHost)}));")
+        out = subprocess.run([node, "-e", js], capture_output=True, text=True, encoding="utf-8")
+        try:
+            res = json.loads(out.stdout)
+        except ValueError:
+            res = {}
+            FAILS.append(f"perche-bloccato.html: errore JavaScript {out.stderr[:200]}")
+        if res:
+            check(res["p"] == [perche.partizione(d) for d in casi], f"pagina: hash diverso da Python {res['p']}")
+            check(res["h"] == [perche.estrai_host(u) for u in url_casi], f"pagina: host diversi da Python {res['h']}")
+
+
 def section_security():
     import gzip
     import urllib.error
@@ -455,7 +571,7 @@ def main() -> int:
         if hasattr(stream, "reconfigure"):
             stream.reconfigure(encoding="utf-8")
     for section in (section_ip_build, section_ip_outputs, section_parsers, section_guardrails, section_security,
-                    section_domains, section_catalog, section_repository):
+                    section_domains, section_punteggio, section_catalog, section_repository):
         section()
     print(f"PASS: {PASSES}  FAIL: {len(FAILS)}")
     for f in FAILS:

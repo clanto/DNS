@@ -12,6 +12,7 @@ on:
       - "ip/allowlist.txt"
       - "domains/**"
       - "scripts/**"
+      - "docs/**"
 
 permissions:
   contents: write
@@ -25,6 +26,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    outputs:
+      pages: ${{ steps.sito.outputs.pages }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
@@ -39,7 +42,7 @@ jobs:
       - name: Genera liste domini
         id: allow
         continue-on-error: true
-        run: python scripts/build_domains.py
+        run: python scripts/build_domains.py --report "$RUNNER_TEMP/report.md"
 
       - name: Genera liste FQDN per OPNsense
         continue-on-error: true
@@ -60,7 +63,8 @@ jobs:
       - name: Pubblica
         env:
           GH_TOKEN: ${{ github.token }}
-          ANOMALY: ${{ steps.build.outputs.anomaly }}
+          # anomalia dei feed IP o calo oltre soglia di una lista strict (build_domains.py): PR invece del push
+          ANOMALY: ${{ steps.build.outputs.anomaly == 'true' || steps.allow.outputs.anomaly == 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
@@ -89,8 +93,42 @@ jobs:
             git push origin HEAD:main
           fi
 
+      # Sito GitHub Pages: docs/ + indice «Perché è bloccato?» (dist/perche è in .gitignore, mai nella storia git).
+      # Solo quando il build pubblica su main: con una variazione anomala l'indice aspetta la revisione della PR.
+      - name: Prepara il sito Pages
+        id: sito
+        if: steps.build.outputs.anomaly != 'true' && steps.allow.outputs.anomaly != 'true' && hashFiles('dist/perche/meta.json') != ''
+        run: |
+          site="$RUNNER_TEMP/sito"
+          mkdir -p "$site"
+          cp -r docs/. "$site/"
+          cp -r dist/perche "$site/perche"
+          echo "pages=true" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        if: steps.sito.outputs.pages == 'true'
+        with:
+          path: ${{ runner.temp }}/sito
+
       - name: Segnala errori nelle liste manuali
         if: steps.build.outputs.errors != '0' || steps.allow.outcome == 'failure'
         run: |
           echo "::error::Righe non valide nelle liste manuali: ignorate, vedi il riepilogo del job"
           exit 1
+
+  pages:
+    needs: build
+    # anche se il build segnala righe manuali errate (job fallito dopo la pubblicazione delle liste)
+    if: ${{ !cancelled() && needs.build.outputs.pages == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Pubblica su GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
