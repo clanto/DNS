@@ -3,6 +3,15 @@
 > Generato da `scripts/changelog.py` a ogni build: aggiunte e rimozioni rispetto alla versione precedente.
 > Ultime voci in alto. Per gli IP è indicata la fonte (`ip/cache/`) o `manuale`.
 
+## 2026-10-09 22:47 UTC
+
+- `dist/opnsense/doh.txt`: +2 / -8 (totale 2781)
+  - aggiunte: `bestwon203.com`, `homec92.dns.army`
+  - rimosse: `3dcosas.xyz`, `adguard.johanliebert.top`, `dns.wahr.top`, `isekai.anime.com.my`, `jp01.just-a-web.com`, `mask-canary.icloud.com`, `tecdrive.site`, `tuskythehusky.tech`
+- `dist/opnsense/vpn.txt`: +44 / -1236 (totale 4332)
+  - aggiunte: `19194545tomatomato.ipv64.net`, `2025-happynewyear.f5.si`, `3etare.co.uk`, `becarefull.bypased.info`, `bichvpn.ru`, `char.anotelinopalk.co.uk`, `comback-all.hosiyaman.info`, `djc5yls6yrtdmo69.online` e altre 36
+  - rimosse: `0n0fzcp.online`, `104-243-38-18.backname.io`, `104-243-38-18.plesk.page`, `104-243-38-18.sslip.io`, `104-36-85-249.backname.io`, `104-36-85-249.plesk.page`, `104-36-85-249.sslip.io`, `104.243.38.18.backname.io` e altre 1228
+
 ## 2026-10-09 22:35 UTC
 
 - `dist/adguard/block-malware.txt`: +5 / -0 (totale 275526)

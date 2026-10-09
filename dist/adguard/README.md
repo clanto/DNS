@@ -26,7 +26,7 @@ solo su istanze dedicate ai clienti che le richiedono.
 | `allow-streaming.txt` | Host specifici delle piattaforme streaming | 13 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-streaming.txt) | — |
 | `block-tld.txt` | TLD interi bloccati | 6 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-tld.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-tld.txt) |
 | `block-malevoli.txt` | Domini malevoli e truffe segnalati da noi | 22 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malevoli.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malevoli.txt) |
-| `block-pubblicita.txt` | Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre) | 64398 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita.txt) |
+| `block-pubblicita.txt` | Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre) | 64399 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita.txt) |
 | `block-accesso-remoto.txt` | Strumenti di accesso remoto (abusati in truffe e ransomware): escludere il proprio RMM | 18 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-accesso-remoto.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-accesso-remoto.txt) |
 | `block-ai-generativa.txt` | Chatbot di AI generativa (policy di prevenzione fuga dati) | 17 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-ai-generativa.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-ai-generativa.txt) |
 | `block-file-sharing.txt` | File sharing e trasferimento file anonimi (policy di prevenzione fuga dati) | 15 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-file-sharing.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-file-sharing.txt) |
@@ -103,7 +103,7 @@ Voci pubblicate che arrivano **solo** da una fonte: misura quanto una lista dipe
 | block-pirateria | manuale | 596 | 1.1% |
 | block-porno | hagezi-nsfw | 85642 | 99.9% |
 | block-porno | manuale | 34 | 0.0% |
-| block-pubblicita | easylist | 45030 | 69.8% |
+| block-pubblicita | easylist | 45031 | 69.8% |
 | block-pubblicita | manuale | 3 | 0.0% |
 | block-pubblicita | shadowwhisperer-ads | 17620 | 27.3% |
 | block-redirect | blocklistproject-redirect | 108680 | 100.0% |
@@ -141,7 +141,7 @@ Misurata a ogni build: quota di voci della fonte che colpiscono un falso positiv
 | validin-phish | block-phishing | 87327 | 2 | 99.998% | 0.80 | jp-bank.japanpost.jp, on-fleek.app |
 | hagezi-anti-piracy | block-pirateria | 54779 | 1 | 99.998% | 0.80 | fandango.com |
 | hagezi-nsfw | block-porno | 85659 | 0 | 100.000% | 0.80 |  |
-| easylist | block-pubblicita | 46860 | 4 | 99.991% | 0.80 | agenteimmobiliare.info, gvt2.com, imasdk.googleapis.com |
+| easylist | block-pubblicita | 46861 | 4 | 99.991% | 0.80 | agenteimmobiliare.info, gvt2.com, imasdk.googleapis.com |
 | shadowwhisperer-ads | block-pubblicita | 19487 | 41 | 99.790% | 0.65 | aboutads.info, ad.nl, adage.com |
 | blocklistproject-redirect | block-redirect | 108685 | 6 | 99.994% | 0.80 | kicks-ass.net, name.com, operaprima.info |
 | blocklistproject-facebook | block-social | 22362 | 1 | 99.996% | 0.80 | apps.fbsbx.com |
@@ -165,7 +165,7 @@ Stesse liste con le sole voci a punteggio alto: meno voci, meno falsi positivi. 
 | block-spyware | 86 | 528 | 528 | 100.0% |
 | block-cryptojacking | 86 | 296 | 296 | 100.0% |
 | block-redirect | 86 | 108676 | 108674 | 100.0% |
-| block-pubblicita | 86 | 64398 | 1829 | 2.8% |
+| block-pubblicita | 86 | 64399 | 1829 | 2.8% |
 | block-traccianti | 86 | 58919 | 1254 | 2.1% |
 
 Pubblicato sotto GPL-3.0.

@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/clanto/DNS",
   "licenza": "GPL-3.0",
-  "generato": "2026-10-09T22:41:28Z",
+  "generato": "2026-10-09T22:53:40Z",
   "attribuzioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/THIRD_PARTY.md",
   "registro_variazioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/CHANGELOG.md",
   "feed": [
@@ -1082,7 +1082,7 @@
       "categoria": "pubblicita",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita.txt",
-      "voci": 64398,
+      "voci": 64399,
       "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre)",
       "fonti": [
         {
@@ -1109,7 +1109,7 @@
       "categoria": "pubblicita",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita.txt",
-      "voci": 64479,
+      "voci": 64480,
       "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre)",
       "fonti": [
         {
@@ -1573,7 +1573,7 @@
       "categoria": "doh",
       "formato": "FQDN per alias OPNsense URL Table (IPs)",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/doh.txt",
-      "voci": 2787,
+      "voci": 2781,
       "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -1686,7 +1686,7 @@
       "categoria": "vpn",
       "formato": "FQDN per alias OPNsense URL Table (IPs)",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/vpn.txt",
-      "voci": 5524,
+      "voci": 4332,
       "descrizione": "VPN, proxy e servizi di bypass (scuole)",
       "fonti": [
         {

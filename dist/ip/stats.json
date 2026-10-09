@@ -238,7 +238,7 @@
     }
   },
   "allowlist": {
-    "voci": 126,
+    "voci": 127,
     "reti_modificate": 0
   },
   "condivisi": {
@@ -246,7 +246,7 @@
     "voci_escluse": 4401
   },
   "protetti": {
-    "ip_risolti": 123,
+    "ip_risolti": 124,
     "voci_escluse": []
   }
 }
