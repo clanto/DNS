@@ -407,6 +407,7 @@ beacon.dog
 beautifullife.eu.org
 beautifulthings.eu.org
 bei01.dnscry.pt
+bestwon203.com
 bh.wael.name
 biba.ydns.eu
 bkk01.dnscry.pt
@@ -463,6 +464,7 @@ child-noads.joindns4.eu
 child.joindns4.eu
 chlaebi.synology.me
 chromium.dns.nextdns.io
+chronicle14.tplinkdns.com
 chungocoai.name.vn
 chynik.duckdns.org
 circumitor.de
@@ -1759,6 +1761,7 @@ guard.miracloud.fr
 guard.pp.ua
 guard.telesterion.de
 guidetoworld.link
+gustamadh.dynv6.net
 gva01.dnscry.pt
 gw1.dns.haynetwork.id
 h.gjrick.tw
@@ -2561,7 +2564,6 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
-tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
