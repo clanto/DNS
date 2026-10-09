@@ -306,6 +306,8 @@ def main() -> int:
 
     errors: list[str] = []
     cfg = tomllib.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+    from ct_phishing_it import promuovi  # block-phishing-it: solo a osservazione chiusa (domains/ct_marchi.toml)
+    promuovi(cfg)
     upstream = tomllib.loads(UPSTREAM_PATH.read_text(encoding="utf-8")).get("lists", [])
     for u in upstream:
         missing = {"name", "url", "category", "license", "ambito"} - u.keys()

@@ -15,10 +15,12 @@ import tomllib
 from datetime import datetime, timezone
 
 from build_ip import RAW_BASE, ROOT
+from ct_phishing_it import promuovi
 
 DIST = ROOT / "dist"
 IP_CFG = tomllib.loads((ROOT / "ip/sources.toml").read_text(encoding="utf-8"))
 DOM_CFG = tomllib.loads((ROOT / "domains/domains.toml").read_text(encoding="utf-8"))
+promuovi(DOM_CFG)  # block-phishing-it a osservazione chiusa (domains/ct_marchi.toml)
 
 
 def count(path) -> int | None:

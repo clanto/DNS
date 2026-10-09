@@ -38,6 +38,9 @@ jobs:
       - name: Test del pivot sull'infrastruttura (offline, dati sintetici)
         run: python tests/test_pivot.py
 
+      - name: Test della lista CT phishing-it (offline, dati sintetici)
+        run: python tests/test_ct_phishing_it.py
+
       - name: Blocca modifiche manuali ai file generati
         if: github.event.pull_request.user.login != 'github-actions[bot]'
         env:
