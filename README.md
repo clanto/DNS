@@ -39,6 +39,7 @@ Formato: un IP o CIDR per riga, senza commenti. Compatibile con alias *URL Table
 - **Dettagli**: numero di voci, fonti, licenze e stato dell'ultimo aggiornamento sono in [dist/ip/README.md](dist/ip/README.md); le statistiche in formato JSON in [stats.json](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/stats.json).
 - **Registro variazioni**: [dist/CHANGELOG.md](dist/CHANGELOG.md), aggiunte e rimozioni a ogni build con la fonte di ogni IP. Primo posto da guardare quando un sito smette di funzionare.
 - **Configurazione dei firewall**: in [ip/README.md](ip/README.md#configurazione-firewall).
+- **IP e domini derivati**: ogni settimana una PR da approvare propone, con scadenza a 30 giorni, gli IP dedicati che ospitano più domini malevoli confermati (feed `c2`) e i loro nameserver e CNAME (`block-malware`). Criteri in [ip/README.md](ip/README.md#ip-e-domini-derivati-dallinfrastruttura-malevola-pivot).
 - **Blocco per paese e bogon completi**: usare le funzioni native dei firewall (GeoIP, *Block bogon networks*). I dati di origine non sono ridistribuibili.
 
 ---

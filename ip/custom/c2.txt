@@ -1,0 +1,4 @@
+# Feed IP - c2: voci manuali (server di comando e controllo, infrastruttura malware dedicata)
+# Formato: IP/CIDR | data AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Le voci con ticket pivot-AAAAMMGG sono proposte da scripts/pivot_infra.py (PR settimanale): scadenza
+# obbligatoria, tolte in automatico quando scadono. Nel motivo MAI dati personali.

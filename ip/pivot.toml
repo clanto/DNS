@@ -1,0 +1,55 @@
+# Configurazione di scripts/pivot_infra.py: threat intelligence derivata dall'infrastruttura dei domini
+# malevoli confermati (block-malware, block-phishing, domains/blocklist/malevoli.txt).
+# Produce solo CANDIDATI: il workflow settimanale .github/workflows/pivot.yml apre una PR da approvare
+# che aggiunge voci con scadenza a ip/custom/c2.txt e domains/blocklist/malware.txt (ticket "pivot-AAAAMMGG").
+# Le voci derivate non diventano mai semi delle esecuzioni successive (niente catene di deduzioni).
+
+[pivot]
+# Campione di domini da risolvere: prima quelli presenti in più fonti, poi gli altri (ordine pseudo-casuale
+# che cambia ogni settimana, così nel tempo si copre una parte diversa delle liste)
+max_seeds = 1500
+max_per_zone = 2              # al massimo N nomi dello stesso dominio registrato (varietà del campione)
+min_sources_confirmed = 2     # un dominio è "confermato" se è in almeno N fonti (o nella lista manuale)
+max_legit = 400               # host delle allowlist risolti come controllo (IP e nameserver legittimi)
+
+# Soglie per proporre un IP (feed c2)
+min_domains = 3               # domini registrati malevoli distinti sullo stesso IP
+min_confirmed = 1             # di cui almeno N confermati da più fonti
+max_domains = 50              # oltre questa densità nel campione l'IP va solo nel report da verificare a mano
+                              # (tipico di parcheggi e hosting condivisi con siti compromessi)
+max_ip_candidates = 100       # per esecuzione, per una PR leggibile
+max_domain_candidates = 50
+expiry_days = 30              # scadenza obbligatoria: l'infrastruttura malevola cambia in fretta
+
+# Limiti di carico sul resolver (quello del runner, /etc/resolv.conf; PIVOT_RESOLVER per cambiarlo)
+max_queries = 8000
+qps = 40                      # query al secondo, globali
+workers = 8
+timeout = 2.0                 # secondi per query UDP (un solo nuovo tentativo)
+max_seconds = 480             # oltre questo tempo non partono nuove query: il job resta sotto i 15 minuti
+
+# Sinkhole: domini sequestrati o neutralizzati da ricercatori e forze dell'ordine. Non sono infrastruttura
+# malevola e il loro IP ospita migliaia di domini di botnet diverse: mai proporli.
+# Voci con un punto = suffisso del nome (es. ns1.microsoftinternetsafety.net), senza punto = parola contenuta.
+sinkhole_ns = ["sinkhole", "microsoftinternetsafety.net"]
+sinkhole_ptr = ["sinkhole", "blackhole"]
+sinkhole_nets = [
+  "131.253.18.0/24",          # Microsoft, blackhole*.glbdns2.microsoft.com (SANS ISC diary 19711)
+]
+# Parcheggio e rivendita di domini: IP condivisi da milioni di domini scaduti o in vendita.
+parking_ns = ["park", "bodis.com", "above.com", "dan.com", "afternic.com", "uniregistrymarket.link"]
+# PTR tipici dell'hosting web condiviso: l'IP ospita molti siti, anche legittimi
+shared_ptr = ["webhosting", "sharedhosting", "shared-hosting", "hosting.ovh.net", "cpanel", "plesk"]
+# AS di hosting web condiviso (oltre a [opnsense_check].shared_as_keywords di domains/domains.toml):
+# i siti compromessi ospitati qui sono malevoli, l'IP no
+shared_hosting_as = ["HOSTINGER", "GO-DADDY", "GODADDY", "UNIFIEDLAYER", "NEWFOLD", "NAMECHEAP", "SITEGROUND",
+                     "DREAMHOST", "IONOS", "ARUBA", "WEBSITEWELCOME", "A2HOSTING", "INMOTION", "HOSTGATOR",
+                     "REGISTER", "WIX", "SQUARESPACE", "WEEBLY", "GITHUB", "NETLIFY", "HEROKU", "VERCEL"]
+
+# Infrastrutture condivise aggiuntive, solo per il pivot (stesso formato di [[shared_sources]] in
+# ip/sources.toml, che vengono sempre applicate): bucket S3 e API Gateway servono molti clienti per IP.
+[[shared_sources]]
+id = "aws-s3-apigw"
+url = "https://ip-ranges.amazonaws.com/ip-ranges.json"
+format = "aws"
+services = ["S3", "API_GATEWAY"]
