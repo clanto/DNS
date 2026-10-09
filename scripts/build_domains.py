@@ -101,7 +101,7 @@ def load(path: Path, *, tld: bool, today: date, errors: list[str]) -> tuple[list
 
 
 def parse_domain_text(text: str, fmt: str) -> tuple[set[str], int]:
-    """Estrae domini da liste 'domains', 'adblock' (||dominio^), 'hosts' o 'tweetfeed' (CSV). Restituisce (domini, scartati)."""
+    """Estrae domini da liste 'domains', 'adblock' (||dominio^), 'ublock' (anche $doc/$all), 'hosts' o 'tweetfeed' (CSV). Restituisce (domini, scartati)."""
     names: set[str] = set()
     rejected = 0
     if fmt == "tweetfeed":
@@ -112,10 +112,15 @@ def parse_domain_text(text: str, fmt: str) -> tuple[set[str], int]:
         line = raw.strip().lower()
         if not line or line[0] in "#!":
             continue
-        if fmt == "adblock":
-            m = re.match(r"^\|\|([^\^/$|]+)\^$", line)
+        if fmt in ("adblock", "ublock"):
+            m = re.match(r"^\|\|([^\^/$|]+)\^(?:\$(.+))?$", line)
             if not m:
-                continue  # regole con modificatori o eccezioni: non sono domini da bloccare
+                continue  # regole su percorsi, eccezioni o cosmetiche: non sono domini da bloccare
+            opts = set(m.group(2).split(",")) if m.group(2) else set()
+            # ublock: anche $doc/$document/$all (sito intero, come al DNS); mai regole limitate (domain=, 3p...)
+            allowed = {"doc", "document", "all", "important"} if fmt == "ublock" else set()
+            if any(o not in allowed and not o.startswith("reason=") for o in opts) or (opts and fmt == "adblock"):
+                continue
             token = m.group(1)
         else:
             parts = line.split("#", 1)[0].split()

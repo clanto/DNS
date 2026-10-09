@@ -11985,6 +11985,7 @@
 ||akzdrh.catofashions.com^
 ||catschickens.com^
 ||catsnthing.com^
+||catsthumb.com^
 ||cattlecommittee.com^
 ||catwt.com^
 ||cauldronfest.com^
@@ -23863,6 +23864,7 @@
 ||tracking.matsinc.com^
 ||mktg.matssoft.com^
 ||matsubun.matsubun.com^
+||ad-manager.matsukiyococokara-online.com^
 ||ca.mattamyhomes.com^
 ||connect.mattamyhomes.com^
 ||corporate.mattamyhomes.com^

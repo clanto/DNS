@@ -106,7 +106,7 @@ description = "Tunnel, esfiltrazione e canali di controllo: ngrok, trycloudflare
 description = "Risolutori e tutor per i compiti: da attivare durante verifiche ed esami (scuole)"
 
 [block.malware]
-description = "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam)"
+description = "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware)"
 outputs = ["adguard", "domains"]
 exclude_platforms = true
 
@@ -406,3 +406,13 @@ homepage = "https://github.com/hagezi/dns-blocklists"
 license = "GPL-3.0"
 max_age_days = 90
 note = "Complemento per i DDNS dei produttori di router e NAS non coperti dalle fonti primarie"
+
+[[sources]]
+id = "ublock-badware"
+category = "malware"
+url = "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt"
+format = "ublock"
+homepage = "https://github.com/uBlockOrigin/uAssets"
+license = "GPL-3.0"
+max_age_days = 30
+note = "uBlock Origin Badware risks: falsi siti di download, truffe e supporto tecnico fasullo (solo regole su siti interi)"

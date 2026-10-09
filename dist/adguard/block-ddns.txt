@@ -191,6 +191,7 @@
 ||cechire.com^
 ||celebsplay.com^
 ||centserver.com^
+||changeip.com^
 ||charihoproducts.com^
 ||checkor.com^
 ||chickenkiller.com^
@@ -237,8 +238,10 @@
 ||dnsalias.com^
 ||dnsdojo.com^
 ||dnset.com^
+||dnsexit.com^
 ||dnsiskinky.com^
 ||dnsmax.com^
+||dnsomatic.com^
 ||dnsrd.com^
 ||dnyp.com^
 ||doesntexist.com^
@@ -256,11 +259,13 @@
 ||dtdns.com^
 ||dumb1.com^
 ||dvr-ddns.com^
+||dyn.com^
 ||dyn-access.com^
 ||dyn-o-saur.com^
 ||dynalias.com^
 ||dynamai.com^
 ||dynamic-m.com^
+||dyndns.com^
 ||dyndns-at-home.com^
 ||dyndns-at-work.com^
 ||dyndns-blog.com^
@@ -280,9 +285,11 @@
 ||dynip.com^
 ||dynns.com^
 ||dynssl.com^
+||dynu.com^
 ||dynuddns.com^
 ||dynv6.com^
 ||e-romagnoli.com^
+||easydns.com^
 ||eatuo.com^
 ||echoparklake.com^
 ||effers.com^
@@ -584,6 +591,8 @@
 ||netdorm.com^
 ||networkguru.com^
 ||networkoutpost.com^
+||no-ip.com^
+||noip.com^
 ||noipdns.com^
 ||noipfreedns.com^
 ||noiptos.com^
@@ -765,6 +774,7 @@
 ||yourtrap.com^
 ||zaantek.com^
 ||zneth.com^
+||zoneedit.com^
 ||zyix.com^
 ||zyns.com^
 ||zzux.com^
@@ -923,6 +933,7 @@
 ||xxxy.info^
 ||zelslonik.info^
 ||dedyn.io^
+||desec.io^
 ||myaddr.io^
 ||sly.io^
 ||spr.io^
@@ -1037,6 +1048,7 @@
 ||cbu.net^
 ||changeip.net^
 ||clienturl.net^
+||cloudns.net^
 ||cloudwatch.net^
 ||cloudxns.net^
 ||computersforpeace.net^
@@ -1138,6 +1150,7 @@
 ||mwop.net^
 ||mydissent.net^
 ||myeffect.net^
+||myfritz.net^
 ||mymediapc.net^
 ||mynetav.net^
 ||myonlineportal.net^
@@ -1223,6 +1236,7 @@
 ||3322.org^
 ||688.org^
 ||accesscam.org^
+||afraid.org^
 ||ahoeab.org^
 ||allisons.org^
 ||allowed.org^

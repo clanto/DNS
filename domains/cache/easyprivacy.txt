@@ -4373,6 +4373,7 @@ ad-ebis.bookpass.auone.jp
 ad-ebis.mynavi-job20s.jp
 ad-ebis.toysub.jp
 ad-log.dable.io
+ad-manager.matsukiyococokara-online.com
 ad-platform.jmty.jp
 ad-tracker-api.luizalabs.com
 ad.320320.net
@@ -8507,6 +8508,7 @@ catracking.cubiq.com
 catracking.finning.com
 cats.d20.rs
 catschickens.com
+catsthumb.com
 cattell.loanzify.app
 cattlecommittee.com
 cauldronfest.com

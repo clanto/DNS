@@ -52,6 +52,7 @@ access.ly
 accesscam.org
 acmetoy.com
 adagio.tw
+afraid.org
 agropeople.ru
 ahoeab.org
 aintno.info
@@ -169,6 +170,7 @@ cf.gs
 changeip.biz
 changeip.co
 changeip.co.uk
+changeip.com
 changeip.me
 changeip.name
 changeip.net
@@ -198,6 +200,7 @@ cloudns.cl
 cloudns.cx
 cloudns.in
 cloudns.info
+cloudns.net
 cloudns.nz
 cloudns.org
 cloudns.ph
@@ -275,6 +278,7 @@ death-by-monkeys.com
 dedyn.io
 demosoftonline.com
 demoteam.ch
+desec.io
 dh3.com
 dhcp.biz
 dhis.org
@@ -318,6 +322,7 @@ dnsdojo.org
 dnsdyn.net
 dnsdynamic.org
 dnset.com
+dnsexit.com
 dnsfailover.net
 dnsfor.me
 dnsget.org
@@ -330,6 +335,7 @@ dnsmax.com
 dnsname.org
 dnsnet.info
 dnsnew.org
+dnsomatic.com
 dnspod.cn
 dnsrd.com
 dnsup.net
@@ -387,6 +393,7 @@ dyn-vpn.de
 dyn.addr.tools
 dyn.ch
 dyn.columbia.edu
+dyn.com
 dyn.mk
 dynalias.com
 dynalias.net
@@ -423,6 +430,7 @@ dyndns-wiki.com
 dyndns-work.com
 dyndns.berlin
 dyndns.biz
+dyndns.com
 dyndns.dk
 dyndns.icu
 dyndns.info
@@ -448,6 +456,7 @@ dyns.cx
 dyns.net
 dynserv.org
 dynssl.com
+dynu.com
 dynu.net
 dynu.systems
 dynuddns.com
@@ -460,6 +469,7 @@ dynvpn.de
 dyyndns.net
 e-m-a-i-l.org
 e-romagnoli.com
+easydns.com
 easydns.info
 easydns.net
 easydns.org
@@ -1041,6 +1051,7 @@ mydns.bz
 mydns.jp
 myds.me
 myeffect.net
+myfritz.net
 myftp.biz
 myftp.info
 myftp.name
@@ -1113,6 +1124,7 @@ no-domain.name
 no-ip.biz
 no-ip.ca
 no-ip.co.uk
+no-ip.com
 no-ip.fr
 no-ip.info
 no-ip.me
@@ -1120,6 +1132,7 @@ no-ip.net
 no-ip.org
 nocturnalaviation.org
 nodns.ca
+noip.com
 noip.me
 noip.net
 noip.pl
@@ -1583,6 +1596,7 @@ zapto.xyz
 zeitr.ch
 zelslonik.info
 zneth.com
+zoneedit.com
 zsh.jp
 zverovich.net
 zyix.com

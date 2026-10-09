@@ -97,9 +97,9 @@ Nelle liste di sicurezza (malware, phishing, spyware, cryptojacking, redirect) i
 
 #### DNS dinamici (`block-ddns`)
 
-Blocca i **domini dei provider DDNS** come suffissi: AdGuard blocca anche tutti i sottodomini, quindi `qualcosa.duckdns.org` non si risolve. Restano raggiungibili, per nome esatto, i siti di gestione dei provider che i firewall usano per aggiornare il proprio nome (No-IP, DynDNS, Dynu, easyDNS, ChangeIP, FreeDNS, DNSExit, ZoneEdit…): l'elenco è in `domains/escludi.txt`.
+Blocca i **domini dei provider DDNS** come suffissi: AdGuard blocca anche tutti i sottodomini, quindi `qualcosa.duckdns.org` non si risolve. Sono bloccati anche i **siti dei provider** (No-IP, DynDNS, Dynu, FreeDNS…), compresi gli host che router e firewall usano per aggiornare il proprio nome.
 
-Chi usa un DDNS per i **propri apparati** (VPN, telecamere, NAS, firewall) deve fare un'**eccezione locale** nelle regole personalizzate dell'istanza AdGuard, limitata all'host necessario, per esempio `@@||nome-apparato.duckdns.org^$important`. Per i DDNS dei produttori (FRITZ!Box, Synology, ASUS, FortiGate…) l'eccezione va sul loro dominio. Le eccezioni per cliente vanno nell'istanza, mai nel repository.
+Chi usa un DDNS per i **propri apparati** (VPN, telecamere, NAS, firewall) deve fare un'**eccezione locale** nelle regole personalizzate dell'istanza AdGuard, limitata agli host necessari: il nome dell'apparato (es. `@@||nome-apparato.duckdns.org^$important`) e l'host di aggiornamento del provider usato dal firewall (es. `@@||dynupdate.no-ip.com^$important`). Per i DDNS dei produttori (FRITZ!Box, Synology, ASUS, FortiGate…) l'eccezione va sul loro dominio. Le eccezioni per cliente vanno nell'istanza, mai nel repository.
 
 Le liste di policy (accesso remoto, AI, file sharing, social, gaming, streaming) in AdGuard Home valgono per **tutti** i client: vanno applicate solo sulle istanze dei clienti che le richiedono.
 
@@ -120,7 +120,7 @@ Alias di tipo **URL Table (IPs)**. Il firewall deve risolvere i nomi con un DNS 
 
 ## Liste upstream consigliate per AdGuard
 
-Liste esterne da abbonare direttamente su AdGuard, insieme alle nostre liste di `dist/adguard/`. Le fonti che ripubblichiamo (DoH, VPN, redirect, spyware, cryptojacking, porno, pirateria, social, pubblicità, traccianti, DDNS) si prendono dalle nostre, che aggiungono voci curate, servizi protetti e controllo dei conflitti con le allowlist. Licenze verificate per l'uso commerciale; note per ogni lista in [dist/adguard/README.md](dist/adguard/README.md#liste-upstream-consigliate-abbonamento-diretto-su-adguard).
+Liste esterne da abbonare direttamente su AdGuard, insieme alle nostre liste di `dist/adguard/`. Le fonti che ripubblichiamo (DoH, VPN, malware, redirect, spyware, cryptojacking, porno, pirateria, social, pubblicità, traccianti, DDNS) si prendono dalle nostre, che aggiungono voci curate, servizi protetti e controllo dei conflitti con le allowlist. Licenze verificate per l'uso commerciale; note per ogni lista in [dist/adguard/README.md](dist/adguard/README.md#liste-upstream-consigliate-abbonamento-diretto-su-adguard).
 
 | Lista | Categoria | Ambito | Licenza |
 |---|---|---|---|
@@ -128,7 +128,6 @@ Liste esterne da abbonare direttamente su AdGuard, insieme alle nostre liste di 
 | [HaGeZi Pop-Up Ads](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt) | pubblicità | tutti | GPL-3.0 |
 | [HaGeZi Threat Intelligence Feeds](https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt) | malware, phishing | tutti | GPL-3.0 |
 | [Phishing URL Blocklist (malware-filter)](https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt) | phishing | tutti | MIT |
-| [uBlock Badware risks](https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt) | malware | tutti | GPL-3.0 |
 | [DurableNapkin Scam](https://adguardteam.github.io/HostlistsRegistry/assets/filter_10.txt) | truffe | tutti | MIT |
 | [ShadowWhisperer Malware](https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt) | malware | tutti | Unlicense |
 | [BlocklistProject Fraud](https://blocklistproject.github.io/Lists/adguard/fraud-ags.txt) | truffe | tutti | Unlicense |

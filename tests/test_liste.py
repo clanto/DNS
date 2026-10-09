@@ -264,7 +264,7 @@ def section_domains():
     ads = set((ROOT / "dist/domains/block-pubblicita.txt").read_text().split())
     check({"duckdns.org", "ddns.net", "hopto.org"} <= ddns, "block-ddns senza i provider DDNS principali")
     for gestione in ("noip.com", "dyn.com", "dyndns.com", "dynu.com", "afraid.org"):
-        check(gestione not in ddns, f"block-ddns: sito di gestione da escludere: {gestione}")
+        check(gestione in ddns, f"block-ddns: sito del provider non bloccato: {gestione}")
     for critico in ("data.microsoft.com", "geotrust.com", "urldefense.com", "safebrowsing.apple"):
         check(critico not in trk and critico not in ads, f"traccianti/pubblicita: servizio critico bloccato: {critico}")
     for protetto in ("push.apple.com", "wns.windows.com", "www.google.com", "teams.microsoft.com"):

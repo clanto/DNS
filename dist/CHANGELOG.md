@@ -3,6 +3,17 @@
 > Generato da `scripts/changelog.py` a ogni build: aggiunte e rimozioni rispetto alla versione precedente.
 > Ultime voci in alto. Per gli IP è indicata la fonte (`ip/cache/`) o `manuale`.
 
+## 2026-10-09 14:54 UTC
+
+- `dist/adguard/block-ddns.txt`: +14 / -0 (totale 1602)
+  - aggiunte: `||afraid.org^`, `||changeip.com^`, `||cloudns.net^`, `||desec.io^`, `||dnsexit.com^`, `||dnsomatic.com^`, `||dyn.com^`, `||dyndns.com^` e altre 6
+- `dist/adguard/block-malware.txt`: +665 / -0 (totale 275508)
+  - aggiunte: `||1st-mail.jp^`, `||360cncn.com^`, `||587.jp^`, `||6969-chat.tv^`, `||7-zip.com^`, `||a1tai7.jp^`, `||adobecloud5xpo.yolasite.com^`, `||adolphusisomlycyou.pages.dev^` e altre 657
+- `dist/adguard/block-pubblicita.txt`: +6 / -0 (totale 64309)
+  - aggiunte: `||boskytattierfrail.cfd^`, `||gqdajtjwzbikn.space^`, `||javpwyyvcoorg.website^`, `||jgwxzijr.com^`, `||pawmarkcist.cfd^`, `||ughapud.com^`
+- `dist/adguard/block-traccianti.txt`: +2 / -0 (totale 58918)
+  - aggiunte: `||ad-manager.matsukiyococokara-online.com^`, `||catsthumb.com^`
+
 ## 2026-10-09 13:58 UTC
 
 - `dist/ip/all-scuole-v4.txt`: +0 / -1 (totale 42679)

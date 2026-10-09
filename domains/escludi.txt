@@ -86,20 +86,6 @@ pandasecurity.com | 2026-10-09 | antivirus Panda Security: falso positivo in vpn
 koyeb.app | 2026-10-09 | piattaforma di hosting: bloccare solo i sottodomini | -
 duba.net | 2026-10-09 | antivirus Kingsoft: falso positivo in vpn | -
 bit.ly | 2026-10-09 | URL shortener: bloccare i singoli link non è possibile via DNS, il dominio intero rompe i link legittimi | -
-noip.com | 2026-10-09 | sito e aggiornamento DDNS di No-IP: i firewall aggiornano qui il proprio nome (DDNS) | -
-no-ip.com | 2026-10-09 | sito e aggiornamento DDNS di No-IP (DDNS) | -
-dyn.com | 2026-10-09 | sito di gestione Dyn e controllo IP usato dai router (DDNS) | -
-dyndns.com | 2026-10-09 | sito di gestione DynDNS e checkip usato dai router (DDNS) | -
-dynu.com | 2026-10-09 | sito e API di aggiornamento Dynu (DDNS) | -
-easydns.com | 2026-10-09 | sito e API di aggiornamento easyDNS (DDNS) | -
-changeip.com | 2026-10-09 | sito e API di aggiornamento ChangeIP (DDNS) | -
-dnsexit.com | 2026-10-09 | sito e API di aggiornamento DNSExit (DDNS) | -
-zoneedit.com | 2026-10-09 | sito e API di aggiornamento ZoneEdit (DDNS) | -
-afraid.org | 2026-10-09 | FreeDNS: sito e aggiornamento usati dai firewall (DDNS) | -
-cloudns.net | 2026-10-09 | ClouDNS: pannello di gestione e DNS autorevole usato da aziende (DDNS) | -
-dnsomatic.com | 2026-10-09 | DNS-O-Matic Cisco: aggiornamento DDNS dei router (DDNS) | -
-desec.io | 2026-10-09 | deSEC: servizio DNS e API di gestione (DDNS) | -
-myfritz.net | 2026-10-09 | accesso remoto AVM FRITZ!Box: apparati dei clienti (DDNS) | -
 charter.com | 2026-10-09 | provider Internet Spectrum: falso positivo (DDNS) | -
 level3.net | 2026-10-09 | backbone Lumen: falso positivo (DDNS) | -
 corbina.ru | 2026-10-09 | provider Internet: falso positivo (DDNS) | -
