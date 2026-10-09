@@ -107,7 +107,8 @@ def carica_contesto() -> Contesto:
     ctx = Contesto()
     ctx.piattaforme = leggi_voci(dom / "cache" / "psl-private.txt")
     for p in (ROOT / "dist" / "domains").glob("block-*.txt"):
-        ctx.bloccati |= leggi_voci(p)
+        if not p.stem.endswith("-strict"):  # le liste strict sono opzionali: non coprono tutti i client
+            ctx.bloccati |= leggi_voci(p)
     for p in (dom / "blocklist").glob("*.txt"):
         ctx.bloccati |= leggi_voci(p)
     for p in (dom / "allowlist").glob("*.txt"):
