@@ -3,6 +3,21 @@
 > Generato da `scripts/changelog.py` a ogni build: aggiunte e rimozioni rispetto alla versione precedente.
 > Ultime voci in alto. Per gli IP è indicata la fonte (`ip/cache/`) o `manuale`.
 
+## 2026-10-09 22:35 UTC
+
+- `dist/adguard/block-malware.txt`: +5 / -0 (totale 275526)
+  - aggiunte: `||gdfgdsa.duckdns.org^`, `||justtoit.icu^`, `||kalif-delivery.duckdns.org^`, `||mmmonroy.com^`, `||xuchangwuli-jp.com^`
+- `dist/adguard/block-phishing-strict.txt`: +2 / -13 (totale 451173)
+  - aggiunte: `||articulo.mercadolibre.com.uy^`, `||listado.mercadolibre.com.uy^`
+  - rimosse: `||altin.in^`, `||amazonlogistics.eu^`, `||apkpure.com^`, `||articulo.mercadolibre.com.mx^`, `||ff.garena.com^`, `||googll.store^`, `||im.nbpublic.com^`, `||jp-bank.japanpost.jp^` e altre 5
+- `dist/adguard/block-phishing.txt`: +2 / -9 (totale 451177)
+  - aggiunte: `||articulo.mercadolibre.com.uy^`, `||listado.mercadolibre.com.uy^`
+  - rimosse: `||amazonlogistics.eu^`, `||articulo.mercadolibre.com.mx^`, `||ff.garena.com^`, `||jp-bank.japanpost.jp^`, `||mercadolibre.com.uy^`, `||mpms.mufg.com^`, `||online.fliphtml5.com^`, `||selfserve.decipherinc.com^` e altre 1
+- `dist/adguard/block-pubblicita.txt`: +7 / -0 (totale 64397)
+  - aggiunte: `||aitlewqvasxut.online^`, `||angaskukeripartile.qpon^`, `||ezuwejmciolie.online^`, `||jcjbxydnpgqij.online^`, `||utrumuncurls.cfd^`, `||xfatemfiemhdu.space^`, `||xylgpebouucnf.website^`
+- `dist/adguard/block-redirect-strict.txt`: +0 / -2 (totale 108674)
+  - rimosse: `||proxysite.com^`, `||xnxx.com^`
+
 ## 2026-10-09 20:42 UTC
 
 - `dist/ip/all-scuole-v4.txt`: +213 / -145 (totale 42746)

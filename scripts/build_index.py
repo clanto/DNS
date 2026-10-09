@@ -121,6 +121,10 @@ def third_party() -> str:
     if DOM_CFG.get("psl_url"):
         lines.append(f"| Public Suffix List (sezione privata) | domini di piattaforme mai bloccati per intero "
                      f"nelle liste di sicurezza | {DOM_CFG['psl_url']} (MPL-2.0) |")
+    crux = DOM_CFG.get("punteggio", {}).get("crux_url")
+    if crux:
+        lines.append(f"| Chrome UX Report (Google), top list | popolarità per la precisione delle fonti e il livello "
+                     f"strict di phishing e redirect | {crux} (CC BY 4.0, https://developer.chrome.com/docs/crux) |")
     lines += ["| iptoasn.com | reti per AS (esclusioni, feed social, controlli) | https://iptoasn.com/ (PDDL 1.0) |",
               "", "## Liste upstream consigliate per AdGuard", "",
               "Non ripubblicate: AdGuard le scarica direttamente. Catalogo con licenze in "

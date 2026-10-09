@@ -340,6 +340,23 @@ def section_punteggio():
     check(P.controlla_calo({"x.txt": 1000}, {"x.txt": 900}, 0.2, 100) == [], "guardrail strict: calo del 10% segnalato")
     check(P.controlla_calo({"x.txt": 50}, {"x.txt": 0}, 0.2, 100) == [], "guardrail strict: liste piccole controllate")
 
+    # CrUX: parsing per fascia, padri coperti, mai su malware/pubblicità/spyware (lì il sito popolare è il bersaglio)
+    crux = P.parse_crux("origin,rank\nhttps://www.example.com,1000\nhttps://shop.example.org:8443,5000\n"
+                        "http://lontano.example.net,100000\n", 10000)
+    check(crux == {"www.example.com": 1000, "shop.example.org": 5000}, f"CrUX: parsing errato {crux}")
+    check({"example.com", "www.example.com"} <= P.padri(set(crux)), "CrUX: dominio padre di un sito popolare non coperto")
+    check(not {"malware", "pubblicita", "traccianti", "spyware"} & set(conf["crux_categorie"]),
+          "CrUX: categorie dove un sito popolare è il bersaglio")
+    ctx = P.Contesto(set(), set(), set(), {}, [], lambda a, b: False, sorted, {"www.example.com": 1000})
+    m = P.misura_fonti({"phishing": {"f": {"example.com", "phish.example.net"}},
+                        "malware": {"g": {"example.com", "bad.example.net"}}}, ctx, conf)
+    check(m["f"]["falsi_positivi"] == 1 and m["g"]["falsi_positivi"] == 0,
+          "CrUX: segnale di popolarità applicato alla categoria sbagliata")
+    crux_cache = ROOT / "domains/cache/crux-top.txt"
+    if crux_cache.exists():
+        check("sites.google.com" not in set((ROOT / "dist/domains/block-phishing.txt").read_text().split()),
+              "block-phishing: sites.google.com (Google Sites delle scuole) bloccato")
+
     # strict sottoinsieme della lista completa (stessi host bloccati o meno), voci manuali sempre presenti
     for cat in soglie:
         full_plain = set((ROOT / f"dist/domains/block-{cat}.txt").read_text().split())

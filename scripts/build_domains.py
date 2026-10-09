@@ -25,6 +25,7 @@ import tomllib
 from datetime import date
 from pathlib import Path
 
+import asn
 import punteggio
 from build_ip import EMAIL_RE, RAW_BASE, ROOT, SOURCE_ID_RE, TICKET_RE, contains_pii, fail, fetch, valid_date, warn
 
@@ -459,6 +460,9 @@ def main() -> int:
     ctx = punteggio.Contesto(curated, platforms, protected, {
         cat: names for (kind, cat), (names, _) in collected.items() if kind == "allow" and not cfg["allow"][cat].get("protect")},
         own, covers, drop_covered)
+    ctx.popolari, status = punteggio.carica_popolari(
+        cfg, offline, not args.check, lambda u: asn.read_https(u, timeout=120, limit=60 * 1024 * 1024), asn.gunzip)
+    source_report.append(f"- popolarità CrUX: {status}")
     livelli = punteggio.applica(cfg, raw, {cat: collected[("block", cat)][0] for cat in cfg.get("block", {})},
                                 per_source, manual, ctx, normalize, scrivi=not args.check)
     errors += livelli.errori

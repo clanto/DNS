@@ -254,3 +254,12 @@ customer.io | 2026-10-09 | riscrive i link delle email transazionali: bloccarlo 
 urbanairship.com | 2026-10-09 | Airship: notifiche push di app (traccianti) | -
 footprintdns.com | 2026-10-09 | Microsoft: misura della rete di Microsoft 365 (traccianti) | -
 ip.sb | 2026-10-09 | controllo dell'IP pubblico, come ipify (traccianti) | -
+sites.google.com | 2026-10-10 | Google Sites: siti di scuole e aziende, il phishing sta nei percorsi e il DNS non li distingue (Phishing.Database) | -
+amazonlogistics.eu | 2026-10-10 | Amazon Logistics: consegne e portale corrieri (Phishing.Database) | -
+jp-bank.japanpost.jp | 2026-10-10 | banca ufficiale Japan Post (Validin) | -
+mpms.mufg.com | 2026-10-10 | servizio ufficiale MUFG (Phishing.Database) | -
+articulo.mercadolibre.com.mx | 2026-10-10 | pagine prodotto di MercadoLibre (Phishing.Database) | -
+mercadolibre.com.uy | 2026-10-10 | MercadoLibre Uruguay (Phishing.Database) | -
+online.fliphtml5.com | 2026-10-10 | FlipHTML5: pubblicazioni sfogliabili usate anche a scuola, il phishing sta nei percorsi (Phishing.Database) | -
+selfserve.decipherinc.com | 2026-10-10 | Forsta Decipher: piattaforma di sondaggi (Phishing.Database) | -
+ff.garena.com | 2026-10-10 | sito ufficiale del gioco Free Fire: va in block-gaming se serve, non è phishing (Phishing.Database) | -

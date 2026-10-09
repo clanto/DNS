@@ -7,6 +7,11 @@ Richiamato da scripts/build_domains.py (configurazione: [punteggio] in domains/d
    positivo noto (esclusioni di cura, piattaforme della sezione privata PSL, servizi protetti o allowlist
    coperti dalla voce, domini propri). Peso = peso_max × (1 − penalita_fp × quota), almeno peso_min.
    Tranco non è usato: la lista combina Cloudflare Radar (CC BY-NC 4.0), non utilizzabile da un'azienda.
+   Popolarità: Chrome UX Report (CrUX, Google, CC BY 4.0) dalla top list mensile di zakird/crux-top-lists.
+   Solo nelle categorie crux_categorie (phishing, redirect): una voce che copre un sito tra i più visitati
+   (rank ≤ crux_rank_misura) conta come falso positivo nella misura e, se il sito ha rank ≤ crux_rank_strict, resta
+   fuori dallo strict (la lista completa non cambia). Malware, pubblicità, spyware e policy no: lì un sito popolare è
+   spesso il bersaglio (pubblicità malevola, PUP, app spia molto diffuse).
 2. Persistenza: ora del primo avvistamento continuativo di ogni voce delle fonti esterne, in
    domains/cache/persistenza/<categoria>.txt (testo ordinato per ora, versionato con le cache).
 3. Punteggio 0-100 = 100 × (1 − Π(1 − peso fonte) × (1 − peso_persistenza × persistenza)), con
@@ -27,10 +32,13 @@ import perche
 from build_ip import ROOT, warn
 
 STATE_DIR = ROOT / "domains" / "cache" / "persistenza"
+CRUX_CACHE = ROOT / "domains" / "cache" / "crux-top.txt"  # host popolari per rank (Chrome UX Report, CC BY 4.0)
 ADGUARD_DIR = ROOT / "dist" / "adguard"
 PLAIN_DIR = ROOT / "dist" / "domains"
 DEFAULTS = {"penalita_fp": 100.0, "peso_max": 0.8, "peso_min": 0.1, "persistenza_ore": 24, "peso_persistenza": 0.5,
-            "max_calo_strict": 0.2, "min_voci_calo": 100, "bootstrap_commit": 30, "partizioni_indice": 256}
+            "max_calo_strict": 0.2, "min_voci_calo": 100, "bootstrap_commit": 30, "partizioni_indice": 256,
+            "crux_url": "", "crux_rank_misura": 1000, "crux_rank_strict": 10000, "crux_rank_cache": 100000,
+            "crux_categorie": ["phishing", "redirect"]}
 
 
 @dataclass
@@ -43,6 +51,7 @@ class Contesto:
     own: list[str]
     covers: Callable[[str, str], bool]
     drop_covered: Callable[[set[str]], list[str]]
+    popolari: dict[str, int] = field(default_factory=dict)  # host → rank CrUX (vuoto se non disponibile)
 
 
 @dataclass
@@ -109,6 +118,47 @@ def leggi_campi(path: Path, normalize: Callable[[str], str]) -> dict[str, tuple[
     return out
 
 
+def parse_crux(text: str, max_rank: int) -> dict[str, int]:
+    """CSV 'origin,rank' di CrUX → host con rank ≤ max_rank (rank = fascia: 1000, 5000, 10000...)."""
+    out: dict[str, int] = {}
+    for line in text.splitlines():
+        origin, _, rank = line.rpartition(",")
+        if not rank.isdigit() or int(rank) > max_rank:
+            continue
+        host = origin.split("://", 1)[-1].split("/", 1)[0].rsplit(":", 1)[0].lower().rstrip(".")
+        if host and "." in host:
+            out[host] = min(int(rank), out.get(host, int(rank)))
+    return out
+
+
+def carica_popolari(cfg: dict, offline: bool, persist: bool, fetch: Callable[[str], bytes],
+                    gunzip: Callable[[bytes], bytes]) -> tuple[dict[str, int], str]:
+    """Top list CrUX con cache in domains/cache/crux-top.txt ('host,rank') e guardrail di calo come le fonti."""
+    conf = {**DEFAULTS, **{k: v for k, v in cfg.get("punteggio", {}).items() if not isinstance(v, dict)}}
+    cached = parse_crux(CRUX_CACHE.read_text(encoding="utf-8"), 10**9) if CRUX_CACHE.exists() else {}
+    url = conf["crux_url"]
+    if offline or not url:
+        return cached, f"cache, {len(cached)} host"
+    try:
+        nuovi = parse_crux(gunzip(fetch(url)).decode("utf-8", "replace"), conf["crux_rank_cache"])
+        if not nuovi or (cached and len(nuovi) < len(cached) * 0.5):
+            raise ValueError(f"calo sospetto {len(cached)} → {len(nuovi)} host")
+    except Exception as exc:  # errore di rete/parsing: si ripiega sulla cache
+        warn(f"CrUX: {exc}; uso la cache ({len(cached)} host)")
+        return cached, f"cache ({exc}), {len(cached)} host"
+    if persist:
+        CRUX_CACHE.parent.mkdir(parents=True, exist_ok=True)
+        CRUX_CACHE.write_text(f"# Chrome UX Report top list (Google, CC BY 4.0) via {url}\n"
+                              + "".join(f"{h},{r}\n" for h, r in sorted(nuovi.items(), key=lambda x: (x[1], x[0]))),
+                              encoding="utf-8", newline="\n")
+    return nuovi, f"ok, {len(nuovi)} host"
+
+
+def popolari_fino(ctx: "Contesto", rank: int) -> set[str]:
+    """Host popolari con rank ≤ rank e i loro domini padre: una voce in questo insieme blocca un sito popolare."""
+    return padri({h for h, r in ctx.popolari.items() if r <= rank})
+
+
 def padri(nomi: set[str] | list[str]) -> set[str]:
     """Ogni nome e i suoi domini padre (almeno due etichette); per i pattern con '*' solo la parte fissa."""
     out: set[str] = set()
@@ -132,10 +182,13 @@ def misura_fonti(per_source: dict[str, dict[str, set[str]]], ctx: Contesto, conf
         "allowlist": padri(set().union(*ctx.allow_sets.values()) if ctx.allow_sets else set()),
         "proprio": padri(ctx.own),
     }
+    popolari = popolari_fino(ctx, conf["crux_rank_misura"])
     misure: dict[str, dict] = {}
     for cat, sources in per_source.items():
         for sid, names in sources.items():
             colpite = {k: names & v for k, v in segnali.items()}
+            # popolarità solo dove un sito molto visitato non è un bersaglio voluto (non pubblicità, spyware, policy)
+            colpite["popolare"] = names & popolari if cat in conf["crux_categorie"] else set()
             colpite["proprio"] |= {n for n in names if any(n.endswith(f".{o}") for o in ctx.own)}
             errate = set().union(*colpite.values())
             quota = len(errate) / len(names) if names else 0.0
@@ -287,6 +340,7 @@ def applica(cfg: dict, raw: dict[str, set[str]], final: dict[str, set[str]], per
     # Persistenza (solo categorie con livello strict), punteggio e strict
     primi: dict[str, dict[str, int]] = {}
     punteggi: dict[str, dict[str, int]] = {}
+    popolari_strict = popolari_fino(ctx, conf["crux_rank_strict"])
     date_manuali: dict[str, dict[str, tuple[str, str]]] = {}
     for cat in soglie:
         if cat not in blocks:
@@ -310,7 +364,9 @@ def applica(cfg: dict, raw: dict[str, set[str]], final: dict[str, set[str]], per
                 fonti_di.setdefault(n, []).append(peso)
         punteggi[cat] = {n: punteggio(fonti_di.get(n, []), ora - stato.get(n, ora), n in manual[cat], conf)
                          for n in final[cat]}
-        res.strict[cat] = {n for n, p in punteggi[cat].items() if p >= soglie[cat]}
+        res.strict[cat] = {n for n, p in punteggi[cat].items()
+                           if p >= soglie[cat] and (n in manual[cat] or cat not in conf["crux_categorie"]
+                                                    or n not in popolari_strict)}
 
     # Uscite strict, confronto con il build precedente
     precedenti, nuovi = {}, {}

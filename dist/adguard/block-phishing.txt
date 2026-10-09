@@ -120251,7 +120251,6 @@
 ||decide7dayretourn.com^
 ||go.decider.com^
 ||pll.decipad.com^
-||selfserve.decipherinc.com^
 ||decisionetch.com^
 ||decisionireland.com^
 ||deckegroup.com^
@@ -133168,7 +133167,6 @@
 ||flipcre.com^
 ||flipfield53.com^
 ||flipflopsandfros.com^
-||online.fliphtml5.com^
 ||djs.flipkart-offers.com^
 ||opdeals.flipkart-op-offers.com^
 ||flipknas.com^
@@ -135074,7 +135072,6 @@
 ||gardnertours.com^
 ||garedhsred.com^
 ||gareina.com^
-||ff.garena.com^
 ||ffshare.garena.com^
 ||garena-ff-memberrship.com^
 ||garena-ff-menbership.com^
@@ -140045,7 +140042,6 @@
 ||storage.cloud.google.com^
 ||79.docs.google.com^
 ||plus.google.com^
-||sites.google.com^
 ||google-baidu-soso-360-yahoo.com^
 ||accounts.google-connect.com^
 ||google-quality-departement.com^
@@ -164689,7 +164685,6 @@
 ||mudraorthotics.com^
 ||mueblesambaronline.com^
 ||mueblesholiday.com^
-||mpms.mufg.com^
 ||mufg-help.com^
 ||mufg-ne.com^
 ||mufg-net.com^
@@ -272271,7 +272266,6 @@
 ||alphafacts.eu^
 ||alumglass.eu^
 ||amaronilogistics.eu^
-||amazonlogistics.eu^
 ||amdevelopment.eu^
 ||ammbpemili.eu^
 ||ampleared.eu^
@@ -324483,7 +324477,6 @@
 ||2019.isumu.jp^
 ||core2020.itigo.jp^
 ||agent.jafnavi.jp^
-||jp-bank.japanpost.jp^
 ||rapid-saiki-6190.jellybean.jp^
 ||aeon.co.jpa7akccj.jp^
 ||aeon.co.jpoj3474eyop.jp^
@@ -346453,7 +346446,6 @@
 ||masterhouseinmobiliaria.com.mx^
 ||apisetutsa.mcdata.com.mx^
 ||mercadoferretero.com.mx^
-||articulo.mercadolibre.com.mx^
 ||coleccionables.mercadolibre.com.mx^
 ||listado.mercadolibre.com.mx^
 ||logintosnapchatusername.metalloy.com.mx^
@@ -437048,7 +437040,8 @@
 ||lanside.com.uy^
 ||marketze.com.uy^
 ||mega.com.uy^
-||mercadolibre.com.uy^
+||articulo.mercadolibre.com.uy^
+||listado.mercadolibre.com.uy^
 ||pertilco.com.uy^
 ||procom.com.uy^
 ||intranet.prolesa.com.uy^

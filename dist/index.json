@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/clanto/DNS",
   "licenza": "GPL-3.0",
-  "generato": "2026-10-09T21:42:06Z",
+  "generato": "2026-10-09T22:41:28Z",
   "attribuzioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/THIRD_PARTY.md",
   "registro_variazioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/CHANGELOG.md",
   "feed": [
@@ -18,7 +18,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt",
-      "voci": 34134,
+      "voci": 34121,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -91,7 +91,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v6.txt",
-      "voci": 3120,
+      "voci": 3126,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -165,7 +165,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v4.txt",
-      "voci": 42770,
+      "voci": 42756,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -254,7 +254,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v6.txt",
-      "voci": 3480,
+      "voci": 3485,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -409,7 +409,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt",
-      "voci": 5158,
+      "voci": 5144,
       "descrizione": "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)",
       "fonti": [
         {
@@ -434,7 +434,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v6.txt",
-      "voci": 2425,
+      "voci": 2431,
       "descrizione": "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)",
       "fonti": [
         {
@@ -509,7 +509,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v4.txt",
-      "voci": 463,
+      "voci": 464,
       "descrizione": "Server di comando e controllo di botnet e malware",
       "fonti": [
         {
@@ -699,7 +699,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v4.txt",
-      "voci": 78155,
+      "voci": 78388,
       "descrizione": "IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN",
       "fonti": [
         {
@@ -1082,7 +1082,7 @@
       "categoria": "pubblicita",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita.txt",
-      "voci": 64390,
+      "voci": 64398,
       "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre)",
       "fonti": [
         {
@@ -1109,7 +1109,7 @@
       "categoria": "pubblicita",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita.txt",
-      "voci": 64471,
+      "voci": 64479,
       "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre)",
       "fonti": [
         {
@@ -1859,7 +1859,7 @@
       "categoria": "malware",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware.txt",
-      "voci": 275521,
+      "voci": 275526,
       "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware)",
       "fonti": [
         {
@@ -1901,7 +1901,7 @@
       "categoria": "malware",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware.txt",
-      "voci": 276429,
+      "voci": 276434,
       "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware)",
       "fonti": [
         {
@@ -2031,7 +2031,7 @@
       "categoria": "phishing",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-phishing.txt",
-      "voci": 451184,
+      "voci": 451177,
       "descrizione": "Phishing attivo (Phishing.Database, Validin)",
       "fonti": [
         {
@@ -2053,7 +2053,7 @@
       "categoria": "phishing",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-phishing.txt",
-      "voci": 470321,
+      "voci": 470312,
       "descrizione": "Phishing attivo (Phishing.Database, Validin)",
       "fonti": [
         {
@@ -2077,7 +2077,7 @@
       "soglia": 86,
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-phishing-strict.txt",
-      "voci": 451184,
+      "voci": 451173,
       "fonti": [
         {
           "id": "phishing-database-active",
@@ -2101,7 +2101,7 @@
       "soglia": 86,
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-phishing-strict.txt",
-      "voci": 470321,
+      "voci": 470307,
       "fonti": [
         {
           "id": "phishing-database-active",
@@ -2540,7 +2540,7 @@
       "soglia": 86,
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-redirect-strict.txt",
-      "voci": 108676,
+      "voci": 108674,
       "fonti": [
         {
           "id": "blocklistproject-redirect",
@@ -2559,7 +2559,7 @@
       "soglia": 86,
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-redirect-strict.txt",
-      "voci": 108680,
+      "voci": 108678,
       "fonti": [
         {
           "id": "blocklistproject-redirect",

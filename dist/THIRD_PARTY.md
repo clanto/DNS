@@ -64,6 +64,7 @@
 | cdn-asn | esclusione di infrastrutture condivise dai feed | https://iptoasn.com/ (licenza PDDL) |
 | google | esclusione di infrastrutture condivise dai feed | https://www.gstatic.com/ipranges/goog.json |
 | Public Suffix List (sezione privata) | domini di piattaforme mai bloccati per intero nelle liste di sicurezza | https://publicsuffix.org/list/public_suffix_list.dat (MPL-2.0) |
+| Chrome UX Report (Google), top list | popolarità per la precisione delle fonti e il livello strict di phishing e redirect | https://raw.githubusercontent.com/zakird/crux-top-lists/main/data/global/current.csv.gz (CC BY 4.0, https://developer.chrome.com/docs/crux) |
 | iptoasn.com | reti per AS (esclusioni, feed social, controlli) | https://iptoasn.com/ (PDDL 1.0) |
 
 ## Liste upstream consigliate per AdGuard

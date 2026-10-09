@@ -442,6 +442,12 @@ max_calo_strict = 0.2   # una lista strict che perde più del 20% delle voci →
 min_voci_calo = 100     # sotto questo numero di voci il calo non viene controllato
 bootstrap_commit = 30   # senza stato di persistenza: versioni delle cache lette dalla storia del repository
 partizioni_indice = 256 # file dell'indice dist/perche/ (00.json … ff.json)
+# Popolarità: Chrome UX Report (Google, CC BY 4.0), top list mensile per fasce di rank (1000, 5000, 10000...)
+crux_url = "https://raw.githubusercontent.com/zakird/crux-top-lists/main/data/global/current.csv.gz"
+crux_categorie = ["phishing", "redirect"]  # malware, pubblicità, spyware e policy no: lì un sito popolare è spesso il bersaglio
+crux_rank_misura = 1000    # voce che copre un sito tra i primi 1.000 → falso positivo nella precisione della fonte
+crux_rank_strict = 10000   # voce che copre un sito tra i primi 10.000 → fuori dallo strict (la lista completa non cambia)
+crux_rank_cache = 100000   # host tenuti in domains/cache/crux-top.txt
 
 [punteggio.strict]      # categoria = soglia minima (0-100) per entrare in block-<cat>-strict.txt
 malware = 86

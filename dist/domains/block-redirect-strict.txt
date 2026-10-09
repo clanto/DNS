@@ -74545,7 +74545,6 @@ proxysite.cn
 proxysite.co.tv
 proxysite.co.uk
 proxysite.co.za
-proxysite.com
 proxysite.corbanproductions.net
 proxysite.eu
 proxysite.im
@@ -106647,7 +106646,6 @@ xn7.info
 xn8.info
 xnetwork123.co.cc
 xnxx-movies.net
-xnxx.com
 xo7.info
 xo8.info
 xoftspyse.biz
