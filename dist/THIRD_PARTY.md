@@ -17,18 +17,25 @@
 | dibdot-doh | lista domini `doh` | GPL-3.0 | https://github.com/dibdot/DoH-IP-blocklists |
 | dibdot-doh-v4 | feed IP `doh` | GPL-3.0 | https://github.com/dibdot/DoH-IP-blocklists |
 | dibdot-doh-v6 | feed IP `doh` | GPL-3.0 | https://github.com/dibdot/DoH-IP-blocklists |
+| easylist | lista domini `pubblicita` | GPL-3.0 o CC BY-SA 3.0 | https://easylist.to/ |
+| easyprivacy | lista domini `traccianti` | GPL-3.0 o CC BY-SA 3.0 | https://easylist.to/ |
 | hagezi-anti-piracy | lista domini `pirateria` | GPL-3.0 | https://github.com/hagezi/dns-blocklists |
 | hagezi-bypass | lista domini `vpn` | GPL-3.0 | https://github.com/hagezi/dns-blocklists |
 | hagezi-doh | lista domini `doh` | GPL-3.0 | https://github.com/hagezi/dns-blocklists |
+| hagezi-dyndns | lista domini `ddns` | GPL-3.0 | https://github.com/hagezi/dns-blocklists |
 | hagezi-nsfw | lista domini `porno` | GPL-3.0 | https://github.com/hagezi/dns-blocklists |
 | hagezi-tif-mini | lista domini `malware` | GPL-3.0 | https://github.com/hagezi/dns-blocklists |
 | ipsum-level3 | feed IP `threat` | Unlicense | https://github.com/stamparm/ipsum |
 | nocoin | lista domini `cryptojacking` | MIT | https://github.com/hoshsadiq/adblock-nocoin-list |
+| perflyst-smarttv | lista domini `traccianti` | MIT | https://github.com/Perflyst/PiHoleBlocklist |
 | phishing-database-active | lista domini `phishing` | MIT | https://github.com/Phishing-Database/Phishing.Database |
+| shadowwhisperer-ads | lista domini `pubblicita` | Unlicense | https://github.com/ShadowWhisperer/BlockLists |
 | shadowwhisperer-dns | feed IP `doh` | Unlicense | https://github.com/ShadowWhisperer/IPs |
 | shadowwhisperer-dns-domains | lista domini `doh` | Unlicense | https://github.com/ShadowWhisperer/BlockLists |
+| shadowwhisperer-dynamic | lista domini `ddns` | Unlicense | https://github.com/ShadowWhisperer/BlockLists |
 | shadowwhisperer-malware-domains | lista domini `malware` | Unlicense | https://github.com/ShadowWhisperer/BlockLists |
 | shadowwhisperer-threats | feed IP `threat` | Unlicense | https://github.com/ShadowWhisperer/IPs |
+| shadowwhisperer-tracking | lista domini `traccianti` | Unlicense | https://github.com/ShadowWhisperer/BlockLists |
 | shadowwhisperer-tunnels | feed IP `vpn` | Unlicense | https://github.com/ShadowWhisperer/IPs |
 | shadowwhisperer-tunnels-domains | lista domini `vpn` | Unlicense | https://github.com/ShadowWhisperer/BlockLists |
 | social-meta | feed IP `social` | PDDL 1.0 (iptoasn.com) | https://iptoasn.com/ |

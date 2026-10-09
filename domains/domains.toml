@@ -67,8 +67,8 @@ tld = true
 description = "Domini malevoli e truffe segnalati da noi"
 
 [block.pubblicita]
-description = "Pubblicità sfuggita alle liste upstream"
-important = true
+description = "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre)"
+outputs = ["adguard", "domains"]
 
 [block.accesso-remoto]
 description = "Strumenti di accesso remoto (abusati in truffe e ransomware): escludere il proprio RMM"
@@ -114,6 +114,13 @@ exclude_platforms = true
 description = "Phishing attivo (Phishing.Database, Validin)"
 outputs = ["adguard", "domains"]
 exclude_platforms = true
+
+[block.traccianti]
+description = "Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV)"
+outputs = ["adguard", "domains"]
+
+[block.ddns]
+description = "DNS dinamici (DuckDNS, No-IP, Dynu…): usati da malware e C2, non necessari in azienda e a scuola"
 
 [block.spyware]
 description = "Stalkerware e app spia"
@@ -329,3 +336,73 @@ homepage = "https://github.com/spmedia/Crypto-Scam-and-Crypto-Phishing-Threat-In
 license = "MIT"
 max_age_days = 30
 note = "Truffe e phishing di criptovalute (nonostante il nome del file, contiene solo domini)"
+
+[[sources]]
+id = "easylist"
+category = "pubblicita"
+url = "https://easylist.to/easylist/easylist.txt"
+format = "adblock"
+homepage = "https://easylist.to/"
+license = "GPL-3.0 o CC BY-SA 3.0"
+max_age_days = 30
+note = "Solo regole di dominio ||dominio^ senza modificatori; regole cosmetiche e con opzioni scartate"
+
+[[sources]]
+id = "shadowwhisperer-ads"
+category = "pubblicita"
+url = "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Wild_Ads"
+format = "domains"
+homepage = "https://github.com/ShadowWhisperer/BlockLists"
+license = "Unlicense"
+max_age_days = 60
+note = "Versione wildcard (Wild_Ads): il dominio copre i sottodomini; servizi legittimi esclusi in domains/escludi.txt"
+
+[[sources]]
+id = "easyprivacy"
+category = "traccianti"
+url = "https://easylist.to/easylist/easyprivacy.txt"
+format = "adblock"
+homepage = "https://easylist.to/"
+license = "GPL-3.0 o CC BY-SA 3.0"
+max_age_days = 30
+note = "Solo regole di dominio ||dominio^ senza modificatori"
+
+[[sources]]
+id = "shadowwhisperer-tracking"
+category = "traccianti"
+url = "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Wild_Tracking"
+format = "domains"
+homepage = "https://github.com/ShadowWhisperer/BlockLists"
+license = "Unlicense"
+max_age_days = 60
+note = "Versione wildcard (Wild_Tracking); servizi aziendali e strumenti per IT esclusi in domains/escludi.txt"
+
+[[sources]]
+id = "perflyst-smarttv"
+category = "traccianti"
+url = "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt"
+format = "domains"
+homepage = "https://github.com/Perflyst/PiHoleBlocklist"
+license = "MIT"
+max_age_days = 365
+note = "Telemetria delle smart TV; gli host indispensabili delle app Samsung TV sono in allow-smart-tv"
+
+[[sources]]
+id = "shadowwhisperer-dynamic"
+category = "ddns"
+url = "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dynamic"
+format = "domains"
+homepage = "https://github.com/ShadowWhisperer/BlockLists"
+license = "Unlicense"
+max_age_days = 60
+note = "Provider DDNS; siti di gestione e falsi positivi esclusi in domains/escludi.txt"
+
+[[sources]]
+id = "hagezi-dyndns"
+category = "ddns"
+url = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/dyndns-onlydomains.txt"
+format = "domains"
+homepage = "https://github.com/hagezi/dns-blocklists"
+license = "GPL-3.0"
+max_age_days = 90
+note = "Complemento per i DDNS dei produttori di router e NAS non coperti dalle fonti primarie"

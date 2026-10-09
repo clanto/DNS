@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/clanto/DNS",
   "licenza": "GPL-3.0",
-  "generato": "2026-10-09T13:31:51Z",
+  "generato": "2026-10-09T14:01:52Z",
   "attribuzioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/THIRD_PARTY.md",
   "registro_variazioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/CHANGELOG.md",
   "feed": [
@@ -18,7 +18,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt",
-      "voci": 34063,
+      "voci": 34062,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -155,7 +155,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v4.txt",
-      "voci": 42680,
+      "voci": 42679,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -389,7 +389,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt",
-      "voci": 5120,
+      "voci": 5119,
       "descrizione": "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)",
       "fonti": [
         {
@@ -1052,9 +1052,19 @@
       "categoria": "pubblicita",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita.txt",
-      "voci": 3,
-      "descrizione": "Pubblicità sfuggita alle liste upstream",
+      "voci": 64303,
+      "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre)",
       "fonti": [
+        {
+          "id": "easylist",
+          "licenza": "GPL-3.0 o CC BY-SA 3.0",
+          "homepage": "https://easylist.to/"
+        },
+        {
+          "id": "shadowwhisperer-ads",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
+        },
         {
           "id": "manuale",
           "licenza": "GPL-3.0 (Clanto)",
@@ -1069,26 +1079,19 @@
       "categoria": "pubblicita",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita.txt",
-      "voci": 3,
-      "descrizione": "Pubblicità sfuggita alle liste upstream",
+      "voci": 64384,
+      "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre)",
       "fonti": [
         {
-          "id": "manuale",
-          "licenza": "GPL-3.0 (Clanto)",
-          "homepage": "domains/blocklist/pubblicita.txt"
-        }
-      ]
-    },
-    {
-      "id": "unbound/block-pubblicita",
-      "tipo": "dominio",
-      "azione": "blocco",
-      "categoria": "pubblicita",
-      "formato": "local-zone Unbound",
-      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-pubblicita.conf",
-      "voci": 3,
-      "descrizione": "Pubblicità sfuggita alle liste upstream",
-      "fonti": [
+          "id": "easylist",
+          "licenza": "GPL-3.0 o CC BY-SA 3.0",
+          "homepage": "https://easylist.to/"
+        },
+        {
+          "id": "shadowwhisperer-ads",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
+        },
         {
           "id": "manuale",
           "licenza": "GPL-3.0 (Clanto)",
@@ -1768,7 +1771,7 @@
       "categoria": "malware",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware.txt",
-      "voci": 274841,
+      "voci": 274843,
       "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam)",
       "fonti": [
         {
@@ -1800,7 +1803,7 @@
       "categoria": "malware",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware.txt",
-      "voci": 275736,
+      "voci": 275738,
       "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam)",
       "fonti": [
         {
@@ -1866,6 +1869,126 @@
           "id": "validin-phish",
           "licenza": "MIT",
           "homepage": "https://github.com/MikhailKasimov/validin-phish-feed"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-traccianti",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "traccianti",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-traccianti.txt",
+      "voci": 58916,
+      "descrizione": "Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV)",
+      "fonti": [
+        {
+          "id": "easyprivacy",
+          "licenza": "GPL-3.0 o CC BY-SA 3.0",
+          "homepage": "https://easylist.to/"
+        },
+        {
+          "id": "shadowwhisperer-tracking",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
+        },
+        {
+          "id": "perflyst-smarttv",
+          "licenza": "MIT",
+          "homepage": "https://github.com/Perflyst/PiHoleBlocklist"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-traccianti",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "traccianti",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-traccianti.txt",
+      "voci": 59912,
+      "descrizione": "Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV)",
+      "fonti": [
+        {
+          "id": "easyprivacy",
+          "licenza": "GPL-3.0 o CC BY-SA 3.0",
+          "homepage": "https://easylist.to/"
+        },
+        {
+          "id": "shadowwhisperer-tracking",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
+        },
+        {
+          "id": "perflyst-smarttv",
+          "licenza": "MIT",
+          "homepage": "https://github.com/Perflyst/PiHoleBlocklist"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-ddns",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "ddns",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-ddns.txt",
+      "voci": 1588,
+      "descrizione": "DNS dinamici (DuckDNS, No-IP, Dynu…): usati da malware e C2, non necessari in azienda e a scuola",
+      "fonti": [
+        {
+          "id": "shadowwhisperer-dynamic",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
+        },
+        {
+          "id": "hagezi-dyndns",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-ddns",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "ddns",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-ddns.txt",
+      "voci": 1591,
+      "descrizione": "DNS dinamici (DuckDNS, No-IP, Dynu…): usati da malware e C2, non necessari in azienda e a scuola",
+      "fonti": [
+        {
+          "id": "shadowwhisperer-dynamic",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
+        },
+        {
+          "id": "hagezi-dyndns",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        }
+      ]
+    },
+    {
+      "id": "unbound/block-ddns",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "ddns",
+      "formato": "local-zone Unbound",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-ddns.conf",
+      "voci": 1588,
+      "descrizione": "DNS dinamici (DuckDNS, No-IP, Dynu…): usati da malware e C2, non necessari in azienda e a scuola",
+      "fonti": [
+        {
+          "id": "shadowwhisperer-dynamic",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
+        },
+        {
+          "id": "hagezi-dyndns",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
         }
       ]
     },

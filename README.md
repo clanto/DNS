@@ -73,7 +73,9 @@ Solo host indispensabili, mai domini interi. Nessuna voce può contraddire le no
 |---|---|---|---|
 | [block-malevoli.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malevoli.txt) | Truffe e domini malevoli segnalati da noi | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-malevoli.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malevoli.txt) |
 | [block-tld.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-tld.txt) | TLD interi (.xxx, .porn, .adult, .sex, .desi, .world) | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-tld.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-tld.txt) |
-| [block-pubblicita.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita.txt) | Pubblicità sfuggita alle liste upstream | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-pubblicita.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita.txt) |
+| [block-pubblicita.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita.txt) | Pubblicità: EasyList e ShadowWhisperer Ads + voci nostre, ~64.000 | — | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita.txt) |
+| [block-traccianti.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-traccianti.txt) | Telemetria e tracciamento: EasyPrivacy, ShadowWhisperer Tracking, smart TV, ~59.000 | — | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-traccianti.txt) |
+| [block-ddns.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-ddns.txt) | DNS dinamici (DuckDNS, No-IP, Dynu…), usati da malware e C2: vedi [eccezioni](#dns-dinamici-block-ddns) | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-ddns.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-ddns.txt) |
 | [block-accesso-remoto.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-accesso-remoto.txt) | AnyDesk, TeamViewer, ScreenConnect… (escludere il proprio RMM) | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-accesso-remoto.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-accesso-remoto.txt) |
 | [block-ai-generativa.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-ai-generativa.txt) | Chatbot AI (prevenzione fuga dati) | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-ai-generativa.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-ai-generativa.txt) |
 | [block-file-sharing.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-file-sharing.txt) | WeTransfer, Mega, Gofile… (prevenzione fuga dati) | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-file-sharing.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-file-sharing.txt) |
@@ -92,6 +94,12 @@ Solo host indispensabili, mai domini interi. Nessuna voce può contraddire le no
 | [block-cryptojacking.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-cryptojacking.txt) | Mining di criptovalute nel browser (NoCoin) | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-cryptojacking.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-cryptojacking.txt) |
 
 Nelle liste di sicurezza (malware, phishing, spyware, cryptojacking, redirect) il dominio di una **piattaforma** su cui chiunque crea siti (github.io, pages.dev, amplifyapp.com…, sezione privata della [Public Suffix List](https://publicsuffix.org/)) non viene mai bloccato per intero: restano bloccati solo i singoli sottodomini malevoli.
+
+#### DNS dinamici (`block-ddns`)
+
+Blocca i **domini dei provider DDNS** come suffissi: AdGuard blocca anche tutti i sottodomini, quindi `qualcosa.duckdns.org` non si risolve. Restano raggiungibili, per nome esatto, i siti di gestione dei provider che i firewall usano per aggiornare il proprio nome (No-IP, DynDNS, Dynu, easyDNS, ChangeIP, FreeDNS, DNSExit, ZoneEdit…): l'elenco è in `domains/escludi.txt`.
+
+Chi usa un DDNS per i **propri apparati** (VPN, telecamere, NAS, firewall) deve fare un'**eccezione locale** nelle regole personalizzate dell'istanza AdGuard, limitata all'host necessario, per esempio `@@||nome-apparato.duckdns.org^$important`. Per i DDNS dei produttori (FRITZ!Box, Synology, ASUS, FortiGate…) l'eccezione va sul loro dominio. Le eccezioni per cliente vanno nell'istanza, mai nel repository.
 
 Le liste di policy (accesso remoto, AI, file sharing, social, gaming, streaming) in AdGuard Home valgono per **tutti** i client: vanno applicate solo sulle istanze dei clienti che le richiedono.
 
@@ -112,7 +120,7 @@ Alias di tipo **URL Table (IPs)**. Il firewall deve risolvere i nomi con un DNS 
 
 ## Liste upstream consigliate per AdGuard
 
-Liste esterne da abbonare direttamente su AdGuard, insieme alle nostre liste di `dist/adguard/`. Le fonti che ripubblichiamo (DoH, VPN, redirect, spyware, cryptojacking, porno, pirateria, social) si prendono dalle nostre, che aggiungono voci curate, servizi protetti e controllo dei conflitti con le allowlist. Licenze verificate per l'uso commerciale; note per ogni lista in [dist/adguard/README.md](dist/adguard/README.md#liste-upstream-consigliate-abbonamento-diretto-su-adguard).
+Liste esterne da abbonare direttamente su AdGuard, insieme alle nostre liste di `dist/adguard/`. Le fonti che ripubblichiamo (DoH, VPN, redirect, spyware, cryptojacking, porno, pirateria, social, pubblicità, traccianti, DDNS) si prendono dalle nostre, che aggiungono voci curate, servizi protetti e controllo dei conflitti con le allowlist. Licenze verificate per l'uso commerciale; note per ogni lista in [dist/adguard/README.md](dist/adguard/README.md#liste-upstream-consigliate-abbonamento-diretto-su-adguard).
 
 | Lista | Categoria | Ambito | Licenza |
 |---|---|---|---|
@@ -127,13 +135,11 @@ Liste esterne da abbonare direttamente su AdGuard, insieme alle nostre liste di 
 | [BlocklistProject Scam](https://blocklistproject.github.io/Lists/adguard/scam-ags.txt) | truffe | tutti | Unlicense |
 | [BlocklistProject Ransomware](https://blocklistproject.github.io/Lists/adguard/ransomware-ags.txt) | ransomware | tutti | Unlicense |
 | [URLhaus (malware-filter)](https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt) | malware | tutti | Termini abuse.ch |
-| [HaGeZi DynDNS](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt) | DNS dinamici | tutti | GPL-3.0 |
 | [HaGeZi Spam TLDs](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt) | TLD abusati | tutti | GPL-3.0 |
 | [HaGeZi Fake](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt) | truffe | tutti | GPL-3.0 |
 | [HaGeZi DGA 7 giorni](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/dga7.txt) | malware (domini generati) | tutti | GPL-3.0 |
 | [HaGeZi NRD 7 giorni](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd7.txt) | domini registrati da poco | tutti | GPL-3.0 |
 | [Frogeye first-party trackers](https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt) | tracker CNAME cloaking | tutti | MIT |
-| [Perflyst Smart TV (AdGuard)](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt) | telemetria smart TV | tutti | MIT |
 | [WindowsSpyBlocker spy](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt) | telemetria Windows | aziende | MIT |
 | [HaGeZi Gambling](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt) | scommesse | scuole | GPL-3.0 |
 | [UT1 Université Toulouse Capitole](https://dsi.ut-capitole.fr/blacklists/index_en.php) | categorie per scuole | scuole | CC BY-SA 4.0 |

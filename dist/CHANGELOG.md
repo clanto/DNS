@@ -3,6 +3,52 @@
 > Generato da `scripts/changelog.py` a ogni build: aggiunte e rimozioni rispetto alla versione precedente.
 > Ultime voci in alto. Per gli IP è indicata la fonte (`ip/cache/`) o `manuale`.
 
+## 2026-10-09 13:58 UTC
+
+- `dist/ip/all-scuole-v4.txt`: +0 / -1 (totale 42679)
+  - rimosse: `185.212.226.76`
+- `dist/ip/all-v4.txt`: +0 / -1 (totale 34062)
+  - rimosse: `185.212.226.76`
+- `dist/ip/tor-v4.txt`: +0 / -1 (totale 5119)
+  - rimosse: `185.212.226.76`
+- `dist/adguard/block-ddns.txt`: nuova lista, 1588 voci
+- `dist/adguard/block-malware.txt`: +2 / -0 (totale 274843)
+  - aggiunte: `||httprat.xyz^`, `||lake-90.com^`
+- `dist/adguard/block-pubblicita.txt`: +64303 / -3 (totale 64303)
+  - aggiunte: `||000491b06a.com^`, `||0017c6c37c.com^`, `||0019x.com^`, `||00427011ae.com^`, `||00609c257b.com^`, `||0063450bb8e5e3brave-friend.com^`, `||009f45b51c.com^`, `||00a39e6dfd.com^` e altre 64295
+  - rimosse: `||adv.everyeye.it^$important`, `||api.everyeye.it^$important`, `||widgetbay.3labs.it^$important`
+- `dist/adguard/block-traccianti.txt`: nuova lista, 58916 voci
+
+## 2026-10-09 13:54 UTC
+
+- `dist/adguard/block-ddns.txt`: nuova lista, 1588 voci
+- `dist/adguard/block-malware.txt`: +2 / -0 (totale 274843)
+  - aggiunte: `||httprat.xyz^`, `||lake-90.com^`
+- `dist/adguard/block-pubblicita.txt`: +64302 / -3 (totale 64302)
+  - aggiunte: `||000491b06a.com^`, `||0017c6c37c.com^`, `||0019x.com^`, `||00427011ae.com^`, `||00609c257b.com^`, `||0063450bb8e5e3brave-friend.com^`, `||009f45b51c.com^`, `||00a39e6dfd.com^` e altre 64294
+  - rimosse: `||adv.everyeye.it^$important`, `||api.everyeye.it^$important`, `||widgetbay.3labs.it^$important`
+- `dist/adguard/block-traccianti.txt`: nuova lista, 58921 voci
+
+## 2026-10-09 13:52 UTC
+
+- `dist/adguard/block-ddns.txt`: nuova lista, 40001 voci
+- `dist/adguard/block-malware.txt`: +2 / -0 (totale 274843)
+  - aggiunte: `||httprat.xyz^`, `||lake-90.com^`
+- `dist/adguard/block-pubblicita.txt`: +64302 / -3 (totale 64302)
+  - aggiunte: `||000491b06a.com^`, `||0017c6c37c.com^`, `||0019x.com^`, `||00427011ae.com^`, `||00609c257b.com^`, `||0063450bb8e5e3brave-friend.com^`, `||009f45b51c.com^`, `||00a39e6dfd.com^` e altre 64294
+  - rimosse: `||adv.everyeye.it^$important`, `||api.everyeye.it^$important`, `||widgetbay.3labs.it^$important`
+- `dist/adguard/block-traccianti.txt`: nuova lista, 58921 voci
+
+## 2026-10-09 13:44 UTC
+
+- `dist/adguard/block-ddns.txt`: nuova lista, 40001 voci
+- `dist/adguard/block-malware.txt`: +1 / -0 (totale 274842)
+  - aggiunte: `||lake-90.com^`
+- `dist/adguard/block-pubblicita.txt`: +64302 / -3 (totale 64302)
+  - aggiunte: `||000491b06a.com^`, `||0017c6c37c.com^`, `||0019x.com^`, `||00427011ae.com^`, `||00609c257b.com^`, `||0063450bb8e5e3brave-friend.com^`, `||009f45b51c.com^`, `||00a39e6dfd.com^` e altre 64294
+  - rimosse: `||adv.everyeye.it^$important`, `||api.everyeye.it^$important`, `||widgetbay.3labs.it^$important`
+- `dist/adguard/block-traccianti.txt`: nuova lista, 58921 voci
+
 ## 2026-10-09 13:28 UTC
 
 - `dist/ip/all-scuole-v4.txt`: +4001 / -3962 (totale 42680)

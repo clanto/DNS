@@ -242,10 +242,11 @@ def section_domains():
             blocked |= {line[2:].split("^")[0] for line in lines}
     minimi = {"block-doh.txt": 1000, "block-vpn.txt": 1000, "block-malware.txt": 50000, "block-phishing.txt": 50000,
               "block-redirect.txt": 20000, "block-pirateria.txt": 10000, "block-spyware.txt": 300,
-              "block-cryptojacking.txt": 100, "block-porno.txt": 20000, "block-social.txt": 100}
+              "block-cryptojacking.txt": 100, "block-porno.txt": 20000, "block-social.txt": 100,
+              "block-pubblicita.txt": 30000, "block-traccianti.txt": 30000, "block-ddns.txt": 1000}
     for name, minimo in minimi.items():
         check(len((ROOT / "dist/adguard" / name).read_text().splitlines()) > minimo, f"{name}: troppo poche voci")
-    for cat in ("malware", "phishing", "redirect", "pirateria", "porno", "social"):
+    for cat in ("malware", "phishing", "redirect", "pirateria", "porno", "social", "pubblicita", "traccianti"):
         check(not (ROOT / f"dist/unbound/block-{cat}.conf").exists(), f"block-{cat}: Unbound non previsto per liste grandi")
     for legacy in ("appspia", "criptojacking", "malware", "pishing", "redirect", "warez", "lista_streaming_illegale",
                    "pornoextra", "roblox", "test"):
@@ -258,6 +259,16 @@ def section_domains():
     doh = set((ROOT / "dist/domains/block-doh.txt").read_text().split())
     for excluded in ("fortinet.com", "checkpoint.com", "wellpoint.com", "opendns.com", "adguard.io"):
         check(excluded not in vpn and excluded not in doh, f"esclusione di cura non applicata: {excluded}")
+    ddns = set((ROOT / "dist/domains/block-ddns.txt").read_text().split())
+    trk = set((ROOT / "dist/domains/block-traccianti.txt").read_text().split())
+    ads = set((ROOT / "dist/domains/block-pubblicita.txt").read_text().split())
+    check({"duckdns.org", "ddns.net", "hopto.org"} <= ddns, "block-ddns senza i provider DDNS principali")
+    for gestione in ("noip.com", "dyn.com", "dyndns.com", "dynu.com", "afraid.org"):
+        check(gestione not in ddns, f"block-ddns: sito di gestione da escludere: {gestione}")
+    for critico in ("data.microsoft.com", "geotrust.com", "urldefense.com", "safebrowsing.apple"):
+        check(critico not in trk and critico not in ads, f"traccianti/pubblicita: servizio critico bloccato: {critico}")
+    for protetto in ("push.apple.com", "wns.windows.com", "www.google.com", "teams.microsoft.com"):
+        check(protetto not in trk | ads | ddns, f"servizio protetto in blocklist: {protetto}")
     check("doh.opendns.com" in doh, "le esclusioni non devono toccare i sottodomini (doh.opendns.com)")
     gaming = (ROOT / "dist/domains/block-gaming.txt").read_text().split()
     check("roblox.com" in gaming, "roblox.com non in block-gaming")

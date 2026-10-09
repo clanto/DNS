@@ -1,6 +1,6 @@
 # Liste upstream consigliate per AdGuard, da abbonare direttamente (non ripubblicate da noi).
 # Si usano insieme alle nostre liste di dist/adguard/, senza doppioni: le fonti che ripubblichiamo
-# (DoH, VPN, redirect, spyware, cryptojacking, porno, pirateria, social) si prendono dalle nostre.
+# (DoH, VPN, redirect, spyware, cryptojacking, porno, pirateria, social, pubblicità, traccianti, DDNS) si prendono dalle nostre.
 # ambito: tutti | aziende | scuole. Licenze verificate per uso commerciale.
 
 # --- Pubblicità e tracking ---
@@ -10,6 +10,7 @@ url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt"
 category = "pubblicità, tracking"
 license = "GPL-3.0"
 ambito = "tutti"
+note = "Più ampia di block-pubblicita e block-traccianti (include anche malware e domini di disturbo): usare insieme, senza doppioni"
 
 [[lists]]
 name = "HaGeZi Pop-Up Ads"
@@ -85,13 +86,6 @@ ambito = "tutti"
 note = "Per l'uso commerciale i termini abuse.ch possono richiedere un abbonamento"
 
 [[lists]]
-name = "HaGeZi DynDNS"
-url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt"
-category = "DNS dinamici"
-license = "GPL-3.0"
-ambito = "tutti"
-
-[[lists]]
 name = "HaGeZi Spam TLDs"
 url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt"
 category = "TLD abusati"
@@ -125,13 +119,6 @@ note = "Circa 3,6 milioni di voci: verificare la RAM di AdGuard"
 name = "Frogeye first-party trackers"
 url = "https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt"
 category = "tracker CNAME cloaking"
-license = "MIT"
-ambito = "tutti"
-
-[[lists]]
-name = "Perflyst Smart TV (AdGuard)"
-url = "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt"
-category = "telemetria smart TV"
 license = "MIT"
 ambito = "tutti"
 
