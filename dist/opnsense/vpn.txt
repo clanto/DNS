@@ -957,7 +957,6 @@ bebra.sh
 bebravpn-app.cyou
 bebravpn-app.space
 bebravpn-ru.com
-bebravpn.app
 bebravpn.blog
 bebravpn.lol
 bebravpn.mom
@@ -993,6 +992,7 @@ besplatnyvpn.ru
 best-dock.surge.sh
 best-proxy.com
 bestdaygame.com
+bestproxy.xyz
 bestssh.net
 bestvpn.help
 bestvpnonline.online
@@ -1013,6 +1013,7 @@ bhpuvkri.com
 bhuibv.ipv64.net
 bhuosr.ipv64.net
 bhupygnj.com
+bichvpn.ru
 bienna.ru
 big.tent.cloud-ip.cc
 bigbang.pics
@@ -1251,7 +1252,6 @@ cheapv2.net
 check.peer2profit.site
 check.ragpets.com
 cheddar-chute.com
-chicken.nuggets.are.good.privateimport.jp
 chickenalert.camdvr.org
 chik-chirikvpn.com
 chinacitybit.click
@@ -1476,6 +1476,7 @@ diufks10.easterndns.com
 diuwdkjf.cc
 divalane.com
 dizgrakh.mamadali.co.uk
+djc5yls6yrtdmo69.online
 dk414pzm.com
 dms.dms.dms.tcloud.my
 dnnenaqk.com
@@ -4673,6 +4674,7 @@ uwqjkirj.com
 uytjhuyghbjkuiyhbjku.fghvhbvghjgj.bonded-game.com
 uzrzhcyx.com
 v-2ray.com
+v.cheerfun.dev
 v.theartieschaffer.com
 v0jlq071shapnlnhj0p9.online
 v22013121930515853.yourvserver.net
@@ -5472,6 +5474,7 @@ zgvpn.net
 zgvpn.org
 zgvvpn.site
 zhkflohs.com
+zhknia0azrek.online
 zhvpn.com
 ziboard.pro
 zigzag.complex.abrdns.com

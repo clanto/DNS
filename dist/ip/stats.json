@@ -1,16 +1,16 @@
 {
   "feed": {
-    "doh-v4.txt": 1326,
+    "doh-v4.txt": 1329,
     "doh-v6.txt": 687,
-    "tor-v4.txt": 5121,
-    "tor-v6.txt": 2405,
-    "threat-v4.txt": 27265,
+    "tor-v4.txt": 5128,
+    "tor-v6.txt": 2433,
+    "threat-v4.txt": 27322,
     "threat-v6.txt": 0,
     "c2-v4.txt": 5,
     "c2-v6.txt": 0,
     "vpn-v4.txt": 11617,
     "vpn-v6.txt": 414,
-    "inbound-v4.txt": 79318,
+    "inbound-v4.txt": 78851,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
@@ -18,10 +18,10 @@
     "hacking-v6.txt": 0,
     "warez-v4.txt": 22,
     "warez-v6.txt": 0,
-    "all-v4.txt": 33563,
-    "all-v6.txt": 3092,
-    "all-scuole-v4.txt": 44728,
-    "all-scuole-v6.txt": 3451
+    "all-v4.txt": 33611,
+    "all-v6.txt": 3120,
+    "all-scuole-v4.txt": 44758,
+    "all-scuole-v6.txt": 3479
   },
   "fonti": [
     {
@@ -31,7 +31,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1965,
+      "entries": 1966,
       "detail": "scartate 1 non instradabile"
     },
     {
@@ -61,7 +61,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "ok",
-      "entries": 9517,
+      "entries": 9605,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -71,7 +71,7 @@
       "homepage": "https://github.com/stamparm/ipsum",
       "enabled": true,
       "status": "ok",
-      "entries": 17372,
+      "entries": 18262,
       "detail": "IP presenti in almeno 3 blacklist pubbliche"
     },
     {
@@ -81,7 +81,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 16954,
+      "entries": 16787,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -111,7 +111,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 89161,
+      "entries": 88817,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
