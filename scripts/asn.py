@@ -9,6 +9,7 @@ from __future__ import annotations
 import gzip
 import io
 import ipaddress
+import socket
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -58,6 +59,12 @@ def download_raw() -> bytes:
     return read_https(IPTOASN_URL, timeout=120, limit=MAX_BYTES)
 
 
+def _ip_int(text: str) -> tuple[int, int]:
+    """(versione, intero) di un indirizzo IP: inet_pton è molto più veloce di ipaddress su ~10^6 righe."""
+    family, version = (socket.AF_INET6, 6) if ":" in text else (socket.AF_INET, 4)
+    return version, int.from_bytes(socket.inet_pton(family, text), "big")
+
+
 def rows() -> list[tuple[int, int, int, int, str]]:
     global _rows
     if _rows is None:
@@ -66,8 +73,11 @@ def rows() -> list[tuple[int, int, int, int, str]]:
             parts = line.split("\t")
             if len(parts) < 5 or parts[2] == "0":
                 continue
-            start, end = ipaddress.ip_address(parts[0]), ipaddress.ip_address(parts[1])
-            parsed.append((start.version, int(start), int(end), int(parts[2]), parts[4]))
+            try:
+                (version, start), (_, end) = _ip_int(parts[0]), _ip_int(parts[1])
+            except OSError:  # indirizzo malformato
+                continue
+            parsed.append((version, start, end, int(parts[2]), parts[4]))
         if not parsed:
             raise ValueError("database iptoasn vuoto")
         _rows = parsed

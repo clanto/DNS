@@ -391,6 +391,9 @@ def section_security():
         FAILS.append("normalize: 'faß.de' convertito con IDNA 2003 in fass.de")
     except UnicodeError:
         check(True, "")
+    check(BD.normalize("Sub.Example.COM") == "sub.example.com", "normalize ASCII")
+    check(BD.drop_covered({"a.b.c", "b.c", "x.y"}) == ["b.c", "x.y"], "drop_covered")
+    check(BD.covered_by("a.b.c", {"c"}) and not BD.covered_by("b.c", {"b.c"}), "covered_by")
 
 
 def section_catalog():
