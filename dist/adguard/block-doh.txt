@@ -717,7 +717,6 @@
 ||adh.olesgroup.com^
 ||andybunn.onthewifi.com^
 ||hknat.ooguy.com^
-||hk2.ooroot.com^
 ||jp2.ooroot.com^
 ||kr1.ooroot.com^
 ||kr2.ooroot.com^
@@ -1392,7 +1391,6 @@
 ||dns-sgx1.itsec.my.id^
 ||dns.lista.my.id^
 ||dns.mikrotikrumahan.my.id^
-||c1.msocportal.my.id^
 ||math.netlab.my.id^
 ||doh.oco-lae.my.id^
 ||dns.pnh.my.id^
@@ -1973,7 +1971,6 @@
 ||zrh1-ns01.monzoon.net^
 ||dns.moondip.net^
 ||dns.moonwx.net^
-||dns.moraru.net^
 ||dns.mullvad.net^
 ||doh.mullvad.net^
 ||echoe1yidzu4ioo5.myfritz.net^
@@ -2786,7 +2783,6 @@
 ||bobr.netphoenix.ru^
 ||rockstars.netphoenix.ru^
 ||dns.omee4.ru^
-||adguard.oms-ctr.ru^
 ||dns.pastorov.ru^
 ||wg.pastorov.ru^
 ||dns.petqa.ru^
@@ -2919,7 +2915,6 @@
 ||host8.248.cloudhost.in.th^
 ||doh.us.moe.tips^
 ||duyyen.tk^
-||adguard.neelyha.tk^
 ||dns.readlook.tk^
 ||ag.teqilla.tk^
 ||dns.koala.us.to^
@@ -2979,7 +2974,6 @@
 ||dns.thiz.top^
 ||kr.tomgirl.top^
 ||us44nas.top^
-||dns.wahr.top^
 ||bwh.why4free.top^
 ||wiqi.top^
 ||xholgm.top^
@@ -3065,7 +3059,6 @@
 ||dns.marcbond.uk^
 ||dns.millernetwork.uk^
 ||dns.aa.net.uk^
-||teslacoils.org.uk^
 ||doh.plaawan.uk^
 ||zetland.rm-ni.uk^
 ||shanghainese.uk^

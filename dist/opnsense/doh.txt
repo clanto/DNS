@@ -463,7 +463,6 @@ child-noads.joindns4.eu
 child.joindns4.eu
 chlaebi.synology.me
 chromium.dns.nextdns.io
-chronicle14.tplinkdns.com
 chungocoai.name.vn
 chynik.duckdns.org
 circumitor.de
@@ -1269,7 +1268,6 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
-dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -1761,7 +1759,6 @@ guard.miracloud.fr
 guard.pp.ua
 guard.telesterion.de
 guidetoworld.link
-gustamadh.dynv6.net
 gva01.dnscry.pt
 gw1.dns.haynetwork.id
 h.gjrick.tw
@@ -2038,9 +2035,6 @@ maincloud.ir
 malanser.ru
 man01.dnscry.pt
 maqgie.xyz
-mask-canary.icloud.com
-mask-h2.icloud.com
-mask.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2567,6 +2561,7 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
+tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
