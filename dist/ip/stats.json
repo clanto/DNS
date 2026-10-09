@@ -1,9 +1,9 @@
 {
   "feed": {
-    "doh-v4.txt": 1323,
-    "doh-v6.txt": 694,
-    "tor-v4.txt": 5146,
-    "tor-v6.txt": 2424,
+    "doh-v4.txt": 1327,
+    "doh-v6.txt": 695,
+    "tor-v4.txt": 5158,
+    "tor-v6.txt": 2425,
     "threat-v4.txt": 27359,
     "threat-v6.txt": 0,
     "c2-v4.txt": 463,
@@ -16,10 +16,10 @@
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "all-v4.txt": 34118,
-    "all-v6.txt": 3118,
-    "all-scuole-v4.txt": 42752,
-    "all-scuole-v6.txt": 3478
+    "all-v4.txt": 34134,
+    "all-v6.txt": 3120,
+    "all-scuole-v4.txt": 42770,
+    "all-scuole-v6.txt": 3480
   },
   "fonti": [
     {
@@ -29,7 +29,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "cache",
-      "entries": 1963,
+      "entries": 1967,
       "detail": ""
     },
     {
@@ -39,7 +39,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "cache",
-      "entries": 1383,
+      "entries": 1386,
       "detail": ""
     },
     {
@@ -59,7 +59,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "cache",
-      "entries": 9593,
+      "entries": 9596,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -238,15 +238,15 @@
     }
   },
   "allowlist": {
-    "voci": 118,
+    "voci": 128,
     "reti_modificate": 0
   },
   "condivisi": {
-    "intervalli": 11284,
-    "voci_escluse": 4388
+    "intervalli": 11291,
+    "voci_escluse": 4391
   },
   "protetti": {
-    "ip_risolti": 115,
+    "ip_risolti": 125,
     "voci_escluse": []
   }
 }
