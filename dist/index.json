@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/clanto/DNS",
   "licenza": "GPL-3.0",
-  "generato": "2026-10-09T15:01:57Z",
+  "generato": "2026-10-09T20:47:29Z",
   "attribuzioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/THIRD_PARTY.md",
   "registro_variazioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/CHANGELOG.md",
   "feed": [
@@ -18,7 +18,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt",
-      "voci": 34061,
+      "voci": 34118,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -70,6 +70,11 @@
           "id": "manuale",
           "licenza": "GPL-3.0 (Clanto)",
           "homepage": "ip/custom/doh.txt"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "ip/custom/c2.txt"
         }
       ]
     },
@@ -86,7 +91,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v6.txt",
-      "voci": 3116,
+      "voci": 3118,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -138,6 +143,11 @@
           "id": "manuale",
           "licenza": "GPL-3.0 (Clanto)",
           "homepage": "ip/custom/doh.txt"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "ip/custom/c2.txt"
         }
       ]
     },
@@ -155,7 +165,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v4.txt",
-      "voci": 42678,
+      "voci": 42752,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -222,6 +232,11 @@
           "id": "manuale",
           "licenza": "GPL-3.0 (Clanto)",
           "homepage": "ip/custom/doh.txt"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "ip/custom/c2.txt"
         }
       ]
     },
@@ -239,7 +254,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v6.txt",
-      "voci": 3475,
+      "voci": 3478,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -306,6 +321,11 @@
           "id": "manuale",
           "licenza": "GPL-3.0 (Clanto)",
           "homepage": "ip/custom/doh.txt"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "ip/custom/c2.txt"
         }
       ]
     },
@@ -319,7 +339,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v4.txt",
-      "voci": 1312,
+      "voci": 1323,
       "descrizione": "Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -354,7 +374,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v6.txt",
-      "voci": 692,
+      "voci": 694,
       "descrizione": "Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -389,7 +409,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt",
-      "voci": 5118,
+      "voci": 5146,
       "descrizione": "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)",
       "fonti": [
         {
@@ -439,7 +459,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v4.txt",
-      "voci": 27342,
+      "voci": 27359,
       "descrizione": "IP malevoli attivi (scanner, brute force, attacchi) segnalati da più blacklist",
       "fonti": [
         {
@@ -489,7 +509,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v4.txt",
-      "voci": 462,
+      "voci": 463,
       "descrizione": "Server di comando e controllo di botnet e malware",
       "fonti": [
         {
@@ -501,6 +521,11 @@
           "id": "abusech-feodo",
           "licenza": "CC0",
           "homepage": "https://feodotracker.abuse.ch/blocklist/"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "ip/custom/c2.txt"
         }
       ]
     },
@@ -526,6 +551,11 @@
           "id": "abusech-feodo",
           "licenza": "CC0",
           "homepage": "https://feodotracker.abuse.ch/blocklist/"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "ip/custom/c2.txt"
         }
       ]
     },
@@ -539,7 +569,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v4.txt",
-      "voci": 9090,
+      "voci": 9107,
       "descrizione": "VPN commerciali e proxy anonimizzanti",
       "fonti": [
         {
@@ -669,7 +699,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v4.txt",
-      "voci": 77622,
+      "voci": 78155,
       "descrizione": "IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN",
       "fonti": [
         {
@@ -1052,7 +1082,7 @@
       "categoria": "pubblicita",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita.txt",
-      "voci": 64319,
+      "voci": 64375,
       "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre)",
       "fonti": [
         {
@@ -1079,7 +1109,7 @@
       "categoria": "pubblicita",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita.txt",
-      "voci": 64400,
+      "voci": 64456,
       "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre)",
       "fonti": [
         {
@@ -1098,6 +1128,64 @@
           "homepage": "domains/blocklist/pubblicita.txt"
         }
       ]
+    },
+    {
+      "id": "adguard/block-pubblicita-strict",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "pubblicita",
+      "livello": "strict",
+      "soglia": 86,
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita-strict.txt",
+      "voci": 1829,
+      "fonti": [
+        {
+          "id": "easylist",
+          "licenza": "GPL-3.0 o CC BY-SA 3.0",
+          "homepage": "https://easylist.to/"
+        },
+        {
+          "id": "shadowwhisperer-ads",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/pubblicita.txt"
+        }
+      ],
+      "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre) — livello strict (punteggio ≥ 86)"
+    },
+    {
+      "id": "domini/block-pubblicita-strict",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "pubblicita",
+      "livello": "strict",
+      "soglia": 86,
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita-strict.txt",
+      "voci": 1829,
+      "fonti": [
+        {
+          "id": "easylist",
+          "licenza": "GPL-3.0 o CC BY-SA 3.0",
+          "homepage": "https://easylist.to/"
+        },
+        {
+          "id": "shadowwhisperer-ads",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/pubblicita.txt"
+        }
+      ],
+      "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre) — livello strict (punteggio ≥ 86)"
     },
     {
       "id": "adguard/block-accesso-remoto",
@@ -1771,7 +1859,7 @@
       "categoria": "malware",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware.txt",
-      "voci": 275509,
+      "voci": 275515,
       "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware)",
       "fonti": [
         {
@@ -1798,6 +1886,11 @@
           "id": "ublock-badware",
           "licenza": "GPL-3.0",
           "homepage": "https://github.com/uBlockOrigin/uAssets"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/malware.txt"
         }
       ]
     },
@@ -1808,7 +1901,7 @@
       "categoria": "malware",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware.txt",
-      "voci": 276417,
+      "voci": 276423,
       "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware)",
       "fonti": [
         {
@@ -1835,8 +1928,101 @@
           "id": "ublock-badware",
           "licenza": "GPL-3.0",
           "homepage": "https://github.com/uBlockOrigin/uAssets"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/malware.txt"
         }
       ]
+    },
+    {
+      "id": "adguard/block-malware-strict",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "malware",
+      "livello": "strict",
+      "soglia": 86,
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware-strict.txt",
+      "voci": 225621,
+      "fonti": [
+        {
+          "id": "hagezi-tif-mini",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "tweetfeed-domains",
+          "licenza": "CC0-1.0",
+          "homepage": "https://github.com/0xDanielLopez/TweetFeed"
+        },
+        {
+          "id": "shadowwhisperer-malware-domains",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
+        },
+        {
+          "id": "spmedia-crypto-scam",
+          "licenza": "MIT",
+          "homepage": "https://github.com/spmedia/Crypto-Scam-and-Crypto-Phishing-Threat-Intel-Feed"
+        },
+        {
+          "id": "ublock-badware",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/uBlockOrigin/uAssets"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/malware.txt"
+        }
+      ],
+      "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware) — livello strict (punteggio ≥ 86)"
+    },
+    {
+      "id": "domini/block-malware-strict",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "malware",
+      "livello": "strict",
+      "soglia": 86,
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware-strict.txt",
+      "voci": 225652,
+      "fonti": [
+        {
+          "id": "hagezi-tif-mini",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "tweetfeed-domains",
+          "licenza": "CC0-1.0",
+          "homepage": "https://github.com/0xDanielLopez/TweetFeed"
+        },
+        {
+          "id": "shadowwhisperer-malware-domains",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
+        },
+        {
+          "id": "spmedia-crypto-scam",
+          "licenza": "MIT",
+          "homepage": "https://github.com/spmedia/Crypto-Scam-and-Crypto-Phishing-Threat-Intel-Feed"
+        },
+        {
+          "id": "ublock-badware",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/uBlockOrigin/uAssets"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/malware.txt"
+        }
+      ],
+      "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware) — livello strict (punteggio ≥ 86)"
     },
     {
       "id": "adguard/block-phishing",
@@ -1883,13 +2069,61 @@
       ]
     },
     {
+      "id": "adguard/block-phishing-strict",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "phishing",
+      "livello": "strict",
+      "soglia": 86,
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-phishing-strict.txt",
+      "voci": 451184,
+      "fonti": [
+        {
+          "id": "phishing-database-active",
+          "licenza": "MIT",
+          "homepage": "https://github.com/Phishing-Database/Phishing.Database"
+        },
+        {
+          "id": "validin-phish",
+          "licenza": "MIT",
+          "homepage": "https://github.com/MikhailKasimov/validin-phish-feed"
+        }
+      ],
+      "descrizione": "Phishing attivo (Phishing.Database, Validin) — livello strict (punteggio ≥ 86)"
+    },
+    {
+      "id": "domini/block-phishing-strict",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "phishing",
+      "livello": "strict",
+      "soglia": 86,
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-phishing-strict.txt",
+      "voci": 470321,
+      "fonti": [
+        {
+          "id": "phishing-database-active",
+          "licenza": "MIT",
+          "homepage": "https://github.com/Phishing-Database/Phishing.Database"
+        },
+        {
+          "id": "validin-phish",
+          "licenza": "MIT",
+          "homepage": "https://github.com/MikhailKasimov/validin-phish-feed"
+        }
+      ],
+      "descrizione": "Phishing attivo (Phishing.Database, Validin) — livello strict (punteggio ≥ 86)"
+    },
+    {
       "id": "adguard/block-traccianti",
       "tipo": "dominio",
       "azione": "blocco",
       "categoria": "traccianti",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-traccianti.txt",
-      "voci": 58918,
+      "voci": 58919,
       "descrizione": "Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV)",
       "fonti": [
         {
@@ -1916,7 +2150,7 @@
       "categoria": "traccianti",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-traccianti.txt",
-      "voci": 59914,
+      "voci": 59915,
       "descrizione": "Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV)",
       "fonti": [
         {
@@ -1935,6 +2169,64 @@
           "homepage": "https://github.com/Perflyst/PiHoleBlocklist"
         }
       ]
+    },
+    {
+      "id": "adguard/block-traccianti-strict",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "traccianti",
+      "livello": "strict",
+      "soglia": 86,
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-traccianti-strict.txt",
+      "voci": 1254,
+      "fonti": [
+        {
+          "id": "easyprivacy",
+          "licenza": "GPL-3.0 o CC BY-SA 3.0",
+          "homepage": "https://easylist.to/"
+        },
+        {
+          "id": "shadowwhisperer-tracking",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
+        },
+        {
+          "id": "perflyst-smarttv",
+          "licenza": "MIT",
+          "homepage": "https://github.com/Perflyst/PiHoleBlocklist"
+        }
+      ],
+      "descrizione": "Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV) — livello strict (punteggio ≥ 86)"
+    },
+    {
+      "id": "domini/block-traccianti-strict",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "traccianti",
+      "livello": "strict",
+      "soglia": 86,
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-traccianti-strict.txt",
+      "voci": 1254,
+      "fonti": [
+        {
+          "id": "easyprivacy",
+          "licenza": "GPL-3.0 o CC BY-SA 3.0",
+          "homepage": "https://easylist.to/"
+        },
+        {
+          "id": "shadowwhisperer-tracking",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/ShadowWhisperer/BlockLists"
+        },
+        {
+          "id": "perflyst-smarttv",
+          "licenza": "MIT",
+          "homepage": "https://github.com/Perflyst/PiHoleBlocklist"
+        }
+      ],
+      "descrizione": "Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV) — livello strict (punteggio ≥ 86)"
     },
     {
       "id": "adguard/block-ddns",
@@ -2069,6 +2361,54 @@
       ]
     },
     {
+      "id": "adguard/block-spyware-strict",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "spyware",
+      "livello": "strict",
+      "soglia": 86,
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-spyware-strict.txt",
+      "voci": 528,
+      "fonti": [
+        {
+          "id": "stalkerware-indicators",
+          "licenza": "CC BY 4.0 (Echap)",
+          "homepage": "https://github.com/AssoEchap/stalkerware-indicators"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/spyware.txt"
+        }
+      ],
+      "descrizione": "Stalkerware e app spia — livello strict (punteggio ≥ 86)"
+    },
+    {
+      "id": "domini/block-spyware-strict",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "spyware",
+      "livello": "strict",
+      "soglia": 86,
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-spyware-strict.txt",
+      "voci": 935,
+      "fonti": [
+        {
+          "id": "stalkerware-indicators",
+          "licenza": "CC BY 4.0 (Echap)",
+          "homepage": "https://github.com/AssoEchap/stalkerware-indicators"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/spyware.txt"
+        }
+      ],
+      "descrizione": "Stalkerware e app spia — livello strict (punteggio ≥ 86)"
+    },
+    {
       "id": "adguard/block-cryptojacking",
       "tipo": "dominio",
       "azione": "blocco",
@@ -2120,6 +2460,44 @@
       ]
     },
     {
+      "id": "adguard/block-cryptojacking-strict",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "cryptojacking",
+      "livello": "strict",
+      "soglia": 86,
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-cryptojacking-strict.txt",
+      "voci": 296,
+      "fonti": [
+        {
+          "id": "nocoin",
+          "licenza": "MIT",
+          "homepage": "https://github.com/hoshsadiq/adblock-nocoin-list"
+        }
+      ],
+      "descrizione": "Mining di criptovalute nel browser — livello strict (punteggio ≥ 86)"
+    },
+    {
+      "id": "domini/block-cryptojacking-strict",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "cryptojacking",
+      "livello": "strict",
+      "soglia": 86,
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-cryptojacking-strict.txt",
+      "voci": 312,
+      "fonti": [
+        {
+          "id": "nocoin",
+          "licenza": "MIT",
+          "homepage": "https://github.com/hoshsadiq/adblock-nocoin-list"
+        }
+      ],
+      "descrizione": "Mining di criptovalute nel browser — livello strict (punteggio ≥ 86)"
+    },
+    {
       "id": "adguard/block-redirect",
       "tipo": "dominio",
       "azione": "blocco",
@@ -2152,6 +2530,44 @@
           "homepage": "https://github.com/blocklistproject/Lists"
         }
       ]
+    },
+    {
+      "id": "adguard/block-redirect-strict",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "redirect",
+      "livello": "strict",
+      "soglia": 86,
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-redirect-strict.txt",
+      "voci": 108676,
+      "fonti": [
+        {
+          "id": "blocklistproject-redirect",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/blocklistproject/Lists"
+        }
+      ],
+      "descrizione": "Redirect e URL shortener (BlocklistProject) — livello strict (punteggio ≥ 86)"
+    },
+    {
+      "id": "domini/block-redirect-strict",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "redirect",
+      "livello": "strict",
+      "soglia": 86,
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-redirect-strict.txt",
+      "voci": 108680,
+      "fonti": [
+        {
+          "id": "blocklistproject-redirect",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/blocklistproject/Lists"
+        }
+      ],
+      "descrizione": "Redirect e URL shortener (BlocklistProject) — livello strict (punteggio ≥ 86)"
     },
     {
       "id": "adguard/block-pirateria",

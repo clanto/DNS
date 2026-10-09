@@ -485,6 +485,7 @@ forwardingsupport.com
 fqelt.cn
 framework-jsoncdn.beer
 frameworkjsbns.beer
+ftp.fundacionpiaz.org
 ftworthmedicalclinic.info
 fullpowerproperties.uk
 funnyserve-jp.com
@@ -523,6 +524,7 @@ gonfuirkgroao.life
 goodnfortunes.com
 goodsecomfinder.com
 google-havan.com
+google-play-store.duckdns.org
 googleplay.tail017acc.ts.net
 gpcom1.screenconnect.com
 gppcdnns.beer
@@ -1293,6 +1295,7 @@ thiswoodeno.com
 thoibaodailoan.com
 ticimax.report
 tiliackox.net
+times.eastus.cloudapp.azure.com
 timesyns.eastus.cloudapp.azure.com
 timetaptalk.info
 tjbiaoben.com
