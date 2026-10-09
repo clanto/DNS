@@ -205,6 +205,10 @@ def section_fonte():
 
     certs, errori = CT.interroga_crtsh(["a"], {"url": CFG["fonte"]["url"], "tentativi": 2}, giu, lambda s: None)
     check(not certs and len(errori) == 1, "errore definitivo non segnalato")
+    tutti = [f"p{i}" for i in range(10)]
+    giri = [set(CT.prefissi_del_giro(tutti, 4, date(2026, 10, g))) for g in (1, 2, 3)]
+    check(all(len(g) == 4 for g in giri) and set().union(*giri) == set(tutti), f"rotazione dei prefissi {giri}")
+    check(CT.prefissi_del_giro(tutti, 50, OGGI) == tutti, "con per_giro >= totale vanno interrogati tutti")
     vivi = CT.verifica_vita(["a.example", "b.example"], lambda n: n.startswith("a"))
     check(vivi == {"a.example": True, "b.example": False}, f"verifica di vita {vivi}")
 

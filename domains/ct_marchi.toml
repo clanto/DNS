@@ -8,7 +8,8 @@
 osservazione = true
 
 soglia = 60            # punteggio minimo per essere candidato
-finestra_giorni = 3    # certificati con not_before negli ultimi N giorni (il workflow è giornaliero)
+finestra_giorni = 7    # certificati con not_before negli ultimi N giorni: crt.sh indicizza con 2-4 giorni di
+                       # ritardo e ogni prefisso è interrogato ogni 3 giorni (prefissi_per_giro)
 scadenza_giorni = 7    # un candidato che non risolve più da N giorni esce (il phishing vive poco)
 
 # Parole esca nel nome (login, verifica, rimborso...): aumentano il punteggio
@@ -19,6 +20,13 @@ esca = ["accedi", "accesso", "login", "logon", "signin", "verifica", "verify", "
         "tracking", "giacenza", "notifica", "avviso", "scadenza", "documenti", "identita", "bonus",
         "premio", "rimborsoweb", "online", "web", "app", "servizi", "conto", "carta", "bank", "banca",
         "pec", "recupero", "attiva", "attivazione", "abilita", "abilitazione", "autenticazione", "otp"]
+
+# Richiami all'Italia nel nome (unicredit-it.app, intesa-italy.com)
+italia = ["it", "ita", "italia", "italy", "italiane", "italiano"]
+
+# Contesto non da phishing: spam di casinò, recensioni, strumenti (penalità contesto_legittimo)
+contesto_legittimo = ["casino", "casinos", "slot", "slots", "bet", "betting", "calculator", "calcolatore",
+                      "tracker", "reviews", "recensioni", "padel", "academy", "staging", "dev", "test"]
 
 # Segnali di contesto italiano, richiesti per i marchi globali (richiede_segnale_it = true)
 segnali_it = ["it", "ita", "italia", "italy", "italiane", "accedi", "accesso", "verifica", "rimborso",
@@ -59,7 +67,9 @@ url = "https://crt.sh/?identity={q}&match=LIKE&output=json&exclude=expired"
 pausa_secondi = 15
 timeout_secondi = 120
 tentativi = 4          # backoff 30 s, 60 s, 120 s
-budget_minuti = 45     # oltre, le ricerche restanti si saltano (riprendono il giorno dopo)
+budget_minuti = 45     # oltre, le ricerche restanti si saltano
+prefissi_per_giro = 30 # rotazione giornaliera: con ~80 prefissi ognuno è interrogato ogni 3 giorni
+                       # (in prova ogni ricerca ha richiesto in media 70 s tra attesa, risposta e retry)
 
 # Prefissi generici di esca: utili solo se il nome contiene anche un marchio (rimborso-inps.com)
 prefissi_esca = ["rimborso", "sblocco", "areaclienti", "verifica"]
@@ -67,14 +77,16 @@ prefissi_esca = ["rimborso", "sblocco", "areaclienti", "verifica"]
 [punteggio]
 marchio_dominio = 45      # marchio nel dominio registrabile (o nel sottodominio di una piattaforma PSL)
 marchio_sottodominio = 20 # marchio solo in un sottodominio di un dominio qualsiasi: spesso legittimo
-variante = 50             # typo o omoglifo del marchio (cifre, Unicode, rn→m) al posto del nome esatto
+variante = 55             # typo o omoglifo del marchio (cifre, Unicode, rn→m) al posto del nome esatto
 esca = 15                 # per ogni parola esca, al massimo esca_max
 esca_max = 2
 tld_rischio = 15
+italia = 10               # it, italia, italy... come parola del nome, fuori dal TLD .it
 cert_recente = 5          # certificato emesso da al massimo 2 giorni
 wildcard = 5
 dv_gratuito = 5           # Let's Encrypt, ZeroSSL, Google Trust Services, cPanel
 organizzazione = -40      # certificato OV/EV (organizzazione verificata): quasi sempre il titolare vero
+contesto_legittimo = -20  # parole di contesto non da phishing (casino, recensioni, calcolatori...)
 
 # ---------------------------------------------------------------------------
 # Marchi. Campi:
@@ -130,6 +142,7 @@ ufficiali = ["bper.it", "bpergroup.com"]
 nome = "Banco BPM / Webank"
 cerca = ["bancobpm", "bpm-", "webank"]
 parole = ["bancobpm", "bpm", "webank"]
+token = ["webank"]  # webanking, webankieta
 ufficiali = ["bancobpm.it", "webank.it", "gruppo.bancobpm.it"]
 
 [[marchi]]
@@ -197,6 +210,7 @@ ufficiali = ["spid.gov.it", "agid.gov.it", "infocert.it", "namirial.it", "sielte
 nome = "CIE - Carta d'identità elettronica"
 cerca = ["cie-", "cartaidentita", "cartadidentita", "cieid"]
 parole = ["cie", "cartaidentita", "cartadidentita", "cieid"]
+token = ["cartaidentita", "cartadidentita"]
 ufficiali = ["interno.gov.it", "ipzs.it", "cartaidentita.interno.gov.it"]
 
 [[marchi]]
@@ -209,6 +223,7 @@ ufficiali = ["inps.it", "inps.gov.it"]
 nome = "INAIL"
 cerca = ["inail"]
 parole = ["inail"]
+token = ["inail"]  # inails, inailsalon: saloni di unghie
 ufficiali = ["inail.it", "inail.gov.it"]
 
 [[marchi]]

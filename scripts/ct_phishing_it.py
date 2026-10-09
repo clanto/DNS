@@ -36,7 +36,7 @@ from pathlib import Path
 
 import asn
 from build_domains import DOMAIN_RE
-from build_ip import ROOT, md_cell
+from build_ip import ROOT, md_cell, warn
 
 CONFIG_PATH = ROOT / "domains" / "ct_marchi.toml"
 OUT_DIR = ROOT / "dist" / "osservazione"
@@ -56,10 +56,6 @@ OMOGLIFI = str.maketrans({
 CIFRE_I = str.maketrans({"0": "o", "1": "i", "3": "e", "4": "a", "5": "s", "7": "t", "8": "b", "9": "g"})
 CIFRE_L = str.maketrans({"0": "o", "1": "l", "3": "e", "4": "a", "5": "s", "7": "t", "8": "b", "9": "g"})
 DV_GRATUITI = ("let's encrypt", "zerossl", "google trust services", "cpanel", "buypass", "ssl.com rsa ssl subca")
-
-
-def warn(msg: str) -> None:
-    print(f"ATTENZIONE: {msg}", file=sys.stderr)
 
 
 # ---------------------------------------------------------------------------
@@ -184,14 +180,12 @@ def entro_uno(a: str, b: str) -> bool:
     return a[i:] == b[i + 1:]
 
 
-def typo_in(testo: str, parola: str) -> bool:
+def typo_in(token: str, parola: str) -> bool:
+    """Typo del marchio all'inizio del token (unicredltt-login, finecobahk): le finestre in mezzo a parole
+    lunghe producono solo coincidenze (axisbank ~ isybank)."""
     n = len(parola)
-    for lung in (n - 1, n, n + 1):
-        for i in range(len(testo) - lung + 1):
-            finestra = testo[i:i + lung]
-            if finestra != parola and entro_uno(finestra, parola):
-                return True
-    return False
+    return any(token[:lung] != parola and len(token) >= lung and entro_uno(token[:lung], parola)
+               for lung in (n - 1, n, n + 1))
 
 
 def unito_a_esca(parola: str, compatto: str, esca: set[str], segnali: set[str]) -> bool:
@@ -233,7 +227,7 @@ def corrispondenza(etichetta: str, marchio: dict, esca: set[str], segnali: set[s
         return "variante"
     if any(v in compatto for v in marchio.get("varianti", []) if len(v) > lungo):
         return "variante"
-    if compatto.isascii() and any(typo_in(compatto, p) for p in lunghe if len(p) >= 6):
+    if compatto.isascii() and any(typo_in(t, p) for t in token for p in lunghe if len(p) >= 7):
         return "variante"
     return "marchio" if esatte else None
 
@@ -321,6 +315,10 @@ def valuta(nome: str, cert: dict, cfg: dict, ctx: Contesto, oggi: date) -> tuple
         n = min(len(esche), w.get("esca_max", 2))
         punti += n * w.get("esca", 15)
         motivi.append("esca: " + ", ".join(esche[:4]))
+    italia = sorted(i for i in cfg.get("italia", []) if i in token or (len(i) >= 6 and i in compatto))
+    if italia and tld != "it":
+        punti += w.get("italia", 10)
+        motivi.append("richiamo all'Italia: " + ", ".join(italia[:2]))
     if tld in set(cfg.get("tld_rischio", [])):
         punti += w.get("tld_rischio", 15)
         motivi.append(f"TLD .{tld}")
@@ -334,6 +332,10 @@ def valuta(nome: str, cert: dict, cfg: dict, ctx: Contesto, oggi: date) -> tuple
     if wildcard:
         punti += w.get("wildcard", 5)
         motivi.append("wildcard")
+    legittimo = sorted(c for c in cfg.get("contesto_legittimo", []) if c in token or (len(c) >= 5 and c in compatto))
+    if legittimo:
+        punti += w.get("contesto_legittimo", -20)
+        motivi.append("contesto non da phishing: " + ", ".join(legittimo[:3]))
     emittente = cert.get("issuer_name", "").lower()
     righe = [r.strip() for r in cert.get("name_value", "").split("\n") if r.strip()]
     if any("." not in r or " " in r for r in righe):
@@ -352,6 +354,15 @@ def valuta(nome: str, cert: dict, cfg: dict, ctx: Contesto, oggi: date) -> tuple
 def scarica(url: str, timeout: int) -> bytes:
     """Solo HTTPS (anche nei redirect), con limite di dimensione."""
     return asn.read_https(url, timeout=timeout, limit=MAX_RISPOSTA)
+
+
+def prefissi_del_giro(tutti: list[str], per_giro: int, oggi: date) -> list[str]:
+    """Rotazione giornaliera: per_giro prefissi a partire da un indice che avanza ogni giorno, così tutti
+    vengono interrogati ogni len(tutti)/per_giro giorni restando nel limite di frequenza di crt.sh."""
+    if per_giro >= len(tutti):
+        return list(tutti)
+    inizio = (oggi.toordinal() * per_giro) % len(tutti)
+    return [tutti[(inizio + i) % len(tutti)] for i in range(per_giro)]
 
 
 def interroga_crtsh(prefissi: list[str], fonte: dict, scarica_fn=scarica, attendi=time.sleep) -> tuple[list[dict], list[str]]:
@@ -508,7 +519,7 @@ def promuovi(cfg: dict) -> None:
 
 
 def esegui(cfg: dict, ctx: Contesto, certificati: list[dict], stato: dict, oggi: date, vivi_fn,
-           errori: list[str], prefissi: int) -> tuple[dict, list[str], list[str], dict]:
+           errori: list[str], prefissi: int | str) -> tuple[dict, list[str], list[str], dict]:
     """Analizza i certificati e aggiorna lo stato. vivi_fn None = senza verifica di vita."""
     finestra = oggi - timedelta(days=cfg.get("finestra_giorni", 3))
     soglia = cfg.get("soglia", 60)
@@ -570,8 +581,9 @@ def main() -> int:
     ctx = carica_contesto()
     if not ctx.piattaforme:
         warn("cache PSL privata assente: le piattaforme non vengono riconosciute (eseguire build_domains.py)")
-    prefissi = list(dict.fromkeys([p for m in cfg["marchi"] for p in m.get("cerca", m["parole"])]
-                                  + cfg.get("fonte", {}).get("prefissi_esca", [])))
+    tutti = list(dict.fromkeys([p for m in cfg["marchi"] for p in m.get("cerca", m["parole"])]
+                               + cfg.get("fonte", {}).get("prefissi_esca", [])))
+    prefissi = prefissi_del_giro(tutti, cfg.get("fonte", {}).get("prefissi_per_giro", len(tutti)), args.oggi)
     inizio = time.monotonic()
     if args.dati:
         certificati, errori = json.loads(args.dati.read_text(encoding="utf-8")), []
@@ -582,7 +594,7 @@ def main() -> int:
     stato_path = args.uscita / STATO_PATH.name
     stato = json.loads(stato_path.read_text(encoding="utf-8")) if stato_path.exists() else {}
     stato, lista, usciti, stat = esegui(cfg, ctx, certificati, stato, args.oggi,
-                                        None if args.senza_dns else verifica_vita, errori, len(prefissi))
+                                        None if args.senza_dns else verifica_vita, errori, f"{len(prefissi)} di {len(tutti)}")
     stat["durata (secondi)"] = round(time.monotonic() - inizio)
     args.uscita.mkdir(parents=True, exist_ok=True)
     intest = ("# Candidati phishing-it da Certificate Transparency: IN OSSERVAZIONE, non è una blocklist pubblicata\n"
