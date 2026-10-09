@@ -416,3 +416,37 @@ homepage = "https://github.com/uBlockOrigin/uAssets"
 license = "GPL-3.0"
 max_age_days = 30
 note = "uBlock Origin Badware risks: falsi siti di download, truffe e supporto tecnico fasullo (solo regole su siti interi)"
+
+# ---------------------------------------------------------------------------
+# Punteggio per voce e livello strict (scripts/punteggio.py)
+# Le liste complete (block-<cat>.txt) restano l'unione di tutte le fonti: il livello strict è un file in più,
+# block-<cat>-strict.txt in dist/adguard/ e dist/domains/, con le sole voci a punteggio alto.
+#   peso fonte = peso_max × (1 − penalita_fp × quota di falsi positivi), arrotondato a 0,05, almeno peso_min.
+#     Falsi positivi misurati a ogni build: esclusioni di cura (escludi.txt), piattaforme PSL, servizi protetti
+#     e allowlist coperti dalla voce, domini propri. Tranco non è usato: include Cloudflare Radar (CC BY-NC 4.0).
+#   punteggio = 100 × (1 − Π(1 − peso fonte) × (1 − peso_persistenza × persistenza))
+#     persistenza = ore di presenza continuativa / persistenza_ore (massimo 1): conta come una prova in più.
+#     Voci manuali sempre 100.
+#   Con i valori sotto e soglia 86: due fonti con peso ≥ 0,65 → strict subito; una sola fonte con peso 0,8 →
+#   strict dopo circa 15 ore (3 build); una sola fonte con peso ≤ 0,7 → mai strict da sola (massimo 85).
+# ---------------------------------------------------------------------------
+
+[punteggio]
+penalita_fp = 100       # quota di falsi positivi dello 0,1% → peso ridotto del 10%; dell'1% o più → peso_min
+peso_max = 0.8          # una sola fonte, anche senza falsi positivi, non vale quanto una voce manuale
+peso_min = 0.1
+persistenza_ore = 24    # 4 build: dopo un giorno di presenza continuativa la voce ha persistenza piena
+peso_persistenza = 0.5  # peso della persistenza piena, come se fosse una fonte in più
+max_calo_strict = 0.2   # una lista strict che perde più del 20% delle voci → variazione anomala (PR invece del push)
+min_voci_calo = 100     # sotto questo numero di voci il calo non viene controllato
+bootstrap_commit = 30   # senza stato di persistenza: versioni delle cache lette dalla storia del repository
+partizioni_indice = 256 # file dell'indice dist/perche/ (00.json … ff.json)
+
+[punteggio.strict]      # categoria = soglia minima (0-100) per entrare in block-<cat>-strict.txt
+malware = 86
+phishing = 86
+spyware = 86
+cryptojacking = 86
+redirect = 86
+pubblicita = 86
+traccianti = 86

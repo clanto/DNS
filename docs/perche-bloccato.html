@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'self' https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'">
+<title>Perché è bloccato?</title>
+<style>
+  :root {
+    --bg: #f7f7f5; --fg: #1d1f21; --muted: #5c6166; --card: #ffffff; --line: #d9dcdf;
+    --block: #b42318; --block-bg: #fdecea; --ok: #1e7b34; --ok-bg: #e8f5ec; --warn: #8a5a00; --warn-bg: #fff4dc;
+    --accent: #1f5fae;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #16181b; --fg: #e6e8ea; --muted: #a2a8ae; --card: #1f2226; --line: #33373c;
+      --block: #ff8a80; --block-bg: #3a1d1b; --ok: #7ad69a; --ok-bg: #16301f; --warn: #f5c56b; --warn-bg: #3a2f14;
+      --accent: #7fb0f0;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #16181b; --fg: #e6e8ea; --muted: #a2a8ae; --card: #1f2226; --line: #33373c;
+    --block: #ff8a80; --block-bg: #3a1d1b; --ok: #7ad69a; --ok-bg: #16301f; --warn: #f5c56b; --warn-bg: #3a2f14;
+    --accent: #7fb0f0;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  p.sub { color: var(--muted); margin: 0 0 20px; }
+  form { display: flex; gap: 8px; flex-wrap: wrap; }
+  input[type=text] { flex: 1 1 260px; min-width: 0; padding: 10px 12px; font: inherit; border: 1px solid var(--line);
+    border-radius: 6px; background: var(--card); color: var(--fg); }
+  button { padding: 10px 18px; font: inherit; border: 0; border-radius: 6px; background: var(--accent); color: #fff; cursor: pointer; }
+  button:disabled { opacity: .6; cursor: progress; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 16px; margin-top: 16px; overflow-wrap: anywhere; }
+  .esito { font-weight: 600; font-size: 1.1rem; padding: 10px 12px; border-radius: 6px; }
+  .esito.block { color: var(--block); background: var(--block-bg); }
+  .esito.ok { color: var(--ok); background: var(--ok-bg); }
+  .esito.warn { color: var(--warn); background: var(--warn-bg); }
+  h2 { font-size: 1.05rem; margin: 18px 0 8px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin: 6px 0; }
+  code { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; font-size: .92em; background: var(--bg);
+    border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; }
+  .tag { display: inline-block; font-size: .8rem; border-radius: 999px; padding: 0 8px; border: 1px solid var(--line); color: var(--muted); }
+  .tag.si { color: var(--ok); border-color: var(--ok); }
+  .meta, footer { color: var(--muted); font-size: .88rem; }
+  footer { margin-top: 28px; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Perché è bloccato?</h1>
+  <p class="sub">Incolla un dominio, un URL o una regola AdGuard: la pagina mostra quale lista lo blocca, per quale regola,
+    da quale fonte e cosa fare. Nessun dato viene inviato a terzi: la pagina scarica solo l'indice pubblico del repository.</p>
+  <form id="f" autocomplete="off">
+    <input type="text" id="q" placeholder="es. https://app.esempio.it/login" aria-label="Dominio o URL" spellcheck="false">
+    <button id="go" type="submit">Cerca</button>
+  </form>
+  <div id="out" aria-live="polite"></div>
+  <footer>
+    Indice generato a ogni build da <code>scripts/build_domains.py</code> (dist/perche/). Da terminale:
+    <code>python scripts/perche.py dominio</code>.
+    Repository: <a href="https://github.com/clanto/DNS" rel="noopener noreferrer">clanto/DNS</a> (GPL-3.0).
+    Le eccezioni per singolo cliente vanno nelle regole personalizzate dell'istanza AdGuard, mai nel repository.
+  </footer>
+</main>
+<script>
+"use strict";
+(function () {
+  var DEFAULT_BASE = "https://raw.githubusercontent.com/clanto/DNS/main/dist/perche/";
+  var REPO = "https://github.com/clanto/DNS/";
+
+  // Base dell'indice: predefinita, oppure ?base= solo verso il repository (altro ramo) o la copia locale
+  function base() {
+    var b = new URLSearchParams(location.search).get("base");
+    if (b && (b.indexOf("https://raw.githubusercontent.com/clanto/DNS/") === 0 || b === "../dist/perche/")) {
+      return b.charAt(b.length - 1) === "/" ? b : b + "/";
+    }
+    return DEFAULT_BASE;
+  }
+  var BASE = base();
+
+  // CRC-32 (IEEE), lo stesso di zlib.crc32 usato da scripts/perche.py per scegliere la partizione
+  var TABLE = (function () {
+    var t = new Uint32Array(256);
+    for (var n = 0; n < 256; n++) {
+      var c = n;
+      for (var k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1;
+      t[n] = c >>> 0;
+    }
+    return t;
+  })();
+  function crc32(s) {
+    var bytes = new TextEncoder().encode(s), c = 0xFFFFFFFF;
+    for (var i = 0; i < bytes.length; i++) c = TABLE[(c ^ bytes[i]) & 0xFF] ^ (c >>> 8);
+    return (c ^ 0xFFFFFFFF) >>> 0;
+  }
+  function partizione(dominio, n) {
+    var w = (n - 1).toString(16).length, h = (crc32(dominio) % n).toString(16);
+    while (h.length < w) h = "0" + h;
+    return h;
+  }
+
+  // Host da dominio, URL o regola AdGuard (||dominio^); URL() converte gli IDN in punycode
+  function estraiHost(testo) {
+    var t = testo.trim().toLowerCase().replace(/^@@/, "").replace(/^\|\|/, "").split("^")[0].split("$")[0];
+    if (t.indexOf("://") < 0) t = "http://" + t;
+    try {
+      var h = new URL(t).hostname.replace(/^\.+|\.+$/g, "");
+      if (/^\[|^[0-9.]+$/.test(h)) return "";  // IP: i feed IP non sono in questo indice
+      return h;
+    } catch (e) { return ""; }
+  }
+  function suffissi(host) {
+    var p = host.split("."), out = [];
+    for (var i = 0; i < p.length; i++) out.push(p.slice(i).join("."));
+    return out;
+  }
+
+  var cache = {}, metaPromise = null;
+  function getJSON(nome) {
+    if (!cache[nome]) {
+      cache[nome] = fetch(BASE + nome, { cache: "no-cache", credentials: "omit", referrerPolicy: "no-referrer" })
+        .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status + " su " + nome); return r.json(); })
+        .catch(function (e) { delete cache[nome]; throw e; });
+    }
+    return cache[nome];
+  }
+  function meta() { return metaPromise || (metaPromise = getJSON("meta.json").catch(function (e) { metaPromise = null; throw e; })); }
+
+  function oraUTC(ore) {
+    if (!ore) return "non noto";
+    return new Date(ore * 3600000).toISOString().slice(0, 13).replace("T", " ") + ":00 UTC";
+  }
+
+  function spiega(host, m) {
+    var lookups = suffissi(host).map(function (s) {
+      return getJSON(partizione(s, m.partizioni) + ".json").then(function (p) { return { s: s, rec: (p.d || {})[s] || [] }; });
+    });
+    return Promise.all(lookups).then(function (res) {
+      var r = { host: host, blocchi: [], tolte: [], consentite: [] };
+      res.forEach(function (x) {
+        x.rec.forEach(function (rec) {
+          var lista = m.liste[rec[0]], b = { lista: lista.nome, regola: x.s, padre: x.s !== host, info: lista };
+          if (lista.tipo === "allow") { b.motivo = rec[1]; r.consentite.push(b); return; }
+          b.fonti = rec[1].map(function (i) { return m.fonti[i]; });
+          if (rec.length === 3) { b.motivo = rec[2]; r.tolte.push(b); return; }
+          if (rec.length === 5) { b.primo = oraUTC(rec[2]); b.punteggio = rec[3]; b.strict = !!rec[4]; }
+          r.blocchi.push(b);
+        });
+      });
+      return r;
+    });
+  }
+
+  // Costruzione del DOM solo con textContent: i dati dell'indice non diventano mai HTML
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text !== undefined) e.textContent = text;
+    return e;
+  }
+  function li(parts) {
+    var item = el("li");
+    parts.forEach(function (p) {
+      if (typeof p === "string") item.appendChild(document.createTextNode(p));
+      else item.appendChild(p);
+    });
+    return item;
+  }
+  function code(t) { return el("code", "", t); }
+  function link(href, t) { var a = el("a", "", t); a.href = href; a.rel = "noopener noreferrer"; return a; }
+
+  function azioni(r) {
+    var out = [], oggi = new Date().toISOString().slice(0, 10), host = r.host;
+    if (r.blocchi.length && r.consentite.length) {
+      out.push(["Un'allowlist lo sblocca già su AdGuard ($important): verificare che l'istanza sia abbonata ad ",
+                code("allow-base.txt"), ". Le liste in formato semplice per firewall e Unbound lo bloccano comunque."]);
+    }
+    r.blocchi.forEach(function (b) {
+      var cat = b.lista.replace(/^block-/, ""), esterne = b.fonti.filter(function (f) { return f !== "manuale"; });
+      var manuale = b.fonti.indexOf("manuale") >= 0;
+      if (b.padre) {
+        var a = ["Per sbloccare solo ", code(host), ": eccezione locale nelle regole personalizzate dell'istanza AdGuard ",
+                 code("@@||" + host + "^$important")];
+        if (esterne.length && !manuale) a.push(", oppure per tutti i clienti una voce in ", link(REPO + "blob/main/domains/allowlist/varie.txt", "domains/allowlist/varie.txt"));
+        out.push(a.concat(["."]));
+      }
+      if (manuale) {
+        out.push([code(b.regola), " è una voce nostra: toglierla da ",
+                  link(REPO + "blob/main/domains/blocklist/" + cat + ".txt", "domains/blocklist/" + cat + ".txt"), " con una PR."]);
+      }
+      if (esterne.length) {
+        out.push(["Falso positivo di " + esterne.join(", ") + ": aggiungere a ",
+                  link(REPO + "blob/main/domains/escludi.txt", "domains/escludi.txt"), " la riga ",
+                  code(b.regola + " | " + oggi + " | motivo | ticket"),
+                  " (solo nome esatto: i sottodomini restano bloccati). Oppure ",
+                  link(REPO + "issues/new?template=falso-positivo.yml", "segnalare un falso positivo"), "."]);
+      }
+    });
+    if (!r.blocchi.length) {
+      out.push(["Nessuna nostra lista lo blocca: controllare il Registro query di AdGuard. Il blocco può venire da una ",
+                link(REPO + "blob/main/domains/upstream.toml", "lista upstream"),
+                " abbonata direttamente o dalle regole personalizzate dell'istanza."]);
+    }
+    var seen = {};
+    return out.filter(function (a) {
+      var k = a.map(function (p) { return typeof p === "string" ? p : p.textContent; }).join("");
+      if (seen[k]) return false;
+      seen[k] = true;
+      return true;
+    });
+  }
+
+  function mostra(r, m) {
+    var box = el("div", "card");
+    var cls = "ok", testo = r.host + ": non bloccato dalle nostre liste";
+    if (r.blocchi.length && r.consentite.length) { cls = "warn"; testo = r.host + ": bloccato dalle liste, ma sbloccato su AdGuard da un'allowlist"; }
+    else if (r.blocchi.length) { cls = "block"; testo = r.host + ": BLOCCATO"; }
+    box.appendChild(el("div", "esito " + cls, testo));
+
+    if (r.blocchi.length) {
+      box.appendChild(el("h2", "", "Liste che lo bloccano"));
+      var ul = el("ul");
+      r.blocchi.forEach(function (b) {
+        var parts = [el("strong", "", b.lista), ": regola ", code("||" + b.regola + "^")];
+        if (b.padre) parts.push(" (dominio padre: copre anche i sottodomini)");
+        parts.push(". Fonti: " + b.fonti.join(", ") + ".");
+        if (b.punteggio !== undefined) {
+          parts.push(" Punteggio " + b.punteggio + "/100, primo avvistamento " + b.primo + ". Livello strict: ");
+          parts.push(el("span", "tag" + (b.strict ? " si" : ""), b.strict ? "sì, anche in " + b.info.strict + ".txt" : "no"));
+        }
+        ul.appendChild(li(parts));
+      });
+      box.appendChild(ul);
+    }
+    if (r.tolte.length) {
+      box.appendChild(el("h2", "", "Perché non è bloccato da altre liste"));
+      var ul2 = el("ul");
+      r.tolte.forEach(function (t) {
+        ul2.appendChild(li([el("strong", "", t.lista), ": ", code(t.regola), " arrivava da " + t.fonti.join(", ") + " ma è stato tolto: " + t.motivo + "."]));
+      });
+      box.appendChild(ul2);
+    }
+    if (r.consentite.length) {
+      box.appendChild(el("h2", "", "Allowlist che lo sbloccano su AdGuard"));
+      var ul3 = el("ul");
+      r.consentite.forEach(function (c) {
+        ul3.appendChild(li([el("strong", "", c.lista), ": ", code("@@||" + c.regola + "^$important"), " — " + c.motivo]));
+      });
+      box.appendChild(ul3);
+    }
+    box.appendChild(el("h2", "", "Cosa fare"));
+    var ul4 = el("ul");
+    azioni(r).forEach(function (a) { ul4.appendChild(li(a)); });
+    box.appendChild(ul4);
+    box.appendChild(el("p", "meta", "Indice del " + m.generato + ". Le liste upstream abbonate direttamente su AdGuard non sono incluse."));
+    return box;
+  }
+
+  var form = document.getElementById("f"), q = document.getElementById("q"), out = document.getElementById("out"), go = document.getElementById("go");
+  function cerca(valore) {
+    var host = estraiHost(valore);
+    out.textContent = "";
+    if (!host || host.indexOf(".") < 0 && host.length < 2) {
+      out.appendChild(el("div", "card esito warn", "Inserire un dominio o un URL valido (gli IP dei feed per firewall non sono in questo indice)."));
+      return;
+    }
+    go.disabled = true;
+    meta().then(function (m) {
+      return spiega(host, m).then(function (r) { out.appendChild(mostra(r, m)); });
+    }).catch(function (e) {
+      out.appendChild(el("div", "card esito warn", "Indice non raggiungibile: " + e.message));
+    }).then(function () { go.disabled = false; });
+    try { history.replaceState(null, "", "#" + encodeURIComponent(host)); } catch (e) { /* history non disponibile */ }
+  }
+  form.addEventListener("submit", function (ev) { ev.preventDefault(); cerca(q.value); });
+  if (location.hash.length > 1) {
+    try { q.value = decodeURIComponent(location.hash.slice(1)); cerca(q.value); } catch (e) { /* hash non valido */ }
+  }
+})();
+</script>
+</body>
+</html>

@@ -39,7 +39,7 @@ jobs:
       - name: Genera liste domini
         id: allow
         continue-on-error: true
-        run: python scripts/build_domains.py
+        run: python scripts/build_domains.py --report "$RUNNER_TEMP/report.md"
 
       - name: Genera liste FQDN per OPNsense
         continue-on-error: true
@@ -60,7 +60,8 @@ jobs:
       - name: Pubblica
         env:
           GH_TOKEN: ${{ github.token }}
-          ANOMALY: ${{ steps.build.outputs.anomaly }}
+          # anomalia dei feed IP o calo oltre soglia di una lista strict (build_domains.py): PR invece del push
+          ANOMALY: ${{ steps.build.outputs.anomaly == 'true' || steps.allow.outputs.anomaly == 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"

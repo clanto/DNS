@@ -93,6 +93,29 @@ Solo host indispensabili, mai domini interi. Nessuna voce può contraddire le no
 | [block-spyware.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-spyware.txt) | Stalkerware e app spia (Stalkerware Indicators + voci nostre) | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-spyware.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-spyware.txt) |
 | [block-cryptojacking.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-cryptojacking.txt) | Mining di criptovalute nel browser (NoCoin) | [conf](https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-cryptojacking.conf) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-cryptojacking.txt) |
 
+#### Livello strict (aziende e scuole)
+
+Per le liste di sicurezza esiste anche un livello **strict**: stesse fonti, solo le voci con **punteggio** alto. Meno voci e meno falsi positivi, al prezzo di un ritardo di qualche ora sulle voci nuove segnalate da una sola fonte. Gli URL delle liste complete non cambiano e restano l'unione di tutte le fonti.
+
+| Lista | AdGuard | Solo domini |
+|---|---|---|
+| block-malware-strict | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware-strict.txt) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware-strict.txt) |
+| block-phishing-strict | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-phishing-strict.txt) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-phishing-strict.txt) |
+| block-spyware-strict | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-spyware-strict.txt) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-spyware-strict.txt) |
+| block-cryptojacking-strict | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-cryptojacking-strict.txt) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-cryptojacking-strict.txt) |
+| block-redirect-strict | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-redirect-strict.txt) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-redirect-strict.txt) |
+| block-pubblicita-strict | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita-strict.txt) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita-strict.txt) |
+| block-traccianti-strict | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-traccianti-strict.txt) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-traccianti-strict.txt) |
+
+Come si calcola il punteggio (configurazione in `[punteggio]` di [domains/domains.toml](domains/domains.toml), codice in [scripts/punteggio.py](scripts/punteggio.py)):
+
+- **Precisione della fonte**, misurata a ogni build: quota di voci che colpiscono un falso positivo noto (esclusioni di cura, piattaforme della Public Suffix List, servizi protetti o allowlist coperti, domini propri). Da questa deriva il **peso** della fonte. Tabella aggiornata in [dist/adguard/README.md](dist/adguard/README.md#precisione-delle-fonti). Le classifiche di popolarità come Tranco non sono usate: includono dati con licenza non commerciale.
+- **Persistenza**: da quante ore la voce è presente senza interruzioni (stato in `domains/cache/persistenza/`).
+- **Punteggio** 0-100 = 100 × (1 − Π(1 − peso fonte) × (1 − 0,5 × persistenza)). Le voci manuali valgono sempre 100.
+- **Soglia** per lista in `[punteggio.strict]` (oggi 86): entra subito una voce confermata da due fonti, dopo circa 15 ore una voce di una sola fonte affidabile, mai una voce di una sola fonte con troppi falsi positivi.
+
+Se una lista strict perde più del 20% delle voci rispetto al build precedente, il build apre una PR di verifica invece di pubblicare (stesso percorso delle variazioni anomale dei feed IP).
+
 Nelle liste di sicurezza (malware, phishing, spyware, cryptojacking, redirect) il dominio di una **piattaforma** su cui chiunque crea siti (github.io, pages.dev, amplifyapp.com…, sezione privata della [Public Suffix List](https://publicsuffix.org/)) non viene mai bloccato per intero: restano bloccati solo i singoli sottodomini malevoli.
 
 #### DNS dinamici (`block-ddns`)
@@ -100,6 +123,14 @@ Nelle liste di sicurezza (malware, phishing, spyware, cryptojacking, redirect) i
 Blocca i **domini dei provider DDNS** come suffissi: AdGuard blocca anche tutti i sottodomini, quindi `qualcosa.duckdns.org` non si risolve. Sono bloccati anche i **siti dei provider** (No-IP, DynDNS, Dynu, FreeDNS…), compresi gli host che router e firewall usano per aggiornare il proprio nome.
 
 Chi usa un DDNS per i **propri apparati** (VPN, telecamere, NAS, firewall) deve fare un'**eccezione locale** nelle regole personalizzate dell'istanza AdGuard, limitata agli host necessari: il nome dell'apparato (es. `@@||nome-apparato.duckdns.org^$important`) e l'host di aggiornamento del provider usato dal firewall (es. `@@||dynupdate.no-ip.com^$important`). Per i DDNS dei produttori (FRITZ!Box, Synology, ASUS, FortiGate…) l'eccezione va sul loro dominio. Le eccezioni per cliente vanno nell'istanza, mai nel repository.
+
+#### Perché è bloccato?
+
+La pagina [docs/perche-bloccato.html](docs/perche-bloccato.html) spiega un blocco all'helpdesk: si incolla un dominio, un URL o una regola AdGuard e mostra quale lista lo blocca, con quale regola (anche sul dominio padre), da quale fonte, con quale punteggio e se è nel livello strict. Mostra anche perché un dominio **non** è bloccato (esclusione di cura, piattaforma PSL, servizio protetto, allowlist) e cosa fare: esclusione in [domains/escludi.txt](domains/escludi.txt) o eccezione locale nell'istanza AdGuard.
+
+- **Dati**: indice in `dist/perche/` (`meta.json` più 256 partizioni JSON per hash del dominio), rigenerato a ogni build. La pagina scarica solo le partizioni che servono da `raw.githubusercontent.com`: nessun tracker, nessuna libreria esterna, nessun dato inviato a terzi.
+- **Da terminale**: `python scripts/perche.py dominio` (indice locale se presente, altrimenti quello pubblicato; `--remoto` per forzarlo, `--json` per le automazioni).
+- **Attivare GitHub Pages**: *Settings → Pages → Build and deployment*, sorgente *Deploy from a branch*, ramo `main`, cartella `/docs`. La pagina sarà su `https://clanto.github.io/DNS/perche-bloccato.html` (il file `docs/.nojekyll` disattiva Jekyll). Copia locale: aprire il file con un server HTTP dalla radice del repository e aggiungere `?base=../dist/perche/` all'URL.
 
 Le liste di policy (accesso remoto, AI, file sharing, social, gaming, streaming) in AdGuard Home valgono per **tutti** i client: vanno applicate solo sulle istanze dei clienti che le richiedono.
 
@@ -175,6 +206,7 @@ Liste curate a mano, agli URL originali.
 |---|---|---|
 | Aggiungere un IP da bloccare | `ip/custom/<categoria>.txt` | [ip/README.md](ip/README.md#aggiungere-un-ip-a-mano) |
 | Sbloccare un IP (falso positivo) | [ip/allowlist.txt](ip/allowlist.txt) | [ip/README.md](ip/README.md#sbloccare-un-falso-positivo) |
+| Capire perché un dominio è (o non è) bloccato | [docs/perche-bloccato.html](docs/perche-bloccato.html) | o `python scripts/perche.py dominio` |
 | Togliere un dominio legittimo arrivato da una fonte esterna | [domains/escludi.txt](domains/escludi.txt) | solo nome esatto |
 | Proteggere un servizio critico | [domains/allowlist/protetti.txt](domains/allowlist/protetti.txt) | solo host esatti |
 | Segnalare una rete di hosting/CDN condivisa | [ip/condivisi.txt](ip/condivisi.txt) | [ip/README.md](ip/README.md#infrastrutture-condivise) |

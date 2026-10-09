@@ -7,8 +7,10 @@ Output:
   dist/domains/block-<cat>.txt                   domini semplici (pfBlockerNG, OPNsense)
   dist/unbound/block-<cat>.conf                  local-zone always_nxdomain
   dist/adguard/README.md                         feed + catalogo liste upstream (domains/upstream.toml)
+  dist/adguard/block-<cat>-strict.txt (+ dist/domains/) livello strict, dist/perche/ indice «Perché è bloccato?»
+                                                 (scripts/punteggio.py, configurazione [punteggio])
 
-Uso: python scripts/build_domains.py [--check]
+Uso: python scripts/build_domains.py [--check] [--offline] [--report FILE]
 """
 from __future__ import annotations
 
@@ -16,12 +18,14 @@ import argparse
 import csv
 import fnmatch
 import io
+import os
 import re
 import sys
 import tomllib
 from datetime import date
 from pathlib import Path
 
+import punteggio
 from build_ip import EMAIL_RE, RAW_BASE, ROOT, TICKET_RE, contains_pii, fail, fetch, valid_date, warn
 
 DOMAINS_DIR = ROOT / "domains"
@@ -283,6 +287,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--check", action="store_true", help="solo validazione, nessuna scrittura")
     parser.add_argument("--offline", action="store_true", help="fonti upstream solo dalla cache")
+    parser.add_argument("--report", type=Path, help="aggiunge a questo file le variazioni anomale (report del build)")
     args = parser.parse_args()
     offline = args.offline or args.check
     for stream in (sys.stdout, sys.stderr):
@@ -339,11 +344,14 @@ def main() -> int:
         collected[("block", cat)][0].update(names)
         per_source.setdefault(cat, {})[sid] = names
         source_report.append(f"- fonte `{sid}` ({cat}): {status}")
+    # voci di ogni blocklist prima dei filtri: per l'indice «Perché è bloccato?» (voci tolte e motivo)
+    raw = {cat: set(collected[("block", cat)][0]) for cat in cfg.get("block", {})}
 
     # Esclusioni di cura: nomi esatti tolti dalle voci delle fonti esterne (le voci manuali restano)
     curated = set(load(EXCLUDE_PATH, tld=False, today=today, errors=errors)[0]) if EXCLUDE_PATH.exists() else set()
     # Piattaforme (sezione privata PSL): nelle categorie con exclude_platforms il dominio della piattaforma
     # arrivato da una fonte esterna si toglie, i singoli sottodomini malevoli restano
+    platforms: set[str] = set()
     if any(o.get("exclude_platforms") for o in cfg.get("block", {}).values()):
         platforms, status = load_psl(cfg, offline, persist=not args.check)
         source_report.append(f"- Public Suffix List (piattaforme): {status}")
@@ -424,6 +432,14 @@ def main() -> int:
                         conflict_report.append(f"- allow/{acat} `{a}` coperto da `{parent}` (fonte upstream) in "
                                                f"block/{cat}: sbloccato solo su AdGuard")
 
+    # Punteggio per voce e livello strict (solo nuovi file: le liste complete restano l'unione delle fonti)
+    ctx = punteggio.Contesto(curated, platforms, protected, {
+        cat: names for (kind, cat), (names, _) in collected.items() if kind == "allow" and not cfg["allow"][cat].get("protect")},
+        own, covers, drop_covered)
+    livelli = punteggio.applica(cfg, raw, {cat: collected[("block", cat)][0] for cat in cfg.get("block", {})},
+                                per_source, manual, ctx, normalize, scrivi=not args.check)
+    errors += livelli.errori
+
     for (kind, cat), (name_set, expired) in collected.items():
         opts = cfg[kind][cat]
         names = sorted(name_set)
@@ -448,7 +464,7 @@ def main() -> int:
                        len(final))
         print(f"- {kind}/{cat}: {len(final)} voci, {expired} scadute")
 
-    print("\n".join(source_report))
+    print("\n".join(source_report + livelli.log))
     for line in protect_report + conflict_report:
         warn(line.lstrip("- ").replace("`", ""))
     print("\n".join(protect_report + conflict_report))
@@ -456,7 +472,18 @@ def main() -> int:
     final_base = drop_covered(base)
     adguard["allow-base.txt"] = "".join(f"@@||{d}^$important\n" for d in final_base)
     in_base = [c for c, o in cfg.get("allow", {}).items() if o.get("in_base", True)]
-    meta = {"allow-base.txt": (f"Aggregato allowlist: {', '.join(in_base)}", "", len(final_base)), **meta}
+    meta = {"allow-base.txt": (f"Aggregato allowlist: {', '.join(in_base)}", "", len(final_base)), **meta, **livelli.meta}
+    adguard.update(livelli.adguard)
+    plain.update(livelli.plain)
+    if livelli.anomalie:
+        text = "\n".join(["### Variazioni anomale delle liste strict", ""] + [f"- {a}" for a in livelli.anomalie] + [""])
+        warn(text.replace("\n", " "))
+        if args.report:
+            with open(args.report, "a", encoding="utf-8") as fh:
+                fh.write("\n" + text)
+    if gh_out := os.environ.get("GITHUB_OUTPUT"):
+        with open(gh_out, "a", encoding="utf-8") as fh:
+            fh.write(f"anomaly={'true' if livelli.anomalie else 'false'}\n")
 
     if not args.check:
         for directory, files, pattern in ((ADGUARD_DIR, adguard, "*.txt"), (PLAIN_DIR, plain, "*.txt"),
@@ -469,7 +496,8 @@ def main() -> int:
             for name, content in files.items():
                 (directory / name).write_text(content, encoding="utf-8", newline="\n")
         finals = {cat: collected[("block", cat)][0] for cat in cfg.get("block", {})}
-        extra = contribution(per_source, manual, finals)
+        extra = contribution(per_source, manual, finals) + livelli.readme(
+            {cat: meta[f"block-{cat}.txt"][2] for cat in livelli.strict})
         (ADGUARD_DIR / "README.md").write_text(render_readme(meta, upstream, extra), encoding="utf-8", newline="\n")
 
     for e in errors:
