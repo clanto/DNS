@@ -1,0 +1,54 @@
+name: Phishing marchi italiani da Certificate Transparency
+
+# Ogni giorno cerca su crt.sh i certificati recenti con nomi che imitano marchi italiani
+# (domains/ct_marchi.toml), verifica che i candidati risolvano e aggiorna dist/osservazione/.
+# Con osservazione = true nulla entra nelle blocklist pubblicate: si committano solo candidati, report e stato.
+
+on:
+  schedule:
+    - cron: "47 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write        # solo per il commit di dist/osservazione/
+
+concurrency:
+  group: ct-phishing
+  cancel-in-progress: false
+
+jobs:
+  ct:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false   # il token serve solo al push dell'ultimo step
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - name: Cerca i candidati su crt.sh e verifica che risolvano
+        run: python scripts/ct_phishing_it.py > "$RUNNER_TEMP/ct.md"
+
+      - name: Riepilogo
+        if: always()
+        run: |
+          [ -f "$RUNNER_TEMP/ct.md" ] && head -c 60000 "$RUNNER_TEMP/ct.md" >> "$GITHUB_STEP_SUMMARY" || true
+
+      - name: Committa candidati, report e stato
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add dist/osservazione
+          if git diff --cached --quiet; then
+            echo "Nessuna variazione dei candidati"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          gh auth setup-git
+          git commit -m "ct: candidati phishing-it in osservazione $(date -u +%F)"
+          git pull --rebase origin main
+          git push origin HEAD:main

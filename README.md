@@ -119,6 +119,12 @@ Se una lista strict perde più del 20% delle voci rispetto al build precedente, 
 
 Nelle liste di sicurezza (malware, phishing, spyware, cryptojacking, redirect) il dominio di una **piattaforma** su cui chiunque crea siti (github.io, pages.dev, amplifyapp.com…, sezione privata della [Public Suffix List](https://publicsuffix.org/)) non viene mai bloccato per intero: restano bloccati solo i singoli sottodomini malevoli.
 
+#### Phishing di marchi italiani da Certificate Transparency (in osservazione)
+
+Gli aggregatori globali coprono poco il phishing che imita marchi e servizi italiani. Ogni giorno il workflow `ct-phishing.yml` cerca su [crt.sh](https://crt.sh/) i certificati emessi negli ultimi giorni con nomi che iniziano come i marchi di [domains/ct_marchi.toml](domains/ct_marchi.toml) (Poste, banche, SPID, CIE, INPS, Agenzia delle Entrate, pagoPA, operatori, corrieri, trasporti, registri elettronici…). Riconosce il marchio anche con typo e omoglifi e assegna un **punteggio** (marchio nel dominio, parole esca come accedi/verifica/rimborso/sblocco, TLD a rischio, certificato recente, wildcard; penalità per i certificati OV/EV). Scarta domini ufficiali, voci già nelle nostre liste, piattaforme della PSL privata (resta solo il sottodominio esatto), servizi protetti, allowlist ed esclusioni di cura. Restano solo i candidati che **risolvono**; chi non risolve da 7 giorni esce.
+
+La lista è in **fase di osservazione**: i candidati sono in `dist/osservazione/` (`phishing-it-candidati.txt`, report con motivo e punteggio, stato con primo avvistamento) e **non entrano in nessuna blocklist pubblicata**. Per promuoverla si imposta `osservazione = false` in `domains/ct_marchi.toml`: dal build successivo i candidati sopra soglia vengono pubblicati come `block-phishing-it` (AdGuard, domini semplici, Unbound) come le altre liste.
+
 #### DNS dinamici (`block-ddns`)
 
 Blocca i **domini dei provider DDNS** come suffissi: AdGuard blocca anche tutti i sottodomini, quindi `qualcosa.duckdns.org` non si risolve. Sono bloccati anche i **siti dei provider** (No-IP, DynDNS, Dynu, FreeDNS…), compresi gli host che router e firewall usano per aggiornare il proprio nome.
