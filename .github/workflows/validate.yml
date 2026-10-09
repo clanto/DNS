@@ -9,6 +9,7 @@ on:
       - "domains/**"
       - "scripts/**"
       - "tests/**"
+      - ".github/**"
 
 permissions:
   contents: read
