@@ -9,3 +9,4 @@ tests/** text eol=lf
 .gitattributes text eol=lf
 CONTRIBUTING.md text eol=lf
 SECURITY.md text eol=lf
+docs/** text eol=lf
