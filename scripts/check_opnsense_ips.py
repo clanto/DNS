@@ -14,20 +14,18 @@ from __future__ import annotations
 
 import bisect
 import concurrent.futures as cf
-import gzip
 import ipaddress
 import os
 import socket
 import sys
 import tomllib
-import urllib.request
 from collections import defaultdict
 
+import asn
 from build_domains import CONFIG_PATH
-from build_ip import ROOT, USER_AGENT
+from build_ip import ROOT
 
 OPNSENSE_DIR = ROOT / "dist" / "opnsense"
-IPTOASN_URL = "https://iptoasn.com/data/ip2asn-combined.tsv.gz"
 MAX_WARNINGS = 30
 
 
@@ -37,7 +35,7 @@ class AsnDb:
     def __init__(self, raw: bytes):
         self.tables: dict[int, tuple[list[int], list[int], list[tuple[int, str, str]]]] = {}
         rows: dict[int, list] = {4: [], 6: []}
-        for line in gzip.decompress(raw).decode("utf-8", "replace").splitlines():
+        for line in asn.gunzip(raw).decode("utf-8", "replace").splitlines():
             parts = line.split("\t")
             if len(parts) < 5 or parts[2] == "0":
                 continue
@@ -76,9 +74,7 @@ def main() -> int:
     min_domains = opts.get("min_domains_per_ip", 3)
     ignore = set(opts.get("ignore", []))
 
-    req = urllib.request.Request(IPTOASN_URL, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        db = AsnDb(resp.read())
+    db = AsnDb(asn.download_raw())  # stessi limiti di dimensione e redirect solo HTTPS dei build
 
     report = ["## Controllo liste OPNsense: IP su infrastrutture condivise", ""]
     flagged_total = 0

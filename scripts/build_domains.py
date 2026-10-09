@@ -26,7 +26,7 @@ from datetime import date
 from pathlib import Path
 
 import punteggio
-from build_ip import EMAIL_RE, RAW_BASE, ROOT, TICKET_RE, contains_pii, fail, fetch, valid_date, warn
+from build_ip import EMAIL_RE, RAW_BASE, ROOT, SOURCE_ID_RE, TICKET_RE, contains_pii, fail, fetch, valid_date, warn
 
 DOMAINS_DIR = ROOT / "domains"
 CACHE_DIR = DOMAINS_DIR / "cache"
@@ -38,11 +38,14 @@ ADGUARD_DIR = ROOT / "dist" / "adguard"
 PLAIN_DIR = ROOT / "dist" / "domains"
 UNBOUND_DIR = ROOT / "dist" / "unbound"
 KINDS = {"allow": "allowlist", "block": "blocklist"}
+SOURCE_FORMATS = ("domains", "adblock", "ublock", "hosts", "tweetfeed")
 
 DOMAIN_RE = re.compile(r"^(?=.{1,253}$)(?:[a-z0-9_](?:[a-z0-9_-]{0,61}[a-z0-9])?\.)+[a-z][a-z0-9-]{0,61}[a-z0-9]$")
 # Pattern AdGuard con '*' dentro un'etichetta (es. *-pa.googleapis.com): solo output AdGuard
 PATTERN_RE = re.compile(r"^(?=.{1,253}$)[a-z0-9*_-]+(?:\.[a-z0-9_-]+)+$")
 TLD_RE = re.compile(r"^[a-z][a-z0-9-]{0,61}[a-z0-9]$")
+ADBLOCK_RE = re.compile(r"^\|\|([^\^/$|]+)\^(?:\$(.+))?$")
+IDNA_DEVIATIONS = frozenset("\u00df\u03c2\u200c\u200d")  # ß, ς, ZWNJ, ZWJ
 
 
 def normalize(token: str) -> str:
@@ -51,6 +54,11 @@ def normalize(token: str) -> str:
         token = token[2:]
     if "*" in token:
         return token
+    if token.isascii():
+        return token  # caso comune: il codec idna non cambia un nome ASCII (etichette vuote o lunghe le scarta DOMAIN_RE)
+    if any(c in IDNA_DEVIATIONS for c in token):
+        # il codec idna di Python è IDNA 2003: 'faß.de' diventerebbe 'fass.de', un dominio diverso
+        raise UnicodeError(f"carattere con codifica ambigua tra IDNA 2003 e 2008 in '{token}'")
     return token.encode("idna").decode("ascii")
 
 
@@ -117,7 +125,7 @@ def parse_domain_text(text: str, fmt: str) -> tuple[set[str], int]:
         if not line or line[0] in "#!":
             continue
         if fmt in ("adblock", "ublock"):
-            m = re.match(r"^\|\|([^\^/$|]+)\^(?:\$(.+))?$", line)
+            m = ADBLOCK_RE.match(line)
             if not m:
                 continue  # regole su percorsi, eccezioni o cosmetiche: non sono domini da bloccare
             opts = set(m.group(2).split(",")) if m.group(2) else set()
@@ -210,12 +218,19 @@ def load_psl(cfg: dict, offline: bool, persist: bool) -> tuple[set[str], str]:
     return names, f"ok, {len(names)} suffissi"
 
 
+def covered_by(name: str, pool) -> bool:
+    """True se un dominio padre di name (escluso name stesso) è in pool."""
+    i = name.find(".")
+    while i != -1:  # senza split/join: le liste hanno centinaia di migliaia di voci
+        if name[i + 1:] in pool:
+            return True
+        i = name.find(".", i + 1)
+    return False
+
+
 def drop_covered(names: set[str]) -> list[str]:
     """Rimuove i sottodomini già coperti da un dominio padre presente in lista."""
-    def covered(d: str) -> bool:
-        parts = d.split(".")
-        return any(".".join(parts[i:]) in names for i in range(1, len(parts)))
-    return sorted((d for d in names if not covered(d)), key=lambda d: d.split(".")[::-1])
+    return sorted((d for d in names if not covered_by(d, names)), key=lambda d: d.split(".")[::-1])
 
 
 def covers(rule: str, host: str) -> bool:
@@ -340,6 +355,9 @@ def main() -> int:
         if not src.get("license") or not (src.get("path") or str(src.get("url", "")).startswith("https://")):
             errors.append(f"domains.toml: fonte '{sid}' senza licenza o senza URL HTTPS/path")
             continue
+        if not SOURCE_ID_RE.match(str(sid)) or src.get("format", "domains") not in SOURCE_FORMATS:
+            errors.append(f"domains.toml: fonte '{sid}' con id non valido o formato sconosciuto '{src.get('format')}'")
+            continue
         names, status = load_domain_source(src, offline, persist=not args.check)
         collected[("block", cat)][0].update(names)
         per_source.setdefault(cat, {})[sid] = names
@@ -412,7 +430,10 @@ def main() -> int:
 
     for cat in cfg.get("block", {}):
         names = collected[("block", cat)][0]
-        for b in sorted(names):
+        # ordinamento solo delle voci da controllare, non dell'intera lista (centinaia di migliaia di voci)
+        candidates = [b for b in names if b in allow_exact or covered_by(b, allow_exact)
+                      or any(covers(a, b) for _, a in allow_wild)]
+        for b in sorted(candidates):
             hits = [(allow_exact[s], s) for s in suffixes(b) if s in allow_exact]
             hits += [(acat, a) for acat, a in allow_wild if covers(a, b)]
             if not hits:

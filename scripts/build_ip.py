@@ -20,7 +20,6 @@ import re
 import socket
 import sys
 import tomllib
-import urllib.request
 from collections import Counter
 from dataclasses import dataclass
 from datetime import date
@@ -46,6 +45,7 @@ DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 TICKET_RE = re.compile(r"^[A-Za-z0-9#._/-]{1,40}$")
 EMAIL_RE = re.compile(r"[\w.+-]+@[\w-]+(\.[\w-]+)+")
 PHONE_RE = re.compile(r"\+?\d[\d /-]{7,}\d")
+SOURCE_ID_RE = re.compile(r"^[a-z0-9][a-z0-9._-]{0,63}$")  # id → nome del file di cache: niente percorsi
 IN_GHA = os.environ.get("GITHUB_ACTIONS") == "true"
 
 Network = ipaddress.IPv4Network | ipaddress.IPv6Network
@@ -230,6 +230,8 @@ def load_config(errors: list[str]) -> dict:
         if sid in ids:
             errors.append(f"sources.toml: id duplicato '{sid}'")
         ids.add(sid)
+        if not SOURCE_ID_RE.match(str(sid)):
+            errors.append(f"sources.toml: id non valido '{sid}' (minuscole, cifre, '.', '_', '-')")
         if src.get("category") not in categories:
             errors.append(f"sources.toml: fonte '{sid}' con categoria inesistente '{src.get('category')}'")
         if not str(src.get("url", "")).startswith("https://"):
@@ -248,12 +250,14 @@ def load_config(errors: list[str]) -> dict:
 
 
 def fetch(url: str) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        data = resp.read(MAX_DOWNLOAD_BYTES + 1)
-    if len(data) > MAX_DOWNLOAD_BYTES:
-        raise ValueError("download oltre 50 MB")
-    return data.decode("utf-8", errors="replace")
+    """Download HTTPS limitato a MAX_DOWNLOAD_BYTES, redirect solo verso HTTPS."""
+    return asn.read_https(url, timeout=60, limit=MAX_DOWNLOAD_BYTES).decode("utf-8", errors="replace")
+
+
+def md_cell(text: str, limit: int = 200) -> str:
+    """Testo non fidato (es. messaggi d'errore con dati del server) reso innocuo in una cella markdown."""
+    text = re.sub(r"[\x00-\x1f\x7f|`<>\[\]]", " ", str(text))
+    return text[:limit].strip()
 
 
 def load_source(src: dict, settings: dict, offline: bool, persist: bool,
@@ -293,7 +297,7 @@ def load_source(src: dict, settings: dict, offline: bool, persist: bool,
         warn(f"fonte {src['id']}: {exc}; uso la cache ({len(cached)} voci)")
         result.status = "cache" if cached else "fallita"
         result.entries = len(cached)
-        result.detail = str(exc)
+        result.detail = md_cell(exc)  # il messaggio può contenere testo del server (es. reason HTTP)
         return cached, result
     if persist:
         CACHE_DIR.mkdir(parents=True, exist_ok=True)
@@ -509,7 +513,7 @@ def main() -> int:
     source_results: list[SourceResult] = []
     outputs: dict[str, list[Network]] = {}
     for src in cfg.get("sources", []):
-        if src.get("category") not in categories:
+        if src.get("category") not in categories or not SOURCE_ID_RE.match(str(src.get("id", ""))):
             continue
         reserved = categories[src["category"]].get("reserved", False)
         nets, res = load_source(src, settings, offline, persist=write, raw=reserved)

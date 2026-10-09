@@ -49,6 +49,19 @@ Se gli intervalli ufficiali non sono raggiungibili il build fallisce e restano o
 
 Se un sito si rompe per colpa di un feed: trovare l'IP bloccato nel log del firewall e, se è una rete condivisa, aggiungerla a `ip/condivisi.txt`; se è un singolo falso positivo, a `ip/allowlist.txt`.
 
+## IP e domini derivati dall'infrastruttura malevola (pivot)
+
+Ogni mercoledì il workflow *Pivot infrastruttura malevola* (`scripts/pivot_infra.py`, configurazione in [`pivot.toml`](pivot.toml)) risolve un campione dei domini malevoli confermati (fonti di `block-malware` e `block-phishing`, più `domains/blocklist/malevoli.txt`; prima quelli presenti in più fonti) e apre una **PR da approvare**, mai un commit diretto:
+
+- **IP dedicati** → `ip/custom/c2.txt`: proposti solo se ospitano almeno 3 domini registrati malevoli distinti (almeno uno in più fonti), nessun host delle allowlist o dei servizi protetti, non sono in infrastrutture condivise (stesso filtro dei feed, più bucket S3 e API Gateway), sinkhole (nameserver o PTR con *sinkhole*/*blackhole*, `microsoftinternetsafety.net`, reti in `sinkhole_nets`), parcheggi (nameserver *park*, Bodis, Above, Dan, Afternic, Uniregistry), AS o PTR di hosting web condiviso, `ip/allowlist.txt` o già nei feed. Oltre 50 domini nel campione l'IP finisce solo nel report da verificare a mano: densità tipica di parcheggi e hosting con siti compromessi.
+- **Domini collegati** → `domains/blocklist/malware.txt`: nameserver su un IP del punto precedente e destinazioni CNAME comuni ad almeno 3 domini malevoli, mai usati dai domini delle allowlist.
+
+Le voci hanno ticket `pivot-AAAAMMGG` e **scadenza a 30 giorni** (un IP dedicato può passare a un altro cliente del provider); quelle scadute vengono tolte alla PR successiva. Le voci derivate non diventano mai semi delle esecuzioni successive.
+
+Limiti di carico: al massimo 1500 domini, 8000 query a 40 al secondo sul resolver del runner, 8 minuti di query, job sotto i 15 minuti. Le risoluzioni sono affidabili solo in CI: su una rete con AdGuard i domini malevoli risultano NXDOMAIN e lo script non propone nulla.
+
+**Fonti esterne valutate e non usate** (passive DNS e reverse IP, verificate il 2026-10-09): HackerTarget (uso commerciale e ridistribuzione vietati), VirusTotal Public API (solo uso non commerciale), CIRCL Passive DNS (solo partner accreditati), mnemonic Passive DNS (query massive non consentite, termini di riuso non pubblicati). Per questo i domini nuovi derivano **solo da dati nostri** (nameserver e CNAME dei domini risolti): senza reverse IP non si vede quanti altri siti stanno su un IP, quindi la densità è stimata sul campione, con AS e PTR. Una fonte con termini compatibili potrà essere aggiunta con chiave solo come segreto GitHub.
+
 ## Aggiungere una fonte
 
 1. Verificare che la licenza sia compatibile con GPL-3.0 e con l'uso commerciale. Le fonti con clausole non commerciali (NC) sono escluse.

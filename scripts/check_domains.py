@@ -19,7 +19,7 @@ import subprocess
 import sys
 import tomllib
 
-from build_domains import CONFIG_PATH, DOMAINS_DIR, KINDS, covers
+from build_domains import CONFIG_PATH, DOMAIN_RE, DOMAINS_DIR, KINDS, covers
 from build_ip import fetch
 
 RESOLVER = os.environ.get("CHECK_RESOLVER", "1.1.1.1")
@@ -86,8 +86,9 @@ def main() -> int:
                 line = line.strip()
                 if line and not line.startswith("#"):
                     entries.append((kind, path.stem, line.split("|")[0].strip().lower().removeprefix("*.")))
-    # Il controllo bypass include le wildcard; la risoluzione DNS solo i nomi esatti
-    targets = [e for e in entries if "*" not in e[2]]
+    # Il controllo bypass include le wildcard; la risoluzione DNS solo i nomi esatti e validi: una riga
+    # arbitraria (es. '-f/percorso' in una PR) diventerebbe un'opzione di dig
+    targets = [e for e in entries if DOMAIN_RE.match(e[2])]
     own = tomllib.loads(CONFIG_PATH.read_text(encoding="utf-8")).get("own_domains", [])
     bypass = {d for d in bypass_domains() if not any(covers(o, d) for o in own)}
     bypass_hits = [(cat, name, sorted(d for d in bypass if covers(name, d))[:5])
