@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'self' https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'self'; base-uri 'none'; form-action 'none'">
 <title>Perché è bloccato?</title>
 <style>
   :root {
@@ -55,7 +55,7 @@
 <main>
   <h1>Perché è bloccato?</h1>
   <p class="sub">Incolla un dominio, un URL o una regola AdGuard: la pagina mostra quale lista lo blocca, per quale regola,
-    da quale fonte e cosa fare. Nessun dato viene inviato a terzi: la pagina scarica solo l'indice pubblico del repository.</p>
+    da quale fonte e cosa fare. Nessun dato viene inviato a terzi: la pagina scarica solo l'indice pubblicato sullo stesso sito.</p>
   <form id="f" autocomplete="off">
     <input type="text" id="q" placeholder="es. https://app.esempio.it/login" aria-label="Dominio o URL" spellcheck="false">
     <button id="go" type="submit">Cerca</button>
@@ -71,16 +71,12 @@
 <script>
 "use strict";
 (function () {
-  var DEFAULT_BASE = "https://raw.githubusercontent.com/clanto/DNS/main/dist/perche/";
+  var DEFAULT_BASE = "./perche/";  // indice pubblicato con la pagina (GitHub Pages)
   var REPO = "https://github.com/clanto/DNS/";
 
-  // Base dell'indice: predefinita, oppure ?base= solo verso il repository (altro ramo) o la copia locale
+  // Base dell'indice: stesso sito; ?locale=1 per la copia di lavoro (server HTTP dalla radice del repository)
   function base() {
-    var b = new URLSearchParams(location.search).get("base");
-    if (b && (b.indexOf("https://raw.githubusercontent.com/clanto/DNS/") === 0 || b === "../dist/perche/")) {
-      return b.charAt(b.length - 1) === "/" ? b : b + "/";
-    }
-    return DEFAULT_BASE;
+    return new URLSearchParams(location.search).get("locale") === "1" ? "../dist/perche/" : DEFAULT_BASE;
   }
   var BASE = base();
 

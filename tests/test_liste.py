@@ -406,6 +406,13 @@ def section_punteggio():
         u in ("https://raw.githubusercontent.com", "https://github.com", "https://app.esempio.it") for u in re.findall(r"https://[a-z0-9.-]+", page)),
         "perche-bloccato.html: domini esterni diversi da GitHub")
     check(".innerHTML" not in page, "perche-bloccato.html: innerHTML (i dati dell'indice vanno inseriti come testo)")
+    check('"./perche/"' in page and "raw.githubusercontent.com" not in page,
+          "perche-bloccato.html: l'indice va letto dallo stesso sito Pages, non dai raw URL")
+    # l'indice cambia a ogni build: mai nella storia git (pubblicato solo su GitHub Pages)
+    ignorato = subprocess.run(["git", "check-ignore", "-q", "dist/perche/meta.json"], cwd=ROOT).returncode == 0
+    check(ignorato, "dist/perche non è in .gitignore")
+    build_wf = (ROOT / ".github/workflows/build.yml").read_text(encoding="utf-8")
+    check("upload-pages-artifact" in build_wf and "deploy-pages" in build_wf, "build.yml: pubblicazione Pages assente")
     node = __import__("shutil").which("node")
     if node:
         core = page.split("  var TABLE = ")[1].split("var cache = {}")[0]

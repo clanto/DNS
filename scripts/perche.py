@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """«Perché è bloccato?»: indice di spiegazione delle liste domini e ricerca da terminale.
 
-L'indice è generato da scripts/build_domains.py (tramite scripts/punteggio.py):
+L'indice è generato da scripts/build_domains.py (tramite scripts/punteggio.py) e non è versionato in git:
+il workflow di build lo pubblica su GitHub Pages insieme a docs/ (https://clanto.github.io/DNS/perche/).
   dist/perche/meta.json   liste, fonti, pesi e precisione delle fonti, soglie, data del build
   dist/perche/<xx>.json   partizioni {"v":1,"d":{dominio: [record, ...]}}; xx = CRC-32 del dominio modulo
                           il numero di partizioni, in esadecimale (stesso calcolo in docs/perche-bloccato.html)
@@ -23,10 +24,10 @@ import urllib.parse
 import zlib
 from datetime import datetime, timezone
 
-from build_ip import RAW_BASE, ROOT, fetch
+from build_ip import ROOT, fetch
 
 INDEX_DIR = ROOT / "dist" / "perche"
-INDEX_URL = f"{RAW_BASE}/dist/perche"
+INDEX_URL = "https://clanto.github.io/DNS/perche"  # GitHub Pages (workflow di build), non versionato in git
 VERSIONE = 1
 
 
@@ -174,7 +175,7 @@ def formatta(r: dict, meta: dict) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("voce", help="dominio, URL o regola AdGuard")
-    parser.add_argument("--remoto", action="store_true", help="legge l'indice pubblicato su GitHub invece di dist/perche")
+    parser.add_argument("--remoto", action="store_true", help="legge l'indice pubblicato su GitHub Pages invece di dist/perche")
     parser.add_argument("--json", action="store_true", help="risultato in JSON")
     args = parser.parse_args()
     for stream in (sys.stdout, sys.stderr):
