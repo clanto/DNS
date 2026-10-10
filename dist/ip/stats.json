@@ -1,16 +1,16 @@
 {
   "feed": {
-    "doh-v4.txt": 1326,
+    "doh-v4.txt": 1328,
     "doh-v6.txt": 690,
-    "tor-v4.txt": 5175,
-    "tor-v6.txt": 2450,
+    "tor-v4.txt": 5139,
+    "tor-v6.txt": 2430,
     "threat-v4.txt": 27052,
     "threat-v6.txt": 0,
     "c2-v4.txt": 5,
     "c2-v6.txt": 0,
     "vpn-v4.txt": 11634,
     "vpn-v6.txt": 414,
-    "inbound-v4.txt": 78774,
+    "inbound-v4.txt": 78171,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
@@ -18,10 +18,10 @@
     "hacking-v6.txt": 0,
     "warez-v4.txt": 22,
     "warez-v6.txt": 0,
-    "all-v4.txt": 33383,
-    "all-v6.txt": 3140,
-    "all-scuole-v4.txt": 44529,
-    "all-scuole-v6.txt": 3499
+    "all-v4.txt": 33351,
+    "all-v6.txt": 3120,
+    "all-scuole-v4.txt": 44501,
+    "all-scuole-v6.txt": 3481
   },
   "fonti": [
     {
@@ -31,7 +31,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1966,
+      "entries": 1968,
       "detail": "scartate 1 non instradabile"
     },
     {
@@ -51,7 +51,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1205,
+      "entries": 1206,
       "detail": ""
     },
     {
@@ -61,7 +61,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "ok",
-      "entries": 9682,
+      "entries": 9646,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -111,7 +111,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 88982,
+      "entries": 88418,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -198,7 +198,7 @@
     "reti_modificate": 1
   },
   "condivisi": {
-    "intervalli": 775,
+    "intervalli": 782,
     "voci_escluse": 1344
   }
 }

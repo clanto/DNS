@@ -1826,6 +1826,7 @@ home.weisbrod.me
 home.wriedts.de
 home27.duckdns.org
 home34.su
+homec92.dns.army
 homedns.gumeniuk.com
 homeguard.sleziona.org
 homejerem.duckdns.org
@@ -2039,6 +2040,9 @@ maincloud.ir
 malanser.ru
 man01.dnscry.pt
 maqgie.xyz
+mask-canary.icloud.com
+mask-h2.icloud.com
+mask.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2511,6 +2515,7 @@ szyrzyk.pl
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
+tecdrive.site
 tecworx.at
 telex.app
 test.adg.siudzinski.net
@@ -2541,6 +2546,7 @@ tky-dns.bitdefender.net
 tll01.dnscry.pt
 tls.jackyhou.idv.tw
 tls.windyvale.net
+tlz.asia
 tngch.mydns.jp
 toaster.lol
 tokyo.559299366.xyz
@@ -2565,6 +2571,7 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
+tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
