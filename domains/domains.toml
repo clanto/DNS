@@ -442,6 +442,7 @@ url = "https://raw.githubusercontent.com/PeterDaveHello/url-shorteners/master/li
 format = "domains"
 homepage = "https://github.com/PeterDaveHello/url-shorteners"
 license = "CC BY-SA 4.0"
+copyright = "PeterDaveHello/url-shorteners, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/"
 max_age_days = 60
 note = "Elenco curato a mano di URL shortener; attribuzione: PeterDaveHello/url-shorteners (CC BY-SA 4.0)"
 
@@ -452,6 +453,7 @@ url = "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/
 format = "domains"
 homepage = "https://dsi.ut-capitole.fr/blacklists/"
 license = "CC BY-SA 4.0"
+copyright = "Université Toulouse Capitole (blacklists UT1), CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/"
 max_age_days = 60
 note = "Categoria shortener delle blacklist UT1 (mirror olbat/ut1-blacklists); attribuzione: Université Toulouse Capitole (CC BY-SA 4.0)"
 
@@ -481,6 +483,7 @@ url = "https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornograph
 format = "hosts"
 homepage = "https://github.com/Sinfonietta/hostfiles"
 license = "MIT"
+copyright = "Copyright (c) 2016 Sinfonietta"
 max_age_days = 60
 note = "Elenco curato a mano (alla base dell'estensione porn di StevenBlack/hosts)"
 
