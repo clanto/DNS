@@ -427,19 +427,35 @@ class DomainCandidate:
     ips: list[str]
 
 
+def third_party_cnames(o: Obs) -> set[str]:
+    """Domini registrabili delle destinazioni CNAME diversi dal dominio del nome (servizi di terzi)."""
+    return {registrable_guess(c) for c in o.cnames} - {o.domain}
+
+
 def evaluate_ips(seeds: dict[str, set[str]], obs: dict[str, Obs], legit_ips: set, f: Filters,
-                 cfg: dict) -> tuple[list[IpCandidate], Counter, list[dict]]:
-    """IP candidati, conteggio degli scarti per motivo, IP oltre la densità massima da verificare a mano."""
+                 cfg: dict, apex_of: Callable[[str], set] | None = None) -> tuple[list[IpCandidate], Counter, list[dict]]:
+    """IP candidati, conteggio degli scarti per motivo, IP oltre la densità massima da verificare a mano.
+
+    apex_of(dominio) → IP del dominio stesso: un nome che arriva all'IP via CNAME verso un dominio di terzi conta
+    solo se anche quel dominio sta sull'IP. Un servizio di inoltro o una CDN (es. l'inoltro URL di un registrar)
+    ha il proprio sito altrove: i suoi IP servono migliaia di domini e non sono infrastruttura dedicata."""
     hosts: dict[Address, set[str]] = defaultdict(set)
     flagged: dict[str, set] = {"sinkhole": set(), "parcheggio": set()}
+    via_terzi = 0
     for name, o in obs.items():
         if o.status == "ok":
+            terzi = third_party_cnames(o) if apex_of else set()
             for ip in o.ips:
-                hosts[ip].add(name)
+                if all(ip in apex_of(t) for t in terzi):
+                    hosts[ip].add(name)
+                else:
+                    via_terzi += 1
         elif o.status in flagged:
             flagged[o.status].update(o.ips)
     accepted: list[IpCandidate] = []
     rejected: Counter = Counter()
+    if via_terzi:
+        rejected["associazioni nome-IP via CNAME di servizi di terzi (non contate)"] += via_terzi
     review: list[dict] = []
     for ip in sorted(set(hosts) | flagged["sinkhole"] | flagged["parcheggio"], key=lambda a: (a.version, int(a))):
         names = hosts.get(ip, set())
@@ -546,6 +562,12 @@ def evaluate_domains(obs: dict[str, Obs], legit_obs: dict[str, Obs], accepted_ip
                     continue
             else:
                 ips = cname_ips[d]
+            # Il dominio stesso deve stare solo su IP malevoli dedicati: un registrar o un servizio DNS/inoltro
+            # (es. hichina.com, dns-redirect.com) ha il proprio sito su IP normali ed è infrastruttura condivisa
+            apex = resolve_hosts([d])
+            if not apex or not apex <= accepted_ips:
+                rejected[f"{kind}: dominio con sito proprio fuori dall'infrastruttura malevola (servizio di terzi)"] += 1
+                continue
             found.append(DomainCandidate(d, kind, sorted(zones), sorted(str(i) for i in ips)))
     found.sort(key=lambda c: (-len(c.domains), c.name))
     if len(found) > cfg["max_domain_candidates"]:
@@ -782,15 +804,22 @@ def main() -> int:
     resolved = sum(1 for o in obs.values() if o.status != "non interrogato" and o.status != "errore")
     alive = sum(1 for o in obs.values() if o.status in ("ok", "sinkhole", "parcheggio"))
     dns_ok = bool(seeds) and resolved / len(seeds) >= MIN_RESOLVED_RATIO and alive / len(seeds) >= MIN_ALIVE_RATIO
-    ip_cands, ip_rejected, review = evaluate_ips(seeds, obs, legit_ips, filters, cfg) if dns_ok else ([], Counter(), [])
-    accepted_ips = {c.ip for c in ip_cands}
+    apex_cache: dict[str, set] = {}
+
+    def apex_of(domain: str) -> set:
+        if domain not in apex_cache:
+            apex_cache[domain] = observe(resolver, domain, with_ns=False).ips
+        return apex_cache[domain]
 
     def resolve_hosts(hosts: list[str]) -> set:
         out: set = set()
         for h in hosts:
-            o = observe(resolver, h, with_ns=False)
-            out |= o.ips
+            out |= apex_of(h)
         return out
+
+    ip_cands, ip_rejected, review = (evaluate_ips(seeds, obs, legit_ips, filters, cfg, apex_of) if dns_ok
+                                     else ([], Counter(), []))
+    accepted_ips = {c.ip for c in ip_cands}
 
     dom_cands, dom_rejected = evaluate_domains(obs, legit_obs, accepted_ips, resolve_hosts, known, cfg) \
         if dns_ok else ([], Counter())

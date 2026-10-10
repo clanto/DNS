@@ -261,6 +261,16 @@ def section_ips():
     acc6, rej6, _ = P.evaluate_ips(seeds, o, {ip("203.0.113.42")}, filters(
         protected=B.NetIndex([ipaddress.ip_network("2001:db8::10/128")])), c)
     check(rej6["servizio protetto"] == 1 and len(acc6) == 1, "servizi protetti non esclusi")
+
+    # inoltro di un servizio di terzi (CNAME verso fwd.registrar.example, sito del registrar altrove): IP non dedicato
+    s7 = {f"f{i}.example": {"a", "b"} for i in range(3)}
+    o7 = {n: obs(n, "203.0.113.60", cnames=["fwd.registrar.example"]) for n in s7}
+    o7 |= {f"g{i}.example": obs(f"g{i}.example", "203.0.113.61", cnames=["edge.tds.example"]) for i in range(3)}
+    s7 |= {f"g{i}.example": {"a", "b"} for i in range(3)}
+    apex = {"registrar.example": {ip("198.51.100.200")}, "tds.example": {ip("203.0.113.61")}}
+    acc7, rej7, _ = P.evaluate_ips(s7, o7, set(), filters(), c, lambda d: apex.get(d, set()))
+    got7 = {str(x.ip) for x in acc7}
+    check(got7 == {"203.0.113.61"}, f"inoltro di terzi: IP accettati {got7} {dict(rej7)}")
     return accepted
 
 
@@ -279,7 +289,8 @@ def section_domains(accepted):
         n = f"r{i}.example"
         o[n] = obs(n, "203.0.113.10", ns=["ns1.other-dns.example"])
     legit = {"legit.example": obs("legit.example", "203.0.113.200", ns=["ns9.popular-dns.example"])}
-    hosts = {"ns1.badns.example": {ip("203.0.113.10")}, "ns1.other-dns.example": {ip("203.0.113.150")}}
+    hosts = {"ns1.badns.example": {ip("203.0.113.10")}, "ns1.other-dns.example": {ip("203.0.113.150")},
+             "badns.example": {ip("203.0.113.10")}, "tds.example": {ip("203.0.113.10")}}
 
     def resolve_hosts(names):
         return set().union(*(hosts.get(h, set()) for h in names))
@@ -293,6 +304,15 @@ def section_domains(accepted):
     found2, rej2 = P.evaluate_domains(o, legit, accepted_ips, resolve_hosts,
                                       lambda n: "già bloccato" if n == "badns.example" else None, c)
     check("badns.example" not in {f.name for f in found2} and rej2["nameserver: già bloccato"] == 1, "known")
+    # servizio di terzi (registrar/inoltro): nameserver o CNAME sull'IP malevolo, ma sito proprio altrove
+    o_terzi = {f"t{i}.example": obs(f"t{i}.example", "203.0.113.10", ns=["ns1.registrar.example"],
+                                    cnames=["fwd.registrar.example"]) for i in range(3)}
+    hosts_terzi = {"ns1.registrar.example": {ip("203.0.113.10")}, "registrar.example": {ip("198.51.100.80")}}
+    found_t, rej_t = P.evaluate_domains(o_terzi, legit, accepted_ips,
+                                        lambda names: set().union(*(hosts_terzi.get(h, set()) for h in names)),
+                                        lambda n: None, c)
+    check(not found_t and sum(v for k, v in rej_t.items() if "servizio di terzi" in k) == 2,
+          f"servizio di terzi proposto come dominio malevolo: {[f.name for f in found_t]} {dict(rej_t)}")
     found3, _ = P.evaluate_domains(o, legit, set(), resolve_hosts, lambda n: None, c)
     check(not found3, "candidati senza IP malevoli dedicati")
     return found
