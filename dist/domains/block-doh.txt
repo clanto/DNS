@@ -610,7 +610,6 @@ cattery2.noddos.top
 cc2.v8er.net
 ccadguard.dynu.net
 ccyykk.top
-cdn.0ms.dev
 cdn.refined.pro
 cdzopi.duckdns.org
 censurfridns.dk
@@ -1385,6 +1384,7 @@ dns.odinpl.com
 dns.ofdoom.net
 dns.oliverweinhold.de
 dns.oliviertv.co.za
+dns.olpploiopkuyhiopsfrt.info
 dns.omada.cafe
 dns.omee4.ru
 dns.opendns.com

@@ -1,25 +1,25 @@
 {
   "feed": {
-    "doh-v4.txt": 1328,
+    "doh-v4.txt": 1326,
     "doh-v6.txt": 696,
-    "tor-v4.txt": 5138,
-    "tor-v6.txt": 2430,
+    "tor-v4.txt": 5123,
+    "tor-v6.txt": 2410,
     "threat-v4.txt": 27035,
     "threat-v6.txt": 0,
-    "c2-v4.txt": 463,
+    "c2-v4.txt": 464,
     "c2-v6.txt": 0,
-    "vpn-v4.txt": 9107,
+    "vpn-v4.txt": 9092,
     "vpn-v6.txt": 414,
     "social-v4.txt": 211,
     "social-v6.txt": 119,
-    "inbound-v4.txt": 77733,
+    "inbound-v4.txt": 78176,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "all-v4.txt": 33789,
-    "all-v6.txt": 3126,
-    "all-scuole-v4.txt": 42409,
-    "all-scuole-v6.txt": 3487
+    "all-v4.txt": 33773,
+    "all-v6.txt": 3106,
+    "all-scuole-v4.txt": 42377,
+    "all-scuole-v6.txt": 3466
   },
   "fonti": [
     {
@@ -49,7 +49,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1206,
+      "entries": 1205,
       "detail": ""
     },
     {
@@ -59,7 +59,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "ok",
-      "entries": 9646,
+      "entries": 9608,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -109,7 +109,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 88418,
+      "entries": 88994,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -159,7 +159,7 @@
       "homepage": "https://github.com/0xDanielLopez/TweetFeed",
       "enabled": true,
       "status": "ok",
-      "entries": 466,
+      "entries": 467,
       "detail": "IoC degli ultimi 30 giorni condivisi da ricercatori di sicurezza"
     },
     {
@@ -179,7 +179,7 @@
       "homepage": "https://github.com/X4BNet/lists_vpn",
       "enabled": true,
       "status": "ok",
-      "entries": 11054,
+      "entries": 11039,
       "detail": ""
     },
     {
@@ -238,15 +238,15 @@
     }
   },
   "allowlist": {
-    "voci": 190,
+    "voci": 202,
     "reti_modificate": 0
   },
   "condivisi": {
-    "intervalli": 11298,
-    "voci_escluse": 4400
+    "intervalli": 11263,
+    "voci_escluse": 4412
   },
   "protetti": {
-    "ip_risolti": 187,
+    "ip_risolti": 199,
     "voci_escluse": []
   }
 }

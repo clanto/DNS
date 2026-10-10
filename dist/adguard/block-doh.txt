@@ -1442,6 +1442,7 @@
 ||testaghome.meshkov.info^
 ||adguard.nasaud.info^
 ||xpen.ns01.info^
+||dns.olpploiopkuyhiopsfrt.info^
 ||adguard.onlyfriends.info^
 ||agh.printk.info^
 ||selsby.info^

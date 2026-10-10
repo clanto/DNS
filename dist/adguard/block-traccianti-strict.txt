@@ -10459,7 +10459,6 @@
 ||ssl.citgo.com^
 ||metrics.citi.com^
 ||metrics1.citi.com^
-||content22.online.citi.com^
 ||metrics.citibank.com^
 ||metrics1.citibank.com^
 ||smetrics.privatebank.citibank.com^

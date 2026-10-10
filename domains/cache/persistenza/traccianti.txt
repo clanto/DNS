@@ -12263,7 +12263,6 @@ content.youmiam.com
 content22.bmo.com
 content22.citibank.com.au
 content22.citibankonline.com
-content22.online.citi.com
 contentanalytics.jp
 contentanalyticsinc.com
 contentdsp.com
@@ -60047,3 +60046,9 @@ qualia.id
 retentionscience.com
 rm-api.com
 session.bugsnag.kindle.amazon.dev
+@497685
+choicebump.com
+contents1.00110.citi.com
+contents2.00110.citi.com
+dailydesigned.com
+we-stats.com.cdn.cloudflare.net

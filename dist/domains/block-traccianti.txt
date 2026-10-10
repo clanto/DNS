@@ -10989,6 +10989,7 @@ chirptwig.com
 chivalrouscord.com
 chkppl.com
 chloro.trip.com
+choicebump.com
 choose.adelaide.edu.au
 choose.nu.edu
 chooseupfluence.com
@@ -12252,7 +12253,6 @@ content.youmiam.com
 content22.bmo.com
 content22.citibank.com.au
 content22.citibankonline.com
-content22.online.citi.com
 contentanalytics.jp
 contentanalyticsinc.com
 contentdsp.com
@@ -12262,6 +12262,8 @@ contentlockingnetworks.com
 contentmaximiser.com
 contents.com
 contents.pwc.com
+contents1.00110.citi.com
+contents2.00110.citi.com
 contentsquare.com
 contentsquare.net
 contentwiki.com
@@ -13251,6 +13253,7 @@ dafvng.sunrefre.jp
 dahotex.com
 daifez.thebay.com
 daily-device-help.com
+dailydesigned.com
 dailydivision.com
 dailydomino.com
 dailyonlinebenefits.com
@@ -57382,6 +57385,7 @@ wdw8cv4j.com
 we-are-adot.com
 we-love-privacy.humane.club
 we-stats.com
+we-stats.com.cdn.cloudflare.net
 we.care.oswegohealth.org
 we.kurly.com
 wealth.informabi.com
