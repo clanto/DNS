@@ -3,6 +3,32 @@
 > Generato da `scripts/changelog.py` a ogni build: aggiunte e rimozioni rispetto alla versione precedente.
 > Ultime voci in alto. Per gli IP è indicata la fonte (`ip/cache/`) o `manuale`.
 
+## 2026-10-10 13:08 UTC
+
+- `dist/ip/all-scuole-v4.txt`: +0 / -1 (totale 42409)
+  - rimosse: `91.206.169.26`
+- `dist/ip/all-scuole-v6.txt`: +1 / -1 (totale 3487)
+  - aggiunte: `2806:103e:18:4f13:813:ce3d:c352:986f` (tor-relay)
+  - rimosse: `2001:4ba0:cafe:1267::1`
+- `dist/ip/all-v4.txt`: +0 / -1 (totale 33789)
+  - rimosse: `91.206.169.26`
+- `dist/ip/all-v6.txt`: +1 / -1 (totale 3126)
+  - aggiunte: `2806:103e:18:4f13:813:ce3d:c352:986f` (tor-relay)
+  - rimosse: `2001:4ba0:cafe:1267::1`
+- `dist/ip/tor-v4.txt`: +0 / -1 (totale 5138)
+  - rimosse: `91.206.169.26`
+- `dist/ip/tor-v6.txt`: +1 / -1 (totale 2430)
+  - aggiunte: `2806:103e:18:4f13:813:ce3d:c352:986f` (tor-relay)
+  - rimosse: `2001:4ba0:cafe:1267::1`
+- `dist/adguard/block-pubblicita.txt`: +2 / -0 (totale 64557)
+  - aggiunte: `||pyexakcucqmrs.site^`, `||zavcmzahutmqo.site^`
+- `dist/opnsense/doh.txt`: +36 / -13 (totale 2812)
+  - aggiunte: `1dot1dot1dot1.cloudflare-dns.com`, `adfilter.net`, `censurfridns.dk`, `decloudus.com`, `dns4all.eu`, `dns64.cloudflare-dns.com`, `dnsbunker.org`, `dnsbycomodo.com` e altre 28
+  - rimosse: `adguard.johanliebert.top`, `adguard.laurenlaufman.com`, `digitale-gesellschaft.ch`, `dns.servizimv.it`, `fargos2.dns.army`, `gustamadh.dynv6.net`, `iij.jp`, `kaandikec.com` e altre 5
+- `dist/opnsense/vpn.txt`: +984 / -24 (totale 5272)
+  - aggiunte: `0n0fzcp.online`, `104-243-38-18.backname.io`, `104-243-38-18.plesk.page`, `104-243-38-18.sslip.io`, `104-36-85-249.backname.io`, `104-36-85-249.plesk.page`, `104-36-85-249.sslip.io`, `104.243.38.18.backname.io` e altre 976
+  - rimosse: `19194545tomatomato.ipv64.net`, `2025-happynewyear.f5.si`, `andstaticcache.b-cdn.net`, `anyone.io`, `browsec-ios-pay.b-cdn.net`, `cdn-earnapp.b-cdn.net`, `defencevpn.com`, `fproxy.net` e altre 16
+
 ## 2026-10-10 12:49 UTC
 
 - `dist/adguard/block-pubblicita.txt`: +1 / -0 (totale 64555)

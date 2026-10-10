@@ -8,6 +8,7 @@
 1735r.ru
 1a.ns.ozer.im
 1b.ns.ozer.im
+1dot1dot1dot1.cloudflare-dns.com
 1ee.top
 2.0rz.space
 2.11i.eu
@@ -74,6 +75,7 @@ addns.jujuland.net
 addns.ovalie.ovh
 addns1.m-it.ro
 adfight.ru
+adfilter.net
 adfiltro.fun
 adfree.usableprivacy.net
 adfreedns.eu
@@ -157,12 +159,10 @@ adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
 adguard.jfchenier.ca
-adguard.johanliebert.top
 adguard.k-likhachev.ru
 adguard.kantinyoyok.xyz
 adguard.kiboko.it
 adguard.kitakitsune.xyz
-adguard.laurenlaufman.com
 adguard.lege.despagne.net
 adguard.llf520.dpdns.org
 adguard.londonwebnerd.cloud
@@ -458,6 +458,7 @@ ccadguard.dynu.net
 ccyykk.top
 cdn.refined.pro
 cdzopi.duckdns.org
+censurfridns.dk
 cfdjb.org
 changesmart2024.top
 chaos-system.de
@@ -545,6 +546,7 @@ de-passage.9273082020.ru
 de.dns.privex.io
 de01.dns4me.net
 de51.tcpdoor.net
+decloudus.com
 dedidl.com
 deep-henchman-excuse.cfd
 dehb.ru
@@ -560,7 +562,6 @@ deweerd.loseyourip.com
 dflexy.house.nom.br
 dfw02.dnscry.pt
 dhlifeus-micro1.dns.3456.kr
-digitale-gesellschaft.ch
 digitallink.be
 dingdangnao.com
 dirrectumrx.duckdns.org
@@ -1178,7 +1179,6 @@ dns.sec511.com
 dns.seekfor.top
 dns.sellan.fr
 dns.server2.tschoerner.eu
-dns.servizimv.it
 dns.sev.monster
 dns.shareworx.net
 dns.shecan.ir
@@ -1389,15 +1389,22 @@ dns2.thylacine.co.nz
 dns3.wistarip.com
 dns35.allone.dpdns.org
 dns4.bortus.io
+dns4all.eu
 dns4me.net
 dns6.web.id
+dns64.cloudflare-dns.com
 dns64.dns.google
 dns8.org
 dns9.quad9.net
 dnsbk.wns.watch
 dnsblock.grisumedia.de
+dnsbunker.org
+dnsbycomodo.com
 dnscache.e-utp.net
 dnscache0.ns71.net
+dnscrypt-cert.ffmuc.net
+dnscrypt.ca
+dnscrypt.info
 dnsdoh.art
 dnsenc.com
 dnsforge.de
@@ -1663,6 +1670,7 @@ facomunit.ddns.net
 family-filter-dns.cleanbrowsing.org
 family.adguard-dns.com
 family.canadianshield.cira.ca
+family.cloudflare-dns.com
 family.dns.doubleangels.com
 family.dns.dremaxx.com
 family.dns.mullvad.net
@@ -1675,7 +1683,6 @@ familyshield.opendns.com
 fanscloud.net
 faradns.net
 faradns2.net
-fargos2.dns.army
 fdns1.dismail.de
 fdns2.dismail.de
 fennec.blackyfox.net
@@ -1745,6 +1752,7 @@ google-public-dns-b.google.com
 goose.buckyfan.net
 gr.skrsteam.info
 graf.mywire.org
+graveofhope.ru
 greatideasforlife.lol
 green2.jnraptor.net
 green3.jnraptor.net
@@ -1763,7 +1771,6 @@ guard.miracloud.fr
 guard.pp.ua
 guard.telesterion.de
 guidetoworld.link
-gustamadh.dynv6.net
 gva01.dnscry.pt
 gw1.dns.haynetwork.id
 h.gjrick.tw
@@ -1893,7 +1900,6 @@ iev01.dnscry.pt
 iev02.dnscry.pt
 igor.vpn.i81.ru
 ihctw.synology.me
-iij.jp
 imperio.top
 in-blr.doh.sb
 inadsware.ddns.net
@@ -1934,6 +1940,7 @@ jnb01.dnscry.pt
 jnb02.dnscry.pt
 jnprd.com
 johneldenring.lol
+joindns4.eu
 jonathanaugusto.freeddns.org
 jonzalvo.duckdns.org
 jp-dns1.bancuh.com
@@ -1958,7 +1965,6 @@ justhost.bedro.cloud
 juuri.hagezi.org
 k3n.pw
 ka4tmb.duckdns.org
-kaandikec.com
 kaiser.int.eu.org
 kakawka05.duckdns.org
 kallemarc.de
@@ -2010,6 +2016,7 @@ lelux.fi
 lena.vpn.i81.ru
 lesuo.top
 lfbn-gre-1-319-7.w90-112.abo.wanadoo.fr
+libredns.gr
 lifeisa.live
 lilibox.freeboxos.fr
 lime.samonte.ovh
@@ -2040,8 +2047,10 @@ maincloud.ir
 malanser.ru
 man01.dnscry.pt
 maqgie.xyz
+maradns.org
 mask-canary.icloud.com
 mask-h2.icloud.com
+mask.apple-dns.net
 mask.icloud.com
 mastergad.me
 masters-of-cloud.de
@@ -2092,6 +2101,8 @@ myadg.ru
 myagh.claptrap.me
 myatris.sbs
 mydns.ddns.me
+mypdns.cloud
+mypdns.org
 mypihole.hopto.org
 myprivityvpn.softether.net
 mzs1.ddns.net
@@ -2109,6 +2120,7 @@ nas1403.duckdns.org
 nat64.tuxis.nl
 naujas123.duckdns.org
 naw01.dnscry.pt
+nawala.id
 ncl01.dnscry.pt
 nd.lgprk.com
 ndns.233py.com
@@ -2145,7 +2157,6 @@ notebait.ddnsfree.com
 noxcrow.net
 nqh-dns.duckdns.org
 nrt.core.access.zznet.fun
-nrusimha.crabdance.com
 ns.00dani.me
 ns.cd
 ns.data.haus
@@ -2160,11 +2171,13 @@ ns1.4netguides.org
 ns1.fdn.fr
 ns1.flodns.net
 ns1.i-evolve.net
+ns1.level3.net
 ns1.opennameserver.org
 ns1.qquack.org
 ns1.recursive.dnsbycomodo.com
 ns2.4netguides.org
 ns2.flodns.net
+ns2.level3.net
 ns2.opennameserver.org
 ns2.ravdns.com
 ns2.recursive.dnsbycomodo.com
@@ -2195,10 +2208,11 @@ office.pramanik.org
 ogd01.dnscry.pt
 olga.vpn.i81.ru
 omr01.dnscry.pt
+one.one.one.one
+onedns.net
 oowo.de
 open-resolver1.unima.ac.id
 open.dns.dremaxx.com
-openbld.net
 opencdn.jomodns.com
 opendns.one
 opennic.i2pd.xyz
@@ -2247,6 +2261,7 @@ performance.gosami.xyz
 phantom3c.net
 phongg.vn
 phx01.dnscry.pt
+pi-dns.com
 pi.homeanywhere.org
 pidoh.mapledns.net
 pihole.aws.ketan.dev
@@ -2257,6 +2272,7 @@ pihole3.hoerli.net
 pips.kpsn.org
 pitchforkwaydns.duckdns.org
 pl-waw-w-p-2.nashkan.net
+plan9-dns.com
 plex.skin57.de
 pluton.plan9-dns.com
 pm1239-bd.xyz
@@ -2289,9 +2305,11 @@ purpose.shamanlanding.org
 pygos.space
 qaz.tw
 qdns02.nymterm.com
+qis.io
 qlf-doh.inria.fr
 qqmcfw.tech
 qstam.ru
+quad9.net
 quadrogramma.vps.webdock.cloud
 qual.cuprum.ru
 quangdo92.dynu.net
@@ -2379,6 +2397,7 @@ router.sapib.ca
 roycom.win
 rpz-public-resolver1.rrdns.pch.net
 ru-mow.doh.sb
+rubyfish.cn
 rudolphdesigns.com
 rumpelsepp.org
 rwkdwpwsyv48.mikopono.nl
@@ -2396,7 +2415,11 @@ sacarino.es
 safe.dns.yandex.ru
 safe.dot.dns.yandex.net
 safe.eaccelera.com
+safedns.allover.co.za
+safedns2.allover.co.za
 safeservedns.com
+safesurfer.co.nz
+safesurfer.io
 salvadoserver.duckdns.org
 sams.adg.siudzinski.net
 sandbox.opendns.com
@@ -2422,6 +2445,7 @@ securedns.vendorvista.xyz
 securenet.mhsystems.net
 securifi.jagalabs.net
 security-filter-dns.cleanbrowsing.org
+security.cloudflare-dns.com
 sel02.dnscry.pt
 seoul.101818.xyz
 server01.karl.one
@@ -2443,7 +2467,6 @@ sgs02.just-a-web.com
 shadowart.online
 shakdns.cc
 shalenkov.cc
-shalenkov.dev
 shanghainese.uk
 shield.afixer.app
 shield.kidshielder.com
@@ -2506,7 +2529,6 @@ surviil.duckdns.org
 svg33.eu
 swe.try-dns.com
 sweethome.in.eu.org
-switch.ch
 switzerland.privacy-dns.pw
 syd.adfilter.net
 syd.core.access.zznet.fun
@@ -2534,6 +2556,7 @@ thefamilypuls.com
 thenotionplus.top
 thxvv.ru
 tia01.dnscry.pt
+tiar.app
 tienpham.id.vn
 tiger.dns.qwer.pw
 tigrons.ru
@@ -2571,7 +2594,6 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
-tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
@@ -2627,6 +2649,7 @@ us02.dns4me.net
 us1.blissdns.net
 us1.dns.lavate.ch
 us44nas.top
+usableprivacy.net
 usascoot.com
 usatwo.wuyouss.com
 use-application-dns.net
