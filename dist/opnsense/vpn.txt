@@ -17,7 +17,6 @@
 1008868842.rsc.cdn77.org
 1016945378.rsc.cdn77.org
 1017683305.rsc.cdn77.org
-102-orp-diordna.b-cdn.net
 102.theartieschaffer.com
 1028989235.rsc.cdn77.org
 1034336200.rsc.cdn77.org
@@ -84,7 +83,6 @@
 1133309464.rsc.cdn77.org
 1138625791.rsc.cdn77.org
 1138962056.rsc.cdn77.org
-114-etilobrut-diordna.b-cdn.net
 114.ip-158-69-222.net
 1142797333.rsc.cdn77.org
 1153865737.rsc.cdn77.org
@@ -473,9 +471,6 @@
 3wvve99e.com
 4.theartieschaffer.com
 4.thetravelingtourguide.com
-401-0506.b-cdn.net
-401-0507.b-cdn.net
-401-retsam-swodniw.b-cdn.net
 41.hide.newflamingodomain.co.uk
 416d70de.nip.io
 416d70de.sslip.io
@@ -706,7 +701,6 @@ alhe.baodacn.cn
 alice-vpn.info
 aliveproxies.com
 aliveproxy.com
-all3.beshdash.ir
 allow.sparks.ddns-ip.net
 almida.pro
 alohabrowser.app
@@ -945,7 +939,6 @@ besplatnyvpn.ru
 best-dock.surge.sh
 best-proxy.com
 bestdaygame.com
-bestproxy.xyz
 bestssh.net
 bestvpn.help
 bestvpnonline.online
@@ -1011,9 +1004,7 @@ bloquer.fr
 bluegray.us
 blueproxy.org
 bmetrics.org
-bmext1static.b-cdn.net
 bmjwk.cn
-bmqan2static.b-cdn.net
 bn0dghrx.com
 bnj0d3r2.com
 bo0ji.co.uk
@@ -1053,7 +1044,6 @@ bro-ru.net
 bro-ru.org
 broadearn.com
 bromineproxy.netlify.app
-browsec-ru.b-cdn.net
 browsec-ru.bz
 browsec-ru.com
 browsec-ru.net
@@ -1064,7 +1054,6 @@ browsec-rus.net
 browsec-rus.org
 browsec-uninstall.s3-website.eu-central-1.amazonaws.com
 browsec-vpn-ru.com
-browsec.b-cdn.net
 browsec.best
 browsec.biz
 browsec.bz
@@ -1078,7 +1067,6 @@ brsueykh.com
 brunysixl.work
 brunysixl.work.cdn.cloudflare.net
 brwczgvk.com
-bs-static.b-cdn.net
 bs8h3v1f.com
 bsbollbn.com
 btc4animals.com
@@ -1757,7 +1745,6 @@ freedomun.netlify.app
 freelearn.myclarevision.com
 freemicvpn.com
 freemybrowser.com
-freeopenvpn.org
 freeplace.info
 freeplanetvpn-rus.com
 freeplanetvpn.net
@@ -1773,11 +1760,9 @@ freevpn.cloud
 freevpn.one
 freevpn.org
 freevpn.pw
-freevpn4you.net
 freevpnapp.org
 freevpnfast.info
 freevpnkeys.com
-freevpnme.b-cdn.net
 freevpnnet.com
 freevpnplanet-rus.com
 freevpnplanet-rus.net
@@ -1924,7 +1909,6 @@ goal.registration.abrdns.com
 godlord8465.route64.de
 godzillo.link
 gofastdirect.top
-gog.xena.wtf
 gogardiansucks.myclarevision.com
 goguardian-is-not-my-guardian.easterndns.com
 gointospace.app
@@ -2182,7 +2166,6 @@ hmx.info
 hnveiere.com
 hockeybet.org
 hoeqphmi.com
-hola-client-cdn4.b-cdn.net
 hola-compat.com
 hola-vpn.com
 hola.org
@@ -2272,7 +2255,6 @@ ib-kuailian.com.cn
 ibqlbd1z.com
 ibribeillegals.vaultnoir.com
 ibvpn.com
-ice.io
 icitek.com
 idiot.foltmeingop.co.uk
 iditinahuipidorasidagga.net
@@ -2346,7 +2328,6 @@ interview.registration.abrdns.com
 intervpn.com
 iohnhbly.com
 iopl.xyz
-iosap2-static.b-cdn.net
 iosp33beec-20c12.kxcdn.com
 ioxy.de
 ip42.ip-15-204-147.us
@@ -2545,7 +2526,6 @@ kny666.com
 koavhvne.com
 kollon2.xyz
 kommpjxc.com
-konnektor.stratipharm.de
 konnnitiha----saiko.easterndns.com
 korededouda.laviewddns.com
 koxy.de
@@ -2826,7 +2806,6 @@ mexi.rest
 mexi.rest.cdn.cloudflare.net
 mfho.cc
 mgyfyvyo.com
-mhany.xyz
 mhbqhdwg.com
 microvpn.com
 migz.store
@@ -2852,8 +2831,6 @@ mjkuhini-777.easterndns.com
 mjpabahu.com
 mkdkkn5k.com
 mkkewfye.com
-mlst-prom-static.b-cdn.net
-mlst-static.b-cdn.net
 mm.unstop.cloudns.ch
 mnqwscym.com
 mobile-socket.culturegps.com
@@ -2986,10 +2963,6 @@ mqrxgzi4.com
 mrakfhre.com
 mramato2.myclarevision.com
 mrbuwfks.com
-mrr-qa-static.b-cdn.net
-mrr-qa2-static.b-cdn.net
-mrr-qa3-static.b-cdn.net
-mrscraper.com
 msc.mcafee.com
 msgiepkj.com
 msstore-submissions.s3.us-east-1.amazonaws.com
@@ -3170,7 +3143,6 @@ ns542389.ip-144-217-77.net
 nsb.mrco.giize.com
 nsd160.org
 ntdll.xyz
-nucleusvpn.com
 nucnhwsx.com
 nuevita.org
 nutlskyp.com
@@ -3306,6 +3278,7 @@ passageplace.com
 passssssssssword.easterndns.com
 patronize.bury.abrdns.com
 pawxy.com
+pay4app.store
 paydar.goooalir.co.uk
 pbavtqle.com
 pbproxy.red
@@ -3798,6 +3771,7 @@ s2wd5kbq.com
 s3-oregon-1.s3-us-west-2.amazonaws.com
 s47n.ir.ir.ir.meli-n12.info
 s4m.tech
+s4m.xyz
 s7n.ir.ir.ir.meli-n12.info
 s8.amazonaws.jdymqic.shop
 s8ks.us
@@ -3808,6 +3782,7 @@ safehousetech.com
 safemyip.pro
 safenetbrowser.com
 safeproxy.app
+saferiverpay.com
 safersurfing.net
 safeshellvpn.com
 safetysurf.net
@@ -3876,6 +3851,7 @@ securewebproxy.net
 securitykiss.com
 securly.mom
 secvpnproxy.co.cc
+seed4.me
 seed4me-vpn.mom
 seed4me.app
 seed4me.help
@@ -4020,6 +3996,8 @@ sqth8tqn.com
 squall.cc
 squirrelvpn.com
 ssh-free.com
+ssh.meow0.co.uk
+ssh2.best-moz.info
 sshagan.net
 ssl-proxy.my-addr.com
 ssl3cdn.com
@@ -4278,6 +4256,7 @@ triplemlk.com
 tronyza.com
 troywell-vpn.help
 troywellvpn.com
+trueproxy.com
 truf.khaosfallen.tech
 truffled.lol
 truffled.lol.cdn.cloudflare.net
@@ -4470,7 +4449,6 @@ uwqjkirj.com
 uytjhuyghbjkuiyhbjku.fghvhbvghjgj.bonded-game.com
 uzrzhcyx.com
 v-2ray.com
-v.cheerfun.dev
 v.theartieschaffer.com
 v0jlq071shapnlnhj0p9.online
 v22013121930515853.yourvserver.net
@@ -5236,7 +5214,6 @@ znselxsz.com
 zo0g.site
 zoihvj9m.com
 zonevpn.com
-zoog.pro
 zoogas.site
 zoogasdaj.site
 zoogasja.site
