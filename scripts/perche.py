@@ -8,7 +8,8 @@ il workflow di build lo pubblica su GitHub Pages insieme a docs/ (https://clanto
                           il numero di partizioni, in esadecimale (stesso calcolo in docs/perche-bloccato.html)
 
 Record di un dominio (lista e fonti sono indici di meta.json "liste" e "fonti"):
-  [lista, [fonti], primo, punteggio, strict]  bloccato da una lista con punteggio (primo = ore UTC dall'epoca Unix)
+  [lista, [fonti], primo, errore, strict]     bloccato da una lista con livello strict (primo = ore UTC dall'epoca
+                                              Unix, errore = errore stimato in parti per milione)
   [lista, [fonti]]                            bloccato da una lista senza punteggio
   [lista, [fonti], "motivo"]                  tolto da una blocklist (esclusione di cura, PSL, protetto, allowlist)
   [lista, "motivo"]                           presente in un'allowlist
@@ -124,7 +125,7 @@ def spiega(host: str, indice: Indice) -> dict:
                 continue
             voce = {**base, "fonti": nomi_fonti}
             if len(rec) == 5:
-                voce.update(primo=data_ora(rec[2]), punteggio=rec[3], strict=bool(rec[4]))
+                voce.update(primo=data_ora(rec[2]), errore=rec[3], strict=bool(rec[4]))
             out["blocchi"].append(voce)
     out["bloccato"] = bool(out["blocchi"])
     out["sbloccato_adguard"] = bool(out["blocchi"] and out["consentite"])
@@ -160,8 +161,9 @@ def formatta(r: dict, meta: dict) -> str:
     for b in r["blocchi"]:
         regola = f"regola ||{b['regola']}^" + (" (dominio padre)" if b["padre"] else "")
         extra = ""
-        if "punteggio" in b:
-            extra = f", punteggio {b['punteggio']}, primo avvistamento {b['primo']}, strict: {'sì' if b['strict'] else 'no'}"
+        if "errore" in b:
+            extra = (f", errore stimato {b['errore'] / 1e4:.4f}%, primo avvistamento {b['primo']}, "
+                     f"strict: {'sì' if b['strict'] else 'no'}")
         righe.append(f"  - {b['lista']}: {regola}, fonti {', '.join(b['fonti'])}{extra}")
     for t in r["tolte"]:
         righe.append(f"  - non in {t['lista']} per {t['regola']}: {t['motivo']} (fonti {', '.join(t['fonti'])})")

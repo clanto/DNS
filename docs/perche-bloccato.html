@@ -145,7 +145,7 @@
           if (lista.tipo === "allow") { b.motivo = rec[1]; r.consentite.push(b); return; }
           b.fonti = rec[1].map(function (i) { return m.fonti[i]; });
           if (rec.length === 3) { b.motivo = rec[2]; r.tolte.push(b); return; }
-          if (rec.length === 5) { b.primo = oraUTC(rec[2]); b.punteggio = rec[3]; b.strict = !!rec[4]; }
+          if (rec.length === 5) { b.primo = oraUTC(rec[2]); b.errore = rec[3]; b.strict = !!rec[4]; }
           r.blocchi.push(b);
         });
       });
@@ -226,8 +226,9 @@
         var parts = [el("strong", "", b.lista), ": regola ", code("||" + b.regola + "^")];
         if (b.padre) parts.push(" (dominio padre: copre anche i sottodomini)");
         parts.push(". Fonti: " + b.fonti.join(", ") + ".");
-        if (b.punteggio !== undefined) {
-          parts.push(" Punteggio " + b.punteggio + "/100, primo avvistamento " + b.primo + ". Livello strict: ");
+        if (b.errore !== undefined) {
+          parts.push(" Errore stimato " + (b.errore / 10000).toFixed(4) + "%, primo avvistamento " + b.primo +
+                     ". Livello strict: ");
           parts.push(el("span", "tag" + (b.strict ? " si" : ""), b.strict ? "sì, anche in " + b.info.strict + ".txt" : "no"));
         }
         ul.appendChild(li(parts));
