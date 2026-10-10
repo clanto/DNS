@@ -202,6 +202,7 @@ url = "https://raw.githubusercontent.com/Phishing-Database/Phishing.Database/mas
 format = "domains"
 homepage = "https://github.com/Phishing-Database/Phishing.Database"
 license = "MIT"
+copyright = "Copyright (c) 2018-2025 Mitchell Krog, Nissar Chababy"
 
 [[sources]]
 id = "stalkerware-indicators"
@@ -211,6 +212,7 @@ url = "https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master
 format = "domains"
 homepage = "https://github.com/AssoEchap/stalkerware-indicators"
 license = "CC BY 4.0 (Echap)"
+copyright = "Echap (https://echap.eu.org), CC BY 4.0 https://creativecommons.org/licenses/by/4.0/"
 
 [[sources]]
 id = "nocoin"
@@ -220,6 +222,7 @@ url = "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/ho
 format = "hosts"
 homepage = "https://github.com/hoshsadiq/adblock-nocoin-list"
 license = "MIT"
+copyright = "Copyright (c) 2017 Hosh"
 
 [[sources]]
 id = "blocklistproject-redirect"
@@ -290,6 +293,7 @@ url = "https://raw.githubusercontent.com/MikhailKasimov/validin-phish-feed/main/
 format = "domains"
 homepage = "https://github.com/MikhailKasimov/validin-phish-feed"
 license = "MIT"
+copyright = "Copyright (c) 2024 Mikhail Kasimov"
 
 [[sources]]
 id = "tweetfeed-domains"
@@ -335,6 +339,7 @@ url = "https://raw.githubusercontent.com/spmedia/Crypto-Scam-and-Crypto-Phishing
 format = "domains"
 homepage = "https://github.com/spmedia/Crypto-Scam-and-Crypto-Phishing-Threat-Intel-Feed"
 license = "MIT"
+copyright = "Copyright (c) 2024 Edmond Major III"
 max_age_days = 30
 note = "Truffe e phishing di criptovalute (nonostante il nome del file, contiene solo domini)"
 
@@ -345,6 +350,7 @@ url = "https://easylist.to/easylist/easylist.txt"
 format = "adblock"
 homepage = "https://easylist.to/"
 license = "GPL-3.0 o CC BY-SA 3.0"
+copyright = "The EasyList authors (https://easylist.to/)"
 max_age_days = 30
 note = "Solo regole di dominio ||dominio^ senza modificatori; regole cosmetiche e con opzioni scartate"
 
@@ -365,6 +371,7 @@ url = "https://easylist.to/easylist/easyprivacy.txt"
 format = "adblock"
 homepage = "https://easylist.to/"
 license = "GPL-3.0 o CC BY-SA 3.0"
+copyright = "The EasyList authors (https://easylist.to/)"
 max_age_days = 30
 note = "Solo regole di dominio ||dominio^ senza modificatori"
 
@@ -385,6 +392,7 @@ url = "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV
 format = "domains"
 homepage = "https://github.com/Perflyst/PiHoleBlocklist"
 license = "MIT"
+copyright = "Copyright (c) 2018 Perflyst"
 max_age_days = 365
 note = "Telemetria delle smart TV; gli host indispensabili delle app Samsung TV sono in allow-smart-tv"
 

@@ -171,12 +171,10 @@ Liste esterne da abbonare direttamente su AdGuard, insieme alle nostre liste di 
 | [BlocklistProject Fraud](https://blocklistproject.github.io/Lists/adguard/fraud-ags.txt) | truffe | tutti | Unlicense |
 | [BlocklistProject Scam](https://blocklistproject.github.io/Lists/adguard/scam-ags.txt) | truffe | tutti | Unlicense |
 | [BlocklistProject Ransomware](https://blocklistproject.github.io/Lists/adguard/ransomware-ags.txt) | ransomware | tutti | Unlicense |
-| [URLhaus (malware-filter)](https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt) | malware | tutti | Termini abuse.ch |
 | [HaGeZi Spam TLDs](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt) | TLD abusati | tutti | GPL-3.0 |
 | [HaGeZi Fake](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt) | truffe | tutti | GPL-3.0 |
 | [HaGeZi DGA 7 giorni](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/dga7.txt) | malware (domini generati) | tutti | GPL-3.0 |
 | [HaGeZi NRD 7 giorni](https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd7.txt) | domini registrati da poco | tutti | GPL-3.0 |
-| [Frogeye first-party trackers](https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt) | tracker CNAME cloaking | tutti | MIT |
 | [WindowsSpyBlocker spy](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt) | telemetria Windows | aziende | MIT |
 | [HaGeZi Gambling](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt) | scommesse | scuole | GPL-3.0 |
 | [UT1 Université Toulouse Capitole](https://dsi.ut-capitole.fr/blacklists/index_en.php) | categorie per scuole | scuole | CC BY-SA 4.0 |
@@ -242,4 +240,6 @@ Risorse esterne, non mantenute da noi:
 
 ## Licenza
 
-[GPL-3.0](LICENSE). Attribuzioni delle fonti in [dist/THIRD_PARTY.md](dist/THIRD_PARTY.md).
+[GPL-3.0](LICENSE), per il codice e per le liste pubblicate. Le liste derivano anche da fonti di terze parti, ciascuna con la propria licenza (tutte compatibili con GPL-3.0 e con l'uso commerciale): licenze, avvisi di copyright e attribuzioni in [dist/THIRD_PARTY.md](dist/THIRD_PARTY.md).
+
+Le liste sono fornite **senza garanzia** (GPL-3.0, sezioni 15-16): un blocco o un mancato blocco non sono garantiti. Chi ritiene che un proprio dominio o IP sia in lista per errore, o che una fonte sia usata in violazione dei suoi termini, può aprire una segnalazione: le voci contestate vengono verificate ed escluse in [domains/escludi.txt](domains/escludi.txt) o tolte dalla fonte.

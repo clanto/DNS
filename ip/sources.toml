@@ -282,6 +282,7 @@ category = "vpn"
 url = "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt"
 homepage = "https://github.com/X4BNet/lists_vpn"
 license = "MIT"
+copyright = "Copyright (c) 2024 X4B (Mathew Heard)"
 min_prefix_v4 = 12
 
 [[sources]]
@@ -291,6 +292,7 @@ category = "vpn"
 url = "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv6.txt"
 homepage = "https://github.com/X4BNet/lists_vpn"
 license = "MIT"
+copyright = "Copyright (c) 2024 X4B (Mathew Heard)"
 
 # ---------------------------------------------------------------------------
 # Fonti disattivate: termini da chiarire con il gestore

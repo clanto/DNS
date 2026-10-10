@@ -18,6 +18,16 @@ from build_ip import RAW_BASE, ROOT
 from ct_phishing_it import promuovi
 
 DIST = ROOT / "dist"
+MIT_TEXT = ("Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated "
+            "documentation files (the \"Software\"), to deal in the Software without restriction, including without "
+            "limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the "
+            "Software, and to permit persons to whom the Software is furnished to do so, subject to the following "
+            "conditions: The above copyright notice and this permission notice shall be included in all copies or "
+            "substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, "
+            "EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A "
+            "PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR "
+            "ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, "
+            "OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.")
 IP_CFG = tomllib.loads((ROOT / "ip/sources.toml").read_text(encoding="utf-8"))
 DOM_CFG = tomllib.loads((ROOT / "domains/domains.toml").read_text(encoding="utf-8"))
 promuovi(DOM_CFG)  # block-phishing-it a osservazione chiusa (domains/ct_marchi.toml)
@@ -105,13 +115,16 @@ def third_party() -> str:
              "> Generato da `scripts/build_index.py`: **non modificare a mano**. Le liste pubblicate in `dist/` sono",
              "> distribuite sotto GPL-3.0 e derivano anche dalle fonti seguenti, ciascuna con la propria licenza.", "",
              "## Fonti ripubblicate nelle liste", "",
-             "| Fonte | Usata in | Licenza | Sito |", "|---|---|---|---|"]
-    rows = [(s["id"], f"feed IP `{s['category']}`", s.get("license", ""), s.get("homepage", ""))
+             "| Fonte | Usata in | Licenza | Copyright / attribuzione | Sito |", "|---|---|---|---|---|"]
+    rows = [(s["id"], f"feed IP `{s['category']}`", s.get("license", ""), s.get("copyright", ""), s.get("homepage", ""))
             for s in IP_CFG.get("sources", []) if s.get("enabled", True)]
-    rows += [(s["id"], f"lista domini `{s['category']}`", s.get("license", ""), s.get("homepage", s.get("url", "")))
-             for s in DOM_CFG.get("sources", [])]
-    for sid, used, lic, home in sorted(rows):
-        lines.append(f"| {sid} | {used} | {lic} | {home} |")
+    rows += [(s["id"], f"lista domini `{s['category']}`", s.get("license", ""), s.get("copyright", ""),
+              s.get("homepage", s.get("url", ""))) for s in DOM_CFG.get("sources", [])]
+    for sid, used, lic, copy, home in sorted(rows):
+        lines.append(f"| {sid} | {used} | {lic} | {copy} | {home} |")
+    if any(r[2].startswith("MIT") for r in rows):
+        lines += ["", "Fonti con licenza MIT: per ciascuna vale l'avviso di copyright indicato sopra e il permesso seguente.",
+                  "", "> " + MIT_TEXT]
     lines += ["", "## Dati usati solo per filtrare (non ripubblicati)", "",
               "| Fonte | Uso | Sito |", "|---|---|---|"]
     for s in IP_CFG.get("shared_sources", []):

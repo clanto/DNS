@@ -71,14 +71,6 @@ license = "Unlicense"
 ambito = "tutti"
 
 [[lists]]
-name = "URLhaus (malware-filter)"
-url = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt"
-category = "malware"
-license = "Termini abuse.ch"
-ambito = "tutti"
-note = "Per l'uso commerciale i termini abuse.ch possono richiedere un abbonamento"
-
-[[lists]]
 name = "HaGeZi Spam TLDs"
 url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt"
 category = "TLD abusati"
@@ -108,13 +100,6 @@ ambito = "tutti"
 note = "Circa 3,6 milioni di voci: verificare la RAM di AdGuard"
 
 # --- Telemetria ---
-[[lists]]
-name = "Frogeye first-party trackers"
-url = "https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt"
-category = "tracker CNAME cloaking"
-license = "MIT"
-ambito = "tutti"
-
 [[lists]]
 name = "WindowsSpyBlocker spy"
 url = "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt"
