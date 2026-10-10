@@ -2974,7 +2974,6 @@
 ||dns.thiz.top^
 ||kr.tomgirl.top^
 ||us44nas.top^
-||dns.wahr.top^
 ||bwh.why4free.top^
 ||wiqi.top^
 ||xholgm.top^
@@ -3017,7 +3016,6 @@
 ||adguard-server.pp.ua^
 ||2.alpo.pp.ua^
 ||angry.pp.ua^
-||gauss.pp.ua^
 ||gruppo.pp.ua^
 ||guard.pp.ua^
 ||dns.ha-dvin.pp.ua^
@@ -3026,7 +3024,6 @@
 ||pad3w.pp.ua^
 ||reskah.pp.ua^
 ||sundalandia.pp.ua^
-||syre.pp.ua^
 ||virga.pp.ua^
 ||dns.xxxxxxxx.pp.ua^
 ||zxcvb.pp.ua^

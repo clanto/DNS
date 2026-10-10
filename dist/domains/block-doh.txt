@@ -1607,7 +1607,6 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
-dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -2172,7 +2171,6 @@ gaia.plonknet.com
 galileo.math.unipd.it
 gammesfeld.eu
 gateway.fomichev.cloud
-gauss.pp.ua
 gb-cov-w-f-1.nashkan.net
 gb-cov-w-f-2.nashkan.net
 gb-cov-w-p-1.nashkan.net
@@ -3140,7 +3138,6 @@ switzerland.privacy-dns.pw
 syd.adfilter.net
 syd.core.access.zznet.fun
 syd02.dnscry.pt
-syre.pp.ua
 szyrzyk.pl
 t2c.240130034.xyz
 takhtakh.domyah.net
