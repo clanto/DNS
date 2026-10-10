@@ -61,7 +61,7 @@ def normalize(token: str) -> str:
     return token.encode("idna").decode("ascii")
 
 
-def load(path: Path, *, tld: bool, today: date, errors: list[str]) -> tuple[list[str], int]:
+def load(path: Path, *, tld: bool, today: date, errors: list[str], max_fields: int = 5) -> tuple[list[str], int]:
     names: list[str] = []
     seen: dict[str, str] = {}
     expired = 0
@@ -72,10 +72,11 @@ def load(path: Path, *, tld: bool, today: date, errors: list[str]) -> tuple[list
             continue
         where = f"{rel}:{no}"
         fields = [f.strip() for f in line.split("|")]
-        if not 3 <= len(fields) <= 5:
-            errors.append(f"{where}: formato atteso 'dominio | AAAA-MM-GG | motivo | ticket | scadenza'")
+        if not 3 <= len(fields) <= max_fields:
+            errors.append(f"{where}: formato atteso 'dominio | AAAA-MM-GG | motivo | ticket | scadenza"
+                          + (" | liste'" if max_fields > 5 else "'"))
             continue
-        token, added, reason, ticket, expires = fields + [""] * (5 - len(fields))
+        token, added, reason, ticket, expires = (fields + [""] * (5 - len(fields)))[:5]
         try:
             name = normalize(token)
         except UnicodeError:
@@ -109,6 +110,28 @@ def load(path: Path, *, tld: bool, today: date, errors: list[str]) -> tuple[list
         seen[name] = where
         names.append(name)
     return names, expired
+
+
+def load_scopes(path: Path, cats: set[str], errors: list[str]) -> dict[str, set[str]]:
+    """Esclusioni di cura limitate ad alcune liste (sesto campo 'porno,redirect'): dominio → categorie.
+    Senza sesto campo l'esclusione vale per tutte le liste e il dominio non compare qui."""
+    scopes: dict[str, set[str]] = {}
+    if not path.exists():
+        return scopes
+    rel = path.relative_to(ROOT).as_posix()
+    for no, raw in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+        fields = [f.strip() for f in raw.split("|")]
+        if raw.lstrip().startswith("#") or len(fields) < 6 or not fields[5]:
+            continue
+        wanted = {c.strip() for c in fields[5].split(",") if c.strip()}
+        if unknown := wanted - cats:
+            errors.append(f"{rel}:{no}: liste inesistenti {', '.join(sorted(unknown))} (categorie block di domains.toml)")
+            continue
+        try:
+            scopes[normalize(fields[0])] = wanted
+        except UnicodeError:
+            continue
+    return scopes
 
 
 def parse_domain_text(text: str, fmt: str) -> tuple[set[str], int]:
@@ -375,7 +398,14 @@ def main() -> int:
     raw = {cat: set(collected[("block", cat)][0]) for cat in cfg.get("block", {})}
 
     # Esclusioni di cura: nomi esatti tolti dalle voci delle fonti esterne (le voci manuali restano)
-    curated = set(load(EXCLUDE_PATH, tld=False, today=today, errors=errors)[0]) if EXCLUDE_PATH.exists() else set()
+    # sesto campo facoltativo: liste a cui l'esclusione si applica (vuoto = tutte)
+    curated = set(load(EXCLUDE_PATH, tld=False, today=today, errors=errors, max_fields=6)[0]) if EXCLUDE_PATH.exists() else set()
+    scopes = load_scopes(EXCLUDE_PATH, set(cfg.get("block", {})), errors)
+    curated -= scopes.keys()  # globali: tutte le liste; le altre solo nelle liste indicate
+    curated_cat: dict[str, set[str]] = {}
+    for name, cats in scopes.items():
+        for c in cats:
+            curated_cat.setdefault(c, set()).add(name)
     # Piattaforme (sezione privata PSL): nelle categorie con exclude_platforms il dominio della piattaforma
     # arrivato da una fonte esterna si toglie, i singoli sottodomini malevoli restano
     platforms: set[str] = set()
@@ -395,7 +425,7 @@ def main() -> int:
 
     for cat in cfg.get("block", {}):
         names = collected[("block", cat)][0]
-        dropped = (names & curated) - manual[cat]
+        dropped = (names & (curated | curated_cat.get(cat, set()))) - manual[cat]
         names -= dropped
         if dropped:
             source_report.append(f"- esclusioni di cura in block/{cat}: {len(dropped)} ({', '.join(sorted(dropped)[:5])})")
@@ -466,6 +496,7 @@ def main() -> int:
     ctx = punteggio.Contesto(curated, platforms, protected, {
         cat: names for (kind, cat), (names, _) in collected.items() if kind == "allow" and not cfg["allow"][cat].get("protect")},
         own, covers, drop_covered)
+    ctx.curated_cat = curated_cat
     ctx.popolari, status = punteggio.carica_popolari(
         cfg, offline, not args.check, lambda u: asn.read_https(u, timeout=120, limit=60 * 1024 * 1024), asn.gunzip)
     source_report.append(f"- popolarità CrUX: {status}")

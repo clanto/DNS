@@ -259,6 +259,22 @@ def section_domains():
     doh = set((ROOT / "dist/domains/block-doh.txt").read_text().split())
     for excluded in ("fortinet.com", "checkpoint.com", "wellpoint.com", "opendns.com", "adguard.io"):
         check(excluded not in vpn and excluded not in doh, f"esclusione di cura non applicata: {excluded}")
+    # esclusione limitata a una lista (sesto campo): un sito torrent esce da porno ma resta in pirateria
+    porno = set((ROOT / "dist/domains/block-porno.txt").read_text().split())
+    pirateria = set((ROOT / "dist/domains/block-pirateria.txt").read_text().split())
+    check("1337x.to" not in porno and "1337x.to" in pirateria, "esclusione limitata a block-porno non applicata")
+    with tempfile.TemporaryDirectory() as td:
+        f = Path(td) / "prova-escludi-test.txt"
+        f.write_text("a.example | 2026-01-01 | prova | - |  | porno,redirect\nb.example | 2026-01-01 | prova | -\n"
+                     "c.example | 2026-01-01 | prova | - |  | inesistente\n", encoding="utf-8")
+        f_rel = ROOT / "domains" / f.name  # load_scopes vuole un percorso nel repository per i messaggi
+        errs: list[str] = []
+        try:
+            f_rel.write_bytes(f.read_bytes())
+            sc = BD.load_scopes(f_rel, {"porno", "redirect", "pirateria"}, errs)
+        finally:
+            f_rel.unlink()
+    check(sc == {"a.example": {"porno", "redirect"}} and len(errs) == 1, f"load_scopes: {sc} {errs}")
     ddns = set((ROOT / "dist/domains/block-ddns.txt").read_text().split())
     trk = set((ROOT / "dist/domains/block-traccianti.txt").read_text().split())
     ads = set((ROOT / "dist/domains/block-pubblicita.txt").read_text().split())

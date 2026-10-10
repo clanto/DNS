@@ -1,7 +1,9 @@
 # Esclusioni di cura: domini tolti dalle voci che arrivano dalle FONTI ESTERNE delle blocklist.
 # Non sono allowlist: AdGuard non li sblocca se li blocca un'altra lista, e le nostre voci manuali restano.
 # Solo il nome esatto: i sottodomini restano (es. escludere opendns.com non toglie doh.opendns.com).
-# Formato: dominio | data AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+# Formato: dominio | data AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale) | liste (opzionale)
+# Liste: categorie separate da virgola (es. 'porno') a cui l'esclusione si applica; vuoto = tutte le liste.
+# Serve quando un dominio è giusto in una lista e sbagliato in un'altra (es. un sito torrent: pirateria sì, porno no).
 fortinet.com | 2026-10-08 | aggiornamenti FortiGate/FortiClient | -
 fortinet.net | 2026-10-08 | FortiGuard e FortiClient | -
 fortiwebcloud.net | 2026-10-08 | Fortinet FortiWeb Cloud | -
@@ -284,3 +286,79 @@ derpibooru.org | 2026-10-10 | galleria di fan art, non pornografia (Sinfonietta)
 xnxx-app.en.softonic.com | 2026-10-10 | pagina di download su Softonic (Sinfonietta) | -
 xnxx-video-player-all-format.en.softonic.com | 2026-10-10 | pagina di download su Softonic (Sinfonietta) | -
 booth.pm | 2026-10-10 | marketplace generalista Pixiv (Sinfonietta) | -
+1337x.org | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+1337x.to | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+3sktv.beauty | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+aletorrenty.pl | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+allmanga.to | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+anidex.info | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+anime-sharing.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+animefox.org | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+animeyt.es | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+appzplanet.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+arenabg.ch | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+best-moviez.ws | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+bittorrent.am | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+box.sk | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+bt4gprx.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+chihiro-subs.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+chomikuj.pl | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+cracked.to | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+downmagaz.net | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+filefactory.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+film1k.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+game-2u.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+gamepcfull.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+genvideos.org | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+haho.moe | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+hakuneko.download | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+hdlivemovies.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+hdmovie20.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+hdmovie20.lol | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+igg-games.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+katcr.co | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+katcr.to | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+kickasstorrent.cr | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+kickasstorrents.pw | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+kickasstorrents.to | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+kinokong.pro | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+kinorun.top | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+kleverig.eu | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+limetorrents.lol | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+losmovies.pics | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+m4uhd.tv | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+mafia-linkz.to | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+mangapark.net | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+mangapill.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+monova.org | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+movie2k.to | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+nulled.to | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+nyaa.net | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+oklivetv.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+opensharing.org | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+opentor.org | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+pdfmagazines.club | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+rarbg.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+rarbg.to | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+rargb.to | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+rustorka.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+rutor.info | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+rutracker.net | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+shikimori.one | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+steamunlocked.net | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+streamm4u.ws | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+theindex.moe | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+thepiratebay0.org | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+thepiratebay10.org | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+tokyotosho.info | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+torrentdownloads.pro | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+torrentfunk.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+tracker.best-torrents.net | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+tracker.piratepublic.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+tracker1.520.jp | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+tvunderground.org.ru | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+uniondht.org | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+vidics.to | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+wcofun.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+weebcentral.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+wotaku.wiki | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno

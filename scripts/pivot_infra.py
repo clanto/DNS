@@ -723,7 +723,8 @@ def main() -> int:
     for path in sorted((BD.DOMAINS_DIR / "allowlist").glob("*.txt")):
         allow_names.update(BD.load(path, tld=False, today=today, errors=errors)[0])
     allow_names.update(dcfg.get("own_domains", []))
-    curated = set(BD.load(BD.EXCLUDE_PATH, tld=False, today=today, errors=errors)[0]) if BD.EXCLUDE_PATH.exists() else set()
+    curated = (set(BD.load(BD.EXCLUDE_PATH, tld=False, today=today, errors=errors, max_fields=6)[0])
+               if BD.EXCLUDE_PATH.exists() else set())
     platforms, psl_status = BD.load_psl(dcfg, args.offline, persist=False)
     print(f"- Public Suffix List: {psl_status}")
     blocked_all = set().union(*per_source.values())

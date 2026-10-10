@@ -56,6 +56,11 @@ class Contesto:
     covers: Callable[[str, str], bool]
     drop_covered: Callable[[set[str]], list[str]]
     popolari: dict[str, int] = field(default_factory=dict)  # host → rank CrUX (vuoto se non disponibile)
+    curated_cat: dict[str, set[str]] = field(default_factory=dict)  # esclusioni di cura limitate a una lista
+
+    def cura(self, cat: str) -> set[str]:
+        """Esclusioni di cura valide per la categoria: globali più quelle limitate a questa lista."""
+        return self.curated | self.curated_cat.get(cat, set())
 
 
 @dataclass
@@ -196,6 +201,7 @@ def misura_fonti(per_source: dict[str, dict[str, set[str]]], ctx: Contesto, conf
     for cat, sources in per_source.items():
         for sid, names in sources.items():
             colpite = {k: names & v for k, v in segnali.items()}
+            colpite["cura"] = names & ctx.cura(cat)
             # popolarità solo dove un sito molto visitato non è un bersaglio voluto (non pubblicità, spyware, policy)
             colpite["popolare"] = names & popolari if cat in conf["crux_categorie"] else set()
             colpite["proprio"] |= {n for n in names if any(n.endswith(f".{o}") for o in ctx.own)}
@@ -339,7 +345,7 @@ def motivo_esclusione(nome: str, cat: str, opts: dict, raw: dict[str, set[str]],
     """Perché una voce arrivata in block-<cat> non è pubblicata (stesso ordine dei filtri di build_domains)."""
     if opts.get("exclude_platforms") and nome in ctx.platforms and nome not in manual:
         return "piattaforma della Public Suffix List: si bloccano solo i sottodomini"
-    if nome in ctx.curated and nome not in manual:
+    if nome in ctx.cura(cat) and nome not in manual:
         return f"esclusione di cura (domains/escludi.txt): {motivi_cura.get(nome, ('', ''))[1]}"
     for other in opts.get("exclude", []):
         if nome in raw.get(other, set()):
