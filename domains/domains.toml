@@ -1,6 +1,6 @@
-# Liste domini curate da noi, pubblicate per AdGuard (e Unbound/pfBlockerNG/OPNsense).
+# Liste domini curate da noi, pubblicate per AdGuard e in formato semplice (Unbound di OPNsense, pfBlockerNG).
 #   [allow.<cat>] → domains/allowlist/<cat>.txt → dist/adguard/allow-<cat>.txt
-#   [block.<cat>] → domains/blocklist/<cat>.txt → dist/adguard/block-<cat>.txt (+ dist/unbound/)
+#   [block.<cat>] → domains/blocklist/<cat>.txt → dist/adguard/block-<cat>.txt (+ dist/domains/)
 # Opzioni:
 #   in_base   (solo allow) inclusa in allow-base.txt, da applicare a tutti. Default true.
 #   important aggiunge $important: vince anche su regole di blocco $important. Default true per allow, false per block.
@@ -9,7 +9,7 @@
 #   exclude   (solo block) toglie le voci già presenti nelle categorie elencate.
 #   exclude_platforms (solo block) toglie le voci delle fonti esterne che sono domini di piattaforme
 #             (sezione privata della Public Suffix List: github.io, pages.dev...); i sottodomini restano.
-#   outputs   formati da generare: adguard, domains, unbound (default tutti; liste grandi senza unbound).
+#   outputs   formati da generare: adguard, domains (default entrambi).
 #   opnsense  (solo block) genera anche dist/opnsense/<cat>.txt: domini risolti in CI, senza morti e
 #             senza quelli su IP CDN condivisi, da usare come alias FQDN su OPNsense.
 # Fonti upstream di una categoria: [[sources]] (stessi guardrail dei feed IP, cache in domains/cache/).

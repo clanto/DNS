@@ -9170,6 +9170,7 @@ college.business.oregonstate.edu
 collegeauthority.actonservice.com
 colliers.actonservice.com
 coloradoserves.com
+colorandnoise.com
 colorfulneon.com
 colorfulpet.com
 coloroptimizer.com
@@ -29248,6 +29249,7 @@ services.princes-trust.org.uk
 services.releasepoint.com
 servicing.business.hsbc.com
 servicing.unitedautocredit.net
+session.bugsnag.kindle.amazon.dev
 session.timecommerce.net
 sessions.embeddables.com
 setaram.actonservice.com

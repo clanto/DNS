@@ -3,6 +3,34 @@
 > Generato da `scripts/changelog.py` a ogni build: aggiunte e rimozioni rispetto alla versione precedente.
 > Ultime voci in alto. Per gli IP è indicata la fonte (`ip/cache/`) o `manuale`.
 
+## 2026-10-10 12:41 UTC
+
+- `dist/adguard/block-doh.txt`: +0 / -8 (totale 3247)
+  - rimosse: `||agh.realwap.net^`, `||dns.rayarksb.fun^`, `||dns.wahr.top^`, `||fi.r5acq.com^`, `||gauss.pp.ua^`, `||owa.pvmedia.ru^`, `||searxng.rcxpony.name^`, `||syre.pp.ua^`
+- `dist/adguard/block-malware-strict.txt`: +16251 / -1847 (totale 240025)
+  - aggiunte: `||000.hikvision-cctv.su^`, `||0000.hikvision-cctv.su^`, `||00000.hikvision-cctv.su^`, `||0000g7bd7.hikvision-cctv.su^`, `||0225958080.com^`, `||07827.icu^`, `||0807.st^`, `||09ddpfx9.parspoker.casino^` e altre 16243
+  - rimosse: `||060ff.com^`, `||220-apple.com^`, `||27.pb3tth.sbs^`, `||417205-apple.com^`, `||51cg-bing.cloud^`, `||5g3p2.pb3tth.sbs^`, `||700be1edfc.com^`, `||7z8.r6uemr.casa^` e altre 1839
+- `dist/adguard/block-malware.txt`: +2673 / -2304 (totale 275895)
+  - aggiunte: `||000.nvms9000.su^`, `||0000.nvms9000.su^`, `||00000l.nvms9000.su^`, `||01310012455959.com^`, `||07web-zoom.us^`, `||0opru43.pics^`, `||1.elv49pbe2hxqpxuu.cyou^`, `||123pdfonline.com^` e altre 2665
+  - rimosse: `||060ff.com^`, `||126.cn^`, `||168.com^`, `||220-apple.com^`, `||27.pb3tth.sbs^`, `||3brosstore.com^`, `||417205-apple.com^`, `||51cg-bing.cloud^` e altre 2296
+- `dist/adguard/block-pirateria.txt`: +150 / -19 (totale 55497)
+  - aggiunte: `||123movies4up.com^`, `||123movies9.bond^`, `||123movies9.live^`, `||123moviesfx.org^`, `||123moviestv.live^`, `||1jour1film-offcial.cyou^`, `||321movies-offcial.cyou^`, `||5movierulz.jewelry^` e altre 142
+  - rimosse: `||pchelovod-lordfilm.online^`, `||peace-and.love^`, `||pelisflix200.fun^`, `||pervyy-mstitel-lordfilm.online^`, `||piratebay2.org^`, `||plohie-parni-lordfilm.online^`, `||pqham.com^`, `||putlocker.baby^` e altre 11
+- `dist/adguard/block-porno.txt`: +2598 / -959 (totale 87306)
+  - aggiunte: `||024tm.com^`, `||0575xly.com^`, `||18adultchat.app^`, `||18japangayporn.cc^`, `||18japanporn.cc^`, `||18koreanporn.cc^`, `||18twinkporn.cc^`, `||196rwl.top^` e altre 2590
+  - rimosse: `||000cao.com^`, `||001vvv.com^`, `||003xxx.com^`, `||12st.cc^`, `||12ue.cc^`, `||12yy-energy.xyz^`, `||18asianporn.cc^`, `||18chinaporn.cc^` e altre 951
+- `dist/adguard/block-pubblicita-strict.txt`: +45024 / -0 (totale 46853)
+  - aggiunte: `||000491b06a.com^`, `||0017c6c37c.com^`, `||0019x.com^`, `||00427011ae.com^`, `||00609c257b.com^`, `||009f45b51c.com^`, `||00a39e6dfd.com^`, `||00a4722597.com^` e altre 45016
+- `dist/adguard/block-pubblicita.txt`: +155 / -0 (totale 64554)
+  - aggiunte: `||1umg3i5h83hiqqxem8v15536il8ory4.rest^`, `||1ve7m9brbf78g2c2pt.rest^`, `||1xulomppkrwcr8zni6yz.cfd^`, `||2588a5b922.com^`, `||33p3v9fte86o99kl9gqf7wnb7eu3v85u.cfd^`, `||ababdehstacc.cyou^`, `||ahswohrhvxkyz.website^`, `||aiyyvfbpimomy.site^` e altre 147
+- `dist/adguard/block-traccianti-strict.txt`: +41939 / -0 (totale 43193)
+  - aggiunte: `||0.myikas.com^`, `||0.net.easyjet.com^`, `||00px.net^`, `||07b3.pandasuite.io^`, `||0ddf.pandasuite.io^`, `||0sbm.consobaby.co.uk^`, `||0tfsd2rwwu3xjstb.edge41.testandtarget.omniture.com^`, `||1.ftb.al^` e altre 41931
+- `dist/adguard/block-traccianti.txt`: +8 / -0 (totale 58927)
+  - aggiunte: `||blackfire.io^`, `||carbonreach.io^`, `||colorandnoise.com^`, `||deduce.com^`, `||notjustanalytics.com^`, `||qualia.id^`, `||retentionscience.com^`, `||rm-api.com^`
+- `dist/adguard/block-vpn.txt`: +22 / -98 (totale 12833)
+  - aggiunte: `||61.ir.mmd.yayayajd.co.uk^`, `||6781.ir.mmd.yayayajd.co.uk^`, `||all3.beshdash.ir^`, `||arash-kamangir.ir.igakwvwa.info^`, `||ccc.horizon555.co.uk^`, `||dd7d8ujjjh.ir.ir.ir.meli-n12.info^`, `||dns.speed-benz.co.uk^`, `||ir-ir.gnutella2.info^` e altre 14
+  - rimosse: `||3etare.co.uk^`, `||661.qzz.io^`, `||appstoff.info^`, `||ardebill.miandoabs.info^`, `||borujerd-tehran-esfahan.miandoabs.info^`, `||exiscos.co.uk^`, `||fulll.ir.meli-n13.info^`, `||ghasam-be-shab.hosiyaman.info^` e altre 90
+
 ## 2026-10-09 22:47 UTC
 
 - `dist/opnsense/doh.txt`: +2 / -8 (totale 2781)

@@ -10,6 +10,7 @@ import gzip
 import io
 import ipaddress
 import socket
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -34,13 +35,25 @@ class _HttpsOnlyRedirect(urllib.request.HTTPRedirectHandler):
 _OPENER = urllib.request.build_opener(_HttpsOnlyRedirect)
 
 
-def read_https(url: str, *, timeout: float, limit: int) -> bytes:
-    """Scarica al massimo limit byte da un URL HTTPS (certificato verificato, redirect solo HTTPS)."""
+def read_https(url: str, *, timeout: float, limit: int, total: float = 600) -> bytes:
+    """Scarica al massimo limit byte da un URL HTTPS (certificato verificato, redirect solo HTTPS).
+    timeout vale per ogni operazione di rete, total per l'intero download (un server lentissimo non blocca il job)."""
     if urllib.parse.urlsplit(url).scheme != "https":
         raise ValueError("solo URL HTTPS")
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    deadline = time.monotonic() + total
+    chunks: list[bytes] = []
+    size = 0
     with _OPENER.open(req, timeout=timeout) as resp:
-        data = resp.read(limit + 1)
+        while size <= limit:
+            chunk = resp.read(min(1024 * 1024, limit + 1 - size))
+            if not chunk:
+                break
+            chunks.append(chunk)
+            size += len(chunk)
+            if time.monotonic() > deadline:
+                raise TimeoutError(f"download oltre {total:.0f} s")
+    data = b"".join(chunks)
     if len(data) > limit:
         raise ValueError(f"download oltre {limit // (1024 * 1024)} MB")
     return data
@@ -95,6 +108,3 @@ def networks(asns: list[int]) -> list[ipaddress.IPv4Network | ipaddress.IPv6Netw
     return [n for v in (4, 6) for n in ipaddress.collapse_addresses(x for x in nets if x.version == v)]
 
 
-def names(asns: list[int]) -> dict[int, str]:
-    wanted = set(asns)
-    return {asn: desc for _, _, _, asn, desc in rows() if asn in wanted}

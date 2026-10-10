@@ -60,7 +60,6 @@ def domain_feeds() -> list[dict]:
     sources = DOM_CFG.get("sources", [])
     formats = [("adguard", "dist/adguard/{k}-{c}.txt", "regole AdGuard"),
                ("domini", "dist/domains/{k}-{c}.txt", "un dominio per riga"),
-               ("unbound", "dist/unbound/{k}-{c}.conf", "local-zone Unbound"),
                ("opnsense", "dist/opnsense/{c}.txt", "FQDN per alias OPNsense URL Table (IPs)")]
     for kind in ("allow", "block"):
         for cat, opts in DOM_CFG.get(kind, {}).items():

@@ -9432,6 +9432,7 @@ blackbrake.com
 blackcrow.ai
 blackdagger.openapp.link
 blackenterprise.black.news
+blackfire.io
 blackjack.abzorbagames.com
 blackkite.com
 blackkitetech.com
@@ -10544,6 +10545,7 @@ car-a8.tabirai.net
 caradonna.actonservice.com
 carbongarden.net
 carbonplatform.com
+carbonreach.io
 carburanalyticsspace.carte-gr.total.fr
 carburez-a-l-emotion.carte-gr.total.fr
 carcodesms.com
@@ -11750,6 +11752,7 @@ collegeauthority.actonservice.com
 colliers.actonservice.com
 colligent.com
 coloradoserves.com
+colorandnoise.com
 colorfulafterthought.com
 colorfulneon.com
 colorfulpet.com
@@ -14102,6 +14105,7 @@ decussi.com
 decvsm.xlmoto.se
 dedalustats.com
 dedola.actonservice.com
+deduce.com
 dee22tkr.com
 deep-software.com
 deep.bi
@@ -36397,6 +36401,7 @@ notify.pray.com
 notifyglass.com
 notifyvisitors.com
 notionlytics.com
+notjustanalytics.com
 notlurking.com
 notrealcat.com
 noundictionary.com
@@ -39612,6 +39617,7 @@ quaintborder.com
 quaintcan.com
 qualaroo.com
 qualetics.com
+qualia.id
 qualifai.co.uk
 qualifio.com
 qualitas-app.hotdoc.com.au
@@ -40497,6 +40503,7 @@ retcode.taobao.com
 retency.com
 retention.ankidecks.com
 retentioneering.com
+retentionscience.com
 rethink.adp.com
 retirement.aonunited.com
 retirement.newyorklifeannuities.com
@@ -40666,6 +40673,7 @@ rlog.popin.cc
 rlogs.youdao.com
 rlovoa.duckcamp.com
 rlz.cl
+rm-api.com
 rm0001.net
 rm0002.net
 rm0003.net
@@ -42962,6 +42970,7 @@ servmetric.com
 servtrk.com
 seshatanalytics.com
 session-replays.io
+session.bugsnag.kindle.amazon.dev
 session.timecommerce.net
 sessioncam.com
 sessions.embeddables.com

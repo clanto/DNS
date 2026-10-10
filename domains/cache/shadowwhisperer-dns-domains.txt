@@ -83,6 +83,7 @@ doh.ffmuc.net
 doh.li
 doh.netweaver.uk
 doh.pub
+doh.sb
 dohdot.coxlab.net
 dohtrial.att.net
 dot.360.cn

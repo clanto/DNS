@@ -13057,6 +13057,7 @@
 ||repdata.coloradoan.com^
 ||srepdata.coloradoan.com^
 ||coloradoserves.com^
+||colorandnoise.com^
 ||colorfulafterthought.com^
 ||colorfulneon.com^
 ||colorfulpet.com^
@@ -14276,6 +14277,7 @@
 ||pmnbh.dedcool.com^
 ||marketing.dedicated-db.com^
 ||marketing.dedola.com^
+||deduce.com^
 ||dee22tkr.com^
 ||collect.deel.com^
 ||deep-software.com^
@@ -30604,6 +30606,7 @@
 ||notifyglass.com^
 ||notifyvisitors.com^
 ||notionlytics.com^
+||notjustanalytics.com^
 ||notlurking.com^
 ||notrealcat.com^
 ||noundictionary.com^
@@ -33954,6 +33957,7 @@
 ||retargettracker.com^
 ||retency.com^
 ||retentioneering.com^
+||retentionscience.com^
 ||metrics.rethinksma.com^
 ||smetrics.rethinksma.com^
 ||www.retirementadvisorinsights.com^
@@ -34196,6 +34200,7 @@
 ||rlets.com^
 ||innovation.rlgbuilds.com^
 ||smetrics.rlicorp.com^
+||rm-api.com^
 ||tr.actu.rmcbfmplay.com^
 ||utiq.rmcbfmplay.com^
 ||marketing.rme360.com^
@@ -47053,6 +47058,7 @@
 ||ref.mybb.id^
 ||tracker.oval.id^
 ||persistent.id^
+||qualia.id^
 ||app.select.id^
 ||fudezz.sonora.id^
 ||c.stext.id^
@@ -47674,6 +47680,7 @@
 ||bipp.io^
 ||bitdrift.io^
 ||biterg.io^
+||blackfire.io^
 ||1amehwchx31.bloxdhop.io^
 ||link.blueheart.io^
 ||testlink.blueheart.io^
@@ -47698,6 +47705,7 @@
 ||callstats.io^
 ||marketing.calm.io^
 ||campaigntracker.io^
+||carbonreach.io^
 ||carecart.io^
 ||cartsguru.io^
 ||castle.io^

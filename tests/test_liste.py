@@ -246,8 +246,8 @@ def section_domains():
               "block-pubblicita.txt": 30000, "block-traccianti.txt": 30000, "block-ddns.txt": 1000}
     for name, minimo in minimi.items():
         check(len((ROOT / "dist/adguard" / name).read_text().splitlines()) > minimo, f"{name}: troppo poche voci")
-    for cat in ("malware", "phishing", "redirect", "pirateria", "porno", "social", "pubblicita", "traccianti"):
-        check(not (ROOT / f"dist/unbound/block-{cat}.conf").exists(), f"block-{cat}: Unbound non previsto per liste grandi")
+    check(not list((ROOT / "dist/unbound").glob("block-*.conf")),
+          "regole Unbound delle blocklist: OPNsense usa i link di dist/domains/")
     for legacy in ("appspia", "criptojacking", "malware", "pishing", "redirect", "warez", "lista_streaming_illegale",
                    "pornoextra", "roblox", "test"):
         check(not (ROOT / f"liste/{legacy}.txt").exists(), f"liste/{legacy}.txt sostituita ma ancora presente")
@@ -272,10 +272,6 @@ def section_domains():
     check("doh.opendns.com" in doh, "le esclusioni non devono toccare i sottodomini (doh.opendns.com)")
     gaming = (ROOT / "dist/domains/block-gaming.txt").read_text().split()
     check("roblox.com" in gaming, "roblox.com non in block-gaming")
-    for p in (ROOT / "dist/unbound").glob("block-*.conf"):
-        bad = [line for line in p.read_text(encoding="utf-8").splitlines()
-               if not re.match(r'^local-zone: "[a-z0-9._-]+\." always_nxdomain$', line)]
-        check(not bad, f"{p.name}: righe Unbound non valide {bad[:3]}")
     check(not list((ROOT / "dist/domains").glob("allow-*")), "allowlist in formato semplice presenti")
     base = set((ROOT / "dist/adguard/allow-base.txt").read_text().splitlines())
     check(not any("spotify" in line or "netflix" in line for line in base), "streaming finito in allow-base")
@@ -455,6 +451,19 @@ def section_security():
     import urllib.request
 
     import asn
+    import check_opnsense_ips as coi
+    import inspect
+
+    # dominio registrabile con la PSL completa: a.co.uk e b.co.uk sono domini diversi
+    coi.PSL.__init__("// ===BEGIN ICANN DOMAINS===\nuk\nco.uk\n*.ck\n!www.ck\n// ===BEGIN PRIVATE DOMAINS===\ngithub.io\n")
+    check(coi.registrable("www.a.co.uk") == "a.co.uk" and coi.registrable("b.co.uk") == "b.co.uk",
+          "PSL: dominio registrabile errato per co.uk")
+    check(coi.registrable("x.y.github.io") == "y.github.io", "PSL: piattaforma privata non riconosciuta")
+    check(coi.registrable("a.b.ck") == "a.b.ck" and coi.registrable("www.ck") == "www.ck", "PSL: wildcard/eccezioni")
+    check(coi.registrable("host.example.com") == "example.com", "PSL: regola implicita '*' non applicata")
+    coi.PSL.__init__()
+    check("total" in inspect.signature(asn.read_https).parameters, "download senza limite di tempo totale")
+    check(not hasattr(asn, "names"), "asn.names() inutilizzata ancora presente")
     try:
         asn.read_https("http://example.invalid/x", timeout=1, limit=10)
         FAILS.append("read_https: URL http accettato")

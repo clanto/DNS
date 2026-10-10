@@ -5,7 +5,6 @@ Output:
   dist/adguard/allow-<cat>.txt, allow-base.txt   '@@||dominio^$important'
   dist/adguard/block-<cat>.txt                   '||dominio^'
   dist/domains/block-<cat>.txt                   domini semplici (pfBlockerNG, OPNsense)
-  dist/unbound/block-<cat>.conf                  local-zone always_nxdomain
   dist/adguard/README.md                         feed + catalogo liste upstream (domains/upstream.toml)
   dist/adguard/block-<cat>-strict.txt (+ dist/domains/) livello strict, dist/perche/ indice «Perché è bloccato?»
                                                  (scripts/punteggio.py, configurazione [punteggio])
@@ -37,7 +36,6 @@ UPSTREAM_PATH = DOMAINS_DIR / "upstream.toml"
 PSL_CACHE = CACHE_DIR / "psl-private.txt"  # sezione privata della Public Suffix List (MPL-2.0)
 ADGUARD_DIR = ROOT / "dist" / "adguard"
 PLAIN_DIR = ROOT / "dist" / "domains"
-UNBOUND_DIR = ROOT / "dist" / "unbound"
 KINDS = {"allow": "allowlist", "block": "blocklist"}
 SOURCE_FORMATS = ("domains", "adblock", "ublock", "hosts", "tweetfeed")
 
@@ -325,7 +323,6 @@ def main() -> int:
     meta: dict[str, tuple[str, str, int]] = {}
     adguard: dict[str, str] = {}
     plain: dict[str, str] = {}
-    unbound: dict[str, str] = {}
     base: set[str] = set()
     entries: dict[str, list[tuple[str, str]]] = {"allow": [], "block": []}  # kind → (categoria, voce)
 
@@ -361,10 +358,19 @@ def main() -> int:
         if not SOURCE_ID_RE.match(str(sid)) or src.get("format", "domains") not in SOURCE_FORMATS:
             errors.append(f"domains.toml: fonte '{sid}' con id non valido o formato sconosciuto '{src.get('format')}'")
             continue
+        if "path" in src and not (ROOT / str(src["path"])).resolve().is_relative_to(ROOT.resolve()):
+            errors.append(f"domains.toml: fonte '{sid}' con path fuori dal repository")
+            continue
         names, status = load_domain_source(src, offline, persist=not args.check)
         collected[("block", cat)][0].update(names)
         per_source.setdefault(cat, {})[sid] = names
         source_report.append(f"- fonte `{sid}` ({cat}): {status}")
+    # Cache di fonti non più configurate (es. fonte rimossa da domains.toml): tolte, altrimenti restano per sempre
+    if not offline:
+        keep = ids | {PSL_CACHE.stem, punteggio.CRUX_CACHE.stem}
+        for orphan in sorted(p for p in CACHE_DIR.glob("*.txt") if p.stem not in keep):
+            orphan.unlink()
+            source_report.append(f"- cache orfana rimossa: `{orphan.name}`")
     # voci di ogni blocklist prima dei filtri: per l'indice «Perché è bloccato?» (voci tolte e motivo)
     raw = {cat: set(collected[("block", cat)][0]) for cat in cfg.get("block", {})}
 
@@ -475,16 +481,13 @@ def main() -> int:
         suffix = "$important" if important else ""
         prefix = "@@||" if kind == "allow" else "||"
         fname = f"{kind}-{cat}.txt"
-        outputs = opts.get("outputs", ["adguard", "domains", "unbound"])
+        outputs = opts.get("outputs", ["adguard", "domains"])
         if "adguard" in outputs or kind == "allow":
             adguard[fname] = "".join(f"{prefix}{d}^{suffix}\n" for d in final)
         if kind == "block":
-            simple = [d for d in final if "*" not in d]
             if "domains" in outputs:
                 # Lista completa, senza deduplica per dominio padre: OPNsense risolve solo il nome esatto
                 plain[fname] = "".join(f"{d}\n" for d in names if "*" not in d)
-            if "unbound" in outputs:
-                unbound[f"block-{cat}.conf"] = "".join(f'local-zone: "{d}." always_nxdomain\n' for d in simple)
         elif opts.get("in_base", True):
             base.update(names)
         meta[fname] = (opts.get("description", ""), fname if kind == "block" and "domains" in outputs else "",
@@ -513,11 +516,9 @@ def main() -> int:
             fh.write(f"anomaly={'true' if livelli.anomalie else 'false'}\n")
 
     if not args.check:
-        for directory, files, pattern in ((ADGUARD_DIR, adguard, "*.txt"), (PLAIN_DIR, plain, "*.txt"),
-                                          (UNBOUND_DIR, unbound, "*.conf")):
+        for directory, files, pattern in ((ADGUARD_DIR, adguard, "*.txt"), (PLAIN_DIR, plain, "*.txt")):
             directory.mkdir(parents=True, exist_ok=True)
             for stale in directory.glob(pattern):
-                # solo file generati da qui: dist/unbound contiene anche safesearch.conf (build_safesearch.py)
                 if stale.name.startswith(("block-", "allow-")) and stale.name not in files:
                     stale.unlink()
             for name, content in files.items():

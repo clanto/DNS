@@ -60,8 +60,54 @@ def resolve(name: str) -> list[ipaddress.IPv4Address | ipaddress.IPv6Address]:
     return [a for a in addrs if a.is_global]  # i sinkhole (0.0.0.0, ecc.) non contano
 
 
+class Psl:
+    """Public Suffix List completa (ICANN e privata): regole esatte, *.x ed eccezioni !x."""
+
+    def __init__(self, text: str = ""):
+        self.rules: set[str] = set()
+        self.wild: set[str] = set()
+        self.exc: set[str] = set()
+        for raw in text.splitlines():
+            line = raw.strip().lower()
+            if not line or line.startswith("//"):
+                continue
+            rule = line.split()[0]
+            if rule.startswith("!"):
+                self.exc.add(rule[1:])
+            elif rule.startswith("*."):
+                self.wild.add(rule[2:])
+            else:
+                self.rules.add(rule)
+
+    def suffix_len(self, labels: list[str]) -> int:
+        """Numero di etichette del suffisso pubblico più lungo (almeno 1, come la regola implicita '*')."""
+        for i in range(len(labels)):
+            cand = ".".join(labels[i:])
+            if cand in self.exc:
+                return len(labels) - i - 1
+            if cand in self.rules or (i + 1 < len(labels) and ".".join(labels[i + 1:]) in self.wild):
+                return len(labels) - i
+        return 1
+
+
+PSL = Psl()
+
+
 def registrable(name: str) -> str:
-    return ".".join(name.split(".")[-2:])
+    """Dominio registrabile: con la PSL, a.co.uk e b.co.uk sono domini diversi (non 'co.uk')."""
+    labels = name.lower().rstrip(".").split(".")
+    n = min(len(labels), PSL.suffix_len(labels) + 1)
+    return ".".join(labels[-n:])
+
+
+def load_psl() -> None:
+    url = tomllib.loads(CONFIG_PATH.read_text(encoding="utf-8")).get("psl_url")
+    if not url:
+        return
+    try:
+        PSL.__init__(asn.read_https(url, timeout=60, limit=10 * 1024 * 1024).decode("utf-8", "replace"))
+    except Exception as exc:  # senza PSL si ripiega sulle ultime due etichette
+        print(f"::warning::Public Suffix List non disponibile ({exc}): dominio registrabile approssimato", file=sys.stderr)
 
 
 def main() -> int:
@@ -75,6 +121,7 @@ def main() -> int:
     ignore = set(opts.get("ignore", []))
 
     db = AsnDb(asn.download_raw())  # stessi limiti di dimensione e redirect solo HTTPS dei build
+    load_psl()
 
     report = ["## Controllo liste OPNsense: IP su infrastrutture condivise", ""]
     flagged_total = 0

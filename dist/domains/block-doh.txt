@@ -419,7 +419,6 @@ agh.kyusang.win
 agh.mihanentalpo.me
 agh.nonocan.com
 agh.printk.info
-agh.realwap.net
 agh.srv.tenete.net
 agh.workfordemo.co.in
 agh.xinfeng16m.top
@@ -1450,7 +1449,6 @@ dns.ramansarda.com
 dns.ramsky.my.id
 dns.rawalker.co.nz
 dns.rayanbab.com
-dns.rayarksb.fun
 dns.rbn.gr
 dns.readlook.tk
 dns.redhosting.com.ar
@@ -1623,7 +1621,6 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
-dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -2162,7 +2159,6 @@ fet02.dnscry.pt
 fezgate.ovh
 fi-hel-w-f-2.nashkan.net
 fi-hel-w-p-1.nashkan.net
-fi.r5acq.com
 fidelius.top
 filter.badbotdev.xyz
 filter.dns.yunzheng.space
@@ -2206,7 +2202,6 @@ gaia.plonknet.com
 galileo.math.unipd.it
 gammesfeld.eu
 gateway.fomichev.cloud
-gauss.pp.ua
 gb-cov-w-f-1.nashkan.net
 gb-cov-w-f-2.nashkan.net
 gb-cov-w-p-1.nashkan.net
@@ -2831,7 +2826,6 @@ ott01.dnscry.pt
 oury.privado.ovh
 outie.8ws.net
 outiejr.8ws.net
-owa.pvmedia.ru
 p0.freedns.controld.com
 p1.freedns.controld.com
 p2.freedns.controld.com
@@ -3080,7 +3074,6 @@ sdns.233py.com
 sdns22.gkonuralp.com
 sdvizhkov.ru
 sea01.dnscry.pt
-searxng.rcxpony.name
 sec.iamninja.ru
 secondary.dns.yandex.ru
 secondary.family.dns.yandex.ru
@@ -3200,7 +3193,6 @@ switzerland.privacy-dns.pw
 syd.adfilter.net
 syd.core.access.zznet.fun
 syd02.dnscry.pt
-syre.pp.ua
 szyrzyk.pl
 t2c.240130034.xyz
 takhtakh.domyah.net

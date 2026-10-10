@@ -762,7 +762,6 @@
 ||paydns.weixin.qq.com^
 ||udns.weixin.qq.com^
 ||r1bnc.com^
-||fi.r5acq.com^
 ||dns.api.rackspacecloud.com^
 ||dns.ramansarda.com^
 ||ns2.ravdns.com^
@@ -1282,7 +1281,6 @@
 ||x.laoban.fun^
 ||adhome.maige.fun^
 ||pcgo.fun^
-||dns.rayarksb.fun^
 ||dns.zky666.fun^
 ||ams.core.access.zznet.fun^
 ||hkg.core.access.zznet.fun^
@@ -1710,7 +1708,6 @@
 ||shinano.anime.com.my^
 ||cloud.securifi.com.my^
 ||domain.name^
-||searxng.rcxpony.name^
 ||dns.therifleman.name^
 ||bh.wael.name^
 ||dns.wael.name^
@@ -2012,7 +2009,6 @@
 ||dns.quanhd.net^
 ||resolver.r0cket.net^
 ||ginnungagap.rabenhain.net^
-||agh.realwap.net^
 ||richardo.net^
 ||adguard.rjscho.net^
 ||dns.rotunneling.net^
@@ -2746,7 +2742,6 @@
 ||dns.ploshadi.ru^
 ||dns.polarwinds.ru^
 ||test.privatenode.ru^
-||owa.pvmedia.ru^
 ||qstam.ru^
 ||dns.reolinks.ru^
 ||1.rock-review.ru^
@@ -2930,7 +2925,6 @@
 ||dns.thiz.top^
 ||kr.tomgirl.top^
 ||us44nas.top^
-||dns.wahr.top^
 ||bwh.why4free.top^
 ||wiqi.top^
 ||xholgm.top^
@@ -2973,7 +2967,6 @@
 ||adguard-server.pp.ua^
 ||2.alpo.pp.ua^
 ||angry.pp.ua^
-||gauss.pp.ua^
 ||gruppo.pp.ua^
 ||guard.pp.ua^
 ||dns.ha-dvin.pp.ua^
@@ -2982,7 +2975,6 @@
 ||pad3w.pp.ua^
 ||reskah.pp.ua^
 ||sundalandia.pp.ua^
-||syre.pp.ua^
 ||virga.pp.ua^
 ||dns.xxxxxxxx.pp.ua^
 ||zxcvb.pp.ua^
