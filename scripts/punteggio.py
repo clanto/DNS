@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Precisione delle fonti, persistenza, punteggio per voce e livello strict delle blocklist di sicurezza.
+"""Precisione delle fonti, persistenza, errore stimato per voce e livello strict delle blocklist di sicurezza.
 
 Richiamato da scripts/build_domains.py (configurazione: [punteggio] in domains/domains.toml).
 
 1. Precisione per fonte, misurata a ogni build: quota di voci della fonte che colpiscono un segnale di falso
    positivo noto (esclusioni di cura, piattaforme della sezione privata PSL, servizi protetti o allowlist
-   coperti dalla voce, domini propri). Peso = peso_max × (1 − penalita_fp × quota), almeno peso_min.
+   coperti dalla voce, domini propri). Errore stimato della fonte, smussato perché una fonte piccola non crolli
+   per un solo falso positivo: q = (falsi positivi + prior_voci × prior_errore) / (voci + prior_voci).
    Tranco non è usato: la lista combina Cloudflare Radar (CC BY-NC 4.0), non utilizzabile da un'azienda.
    Popolarità: Chrome UX Report (CrUX, Google, CC BY 4.0) dalla top list mensile di zakird/crux-top-lists.
    Solo nelle categorie crux_categorie (phishing, redirect): una voce che copre un sito tra i più visitati
@@ -14,11 +15,14 @@ Richiamato da scripts/build_domains.py (configurazione: [punteggio] in domains/d
    spesso il bersaglio (pubblicità malevola, PUP, app spia molto diffuse).
 2. Persistenza: ora del primo avvistamento continuativo di ogni voce delle fonti esterne, in
    domains/cache/persistenza/<categoria>.txt (testo ordinato per ora, versionato con le cache).
-3. Punteggio 0-100 = 100 × (1 − Π(1 − peso fonte) × (1 − peso_persistenza × persistenza)), con
-   persistenza = min(1, ore di presenza continuativa / persistenza_ore): la persistenza conta come una prova in più,
-   accanto alle fonti. Le voci manuali valgono sempre 100.
-4. Livello strict: voci con punteggio ≥ soglia in dist/adguard/block-<cat>-strict.txt e dist/domains/;
-   gli URL delle liste complete non cambiano (restano l'unione delle fonti).
+3. Errore stimato per voce = Π q delle fonti che la contengono × (1 − peso_persistenza × persistenza), con
+   persistenza = min(1, ore di presenza continuativa / persistenza_ore). Le voci manuali valgono 0.
+4. Livello strict: voci con errore stimato ≤ soglia della lista, dove soglia = max(errore_max della categoria,
+   errore di una voce della fonte migliore della lista a persistenza piena). Nelle liste con una sola fonte lo
+   strict non può distinguere tra le voci e coincide con la lista completa (meno popolari e voci nuove); con più
+   fonti esclude le voci che arrivano solo da fonti deboli. Una voce già nello strict esce solo oltre
+   soglia × isteresi: nessuna oscillazione tra un build e l'altro. Valori continui, senza gradini.
+   Gli URL delle liste complete non cambiano (restano l'unione delle fonti).
 """
 from __future__ import annotations
 
@@ -35,7 +39,7 @@ STATE_DIR = ROOT / "domains" / "cache" / "persistenza"
 CRUX_CACHE = ROOT / "domains" / "cache" / "crux-top.txt"  # host popolari per rank (Chrome UX Report, CC BY 4.0)
 ADGUARD_DIR = ROOT / "dist" / "adguard"
 PLAIN_DIR = ROOT / "dist" / "domains"
-DEFAULTS = {"penalita_fp": 100.0, "peso_max": 0.8, "peso_min": 0.1, "persistenza_ore": 24, "peso_persistenza": 0.5,
+DEFAULTS = {"prior_voci": 1000, "prior_errore": 0.0005, "isteresi": 1.5, "persistenza_ore": 24, "peso_persistenza": 0.5,
             "max_calo_strict": 0.2, "min_voci_calo": 100, "bootstrap_commit": 30, "partizioni_indice": 256,
             "crux_url": "", "crux_rank_misura": 1000, "crux_rank_strict": 10000, "crux_rank_cache": 100000,
             "crux_categorie": ["phishing", "redirect"]}
@@ -64,7 +68,7 @@ class Risultato:
     log: list[str] = field(default_factory=list)
     misure: dict[str, dict] = field(default_factory=dict)
     strict: dict[str, set[str]] = field(default_factory=dict)
-    soglie: dict[str, int] = field(default_factory=dict)
+    soglie: dict[str, float] = field(default_factory=dict)  # soglia effettiva di errore stimato per categoria
     conf: dict = field(default_factory=dict)
 
     def readme(self, complete: dict[str, int]) -> list[str]:
@@ -72,21 +76,26 @@ class Risultato:
         conf = self.conf
         righe = ["## Precisione delle fonti", "",
                  "Misurata a ogni build: quota di voci della fonte che colpiscono un falso positivo noto (esclusioni di "
-                 "cura, piattaforme PSL, servizi protetti o allowlist coperti, domini propri). Il peso entra nel "
-                 f"punteggio delle voci: peso = {conf['peso_max']} × (1 − {conf['penalita_fp']} × quota), "
-                 f"minimo {conf['peso_min']}.", "",
-                 "| Fonte | Lista | Voci | Falsi positivi | Precisione | Peso | Esempi |", "|---|---|---|---|---|---|---|"]
+                 "cura, piattaforme PSL, servizi protetti o allowlist coperti, domini propri; per phishing e redirect "
+                 "anche siti molto visitati). Errore stimato smussato: (falsi positivi + "
+                 f"{conf['prior_voci'] * conf['prior_errore']:g}) / (voci + {conf['prior_voci']}).", "",
+                 "| Fonte | Lista | Voci | Falsi positivi | Precisione | Errore stimato | Esempi |",
+                 "|---|---|---|---|---|---|---|"]
         for sid, m in sorted(self.misure.items(), key=lambda x: (x[1]["categoria"], x[0])):
             righe.append(f"| {sid} | block-{m['categoria']} | {m['voci']} | {m['falsi_positivi']} | "
-                         f"{100 * m['precisione']:.3f}% | {m['peso']:.2f} | {', '.join(m['esempi'][:3])} |")
+                         f"{100 * m['precisione']:.3f}% | {100 * m['errore']:.4f}% | {', '.join(m['esempi'][:3])} |")
         righe += ["", "## Livello strict", "",
-                  "Stesse liste con le sole voci a punteggio alto: meno voci, meno falsi positivi. Punteggio = "
-                  f"100 × (1 − Π(1 − peso fonte) × (1 − {conf['peso_persistenza']} × persistenza)), persistenza piena "
-                  f"dopo {conf['persistenza_ore']} ore di presenza continuativa; voci manuali sempre 100.", "",
+                  "Stesse liste con le sole voci a errore stimato basso. Errore di una voce = prodotto degli errori "
+                  f"delle fonti che la contengono × (1 − {conf['peso_persistenza']} × persistenza), persistenza piena "
+                  f"dopo {conf['persistenza_ore']} ore; voci manuali 0. Soglia = la maggiore tra errore massimo della "
+                  "categoria ed errore della fonte migliore della lista (con una sola fonte lo strict coincide con la "
+                  f"lista completa, meno siti popolari e voci nuove). Una voce già nello strict esce oltre "
+                  f"{conf['isteresi']} × soglia.", "",
                   "| Lista | Soglia | Voci complete | Voci strict | Quota |", "|---|---|---|---|---|"]
         for cat in self.strict:
             full, n = complete.get(cat, 0), self.meta[f"block-{cat}-strict.txt"][2]
-            righe.append(f"| block-{cat} | {self.soglie[cat]} | {full} | {n} | {100 * n / full if full else 0:.1f}% |")
+            righe.append(f"| block-{cat} | {100 * self.soglie[cat]:.4f}% | {full} | {n} | "
+                         f"{100 * n / full if full else 0:.1f}% |")
         return righe + [""]
 
 
@@ -192,11 +201,11 @@ def misura_fonti(per_source: dict[str, dict[str, set[str]]], ctx: Contesto, conf
             colpite["proprio"] |= {n for n in names if any(n.endswith(f".{o}") for o in ctx.own)}
             errate = set().union(*colpite.values())
             quota = len(errate) / len(names) if names else 0.0
-            peso = conf["peso_max"] * max(0.0, 1 - conf["penalita_fp"] * quota)
-            peso = max(conf["peso_min"], round(peso * 20) / 20)  # passi di 0,05: pesi stabili tra un build e l'altro
+            errore = errore_fonte(len(errate), len(names), conf)
             misure[sid] = {"categoria": cat, "voci": len(names), "falsi_positivi": len(errate),
                            "segnali": {k: len(v) for k, v in colpite.items() if v},
-                           "esempi": sorted(errate)[:5], "precisione": round(1 - quota, 5), "peso": peso}
+                           "esempi": sorted(errate)[:5], "precisione": round(1 - quota, 5),
+                           "errore": round(errore, 8)}
     return misure
 
 
@@ -281,15 +290,33 @@ def aggiorna_stato(precedente: dict[str, int], attuali: set[str], ora: int) -> d
 # Punteggio e livello strict
 # ---------------------------------------------------------------------------------------------------------
 
-def punteggio(pesi: list[float], ore: int, manuale: bool, conf: dict) -> int:
+def errore_fonte(falsi: int, voci: int, conf: dict) -> float:
+    """Errore stimato di una fonte, smussato verso prior_errore: pesa poco su fonti grandi, molto su quelle piccole."""
+    return (falsi + conf["prior_voci"] * conf["prior_errore"]) / (voci + conf["prior_voci"])
+
+
+def errore_voce(errori: list[float], ore: int, manuale: bool, conf: dict) -> float:
+    """Errore stimato di una voce: prodotto degli errori delle fonti, ridotto dalla persistenza. Manuale = 0."""
     if manuale:
-        return 100
-    resto = 1.0
-    for p in pesi:
-        resto *= 1 - p
+        return 0.0
+    if not errori:
+        return 1.0
+    err = 1.0
+    for e in errori:
+        err *= e
     persistenza = min(1.0, max(0, ore) / conf["persistenza_ore"]) if conf["persistenza_ore"] else 1.0
-    resto *= 1 - conf["peso_persistenza"] * persistenza
-    return round(100 * round(1 - resto, 6))
+    return err * (1 - conf["peso_persistenza"] * persistenza)
+
+
+def soglia_lista(errore_max: float, errori_fonti: list[float], conf: dict) -> float:
+    """Soglia di una lista: errore_max, o l'errore della fonte migliore a persistenza piena se è più alto
+    (con una sola fonte lo strict coincide con la lista completa: non c'è consenso con cui distinguere le voci)."""
+    migliore = min(errori_fonti) * (1 - conf["peso_persistenza"]) if errori_fonti else 0.0
+    return max(errore_max, migliore)
+
+
+def in_strict(err: float, soglia: float, era_dentro: bool, conf: dict) -> bool:
+    return err <= soglia or (era_dentro and err <= soglia * conf["isteresi"])
 
 
 def controlla_calo(precedenti: dict[str, int], nuovi: dict[str, int], quota: float, minimo: int) -> list[str]:
@@ -297,6 +324,10 @@ def controlla_calo(precedenti: dict[str, int], nuovi: dict[str, int], quota: flo
     return [f"`{nome}`: {prima} → {nuovi[nome]} voci (calo oltre {quota:.0%})"
             for nome, prima in precedenti.items()
             if nome in nuovi and prima >= minimo and nuovi[nome] < prima * (1 - quota)]
+
+
+def leggi_lista(path: Path) -> set[str]:
+    return set(path.read_text(encoding="utf-8").split()) if path.exists() else set()
 
 
 def conta(path: Path) -> int:
@@ -328,22 +359,25 @@ def applica(cfg: dict, raw: dict[str, set[str]], final: dict[str, set[str]], per
             manual: dict[str, set[str]], ctx: Contesto, normalize: Callable[[str], str], *, scrivi: bool,
             ora: int | None = None) -> Risultato:
     conf = {**DEFAULTS, **{k: v for k, v in cfg.get("punteggio", {}).items() if not isinstance(v, dict)}}
-    soglie: dict[str, int] = cfg.get("punteggio", {}).get("strict", {})
+    errori_max: dict[str, float] = cfg.get("punteggio", {}).get("strict", {})
+    soglie: dict[str, float] = {}
     ora = ora_attuale() if ora is None else ora
     res = Risultato()
     blocks = cfg.get("block", {})
-    for cat in soglie:
+    for cat in errori_max:
         if cat not in blocks:
             res.errori.append(f"domains.toml: [punteggio.strict] con categoria block inesistente '{cat}'")
+        elif not 0 < float(errori_max[cat]) < 1:
+            res.errori.append(f"domains.toml: [punteggio.strict] {cat}: errore massimo fuori da (0, 1)")
     res.misure = misura_fonti(per_source, ctx, conf)
 
     # Persistenza (solo categorie con livello strict), punteggio e strict
     primi: dict[str, dict[str, int]] = {}
-    punteggi: dict[str, dict[str, int]] = {}
+    punteggi: dict[str, dict[str, float]] = {}  # categoria → voce → errore stimato
     popolari_strict = popolari_fino(ctx, conf["crux_rank_strict"])
     date_manuali: dict[str, dict[str, tuple[str, str]]] = {}
-    for cat in soglie:
-        if cat not in blocks:
+    for cat in errori_max:
+        if cat not in blocks or not 0 < float(errori_max[cat]) < 1:
             continue
         sources = per_source.get(cat, {})
         esterne = set().union(*sources.values()) if sources else set()
@@ -359,14 +393,16 @@ def applica(cfg: dict, raw: dict[str, set[str]], final: dict[str, set[str]], per
         date_manuali[cat] = leggi_campi(ROOT / "domains" / "blocklist" / f"{cat}.txt", normalize)
         fonti_di: dict[str, list[float]] = {}
         for sid, names in sources.items():
-            peso = res.misure[sid]["peso"]
+            err = res.misure[sid]["errore"]
             for n in names:
-                fonti_di.setdefault(n, []).append(peso)
-        punteggi[cat] = {n: punteggio(fonti_di.get(n, []), ora - stato.get(n, ora), n in manual[cat], conf)
+                fonti_di.setdefault(n, []).append(err)
+        soglie[cat] = soglia_lista(float(errori_max[cat]), [res.misure[sid]["errore"] for sid in sources], conf)
+        prima = leggi_lista(PLAIN_DIR / f"block-{cat}-strict.txt")
+        punteggi[cat] = {n: errore_voce(fonti_di.get(n, []), ora - stato.get(n, ora), n in manual[cat], conf)
                          for n in final[cat]}
-        res.strict[cat] = {n for n, p in punteggi[cat].items()
-                           if p >= soglie[cat] and (n in manual[cat] or cat not in conf["crux_categorie"]
-                                                    or n not in popolari_strict)}
+        res.strict[cat] = {n for n, e in punteggi[cat].items()
+                           if in_strict(e, soglie[cat], n in prima, conf)
+                           and (n in manual[cat] or cat not in conf["crux_categorie"] or n not in popolari_strict)}
 
     # Uscite strict, confronto con il build precedente
     precedenti, nuovi = {}, {}
@@ -378,10 +414,10 @@ def applica(cfg: dict, raw: dict[str, set[str]], final: dict[str, set[str]], per
         semplici = sorted(d for d in nomi if "*" not in d)
         res.plain[fname] = "".join(f"{d}\n" for d in semplici)
         nuovi[fname] = len(semplici)
-        desc = (f"Livello strict di block-{cat}: solo voci con punteggio ≥ {soglie[cat]} "
+        desc = (f"Livello strict di block-{cat}: solo voci con errore stimato ≤ {100 * soglie[cat]:.4f}% "
                 f"(fonti affidabili e persistenti, voci manuali), per aziende e scuole")
         res.meta[fname] = (desc, fname, len(voci))
-        res.log.append(f"- strict block/{cat}: {len(voci)} voci AdGuard (soglia {soglie[cat]})")
+        res.log.append(f"- strict block/{cat}: {len(voci)} voci AdGuard (soglia {100 * soglie[cat]:.4f}%)")
     res.anomalie += controlla_calo({k: v for k, v in precedenti.items() if v}, nuovi, conf["max_calo_strict"],
                                    conf["min_voci_calo"])
     res.soglie, res.conf = soglie, conf
@@ -425,7 +461,7 @@ def indice(cfg, raw, final, per_source, manual, ctx, normalize, primi, punteggi,
                 continue
             if cat in punteggi:
                 primo = primi[cat].get(n) or ora_di(date_manuali[cat].get(n, ("", ""))[0])
-                rec = (li, fonti_di(n), primo, punteggi[cat][n], int(n in strict))
+                rec = (li, fonti_di(n), primo, round(punteggi[cat][n] * 1e6), int(n in strict))
             else:
                 rec = (li, fonti_di(n))
             voci.setdefault(n, []).append(rec)
@@ -446,10 +482,11 @@ def indice(cfg, raw, final, per_source, manual, ctx, normalize, primi, punteggi,
         "hash": "CRC-32 (IEEE) del dominio in ASCII/punycode, modulo partizioni, in esadecimale",
         "liste": liste,
         "fonti": fonti,
-        "precisione": {sid: {k: m[k] for k in ("categoria", "voci", "falsi_positivi", "precisione", "peso")}
+        "precisione": {sid: {k: m[k] for k in ("categoria", "voci", "falsi_positivi", "precisione", "errore")}
                        for sid, m in res.misure.items()},
-        "soglie_strict": soglie,
-        "punteggio": {k: conf[k] for k in ("penalita_fp", "peso_max", "peso_min", "persistenza_ore", "peso_persistenza")},
+        "soglie_strict_ppm": {c: round(s * 1e6, 2) for c, s in soglie.items()},
+        "punteggio": {k: conf[k] for k in ("prior_voci", "prior_errore", "isteresi", "persistenza_ore",
+                                           "peso_persistenza")},
     }
     files, size = perche.scrivi_indice(meta, voci, conf["partizioni_indice"])
     res.log.append(f"- indice «Perché è bloccato?»: {len(voci)} domini, {files} file, {size / 1e6:.1f} MB")

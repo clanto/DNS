@@ -321,15 +321,31 @@ def section_punteggio():
     check(set(soglie) == {"malware", "phishing", "spyware", "cryptojacking", "redirect", "pubblicita", "traccianti"},
           "livello strict: categorie diverse da quelle di sicurezza")
 
-    # formula: voce manuale sempre 100; due fonti valgono più di una; la persistenza alza il punteggio
-    check(P.punteggio([], 0, True, conf) == 100, "punteggio: voce manuale non a 100")
-    nuova, vecchia = P.punteggio([0.8], 0, False, conf), P.punteggio([0.8], 1000, False, conf)
-    check(nuova < vecchia, "punteggio: la persistenza non conta")
-    check(P.punteggio([0.8, 0.8], 0, False, conf) > nuova, "punteggio: due fonti non valgono più di una")
-    check(P.punteggio([0.7], 10 ** 6, False, conf) < soglie["malware"],
-          "soglia strict: una sola fonte con peso 0,7 non deve bastare")
-    check(P.punteggio([0.8], 10 ** 6, False, conf) >= soglie["malware"],
-          "soglia strict: una fonte affidabile e persistente deve bastare")
+    # formula: voce manuale errore 0; due fonti meglio di una; la persistenza abbassa l'errore
+    check(P.errore_voce([], 0, True, conf) == 0, "errore stimato: voce manuale non a 0")
+    q = P.errore_fonte(5, 100000, conf)
+    nuova, vecchia = P.errore_voce([q], 0, False, conf), P.errore_voce([q], 1000, False, conf)
+    check(vecchia < nuova, "errore stimato: la persistenza non conta")
+    check(P.errore_voce([q, q], 0, False, conf) < nuova, "errore stimato: due fonti non valgono più di una")
+    # niente gradini: un falso positivo in più su una fonte piccola sposta l'errore di poco
+    piccola, piu_uno = P.errore_fonte(0, 928, conf), P.errore_fonte(1, 928, conf)
+    check(piu_uno - piccola < 0.001, f"errore stimato: salto eccessivo con un falso positivo ({piccola} → {piu_uno})")
+    # lista con una sola fonte: lo strict non può distinguere, la fonte (anche con falsi positivi) resta dentro
+    for falsi in (0, 1, 3):
+        e = P.errore_fonte(falsi, 928, conf)
+        s = P.soglia_lista(soglie["spyware"], [e], conf)
+        check(P.in_strict(P.errore_voce([e], 10 ** 6, False, conf), s, False, conf),
+              f"lista a una fonte: strict svuotato con {falsi} falsi positivi")
+    # più fonti: la fonte debole da sola resta fuori, insieme a una buona entra
+    buona, debole = P.errore_fonte(3, 240000, conf), P.errore_fonte(115, 17600, conf)
+    s = P.soglia_lista(soglie["traccianti"], [buona, debole], conf)
+    check(not P.in_strict(P.errore_voce([debole], 10 ** 6, False, conf), s, False, conf),
+          "più fonti: una fonte debole da sola non deve bastare")
+    check(P.in_strict(P.errore_voce([buona], 10 ** 6, False, conf), s, False, conf),
+          "più fonti: una fonte affidabile e persistente deve bastare")
+    check(P.in_strict(P.errore_voce([debole, buona], 0, False, conf), s, False, conf), "più fonti: consenso non basta")
+    # isteresi: chi è già dentro resta fino a soglia × isteresi
+    check(P.in_strict(s * 1.2, s, True, conf) and not P.in_strict(s * 1.2, s, False, conf), "isteresi non applicata")
     stato = P.aggiorna_stato({"a.com": 10, "b.com": 12}, {"a.com", "c.com"}, 20)
     check(stato == {"a.com": 10, "c.com": 20}, f"persistenza: aggiornamento errato {stato}")
     check(P.controlla_calo({"x.txt": 1000}, {"x.txt": 700}, 0.2, 100) != [], "guardrail strict: calo del 30% non segnalato")
@@ -405,8 +421,8 @@ def section_punteggio():
     spy = next(line.split("|")[0].strip() for line in (ROOT / "domains/blocklist/spyware.txt").read_text(encoding="utf-8")
                .splitlines() if line.strip() and not line.startswith("#"))
     r = perche.spiega(spy, idx)
-    check(any(b["lista"] == "block-spyware" and b["punteggio"] == 100 and b["strict"] for b in r["blocchi"]),
-          f"perche: voce manuale {spy} senza punteggio 100 o fuori dallo strict")
+    check(any(b["lista"] == "block-spyware" and b.get("errore") == 0 and b["strict"] for b in r["blocchi"]),
+          f"perche: voce manuale {spy} con errore stimato non nullo o fuori dallo strict")
     for testo, atteso in (("https://Login.Esempio.IT:8443/a?b=c", "login.esempio.it"), ("||ads.esempio.it^", "ads.esempio.it"),
                           ("città.it", "xn--citt-3na.it"), ("esempio.it.", "esempio.it")):
         check(perche.estrai_host(testo) == atteso, f"perche: estrai_host('{testo}') = {perche.estrai_host(testo)}")

@@ -491,11 +491,11 @@ note = "Elenco curato a mano (alla base dell'estensione porn di StevenBlack/host
 # ---------------------------------------------------------------------------
 
 [punteggio]
-penalita_fp = 100       # quota di falsi positivi dello 0,1% → peso ridotto del 10%; dell'1% o più → peso_min
-peso_max = 0.8          # una sola fonte, anche senza falsi positivi, non vale quanto una voce manuale
-peso_min = 0.1
+prior_voci = 1000       # errore stimato della fonte = (falsi positivi + prior_voci × prior_errore) / (voci + prior_voci):
+prior_errore = 0.0005   # una fonte piccola non crolla per un solo falso positivo (ipotesi di partenza: 0,05%)
+isteresi = 1.5          # una voce già nello strict esce solo oltre 1,5 × soglia: niente oscillazioni tra i build
 persistenza_ore = 24    # 4 build: dopo un giorno di presenza continuativa la voce ha persistenza piena
-peso_persistenza = 0.5  # peso della persistenza piena, come se fosse una fonte in più
+peso_persistenza = 0.5  # persistenza piena: errore stimato della voce dimezzato
 max_calo_strict = 0.2   # una lista strict che perde più del 20% delle voci → variazione anomala (PR invece del push)
 min_voci_calo = 100     # sotto questo numero di voci il calo non viene controllato
 bootstrap_commit = 30   # senza stato di persistenza: versioni delle cache lette dalla storia del repository
@@ -507,11 +507,11 @@ crux_rank_misura = 1000    # voce che copre un sito tra i primi 1.000 → falso 
 crux_rank_strict = 10000   # voce che copre un sito tra i primi 10.000 → fuori dallo strict (la lista completa non cambia)
 crux_rank_cache = 100000   # host tenuti in domains/cache/crux-top.txt
 
-[punteggio.strict]      # categoria = soglia minima (0-100) per entrare in block-<cat>-strict.txt
-malware = 86
-phishing = 86
-spyware = 86
-cryptojacking = 86
-redirect = 86
-pubblicita = 86
-traccianti = 86
+[punteggio.strict]      # categoria = errore stimato massimo per block-<cat>-strict.txt (0.0002 = 0,02%, 1 su 5.000)
+malware = 0.0002
+phishing = 0.0002
+spyware = 0.0002
+cryptojacking = 0.0002
+redirect = 0.0002
+pubblicita = 0.0002
+traccianti = 0.0002

@@ -96,7 +96,7 @@ Solo host indispensabili, mai domini interi. Nessuna voce può contraddire le no
 
 #### Livello strict (aziende e scuole)
 
-Per le liste di sicurezza esiste anche un livello **strict**: stesse fonti, solo le voci con **punteggio** alto. Meno voci e meno falsi positivi, al prezzo di un ritardo di qualche ora sulle voci nuove segnalate da una sola fonte. Gli URL delle liste complete non cambiano e restano l'unione di tutte le fonti.
+Per le liste di sicurezza esiste anche un livello **strict**: stesse fonti, solo le voci con **errore stimato** basso. Meno voci e meno falsi positivi, al prezzo di un ritardo di qualche ora sulle voci nuove segnalate da una sola fonte. Gli URL delle liste complete non cambiano e restano l'unione di tutte le fonti.
 
 | Lista | AdGuard | Solo domini |
 |---|---|---|
@@ -108,12 +108,12 @@ Per le liste di sicurezza esiste anche un livello **strict**: stesse fonti, solo
 | block-pubblicita-strict | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita-strict.txt) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita-strict.txt) |
 | block-traccianti-strict | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-traccianti-strict.txt) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-traccianti-strict.txt) |
 
-Come si calcola il punteggio (configurazione in `[punteggio]` di [domains/domains.toml](domains/domains.toml), codice in [scripts/punteggio.py](scripts/punteggio.py)):
+Come si decide lo strict (configurazione in `[punteggio]` di [domains/domains.toml](domains/domains.toml), codice in [scripts/punteggio.py](scripts/punteggio.py)):
 
-- **Precisione della fonte**, misurata a ogni build: quota di voci che colpiscono un falso positivo noto (esclusioni di cura, piattaforme della Public Suffix List, servizi protetti o allowlist coperti, domini propri). Da questa deriva il **peso** della fonte. Tabella aggiornata in [dist/adguard/README.md](dist/adguard/README.md#precisione-delle-fonti). Per la popolarità si usa il [Chrome UX Report](https://developer.chrome.com/docs/crux/methodology) di Google (CC BY 4.0, top list da [zakird/crux-top-lists](https://github.com/zakird/crux-top-lists)), solo per phishing e redirect: una voce che copre uno dei 1.000 siti più visitati conta come falso positivo, e chi copre uno dei primi 10.000 resta fuori dallo strict. Non per malware, pubblicità e spyware, dove un sito popolare è spesso il bersaglio. Tranco non è usato: include dati con licenza non commerciale.
+- **Precisione della fonte**, misurata a ogni build: quota di voci che colpiscono un falso positivo noto (esclusioni di cura, piattaforme della Public Suffix List, servizi protetti o allowlist coperti, domini propri). Da questa deriva l'**errore stimato** della fonte, smussato: (falsi positivi + 0,5) / (voci + 1.000), così una fonte piccola non crolla per un solo falso positivo. Tabella aggiornata in [dist/adguard/README.md](dist/adguard/README.md#precisione-delle-fonti). Per la popolarità si usa il [Chrome UX Report](https://developer.chrome.com/docs/crux/methodology) di Google (CC BY 4.0, top list da [zakird/crux-top-lists](https://github.com/zakird/crux-top-lists)), solo per phishing e redirect: una voce che copre uno dei 1.000 siti più visitati conta come falso positivo, e chi copre uno dei primi 10.000 resta fuori dallo strict. Non per malware, pubblicità e spyware, dove un sito popolare è spesso il bersaglio. Tranco non è usato: include dati con licenza non commerciale.
 - **Persistenza**: da quante ore la voce è presente senza interruzioni (stato in `domains/cache/persistenza/`).
-- **Punteggio** 0-100 = 100 × (1 − Π(1 − peso fonte) × (1 − 0,5 × persistenza)). Le voci manuali valgono sempre 100.
-- **Soglia** per lista in `[punteggio.strict]` (oggi 86): entra subito una voce confermata da due fonti, dopo circa 15 ore una voce di una sola fonte affidabile, mai una voce di una sola fonte con troppi falsi positivi.
+- **Errore stimato della voce** = prodotto degli errori delle fonti che la contengono, dimezzato dopo 24 ore di presenza. Le voci manuali valgono 0.
+- **Soglia** per lista: la maggiore tra l'errore massimo in `[punteggio.strict]` (oggi 0,02%, 1 su 5.000) e l'errore della fonte migliore della lista. Con una sola fonte lo strict coincide con la lista completa (non c'è consenso con cui distinguere le voci); con più fonti esclude le voci che arrivano solo da fonti deboli. Una voce già nello strict esce solo oltre 1,5 × soglia: valori continui, niente salti né oscillazioni tra un build e l'altro.
 
 Se una lista strict perde più del 20% delle voci rispetto al build precedente, il build apre una PR di verifica invece di pubblicare (stesso percorso delle variazioni anomale dei feed IP).
 
@@ -133,7 +133,7 @@ Chi usa un DDNS per i **propri apparati** (VPN, telecamere, NAS, firewall) deve 
 
 #### Perché è bloccato?
 
-La pagina [docs/perche-bloccato.html](docs/perche-bloccato.html) spiega un blocco all'helpdesk: si incolla un dominio, un URL o una regola AdGuard e mostra quale lista lo blocca, con quale regola (anche sul dominio padre), da quale fonte, con quale punteggio e se è nel livello strict. Mostra anche perché un dominio **non** è bloccato (esclusione di cura, piattaforma PSL, servizio protetto, allowlist) e cosa fare: esclusione in [domains/escludi.txt](domains/escludi.txt) o eccezione locale nell'istanza AdGuard.
+La pagina [docs/perche-bloccato.html](docs/perche-bloccato.html) spiega un blocco all'helpdesk: si incolla un dominio, un URL o una regola AdGuard e mostra quale lista lo blocca, con quale regola (anche sul dominio padre), da quale fonte, con quale errore stimato e se è nel livello strict. Mostra anche perché un dominio **non** è bloccato (esclusione di cura, piattaforma PSL, servizio protetto, allowlist) e cosa fare: esclusione in [domains/escludi.txt](domains/escludi.txt) o eccezione locale nell'istanza AdGuard.
 
 - **Dati**: indice `meta.json` più 256 partizioni JSON per hash del dominio, rigenerato a ogni build in `dist/perche/`. **Non è versionato** (`.gitignore`): il workflow di build lo pubblica su GitHub Pages insieme a `docs/`, solo quando pubblica le liste su `main` (mai con una variazione anomala in attesa di PR). La pagina scarica dallo stesso sito solo le partizioni che servono: nessun tracker, nessuna libreria esterna, nessun dato inviato a terzi.
 - **Da terminale**: `python scripts/perche.py dominio` (indice locale `dist/perche/` se presente, altrimenti quello su GitHub Pages; `--remoto` per forzarlo, `--json` per le automazioni).
