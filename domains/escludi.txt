@@ -263,3 +263,24 @@ mercadolibre.com.uy | 2026-10-10 | MercadoLibre Uruguay (Phishing.Database) | -
 online.fliphtml5.com | 2026-10-10 | FlipHTML5: pubblicazioni sfogliabili usate anche a scuola, il phishing sta nei percorsi (Phishing.Database) | -
 selfserve.decipherinc.com | 2026-10-10 | Forsta Decipher: piattaforma di sondaggi (Phishing.Database) | -
 ff.garena.com | 2026-10-10 | sito ufficiale del gioco Free Fire: va in block-gaming se serve, non è phishing (Phishing.Database) | -
+linktr.ee | 2026-10-10 | link-in-bio usato da aziende e professionisti italiani, non un redirect malevolo (HaGeZi URL Shortener, UT1) | -
+ibb.co | 2026-10-10 | ImgBB: hosting di immagini, non uno shortener (HaGeZi URL Shortener, PeterDaveHello) | -
+t.me | 2026-10-10 | link Telegram: già in block-social, non un redirect (PeterDaveHello) | -
+cdl.booksy.com | 2026-10-10 | link di prenotazione Booksy usati da saloni e professionisti (HaGeZi URL Shortener, PeterDaveHello) | -
+go.tinder.com | 2026-10-10 | link ufficiali Tinder, non un redirect malevolo (HaGeZi URL Shortener, PeterDaveHello) | -
+shorten-url-professional-url-shortener.en.softonic.com | 2026-10-10 | pagina di download su Softonic, non uno shortener (HaGeZi URL Shortener) | -
+switchyio-advanced-url-shortener.en.softonic.com | 2026-10-10 | pagina di download su Softonic, non uno shortener (HaGeZi URL Shortener) | -
+mail.ru | 2026-10-10 | portale e posta, non un social network (HaGeZi Social) | -
+kinguin.net | 2026-10-10 | marketplace di giochi: non pirateria (BlocklistProject Piracy) | -
+www.kinguin.net | 2026-10-10 | marketplace di giochi: non pirateria (BlocklistProject Piracy) | -
+bar.love.mail.ru | 2026-10-10 | sottodominio di Mail.ru: non contenuto per adulti (Sinfonietta) | -
+my.mail.ru | 2026-10-10 | sottodominio di Mail.ru: non contenuto per adulti (Sinfonietta) | -
+ekstrabladet.dk | 2026-10-10 | quotidiano danese (Sinfonietta) | -
+erotik.markt.de | 2026-10-10 | sezione annunci di un portale generalista (Sinfonietta) | -
+gs.yandex.com.tr | 2026-10-10 | Yandex: falso positivo (Sinfonietta) | -
+yandex.by | 2026-10-10 | Yandex: falso positivo (Sinfonietta) | -
+policies.tinder.com | 2026-10-10 | pagine legali di Tinder, non contenuto per adulti (Sinfonietta) | -
+derpibooru.org | 2026-10-10 | galleria di fan art, non pornografia (Sinfonietta) | -
+xnxx-app.en.softonic.com | 2026-10-10 | pagina di download su Softonic (Sinfonietta) | -
+xnxx-video-player-all-format.en.softonic.com | 2026-10-10 | pagina di download su Softonic (Sinfonietta) | -
+booth.pm | 2026-10-10 | marketplace generalista Pixiv (Sinfonietta) | -
