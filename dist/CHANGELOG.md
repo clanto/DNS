@@ -3,6 +3,16 @@
 > Generato da `scripts/changelog.py` a ogni build: aggiunte e rimozioni rispetto alla versione precedente.
 > Ultime voci in alto. Per gli IP è indicata la fonte (`ip/cache/`) o `manuale`.
 
+## 2026-10-10 12:49 UTC
+
+- `dist/adguard/block-pubblicita.txt`: +1 / -0 (totale 64555)
+  - aggiunte: `||iscbyimnmfyko.site^`
+- `dist/opnsense/doh.txt`: +8 / -0 (totale 2789)
+  - aggiunte: `3dcosas.xyz`, `adguard.johanliebert.top`, `mask-canary.icloud.com`, `mask-h2.icloud.com`, `mask.icloud.com`, `tecdrive.site`, `tlz.asia`, `tuskythehusky.tech`
+- `dist/opnsense/vpn.txt`: +59 / -79 (totale 4312)
+  - aggiunte: `61.ir.mmd.yayayajd.co.uk`, `6781.ir.mmd.yayayajd.co.uk`, `abcdefghijklmnopqrstuvwxynowikmyabcs.myclarevision.com`, `adsnzebv.com`, `all3.beshdash.ir`, `apache-iv.com`, `arash-kamangir.ir.igakwvwa.info`, `ayu-ssr.com` e altre 51
+  - rimosse: `114-etilobrut-diordna.b-cdn.net`, `3etare.co.uk`, `aiiaguli.info`, `ajh.boats`, `aklrgdlj.com`, `anonymousblog.info`, `apple11.nowhearthis.co.uk`, `appstoff.info` e altre 71
+
 ## 2026-10-10 12:41 UTC
 
 - `dist/adguard/block-doh.txt`: +0 / -8 (totale 3247)
