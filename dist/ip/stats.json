@@ -1,25 +1,25 @@
 {
   "feed": {
-    "doh-v4.txt": 1328,
-    "doh-v6.txt": 696,
-    "tor-v4.txt": 5101,
-    "tor-v6.txt": 2414,
+    "doh-v4.txt": 1327,
+    "doh-v6.txt": 695,
+    "tor-v4.txt": 5081,
+    "tor-v6.txt": 2408,
     "threat-v4.txt": 27683,
     "threat-v6.txt": 0,
-    "c2-v4.txt": 458,
+    "c2-v4.txt": 459,
     "c2-v6.txt": 0,
     "vpn-v4.txt": 9092,
     "vpn-v6.txt": 414,
     "social-v4.txt": 211,
     "social-v6.txt": 119,
-    "inbound-v4.txt": 78333,
+    "inbound-v4.txt": 77507,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "all-v4.txt": 34399,
-    "all-v6.txt": 3110,
-    "all-scuole-v4.txt": 43058,
-    "all-scuole-v6.txt": 3470
+    "all-v4.txt": 34379,
+    "all-v6.txt": 3103,
+    "all-scuole-v4.txt": 43037,
+    "all-scuole-v6.txt": 3463
   },
   "fonti": [
     {
@@ -29,7 +29,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1971,
+      "entries": 1969,
       "detail": "scartate 1 non instradabile"
     },
     {
@@ -39,7 +39,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1385,
+      "entries": 1384,
       "detail": "scartate 1 non instradabile"
     },
     {
@@ -59,7 +59,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "ok",
-      "entries": 9594,
+      "entries": 9574,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -109,7 +109,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 89522,
+      "entries": 88793,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -159,7 +159,7 @@
       "homepage": "https://github.com/0xDanielLopez/TweetFeed",
       "enabled": true,
       "status": "ok",
-      "entries": 461,
+      "entries": 462,
       "detail": "IoC degli ultimi 30 giorni condivisi da ricercatori di sicurezza"
     },
     {
@@ -238,15 +238,15 @@
     }
   },
   "allowlist": {
-    "voci": 190,
+    "voci": 199,
     "reti_modificate": 0
   },
   "condivisi": {
-    "intervalli": 11264,
-    "voci_escluse": 4411
+    "intervalli": 11263,
+    "voci_escluse": 4405
   },
   "protetti": {
-    "ip_risolti": 187,
+    "ip_risolti": 196,
     "voci_escluse": []
   }
 }

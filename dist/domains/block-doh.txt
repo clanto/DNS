@@ -1482,7 +1482,6 @@ dns.sarak.as
 dns.sarakas.net
 dns.sarilouis.com
 dns.sark.dev
-dns.satellite226.cloud
 dns.sb
 dns.sbstructure.ir
 dns.scapetical.com
@@ -1621,6 +1620,7 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
+dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -1712,7 +1712,6 @@ dns1.ryan-palmer.com
 dns1.saferbfc.org
 dns1.sarak.as
 dns1.sarakas.net
-dns1.schooldns.nl
 dns1.server.my.id
 dns1.slowb.ro
 dns1.tardishost.ru
@@ -3121,7 +3120,6 @@ shield1.eranext.net
 shinano.anime.com.my
 shitblocker.com
 siddeus.synology.me
-signsservers.ru
 sin.core.access.zznet.fun
 sin02.dnscry.pt
 sin03.dnscry.pt
@@ -3156,7 +3154,6 @@ soporte-premium.duckdns.org
 sorephie-dns2.ddns.net
 spacedns.org
 sq.trin.icu
-squidmall.vip
 sradg.eastus.cloudapp.azure.com
 srv01.dns64.de
 srv02.dns64.de

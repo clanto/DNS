@@ -10331,6 +10331,7 @@
 ||a8.chiyo-moni.com^
 ||abkobh.chobirich.com^
 ||cnebis.chocola.com^
+||choicebump.com^
 ||somni.choicehotels.com^
 ||communicate.choicelogistics.com^
 ||irmsolutions.choicepoint.com^
@@ -10457,6 +10458,8 @@
 ||smetrics.citeline.com^
 ||trk.citeline.com^
 ||ssl.citgo.com^
+||contents1.00110.citi.com^
+||contents2.00110.citi.com^
 ||metrics.citi.com^
 ||metrics1.citi.com^
 ||metrics.citibank.com^
@@ -11509,6 +11512,7 @@
 ||www2.daikinchemicals.com^
 ||info.dailybuzzbarrel.com^
 ||securemetrics.dailycandy.com^
+||dailydesigned.com^
 ||dailydivision.com^
 ||dailydomino.com^
 ||t.dailydot.com^
@@ -37676,6 +37680,7 @@
 ||diboji.class101.net^
 ||feature-flag-edge.live.clickbus.net^
 ||analyticsplusdev.clientify.net^
+||we-stats.com.cdn.cloudflare.net^
 ||d10lpsik1i8c69.cloudfront.net^
 ||d11bdev7tcn7wh.cloudfront.net^
 ||d169bbxks24g2u.cloudfront.net^

@@ -159,6 +159,7 @@ adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
 adguard.jfchenier.ca
+adguard.johanliebert.top
 adguard.k-likhachev.ru
 adguard.kantinyoyok.xyz
 adguard.kiboko.it
@@ -864,6 +865,7 @@ dns.girino.org
 dns.giriprabhat.com
 dns.glampool.cloud
 dns.glf.wtf
+dns.glorydns.com
 dns.glsoft.ai
 dns.gnb09.id
 dns.goldplate.org
@@ -1272,6 +1274,7 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
+dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -1349,6 +1352,7 @@ dns1.slowb.ro
 dns1.tardishost.ru
 dns1.techniverse.net
 dns1.thylacine.co.nz
+dns1.timothy-dev.com
 dns1.understandingcyber.co.uk
 dns1.wyss.network
 dns10.quad9.net
@@ -1583,8 +1587,6 @@ doh.zephyrus.id
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
-doh1.b-cdn.net
-doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -2046,9 +2048,6 @@ man01.dnscry.pt
 maqgie.xyz
 maradns.org
 mask-canary.icloud.com
-mask-h2.icloud.com
-mask.apple-dns.net
-mask.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2534,6 +2533,7 @@ szyrzyk.pl
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
+tecdrive.site
 tecworx.at
 telex.app
 test.adg.siudzinski.net
@@ -2565,6 +2565,7 @@ tky-dns.bitdefender.net
 tll01.dnscry.pt
 tls.jackyhou.idv.tw
 tls.windyvale.net
+tlz.asia
 tngch.mydns.jp
 toaster.lol
 tokyo.559299366.xyz

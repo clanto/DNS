@@ -13779,6 +13779,7 @@
 ||pt.crossmediaservices.com^
 ||info.crossmfg.com^
 ||crosspixelmedia.com^
+||crossseasent.com^
 ||crossss.com^
 ||crowdcontrolsoftware.com^
 ||uiusqp.crowdcow.com^

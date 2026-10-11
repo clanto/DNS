@@ -200,7 +200,6 @@
 ||regiopolis.cloud^
 ||sudo.rm-rf.cloud^
 ||dns.roedel.cloud^
-||dns.satellite226.cloud^
 ||dns.stud.cloud^
 ||guard.thefather.cloud^
 ||dns.thore.cloud^
@@ -2124,7 +2123,6 @@
 ||adblock.renedis.nl^
 ||adguard.rowdyengeesje.nl^
 ||sabzipolobamahi.nl^
-||dns1.schooldns.nl^
 ||doh.sidnlabs.nl^
 ||dns.sstomp.nl^
 ||timmes.nl^
@@ -2751,7 +2749,6 @@
 ||dns.shrike.ru^
 ||penetrator.shurakenas.ru^
 ||villi.shurakenas.ru^
-||signsservers.ru^
 ||smirnovfamily.ru^
 ||ag.snrka.ru^
 ||lomoff.spb.ru^
@@ -2926,6 +2923,7 @@
 ||dns.thiz.top^
 ||kr.tomgirl.top^
 ||us44nas.top^
+||dns.wahr.top^
 ||bwh.why4free.top^
 ||wiqi.top^
 ||xholgm.top^
@@ -3036,7 +3034,6 @@
 ||dns.mtoo.vip^
 ||dns.nicolas.vip^
 ||qingmo.vip^
-||squidmall.vip^
 ||adb.aiec.vn^
 ||agh.amber.edu.vn^
 ||dns.flyer.vn^
