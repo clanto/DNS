@@ -946,7 +946,6 @@
 ||soap2days.bet^
 ||streamingcommunity.bet^
 ||streamm4u.bet^
-||tantifilm.bet^
 ||thepiratebay.bet^
 ||torrentz2.bet^
 ||uhdmovies.bet^
@@ -2414,7 +2413,6 @@
 ||soap2dayz.bz^
 ||thebox.bz^
 ||thegeeks.bz^
-||theoccult.bz^
 ||theplace.bz^
 ||thevault.bz^
 ||torrentz.bz^
@@ -4847,7 +4845,6 @@
 ||futemax.coach^
 ||hdmovie2.coach^
 ||multicanais.coach^
-||tantifilm.coach^
 ||carr.codes^
 ||cineblog01.codes^
 ||filmapik.codes^
@@ -8008,6 +8005,7 @@
 ||megakino20.com^
 ||megakino21.com^
 ||megakino22.com^
+||megakino23.com^
 ||megakino3.com^
 ||megakino4.com^
 ||megakino5.com^
@@ -9547,7 +9545,6 @@
 ||telechargerjeuxtorrent.com^
 ||telegrampremiumapk.com^
 ||teleparty.com^
-||telohraniteli-lordfilm.com^
 ||tenvoi.com^
 ||tenyardtorrents.com^
 ||teraboxairfun.com^
@@ -11413,7 +11410,6 @@
 ||filmoflix.dad^
 ||katmovie18.dad^
 ||kinox.dad^
-||thedaddy.dad^
 ||trendy47.dad^
 ||uhdmovies.dad^
 ||unblockit.dad^
@@ -12834,7 +12830,6 @@
 ||streamingcommunityz.golf^
 ||vegamovies.golf^
 ||yomovies.golf^
-||thepiratebay.gp^
 ||qg.lorzl.gq^
 ||123movies.gr^
 ||black-tracker.gr^
@@ -29144,7 +29139,6 @@
 ||tazz-tv.net^
 ||tracker.teambelgium.net^
 ||tec2.net^
-||techclips.net^
 ||techforever.net^
 ||tehparadox.net^
 ||tektorrent.net^
@@ -29158,7 +29152,6 @@
 ||torrent.thegreatbeyond.net^
 ||thegt.net^
 ||thehotfix.net^
-||thelordfilm.net^
 ||themediasite.net^
 ||themicrotech.net^
 ||themoviebay.net^

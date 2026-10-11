@@ -175,6 +175,7 @@ adguard.mcdrifter.de
 adguard.meddy94.de
 adguard.myddns.org
 adguard.nasaud.info
+adguard.neon0404.space
 adguard.netmasc.services
 adguard.niko-sem.com
 adguard.nocnik.org
@@ -445,6 +446,7 @@ bwh.why4free.top
 c.cicitt.ch
 c9.dedyn.io
 ca-yyc.doh.sb
+ca-yyz.doh.sb
 ca.doh.cloudveil.org
 ca01.dns4me.net
 ca02.dns4me.net
@@ -536,6 +538,7 @@ ddd.999369.xyz
 ddd.loukky.com
 ddns.martinmore.online
 dds.wpme.pl
+de-ber.doh.sb
 de-dus.doh.sb
 de-fra-w-f-1.nashkan.net
 de-fra-w-f-2.nashkan.net
@@ -1090,6 +1093,7 @@ dns.odinpl.com
 dns.ofdoom.net
 dns.oliverweinhold.de
 dns.oliviertv.co.za
+dns.olpploiopkuyhiopsfrt.info
 dns.omada.cafe
 dns.omee4.ru
 dns.opendns.com
@@ -1587,6 +1591,8 @@ doh.zephyrus.id
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
+doh1.b-cdn.net
+doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -1645,6 +1651,7 @@ ebpmc.diskstation.me
 ebpmc.tplinkdns.com
 echoe1yidzu4ioo5.myfritz.net
 edgar.tobkar.net
+edgy-dns.com
 edns.233py.com
 ee-tll.doh.sb
 egorovna.su
@@ -2047,7 +2054,6 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
-mask-canary.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2621,6 +2627,7 @@ uranus.plonknet.com
 us-ash-w-f-1.nashkan.net
 us-chi-w-f-1.nashkan.net
 us-chi-w-p-1.nashkan.net
+us-chi.doh.sb
 us-dal-w-p-1.nashkan.net
 us-hil-w-f-1.nashkan.net
 us-hil-w-p-1.nashkan.net
@@ -2631,9 +2638,11 @@ us-kan-w-p-1.nashkan.net
 us-ny.foxyfy.net
 us-nyc-w-f-1.nashkan.net
 us-nyc-w-p-1.nashkan.net
+us-nyc.doh.sb
 us-saj-w-f-1.nashkan.net
 us-saj-w-p-1.nashkan.net
 us-sj.foxyfy.net
+us-sjc.doh.sb
 us.aab.im
 us.doh.cloudveil.org
 us.future-world.net

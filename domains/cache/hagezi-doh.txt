@@ -382,7 +382,6 @@ ag.marschi.de
 ag.node15.com
 ag.snrka.ru
 ag.stepnew.ru
-ag.teqilla.tk
 ag.wntrmute.net
 agathe.tobkar.net
 agent.frankutils.xyz
@@ -1889,7 +1888,6 @@ doh.sww.net.id
 doh.syshero.org
 doh.sz-dns.com
 doh.technochat.in
-doh.thio.me
 doh.this.web.id
 doh.tiar.app
 doh.tiarap.org

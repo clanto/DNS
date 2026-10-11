@@ -243,6 +243,7 @@ adguard.meddy94.de
 adguard.mokocup.dev
 adguard.myddns.org
 adguard.nasaud.info
+adguard.neon0404.space
 adguard.netmasc.services
 adguard.nielsenhost.dk
 adguard.niko-sem.com
@@ -392,7 +393,6 @@ ag.node15.com
 ag.snrka.ru
 ag.ssrahul96.xyz
 ag.stepnew.ru
-ag.teqilla.tk
 ag.wntrmute.net
 agathe.tobkar.net
 agent.frankutils.xyz
@@ -596,6 +596,7 @@ c-dns.com
 c.cicitt.ch
 c9.dedyn.io
 ca-yyc.doh.sb
+ca-yyz.doh.sb
 ca.doh.cloudveil.org
 ca01.dns4me.net
 ca02.dns4me.net
@@ -711,6 +712,7 @@ ddd.loukky.com
 ddns.martinmore.online
 dds.wpme.pl
 de-adguard.dr3ff1c13nt.com
+de-ber.doh.sb
 de-dus.doh.sb
 de-fra-w-f-1.nashkan.net
 de-fra-w-f-2.nashkan.net
@@ -1995,7 +1997,6 @@ doh.sww.net.id
 doh.syshero.org
 doh.sz-dns.com
 doh.technochat.in
-doh.thio.me
 doh.this.web.id
 doh.tiar.app
 doh.tiarap.org
@@ -3297,6 +3298,7 @@ urology.wiki
 us-ash-w-f-1.nashkan.net
 us-chi-w-f-1.nashkan.net
 us-chi-w-p-1.nashkan.net
+us-chi.doh.sb
 us-dal-w-p-1.nashkan.net
 us-hil-w-f-1.nashkan.net
 us-hil-w-p-1.nashkan.net
@@ -3307,9 +3309,11 @@ us-kan-w-p-1.nashkan.net
 us-ny.foxyfy.net
 us-nyc-w-f-1.nashkan.net
 us-nyc-w-p-1.nashkan.net
+us-nyc.doh.sb
 us-saj-w-f-1.nashkan.net
 us-saj-w-p-1.nashkan.net
 us-sj.foxyfy.net
+us-sjc.doh.sb
 us.aab.im
 us.doh.cloudveil.org
 us.future-world.net

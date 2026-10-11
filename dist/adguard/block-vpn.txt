@@ -670,7 +670,6 @@
 ||syin.cc^
 ||tannel.cc^
 ||tapfut.cc^
-||tdgkjbyj.cc^
 ||theproxy.cc^
 ||theproxy2.cc^
 ||tifa.cc^
@@ -6818,7 +6817,6 @@
 ||supervpn.help^
 ||tgvpn.help^
 ||theproxy.help^
-||thunder-vpn.help^
 ||tiptopvps.help^
 ||tipvpn.help^
 ||tokvpn.help^
@@ -11265,7 +11263,6 @@
 ||surfshark.ru^
 ||tailnet.ru^
 ||talkfirst.ru^
-||tentiro.ru^
 ||tivaro.ru^
 ||testingtesting123.tms-chel.ru^
 ||tolveno.ru^
@@ -11630,7 +11627,6 @@
 ||stkv.space^
 ||streamlineddata.space^
 ||suyinx.space^
-||thriftychoice.space^
 ||uboost.space^
 ||ubst.space^
 ||ubtv.space^
@@ -11713,7 +11709,6 @@
 ||akenai.tg^
 ||frogiesarcade.tk^
 ||icarus.tk^
-||platform.techsmart.tk^
 ||tmhhd.tk^
 ||ark.to^
 ||darknet.to^
@@ -12716,7 +12711,6 @@
 ||supported.testing4fun.xyz^
 ||testred.xyz^
 ||themathoffun.xyz^
-||thesleepineed.xyz^
 ||tinfoil-is-ass.xyz^
 ||tiptopvpn.xyz^
 ||torvexiano.xyz^

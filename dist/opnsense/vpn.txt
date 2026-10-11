@@ -18,6 +18,7 @@
 1008868842.rsc.cdn77.org
 1016945378.rsc.cdn77.org
 1017683305.rsc.cdn77.org
+102-orp-diordna.b-cdn.net
 102.theartieschaffer.com
 1028989235.rsc.cdn77.org
 1034336200.rsc.cdn77.org
@@ -84,6 +85,7 @@
 1133309464.rsc.cdn77.org
 1138625791.rsc.cdn77.org
 1138962056.rsc.cdn77.org
+114-etilobrut-diordna.b-cdn.net
 114.ip-158-69-222.net
 1142797333.rsc.cdn77.org
 1153865737.rsc.cdn77.org
@@ -472,6 +474,8 @@
 3wvve99e.com
 4.theartieschaffer.com
 4.thetravelingtourguide.com
+401-0506.b-cdn.net
+401-retsam-swodniw.b-cdn.net
 41.hide.newflamingodomain.co.uk
 416d70de.nip.io
 416d70de.sslip.io
@@ -624,6 +628,7 @@
 9nd0oy2n.com
 9sskdjs.shop
 9thballs.camdvr.org
+9w9.org
 9yuan.top
 a-regist.anondns.net
 a.cpfrx.info
@@ -726,6 +731,7 @@ amvpn.help
 anatanishadow.easterndns.com
 andprbc0tc-20c12.kxcdn.com
 androidruleonline.xyz
+andstaticcache.b-cdn.net
 andyvpn.cc
 anonto.pw
 anonwebproxy.com
@@ -1071,6 +1077,7 @@ brsueykh.com
 brunysixl.work
 brunysixl.work.cdn.cloudflare.net
 brwczgvk.com
+bs-static.b-cdn.net
 bs8h3v1f.com
 bsbollbn.com
 btc4animals.com
@@ -1187,6 +1194,7 @@ cheapv2.net
 check.peer2profit.site
 check.ragpets.com
 cheddar-chute.com
+chicken.nuggets.are.good.privateimport.jp
 chickenalert.camdvr.org
 chik-chirikvpn.com
 chinacitybit.click
@@ -1770,6 +1778,7 @@ freevpn.pw
 freevpnapp.org
 freevpnfast.info
 freevpnkeys.com
+freevpnme.b-cdn.net
 freevpnnet.com
 freevpnplanet-rus.com
 freevpnplanet-rus.net
@@ -1977,7 +1986,6 @@ gtasix.sparks.ddns-ip.net
 gtdqambjtl3.online
 gtkpw.com
 gtmenbrs.com
-guardianvpn.net
 guestappearance.us
 guildstashtracker.xyz
 gulaaron.ru
@@ -2268,6 +2276,7 @@ ib-kuailian.com.cn
 ibqlbd1z.com
 ibribeillegals.vaultnoir.com
 ibvpn.com
+ice.io
 icitek.com
 idiot.foltmeingop.co.uk
 iditinahuipidorasidagga.net
@@ -2983,6 +2992,8 @@ mqrxgzi4.com
 mrakfhre.com
 mramato2.myclarevision.com
 mrbuwfks.com
+mrr-qa2-static.b-cdn.net
+mrr-qa3-static.b-cdn.net
 msc.mcafee.com
 msgiepkj.com
 msstore-submissions.s3.us-east-1.amazonaws.com
@@ -3226,6 +3237,7 @@ onion.ws
 onlineanonymizer.com
 onlineipchanger.com
 onlineproxy.co.uk
+onlineproxy.eu
 onlyrabbit02.sbs
 onyx7.com
 op.yt47v.cfd
@@ -3302,6 +3314,7 @@ passageplace.com
 passssssssssword.easterndns.com
 patronize.bury.abrdns.com
 pawxy.com
+pay4app.store
 paydar.goooalir.co.uk
 pbavtqle.com
 pbproxy.red
@@ -3795,6 +3808,7 @@ s2wd5kbq.com
 s3-oregon-1.s3-us-west-2.amazonaws.com
 s47n.ir.ir.ir.meli-n12.info
 s4m.tech
+s4m.xyz
 s7n.ir.ir.ir.meli-n12.info
 s8.amazonaws.jdymqic.shop
 s8ks.us
@@ -4242,7 +4256,6 @@ tor.eff.org
 tor.r0cket.net
 tor2web.fi
 tor2web.io
-tor2web.it
 tor2web.to
 torguard.com
 torobchesho.co.uk
@@ -4396,18 +4409,9 @@ unblocked.id
 unblocked.love
 unblocked.racing
 unblocked.surf
-unblocked4.me
-unblocked5.com
-unblockedbay.com
 unblockedbrowser.com
-unblockedproxy.info
-unblockedscene.com
 unblockedschool.com
-unblockedsites.net
 unblockedsites.org
-unblockedstreaming.net
-unblockedstreaming.org
-unblockedwarez.com
 unblocker.cc
 unblocker.net
 unblocker.netlify.app
@@ -4980,6 +4984,7 @@ wroubst.click
 wrounrz.click
 wsu.ams3.digitaloceanspaces.com
 wtools.eu
+wtysublink.com
 wuat2.xyz
 wuxx.store
 wwoybqre.cc
@@ -5026,6 +5031,7 @@ xerivon.xyz
 xerocopy.karrozzin.cloud-ip.cc
 xerophagy.karrozzin.cloud-ip.cc
 xervolia.ru
+xf.kg
 xftld.org
 xg8tw7gfox.site
 xgndgeyn.com
@@ -5239,7 +5245,6 @@ znselxsz.com
 zo0g.site
 zoihvj9m.com
 zonevpn.com
-zoog.pro
 zoogas.site
 zoogasdaj.site
 zoogasja.site

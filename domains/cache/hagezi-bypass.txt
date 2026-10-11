@@ -1485,7 +1485,6 @@ ag.marschi.de
 ag.node15.com
 ag.snrka.ru
 ag.stepnew.ru
-ag.teqilla.tk
 ag.wntrmute.net
 agambizleeyleniglottery.com
 agathe.tobkar.net
@@ -5414,7 +5413,6 @@ doh.sww.net.id
 doh.syshero.org
 doh.sz-dns.com
 doh.technochat.in
-doh.thio.me
 doh.this.web.id
 doh.totoro.pub
 doh.tritan-bb.net
@@ -11074,7 +11072,6 @@ planetvpn.cloud
 planetvpnfree.com
 plans.datacommunicationsinc.com
 plant.smart.energysemi.com
-platform.techsmart.tk
 platinumunblocker.com
 plato-vpn.com
 platobox.info
@@ -13038,7 +13035,6 @@ tbunet.com
 tcp-reset-club.net
 tcpghe.tcp64.de
 tcpvpn.com
-tdgkjbyj.cc
 tdzcnhfb.com
 teacat999.com
 teach.media.eyesound.net
@@ -13068,7 +13064,6 @@ tempoproxy.com
 temproxy.com
 tempshf.world.cdn.cloudflare.net
 tenta.io
-tentiro.ru
 terbium-46q.pages.dev
 terbium.top
 terbiumon.top
@@ -13156,11 +13151,9 @@ theproxy2.org
 theproxya.org
 theproxyer.com
 theproxyguide.com
-therabbitvpn.com
 thesafety.us
 thesaltinfo.net
 theskyapn.com
-thesleepineed.xyz
 thetatoken.org
 thevpncompany.net
 thewalruss.net
@@ -13176,10 +13169,8 @@ thisthingrighthere.store
 thjk.srv64.de
 thordata.com
 threeproxy.net
-thriftychoice.space
 thuis.familiethomassen.nl
 thunder-projectv1.netlify.app
-thunder-vpn.help
 thundervpnwin.com
 thxvv.ru
 tianhang.lol

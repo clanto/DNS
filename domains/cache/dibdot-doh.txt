@@ -65,6 +65,7 @@ adguard.londonwebnerd.cloud
 adguard.maison.gifino.fr
 adguard.marto.si
 adguard.meddy94.de
+adguard.neon0404.space
 adguard.onlyfriends.info
 adguard.pangerl.it
 adguard.pggns.de
@@ -132,6 +133,7 @@ base.dns.mullvad.net
 basic.bravedns.com
 basic.rethinkdns.com
 bazooki-infra.dev
+bestwon203.com
 blackhole.myon.lu
 blitz-setup.ahadns.com
 block.abstergo.it
@@ -143,6 +145,7 @@ bravedns.com
 bts01.dnscry.pt
 c.cicitt.ch
 ca-yyc.doh.sb
+ca-yyz.doh.sb
 ca.doh.cloudveil.org
 ca01.dns4me.net
 ca02.dns4me.net
@@ -186,6 +189,7 @@ dandelionsprout.asuscomm.com
 darkness.is.my.waifu.cz
 dart.kpsn.org
 darya.persiannit.net
+de-ber.doh.sb
 de-dus.doh.sb
 de-fra-w-p-1.nashkan.net
 de-fra.doh.sb
@@ -386,6 +390,7 @@ dns.gi.co.id
 dns.ginovs.nl
 dns.girino.org
 dns.glf.wtf
+dns.glorydns.com
 dns.gnb09.id
 dns.goldplate.org
 dns.google
@@ -1288,6 +1293,7 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
+tuskythehusky.tech
 tyo01.dnscry.pt
 tyo02.dnscry.pt
 typaza.com
@@ -1303,6 +1309,7 @@ united-arab-emirates.privacy-dns.pw
 urology.wiki
 us-chi-w-f-1.nashkan.net
 us-chi-w-p-1.nashkan.net
+us-chi.doh.sb
 us-hil-w-f-1.nashkan.net
 us-hil-w-p-1.nashkan.net
 us-jac-w-f-1.nashkan.net
@@ -1311,9 +1318,11 @@ us-kan-w-f-1.nashkan.net
 us-kan-w-p-1.nashkan.net
 us-nyc-w-f-1.nashkan.net
 us-nyc-w-p-1.nashkan.net
+us-nyc.doh.sb
 us-saj-w-f-1.nashkan.net
 us-saj-w-p-1.nashkan.net
 us-sj.foxyfy.net
+us-sjc.doh.sb
 us.doh.cloudveil.org
 us01.dns4me.net
 us02.dns4me.net
