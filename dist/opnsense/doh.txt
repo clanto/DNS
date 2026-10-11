@@ -22,6 +22,7 @@
 23.106.141.137.16clouds.com
 3.11i.eu
 3.local-dns.noridev.moe
+3dcosas.xyz
 3dns.eu
 3jjxxl.tech
 51576162.ru
@@ -408,6 +409,7 @@ beacon.dog
 beautifullife.eu.org
 beautifulthings.eu.org
 bei01.dnscry.pt
+bestwon203.com
 bh.wael.name
 biba.ydns.eu
 bkk01.dnscry.pt
@@ -1086,7 +1088,6 @@ dns.odinpl.com
 dns.ofdoom.net
 dns.oliverweinhold.de
 dns.oliviertv.co.za
-dns.olpploiopkuyhiopsfrt.info
 dns.omada.cafe
 dns.omee4.ru
 dns.opendns.com
@@ -1582,6 +1583,8 @@ doh.zephyrus.id
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
+doh1.b-cdn.net
+doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -1828,7 +1831,6 @@ home.weisbrod.me
 home.wriedts.de
 home27.duckdns.org
 home34.su
-homec92.dns.army
 homedns.gumeniuk.com
 homeguard.sleziona.org
 homejerem.duckdns.org
@@ -2043,6 +2045,10 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
+mask-canary.icloud.com
+mask-h2.icloud.com
+mask.apple-dns.net
+mask.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2528,7 +2534,6 @@ szyrzyk.pl
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
-tecdrive.site
 tecworx.at
 telex.app
 test.adg.siudzinski.net

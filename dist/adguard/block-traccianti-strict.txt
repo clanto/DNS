@@ -10801,6 +10801,7 @@
 ||repdata.coloradoan.com^
 ||srepdata.coloradoan.com^
 ||coloradoserves.com^
+||colorandnoise.com^
 ||colorfulneon.com^
 ||colorfulpet.com^
 ||smetrics.marketing.colorkinetics.com^
@@ -31154,6 +31155,7 @@
 ||stats.radicalweb.design^
 ||api.ryanyao.design^
 ||analytics.ahrefs.dev^
+||session.bugsnag.kindle.amazon.dev^
 ||bugsnag.shopbop.amazon.dev^
 ||link.bambu.dev^
 ||stats.bholmes.dev^
