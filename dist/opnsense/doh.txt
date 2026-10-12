@@ -22,7 +22,6 @@
 23.106.141.137.16clouds.com
 3.11i.eu
 3.local-dns.noridev.moe
-3dcosas.xyz
 3dns.eu
 3jjxxl.tech
 51576162.ru
@@ -475,7 +474,6 @@ chungocoai.name.vn
 chynik.duckdns.org
 circumitor.de
 clean.dnsforge.de
-cleanbrowsing.org
 clic.eu.org
 closetruth.date
 cloud.198.games
@@ -1278,7 +1276,6 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
-dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -1840,6 +1837,7 @@ home.weisbrod.me
 home.wriedts.de
 home27.duckdns.org
 home34.su
+homec92.dns.army
 homedns.gumeniuk.com
 homeguard.sleziona.org
 homejerem.duckdns.org
@@ -2191,7 +2189,6 @@ ns3.wuyouss.com
 ns4.opennameserver.org
 ns6.ygy.ru
 nsc.torgues.net
-nsec.arnor.org
 nsnacho.sytes.net
 ntwrkh.pro
 nue01.dnscry.pt
@@ -2539,7 +2536,6 @@ szyrzyk.pl
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
-tecdrive.site
 tecworx.at
 telex.app
 test.adg.siudzinski.net
@@ -2571,7 +2567,6 @@ tky-dns.bitdefender.net
 tll01.dnscry.pt
 tls.jackyhou.idv.tw
 tls.windyvale.net
-tlz.asia
 tngch.mydns.jp
 toaster.lol
 tokyo.559299366.xyz
@@ -2596,7 +2591,6 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
-tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt

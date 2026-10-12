@@ -11349,6 +11349,7 @@
 ||crossees.com^
 ||pt.crossmediaservices.com^
 ||info.crossmfg.com^
+||crossseasent.com^
 ||uiusqp.crowdcow.com^
 ||crowdedmass.com^
 ||link.crowdfireapp.com^
