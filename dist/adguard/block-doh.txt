@@ -204,7 +204,6 @@
 ||guard.thefather.cloud^
 ||dns.thore.cloud^
 ||adguard.ulbricht.cloud^
-||tls.vietguards.cloud^
 ||quadrogramma.vps.webdock.cloud^
 ||dns.wibenson.cloud^
 ||dns-1.wil.cloud^
@@ -1194,7 +1193,6 @@
 ||dns.tooizi.eu^
 ||totoland.eu^
 ||dns.server2.tschoerner.eu^
-||v1.ufamax.eu^
 ||unasw.eu^
 ||wallpap.eu^
 ||adguard.wallura.eu^

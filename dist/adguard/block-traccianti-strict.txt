@@ -10825,6 +10825,7 @@
 ||smetrics.columbia.com^
 ||landing.e.columbuscrew.com^
 ||info.columninfosec.com^
+||colwinners.com^
 ||adlog.com.com^
 ||analytics.combatefreestyle.com^
 ||sanalytics.combatefreestyle.com^
@@ -11936,6 +11937,7 @@
 ||go.dgsta.com^
 ||lnk.dgsta.com^
 ||smetrics.dha.com^
+||dharmabrats.com^
 ||www.dhenr54m.com^
 ||ltecrf.dhgate.com^
 ||marketing.dhptraining.com^

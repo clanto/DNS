@@ -1351,7 +1351,6 @@
 ||tradeconfidence.biz^
 ||tradenow.biz^
 ||vp.tradescape.biz^
-||trck.biz^
 ||trueviewer.biz^
 ||twitterproxy.biz^
 ||uhnps.biz^
@@ -13636,7 +13635,6 @@
 ||thls.co^
 ||tibco.co^
 ||tiny-link.co^
-||tinyard.co^
 ||tinygo.co^
 ||tinyl.co^
 ||tinyurlz.co^
@@ -28542,7 +28540,6 @@
 ||toofficialwebsite.com^
 ||toolaxy.com^
 ||toolbites.com^
-||toolboxdaily.com^
 ||toolforschool.com^
 ||toolforus.com^
 ||toolkingo.com^
@@ -28610,7 +28607,6 @@
 ||toptunnel.com^
 ||topunblock.com^
 ||topunblocker.com^
-||topvir.com^
 ||topwebproxies.com^
 ||topwebproxy.com^
 ||torelette.com^
@@ -28681,11 +28677,9 @@
 ||travelmarketingandmedia.com^
 ||travelparked.com^
 ||travelprox.com^
-||trceme.com^
 ||trdjmix.com^
 ||treimo.com^
 ||trendyproxy.com^
-||treszki.com^
 ||trevorhull.com^
 ||trickortreat.com^
 ||trickypanda.com^
@@ -28710,7 +28704,6 @@
 ||trivialproxy.com^
 ||trixme.com^
 ||trizlink.com^
-||trk24.com^
 ||trlucia.com^
 ||trnqify.com^
 ||troasters.com^
@@ -29437,7 +29430,6 @@
 ||proxy.urified.com^
 ||proxy.urinechicks.com^
 ||uriok.com^
-||urjasi.com^
 ||urkbfb.com^
 ||proxy.url.com^
 ||url-l.com^
@@ -29445,7 +29437,6 @@
 ||url-shortening.com^
 ||url-solutions.com^
 ||url-talk.com^
-||url11xx.com^
 ||url127x.com^
 ||url12xx.com^
 ||app.url180.com^
@@ -29526,7 +29517,6 @@
 ||urlnova.com^
 ||urlo12x.com^
 ||urlot.com^
-||urlpi.com^
 ||urlpire.com^
 ||urlpoints.com^
 ||urlq.com^
@@ -29534,7 +29524,6 @@
 ||urlro.com^
 ||urlroot.com^
 ||urlroute.com^
-||urlroxx.com^
 ||urlrw.com^
 ||urls1xx.com^
 ||proxy.urls247.com^
@@ -29543,13 +29532,11 @@
 ||urlshortenerapi.com^
 ||urlshortenertool.com^
 ||urlshortenervip.com^
-||urlshortenerx.com^
 ||urlshortly.com^
 ||urlshortn.com^
 ||urlshortnerpassive.com^
 ||urlshortnerz.com^
 ||urlshortx.com^
-||urlshoter.com^
 ||urlshtr.com^
 ||urlsitecloack.com^
 ||urlslip.com^
@@ -29665,7 +29652,6 @@
 ||uxxy.com^
 ||uyrx.com^
 ||uyyd.com^
-||uzurl.com^
 ||v-666.com^
 ||v2links.com^
 ||v2proxy.com^
@@ -29735,7 +29721,6 @@
 ||freeproxy.venturesteps.com^
 ||venusfactoreviews.com^
 ||veonh.com^
-||verdylion.com^
 ||verifiedbonuses.com^
 ||veryfastproxy.com^
 ||app.veryimportantlink.com^
@@ -29957,7 +29942,6 @@
 ||w-tunnel.com^
 ||w-we.com^
 ||w00tage.com^
-||w0of-woof.com^
 ||proxy.w1z44rdy.com^
 ||w2link.com^
 ||w3dv.com^
@@ -30204,7 +30188,6 @@
 ||wetpussyteenie.com^
 ||wettub.com^
 ||wewebproxy.com^
-||novaurllight.wexisstudios.com^
 ||wh01s.com^
 ||whaddafck.com^
 ||whaledance.com^
@@ -32085,7 +32068,6 @@
 ||webproxies.eu^
 ||webspyonline.eu^
 ||webunblock.eu^
-||weeurl.eu^
 ||whiteproxy.eu^
 ||whoisprivacyonline.eu^
 ||wildpay.eu^
@@ -34220,7 +34202,6 @@
 ||slot633.gg^
 ||thts.gg^
 ||tr-boom.tr.gg^
-||trck.gg^
 ||vgg.gg^
 ||mytools.graphic.com.gh^
 ||sanilac.gives^
@@ -36857,7 +36838,6 @@
 ||twtr.in^
 ||tx7y.in^
 ||typit.in^
-||tyrano-shortener.in^
 ||ucheck.in^
 ||uck.in^
 ||ucla.in^
@@ -36901,7 +36881,6 @@
 ||url0.in^
 ||url1.in^
 ||url2.in^
-||urlcut.in^
 ||urlhide.in^
 ||urli.in^
 ||urlo.in^
@@ -68055,7 +68034,6 @@
 ||unitedkingdompharmacy.life^
 ||vibebycalifornia.life^
 ||virgil-97.life^
-||vnvodich.life^
 ||wallapopoffer.life^
 ||webarnoldkamdem513.life^
 ||weberdesign.life^
@@ -68463,7 +68441,6 @@
 ||web-proxy.link^
 ||webpp.link^
 ||websmart.link^
-||wedew.link^
 ||whs.link^
 ||willgo.link^
 ||wisestamp.link^
@@ -68769,7 +68746,6 @@
 ||unknown123.live^
 ||urllink.live^
 ||urlshortenerr.live^
-||v2g.live^
 ||vellygearswiki.live^
 ||vendoagora.live^
 ||videopro.live^
@@ -79200,7 +79176,6 @@
 ||unshort.site^
 ||url2a.site^
 ||urlbee.site^
-||urlkit.site^
 ||urlshortener.site^
 ||urlsx.site^
 ||videoproxy.site^

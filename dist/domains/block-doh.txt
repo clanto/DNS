@@ -3231,7 +3231,6 @@ tk31z.com
 tky-dns.bitdefender.net
 tll01.dnscry.pt
 tls.jackyhou.idv.tw
-tls.vietguards.cloud
 tls.windyvale.net
 tlz.asia
 tngch.mydns.jp
@@ -3335,7 +3334,6 @@ uw-dns.rubyfish.cn
 v.dnscrypt.uk
 v.recipes
 v0dka.ru
-v1.ufamax.eu
 v1552270.hosted-by-vdsina.ru
 v2-1.huwenqiang.xyz
 v2.xx3210766.live

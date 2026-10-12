@@ -63417,7 +63417,6 @@
 ||nowtrade.live^
 ||rouletteonline.live^
 ||unc.live^
-||vendoagora.live^
 ||videopro.live^
 ||wishct.live^
 ||wolftravels.live^
@@ -109604,6 +109603,7 @@
 ||stealth-proxy.6x.to^
 ||zoz.6x.to^
 ||abr.to^
+||accorcia.to^
 ||adm.to^
 ||ady.to^
 ||alnk.to^
@@ -111891,7 +111891,6 @@
 ||unblocksites.win^
 ||unblockthis.win^
 ||unfilter.win^
-||vpn2.win^
 ||vpnn.win^
 ||webproxies.win^
 ||youtubeproxy.win^
