@@ -1,1 +1,224 @@
-{}
+{
+ "agenziaentrate.link": {
+  "primo": "2026-10-12",
+  "ultimo_vivo": "2026-10-12",
+  "marchio": "Agenzia delle Entrate / Riscossione",
+  "punteggio": 65,
+  "motivi": [
+   "marchio Agenzia delle Entrate / Riscossione nel dominio",
+   "TLD .link",
+   "certificato recente"
+  ],
+  "nome": "agenziaentrate.link",
+  "ultimo_cert": "2026-10-12"
+ },
+ "agenziaentrateriscossione.app": {
+  "primo": "2026-10-12",
+  "ultimo_vivo": "2026-10-12",
+  "marchio": "Agenzia delle Entrate / Riscossione",
+  "punteggio": 55,
+  "motivi": [
+   "marchio Agenzia delle Entrate / Riscossione nel dominio",
+   "wildcard",
+   "certificato DV gratuito"
+  ],
+  "nome": "agenziaentrateriscossione.app",
+  "ultimo_cert": "2026-10-12"
+ },
+ "appio-latino.pages.dev": {
+  "primo": "2026-10-12",
+  "ultimo_vivo": "2026-10-12",
+  "marchio": "pagoPA / app IO",
+  "punteggio": 55,
+  "motivi": [
+   "marchio pagoPA / app IO nel dominio",
+   "certificato recente",
+   "wildcard"
+  ],
+  "nome": "appio-latino.pages.dev",
+  "ultimo_cert": "2026-10-12"
+ },
+ "appio.fyi": {
+  "primo": "2026-10-12",
+  "ultimo_vivo": "2026-10-12",
+  "marchio": "pagoPA / app IO",
+  "punteggio": 55,
+  "motivi": [
+   "marchio pagoPA / app IO nel dominio",
+   "wildcard",
+   "certificato DV gratuito"
+  ],
+  "nome": "appio.fyi",
+  "ultimo_cert": "2026-10-12"
+ },
+ "appiohunter.com": {
+  "primo": "2026-10-12",
+  "ultimo_vivo": "2026-10-12",
+  "marchio": "pagoPA / app IO",
+  "punteggio": 50,
+  "motivi": [
+   "marchio pagoPA / app IO nel dominio",
+   "certificato DV gratuito"
+  ],
+  "nome": "appiohunter.com",
+  "ultimo_cert": "2026-10-12"
+ },
+ "appionment-globals88.pages.dev": {
+  "primo": "2026-10-12",
+  "ultimo_vivo": "2026-10-12",
+  "marchio": "pagoPA / app IO",
+  "punteggio": 50,
+  "motivi": [
+   "marchio pagoPA / app IO nel dominio",
+   "wildcard"
+  ],
+  "nome": "appionment-globals88.pages.dev",
+  "ultimo_cert": "2026-10-12"
+ },
+ "appior.com": {
+  "primo": "2026-10-12",
+  "ultimo_vivo": "2026-10-12",
+  "marchio": "pagoPA / app IO",
+  "punteggio": 50,
+  "motivi": [
+   "marchio pagoPA / app IO nel dominio",
+   "certificato recente"
+  ],
+  "nome": "appior.com",
+  "ultimo_cert": "2026-10-12"
+ },
+ "appioschicken.online": {
+  "primo": "2026-10-12",
+  "ultimo_vivo": "2026-10-12",
+  "marchio": "pagoPA / app IO",
+  "punteggio": 70,
+  "motivi": [
+   "marchio pagoPA / app IO nel dominio",
+   "TLD .online",
+   "wildcard",
+   "certificato DV gratuito"
+  ],
+  "nome": "appioschicken.online",
+  "ultimo_cert": "2026-10-12"
+ },
+ "appiospg88ios.vip": {
+  "primo": "2026-10-12",
+  "ultimo_vivo": "2026-10-12",
+  "marchio": "pagoPA / app IO",
+  "punteggio": 65,
+  "motivi": [
+   "marchio pagoPA / app IO nel dominio",
+   "TLD .vip",
+   "wildcard"
+  ],
+  "nome": "appiospg88ios.vip",
+  "ultimo_cert": "2026-10-12"
+ },
+ "appiosyscare.com": {
+  "primo": "2026-10-12",
+  "ultimo_vivo": "2026-10-12",
+  "marchio": "pagoPA / app IO",
+  "punteggio": 55,
+  "motivi": [
+   "marchio pagoPA / app IO nel dominio",
+   "certificato recente",
+   "wildcard"
+  ],
+  "nome": "appiosyscare.com",
+  "ultimo_cert": "2026-10-12"
+ },
+ "appiotelecom.com": {
+  "primo": "2026-10-12",
+  "ultimo_vivo": "2026-10-12",
+  "marchio": "pagoPA / app IO",
+  "punteggio": 50,
+  "motivi": [
+   "marchio pagoPA / app IO nel dominio",
+   "certificato recente"
+  ],
+  "nome": "appiotelecom.com",
+  "ultimo_cert": "2026-10-12"
+ },
+ "arubapec.store": {
+  "primo": "2026-10-12",
+  "ultimo_vivo": "2026-10-12",
+  "marchio": "Aruba",
+  "punteggio": 60,
+  "motivi": [
+   "marchio Aruba nel dominio",
+   "TLD .store"
+  ],
+  "nome": "arubapec.store",
+  "ultimo_cert": "2026-10-12"
+ },
+ "inail.com": {
+  "primo": "2026-10-12",
+  "ultimo_vivo": "2026-10-12",
+  "marchio": "INAIL",
+  "punteggio": 45,
+  "motivi": [
+   "marchio INAIL nel dominio"
+  ],
+  "nome": "inail.com",
+  "ultimo_cert": "2026-10-12"
+ },
+ "ioapp.ir": {
+  "primo": "2026-10-12",
+  "ultimo_vivo": "2026-10-12",
+  "marchio": "pagoPA / app IO",
+  "punteggio": 50,
+  "motivi": [
+   "marchio pagoPA / app IO nel dominio",
+   "certificato DV gratuito"
+  ],
+  "nome": "ioapp.ir",
+  "ultimo_cert": "2026-10-12"
+ },
+ "pagopace.ch": {
+  "primo": "2026-10-12",
+  "ultimo_vivo": "2026-10-12",
+  "marchio": "pagoPA / app IO",
+  "punteggio": 50,
+  "motivi": [
+   "marchio pagoPA / app IO nel dominio",
+   "certificato DV gratuito"
+  ],
+  "nome": "pagopace.ch",
+  "ultimo_cert": "2026-10-12"
+ },
+ "pagopagi.workers.dev": {
+  "primo": "2026-10-12",
+  "ultimo_vivo": null,
+  "marchio": "pagoPA / app IO",
+  "punteggio": 50,
+  "motivi": [
+   "marchio pagoPA / app IO nel dominio",
+   "wildcard"
+  ],
+  "nome": "pagopagi.workers.dev",
+  "ultimo_cert": "2026-10-12"
+ },
+ "pagopass.com": {
+  "primo": "2026-10-12",
+  "ultimo_vivo": "2026-10-12",
+  "marchio": "pagoPA / app IO",
+  "punteggio": 50,
+  "motivi": [
+   "marchio pagoPA / app IO nel dominio",
+   "wildcard"
+  ],
+  "nome": "pagopass.com",
+  "ultimo_cert": "2026-10-12"
+ },
+ "pagopay.cloud": {
+  "primo": "2026-10-12",
+  "ultimo_vivo": "2026-10-12",
+  "marchio": "pagoPA / app IO",
+  "punteggio": 45,
+  "motivi": [
+   "marchio pagoPA / app IO nel dominio"
+  ],
+  "nome": "pagopay.cloud",
+  "ultimo_cert": "2026-10-12"
+ }
+}
