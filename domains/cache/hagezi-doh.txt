@@ -382,7 +382,6 @@ ag.marschi.de
 ag.node15.com
 ag.snrka.ru
 ag.stepnew.ru
-ag.teqilla.tk
 ag.wntrmute.net
 agathe.tobkar.net
 agent.frankutils.xyz
@@ -1414,7 +1413,6 @@ dns.sarak.as
 dns.sarakas.net
 dns.sarilouis.com
 dns.sark.dev
-dns.satellite226.cloud
 dns.sb
 dns.sbstructure.ir
 dns.scapetical.com
@@ -1639,7 +1637,6 @@ dns1.ryan-palmer.com
 dns1.saferbfc.org
 dns1.sarak.as
 dns1.sarakas.net
-dns1.schooldns.nl
 dns1.server.my.id
 dns1.slowb.ro
 dns1.tardishost.ru
@@ -1891,7 +1888,6 @@ doh.sww.net.id
 doh.syshero.org
 doh.sz-dns.com
 doh.technochat.in
-doh.thio.me
 doh.this.web.id
 doh.tiar.app
 doh.tiarap.org
@@ -2913,7 +2909,6 @@ shield1.eranext.net
 shinano.anime.com.my
 shitblocker.com
 siddeus.synology.me
-signsservers.ru
 sin.core.access.zznet.fun
 sin02.dnscry.pt
 sin03.dnscry.pt
@@ -2946,7 +2941,6 @@ soporte-premium.duckdns.org
 sorephie-dns2.ddns.net
 spacedns.org
 sq.trin.icu
-squidmall.vip
 sradg.eastus.cloudapp.azure.com
 srv01.dns64.de
 srv02.dns64.de

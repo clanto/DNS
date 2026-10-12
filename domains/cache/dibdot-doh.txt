@@ -50,7 +50,6 @@ adguard.depieri.net
 adguard.easez.net
 adguard.ef67daisuki.club
 adguard.gambini.org
-adguard.gbrossi.com.br
 adguard.haneulo.com
 adguard.hartley.cloud
 adguard.ihatemy.live
@@ -63,6 +62,7 @@ adguard.londonwebnerd.cloud
 adguard.maison.gifino.fr
 adguard.marto.si
 adguard.meddy94.de
+adguard.neon0404.space
 adguard.onlyfriends.info
 adguard.pangerl.it
 adguard.pggns.de
@@ -141,6 +141,7 @@ bravedns.com
 bts01.dnscry.pt
 c.cicitt.ch
 ca-yyc.doh.sb
+ca-yyz.doh.sb
 ca.doh.cloudveil.org
 ca01.dns4me.net
 ca02.dns4me.net
@@ -155,7 +156,6 @@ chrome.cloudflare-dns.com
 chromium.dns.nextdns.io
 chuncheon.dnsovertor.cc
 clean.dnsforge.de
-cleanbrowsing.org
 cloud.198.games
 cloud.samutz.com
 cloud.tezoi.com
@@ -184,6 +184,7 @@ dandelionsprout.asuscomm.com
 darkness.is.my.waifu.cz
 dart.kpsn.org
 darya.persiannit.net
+de-ber.doh.sb
 de-dus.doh.sb
 de-fra-w-p-1.nashkan.net
 de-fra.doh.sb
@@ -384,6 +385,7 @@ dns.gi.co.id
 dns.ginovs.nl
 dns.girino.org
 dns.glf.wtf
+dns.glorydns.com
 dns.gnb09.id
 dns.goldplate.org
 dns.google
@@ -457,7 +459,6 @@ dns.lermer.nl
 dns.levonet.sk
 dns.lgprk.com
 dns.liberador.net
-dns.lihj.me
 dns.lista.my.id
 dns.listo.click
 dns.lobbygod.com
@@ -573,6 +574,7 @@ dns.shareworx.net
 dns.shecan.ir
 dns.silen.org
 dns.silentlybren.com
+dns.simplylinux.ch
 dns.sindominio.net
 dns.skrep.eu
 dns.skrep.in
@@ -854,7 +856,6 @@ dukun.de
 dus01.dnscry.pt
 ea-dns.rubyfish.cn
 echoe1yidzu4ioo5.myfritz.net
-edgy-dns.com
 edns.233py.com
 ee-tll.doh.sb
 eliatofani.ovh
@@ -1259,6 +1260,7 @@ syd.adfilter.net
 syd02.dnscry.pt
 takhtakh.domyah.net
 tbs01.dnscry.pt
+tecdrive.site
 testaghome.meshkov.info
 testguard.meexx.de
 tienpham.id.vn
@@ -1297,6 +1299,7 @@ united-arab-emirates.privacy-dns.pw
 urology.wiki
 us-chi-w-f-1.nashkan.net
 us-chi-w-p-1.nashkan.net
+us-chi.doh.sb
 us-hil-w-f-1.nashkan.net
 us-hil-w-p-1.nashkan.net
 us-jac-w-f-1.nashkan.net
@@ -1305,9 +1308,11 @@ us-kan-w-f-1.nashkan.net
 us-kan-w-p-1.nashkan.net
 us-nyc-w-f-1.nashkan.net
 us-nyc-w-p-1.nashkan.net
+us-nyc.doh.sb
 us-saj-w-f-1.nashkan.net
 us-saj-w-p-1.nashkan.net
 us-sj.foxyfy.net
+us-sjc.doh.sb
 us.doh.cloudveil.org
 us01.dns4me.net
 us02.dns4me.net

@@ -8683,6 +8683,7 @@ chipcardice.com
 chipperisle.com
 chivalrouscord.com
 chloro.trip.com
+choicebump.com
 choose.adelaide.edu.au
 choose.nu.edu
 choymp.pooldawg.com
@@ -9170,6 +9171,7 @@ college.business.oregonstate.edu
 collegeauthority.actonservice.com
 colliers.actonservice.com
 coloradoserves.com
+colorandnoise.com
 colorfulneon.com
 colorfulpet.com
 coloroptimizer.com
@@ -9578,6 +9580,8 @@ content22.bmo.com
 content22.citibank.com.au
 content22.citibankonline.com
 contents.pwc.com
+contents1.00110.citi.com
+contents2.00110.citi.com
 contentwiki.com
 contoso-my.sharepoint.com
 contractor-app.buildforce.com
@@ -9824,6 +9828,7 @@ crochetdivas.com
 crookedcreature.com
 crossees.com
 crossengage.io
+crossseasent.com
 crowdedmass.com
 crrm.onjoyri.de
 crs.actonservice.com
@@ -10297,6 +10302,7 @@ dadispapi.gmarket.co.kr
 daegis.actonservice.com
 dafvng.sunrefre.jp
 daifez.thebay.com
+dailydesigned.com
 dailydivision.com
 dailydomino.com
 dajdnm.splits59.com
@@ -29242,6 +29248,7 @@ services.princes-trust.org.uk
 services.releasepoint.com
 servicing.business.hsbc.com
 servicing.unitedautocredit.net
+session.bugsnag.kindle.amazon.dev
 session.timecommerce.net
 sessions.embeddables.com
 setaram.actonservice.com
@@ -41303,6 +41310,7 @@ wdnyom.faces.com
 wdsgpy.lekarna.cz
 wdukge.midwayusa.com
 we-love-privacy.humane.club
+we-stats.com.cdn.cloudflare.net
 we.care.oswegohealth.org
 we.kurly.com
 wealth.informabi.com

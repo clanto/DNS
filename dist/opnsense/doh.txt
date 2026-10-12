@@ -158,6 +158,7 @@ adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
 adguard.jfchenier.ca
+adguard.johanliebert.top
 adguard.k-likhachev.ru
 adguard.kantinyoyok.xyz
 adguard.kiboko.it
@@ -173,6 +174,7 @@ adguard.mcdrifter.de
 adguard.meddy94.de
 adguard.myddns.org
 adguard.nasaud.info
+adguard.neon0404.space
 adguard.netmasc.services
 adguard.niko-sem.com
 adguard.nocnik.org
@@ -408,6 +410,7 @@ beacon.dog
 beautifullife.eu.org
 beautifulthings.eu.org
 bei01.dnscry.pt
+bestwon203.com
 bh.wael.name
 biba.ydns.eu
 bkk01.dnscry.pt
@@ -442,6 +445,7 @@ bwh.why4free.top
 c.cicitt.ch
 c9.dedyn.io
 ca-yyc.doh.sb
+ca-yyz.doh.sb
 ca.doh.cloudveil.org
 ca01.dns4me.net
 ca02.dns4me.net
@@ -470,7 +474,6 @@ chungocoai.name.vn
 chynik.duckdns.org
 circumitor.de
 clean.dnsforge.de
-cleanbrowsing.org
 clic.eu.org
 closetruth.date
 cloud.198.games
@@ -533,6 +536,7 @@ ddd.999369.xyz
 ddd.loukky.com
 ddns.martinmore.online
 dds.wpme.pl
+de-ber.doh.sb
 de-dus.doh.sb
 de-fra-w-f-1.nashkan.net
 de-fra-w-f-2.nashkan.net
@@ -862,6 +866,7 @@ dns.girino.org
 dns.giriprabhat.com
 dns.glampool.cloud
 dns.glf.wtf
+dns.glorydns.com
 dns.glsoft.ai
 dns.gnb09.id
 dns.goldplate.org
@@ -1348,6 +1353,7 @@ dns1.slowb.ro
 dns1.tardishost.ru
 dns1.techniverse.net
 dns1.thylacine.co.nz
+dns1.timothy-dev.com
 dns1.understandingcyber.co.uk
 dns1.wyss.network
 dns10.quad9.net
@@ -1582,6 +1588,8 @@ doh.zephyrus.id
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
+doh1.b-cdn.net
+doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -1640,6 +1648,7 @@ ebpmc.diskstation.me
 ebpmc.tplinkdns.com
 echoe1yidzu4ioo5.myfritz.net
 edgar.tobkar.net
+edgy-dns.com
 edns.233py.com
 ee-tll.doh.sb
 egorovna.su
@@ -2180,7 +2189,6 @@ ns3.wuyouss.com
 ns4.opennameserver.org
 ns6.ygy.ru
 nsc.torgues.net
-nsec.arnor.org
 nsnacho.sytes.net
 ntwrkh.pro
 nue01.dnscry.pt
@@ -2528,7 +2536,6 @@ szyrzyk.pl
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
-tecdrive.site
 tecworx.at
 telex.app
 test.adg.siudzinski.net
@@ -2584,7 +2591,6 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
-tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
@@ -2615,6 +2621,7 @@ uranus.plonknet.com
 us-ash-w-f-1.nashkan.net
 us-chi-w-f-1.nashkan.net
 us-chi-w-p-1.nashkan.net
+us-chi.doh.sb
 us-dal-w-p-1.nashkan.net
 us-hil-w-f-1.nashkan.net
 us-hil-w-p-1.nashkan.net
@@ -2625,9 +2632,11 @@ us-kan-w-p-1.nashkan.net
 us-ny.foxyfy.net
 us-nyc-w-f-1.nashkan.net
 us-nyc-w-p-1.nashkan.net
+us-nyc.doh.sb
 us-saj-w-f-1.nashkan.net
 us-saj-w-p-1.nashkan.net
 us-sj.foxyfy.net
+us-sjc.doh.sb
 us.aab.im
 us.doh.cloudveil.org
 us.future-world.net

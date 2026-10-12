@@ -12968,6 +12968,7 @@
 ||smetrics.coca-colaentuhogar.com^
 ||pixel.coccoc.com^
 ||bizz.cochraneco.com^
+||cockatielcafe.com^
 ||a8cv.coco-gourmet.com^
 ||cocoacafes.com^
 ||analytics.cocolog-nifty.com^
@@ -13779,6 +13780,7 @@
 ||pt.crossmediaservices.com^
 ||info.crossmfg.com^
 ||crosspixelmedia.com^
+||crossseasent.com^
 ||crossss.com^
 ||crowdcontrolsoftware.com^
 ||uiusqp.crowdcow.com^
@@ -14076,6 +14078,7 @@
 ||trk.darkreading.com^
 ||darktrace.com^
 ||info.darnelgroup.com^
+||darngavel.com^
 ||kebpln.darngoodyarn.com^
 ||e.darpro-solutions.com^
 ||ch0p.darty.com^
@@ -14190,6 +14193,7 @@
 ||info.dbbest.com^
 ||marketing.dbh-group.com^
 ||ao-marketing.dbiyes.com^
+||dblarson.com^
 ||researchlog.dbresearch.com^
 ||dbrtkwaa81.com^
 ||internalcomms.dbschenker.com^

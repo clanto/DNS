@@ -200,7 +200,6 @@
 ||regiopolis.cloud^
 ||sudo.rm-rf.cloud^
 ||dns.roedel.cloud^
-||dns.satellite226.cloud^
 ||dns.stud.cloud^
 ||guard.thefather.cloud^
 ||dns.thore.cloud^
@@ -1671,7 +1670,6 @@
 ||siddeus.synology.me^
 ||woalongit.synology.me^
 ||dns.tb4.me^
-||doh.thio.me^
 ||dns.timboeh.me^
 ||adguard.treexhd.me^
 ||adguard.trevorpease.me^
@@ -2124,7 +2122,6 @@
 ||adblock.renedis.nl^
 ||adguard.rowdyengeesje.nl^
 ||sabzipolobamahi.nl^
-||dns1.schooldns.nl^
 ||doh.sidnlabs.nl^
 ||dns.sstomp.nl^
 ||timmes.nl^
@@ -2751,7 +2748,6 @@
 ||dns.shrike.ru^
 ||penetrator.shurakenas.ru^
 ||villi.shurakenas.ru^
-||signsservers.ru^
 ||smirnovfamily.ru^
 ||ag.snrka.ru^
 ||lomoff.spb.ru^
@@ -2827,6 +2823,7 @@
 ||dns.b33.space^
 ||b9c7dc4e-7dde-4903-935b-fd6ea59ca4fb.space^
 ||addns.jpr.space^
+||adguard.neon0404.space^
 ||pygos.space^
 ||adg.rueiliu.space^
 ||adguard.vegann.space^
@@ -2868,7 +2865,6 @@
 ||doh.us.moe.tips^
 ||duyyen.tk^
 ||dns.readlook.tk^
-||ag.teqilla.tk^
 ||dns.koala.us.to^
 ||mcore.us.to^
 ||1ee.top^
@@ -3036,7 +3032,6 @@
 ||dns.mtoo.vip^
 ||dns.nicolas.vip^
 ||qingmo.vip^
-||squidmall.vip^
 ||adb.aiec.vn^
 ||agh.amber.edu.vn^
 ||dns.flyer.vn^
