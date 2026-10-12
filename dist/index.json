@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/clanto/DNS",
   "licenza": "GPL-3.0",
-  "generato": "2026-10-12T06:02:52Z",
+  "generato": "2026-10-12T06:48:17Z",
   "attribuzioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/THIRD_PARTY.md",
   "registro_variazioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/CHANGELOG.md",
   "feed": [
@@ -18,7 +18,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt",
-      "voci": 34113,
+      "voci": 34129,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -91,7 +91,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v6.txt",
-      "voci": 3121,
+      "voci": 3114,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -165,7 +165,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v4.txt",
-      "voci": 42784,
+      "voci": 42800,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -254,7 +254,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v6.txt",
-      "voci": 3481,
+      "voci": 3474,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -434,7 +434,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v6.txt",
-      "voci": 2425,
+      "voci": 2418,
       "descrizione": "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)",
       "fonti": [
         {
@@ -459,7 +459,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v4.txt",
-      "voci": 27409,
+      "voci": 27425,
       "descrizione": "IP malevoli attivi (scanner, brute force, attacchi) segnalati da più blacklist",
       "fonti": [
         {
@@ -699,7 +699,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v4.txt",
-      "voci": 77874,
+      "voci": 77744,
       "descrizione": "IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN",
       "fonti": [
         {
@@ -1048,7 +1048,7 @@
       "categoria": "pubblicita",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita.txt",
-      "voci": 65046,
+      "voci": 65060,
       "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre)",
       "fonti": [
         {
@@ -1075,7 +1075,7 @@
       "categoria": "pubblicita",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita.txt",
-      "voci": 65127,
+      "voci": 65141,
       "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre)",
       "fonti": [
         {
@@ -1101,10 +1101,10 @@
       "azione": "blocco",
       "categoria": "pubblicita",
       "livello": "strict",
-      "soglia": 86,
+      "soglia": 0.0002,
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita-strict.txt",
-      "voci": 47288,
+      "voci": 47507,
       "fonti": [
         {
           "id": "easylist",
@@ -1122,7 +1122,7 @@
           "homepage": "domains/blocklist/pubblicita.txt"
         }
       ],
-      "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre) — livello strict (punteggio ≥ 86)"
+      "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre) — livello strict (punteggio ≥ 0.0002)"
     },
     {
       "id": "domini/block-pubblicita-strict",
@@ -1130,10 +1130,10 @@
       "azione": "blocco",
       "categoria": "pubblicita",
       "livello": "strict",
-      "soglia": 86,
+      "soglia": 0.0002,
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita-strict.txt",
-      "voci": 47295,
+      "voci": 47514,
       "fonti": [
         {
           "id": "easylist",
@@ -1151,7 +1151,7 @@
           "homepage": "domains/blocklist/pubblicita.txt"
         }
       ],
-      "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre) — livello strict (punteggio ≥ 86)"
+      "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre) — livello strict (punteggio ≥ 0.0002)"
     },
     {
       "id": "adguard/block-accesso-remoto",
@@ -1262,7 +1262,7 @@
       "categoria": "social",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-social.txt",
-      "voci": 421,
+      "voci": 1216,
       "descrizione": "Social network e piattaforme community (scuole)",
       "fonti": [
         {
@@ -1279,6 +1279,11 @@
           "id": "blocklistproject-twitter",
           "licenza": "Unlicense",
           "homepage": "https://github.com/blocklistproject/Lists"
+        },
+        {
+          "id": "hagezi-social",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
         },
         {
           "id": "manuale",
@@ -1294,7 +1299,7 @@
       "categoria": "social",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-social.txt",
-      "voci": 27298,
+      "voci": 28153,
       "descrizione": "Social network e piattaforme community (scuole)",
       "fonti": [
         {
@@ -1311,6 +1316,11 @@
           "id": "blocklistproject-twitter",
           "licenza": "Unlicense",
           "homepage": "https://github.com/blocklistproject/Lists"
+        },
+        {
+          "id": "hagezi-social",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
         },
         {
           "id": "manuale",
@@ -1520,7 +1530,7 @@
       "categoria": "vpn",
       "formato": "FQDN per alias OPNsense URL Table (IPs)",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/vpn.txt",
-      "voci": 5281,
+      "voci": 5260,
       "descrizione": "VPN, proxy e servizi di bypass (scuole)",
       "fonti": [
         {
@@ -1547,13 +1557,18 @@
       "categoria": "porno",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-porno.txt",
-      "voci": 89870,
+      "voci": 116434,
       "descrizione": "Contenuti per adulti (HaGeZi NSFW + siti che superavano i filtri)",
       "fonti": [
         {
           "id": "hagezi-nsfw",
           "licenza": "GPL-3.0",
           "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "sinfonietta-pornography",
+          "licenza": "MIT",
+          "homepage": "https://github.com/Sinfonietta/hostfiles"
         },
         {
           "id": "manuale",
@@ -1569,13 +1584,18 @@
       "categoria": "porno",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-porno.txt",
-      "voci": 89896,
+      "voci": 137052,
       "descrizione": "Contenuti per adulti (HaGeZi NSFW + siti che superavano i filtri)",
       "fonti": [
         {
           "id": "hagezi-nsfw",
           "licenza": "GPL-3.0",
           "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "sinfonietta-pornography",
+          "licenza": "MIT",
+          "homepage": "https://github.com/Sinfonietta/hostfiles"
         },
         {
           "id": "manuale",
@@ -1659,7 +1679,7 @@
       "categoria": "malware",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware.txt",
-      "voci": 272740,
+      "voci": 272742,
       "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware)",
       "fonti": [
         {
@@ -1701,7 +1721,7 @@
       "categoria": "malware",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware.txt",
-      "voci": 273654,
+      "voci": 273656,
       "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware)",
       "fonti": [
         {
@@ -1742,10 +1762,10 @@
       "azione": "blocco",
       "categoria": "malware",
       "livello": "strict",
-      "soglia": 86,
+      "soglia": 0.0002,
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware-strict.txt",
-      "voci": 239128,
+      "voci": 238781,
       "fonti": [
         {
           "id": "hagezi-tif-mini",
@@ -1778,7 +1798,7 @@
           "homepage": "domains/blocklist/malware.txt"
         }
       ],
-      "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware) — livello strict (punteggio ≥ 86)"
+      "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware) — livello strict (punteggio ≥ 0.0002)"
     },
     {
       "id": "domini/block-malware-strict",
@@ -1786,10 +1806,10 @@
       "azione": "blocco",
       "categoria": "malware",
       "livello": "strict",
-      "soglia": 86,
+      "soglia": 0.0002,
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware-strict.txt",
-      "voci": 239167,
+      "voci": 238808,
       "fonti": [
         {
           "id": "hagezi-tif-mini",
@@ -1822,7 +1842,7 @@
           "homepage": "domains/blocklist/malware.txt"
         }
       ],
-      "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware) — livello strict (punteggio ≥ 86)"
+      "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware) — livello strict (punteggio ≥ 0.0002)"
     },
     {
       "id": "adguard/block-phishing",
@@ -1874,7 +1894,7 @@
       "azione": "blocco",
       "categoria": "phishing",
       "livello": "strict",
-      "soglia": 86,
+      "soglia": 0.0002,
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-phishing-strict.txt",
       "voci": 451173,
@@ -1890,7 +1910,7 @@
           "homepage": "https://github.com/MikhailKasimov/validin-phish-feed"
         }
       ],
-      "descrizione": "Phishing attivo (Phishing.Database, Validin) — livello strict (punteggio ≥ 86)"
+      "descrizione": "Phishing attivo (Phishing.Database, Validin) — livello strict (punteggio ≥ 0.0002)"
     },
     {
       "id": "domini/block-phishing-strict",
@@ -1898,7 +1918,7 @@
       "azione": "blocco",
       "categoria": "phishing",
       "livello": "strict",
-      "soglia": 86,
+      "soglia": 0.0002,
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-phishing-strict.txt",
       "voci": 470307,
@@ -1914,7 +1934,7 @@
           "homepage": "https://github.com/MikhailKasimov/validin-phish-feed"
         }
       ],
-      "descrizione": "Phishing attivo (Phishing.Database, Validin) — livello strict (punteggio ≥ 86)"
+      "descrizione": "Phishing attivo (Phishing.Database, Validin) — livello strict (punteggio ≥ 0.0002)"
     },
     {
       "id": "adguard/block-traccianti",
@@ -1923,7 +1943,7 @@
       "categoria": "traccianti",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-traccianti.txt",
-      "voci": 58935,
+      "voci": 58934,
       "descrizione": "Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV)",
       "fonti": [
         {
@@ -1950,7 +1970,7 @@
       "categoria": "traccianti",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-traccianti.txt",
-      "voci": 59932,
+      "voci": 59931,
       "descrizione": "Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV)",
       "fonti": [
         {
@@ -1976,10 +1996,10 @@
       "azione": "blocco",
       "categoria": "traccianti",
       "livello": "strict",
-      "soglia": 86,
+      "soglia": 0.0002,
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-traccianti-strict.txt",
-      "voci": 43200,
+      "voci": 43204,
       "fonti": [
         {
           "id": "easyprivacy",
@@ -1997,7 +2017,7 @@
           "homepage": "https://github.com/Perflyst/PiHoleBlocklist"
         }
       ],
-      "descrizione": "Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV) — livello strict (punteggio ≥ 86)"
+      "descrizione": "Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV) — livello strict (punteggio ≥ 0.0002)"
     },
     {
       "id": "domini/block-traccianti-strict",
@@ -2005,10 +2025,10 @@
       "azione": "blocco",
       "categoria": "traccianti",
       "livello": "strict",
-      "soglia": 86,
+      "soglia": 0.0002,
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-traccianti-strict.txt",
-      "voci": 43201,
+      "voci": 43205,
       "fonti": [
         {
           "id": "easyprivacy",
@@ -2026,7 +2046,7 @@
           "homepage": "https://github.com/Perflyst/PiHoleBlocklist"
         }
       ],
-      "descrizione": "Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV) — livello strict (punteggio ≥ 86)"
+      "descrizione": "Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV) — livello strict (punteggio ≥ 0.0002)"
     },
     {
       "id": "adguard/block-ddns",
@@ -2122,7 +2142,7 @@
       "azione": "blocco",
       "categoria": "spyware",
       "livello": "strict",
-      "soglia": 86,
+      "soglia": 0.0002,
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-spyware-strict.txt",
       "voci": 528,
@@ -2138,7 +2158,7 @@
           "homepage": "domains/blocklist/spyware.txt"
         }
       ],
-      "descrizione": "Stalkerware e app spia — livello strict (punteggio ≥ 86)"
+      "descrizione": "Stalkerware e app spia — livello strict (punteggio ≥ 0.0002)"
     },
     {
       "id": "domini/block-spyware-strict",
@@ -2146,7 +2166,7 @@
       "azione": "blocco",
       "categoria": "spyware",
       "livello": "strict",
-      "soglia": 86,
+      "soglia": 0.0002,
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-spyware-strict.txt",
       "voci": 935,
@@ -2162,7 +2182,7 @@
           "homepage": "domains/blocklist/spyware.txt"
         }
       ],
-      "descrizione": "Stalkerware e app spia — livello strict (punteggio ≥ 86)"
+      "descrizione": "Stalkerware e app spia — livello strict (punteggio ≥ 0.0002)"
     },
     {
       "id": "adguard/block-cryptojacking",
@@ -2204,7 +2224,7 @@
       "azione": "blocco",
       "categoria": "cryptojacking",
       "livello": "strict",
-      "soglia": 86,
+      "soglia": 0.0002,
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-cryptojacking-strict.txt",
       "voci": 296,
@@ -2215,7 +2235,7 @@
           "homepage": "https://github.com/hoshsadiq/adblock-nocoin-list"
         }
       ],
-      "descrizione": "Mining di criptovalute nel browser — livello strict (punteggio ≥ 86)"
+      "descrizione": "Mining di criptovalute nel browser — livello strict (punteggio ≥ 0.0002)"
     },
     {
       "id": "domini/block-cryptojacking-strict",
@@ -2223,7 +2243,7 @@
       "azione": "blocco",
       "categoria": "cryptojacking",
       "livello": "strict",
-      "soglia": 86,
+      "soglia": 0.0002,
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-cryptojacking-strict.txt",
       "voci": 312,
@@ -2234,7 +2254,7 @@
           "homepage": "https://github.com/hoshsadiq/adblock-nocoin-list"
         }
       ],
-      "descrizione": "Mining di criptovalute nel browser — livello strict (punteggio ≥ 86)"
+      "descrizione": "Mining di criptovalute nel browser — livello strict (punteggio ≥ 0.0002)"
     },
     {
       "id": "adguard/block-redirect",
@@ -2243,13 +2263,28 @@
       "categoria": "redirect",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-redirect.txt",
-      "voci": 108676,
+      "voci": 120290,
       "descrizione": "Redirect e URL shortener (BlocklistProject)",
       "fonti": [
         {
           "id": "blocklistproject-redirect",
           "licenza": "Unlicense",
           "homepage": "https://github.com/blocklistproject/Lists"
+        },
+        {
+          "id": "hagezi-urlshortener",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "peterdavehello-url-shorteners",
+          "licenza": "CC BY-SA 4.0",
+          "homepage": "https://github.com/PeterDaveHello/url-shorteners"
+        },
+        {
+          "id": "ut1-shortener",
+          "licenza": "CC BY-SA 4.0",
+          "homepage": "https://dsi.ut-capitole.fr/blacklists/"
         }
       ]
     },
@@ -2260,13 +2295,28 @@
       "categoria": "redirect",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-redirect.txt",
-      "voci": 108680,
+      "voci": 120338,
       "descrizione": "Redirect e URL shortener (BlocklistProject)",
       "fonti": [
         {
           "id": "blocklistproject-redirect",
           "licenza": "Unlicense",
           "homepage": "https://github.com/blocklistproject/Lists"
+        },
+        {
+          "id": "hagezi-urlshortener",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "peterdavehello-url-shorteners",
+          "licenza": "CC BY-SA 4.0",
+          "homepage": "https://github.com/PeterDaveHello/url-shorteners"
+        },
+        {
+          "id": "ut1-shortener",
+          "licenza": "CC BY-SA 4.0",
+          "homepage": "https://dsi.ut-capitole.fr/blacklists/"
         }
       ]
     },
@@ -2276,18 +2326,33 @@
       "azione": "blocco",
       "categoria": "redirect",
       "livello": "strict",
-      "soglia": 86,
+      "soglia": 0.0002,
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-redirect-strict.txt",
-      "voci": 108674,
+      "voci": 112627,
       "fonti": [
         {
           "id": "blocklistproject-redirect",
           "licenza": "Unlicense",
           "homepage": "https://github.com/blocklistproject/Lists"
+        },
+        {
+          "id": "hagezi-urlshortener",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "peterdavehello-url-shorteners",
+          "licenza": "CC BY-SA 4.0",
+          "homepage": "https://github.com/PeterDaveHello/url-shorteners"
+        },
+        {
+          "id": "ut1-shortener",
+          "licenza": "CC BY-SA 4.0",
+          "homepage": "https://dsi.ut-capitole.fr/blacklists/"
         }
       ],
-      "descrizione": "Redirect e URL shortener (BlocklistProject) — livello strict (punteggio ≥ 86)"
+      "descrizione": "Redirect e URL shortener (BlocklistProject) — livello strict (punteggio ≥ 0.0002)"
     },
     {
       "id": "domini/block-redirect-strict",
@@ -2295,18 +2360,33 @@
       "azione": "blocco",
       "categoria": "redirect",
       "livello": "strict",
-      "soglia": 86,
+      "soglia": 0.0002,
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-redirect-strict.txt",
-      "voci": 108678,
+      "voci": 112635,
       "fonti": [
         {
           "id": "blocklistproject-redirect",
           "licenza": "Unlicense",
           "homepage": "https://github.com/blocklistproject/Lists"
+        },
+        {
+          "id": "hagezi-urlshortener",
+          "licenza": "GPL-3.0",
+          "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "peterdavehello-url-shorteners",
+          "licenza": "CC BY-SA 4.0",
+          "homepage": "https://github.com/PeterDaveHello/url-shorteners"
+        },
+        {
+          "id": "ut1-shortener",
+          "licenza": "CC BY-SA 4.0",
+          "homepage": "https://dsi.ut-capitole.fr/blacklists/"
         }
       ],
-      "descrizione": "Redirect e URL shortener (BlocklistProject) — livello strict (punteggio ≥ 86)"
+      "descrizione": "Redirect e URL shortener (BlocklistProject) — livello strict (punteggio ≥ 0.0002)"
     },
     {
       "id": "adguard/block-pirateria",
@@ -2315,13 +2395,18 @@
       "categoria": "pirateria",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pirateria.txt",
-      "voci": 55578,
+      "voci": 55999,
       "descrizione": "Pirateria, warez e streaming illegale",
       "fonti": [
         {
           "id": "hagezi-anti-piracy",
           "licenza": "GPL-3.0",
           "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "blocklistproject-piracy",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/blocklistproject/Lists"
         },
         {
           "id": "manuale",
@@ -2337,13 +2422,18 @@
       "categoria": "pirateria",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pirateria.txt",
-      "voci": 55586,
+      "voci": 57110,
       "descrizione": "Pirateria, warez e streaming illegale",
       "fonti": [
         {
           "id": "hagezi-anti-piracy",
           "licenza": "GPL-3.0",
           "homepage": "https://github.com/hagezi/dns-blocklists"
+        },
+        {
+          "id": "blocklistproject-piracy",
+          "licenza": "Unlicense",
+          "homepage": "https://github.com/blocklistproject/Lists"
         },
         {
           "id": "manuale",

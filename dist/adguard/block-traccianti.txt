@@ -38529,7 +38529,6 @@
 ||ablink.track.timhortons.com^
 ||stats.timkhoury.com^
 ||marketing.timmons.com^
-||go.tinder.com^
 ||engage.tines.com^
 ||tingyun.com^
 ||tinybluewhale.com^

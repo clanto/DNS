@@ -10729,6 +10729,7 @@
 ||smetrics.coca-colaentuhogar.com^
 ||pixel.coccoc.com^
 ||bizz.cochraneco.com^
+||cockatielcafe.com^
 ||a8cv.coco-gourmet.com^
 ||cocoacafes.com^
 ||analytics.cocolog-nifty.com^
@@ -11575,6 +11576,7 @@
 ||darkartsyoga.com^
 ||trk.darkreading.com^
 ||info.darnelgroup.com^
+||darngavel.com^
 ||kebpln.darngoodyarn.com^
 ||e.darpro-solutions.com^
 ||ch0p.darty.com^
@@ -11652,6 +11654,7 @@
 ||info.dbbest.com^
 ||marketing.dbh-group.com^
 ||ao-marketing.dbiyes.com^
+||dblarson.com^
 ||researchlog.dbresearch.com^
 ||www.dbrtkwaa81.com^
 ||internalcomms.dbschenker.com^
@@ -19625,6 +19628,7 @@
 ||trust.mitutoyo.com^
 ||stats.mituyu.com^
 ||apm-rum.inf.miui.com^
+||tracking.intl.miui.com^
 ||tracking.miui.com^
 ||data.service.miumiu.com^
 ||b.miwebflex.com^
@@ -23988,6 +23992,7 @@
 ||smetrics.samsung.com^
 ||images.ssbusiness.samsung.com^
 ||target-us.samsung.com^
+||samsungacr.com^
 ||analytics-api.samsunghealthcn.com^
 ||analytics.samsungknox.com^
 ||metrics.samsunglife.com^
@@ -26814,7 +26819,6 @@
 ||ablink.track.timhortons.com^
 ||stats.timkhoury.com^
 ||marketing.timmons.com^
-||go.tinder.com^
 ||engage.tines.com^
 ||tinybluewhale.com^
 ||sp.tinymce.com^

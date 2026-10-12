@@ -18,7 +18,6 @@
 1008868842.rsc.cdn77.org
 1016945378.rsc.cdn77.org
 1017683305.rsc.cdn77.org
-102-orp-diordna.b-cdn.net
 102.theartieschaffer.com
 1028989235.rsc.cdn77.org
 1034336200.rsc.cdn77.org
@@ -85,7 +84,6 @@
 1133309464.rsc.cdn77.org
 1138625791.rsc.cdn77.org
 1138962056.rsc.cdn77.org
-114-etilobrut-diordna.b-cdn.net
 114.ip-158-69-222.net
 1142797333.rsc.cdn77.org
 1153865737.rsc.cdn77.org
@@ -474,9 +472,6 @@
 3wvve99e.com
 4.theartieschaffer.com
 4.thetravelingtourguide.com
-401-0506.b-cdn.net
-401-0507.b-cdn.net
-401-retsam-swodniw.b-cdn.net
 41.hide.newflamingodomain.co.uk
 416d70de.nip.io
 416d70de.sslip.io
@@ -629,7 +624,6 @@
 9nd0oy2n.com
 9sskdjs.shop
 9thballs.camdvr.org
-9w9.org
 9yuan.top
 a-regist.anondns.net
 a.cpfrx.info
@@ -940,7 +934,6 @@ begzar.xyz
 beherb.xyz
 behtarin.goooalir.co.uk
 beibei.cloud
-belkavpn.com
 belldream.xyz
 beltruna.ru
 bereanmarion.org
@@ -1009,14 +1002,11 @@ blewpass.com
 blncapi.com
 blockaway.io
 blockziziidesu.f5.si
-blooket.broomleigh.org
 bloquer.fr
 bluegray.us
 blueproxy.org
 bmetrics.org
-bmext1static.b-cdn.net
 bmjwk.cn
-bmqan2static.b-cdn.net
 bn0dghrx.com
 bnj0d3r2.com
 boda12306.com
@@ -1049,13 +1039,13 @@ brd-sdk-app-packages.s3.amazonaws.com
 bright-vpn.help
 brightdata-app-production-app-bucket.s3.us-east-1.amazonaws.com
 brightvpn.pro
+bringover.net
 britishproxy.com
 bro-ru.com
 bro-ru.net
 bro-ru.org
 broadearn.com
 bromineproxy.netlify.app
-browsec-ru.b-cdn.net
 browsec-ru.bz
 browsec-ru.com
 browsec-ru.net
@@ -1066,7 +1056,6 @@ browsec-rus.net
 browsec-rus.org
 browsec-uninstall.s3-website.eu-central-1.amazonaws.com
 browsec-vpn-ru.com
-browsec.b-cdn.net
 browsec.best
 browsec.biz
 browsec.bz
@@ -1080,7 +1069,6 @@ brsueykh.com
 brunysixl.work
 brunysixl.work.cdn.cloudflare.net
 brwczgvk.com
-bs-static.b-cdn.net
 bs8h3v1f.com
 bsbollbn.com
 btc4animals.com
@@ -1197,6 +1185,7 @@ cheapv2.net
 check.peer2profit.site
 check.ragpets.com
 cheddar-chute.com
+chicken.nuggets.are.good.privateimport.jp
 chickenalert.camdvr.org
 chik-chirikvpn.com
 chinacitybit.click
@@ -1780,7 +1769,6 @@ freevpn.pw
 freevpnapp.org
 freevpnfast.info
 freevpnkeys.com
-freevpnme.b-cdn.net
 freevpnnet.com
 freevpnplanet-rus.com
 freevpnplanet-rus.net
@@ -2189,7 +2177,6 @@ hmx.info
 hnveiere.com
 hockeybet.org
 hoeqphmi.com
-hola-client-cdn4.b-cdn.net
 hola-compat.com
 hola-vpn.com
 hola.org
@@ -2279,7 +2266,6 @@ ib-kuailian.com.cn
 ibqlbd1z.com
 ibribeillegals.vaultnoir.com
 ibvpn.com
-ice.io
 icitek.com
 idiot.foltmeingop.co.uk
 iditinahuipidorasidagga.net
@@ -2354,7 +2340,6 @@ interview.registration.abrdns.com
 intervpn.com
 iohnhbly.com
 iopl.xyz
-iosap2-static.b-cdn.net
 iosp33beec-20c12.kxcdn.com
 ioxy.de
 ip42.ip-15-204-147.us
@@ -2863,8 +2848,6 @@ mjkuhini-777.easterndns.com
 mjpabahu.com
 mkdkkn5k.com
 mkkewfye.com
-mlst-prom-static.b-cdn.net
-mlst-static.b-cdn.net
 mm.unstop.cloudns.ch
 mnqwscym.com
 mobile-socket.culturegps.com
@@ -2995,10 +2978,6 @@ mqrxgzi4.com
 mrakfhre.com
 mramato2.myclarevision.com
 mrbuwfks.com
-mrr-qa-static.b-cdn.net
-mrr-qa2-static.b-cdn.net
-mrr-qa3-static.b-cdn.net
-mrscraper.com
 msc.mcafee.com
 msgiepkj.com
 msstore-submissions.s3.us-east-1.amazonaws.com
@@ -3319,6 +3298,7 @@ passageplace.com
 passssssssssword.easterndns.com
 patronize.bury.abrdns.com
 pawxy.com
+pay4app.store
 paydar.goooalir.co.uk
 pbavtqle.com
 pbproxy.red
@@ -3385,7 +3365,6 @@ pizza.frogiee.one.cdn.cloudflare.net
 pjocyymt.com
 pkrreaperr.me
 pkw-aufladen.de
-placenetworks.com
 planet-vpn-free.ru
 planet-vpn-ru.com
 planet-vpn-ru.net
@@ -3893,6 +3872,7 @@ securitykiss.com
 securly.mom
 secvpnproxy.co.cc
 seed4.me
+seed4me.app
 seed4me.help
 seelabour.com
 seligmania-online.com
@@ -4577,7 +4557,6 @@ victorytechnologypro.com
 videocollage.us
 videomy.online
 videoproxy.site
-videounblocked.com
 viewlak.com
 viggbsh.ipv64.net
 vikingvpn.com
@@ -5016,6 +4995,7 @@ x-cdn-static.com
 x-fg-gg-g-f.mywire.org
 x-lets-vpn.com
 x25lt1be.com
+x2clouda.top
 x6whbmtr.com
 xalnora.ru
 xanderlikedihhh.hotelconsuladoinn.com
@@ -5033,7 +5013,6 @@ xerivon.xyz
 xerocopy.karrozzin.cloud-ip.cc
 xerophagy.karrozzin.cloud-ip.cc
 xervolia.ru
-xf.kg
 xftld.org
 xg8tw7gfox.site
 xgndgeyn.com
