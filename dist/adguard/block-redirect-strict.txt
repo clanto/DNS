@@ -28181,7 +28181,6 @@
 ||vielspassamgeraet.de^
 ||wbze.de^
 ||webbanane.de^
-||wyyw.de^
 ||xtreme-babez.de^
 ||yiii.de^
 ||ykm.de^
@@ -61941,7 +61940,6 @@
 ||xazz.info^
 ||xbeboproxy.info^
 ||xbid.info^
-||xbig.info^
 ||xblock.info^
 ||xbox360proxy.info^
 ||xboxproxy.info^
@@ -62691,7 +62689,6 @@
 ||terbar.ink^
 ||tinyl.ink^
 ||zat.ink^
-||zom.ink^
 ||0ln.io^
 ||1ad.io^
 ||1shop.io^

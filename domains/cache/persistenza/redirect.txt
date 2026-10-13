@@ -109563,7 +109563,6 @@ app.tagii.io
 app.univ-cotedazur.fr
 app.url180.com
 app.veryimportantlink.com
-app.workdog.cc
 appbitly.com
 appcurt.com
 apple.co
@@ -119744,7 +119743,6 @@ wkf.ms
 wkpwr.be
 wl.co
 wl.gl
-wlink.us
 wlinky.com
 wluuns.com
 wm.edu
@@ -119967,7 +119965,6 @@ xurl.app
 xurl.at
 xurl.es
 xurl.jp
-xurl.pk
 xurl302.top
 xurls.net
 xut.io
@@ -120102,7 +120099,6 @@ yourls.org
 yourls.ph-freiburg.de
 yourls.pro
 yourls.sci.io
-yourls.website
 yourmovie.co
 yourwish.es
 yous.ee
@@ -120115,7 +120111,6 @@ yrawf.com
 yrkus.com
 yrl.li
 ysear.ch
-yshorten.com
 yt.cool
 yts.nu
 ytube.io
@@ -120168,7 +120163,6 @@ zapurl.me
 zapurl.net
 zapurls.com
 zaq.be
-zarnecka.com
 zasnx.cyou
 zat.ink
 zaya.io
@@ -120243,7 +120237,6 @@ zipurl.fr
 zipurl.link
 zipurl.net
 zipurl.vercel.app
-zipy.me
 zipzy.in
 ziso.pw
 zisoj.cyou
@@ -120324,7 +120317,6 @@ zxq.net
 zyguer.com
 zynexly.com
 zynga.my
-zyp.to
 zyva.org
 zywv.us
 zz-tw.co
@@ -120335,3 +120327,5 @@ zzb.bz
 zzlinks.com
 zzlocalsquared.com
 zzu.info
+@497750
+urls.aikeeda.com

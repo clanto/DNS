@@ -2920,14 +2920,12 @@
 ||dns.thiz.top^
 ||kr.tomgirl.top^
 ||us44nas.top^
-||dns.wahr.top^
 ||bwh.why4free.top^
 ||wiqi.top^
 ||xholgm.top^
 ||agh.xinfeng16m.top^
 ||dns.yingroad.top^
 ||dns.yyaan.top^
-||zburger.top^
 ||zhengkaiyun.top^
 ||zulkas.top^
 ||test.businessconnect.com.tr^
@@ -2958,7 +2956,6 @@
 ||dns.twnic.tw^
 ||dns.xhost.tw^
 ||dns.xlion.tw^
-||guard.yps.tw^
 ||host94.rheingold.com.ua^
 ||adguard-server.pp.ua^
 ||2.alpo.pp.ua^

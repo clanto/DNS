@@ -1622,7 +1622,6 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
-dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -2256,7 +2255,6 @@ guard.miracloud.fr
 guard.pp.ua
 guard.telesterion.de
 guard.thefather.cloud
-guard.yps.tw
 guidetoworld.link
 gustamadh.dynv6.net
 gva01.dnscry.pt
@@ -3493,7 +3491,6 @@ zanty123456.myasustor.com
 zapacasa.ddns.net
 zapranet.my.id
 zaziss.com
-zburger.top
 zdn.ro
 zetland.rm-ni.uk
 zeusvps.cloudns.nz

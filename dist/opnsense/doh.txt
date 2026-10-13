@@ -326,7 +326,6 @@ ajlxwk4kedu5.absq.ch
 akari.anime.com.my
 akhilkalwakurthy.dyndns.org
 akl01.dnscry.pt
-akunamatata8888.mooo.com
 akylah.zapto.org
 alidns.51top.info
 alidns.cb1999.top
@@ -791,7 +790,6 @@ dns.dreamworker.idv.tw
 dns.dremaxx.de
 dns.dualhosting.eu
 dns.dumk.in
-dns.dyn1.de
 dns.dynx.pro
 dns.dzkji.cn
 dns.easyhns.com
@@ -2538,6 +2536,7 @@ szyrzyk.pl
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
+tecdrive.site
 tecworx.at
 telex.app
 test.adg.siudzinski.net
@@ -2593,6 +2592,7 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
+tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
@@ -2680,7 +2680,6 @@ villi.shurakenas.ru
 vir.accesscam.org
 virmamp33.sytes.net
 vladpro.ru
-vm.delfini.online
 vm596152.eurodir.ru
 vno01.dnscry.pt
 void.mcfly.lol

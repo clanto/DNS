@@ -1,25 +1,25 @@
 {
   "feed": {
-    "doh-v4.txt": 1331,
-    "doh-v6.txt": 699,
-    "tor-v4.txt": 5050,
-    "tor-v6.txt": 2396,
-    "threat-v4.txt": 27537,
+    "doh-v4.txt": 1327,
+    "doh-v6.txt": 696,
+    "tor-v4.txt": 5096,
+    "tor-v6.txt": 2406,
+    "threat-v4.txt": 27226,
     "threat-v6.txt": 0,
-    "c2-v4.txt": 488,
+    "c2-v4.txt": 495,
     "c2-v6.txt": 0,
     "vpn-v4.txt": 9110,
     "vpn-v6.txt": 414,
-    "social-v4.txt": 212,
+    "social-v4.txt": 213,
     "social-v6.txt": 119,
-    "inbound-v4.txt": 78319,
+    "inbound-v4.txt": 77902,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "all-v4.txt": 34200,
-    "all-v6.txt": 3095,
-    "all-scuole-v4.txt": 42874,
-    "all-scuole-v6.txt": 3455
+    "all-v4.txt": 33952,
+    "all-v6.txt": 3102,
+    "all-scuole-v4.txt": 42633,
+    "all-scuole-v6.txt": 3459
   },
   "fonti": [
     {
@@ -29,7 +29,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1974,
+      "entries": 1967,
       "detail": ""
     },
     {
@@ -39,7 +39,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1386,
+      "entries": 1383,
       "detail": ""
     },
     {
@@ -49,7 +49,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1208,
+      "entries": 1207,
       "detail": ""
     },
     {
@@ -59,7 +59,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "ok",
-      "entries": 9505,
+      "entries": 9532,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -69,7 +69,7 @@
       "homepage": "https://github.com/stamparm/ipsum",
       "enabled": true,
       "status": "ok",
-      "entries": 18903,
+      "entries": 19682,
       "detail": "IP presenti in almeno 3 blacklist pubbliche"
     },
     {
@@ -79,7 +79,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 16980,
+      "entries": 16942,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -109,7 +109,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 90086,
+      "entries": 89725,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -129,7 +129,7 @@
       "homepage": "https://iptoasn.com/",
       "enabled": true,
       "status": "ok",
-      "entries": 182,
+      "entries": 183,
       "detail": "ByteDance e TikTok (i contenuti video passano anche da CDN condivise: bloccare anche via DNS)"
     },
     {
@@ -159,7 +159,7 @@
       "homepage": "https://github.com/0xDanielLopez/TweetFeed",
       "enabled": true,
       "status": "ok",
-      "entries": 490,
+      "entries": 497,
       "detail": "IoC degli ultimi 30 giorni condivisi da ricercatori di sicurezza"
     },
     {
@@ -238,15 +238,15 @@
     }
   },
   "allowlist": {
-    "voci": 260,
+    "voci": 244,
     "reti_modificate": 0
   },
   "condivisi": {
     "intervalli": 11259,
-    "voci_escluse": 4449
+    "voci_escluse": 4507
   },
   "protetti": {
-    "ip_risolti": 257,
+    "ip_risolti": 241,
     "voci_escluse": []
   }
 }

@@ -8378,7 +8378,6 @@ app.tagii.io
 app.univ-cotedazur.fr
 app.url180.com
 app.veryimportantlink.com
-app.workdog.cc
 app1e.com
 appair.info
 appambas.tk
@@ -110992,6 +110991,7 @@ urlrw.com
 urls-short.de
 urls-shortener.eu
 urls.ae
+urls.aikeeda.com
 urls.by
 urls.direct
 urls.fr
@@ -116612,7 +116612,6 @@ wl.co
 wl.gl
 wlansurfing.tk
 wligg.com
-wlink.us
 wlinky.com
 wlobby.com
 wlri.info
@@ -118088,7 +118087,6 @@ xurl.app
 xurl.at
 xurl.es
 xurl.jp
-xurl.pk
 xurl302.top
 xurls.net
 xut.io
@@ -118943,7 +118941,6 @@ yourls.org
 yourls.ph-freiburg.de
 yourls.pro
 yourls.sci.io
-yourls.website
 yourmain.tk
 yourmask.info
 yourmomproxy.com
@@ -119342,7 +119339,6 @@ ysaproxy.tk
 yschnell-3.tk
 ysear.ch
 ysenfacte.tk
-yshorten.com
 ysmartweb.tk
 ysmartweblocs.tk
 ysneak.info
@@ -119579,7 +119575,6 @@ zarakiproxy.tk
 zaraproxy.tk
 zarchive.org
 zarksurf.hu.tl
-zarnecka.com
 zarthastock.tk
 zasnx.cyou
 zat.ink
@@ -119881,7 +119876,6 @@ zipurl.fr
 zipurl.link
 zipurl.net
 zipurl.vercel.app
-zipy.me
 zipzy.in
 zirfy.com
 zirutechno.info
@@ -120258,7 +120252,6 @@ zyguer.com
 zymi.info
 zynexly.com
 zynga.my
-zyp.to
 zysz.com
 zytel.tk
 zyva.org

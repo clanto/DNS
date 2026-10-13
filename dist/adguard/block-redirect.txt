@@ -9039,7 +9039,6 @@
 ||whoami.cc^
 ||whts.cc^
 ||wiwir.cc^
-||app.workdog.cc^
 ||xclicks.cc^
 ||xite.cc^
 ||xn--ugt.cc^
@@ -14391,6 +14390,7 @@
 ||ahuforums.com^
 ||aiecj2.com^
 ||aighy.com^
+||urls.aikeeda.com^
 ||aimetath.com^
 ||aimheart.com^
 ||aimhide.com^
@@ -30737,7 +30737,6 @@
 ||yrkus.com^
 ||gl.yrlcentre.com^
 ||yroxy.com^
-||yshorten.com^
 ||tunnel.ysteal.com^
 ||ytmusicvideos.com^
 ||ytunnel.com^
@@ -30782,7 +30781,6 @@
 ||zapdom.com^
 ||zaplinkz.com^
 ||zapurls.com^
-||zarnecka.com^
 ||proxy.zastita-gusic.com^
 ||zatd.com^
 ||zawoogle.com^
@@ -69672,7 +69670,6 @@
 ||go.yusufipek.me^
 ||zapurl.me^
 ||zctz.me^
-||zipy.me^
 ||zjuw.me^
 ||zkrat.me^
 ||zorox.me^
@@ -77834,7 +77831,6 @@
 ||surl.pk^
 ||unblockproxy.pk^
 ||unblockyoutube.pk^
-||xurl.pk^
 ||youtubeproxy.pk^
 ||10v.pl^
 ||128.pl^
@@ -116910,7 +116906,6 @@
 ||dot-to-proxy.zaridi.to^
 ||zoho.to^
 ||zopen.to^
-||zyp.to^
 ||aki.today^
 ||discoverall.today^
 ||gameover.today^
@@ -119086,7 +119081,6 @@
 ||whyblock.us^
 ||wi7.us^
 ||wigb.us^
-||wlink.us^
 ||wrighty.us^
 ||kenway.wsse.us^
 ||x-it.us^
@@ -119347,7 +119341,6 @@
 ||titok.website^
 ||unlocked.website^
 ||usproxy.website^
-||yourls.website^
 ||03.wf^
 ||fff.wf^
 ||glo.wf^

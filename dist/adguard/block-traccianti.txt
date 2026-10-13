@@ -14195,6 +14195,7 @@
 ||marketing.dbh-group.com^
 ||ao-marketing.dbiyes.com^
 ||dblarson.com^
+||dblendcoatings.com^
 ||researchlog.dbresearch.com^
 ||dbrtkwaa81.com^
 ||internalcomms.dbschenker.com^
@@ -16868,6 +16869,7 @@
 ||target.fiatusa.com^
 ||lighterthinnerstronger.fiber-line.com^
 ||fibotalk.com^
+||analytics.fibwatch.com^
 ||fico.com^
 ||ficoanalyticcloud.com^
 ||data.notificaciones.ficohsa.com^

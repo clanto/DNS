@@ -11656,6 +11656,7 @@
 ||marketing.dbh-group.com^
 ||ao-marketing.dbiyes.com^
 ||dblarson.com^
+||dblendcoatings.com^
 ||researchlog.dbresearch.com^
 ||www.dbrtkwaa81.com^
 ||internalcomms.dbschenker.com^
@@ -13675,6 +13676,7 @@
 ||pqrede.fiatprofessional.com^
 ||target.fiatusa.com^
 ||lighterthinnerstronger.fiber-line.com^
+||analytics.fibwatch.com^
 ||images.email.fico.com^
 ||data.notificaciones.ficohsa.com^
 ||app.campaigns.fidelity.com^
