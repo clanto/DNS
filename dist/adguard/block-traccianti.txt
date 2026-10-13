@@ -3630,6 +3630,7 @@
 ||cdnflow.co^
 ||get.cheapshot.co^
 ||email.chope.co^
+||chord.co^
 ||bio.chups.co^
 ||clearbit.co^
 ||trk.clinch.co^
@@ -10773,6 +10774,7 @@
 ||blitzen.com^
 ||analytic-client.blitzmightyparty.com^
 ||pixel.blivenyc.com^
+||blmat001.com^
 ||smetrics.blockbuster.com^
 ||som.blockbuster.com^
 ||blockchain4media.com^
@@ -13133,6 +13135,7 @@
 ||metrics.commercialtrucktrader.com^
 ||commissiongains.com^
 ||commissionmonster.com^
+||commitlogs.com^
 ||commonalmanac.com^
 ||metrics.commonclaimsmistakesvideo.com^
 ||smetrics.commonclaimsmistakesvideo.com^
@@ -15132,6 +15135,7 @@
 ||marketing.duckbrand.com^
 ||rlovoa.duckcamp.com^
 ||duedil.com^
+||duetcode.com^
 ||pixel.dugwood.com^
 ||go.dukane.com^
 ||tfoyfx.dukefotografia.com^
@@ -16849,9 +16853,11 @@
 ||fewkittens.com^
 ||ffbbbdc6d3c353211fe2ba39c9f744cd.com^
 ||fg33trk.com^
+||fg6nh6rixy.com^
 ||fg7hn9trk.com^
 ||fg8dgt.com^
 ||t.fgcuathletics.com^
+||fgh2eef9aii.com^
 ||fgtth8trk.com^
 ||sstats.fhb.com^
 ||stats.fhb.com^

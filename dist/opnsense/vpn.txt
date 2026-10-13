@@ -1292,7 +1292,6 @@ crawler.mobi
 crazycattle3d.lol
 crbtqxdu.com
 createssh.com
-createssh.net
 creativechurchnetwork.com
 creayerm.ipv64.net
 croceate.mywire.org
@@ -1981,7 +1980,6 @@ gtag.club.cdn.cloudflare.net
 gtasix.sparks.ddns-ip.net
 gtdqambjtl3.online
 gtkpw.com
-guardianvpn.net
 guestappearance.us
 guildstashtracker.xyz
 gulaaron.ru
@@ -3258,6 +3256,7 @@ orinexa.xyz
 os.env.pm
 ostrichvpn.net
 otniscool.com
+otownwiki.info
 otownwiki.net
 outerspace.env.pm
 outline-keys.ru
@@ -3308,6 +3307,7 @@ passageplace.com
 passssssssssword.easterndns.com
 patronize.bury.abrdns.com
 pawxy.com
+pay4app.store
 paydar.goooalir.co.uk
 pbavtqle.com
 pbproxy.red
@@ -4282,7 +4282,6 @@ triplemlk.com
 tronyza.com
 troywell-vpn.help
 troywellvpn.com
-trueproxy.com
 truf.khaosfallen.tech
 truffled.lol
 truffled.lol.cdn.cloudflare.net
@@ -5012,7 +5011,6 @@ xerivon.xyz
 xerocopy.karrozzin.cloud-ip.cc
 xerophagy.karrozzin.cloud-ip.cc
 xervolia.ru
-xf.kg
 xftld.org
 xg8tw7gfox.site
 xgndgeyn.com
@@ -5223,7 +5221,6 @@ znselxsz.com
 zo0g.site
 zoihvj9m.com
 zonevpn.com
-zoog.pro
 zoogas.site
 zoogasdaj.site
 zoogasja.site

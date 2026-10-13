@@ -10866,6 +10866,7 @@
 ||content.commandc.com^
 ||marketing.commercehomemortgage.com^
 ||metrics.commercialtrucktrader.com^
+||commitlogs.com^
 ||metrics.commonclaimsmistakesvideo.com^
 ||smetrics.commonclaimsmistakesvideo.com^
 ||smetrics.commonwealth.com^
@@ -12348,6 +12349,7 @@
 ||marketing.ducenit.com^
 ||marketing.duckbrand.com^
 ||rlovoa.duckcamp.com^
+||duetcode.com^
 ||pixel.dugwood.com^
 ||go.dukane.com^
 ||tfoyfx.dukefotografia.com^
