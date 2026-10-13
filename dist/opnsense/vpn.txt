@@ -940,7 +940,6 @@ besplatnyvpn.ru
 best-dock.surge.sh
 best-proxy.com
 bestdaygame.com
-bestproxy.xyz
 bestssh.net
 bestvpn.help
 bestvpnonline.online
@@ -1039,7 +1038,6 @@ brd-sdk-app-packages.s3.amazonaws.com
 bright-vpn.help
 brightdata-app-production-app-bucket.s3.us-east-1.amazonaws.com
 brightvpn.pro
-bringover.net
 britishproxy.com
 bro-ru.com
 bro-ru.net
@@ -1188,7 +1186,6 @@ cheapv2.net
 check.peer2profit.site
 check.ragpets.com
 cheddar-chute.com
-chicken.nuggets.are.good.privateimport.jp
 chickenalert.camdvr.org
 chik-chirikvpn.com
 chinacitybit.click
@@ -1218,6 +1215,7 @@ classes.ipv64.net
 classicpen.us
 classlink.com.de
 classlink.com.de.cdn.cloudflare.net
+classroom.broomleigh.org
 classroom.haoqiw.com
 classroom.ipv64.de
 clever.jansenmedical.net
@@ -1513,6 +1511,7 @@ educational.radissontucson.com
 educationalmath.studyingsciencethemes.one
 educationalstore.easterndns.com
 educationdean.us
+educationforindia.com
 edwlrzyd.com
 eeagle-extension.vercel.app
 eeaglevpn.com
@@ -1621,7 +1620,6 @@ fajtbuyh.sailforeducation.org
 fangzhou.date
 fantagia.net
 fastblazingpix.com
-fastcyberghost.com
 fastdecidos.info
 fastestvpn.s3.amazonaws.com
 fastfifaapp.com
@@ -3001,7 +2999,6 @@ myflowerland.org
 myiphider.com
 mynatureapp.net
 myorveta.ru
-mypjbfqairportlist.com
 myproxy.ca
 myproxy.name
 myproxysite.org
@@ -3711,7 +3708,6 @@ renaissance-go.de.com
 renalla.sparks.ddns-ip.net
 repocket-production.s3.fr-par.scw.cloud
 research.africa.com
-research.readymindit.com
 restaurantgift.us
 reverb.bury.abrdns.com
 rfastvpn.co.cc
@@ -3771,7 +3767,6 @@ s2wd5kbq.com
 s3-oregon-1.s3-us-west-2.amazonaws.com
 s47n.ir.ir.ir.meli-n12.info
 s4m.tech
-s4m.xyz
 s7n.ir.ir.ir.meli-n12.info
 s8.amazonaws.jdymqic.shop
 s8ks.us
@@ -4438,6 +4433,7 @@ uwqjkirj.com
 uytjhuyghbjkuiyhbjku.fghvhbvghjgj.bonded-game.com
 uzrzhcyx.com
 v-2ray.com
+v.cheerfun.dev
 v.theartieschaffer.com
 v0jlq071shapnlnhj0p9.online
 v22013121930515853.yourvserver.net
@@ -4794,7 +4790,6 @@ vpnv6.com
 vpnvip.com
 vpnwebsite.com
 vpr.lol
-vproxyy.online
 vps-11cf82ff.vps.ovh.ca
 vps-3183c6bd.vps.ovh.ca
 vps-33e5a7f3.vps.ovh.us
@@ -4985,6 +4980,7 @@ xerivon.xyz
 xerocopy.karrozzin.cloud-ip.cc
 xerophagy.karrozzin.cloud-ip.cc
 xervolia.ru
+xf.kg
 xftld.org
 xg8tw7gfox.site
 xgndgeyn.com
