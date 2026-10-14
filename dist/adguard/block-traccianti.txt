@@ -15057,6 +15057,7 @@
 ||drivemotors.com^
 ||go.drivemyfreedom.com^
 ||pixel.driveniq.com^
+||drivenmove.com^
 ||a8clk.driver-island.com^
 ||driverequest.com^
 ||ctd.drivescore.com^
@@ -52381,6 +52382,7 @@
 ||app.exercisetimer.net^
 ||exit-x.net^
 ||exprpt.net^
+||extracover.net^
 ||eyeota.net^
 ||ezoic.net^
 ||analytics.faculty.net^
