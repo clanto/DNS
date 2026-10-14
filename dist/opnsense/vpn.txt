@@ -497,7 +497,6 @@
 5.188.124.13.nip.io
 5.188.124.13.sslip.io
 5.188.124.13.traefik.me
-5.rotate.doge.motorcycles
 5.thetravelingtourguide.com
 502cloud.top
 502jsq.cc
@@ -627,7 +626,6 @@
 9nd0oy2n.com
 9sskdjs.shop
 9thballs.camdvr.org
-9w9.org
 9yuan.top
 a-regist.anondns.net
 a.cpfrx.info
@@ -1224,6 +1222,7 @@ classes.ipv64.net
 classicpen.us
 classlink.com.de
 classlink.com.de.cdn.cloudflare.net
+classroom.broomleigh.org
 classroom.haoqiw.com
 classroom.ipv64.de
 clever.jansenmedical.net
@@ -2791,7 +2790,6 @@ math5.tcloud.my
 mathcenter.space
 mathforfun.firstgrad.bestprogramsforkids.com
 mathgamesarefun.duckdns.org
-mathhelpnow.site
 mathhomeworkplus.arpangautam.com.np
 mathhomeworkplus.chickenkiller.com
 mathisveryfun.theworkpc.com
@@ -3181,10 +3179,7 @@ nyfwbixj.com
 nym.dev
 nym.network
 nzkfuwrf.com
-o1.doge.motorcycles
 o1cjxjqe.com
-o2.doge.motorcycles
-o3.doge.motorcycles
 oapahs.ipv64.net
 obamna.gamefr.xyz
 obfusgated.com
@@ -3258,6 +3253,7 @@ ostrichvpn.net
 otniscool.com
 otownwiki.info
 otownwiki.net
+otownwiki.online
 outerspace.env.pm
 outline-keys.ru
 outline.market
@@ -3307,7 +3303,6 @@ passageplace.com
 passssssssssword.easterndns.com
 patronize.bury.abrdns.com
 pawxy.com
-pay4app.store
 paydar.goooalir.co.uk
 pbavtqle.com
 pbproxy.red
@@ -4797,7 +4792,6 @@ vpns.taplink.ws
 vpnsatoshi.net
 vpnsbox.ru
 vpnschool.courses
-vpnsec.com
 vpnserver.mom
 vpnshazam.com
 vpnshieldapp.com
@@ -4932,6 +4926,7 @@ wildcard.khsonthespot.com
 wildcard.oaklandscioly.org
 wildcard.thetravelingtourguide.com
 wildflower-bistro.com
+wilway.christmas
 wimorala.ru
 wirlocof.com
 withstory.net
@@ -4946,8 +4941,6 @@ wmhctvlu.sailforeducation.org
 wnuxuhdj.com
 wobti.com
 woglizmh.com
-wolun444.com
-wolun555.com
 wolun7.com
 womginx.ps.binary-person.dev
 woodenclock.us
@@ -5011,6 +5004,7 @@ xerivon.xyz
 xerocopy.karrozzin.cloud-ip.cc
 xerophagy.karrozzin.cloud-ip.cc
 xervolia.ru
+xf.kg
 xftld.org
 xg8tw7gfox.site
 xgndgeyn.com
@@ -5221,6 +5215,7 @@ znselxsz.com
 zo0g.site
 zoihvj9m.com
 zonevpn.com
+zoog.pro
 zoogas.site
 zoogasdaj.site
 zoogasja.site

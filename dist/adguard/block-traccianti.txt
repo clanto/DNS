@@ -37504,6 +37504,7 @@
 ||dl.tablelist.com^
 ||dl-dev.tablelist.com^
 ||tabletpcreviewspot.com^
+||tachomtr.com^
 ||smetrics.tackntogs.com^
 ||tackytrains.com^
 ||metrics.tacobell.com^

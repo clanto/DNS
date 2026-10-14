@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/clanto/DNS",
   "licenza": "GPL-3.0",
-  "generato": "2026-10-13T22:48:13Z",
+  "generato": "2026-10-14T04:57:07Z",
   "attribuzioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/THIRD_PARTY.md",
   "registro_variazioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/CHANGELOG.md",
   "feed": [
@@ -18,7 +18,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt",
-      "voci": 34030,
+      "voci": 34210,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -91,7 +91,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v6.txt",
-      "voci": 3134,
+      "voci": 3097,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -165,7 +165,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v4.txt",
-      "voci": 42716,
+      "voci": 42897,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -254,7 +254,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v6.txt",
-      "voci": 3494,
+      "voci": 3456,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -339,7 +339,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v4.txt",
-      "voci": 1334,
+      "voci": 1337,
       "descrizione": "Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -374,7 +374,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v6.txt",
-      "voci": 697,
+      "voci": 696,
       "descrizione": "Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -409,7 +409,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt",
-      "voci": 5142,
+      "voci": 5071,
       "descrizione": "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)",
       "fonti": [
         {
@@ -434,7 +434,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v6.txt",
-      "voci": 2437,
+      "voci": 2401,
       "descrizione": "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)",
       "fonti": [
         {
@@ -459,7 +459,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v4.txt",
-      "voci": 27248,
+      "voci": 27479,
       "descrizione": "IP malevoli attivi (scanner, brute force, attacchi) segnalati da più blacklist",
       "fonti": [
         {
@@ -509,7 +509,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v4.txt",
-      "voci": 498,
+      "voci": 496,
       "descrizione": "Server di comando e controllo di botnet e malware",
       "fonti": [
         {
@@ -699,7 +699,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v4.txt",
-      "voci": 78666,
+      "voci": 78718,
       "descrizione": "IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN",
       "fonti": [
         {
@@ -1048,7 +1048,7 @@
       "categoria": "pubblicita",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita.txt",
-      "voci": 65608,
+      "voci": 65697,
       "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre)",
       "fonti": [
         {
@@ -1075,7 +1075,7 @@
       "categoria": "pubblicita",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita.txt",
-      "voci": 65690,
+      "voci": 65779,
       "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre)",
       "fonti": [
         {
@@ -1104,7 +1104,7 @@
       "soglia": 0.0002,
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita-strict.txt",
-      "voci": 48040,
+      "voci": 48127,
       "fonti": [
         {
           "id": "easylist",
@@ -1133,7 +1133,7 @@
       "soglia": 0.0002,
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita-strict.txt",
-      "voci": 48048,
+      "voci": 48135,
       "fonti": [
         {
           "id": "easylist",
@@ -1380,7 +1380,7 @@
       "categoria": "doh",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-doh.txt",
-      "voci": 3239,
+      "voci": 3242,
       "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -1412,7 +1412,7 @@
       "categoria": "doh",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-doh.txt",
-      "voci": 3508,
+      "voci": 3511,
       "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -1444,7 +1444,7 @@
       "categoria": "doh",
       "formato": "FQDN per alias OPNsense URL Table (IPs)",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/doh.txt",
-      "voci": 2817,
+      "voci": 2816,
       "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -1530,7 +1530,7 @@
       "categoria": "vpn",
       "formato": "FQDN per alias OPNsense URL Table (IPs)",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/vpn.txt",
-      "voci": 5256,
+      "voci": 5251,
       "descrizione": "VPN, proxy e servizi di bypass (scuole)",
       "fonti": [
         {
@@ -1679,7 +1679,7 @@
       "categoria": "malware",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware.txt",
-      "voci": 272015,
+      "voci": 272013,
       "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware)",
       "fonti": [
         {
@@ -1721,7 +1721,7 @@
       "categoria": "malware",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware.txt",
-      "voci": 272931,
+      "voci": 272929,
       "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware)",
       "fonti": [
         {
@@ -1943,7 +1943,7 @@
       "categoria": "traccianti",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-traccianti.txt",
-      "voci": 58950,
+      "voci": 58951,
       "descrizione": "Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV)",
       "fonti": [
         {
@@ -1970,7 +1970,7 @@
       "categoria": "traccianti",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-traccianti.txt",
-      "voci": 59947,
+      "voci": 59948,
       "descrizione": "Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV)",
       "fonti": [
         {

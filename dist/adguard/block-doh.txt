@@ -1728,6 +1728,9 @@
 ||ahadns.net^
 ||dns.airns.net^
 ||adguard.ajinga.net^
+||dnses.alekberg.net^
+||dnsnl.alekberg.net^
+||dnsse.alekberg.net^
 ||diskstation.alexpollard.net^
 ||doh.amonsul.net^
 ||adguard.amscenter.net^
