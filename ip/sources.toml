@@ -42,6 +42,14 @@ exclude_shared = true
 description = "Social network e messaggistica per AS: Meta (Facebook, Instagram, WhatsApp), TikTok, X, Telegram"
 # Non in all/all-scuole: blocca anche WhatsApp. Alias separato dove serve (es. scuole).
 
+[categories.file-sharing]
+description = "File sharing puro per AS dedicati: Mega, MediaFire (WeTransfer, Gofile e simili stanno su CDN condivise: solo DNS)"
+# Non negli aggregati: policy di prevenzione fuga dati, alias separato dove serve.
+
+[categories.cloud-storage]
+description = "Archiviazione cloud di lavoro per AS dedicato: Dropbox (Box e OneDrive stanno su cloud condivisi: solo DNS)"
+# Non negli aggregati: blocca Dropbox anche per chi lo usa per lavoro.
+
 [categories.inbound]
 description = "IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN"
 exclude_shared = true
@@ -334,3 +342,39 @@ note = "Serve contatto con blocklist.de"
 #   (bitwire lo dichiara: "usage subject to the licenses of the original data providers")
 # - abuse.ch SSLBL/ThreatFox, GreenSnow, Botvrij, C2IntelFeeds (NC), binarydefense ATIF: termini incompatibili
 # - Cloudflare ips-v4/v6, GitHub meta: nessuna licenza di ridistribuzione dichiarata
+
+[[sources]]
+id = "fileshare-mega"
+max_age_days = 90
+category = "file-sharing"
+format = "asn"
+asns = [203055, 150723, 152880]  # Mega Limited (NZ, JP, EU)
+url = "https://iptoasn.com/"
+homepage = "https://iptoasn.com/"
+license = "PDDL 1.0 (iptoasn.com)"
+min_prefix_v4 = 12
+min_prefix_v6 = 24
+
+[[sources]]
+id = "fileshare-mediafire"
+max_age_days = 90
+category = "file-sharing"
+format = "asn"
+asns = [46179]  # MediaFire: server di download (il sito è dietro Cloudflare)
+url = "https://iptoasn.com/"
+homepage = "https://iptoasn.com/"
+license = "PDDL 1.0 (iptoasn.com)"
+min_prefix_v4 = 12
+min_prefix_v6 = 24
+
+[[sources]]
+id = "cloudstorage-dropbox"
+max_age_days = 90
+category = "cloud-storage"
+format = "asn"
+asns = [19679]  # Dropbox
+url = "https://iptoasn.com/"
+homepage = "https://iptoasn.com/"
+license = "PDDL 1.0 (iptoasn.com)"
+min_prefix_v4 = 12
+min_prefix_v6 = 24

@@ -1,0 +1,25 @@
+# Blocklist domini - cloud-storage
+# Piattaforme di archiviazione cloud usate per lavoro: separate da block-file-sharing, da attivare solo dove serve.
+# Google Drive e OneDrive for Business (SharePoint) NON sono qui: sono servizi protetti (Workspace, Microsoft 365).
+# Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
+dropbox.com | 2026-10-14 | Dropbox | -
+dropboxapi.com | 2026-10-14 | API e sincronizzazione Dropbox | -
+dropboxusercontent.com | 2026-10-14 | download e anteprime Dropbox | -
+dropboxstatic.com | 2026-10-14 | risorse statiche Dropbox | -
+db.tt | 2026-10-14 | link brevi Dropbox | -
+box.com | 2026-10-14 | Box | -
+box.net | 2026-10-14 | Box (dominio storico) | -
+boxcloud.com | 2026-10-14 | download e anteprime Box | -
+onedrive.live.com | 2026-10-14 | OneDrive personale (account Microsoft, non Microsoft 365) | -
+1drv.ms | 2026-10-14 | link brevi OneDrive personale | -
+1drv.com | 2026-10-14 | download OneDrive personale | -
+pcloud.com | 2026-10-14 | pCloud | -
+pcloud.link | 2026-10-14 | link condivisi pCloud | -
+sync.com | 2026-10-14 | Sync.com | -
+tresorit.com | 2026-10-14 | Tresorit | -
+icedrive.net | 2026-10-14 | Icedrive | -
+koofr.net | 2026-10-14 | Koofr | -
+jottacloud.com | 2026-10-14 | Jottacloud | -
+filen.io | 2026-10-14 | Filen | -
+idrive.com | 2026-10-14 | IDrive | -
+drive.proton.me | 2026-10-14 | Proton Drive (solo Drive, non Proton Mail) | -

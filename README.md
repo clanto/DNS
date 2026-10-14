@@ -33,6 +33,8 @@ Formato: un IP o CIDR per riga, senza commenti. Compatibile con alias *URL Table
 | tor | Rete Tor: nodi di uscita e relay (blocca anche l'uso di Tor Browser) | Uscita e ingresso | [tor-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt) | [tor-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v6.txt) |
 | vpn | VPN commerciali e proxy (in `all-scuole`, non in `all`) | Uscita | [vpn-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v4.txt) | [vpn-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v6.txt) |
 | social | Meta (Facebook, Instagram, **WhatsApp**), TikTok, X, Telegram, per AS (non negli aggregati) | Uscita | [social-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/social-v4.txt) | [social-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/social-v6.txt) |
+| file-sharing | File sharing puro per AS dedicati: Mega, MediaFire (non negli aggregati) | Uscita | [file-sharing-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/file-sharing-v4.txt) | [file-sharing-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/file-sharing-v6.txt) |
+| cloud-storage | Dropbox per AS (piattaforma di lavoro, non negli aggregati) | Uscita | [cloud-storage-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/cloud-storage-v4.txt) | [cloud-storage-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/cloud-storage-v6.txt) |
 | inbound | Scanner e brute force verso servizi esposti (~90k voci, non in `all`) | **Solo ingresso WAN** | [inbound-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v4.txt) | [inbound-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v6.txt) |
 | bogon | Reti riservate RFC 6890, comprese le private (non in `all`) | **Solo ingresso WAN** | [bogon-v4.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/bogon-v4.txt) | [bogon-v6.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/bogon-v6.txt) |
 
@@ -79,7 +81,8 @@ Solo host indispensabili, mai domini interi. Nessuna voce può contraddire le no
 | [block-ddns.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-ddns.txt) | DNS dinamici (DuckDNS, No-IP, Dynu…), usati da malware e C2: vedi [eccezioni](#dns-dinamici-block-ddns) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-ddns.txt) |
 | [block-accesso-remoto.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-accesso-remoto.txt) | AnyDesk, TeamViewer, ScreenConnect… (escludere il proprio RMM) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-accesso-remoto.txt) |
 | [block-ai-generativa.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-ai-generativa.txt) | Chatbot AI (prevenzione fuga dati) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-ai-generativa.txt) |
-| [block-file-sharing.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-file-sharing.txt) | WeTransfer, Mega, Gofile… (prevenzione fuga dati) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-file-sharing.txt) |
+| [block-file-sharing.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-file-sharing.txt) | File sharing puro: WeTransfer, Mega, MediaFire, Gofile… più UT1 filehosting (prevenzione fuga dati) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-file-sharing.txt) |
+| [block-cloud-storage.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-cloud-storage.txt) | Archiviazione cloud di lavoro: Dropbox, Box, OneDrive personale, pCloud… Google Drive e OneDrive for Business esclusi (Workspace, Microsoft 365) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-cloud-storage.txt) |
 | [block-social.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-social.txt) | Social network e community, con fonti BlocklistProject e HaGeZi Social (scuole). **Blocca anche WhatsApp** | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-social.txt) |
 | [block-gaming.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-gaming.txt) | Piattaforme gaming, giochi da browser, Roblox, Fortnite (scuole) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-gaming.txt) |
 | [block-tunnel.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-tunnel.txt) | Tunnel ed esfiltrazione: ngrok, trycloudflare, webhook, DNS out-of-band, paste (aziende; `devtunnels.ms` va sbloccato per chi sviluppa) | [txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-tunnel.txt) |
@@ -139,7 +142,7 @@ La pagina [docs/perche-bloccato.html](docs/perche-bloccato.html) spiega un blocc
 - **Da terminale**: `python scripts/perche.py dominio` (indice locale `dist/perche/` se presente, altrimenti quello su GitHub Pages; `--remoto` per forzarlo, `--json` per le automazioni).
 - **Attivare GitHub Pages** (una volta): *Settings → Pages → Build and deployment*, sorgente **GitHub Actions**. Al build successivo la pagina è su `https://clanto.github.io/DNS/perche-bloccato.html`. Copia di lavoro: dopo `python scripts/build_domains.py`, servire la radice del repository con un server HTTP e aprire `docs/perche-bloccato.html?locale=1`.
 
-Le liste di policy (accesso remoto, AI, file sharing, social, gaming, streaming) in AdGuard Home valgono per **tutti** i client: vanno applicate solo sulle istanze dei clienti che le richiedono.
+Le liste di policy (accesso remoto, AI, file sharing, archiviazione cloud, social, gaming, streaming) in AdGuard Home valgono per **tutti** i client: vanno applicate solo sulle istanze dei clienti che le richiedono.
 
 Le regole per singolo cliente (`$client`) restano nelle regole personalizzate di AdGuard: contengono nomi e IP dei clienti e **non vanno nel repository pubblico**.
 
@@ -147,12 +150,13 @@ Le regole per singolo cliente (`$client`) restano nelle regole personalizzate di
 
 ### Liste FQDN per alias OPNsense
 
-OPNsense risolve ogni dominio dell'alias e blocca gli IP ottenuti, quindi segue anche gli anycast. Le liste sono generate dalle blocklist `doh` e `vpn`, risolte in CI: sono **esclusi i domini morti**, quelli in sinkhole, quelli su **infrastrutture condivise** (CDN e hosting) e quelli sugli IP dei servizi protetti, che bloccherebbero anche siti legittimi.
+OPNsense risolve ogni dominio dell'alias e blocca gli IP ottenuti, quindi segue anche gli anycast. Le liste sono generate dalle blocklist `doh`, `vpn` e `file-sharing`, risolte in CI: sono **esclusi i domini morti**, quelli in sinkhole, quelli su **infrastrutture condivise** (CDN e hosting) e quelli sugli IP dei servizi protetti, che bloccherebbero anche siti legittimi.
 
 | Lista | Contenuto |
 |---|---|
 | [doh.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/doh.txt) | Resolver DoH/DoT/DoQ con IP dedicato |
 | [vpn.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/vpn.txt) | VPN e proxy con IP dedicato (scuole) |
+| [file-sharing.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/file-sharing.txt) | File sharing puro con IP dedicato |
 
 Alias di tipo **URL Table (IPs)**. Il firewall deve risolvere i nomi con un DNS **non filtrato da AdGuard**, altrimenti l'alias resta vuoto: guida completa in [ip/README.md](ip/README.md#opnsense). Dettaglio di domini pubblicati, morti e su CDN: [dist/opnsense/README.md](dist/opnsense/README.md). Ogni lunedì un controllo risolve di nuovo le liste e segnala gli IP su hosting condivisi o che ospitano più domini: la rete va aggiunta a `ip/condivisi.txt`. Per AdGuard usare le liste complete `block-doh.txt` e `block-vpn.txt`.
 

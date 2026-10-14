@@ -362,3 +362,11 @@ vidics.to | 2026-10-10 | torrent, download, anime o streaming generalista: resta
 wcofun.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
 weebcentral.com | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
 wotaku.wiki | 2026-10-10 | torrent, download, anime o streaming generalista: resta in block-pirateria, non è un sito porno | - |  | porno
+behance.net | 2026-10-14 | portfolio Adobe Behance, non file sharing (UT1 filehosting) | - |  | file-sharing
+istockphoto.com | 2026-10-14 | archivio di foto a pagamento, non file sharing (UT1 filehosting) | - |  | file-sharing
+alamy.com | 2026-10-14 | archivio di foto a pagamento, non file sharing (UT1 filehosting) | - |  | file-sharing
+newgrounds.com | 2026-10-14 | comunità di giochi e animazioni, non file sharing (UT1 filehosting) | - |  | file-sharing
+snap.com | 2026-10-14 | Snapchat: è un social, sta in block-social (UT1 filehosting) | - |  | file-sharing
+1und1.de | 2026-10-14 | operatore internet e hosting tedesco (UT1 filehosting) | - |  | file-sharing
+sandisk.com | 2026-10-14 | sito del produttore SanDisk (UT1 filehosting) | - |  | file-sharing
+mypeopledoc.com | 2026-10-14 | piattaforma HR per buste paga e documenti dei dipendenti (UT1 filehosting) | - |  | file-sharing

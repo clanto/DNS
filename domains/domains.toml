@@ -77,7 +77,12 @@ description = "Strumenti di accesso remoto (abusati in truffe e ransomware): esc
 description = "Chatbot di AI generativa (policy di prevenzione fuga dati)"
 
 [block.file-sharing]
-description = "File sharing e trasferimento file anonimi (policy di prevenzione fuga dati)"
+description = "File sharing puro: trasferimento e hosting di file anonimi (policy di prevenzione fuga dati)"
+opnsense = true
+exclude = ["cloud-storage"]  # le piattaforme di lavoro stanno in block-cloud-storage, attivabile a parte
+
+[block.cloud-storage]
+description = "Archiviazione cloud usata per lavoro (Dropbox, Box, OneDrive personale, pCloud...): solo dove la policy lo chiede"
 
 [block.social]
 description = "Social network e piattaforme community (scuole)"
@@ -526,3 +531,14 @@ cryptojacking = 0.0002
 redirect = 0.0002
 pubblicita = 0.0002
 traccianti = 0.0002
+
+[[sources]]
+id = "ut1-filehosting"
+category = "file-sharing"
+url = "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/filehosting/domains"
+format = "domains"
+homepage = "https://dsi.ut-capitole.fr/blacklists/"
+license = "CC BY-SA 4.0"
+copyright = "Université Toulouse Capitole (blacklists UT1), CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/"
+max_age_days = 180
+note = "Categoria filehosting delle blacklist UT1 (mirror olbat/ut1-blacklists); categoria di policy, aggiornata di rado"
