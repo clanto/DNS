@@ -6192,6 +6192,7 @@ analytics.fatmedia.io
 analytics.favcy.com
 analytics.faw.sky.com
 analytics.ferguson.com
+analytics.fibwatch.com
 analytics.firespring.com
 analytics.firstbankcardcenter.com
 analytics.firstbankcardplcc.com
@@ -9471,6 +9472,7 @@ blissfullagoon.com
 blitz-analytics-batch-server.blitz.gg
 blitzcampaigns.com
 blitzen.com
+blmat001.com
 blmjbp.casamundo.pl
 blockchain.actonservice.com
 blockchain4media.com
@@ -10993,6 +10995,7 @@ choicebump.com
 choose.adelaide.edu.au
 choose.nu.edu
 chooseupfluence.com
+chord.co
 chosendata.com
 choymp.pooldawg.com
 chpsi.top
@@ -11799,6 +11802,7 @@ commercial.equifax.com
 commercial.inform.equifax.com
 commissiongains.com
 commissionmonster.com
+commitlogs.com
 commonalmanac.com
 commondreams.actonservice.com
 commonswing.com
@@ -13927,6 +13931,7 @@ dbhbgz.suitableshop.nl
 dbj.quebecregion.com
 dbl.cadriamarketing.com
 dblarson.com
+dblendcoatings.com
 dbmbfe.pegipegi.com
 dbmyvl.apartmentfinder.com
 dbpbyh.americanas.com.br
@@ -14999,6 +15004,7 @@ doppler-client-events.cbsivideo.com
 doppler-config.cbsivideo.com
 doppler-reporting.cbsivideo.com
 doradotraffic.com
+dorsalapp.com
 dosignals.com
 dotaki.com
 dotcom-monitor.com
@@ -15203,6 +15209,7 @@ dub.co
 dubcdn.com
 ducenit.com
 duedil.com
+duetcode.com
 dujgiq.trendhim.pl
 dumpster.cam4.com
 dundas.com
@@ -17655,10 +17662,12 @@ ffrmwn.musinsa.com
 ffuodj.lanebryant.com
 ffyvsn.evisu.com
 fg33trk.com
+fg6nh6rixy.com
 fg7hn9trk.com
 fg8dgt.com
 fgfecw.rebelle.com
 fgfukd.sakazen.co.jp
+fgh2eef9aii.com
 fgip.rosehosting.com
 fgjfwz.legami.com
 fglrgt.ruggable.com
@@ -50805,6 +50814,7 @@ tableaufoundation.org
 tableausoftware.com
 tablesafe.actonservice.com
 tabletpcreviewspot.com
+tachomtr.com
 tackytrains.com
 tacojournal.com
 tacticlab.com.au

@@ -3630,6 +3630,7 @@
 ||cdnflow.co^
 ||get.cheapshot.co^
 ||email.chope.co^
+||chord.co^
 ||bio.chups.co^
 ||clearbit.co^
 ||trk.clinch.co^
@@ -10773,6 +10774,7 @@
 ||blitzen.com^
 ||analytic-client.blitzmightyparty.com^
 ||pixel.blivenyc.com^
+||blmat001.com^
 ||smetrics.blockbuster.com^
 ||som.blockbuster.com^
 ||blockchain4media.com^
@@ -13133,6 +13135,7 @@
 ||metrics.commercialtrucktrader.com^
 ||commissiongains.com^
 ||commissionmonster.com^
+||commitlogs.com^
 ||commonalmanac.com^
 ||metrics.commonclaimsmistakesvideo.com^
 ||smetrics.commonclaimsmistakesvideo.com^
@@ -14195,6 +14198,7 @@
 ||marketing.dbh-group.com^
 ||ao-marketing.dbiyes.com^
 ||dblarson.com^
+||dblendcoatings.com^
 ||researchlog.dbresearch.com^
 ||dbrtkwaa81.com^
 ||internalcomms.dbschenker.com^
@@ -14954,6 +14958,7 @@
 ||doradotraffic.com^
 ||hykaqn.dormideo.com^
 ||engage.dorngroup.com^
+||dorsalapp.com^
 ||analytics.dorseywright.com^
 ||trk.dosatron.com^
 ||dosignals.com^
@@ -15131,6 +15136,7 @@
 ||marketing.duckbrand.com^
 ||rlovoa.duckcamp.com^
 ||duedil.com^
+||duetcode.com^
 ||pixel.dugwood.com^
 ||go.dukane.com^
 ||tfoyfx.dukefotografia.com^
@@ -16848,9 +16854,11 @@
 ||fewkittens.com^
 ||ffbbbdc6d3c353211fe2ba39c9f744cd.com^
 ||fg33trk.com^
+||fg6nh6rixy.com^
 ||fg7hn9trk.com^
 ||fg8dgt.com^
 ||t.fgcuathletics.com^
+||fgh2eef9aii.com^
 ||fgtth8trk.com^
 ||sstats.fhb.com^
 ||stats.fhb.com^
@@ -16868,6 +16876,7 @@
 ||target.fiatusa.com^
 ||lighterthinnerstronger.fiber-line.com^
 ||fibotalk.com^
+||analytics.fibwatch.com^
 ||fico.com^
 ||ficoanalyticcloud.com^
 ||data.notificaciones.ficohsa.com^
@@ -37496,6 +37505,7 @@
 ||dl.tablelist.com^
 ||dl-dev.tablelist.com^
 ||tabletpcreviewspot.com^
+||tachomtr.com^
 ||smetrics.tackntogs.com^
 ||tackytrains.com^
 ||metrics.tacobell.com^
