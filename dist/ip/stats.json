@@ -1,25 +1,25 @@
 {
   "feed": {
-    "doh-v4.txt": 1335,
-    "doh-v6.txt": 696,
-    "tor-v4.txt": 5044,
-    "tor-v6.txt": 2389,
-    "threat-v4.txt": 27363,
+    "doh-v4.txt": 1336,
+    "doh-v6.txt": 697,
+    "tor-v4.txt": 5102,
+    "tor-v6.txt": 2418,
+    "threat-v4.txt": 27371,
     "threat-v6.txt": 0,
-    "c2-v4.txt": 508,
+    "c2-v4.txt": 523,
     "c2-v6.txt": 0,
-    "vpn-v4.txt": 9100,
+    "vpn-v4.txt": 9102,
     "vpn-v6.txt": 414,
-    "social-v4.txt": 212,
+    "social-v4.txt": 211,
     "social-v6.txt": 119,
-    "inbound-v4.txt": 78307,
+    "inbound-v4.txt": 78764,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "all-v4.txt": 34076,
-    "all-v6.txt": 3085,
-    "all-scuole-v4.txt": 42747,
-    "all-scuole-v6.txt": 3430
+    "all-v4.txt": 34157,
+    "all-v6.txt": 3115,
+    "all-scuole-v4.txt": 42831,
+    "all-scuole-v6.txt": 3473
   },
   "fonti": [
     {
@@ -29,7 +29,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1975,
+      "entries": 1966,
       "detail": ""
     },
     {
@@ -39,7 +39,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1383,
+      "entries": 1384,
       "detail": ""
     },
     {
@@ -49,7 +49,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1212,
+      "entries": 1211,
       "detail": ""
     },
     {
@@ -59,7 +59,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "ok",
-      "entries": 9469,
+      "entries": 9594,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -79,7 +79,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 17003,
+      "entries": 17113,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -109,7 +109,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 90132,
+      "entries": 90636,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -119,7 +119,7 @@
       "homepage": "https://iptoasn.com/",
       "enabled": true,
       "status": "ok",
-      "entries": 120,
+      "entries": 119,
       "detail": "Meta: Facebook, Instagram, WhatsApp, Threads"
     },
     {
@@ -159,7 +159,7 @@
       "homepage": "https://github.com/0xDanielLopez/TweetFeed",
       "enabled": true,
       "status": "ok",
-      "entries": 510,
+      "entries": 526,
       "detail": "IoC degli ultimi 30 giorni condivisi da ricercatori di sicurezza"
     },
     {
@@ -242,8 +242,8 @@
     "reti_modificate": 0
   },
   "condivisi": {
-    "intervalli": 11252,
-    "voci_escluse": 4520
+    "intervalli": 11186,
+    "voci_escluse": 4510
   },
   "protetti": {
     "ip_risolti": 244,

@@ -22,7 +22,6 @@
 23.106.141.137.16clouds.com
 3.11i.eu
 3.local-dns.noridev.moe
-3dcosas.xyz
 3dns.eu
 3jjxxl.tech
 51576162.ru
@@ -159,6 +158,7 @@ adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
 adguard.jfchenier.ca
+adguard.johanliebert.top
 adguard.k-likhachev.ru
 adguard.kantinyoyok.xyz
 adguard.kiboko.it
@@ -409,7 +409,6 @@ beacon.dog
 beautifullife.eu.org
 beautifulthings.eu.org
 bei01.dnscry.pt
-bestwon203.com
 bh.wael.name
 biba.ydns.eu
 bkk01.dnscry.pt
@@ -1109,7 +1108,6 @@ dns.paxavemedia.com
 dns.pccoach.nl
 dns.peb-schmidt.de
 dns.periactes.com
-dns.pernika.net
 dns.pesaventofilippo.com
 dns.petqa.ru
 dns.phillipjberry.net
@@ -1591,7 +1589,7 @@ doh.zephyrus.id
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
-doh1.b-cdn.net
+doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -1777,6 +1775,7 @@ guard.miracloud.fr
 guard.pp.ua
 guard.telesterion.de
 guidetoworld.link
+gustamadh.dynv6.net
 gva01.dnscry.pt
 gw1.dns.haynetwork.id
 h.gjrick.tw
@@ -2041,7 +2040,6 @@ los02.dnscry.pt
 lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
-lukscasino-479-tr.xyz
 lukscasino-929-tr.xyz
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
@@ -2595,7 +2593,6 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
-tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
