@@ -1,25 +1,25 @@
 {
   "feed": {
-    "doh-v4.txt": 1337,
-    "doh-v6.txt": 696,
-    "tor-v4.txt": 5071,
-    "tor-v6.txt": 2401,
-    "threat-v4.txt": 27479,
+    "doh-v4.txt": 1338,
+    "doh-v6.txt": 697,
+    "tor-v4.txt": 5112,
+    "tor-v6.txt": 2416,
+    "threat-v4.txt": 27354,
     "threat-v6.txt": 0,
-    "c2-v4.txt": 496,
+    "c2-v4.txt": 504,
     "c2-v6.txt": 0,
     "vpn-v4.txt": 9117,
     "vpn-v6.txt": 414,
     "social-v4.txt": 212,
     "social-v6.txt": 119,
-    "inbound-v4.txt": 78718,
+    "inbound-v4.txt": 78324,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "all-v4.txt": 34210,
-    "all-v6.txt": 3097,
-    "all-scuole-v4.txt": 42897,
-    "all-scuole-v6.txt": 3456
+    "all-v4.txt": 34135,
+    "all-v6.txt": 3113,
+    "all-scuole-v4.txt": 42824,
+    "all-scuole-v6.txt": 3473
   },
   "fonti": [
     {
@@ -39,7 +39,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1385,
+      "entries": 1384,
       "detail": ""
     },
     {
@@ -49,7 +49,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1215,
+      "entries": 1212,
       "detail": ""
     },
     {
@@ -59,7 +59,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "ok",
-      "entries": 9540,
+      "entries": 9608,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -79,7 +79,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 17210,
+      "entries": 17084,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -109,7 +109,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 90710,
+      "entries": 90218,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -159,7 +159,7 @@
       "homepage": "https://github.com/0xDanielLopez/TweetFeed",
       "enabled": true,
       "status": "ok",
-      "entries": 498,
+      "entries": 506,
       "detail": "IoC degli ultimi 30 giorni condivisi da ricercatori di sicurezza"
     },
     {
@@ -238,15 +238,15 @@
     }
   },
   "allowlist": {
-    "voci": 248,
+    "voci": 192,
     "reti_modificate": 0
   },
   "condivisi": {
-    "intervalli": 11262,
-    "voci_escluse": 4522
+    "intervalli": 11263,
+    "voci_escluse": 4515
   },
   "protetti": {
-    "ip_risolti": 245,
+    "ip_risolti": 189,
     "voci_escluse": []
   }
 }

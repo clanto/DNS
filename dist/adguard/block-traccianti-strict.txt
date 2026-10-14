@@ -12228,6 +12228,7 @@
 ||marketing.doprocess.com^
 ||hykaqn.dormideo.com^
 ||engage.dorngroup.com^
+||dorsalapp.com^
 ||trk.dosatron.com^
 ||tfdtpa.dot-st.com^
 ||conseils.dotbase.com^

@@ -15004,6 +15004,7 @@ doppler-client-events.cbsivideo.com
 doppler-config.cbsivideo.com
 doppler-reporting.cbsivideo.com
 doradotraffic.com
+dorsalapp.com
 dosignals.com
 dotaki.com
 dotcom-monitor.com

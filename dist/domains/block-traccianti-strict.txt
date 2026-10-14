@@ -11667,6 +11667,7 @@ doppler-beacon.cbsivideo.com
 doppler-client-events.cbsivideo.com
 doppler-config.cbsivideo.com
 doppler-reporting.cbsivideo.com
+dorsalapp.com
 dotdotlab.com
 dotshellmain.com
 dotvox.actonservice.com
