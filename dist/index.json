@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/clanto/DNS",
   "licenza": "GPL-3.0",
-  "generato": "2026-10-15T04:42:19Z",
+  "generato": "2026-10-15T08:23:20Z",
   "attribuzioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/THIRD_PARTY.md",
   "registro_variazioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/CHANGELOG.md",
   "feed": [
@@ -18,7 +18,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt",
-      "voci": 33980,
+      "voci": 33888,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -91,7 +91,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v6.txt",
-      "voci": 3152,
+      "voci": 3154,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -165,7 +165,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v4.txt",
-      "voci": 42623,
+      "voci": 42536,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -254,7 +254,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v6.txt",
-      "voci": 3477,
+      "voci": 3479,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -374,7 +374,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v6.txt",
-      "voci": 698,
+      "voci": 697,
       "descrizione": "Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -409,7 +409,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt",
-      "voci": 5121,
+      "voci": 5122,
       "descrizione": "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)",
       "fonti": [
         {
@@ -434,7 +434,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v6.txt",
-      "voci": 2454,
+      "voci": 2457,
       "descrizione": "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)",
       "fonti": [
         {
@@ -459,7 +459,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v4.txt",
-      "voci": 27164,
+      "voci": 27065,
       "descrizione": "IP malevoli attivi (scanner, brute force, attacchi) segnalati da più blacklist",
       "fonti": [
         {
@@ -509,7 +509,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v4.txt",
-      "voci": 520,
+      "voci": 526,
       "descrizione": "Server di comando e controllo di botnet e malware",
       "fonti": [
         {
@@ -690,6 +690,96 @@
       ]
     },
     {
+      "id": "ip/file-sharing-v4",
+      "tipo": "ip",
+      "versione_ip": 4,
+      "aggregato": false,
+      "categorie": [
+        "file-sharing"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/file-sharing-v4.txt",
+      "voci": 9,
+      "descrizione": "File sharing puro per AS dedicati: Mega, MediaFire (WeTransfer, Gofile e simili stanno su CDN condivise: solo DNS)",
+      "fonti": [
+        {
+          "id": "fileshare-mega",
+          "licenza": "PDDL 1.0 (iptoasn.com)",
+          "homepage": "https://iptoasn.com/"
+        },
+        {
+          "id": "fileshare-mediafire",
+          "licenza": "PDDL 1.0 (iptoasn.com)",
+          "homepage": "https://iptoasn.com/"
+        }
+      ]
+    },
+    {
+      "id": "ip/file-sharing-v6",
+      "tipo": "ip",
+      "versione_ip": 6,
+      "aggregato": false,
+      "categorie": [
+        "file-sharing"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/file-sharing-v6.txt",
+      "voci": 4,
+      "descrizione": "File sharing puro per AS dedicati: Mega, MediaFire (WeTransfer, Gofile e simili stanno su CDN condivise: solo DNS)",
+      "fonti": [
+        {
+          "id": "fileshare-mega",
+          "licenza": "PDDL 1.0 (iptoasn.com)",
+          "homepage": "https://iptoasn.com/"
+        },
+        {
+          "id": "fileshare-mediafire",
+          "licenza": "PDDL 1.0 (iptoasn.com)",
+          "homepage": "https://iptoasn.com/"
+        }
+      ]
+    },
+    {
+      "id": "ip/cloud-storage-v4",
+      "tipo": "ip",
+      "versione_ip": 4,
+      "aggregato": false,
+      "categorie": [
+        "cloud-storage"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/cloud-storage-v4.txt",
+      "voci": 4,
+      "descrizione": "Archiviazione cloud di lavoro per AS dedicato: Dropbox (Box e OneDrive stanno su cloud condivisi: solo DNS)",
+      "fonti": [
+        {
+          "id": "cloudstorage-dropbox",
+          "licenza": "PDDL 1.0 (iptoasn.com)",
+          "homepage": "https://iptoasn.com/"
+        }
+      ]
+    },
+    {
+      "id": "ip/cloud-storage-v6",
+      "tipo": "ip",
+      "versione_ip": 6,
+      "aggregato": false,
+      "categorie": [
+        "cloud-storage"
+      ],
+      "formato": "un IP o CIDR per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/cloud-storage-v6.txt",
+      "voci": 1,
+      "descrizione": "Archiviazione cloud di lavoro per AS dedicato: Dropbox (Box e OneDrive stanno su cloud condivisi: solo DNS)",
+      "fonti": [
+        {
+          "id": "cloudstorage-dropbox",
+          "licenza": "PDDL 1.0 (iptoasn.com)",
+          "homepage": "https://iptoasn.com/"
+        }
+      ]
+    },
+    {
       "id": "ip/inbound-v4",
       "tipo": "ip",
       "versione_ip": 4,
@@ -699,7 +789,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v4.txt",
-      "voci": 78918,
+      "voci": 78820,
       "descrizione": "IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN",
       "fonti": [
         {
@@ -1048,7 +1138,7 @@
       "categoria": "pubblicita",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita.txt",
-      "voci": 66034,
+      "voci": 66084,
       "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre)",
       "fonti": [
         {
@@ -1075,7 +1165,7 @@
       "categoria": "pubblicita",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita.txt",
-      "voci": 66116,
+      "voci": 66166,
       "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre)",
       "fonti": [
         {
@@ -1104,7 +1194,7 @@
       "soglia": 0.0002,
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita-strict.txt",
-      "voci": 48459,
+      "voci": 48509,
       "fonti": [
         {
           "id": "easylist",
@@ -1133,7 +1223,7 @@
       "soglia": 0.0002,
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita-strict.txt",
-      "voci": 48467,
+      "voci": 48517,
       "fonti": [
         {
           "id": "easylist",
@@ -1228,9 +1318,14 @@
       "categoria": "file-sharing",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-file-sharing.txt",
-      "voci": 15,
-      "descrizione": "File sharing e trasferimento file anonimi (policy di prevenzione fuga dati)",
+      "voci": 930,
+      "descrizione": "File sharing puro: trasferimento e hosting di file anonimi (policy di prevenzione fuga dati)",
       "fonti": [
+        {
+          "id": "ut1-filehosting",
+          "licenza": "CC BY-SA 4.0",
+          "homepage": "https://dsi.ut-capitole.fr/blacklists/"
+        },
         {
           "id": "manuale",
           "licenza": "GPL-3.0 (Clanto)",
@@ -1245,13 +1340,74 @@
       "categoria": "file-sharing",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-file-sharing.txt",
-      "voci": 15,
-      "descrizione": "File sharing e trasferimento file anonimi (policy di prevenzione fuga dati)",
+      "voci": 931,
+      "descrizione": "File sharing puro: trasferimento e hosting di file anonimi (policy di prevenzione fuga dati)",
       "fonti": [
+        {
+          "id": "ut1-filehosting",
+          "licenza": "CC BY-SA 4.0",
+          "homepage": "https://dsi.ut-capitole.fr/blacklists/"
+        },
         {
           "id": "manuale",
           "licenza": "GPL-3.0 (Clanto)",
           "homepage": "domains/blocklist/file-sharing.txt"
+        }
+      ]
+    },
+    {
+      "id": "opnsense/block-file-sharing",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "file-sharing",
+      "formato": "FQDN per alias OPNsense URL Table (IPs)",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/file-sharing.txt",
+      "voci": 421,
+      "descrizione": "File sharing puro: trasferimento e hosting di file anonimi (policy di prevenzione fuga dati)",
+      "fonti": [
+        {
+          "id": "ut1-filehosting",
+          "licenza": "CC BY-SA 4.0",
+          "homepage": "https://dsi.ut-capitole.fr/blacklists/"
+        },
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/file-sharing.txt"
+        }
+      ]
+    },
+    {
+      "id": "adguard/block-cloud-storage",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "cloud-storage",
+      "formato": "regole AdGuard",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-cloud-storage.txt",
+      "voci": 21,
+      "descrizione": "Archiviazione cloud usata per lavoro (Dropbox, Box, OneDrive personale, pCloud...): solo dove la policy lo chiede",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/cloud-storage.txt"
+        }
+      ]
+    },
+    {
+      "id": "domini/block-cloud-storage",
+      "tipo": "dominio",
+      "azione": "blocco",
+      "categoria": "cloud-storage",
+      "formato": "un dominio per riga",
+      "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-cloud-storage.txt",
+      "voci": 21,
+      "descrizione": "Archiviazione cloud usata per lavoro (Dropbox, Box, OneDrive personale, pCloud...): solo dove la policy lo chiede",
+      "fonti": [
+        {
+          "id": "manuale",
+          "licenza": "GPL-3.0 (Clanto)",
+          "homepage": "domains/blocklist/cloud-storage.txt"
         }
       ]
     },
@@ -1444,7 +1600,7 @@
       "categoria": "doh",
       "formato": "FQDN per alias OPNsense URL Table (IPs)",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/doh.txt",
-      "voci": 2814,
+      "voci": 2811,
       "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -1530,7 +1686,7 @@
       "categoria": "vpn",
       "formato": "FQDN per alias OPNsense URL Table (IPs)",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/vpn.txt",
-      "voci": 5261,
+      "voci": 5241,
       "descrizione": "VPN, proxy e servizi di bypass (scuole)",
       "fonti": [
         {
@@ -1679,7 +1835,7 @@
       "categoria": "malware",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware.txt",
-      "voci": 272623,
+      "voci": 272629,
       "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware)",
       "fonti": [
         {
@@ -1721,7 +1877,7 @@
       "categoria": "malware",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware.txt",
-      "voci": 273559,
+      "voci": 273565,
       "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware)",
       "fonti": [
         {
@@ -1765,7 +1921,7 @@
       "soglia": 0.0002,
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware-strict.txt",
-      "voci": 238666,
+      "voci": 238672,
       "fonti": [
         {
           "id": "hagezi-tif-mini",
@@ -1809,7 +1965,7 @@
       "soglia": 0.0002,
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware-strict.txt",
-      "voci": 238697,
+      "voci": 238703,
       "fonti": [
         {
           "id": "hagezi-tif-mini",

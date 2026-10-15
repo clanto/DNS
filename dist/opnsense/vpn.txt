@@ -19,7 +19,6 @@
 1008868842.rsc.cdn77.org
 1016945378.rsc.cdn77.org
 1017683305.rsc.cdn77.org
-102-orp-diordna.b-cdn.net
 102.theartieschaffer.com
 1028989235.rsc.cdn77.org
 1034336200.rsc.cdn77.org
@@ -86,7 +85,6 @@
 1133309464.rsc.cdn77.org
 1138625791.rsc.cdn77.org
 1138962056.rsc.cdn77.org
-114-etilobrut-diordna.b-cdn.net
 114.ip-158-69-222.net
 1142797333.rsc.cdn77.org
 1153865737.rsc.cdn77.org
@@ -480,9 +478,7 @@
 3wvve99e.com
 4.theartieschaffer.com
 4.thetravelingtourguide.com
-401-0506.b-cdn.net
 401-0507.b-cdn.net
-401-retsam-swodniw.b-cdn.net
 41.hide.newflamingodomain.co.uk
 416d70de.nip.io
 416d70de.sslip.io
@@ -841,7 +837,6 @@ austinisd.net.cdn.cloudflare.net
 auth-secure-socket.com
 auth.vincenzodimaro.it
 auth.vincenzodimaro.it.cdn.cloudflare.net
-auto-aufladen.de
 autodiscover.sailforeducation.org
 autumnbreeze.co
 auu.homes
@@ -953,7 +948,6 @@ bestdaygame.com
 bestproxy.xyz
 bestssh.net
 bestvpn.help
-bestvpnonline.online
 bestvpnservice.top
 bettervpn.help
 bettingbet365.com
@@ -1081,7 +1075,6 @@ brsueykh.com
 brunysixl.work
 brunysixl.work.cdn.cloudflare.net
 brwczgvk.com
-bs-static.b-cdn.net
 bs8h3v1f.com
 bsbollbn.com
 btc4animals.com
@@ -1202,7 +1195,6 @@ cheddar-chute.com
 chickenalert.camdvr.org
 chik-chirikvpn.com
 chinacitybit.click
-chinagrows.com
 chinapeopleinfo.com
 chinastoryshop.com
 chkttzrt.com
@@ -1366,6 +1358,7 @@ dedvpn.net
 dedvpn.xyz
 deepwebvpn.net
 default2024.uk
+defencevpn.com
 defilter.us
 defined.pics
 defnotballs.duckdns.org
@@ -1517,7 +1510,6 @@ edgex.trafficmanager.net
 editorialescelistina.click
 ednovasyunclash.com
 edpuzzle-lol.vercel.app
-edpuzzle.space
 edsqevwp.com
 edu.123goal.xyz
 edublue.org
@@ -1557,7 +1549,6 @@ english-jp.easterndns.com
 english.iloveyouxav.com
 englishtutoring.cfd
 enotvpn.net
-enproxy.com
 eofgame.app
 eofvpn.cc
 eofvpn.com
@@ -1834,7 +1825,6 @@ g2lxz96r.com
 g2u83u88.com
 g4mzzz.unstop.cloudns.ch
 g7y.ooguy.com
-gabstorm.com
 gafqfqw.com
 gagagaga2.freeddns.us
 gaganode.com
@@ -2503,6 +2493,7 @@ jzvuagmd.com
 k-vpn.vercel.app
 k.theartieschaffer.com
 k4unvnru.com
+kainoaslothower.art
 kakaduvpn.blog
 kakaduvpn.lol
 kaknascheteasylight.ru
@@ -2580,7 +2571,6 @@ kuailian-dlxz.com.cn
 kuailian-hk.com
 kuailian-inst.com
 kuailian-web.com
-kuailian.cool
 kuailian.dev
 kuailian.team
 kuailian.vercel.app
@@ -2622,7 +2612,6 @@ lanternvpn.biz
 laowangvpn1.com
 laplandia.pro
 laramieriverlodge.com
-largero.com
 larp.foundation
 lasbg4.xyz
 lashboy.muzanesghy.co.uk
@@ -2855,7 +2844,6 @@ mjpabahu.com
 mkdkkn5k.com
 mkkewfye.com
 mlst-prom-static.b-cdn.net
-mlst-static.b-cdn.net
 mm.unstop.cloudns.ch
 mnqwscym.com
 mobile-socket.culturegps.com
@@ -2986,9 +2974,6 @@ mqrxgzi4.com
 mrakfhre.com
 mramato2.myclarevision.com
 mrbuwfks.com
-mrr-qa-static.b-cdn.net
-mrr-qa2-static.b-cdn.net
-mrr-qa3-static.b-cdn.net
 mrscraper.com
 msc.mcafee.com
 msgiepkj.com
@@ -3026,7 +3011,6 @@ myproxysite.org
 myroynyx.com
 myrsv.live
 mysecurename.com
-myspaceunlock.com
 myst.schooling.simpatizzo.org
 mysterium.network
 mysudo.com
@@ -3373,7 +3357,6 @@ pixolium.com
 pizza.frogiee.one
 pizza.frogiee.one.cdn.cloudflare.net
 pjocyymt.com
-pkw-aufladen.de
 placenetworks.com
 planet-vpn-free.ru
 planet-vpn-ru.com
@@ -3493,13 +3476,11 @@ prox.pw
 proxay.co.uk
 proxfree.com
 proxied.org
-proxies.biz
 proxify.biz
 proxify.cc
 proxify.co.uk
 proxify.com
 proxify.de
-proxify.eu
 proxify.info
 proxify.net
 proxify.org
@@ -3545,7 +3526,6 @@ proxygate.com
 proxygeo.com
 proxygizlen.com
 proxyguide.net
-proxyist.com
 proxyiumi.com
 proxylib.com
 proxylistpro.com
@@ -3577,7 +3557,6 @@ proxyssl.org
 proxysupply.com
 proxysurfing.org
 proxytime.net
-proxyturbo.com
 proxyvpn.eu
 pruvanta.ru
 prvd.app
@@ -3810,6 +3789,7 @@ safehousetech.com
 safemyip.pro
 safenetbrowser.com
 safeproxy.app
+saferiverpay.com
 safersurfing.net
 safeshellvpn.com
 safetysurf.net
@@ -3879,6 +3859,8 @@ securewebproxy.net
 securitykiss.com
 securly.mom
 secvpnproxy.co.cc
+seed4.me
+seed4me.app
 seed4me.help
 seelabour.com
 sefid.goooalir.co.uk
@@ -4067,7 +4049,6 @@ streisand.pics
 strivaro.click
 study.englishpapers.online
 studyingsofun.smathis.com
-studysurf.com
 stuffyschicken.isreallycool.lol
 stufy.englishpapers.online
 stun.su
@@ -5243,7 +5224,6 @@ zoogy.site
 zoogzone.site
 zorlunet.ru
 zorrovpn.io
-zproxy.de
 zproxy.org
 zqxgfbtj.com
 zrackrmr.com

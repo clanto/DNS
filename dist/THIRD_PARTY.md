@@ -14,12 +14,15 @@
 | blocklistproject-redirect | lista domini `redirect` | Unlicense |  | https://github.com/blocklistproject/Lists |
 | blocklistproject-tiktok | lista domini `social` | Unlicense |  | https://github.com/blocklistproject/Lists |
 | blocklistproject-twitter | lista domini `social` | Unlicense |  | https://github.com/blocklistproject/Lists |
+| cloudstorage-dropbox | feed IP `cloud-storage` | PDDL 1.0 (iptoasn.com) |  | https://iptoasn.com/ |
 | data-shield | feed IP `inbound` | GPL-3.0 |  | https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist |
 | dibdot-doh | lista domini `doh` | GPL-3.0 |  | https://github.com/dibdot/DoH-IP-blocklists |
 | dibdot-doh-v4 | feed IP `doh` | GPL-3.0 |  | https://github.com/dibdot/DoH-IP-blocklists |
 | dibdot-doh-v6 | feed IP `doh` | GPL-3.0 |  | https://github.com/dibdot/DoH-IP-blocklists |
 | easylist | lista domini `pubblicita` | GPL-3.0 o CC BY-SA 3.0 | The EasyList authors (https://easylist.to/) | https://easylist.to/ |
 | easyprivacy | lista domini `traccianti` | GPL-3.0 o CC BY-SA 3.0 | The EasyList authors (https://easylist.to/) | https://easylist.to/ |
+| fileshare-mediafire | feed IP `file-sharing` | PDDL 1.0 (iptoasn.com) |  | https://iptoasn.com/ |
+| fileshare-mega | feed IP `file-sharing` | PDDL 1.0 (iptoasn.com) |  | https://iptoasn.com/ |
 | hagezi-anti-piracy | lista domini `pirateria` | GPL-3.0 |  | https://github.com/hagezi/dns-blocklists |
 | hagezi-bypass | lista domini `vpn` | GPL-3.0 |  | https://github.com/hagezi/dns-blocklists |
 | hagezi-doh | lista domini `doh` | GPL-3.0 |  | https://github.com/hagezi/dns-blocklists |
@@ -54,6 +57,7 @@
 | tweetfeed-domains | lista domini `malware` | CC0-1.0 |  | https://github.com/0xDanielLopez/TweetFeed |
 | tweetfeed-ip | feed IP `c2` | CC0-1.0 |  | https://github.com/0xDanielLopez/TweetFeed |
 | ublock-badware | lista domini `malware` | GPL-3.0 |  | https://github.com/uBlockOrigin/uAssets |
+| ut1-filehosting | lista domini `file-sharing` | CC BY-SA 4.0 | Université Toulouse Capitole (blacklists UT1), CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ | https://dsi.ut-capitole.fr/blacklists/ |
 | ut1-shortener | lista domini `redirect` | CC BY-SA 4.0 | Université Toulouse Capitole (blacklists UT1), CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ | https://dsi.ut-capitole.fr/blacklists/ |
 | validin-phish | lista domini `phishing` | MIT | Copyright (c) 2024 Mikhail Kasimov | https://github.com/MikhailKasimov/validin-phish-feed |
 | x4b-vpn-v4 | feed IP `vpn` | MIT | Copyright (c) 2024 X4B (Mathew Heard) | https://github.com/X4BNet/lists_vpn |
