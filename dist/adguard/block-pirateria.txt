@@ -4988,6 +4988,7 @@
 ||fmovies.coffee^
 ||futemax.coffee^
 ||hdmovie2.coffee^
+||streaming-community.coffee^
 ||streamingcommunityz.coffee^
 ||filmoflix.college^
 ||filmoflixi.college^
@@ -9814,6 +9815,7 @@
 ||taraftarium24bjk16.com^
 ||taraftarium24bjk17.com^
 ||taraftarium24bjk21.com^
+||taraftarium24bjk22.com^
 ||taraftarium24bjk4.com^
 ||taraftarium24bjk8.com^
 ||taraftarium24bjk9.com^
@@ -12479,6 +12481,7 @@
 ||flemmix.fast^
 ||futemax.fast^
 ||hdmovie2.fast^
+||futemax.feedback^
 ||hdmovie2.feedback^
 ||zone-telechargement.feedback^
 ||coflix.fi^
@@ -28296,6 +28299,7 @@
 ||kinox.navy^
 ||streameay.ne^
 ||00123movies.net^
+||0123movie1.net^
 ||0123movies.net^
 ||0123movies4u.net^
 ||0123moviesfreez.net^

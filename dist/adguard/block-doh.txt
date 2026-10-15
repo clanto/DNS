@@ -2923,7 +2923,6 @@
 ||dns.thiz.top^
 ||kr.tomgirl.top^
 ||us44nas.top^
-||dns.wahr.top^
 ||bwh.why4free.top^
 ||wiqi.top^
 ||xholgm.top^

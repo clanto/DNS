@@ -66,7 +66,6 @@
 ||webtek.agency^
 ||4crisk.ai^
 ||to.5mins.ai^
-||abacus.ai^
 ||abtesting.ai^
 ||ablink.mail.activearcade.ai^
 ||addressable.ai^
@@ -15057,6 +15056,7 @@
 ||drivemotors.com^
 ||go.drivemyfreedom.com^
 ||pixel.driveniq.com^
+||drivenmove.com^
 ||a8clk.driver-island.com^
 ||driverequest.com^
 ||ctd.drivescore.com^
@@ -15302,6 +15302,7 @@
 ||pqghqs.eastcl.com^
 ||mdws.easternedgecu.com^
 ||huaxiang.eastmoney.com^
+||eastpalms.com^
 ||seniorliving.eastridgeatcutlerbay.com^
 ||marketing.eastviewpress.com^
 ||smetrics.eastwestbank.com^
@@ -37248,6 +37249,7 @@
 ||superficialsquare.com^
 ||superfiliate-cdn.com^
 ||kzmual.superga.com^
+||supergits.com^
 ||bsjgdn.supergoop.com^
 ||deeplink.supergreat.com^
 ||gobeyond.superiorgroup.com^
@@ -52381,6 +52383,7 @@
 ||app.exercisetimer.net^
 ||exit-x.net^
 ||exprpt.net^
+||extracover.net^
 ||eyeota.net^
 ||ezoic.net^
 ||analytics.faculty.net^

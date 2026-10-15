@@ -1273,7 +1273,6 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
-dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -1650,7 +1649,6 @@ ebpmc.diskstation.me
 ebpmc.tplinkdns.com
 echoe1yidzu4ioo5.myfritz.net
 edgar.tobkar.net
-edgy-dns.com
 edns.233py.com
 ee-tll.doh.sb
 egorovna.su
@@ -1777,6 +1775,7 @@ guard.miracloud.fr
 guard.pp.ua
 guard.telesterion.de
 guidetoworld.link
+gustamadh.dynv6.net
 gva01.dnscry.pt
 gw1.dns.haynetwork.id
 h.gjrick.tw
@@ -1839,7 +1838,6 @@ home.weisbrod.me
 home.wriedts.de
 home27.duckdns.org
 home34.su
-homec92.dns.army
 homedns.gumeniuk.com
 homeguard.sleziona.org
 homejerem.duckdns.org
@@ -2053,10 +2051,6 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
-mask-canary.icloud.com
-mask-h2.icloud.com
-mask.apple-dns.net
-mask.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2598,6 +2592,7 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
+tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt

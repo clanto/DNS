@@ -12296,6 +12296,7 @@
 ||images.learn.drivemedical.com^
 ||go.drivemyfreedom.com^
 ||pixel.driveniq.com^
+||drivenmove.com^
 ||a8clk.driver-island.com^
 ||ctd.drivescore.com^
 ||open.drivescore.com^
@@ -12480,6 +12481,7 @@
 ||pqghqs.eastcl.com^
 ||mdws.easternedgecu.com^
 ||huaxiang.eastmoney.com^
+||eastpalms.com^
 ||seniorliving.eastridgeatcutlerbay.com^
 ||marketing.eastviewpress.com^
 ||smetrics.eastwestbank.com^
@@ -38132,6 +38134,7 @@
 ||eviltracker.net^
 ||bxlsct.ex-shop.net^
 ||app.exercisetimer.net^
+||extracover.net^
 ||fancycolorlist.net^
 ||fanless.net^
 ||analytics.faprika.net^
