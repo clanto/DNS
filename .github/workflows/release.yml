@@ -27,7 +27,7 @@ jobs:
         run: |
           out="$RUNNER_TEMP/release"
           mkdir -p "$out"
-          for f in dist/ip/*.txt dist/adguard/*.txt dist/domains/*.txt dist/unbound/*.conf dist/opnsense/*.txt; do
+          for f in dist/ip/*.txt dist/adguard/*.txt dist/domains/*.txt dist/unbound/*.conf dist/unbound/*.txt dist/opnsense/*.txt; do
             [ -f "$f" ] || continue
             # nome univoco: cartella-file (es. ip-all-v4.txt, adguard-block-doh.txt)
             cp "$f" "$out/$(basename "$(dirname "$f")")-$(basename "$f")"

@@ -4,7 +4,8 @@
 Output:
   dist/adguard/allow-<cat>.txt, allow-base.txt   '@@||dominio^$important'
   dist/adguard/block-<cat>.txt                   '||dominio^'
-  dist/domains/block-<cat>.txt                   domini semplici (pfBlockerNG, OPNsense)
+  dist/domains/block-<cat>.txt                   domini semplici, nome esatto (pfBlockerNG, alias)
+  dist/unbound/block-<cat>.txt                   '*.dominio' per le blocklist Unbound di OPNsense (dominio e sottodomini)
   dist/adguard/README.md                         feed + catalogo liste upstream (domains/upstream.toml)
   dist/adguard/block-<cat>-strict.txt (+ dist/domains/) livello strict, dist/perche/ indice «Perché è bloccato?»
                                                  (scripts/punteggio.py, configurazione [punteggio])
@@ -36,6 +37,7 @@ UPSTREAM_PATH = DOMAINS_DIR / "upstream.toml"
 PSL_CACHE = CACHE_DIR / "psl-private.txt"  # sezione privata della Public Suffix List (MPL-2.0)
 ADGUARD_DIR = ROOT / "dist" / "adguard"
 PLAIN_DIR = ROOT / "dist" / "domains"
+UNBOUND_DIR = ROOT / "dist" / "unbound"  # anche safesearch.conf (build_safesearch.py)
 KINDS = {"allow": "allowlist", "block": "blocklist"}
 SOURCE_FORMATS = ("domains", "adblock", "ublock", "hosts", "tweetfeed")
 
@@ -536,6 +538,12 @@ def main() -> int:
     meta = {"allow-base.txt": (f"Aggregato allowlist: {', '.join(in_base)}", "", len(final_base)), **meta, **livelli.meta}
     adguard.update(livelli.adguard)
     plain.update(livelli.plain)
+    # Unbound di OPNsense: una voce semplice blocca solo il nome esatto, '*.dominio' blocca dominio e sottodomini
+    # (verificato in opnsense/core, scripts/unbound/blocklists/default_bl.py e unbound-dnsbl/lib/dnsbl.py).
+    # Stesse voci della lista AdGuard, già senza i sottodomini coperti dal padre.
+    unbound = {name: "".join(f"*.{d}\n" for d in (line[2:].split("^", 1)[0] for line in adguard[name].splitlines())
+                             if "*" not in d)
+               for name in plain if name in adguard}
     if livelli.anomalie:
         text = "\n".join(["### Variazioni anomale delle liste strict", ""] + [f"- {a}" for a in livelli.anomalie] + [""])
         warn(text.replace("\n", " "))
@@ -547,7 +555,8 @@ def main() -> int:
             fh.write(f"anomaly={'true' if livelli.anomalie else 'false'}\n")
 
     if not args.check:
-        for directory, files, pattern in ((ADGUARD_DIR, adguard, "*.txt"), (PLAIN_DIR, plain, "*.txt")):
+        for directory, files, pattern in ((ADGUARD_DIR, adguard, "*.txt"), (PLAIN_DIR, plain, "*.txt"),
+                                          (UNBOUND_DIR, unbound, "*.txt")):
             directory.mkdir(parents=True, exist_ok=True)
             for stale in directory.glob(pattern):
                 if stale.name.startswith(("block-", "allow-")) and stale.name not in files:

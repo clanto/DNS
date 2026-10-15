@@ -70,6 +70,7 @@ def domain_feeds() -> list[dict]:
     sources = DOM_CFG.get("sources", [])
     formats = [("adguard", "dist/adguard/{k}-{c}.txt", "regole AdGuard"),
                ("domini", "dist/domains/{k}-{c}.txt", "un dominio per riga"),
+               ("unbound", "dist/unbound/{k}-{c}.txt", "'*.dominio' per blocklist Unbound di OPNsense"),
                ("opnsense", "dist/opnsense/{c}.txt", "FQDN per alias OPNsense URL Table (IPs)")]
     for kind in ("allow", "block"):
         for cat, opts in DOM_CFG.get(kind, {}).items():
@@ -90,14 +91,15 @@ def domain_feeds() -> list[dict]:
                               "descrizione": opts.get("description", ""), "fonti": fonti})
             # livello strict (scripts/punteggio.py): stesse fonti, solo voci con punteggio sopra soglia
             soglia = DOM_CFG.get("punteggio", {}).get("strict", {}).get(cat) if kind == "block" else None
-            for fmt, pattern, label in formats[:2] if soglia is not None else []:
+            for fmt, pattern, label in formats[:3] if soglia is not None else []:
                 rel = pattern.format(k=kind, c=f"{cat}-strict")
                 n = count(ROOT / rel)
                 if n is not None:
                     feeds.append({"id": f"{fmt}/{kind}-{cat}-strict", "tipo": "dominio", "azione": "blocco",
                                   "categoria": cat, "livello": "strict", "soglia": soglia, "formato": label,
                                   "url": f"{RAW_BASE}/{rel}", "voci": n, "fonti": fonti,
-                                  "descrizione": f"{opts.get('description', '')} — livello strict (punteggio ≥ {soglia})"})
+                                  "descrizione": f"{opts.get('description', '')} — livello strict (errore stimato ≤ "
+                                                 f"{100 * float(soglia):.4f}% o fonte migliore della lista)"})
     extra = [("adguard/allow-base", "dist/adguard/allow-base.txt", "regole AdGuard", "sblocco",
               "Aggregato delle allowlist da applicare a tutti"),
              ("unbound/safesearch", "dist/unbound/safesearch.conf", "local-data Unbound", "safesearch",

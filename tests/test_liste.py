@@ -246,8 +246,17 @@ def section_domains():
               "block-pubblicita.txt": 30000, "block-traccianti.txt": 30000, "block-ddns.txt": 1000}
     for name, minimo in minimi.items():
         check(len((ROOT / "dist/adguard" / name).read_text().splitlines()) > minimo, f"{name}: troppo poche voci")
-    check(not list((ROOT / "dist/unbound").glob("block-*.conf")),
-          "regole Unbound delle blocklist: OPNsense usa i link di dist/domains/")
+    check(not list((ROOT / "dist/unbound").glob("block-*.conf")), "regole local-zone Unbound non più previste")
+    # Unbound di OPNsense: '*.dominio' (dominio e sottodomini), una per ogni lista in formato semplice
+    for p in (ROOT / "dist/domains").glob("block-*.txt"):
+        u = ROOT / "dist/unbound" / p.name
+        check(u.exists(), f"{p.name}: manca la versione per Unbound di OPNsense")
+        if u.exists():
+            righe = u.read_text(encoding="utf-8").splitlines()
+            bad = [x for x in righe if not re.match(r"^\*\.[a-z0-9_-]+(\.[a-z0-9_-]+)*$", x)]
+            check(not bad, f"unbound/{p.name}: righe non nel formato '*.dominio' {bad[:3]}")
+    fs_u = set((ROOT / "dist/unbound/block-file-sharing.txt").read_text(encoding="utf-8").split())
+    check("*.mega.nz" in fs_u, "unbound/block-file-sharing: mega.nz senza wildcard")
     for legacy in ("appspia", "criptojacking", "malware", "pishing", "redirect", "warez", "lista_streaming_illegale",
                    "pornoextra", "roblox", "test"):
         check(not (ROOT / f"liste/{legacy}.txt").exists(), f"liste/{legacy}.txt sostituita ma ancora presente")
