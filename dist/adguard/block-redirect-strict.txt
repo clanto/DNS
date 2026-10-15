@@ -1244,6 +1244,7 @@
 ||bitlz.cc^
 ||bmai.cc^
 ||maninthe.boxe.cc^
+||btly.cc^
 ||freeway.budu.cc^
 ||webhosting.budu.cc^
 ||bypass.cc^
@@ -30724,7 +30725,9 @@
 ||4.gg^
 ||9k.gg^
 ||a.gg^
+||akses.gg^
 ||unblock.at.gg^
+||bch.gg^
 ||bst.gg^
 ||cbt.gg^
 ||elite.ch.gg^
@@ -32697,6 +32700,7 @@
 ||freeway.citr.in^
 ||cius.in^
 ||civichonda.in^
+||clkr.in^
 ||cloakme.in^
 ||akf.co.in^
 ||clsfriday.co.in^
@@ -63614,6 +63618,7 @@
 ||buk.me^
 ||burl.me^
 ||buzzweb.me^
+||bylink.me^
 ||bypass.me^
 ||bypass4.me^
 ||bypassfor.me^

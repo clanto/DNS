@@ -101,6 +101,7 @@ addns.jujuland.net
 addns.ovalie.ovh
 addns1.m-it.ro
 adfight.ru
+adfiltro.fun
 adfree.usableprivacy.net
 adfreedns.eu
 adfreedns.top
@@ -122,6 +123,7 @@ adg.khon.dev
 adg.lintasjrg.xyz
 adg.proprietarypenguin.com
 adg.rokh.biz
+adg.rueiliu.space
 adg.spacework.com.mx
 adg.tshost.no
 adg.yybyy.wiki
@@ -235,6 +237,7 @@ adguard.meddy94.de
 adguard.mokocup.dev
 adguard.myddns.org
 adguard.nasaud.info
+adguard.neon0404.space
 adguard.netmasc.services
 adguard.nielsenhost.dk
 adguard.niko-sem.com
@@ -381,6 +384,7 @@ ag.iyn.one
 ag.marschi.de
 ag.node15.com
 ag.snrka.ru
+ag.ssrahul96.xyz
 ag.stepnew.ru
 ag.wntrmute.net
 agathe.tobkar.net
@@ -436,6 +440,7 @@ alina.virttec.net
 alisa.vpn.i81.ru
 aliyunhttpdns.com
 allain.com.br
+alleesph.online
 alon93rus.ru
 alpha-dns.quad9.net
 alpha.cixy.xyz
@@ -463,6 +468,7 @@ anixlab.com
 ant.dns.qwer.pw
 antivirus.bebasid.com
 anycast.censurfridns.dk
+anycast.censurfridns.nu
 anycast.nextdns.io
 anycast.uncensoreddns.dk
 api.cloudflareclient.com

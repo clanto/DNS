@@ -286,6 +286,7 @@
 ||shandian.autos^
 ||fcgv4rovovvlixqc2a7qncvev40dbxsy.lambda-url.us-east-1.on.aws^
 ||qxydy.baby^
+||artemis.bar^
 ||endis.bar^
 ||webtoppings.bar^
 ||bebra.be^
@@ -320,6 +321,7 @@
 ||anonymurl.biz^
 ||anonyproxy.biz^
 ||avovpn.biz^
+||bebravpn.biz^
 ||bit123.biz^
 ||blancvpn.biz^
 ||browpay.biz^
@@ -779,7 +781,7 @@
 ||virane91.p.lite64.click^
 ||luminalos.click^
 ||lvchavpn.click^
-||ultra.mishutkin.click^
+||fast.mishutkin.click^
 ||naruzhu.click^
 ||audiobooks.netlibrary.click^
 ||personaly.click^
@@ -898,7 +900,9 @@
 ||uproxy.club^
 ||webproxy.club^
 ||bebra.cm^
+||084899.cn^
 ||23081r.cn^
+||53r6z.cn^
 ||scratchdevfourums.5a3bz.cn^
 ||ajabk.cn^
 ||alflebear.cn^
@@ -913,6 +917,8 @@
 ||bmjwk.cn^
 ||bmksmmb.cn^
 ||brsjk.cn^
+||cofowhs.cn^
+||apps-kuailian.com.cn^
 ||cn-app-kuailian.com.cn^
 ||cn-kuailianzh.com.cn^
 ||cns-pc-kuailian.com.cn^
@@ -1971,6 +1977,7 @@
 ||britishproxy.com^
 ||bro-ru.com^
 ||broadearn.com^
+||browsebridge.com^
 ||browsec.com^
 ||browsec-ru.com^
 ||browsec-rus.com^
@@ -2017,6 +2024,7 @@
 ||c5325786f0985dd8d1844a9df52874195ecd2887.com^
 ||c785b92d703d4ec0ad3f1c05bb54dac886f748e4.com^
 ||cactusvpn.com^
+||cafedots.com^
 ||cai-yun.com^
 ||calculuscrafter.com^
 ||callandtextapp.com^
@@ -2073,6 +2081,7 @@
 ||cheaptextingapp.com^
 ||cheddar-chute.com^
 ||cheesestorecedarhurst.com^
+||aberdeenmiddle34lol.chickenkiller.com^
 ||brothislinkfire.chickenkiller.com^
 ||dihinmyah-67.chickenkiller.com^
 ||eqwnmhg.chickenkiller.com^
@@ -2103,6 +2112,7 @@
 ||civiclearncenter.com^
 ||cjwhahqi.com^
 ||clash-for-ios.com^
+||clash-for-win.com^
 ||clashappx.com^
 ||clashformac.com^
 ||clashgithub.com^
@@ -2110,6 +2120,7 @@
 ||clashios.com^
 ||clashrs.com^
 ||clashsubs.com^
+||clashui.com^
 ||clearvpn.com^
 ||clickwork7secure.com^
 ||clmvip.com^
@@ -2204,6 +2215,7 @@
 ||croxyproxy.com^
 ||croxyproxys.com^
 ||crushus.com^
+||bx3.cdn.gh-pages.cryodome.com^
 ||crypticvpn.com^
 ||cryptovpn.com^
 ||ct-vpn.com^
@@ -7055,10 +7067,8 @@
 ||best-cooking-recipes.info^
 ||bestvpnprovider.info^
 ||bestyoutubeproxy.info^
-||pintrest-cool.browncolor.info^
 ||browpay.info^
 ||travel.bsfa.info^
-||becarefull.bypased.info^
 ||math-test.bypased.info^
 ||vizhzhzhzhzh.bypased.info^
 ||cachequick.info^
@@ -8167,6 +8177,7 @@
 ||securemy.name^
 ||unblocked.name^
 ||uncensored.name^
+||111000.v6.navy^
 ||123-proxy.net^
 ||123inside.net^
 ||123me.net^
@@ -10535,6 +10546,8 @@
 ||getstash.org^
 ||getsurfboard.org^
 ||gfwoff.org^
+||alpha.y.glenwaverleychurches.org^
+||beta.y.glenwaverleychurches.org^
 ||glintapp.org^
 ||goingthere.org^
 ||goodfast.org^
@@ -11057,6 +11070,7 @@
 ||ikuuu.pw^
 ||mojie.pw^
 ||lite64tg.mtproxy.pw^
+||seven.mtproxy.pw^
 ||ovpn.pw^
 ||prox.pw^
 ||redproxy.pw^
@@ -11315,6 +11329,7 @@
 ||talked.run^
 ||proxymonster.sale^
 ||dot.sb^
+||dene60.hollowfern.sbs^
 ||lilt-pupu.sbs^
 ||luxuryman.sbs^
 ||onlyrabbit02.sbs^
@@ -11659,6 +11674,7 @@
 ||tor2web.to^
 ||vpnplus.to^
 ||wssht.to^
+||bailey.today^
 ||bolt-backup.binarybrains.today^
 ||getapp.today^
 ||hmn.today^
@@ -11925,6 +11941,7 @@
 ||iran.bingi.co.uk^
 ||persia.bingi.co.uk^
 ||binhexsolutions.co.uk^
+||burgerip.co.uk^
 ||buystoryapp.co.uk^
 ||silver.ciaude.co.uk^
 ||good.cipservice.co.uk^
@@ -11947,21 +11964,17 @@
 ||name.golgoli2.co.uk^
 ||run.golgoli2.co.uk^
 ||shoes.golgoli2.co.uk^
-||ava.goooalir.co.uk^
 ||azadi.goooalir.co.uk^
 ||baran.goooalir.co.uk^
-||behtarin.goooalir.co.uk^
 ||cr777.goooalir.co.uk^
 ||for-iran.goooalir.co.uk^
 ||from.goooalir.co.uk^
 ||joje.goooalir.co.uk^
 ||leomessi.goooalir.co.uk^
-||meshki.goooalir.co.uk^
 ||nab.goooalir.co.uk^
 ||napoli.goooalir.co.uk^
 ||narooo.goooalir.co.uk^
 ||paydar.goooalir.co.uk^
-||sefid.goooalir.co.uk^
 ||soh5.goooalir.co.uk^
 ||soheil.goooalir.co.uk^
 ||tassian.goooalir.co.uk^
@@ -11979,12 +11992,13 @@
 ||api.mangoseason5.co.uk^
 ||web.mangoseason7.co.uk^
 ||mangoseason8.co.uk^
+||ir.mediaad.co.uk^
+||org.mediaad.co.uk^
 ||bastani.mikhay.co.uk^
 ||nooshabe.mikhay.co.uk^
 ||pashmak.mikhay.co.uk^
 ||pofak.mikhay.co.uk^
 ||new7.mizanmizanesgh.co.uk^
-||puot.mozitop.co.uk^
 ||ving.mozitop.co.uk^
 ||lashboy.muzanesghy.co.uk^
 ||my-private-network.co.uk^
@@ -12013,18 +12027,15 @@
 ||proxify.co.uk^
 ||proxywebsite.co.uk^
 ||royaclinic.co.uk^
-||rudmoain.co.uk^
 ||severjadid.co.uk^
 ||reyhoon.shambelile.co.uk^
 ||dns.speed-benz.co.uk^
-||suodbo.co.uk^
+||premium.speed-benz.co.uk^
 ||surfshark.co.uk^
 ||star.talebi.co.uk^
 ||termsnal.co.uk^
 ||piano.goal.the-black-hole.co.uk^
 ||tigervpns.co.uk^
-||0000way.iraj.trsr57d.co.uk^
-||lllllk.iraj.trsr57d.co.uk^
 ||noway.iraj.trsr57d.co.uk^
 ||uk-proxy.co.uk^
 ||unblocksites.co.uk^
@@ -12292,6 +12303,8 @@
 ||shadowrocket.work^
 ||speedtoppro.work^
 ||theproxy.work^
+||maka16.velvetoak.work^
+||toka69.velvetoak.work^
 ||expressvpn.works^
 ||hide.works^
 ||ixl.works^

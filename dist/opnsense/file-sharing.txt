@@ -214,6 +214,7 @@ mega.io
 mega.nz
 megadownload.net
 megahotserved.com
+megashare.co.uk
 megashares.com
 megaup.net
 megaupload.de
@@ -269,6 +270,7 @@ picfront.de
 picfront.org
 picoodle.com
 picscrazy.com
+picsec.com
 picturetrail.com
 picvalley.net
 pixagogo.com
@@ -305,6 +307,7 @@ sadew.com
 savefile.com
 scambia.com
 send-file.co.uk
+sendmefile.com
 sendspace.com
 series-megaupload.com
 servimg.com
@@ -312,7 +315,6 @@ seyvet.com
 share-online.biz
 share.am
 share.live.com
-sharefiles.ru
 shareimages.com
 sharelor.com
 sharenxs.com
@@ -418,4 +420,5 @@ ziddu.com
 zippyshare.com
 znail.com
 zonaimagen.es
+zoto.com
 zshare.net

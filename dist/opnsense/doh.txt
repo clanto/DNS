@@ -357,6 +357,7 @@ anixlab.com
 ant.dns.qwer.pw
 antivirus.bebasid.com
 anycast.censurfridns.dk
+anycast.censurfridns.nu
 anycast.dns.nextdns.io
 anycast.dns1.nextdns.io
 anycast.dns2.nextdns.io
@@ -863,6 +864,7 @@ dns.girino.org
 dns.giriprabhat.com
 dns.glampool.cloud
 dns.glf.wtf
+dns.glorydns.com
 dns.glsoft.ai
 dns.gnb09.id
 dns.goldplate.org
@@ -1587,6 +1589,7 @@ doh.zephyrus.id
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
+doh1.b-cdn.net
 doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
@@ -2036,6 +2039,7 @@ los02.dnscry.pt
 lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
+lukscasino-479-tr.xyz
 lukscasino-929-tr.xyz
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
@@ -2048,6 +2052,10 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
+mask-canary.icloud.com
+mask-h2.icloud.com
+mask.apple-dns.net
+mask.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2104,7 +2112,6 @@ myprivityvpn.softether.net
 mzs1.ddns.net
 n.5201344.xyz
 n5.lsasss.com
-n8nmegapixar.online
 naganohara-yoimiya.momokko.moe
 najiakeji.top
 nanopi.cybergroove.net
@@ -2589,7 +2596,6 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
-tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt

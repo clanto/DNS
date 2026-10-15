@@ -2135,6 +2135,7 @@
 ||doh.serverhost.no^
 ||adg.tshost.no^
 ||dns.rkjha.com.np^
+||anycast.censurfridns.nu^
 ||exns1.exalto.nu^
 ||dns.huth.nu^
 ||zeusvps.cloudns.nz^

@@ -476,6 +476,7 @@ anixlab.com
 ant.dns.qwer.pw
 antivirus.bebasid.com
 anycast.censurfridns.dk
+anycast.censurfridns.nu
 anycast.dns.nextdns.io
 anycast.dns1.nextdns.io
 anycast.dns2.nextdns.io
