@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/clanto/DNS",
   "licenza": "GPL-3.0",
-  "generato": "2026-10-15T11:33:06Z",
+  "generato": "2026-10-15T17:04:45Z",
   "attribuzioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/THIRD_PARTY.md",
   "registro_variazioni": "https://raw.githubusercontent.com/clanto/DNS/main/dist/CHANGELOG.md",
   "feed": [
@@ -18,7 +18,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt",
-      "voci": 33901,
+      "voci": 33951,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -91,7 +91,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v6.txt",
-      "voci": 3157,
+      "voci": 3158,
       "descrizione": "Aziende: uscita e ingresso",
       "fonti": [
         {
@@ -165,7 +165,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v4.txt",
-      "voci": 42549,
+      "voci": 42603,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -254,7 +254,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v6.txt",
-      "voci": 3483,
+      "voci": 3484,
       "descrizione": "Scuole: come all, più VPN commerciali e proxy",
       "fonti": [
         {
@@ -339,7 +339,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v4.txt",
-      "voci": 1338,
+      "voci": 1336,
       "descrizione": "Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -374,7 +374,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v6.txt",
-      "voci": 698,
+      "voci": 699,
       "descrizione": "Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -409,7 +409,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt",
-      "voci": 5119,
+      "voci": 5136,
       "descrizione": "Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser)",
       "fonti": [
         {
@@ -459,7 +459,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v4.txt",
-      "voci": 27069,
+      "voci": 27092,
       "descrizione": "IP malevoli attivi (scanner, brute force, attacchi) segnalati da più blacklist",
       "fonti": [
         {
@@ -509,7 +509,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v4.txt",
-      "voci": 535,
+      "voci": 547,
       "descrizione": "Server di comando e controllo di botnet e malware",
       "fonti": [
         {
@@ -569,7 +569,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v4.txt",
-      "voci": 9102,
+      "voci": 9105,
       "descrizione": "VPN commerciali e proxy anonimizzanti",
       "fonti": [
         {
@@ -664,7 +664,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/social-v6.txt",
-      "voci": 122,
+      "voci": 119,
       "descrizione": "Social network e messaggistica per AS: Meta (Facebook, Instagram, WhatsApp), TikTok, X, Telegram",
       "fonti": [
         {
@@ -789,7 +789,7 @@
       ],
       "formato": "un IP o CIDR per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v4.txt",
-      "voci": 78681,
+      "voci": 78537,
       "descrizione": "IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN",
       "fonti": [
         {
@@ -1172,7 +1172,7 @@
       "categoria": "pubblicita",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita.txt",
-      "voci": 66125,
+      "voci": 66204,
       "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre)",
       "fonti": [
         {
@@ -1199,7 +1199,7 @@
       "categoria": "pubblicita",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita.txt",
-      "voci": 66207,
+      "voci": 66286,
       "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre)",
       "fonti": [
         {
@@ -1226,7 +1226,7 @@
       "categoria": "pubblicita",
       "formato": "'*.dominio' per blocklist Unbound di OPNsense",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-pubblicita.txt",
-      "voci": 66125,
+      "voci": 66204,
       "descrizione": "Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre)",
       "fonti": [
         {
@@ -1255,7 +1255,7 @@
       "soglia": 0.0002,
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita-strict.txt",
-      "voci": 48550,
+      "voci": 48629,
       "fonti": [
         {
           "id": "easylist",
@@ -1284,7 +1284,7 @@
       "soglia": 0.0002,
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita-strict.txt",
-      "voci": 48558,
+      "voci": 48637,
       "fonti": [
         {
           "id": "easylist",
@@ -1313,7 +1313,7 @@
       "soglia": 0.0002,
       "formato": "'*.dominio' per blocklist Unbound di OPNsense",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-pubblicita-strict.txt",
-      "voci": 48550,
+      "voci": 48629,
       "fonti": [
         {
           "id": "easylist",
@@ -1758,7 +1758,7 @@
       "categoria": "doh",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-doh.txt",
-      "voci": 3243,
+      "voci": 3244,
       "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -1790,7 +1790,7 @@
       "categoria": "doh",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-doh.txt",
-      "voci": 3512,
+      "voci": 3513,
       "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -1822,7 +1822,7 @@
       "categoria": "doh",
       "formato": "'*.dominio' per blocklist Unbound di OPNsense",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-doh.txt",
-      "voci": 3243,
+      "voci": 3244,
       "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -1854,7 +1854,7 @@
       "categoria": "doh",
       "formato": "FQDN per alias OPNsense URL Table (IPs)",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/doh.txt",
-      "voci": 2818,
+      "voci": 2819,
       "descrizione": "Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale",
       "fonti": [
         {
@@ -1967,7 +1967,7 @@
       "categoria": "vpn",
       "formato": "FQDN per alias OPNsense URL Table (IPs)",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/vpn.txt",
-      "voci": 5266,
+      "voci": 5258,
       "descrizione": "VPN, proxy e servizi di bypass (scuole)",
       "fonti": [
         {
@@ -2177,7 +2177,7 @@
       "categoria": "malware",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware.txt",
-      "voci": 260372,
+      "voci": 260378,
       "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware)",
       "fonti": [
         {
@@ -2219,7 +2219,7 @@
       "categoria": "malware",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware.txt",
-      "voci": 261272,
+      "voci": 261278,
       "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware)",
       "fonti": [
         {
@@ -2261,7 +2261,7 @@
       "categoria": "malware",
       "formato": "'*.dominio' per blocklist Unbound di OPNsense",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-malware.txt",
-      "voci": 260372,
+      "voci": 260378,
       "descrizione": "Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware)",
       "fonti": [
         {
@@ -2305,7 +2305,7 @@
       "soglia": 0.0002,
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware-strict.txt",
-      "voci": 226383,
+      "voci": 226389,
       "fonti": [
         {
           "id": "hagezi-tif-mini",
@@ -2349,7 +2349,7 @@
       "soglia": 0.0002,
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware-strict.txt",
-      "voci": 226414,
+      "voci": 226420,
       "fonti": [
         {
           "id": "hagezi-tif-mini",
@@ -2393,7 +2393,7 @@
       "soglia": 0.0002,
       "formato": "'*.dominio' per blocklist Unbound di OPNsense",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-malware-strict.txt",
-      "voci": 226383,
+      "voci": 226389,
       "fonti": [
         {
           "id": "hagezi-tif-mini",
@@ -2573,7 +2573,7 @@
       "categoria": "traccianti",
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-traccianti.txt",
-      "voci": 58955,
+      "voci": 58957,
       "descrizione": "Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV)",
       "fonti": [
         {
@@ -2600,7 +2600,7 @@
       "categoria": "traccianti",
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-traccianti.txt",
-      "voci": 59952,
+      "voci": 59954,
       "descrizione": "Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV)",
       "fonti": [
         {
@@ -2627,7 +2627,7 @@
       "categoria": "traccianti",
       "formato": "'*.dominio' per blocklist Unbound di OPNsense",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-traccianti.txt",
-      "voci": 58955,
+      "voci": 58957,
       "descrizione": "Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV)",
       "fonti": [
         {
@@ -2656,7 +2656,7 @@
       "soglia": 0.0002,
       "formato": "regole AdGuard",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-traccianti-strict.txt",
-      "voci": 43214,
+      "voci": 43216,
       "fonti": [
         {
           "id": "easyprivacy",
@@ -2685,7 +2685,7 @@
       "soglia": 0.0002,
       "formato": "un dominio per riga",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-traccianti-strict.txt",
-      "voci": 43215,
+      "voci": 43217,
       "fonti": [
         {
           "id": "easyprivacy",
@@ -2714,7 +2714,7 @@
       "soglia": 0.0002,
       "formato": "'*.dominio' per blocklist Unbound di OPNsense",
       "url": "https://raw.githubusercontent.com/clanto/DNS/main/dist/unbound/block-traccianti-strict.txt",
-      "voci": 43214,
+      "voci": 43216,
       "fonti": [
         {
           "id": "easyprivacy",

@@ -409,6 +409,7 @@ beacon.dog
 beautifullife.eu.org
 beautifulthings.eu.org
 bei01.dnscry.pt
+bestwon203.com
 bh.wael.name
 biba.ydns.eu
 bkk01.dnscry.pt
@@ -1274,6 +1275,7 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
+dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -1650,6 +1652,7 @@ ebpmc.diskstation.me
 ebpmc.tplinkdns.com
 echoe1yidzu4ioo5.myfritz.net
 edgar.tobkar.net
+edgy-dns.com
 edns.233py.com
 ee-tll.doh.sb
 egorovna.su
@@ -2041,6 +2044,7 @@ los02.dnscry.pt
 lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
+lukscasino-479-tr.xyz
 lukscasino-929-tr.xyz
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
@@ -2053,10 +2057,6 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
-mask-canary.icloud.com
-mask-h2.icloud.com
-mask.apple-dns.net
-mask.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2542,6 +2542,7 @@ szyrzyk.pl
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
+tecdrive.site
 tecworx.at
 telex.app
 test.adg.siudzinski.net

@@ -1,29 +1,29 @@
 {
   "feed": {
-    "doh-v4.txt": 1338,
-    "doh-v6.txt": 698,
-    "tor-v4.txt": 5119,
+    "doh-v4.txt": 1336,
+    "doh-v6.txt": 699,
+    "tor-v4.txt": 5136,
     "tor-v6.txt": 2459,
-    "threat-v4.txt": 27069,
+    "threat-v4.txt": 27092,
     "threat-v6.txt": 0,
-    "c2-v4.txt": 535,
+    "c2-v4.txt": 547,
     "c2-v6.txt": 0,
-    "vpn-v4.txt": 9102,
+    "vpn-v4.txt": 9105,
     "vpn-v6.txt": 414,
     "social-v4.txt": 211,
-    "social-v6.txt": 122,
+    "social-v6.txt": 119,
     "file-sharing-v4.txt": 9,
     "file-sharing-v6.txt": 4,
     "cloud-storage-v4.txt": 4,
     "cloud-storage-v6.txt": 1,
-    "inbound-v4.txt": 78681,
+    "inbound-v4.txt": 78537,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "all-v4.txt": 33901,
-    "all-v6.txt": 3157,
-    "all-scuole-v4.txt": 42549,
-    "all-scuole-v6.txt": 3483
+    "all-v4.txt": 33951,
+    "all-v6.txt": 3158,
+    "all-scuole-v4.txt": 42603,
+    "all-scuole-v6.txt": 3484
   },
   "fonti": [
     {
@@ -43,7 +43,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1385,
+      "entries": 1386,
       "detail": ""
     },
     {
@@ -63,7 +63,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "ok",
-      "entries": 9755,
+      "entries": 9768,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -83,7 +83,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 17050,
+      "entries": 17082,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -113,7 +113,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 90528,
+      "entries": 90261,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -123,7 +123,7 @@
       "homepage": "https://iptoasn.com/",
       "enabled": true,
       "status": "ok",
-      "entries": 122,
+      "entries": 119,
       "detail": "Meta: Facebook, Instagram, WhatsApp, Threads"
     },
     {
@@ -163,7 +163,7 @@
       "homepage": "https://github.com/0xDanielLopez/TweetFeed",
       "enabled": true,
       "status": "ok",
-      "entries": 538,
+      "entries": 550,
       "detail": "IoC degli ultimi 30 giorni condivisi da ricercatori di sicurezza"
     },
     {
@@ -183,7 +183,7 @@
       "homepage": "https://github.com/X4BNet/lists_vpn",
       "enabled": true,
       "status": "ok",
-      "entries": 11045,
+      "entries": 11048,
       "detail": ""
     },
     {
@@ -272,15 +272,15 @@
     }
   },
   "allowlist": {
-    "voci": 192,
+    "voci": 253,
     "reti_modificate": 0
   },
   "condivisi": {
-    "intervalli": 11191,
-    "voci_escluse": 4492
+    "intervalli": 11181,
+    "voci_escluse": 4493
   },
   "protetti": {
-    "ip_risolti": 189,
+    "ip_risolti": 250,
     "voci_escluse": []
   }
 }

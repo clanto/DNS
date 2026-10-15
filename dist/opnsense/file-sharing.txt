@@ -109,7 +109,6 @@ fileqube.com
 files-express.com
 files.catbox.moe
 files.mail.ru
-files.to
 files6.com
 filesanywhere.com
 filesavr.com
@@ -315,6 +314,7 @@ seyvet.com
 share-online.biz
 share.am
 share.live.com
+sharefiles.ru
 shareimages.com
 sharelor.com
 sharenxs.com

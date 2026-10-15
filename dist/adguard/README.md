@@ -26,33 +26,33 @@ solo su istanze dedicate ai clienti che le richiedono.
 | `allow-streaming.txt` | Host specifici delle piattaforme streaming | 13 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-streaming.txt) | — |
 | `block-tld.txt` | TLD interi bloccati | 6 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-tld.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-tld.txt) |
 | `block-malevoli.txt` | Domini malevoli e truffe segnalati da noi | 22 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malevoli.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malevoli.txt) |
-| `block-pubblicita.txt` | Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre) | 66125 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita.txt) |
+| `block-pubblicita.txt` | Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre) | 66204 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita.txt) |
 | `block-accesso-remoto.txt` | Strumenti di accesso remoto (abusati in truffe e ransomware): escludere il proprio RMM | 18 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-accesso-remoto.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-accesso-remoto.txt) |
 | `block-ai-generativa.txt` | Chatbot di AI generativa (policy di prevenzione fuga dati) | 17 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-ai-generativa.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-ai-generativa.txt) |
 | `block-file-sharing.txt` | File sharing puro: trasferimento e hosting di file anonimi (policy di prevenzione fuga dati) | 930 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-file-sharing.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-file-sharing.txt) |
 | `block-cloud-storage.txt` | Archiviazione cloud usata per lavoro (Dropbox, Box, OneDrive personale, pCloud...): solo dove la policy lo chiede | 21 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-cloud-storage.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-cloud-storage.txt) |
 | `block-social.txt` | Social network e piattaforme community (scuole) | 1216 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-social.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-social.txt) |
 | `block-gaming.txt` | Giochi online e piattaforme di gaming (scuole) | 23 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-gaming.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-gaming.txt) |
-| `block-doh.txt` | Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale | 3243 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-doh.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-doh.txt) |
+| `block-doh.txt` | Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale | 3244 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-doh.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-doh.txt) |
 | `block-vpn.txt` | VPN, proxy e servizi di bypass (scuole) | 12785 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-vpn.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-vpn.txt) |
 | `block-porno.txt` | Contenuti per adulti (HaGeZi NSFW + siti che superavano i filtri) | 118057 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-porno.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-porno.txt) |
 | `block-tunnel.txt` | Tunnel, esfiltrazione e canali di controllo: ngrok, trycloudflare, webhook, out-of-band, paste (aziende) | 40 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-tunnel.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-tunnel.txt) |
 | `block-compiti.txt` | Risolutori e tutor per i compiti: da attivare durante verifiche ed esami (scuole) | 18 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-compiti.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-compiti.txt) |
-| `block-malware.txt` | Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware) | 260372 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware.txt) |
+| `block-malware.txt` | Malware e minacce confermate (HaGeZi Threat Intelligence mini, TweetFeed, ShadowWhisperer Malware, spmedia Crypto-Scam, uBlock Badware) | 260378 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware.txt) |
 | `block-phishing.txt` | Phishing attivo (Phishing.Database, Validin) | 451175 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-phishing.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-phishing.txt) |
-| `block-traccianti.txt` | Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV) | 58955 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-traccianti.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-traccianti.txt) |
+| `block-traccianti.txt` | Telemetria e tracciamento (EasyPrivacy, ShadowWhisperer Tracking, Perflyst Smart TV) | 58957 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-traccianti.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-traccianti.txt) |
 | `block-ddns.txt` | DNS dinamici (DuckDNS, No-IP, Dynu…): usati da malware e C2, non necessari in azienda e a scuola | 1602 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-ddns.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-ddns.txt) |
 | `block-spyware.txt` | Stalkerware e app spia | 528 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-spyware.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-spyware.txt) |
 | `block-cryptojacking.txt` | Mining di criptovalute nel browser | 296 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-cryptojacking.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-cryptojacking.txt) |
 | `block-redirect.txt` | Redirect e URL shortener (BlocklistProject) | 120270 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-redirect.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-redirect.txt) |
 | `block-pirateria.txt` | Pirateria, warez e streaming illegale | 56454 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pirateria.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pirateria.txt) |
-| `block-malware-strict.txt` | Livello strict di block-malware: solo voci con errore stimato ≤ 0.0200% (fonti affidabili e persistenti, voci manuali), per aziende e scuole | 226383 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware-strict.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware-strict.txt) |
+| `block-malware-strict.txt` | Livello strict di block-malware: solo voci con errore stimato ≤ 0.0200% (fonti affidabili e persistenti, voci manuali), per aziende e scuole | 226389 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malware-strict.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malware-strict.txt) |
 | `block-phishing-strict.txt` | Livello strict di block-phishing: solo voci con errore stimato ≤ 0.0200% (fonti affidabili e persistenti, voci manuali), per aziende e scuole | 451171 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-phishing-strict.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-phishing-strict.txt) |
 | `block-spyware-strict.txt` | Livello strict di block-spyware: solo voci con errore stimato ≤ 0.0200% (fonti affidabili e persistenti, voci manuali), per aziende e scuole | 528 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-spyware-strict.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-spyware-strict.txt) |
 | `block-cryptojacking-strict.txt` | Livello strict di block-cryptojacking: solo voci con errore stimato ≤ 0.0200% (fonti affidabili e persistenti, voci manuali), per aziende e scuole | 296 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-cryptojacking-strict.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-cryptojacking-strict.txt) |
 | `block-redirect-strict.txt` | Livello strict di block-redirect: solo voci con errore stimato ≤ 0.0200% (fonti affidabili e persistenti, voci manuali), per aziende e scuole | 112628 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-redirect-strict.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-redirect-strict.txt) |
-| `block-pubblicita-strict.txt` | Livello strict di block-pubblicita: solo voci con errore stimato ≤ 0.0200% (fonti affidabili e persistenti, voci manuali), per aziende e scuole | 48550 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita-strict.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita-strict.txt) |
-| `block-traccianti-strict.txt` | Livello strict di block-traccianti: solo voci con errore stimato ≤ 0.0200% (fonti affidabili e persistenti, voci manuali), per aziende e scuole | 43214 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-traccianti-strict.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-traccianti-strict.txt) |
+| `block-pubblicita-strict.txt` | Livello strict di block-pubblicita: solo voci con errore stimato ≤ 0.0200% (fonti affidabili e persistenti, voci manuali), per aziende e scuole | 48629 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita-strict.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita-strict.txt) |
+| `block-traccianti-strict.txt` | Livello strict di block-traccianti: solo voci con errore stimato ≤ 0.0200% (fonti affidabili e persistenti, voci manuali), per aziende e scuole | 43216 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-traccianti-strict.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-traccianti-strict.txt) |
 
 ## Liste upstream consigliate (abbonamento diretto su AdGuard)
 
@@ -85,7 +85,7 @@ Voci pubblicate che arrivano **solo** da una fonte: misura quanto una lista dipe
 | block-cryptojacking | nocoin | 312 | 100.0% |
 | block-ddns | hagezi-dyndns | 151 | 9.4% |
 | block-ddns | shadowwhisperer-dynamic | 75 | 4.7% |
-| block-doh | dibdot-doh | 170 | 4.8% |
+| block-doh | dibdot-doh | 171 | 4.9% |
 | block-doh | hagezi-doh | 2058 | 58.6% |
 | block-doh | manuale | 4 | 0.1% |
 | block-doh | shadowwhisperer-dns-domains | 67 | 1.9% |
@@ -96,7 +96,7 @@ Voci pubblicate che arrivano **solo** da una fonte: misura quanto una lista dipe
 | block-malware | hagezi-tif-mini | 209193 | 80.1% |
 | block-malware | shadowwhisperer-malware-domains | 34172 | 13.1% |
 | block-malware | spmedia-crypto-scam | 908 | 0.3% |
-| block-malware | tweetfeed-domains | 1504 | 0.6% |
+| block-malware | tweetfeed-domains | 1510 | 0.6% |
 | block-malware | ublock-badware | 686 | 0.3% |
 | block-phishing | phishing-database-active | 382987 | 81.4% |
 | block-phishing | validin-phish | 83771 | 17.8% |
@@ -106,9 +106,9 @@ Voci pubblicate che arrivano **solo** da una fonte: misura quanto una lista dipe
 | block-porno | hagezi-nsfw | 77575 | 55.9% |
 | block-porno | manuale | 16 | 0.0% |
 | block-porno | sinfonietta-pornography | 47171 | 34.0% |
-| block-pubblicita | easylist | 46721 | 70.6% |
+| block-pubblicita | easylist | 46800 | 70.6% |
 | block-pubblicita | manuale | 3 | 0.0% |
-| block-pubblicita | shadowwhisperer-ads | 17649 | 26.7% |
+| block-pubblicita | shadowwhisperer-ads | 17649 | 26.6% |
 | block-redirect | blocklistproject-redirect | 108672 | 90.3% |
 | block-redirect | hagezi-urlshortener | 5833 | 4.8% |
 | block-redirect | peterdavehello-url-shorteners | 42 | 0.0% |
@@ -120,7 +120,7 @@ Voci pubblicate che arrivano **solo** da una fonte: misura quanto una lista dipe
 | block-social | manuale | 6 | 0.0% |
 | block-spyware | manuale | 7 | 0.7% |
 | block-spyware | stalkerware-indicators | 913 | 97.6% |
-| block-traccianti | easyprivacy | 41958 | 70.0% |
+| block-traccianti | easyprivacy | 41960 | 70.0% |
 | block-traccianti | perflyst-smarttv | 494 | 0.8% |
 | block-traccianti | shadowwhisperer-tracking | 16243 | 27.1% |
 | block-vpn | hagezi-bypass | 11776 | 92.1% |
@@ -135,7 +135,7 @@ Misurata a ogni build: quota di voci della fonte che colpiscono un falso positiv
 | nocoin | block-cryptojacking | 312 | 0 | 100.000% | 0.0381% |  |
 | hagezi-dyndns | block-ddns | 1537 | 477 | 68.966% | 18.8214% | 16-b.it, 1cooldns.com, 32-b.it |
 | shadowwhisperer-dynamic | block-ddns | 1463 | 436 | 70.198% | 17.7223% | 16-b.it, 1cooldns.com, 32-b.it |
-| dibdot-doh | block-doh | 1371 | 4 | 99.708% | 0.1898% | dns.clanto.cloud, eth.link, iij.jp |
+| dibdot-doh | block-doh | 1372 | 4 | 99.708% | 0.1897% | dns.clanto.cloud, eth.link, iij.jp |
 | hagezi-doh | block-doh | 3272 | 5 | 99.847% | 0.1287% | digitale-gesellschaft.ch, dns.clanto.cloud, eth.link |
 | shadowwhisperer-dns-domains | block-doh | 146 | 7 | 95.205% | 0.6544% | adguard.com, adguard.io, digitale-gesellschaft.ch |
 | ut1-filehosting | block-file-sharing | 940 | 12 | 98.723% | 0.6443% | 1und1.de, alamy.com, behance.net |
@@ -143,7 +143,7 @@ Misurata a ogni build: quota di voci della fonte che colpiscono un falso positiv
 | hagezi-tif-mini | block-malware | 223998 | 3 | 99.999% | 0.0016% | ludashisafe.com, rustdesk.io, wps-cn.com |
 | shadowwhisperer-malware-domains | block-malware | 46314 | 45 | 99.903% | 0.0962% | 17173.com, akamaized.ca, amplifyapp.com |
 | spmedia-crypto-scam | block-malware | 1477 | 0 | 100.000% | 0.0202% |  |
-| tweetfeed-domains | block-malware | 1570 | 0 | 100.000% | 0.0195% |  |
+| tweetfeed-domains | block-malware | 1576 | 0 | 100.000% | 0.0194% |  |
 | ublock-badware | block-malware | 2852 | 2 | 99.930% | 0.0649% | 3utilities.com, rustdesk.io |
 | phishing-database-active | block-phishing | 386593 | 55 | 99.986% | 0.0143% | amazon.ie, amazonlogistics.eu, angelfire.com |
 | validin-phish | block-phishing | 87325 | 2 | 99.998% | 0.0028% | jp-bank.japanpost.jp, on-fleek.app |
@@ -151,7 +151,7 @@ Misurata a ogni build: quota di voci della fonte che colpiscono un falso positiv
 | hagezi-anti-piracy | block-pirateria | 55446 | 1 | 99.998% | 0.0027% | fandango.com |
 | hagezi-nsfw | block-porno | 91518 | 26 | 99.972% | 0.0286% | 1337x.org, 3sktv.beauty, allmanga.to |
 | sinfonietta-pornography | block-porno | 61154 | 66 | 99.892% | 0.1070% | 1337x.to, aletorrenty.pl, anidex.info |
-| easylist | block-pubblicita | 48559 | 4 | 99.992% | 0.0091% | agenteimmobiliare.info, gvt2.com, imasdk.googleapis.com |
+| easylist | block-pubblicita | 48638 | 4 | 99.992% | 0.0091% | agenteimmobiliare.info, gvt2.com, imasdk.googleapis.com |
 | shadowwhisperer-ads | block-pubblicita | 19524 | 41 | 99.790% | 0.2022% | aboutads.info, ad.nl, adage.com |
 | blocklistproject-redirect | block-redirect | 108685 | 6 | 99.994% | 0.0059% | kicks-ass.net, name.com, operaprima.info |
 | hagezi-urlshortener | block-redirect | 9814 | 13 | 99.868% | 0.1248% | bit.ly, cdl.booksy.com, dy.fi |
@@ -162,7 +162,7 @@ Misurata a ogni build: quota di voci della fonte che colpiscono un falso positiv
 | blocklistproject-twitter | block-social | 1193 | 0 | 100.000% | 0.0228% |  |
 | hagezi-social | block-social | 904 | 2 | 99.779% | 0.1313% | discordsays.com, mail.ru |
 | stalkerware-indicators | block-spyware | 928 | 0 | 100.000% | 0.0259% |  |
-| easyprivacy | block-traccianti | 43220 | 8 | 99.981% | 0.0192% | data.diagnostics.office.com, fp.measure.office.com, go.tinder.com |
+| easyprivacy | block-traccianti | 43222 | 8 | 99.981% | 0.0192% | data.diagnostics.office.com, fp.measure.office.com, go.tinder.com |
 | perflyst-smarttv | block-traccianti | 498 | 4 | 99.197% | 0.3004% | osb-apps-v2.samsungqbe.com, samsungcloudsolution.com, samsungelectronics.com |
 | shadowwhisperer-tracking | block-traccianti | 17611 | 115 | 99.347% | 0.6206% | adobedtm.com, agora.io, ahrefs.com |
 | hagezi-bypass | block-vpn | 15607 | 26 | 99.833% | 0.1596% | adguard.io, digitale-gesellschaft.ch, dns.clanto.cloud |
@@ -174,12 +174,12 @@ Stesse liste con le sole voci a errore stimato basso. Errore di una voce = prodo
 
 | Lista | Soglia | Voci complete | Voci strict | Quota |
 |---|---|---|---|---|
-| block-malware | 0.0200% | 260372 | 226383 | 86.9% |
+| block-malware | 0.0200% | 260378 | 226389 | 86.9% |
 | block-phishing | 0.0200% | 451175 | 451171 | 100.0% |
 | block-spyware | 0.0200% | 528 | 528 | 100.0% |
 | block-cryptojacking | 0.0200% | 296 | 296 | 100.0% |
 | block-redirect | 0.0200% | 120270 | 112628 | 93.6% |
-| block-pubblicita | 0.0200% | 66125 | 48550 | 73.4% |
-| block-traccianti | 0.0200% | 58955 | 43214 | 73.3% |
+| block-pubblicita | 0.0200% | 66204 | 48629 | 73.5% |
+| block-traccianti | 0.0200% | 58957 | 43216 | 73.3% |
 
 Pubblicato sotto GPL-3.0.

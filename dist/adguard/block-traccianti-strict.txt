@@ -13510,6 +13510,7 @@
 ||link.fanfight.com^
 ||link1.fanfight.com^
 ||fangfeeling.com^
+||fanpapers.com^
 ||play.fanslide.com^
 ||fac.fanucamerica.com^
 ||farethief.com^
@@ -13933,6 +13934,7 @@
 ||flowersonthebay.com^
 ||flowersornament.com^
 ||flowerstreatment.com^
+||flowerybunch.com^
 ||flowerycreature.com^
 ||floweryfact.com^
 ||floweryflavor.com^

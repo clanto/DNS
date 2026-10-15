@@ -16652,6 +16652,7 @@
 *.link.fanfight.com
 *.link1.fanfight.com
 *.fangfeeling.com
+*.fanpapers.com
 *.fanplayr.com
 *.play.fanslide.com
 *.fantasticsmash.com
@@ -17178,6 +17179,7 @@
 *.flowersonthebay.com
 *.flowersornament.com
 *.flowerstreatment.com
+*.flowerybunch.com
 *.flowerycreature.com
 *.floweryfact.com
 *.floweryflavor.com
