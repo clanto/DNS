@@ -8,5 +8,5 @@ su IP di CDN/hosting condivisi (Cloudflare, AWS, Fastly, Vercel…), che blocche
 
 | Lista | Descrizione | Pubblicati | Morti | CDN condivise | Totale AdGuard |
 |---|---|---|---|---|---|
-| [doh.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/doh.txt) | Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale | 2814 | 352 | 345 | 3511 |
-| [vpn.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/vpn.txt) | VPN, proxy e servizi di bypass (scuole) | 5267 | 2424 | 5081 | 12772 |
+| [doh.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/doh.txt) | Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale | 2814 | 353 | 344 | 3511 |
+| [vpn.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/vpn.txt) | VPN, proxy e servizi di bypass (scuole) | 5261 | 2436 | 5075 | 12772 |

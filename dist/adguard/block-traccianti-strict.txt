@@ -12481,6 +12481,7 @@
 ||pqghqs.eastcl.com^
 ||mdws.easternedgecu.com^
 ||huaxiang.eastmoney.com^
+||eastpalms.com^
 ||seniorliving.eastridgeatcutlerbay.com^
 ||marketing.eastviewpress.com^
 ||smetrics.eastwestbank.com^
