@@ -1070,6 +1070,7 @@ browsec-rus.net
 browsec-rus.org
 browsec-uninstall.s3-website.eu-central-1.amazonaws.com
 browsec-vpn-ru.com
+browsec.b-cdn.net
 browsec.best
 browsec.biz
 browsec.bz
@@ -1789,6 +1790,7 @@ freevpn.pw
 freevpnapp.org
 freevpnfast.info
 freevpnkeys.com
+freevpnme.b-cdn.net
 freevpnnet.com
 freevpnplanet-rus.com
 freevpnplanet-rus.net
@@ -1850,7 +1852,6 @@ galaxyiscool.ignorelist.com
 galaxyisthebest.tcloud.my
 galloon.rounceval.cloud-ip.cc
 galtvpn.com
-galxy.autos
 gamers-nor.com
 gamgasyoppakuteri-zenttodabi.gslb.info
 gamingssh.com
@@ -1989,6 +1990,7 @@ gtag.club.cdn.cloudflare.net
 gtasix.sparks.ddns-ip.net
 gtdqambjtl3.online
 gtkpw.com
+guardianvpn.net
 guestappearance.us
 guildstashtracker.xyz
 gulaaron.ru
@@ -2274,6 +2276,7 @@ ib-kuailian.com.cn
 ibqlbd1z.com
 ibribeillegals.vaultnoir.com
 ibvpn.com
+ice.io
 icitek.com
 iditinahuipidorasidagga.net
 idkkilo.accesscam.org
@@ -2346,6 +2349,7 @@ interview.registration.abrdns.com
 intervpn.com
 iohnhbly.com
 iopl.xyz
+iosap2-static.b-cdn.net
 iosp33beec-20c12.kxcdn.com
 ioxy.de
 ip42.ip-15-204-147.us
@@ -2857,6 +2861,7 @@ mjpabahu.com
 mkdkkn5k.com
 mkkewfye.com
 mlst-prom-static.b-cdn.net
+mlst-static.b-cdn.net
 mm.unstop.cloudns.ch
 mnqwscym.com
 mobile-socket.culturegps.com
@@ -2987,6 +2992,9 @@ mqrxgzi4.com
 mrakfhre.com
 mramato2.myclarevision.com
 mrbuwfks.com
+mrr-qa-static.b-cdn.net
+mrr-qa2-static.b-cdn.net
+mrr-qa3-static.b-cdn.net
 msc.mcafee.com
 msgiepkj.com
 msstore-submissions.s3.us-east-1.amazonaws.com
@@ -3307,6 +3315,7 @@ passageplace.com
 passssssssssword.easterndns.com
 patronize.bury.abrdns.com
 pawxy.com
+pay4app.store
 paydar.goooalir.co.uk
 pbavtqle.com
 pbproxy.red
@@ -3806,7 +3815,6 @@ safehousetech.com
 safemyip.pro
 safenetbrowser.com
 safeproxy.app
-saferiverpay.com
 safersurfing.net
 safeshellvpn.com
 safetysurf.net
@@ -3876,7 +3884,7 @@ securewebproxy.net
 securitykiss.com
 securly.mom
 secvpnproxy.co.cc
-seed4me.app
+seed4.me
 seed4me.help
 seelabour.com
 seligmania-online.com
@@ -4464,7 +4472,6 @@ uwqjkirj.com
 uytjhuyghbjkuiyhbjku.fghvhbvghjgj.bonded-game.com
 uzrzhcyx.com
 v-2ray.com
-v.cheerfun.dev
 v.theartieschaffer.com
 v22013121930515853.yourvserver.net
 v2202409222721288347.megasrv.de
@@ -5222,7 +5229,6 @@ zo0g.site
 zoihvj9m.com
 zokamodeling.baranepaeizi.info
 zonevpn.com
-zoog.pro
 zoogas.site
 zoogasdaj.site
 zoogasja.site

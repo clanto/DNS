@@ -409,7 +409,6 @@ beacon.dog
 beautifullife.eu.org
 beautifulthings.eu.org
 bei01.dnscry.pt
-bestwon203.com
 bh.wael.name
 biba.ydns.eu
 bkk01.dnscry.pt
@@ -1109,7 +1108,6 @@ dns.paxavemedia.com
 dns.pccoach.nl
 dns.peb-schmidt.de
 dns.periactes.com
-dns.pernika.net
 dns.pesaventofilippo.com
 dns.petqa.ru
 dns.phillipjberry.net
@@ -1275,7 +1273,6 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
-dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -1481,7 +1478,6 @@ doh.bortzmeyer.fr
 doh.bt.com
 doh.buzz
 doh.captnemo.in
-doh.centraleu.pi-dns.com
 doh.cippapp.com
 doh.cleanbrowsing.org
 doh.cnetwork.cloud
@@ -1496,9 +1492,6 @@ doh.dnscrypt.uk
 doh.dnswarden.com
 doh.domreg.lt
 doh.e7.work
-doh.eastas.pi-dns.com
-doh.eastau.pi-dns.com
-doh.eastus.pi-dns.com
 doh.eddi.net
 doh.edifiels.ru
 doh.ersei.net
@@ -1541,7 +1534,6 @@ doh.ndmc.work.gd
 doh.nic.lv
 doh.niyawe.de
 doh.nl.ahadns.net
-doh.northeu.pi-dns.com
 doh.ntu.ssooss.win
 doh.nukys.ca
 doh.oco-lae.my.id
@@ -1549,7 +1541,6 @@ doh.onedns.net
 doh.opendns.com
 doh.palapa.net.id
 doh.phdns2.lonet.org
-doh.pi-dns.com
 doh.plaawan.uk
 doh.plop.cc
 doh.powerdns.org
@@ -1582,8 +1573,6 @@ doh.us.moe.tips
 doh.valscosmos.com
 doh.viatech.com.tw
 doh.webnmail.de
-doh.westeu.pi-dns.com
-doh.westus.pi-dns.com
 doh.wewitro.net
 doh.xcom.pro
 doh.xfinity.com
@@ -1608,22 +1597,16 @@ dot-de.blahdns.com
 dot-sg.blahdns.com
 dot.360.cn
 dot.886675.xyz
-dot.centraleu.pi-dns.com
 dot.cox.net
-dot.eastas.pi-dns.com
-dot.eastau.pi-dns.com
-dot.eastus.pi-dns.com
 dot.ffmuc.net
 dot.la.ahadns.net
 dot.libredns.gr
 dot.nl.ahadns.net
-dot.northeu.pi-dns.com
 dot.pub
 dot.quickline.ch
 dot.seby.io
 dot.tiar.app
 dot.tooli.ca
-dot.westus.pi-dns.com
 dot.xfinity.com
 dot1.applied-privacy.net
 dot1.appliedprivacy.net
@@ -1652,7 +1635,6 @@ ebpmc.diskstation.me
 ebpmc.tplinkdns.com
 echoe1yidzu4ioo5.myfritz.net
 edgar.tobkar.net
-edgy-dns.com
 edns.233py.com
 ee-tll.doh.sb
 egorovna.su
@@ -2044,7 +2026,6 @@ los02.dnscry.pt
 lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
-lukscasino-479-tr.xyz
 lukscasino-929-tr.xyz
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
@@ -2057,6 +2038,7 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
+mask-canary.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2265,7 +2247,6 @@ performance.gosami.xyz
 phantom3c.net
 phongg.vn
 phx01.dnscry.pt
-pi-dns.com
 pi.homeanywhere.org
 pidoh.mapledns.net
 pihole.aws.ketan.dev
@@ -2542,7 +2523,6 @@ szyrzyk.pl
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
-tecdrive.site
 tecworx.at
 telex.app
 test.adg.siudzinski.net
@@ -2598,6 +2578,7 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
+tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt

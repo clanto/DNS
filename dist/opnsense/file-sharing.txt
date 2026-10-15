@@ -109,6 +109,7 @@ fileqube.com
 files-express.com
 files.catbox.moe
 files.mail.ru
+files.to
 files6.com
 filesanywhere.com
 filesavr.com
