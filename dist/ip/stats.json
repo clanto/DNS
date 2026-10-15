@@ -2,8 +2,8 @@
   "feed": {
     "doh-v4.txt": 1338,
     "doh-v6.txt": 698,
-    "tor-v4.txt": 5120,
-    "tor-v6.txt": 2460,
+    "tor-v4.txt": 5119,
+    "tor-v6.txt": 2459,
     "threat-v4.txt": 27069,
     "threat-v6.txt": 0,
     "c2-v4.txt": 535,
@@ -20,10 +20,10 @@
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "all-v4.txt": 33902,
-    "all-v6.txt": 3158,
-    "all-scuole-v4.txt": 42550,
-    "all-scuole-v6.txt": 3482
+    "all-v4.txt": 33901,
+    "all-v6.txt": 3157,
+    "all-scuole-v4.txt": 42549,
+    "all-scuole-v6.txt": 3483
   },
   "fonti": [
     {
@@ -63,7 +63,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "ok",
-      "entries": 9753,
+      "entries": 9755,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {

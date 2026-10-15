@@ -3,6 +3,37 @@
 > Generato da `scripts/changelog.py` a ogni build: aggiunte e rimozioni rispetto alla versione precedente.
 > Ultime voci in alto. Per gli IP è indicata la fonte (`ip/cache/`) o `manuale`.
 
+## 2026-10-15 11:33 UTC
+
+- `dist/ip/all-scuole-v4.txt`: +7 / -8 (totale 42549)
+  - aggiunte: `178.194.85.120` (tor-relay), `185.26.156.186` (tor-relay), `194.58.66.176` (tor-relay), `46.182.138.134` (tor-relay), `54.38.241.237` (tor-relay), `71.162.161.128` (tor-relay), `92.244.31.28` (tor-relay)
+  - rimosse: `150.136.171.160`, `155.4.42.208`, `24.0.18.37`, `43.228.174.250`, `67.215.253.83`, `82.165.21.136`, `85.209.46.236`, `87.106.173.70`
+- `dist/ip/all-scuole-v6.txt`: +3 / -2 (totale 3483)
+  - aggiunte: `2600:4040:7c28:ed00:e4dc:42fa:d39e:9f40` (tor-relay), `2a00:d0c0:200:0:b9:1a:9c:8c` (tor-relay), `2a02:1210:160b:f800:e654:e8ff:fe95:db28` (tor-relay)
+  - rimosse: `2402:3160:f00::1001`, `2a01:239:221:2c00::1`
+- `dist/ip/all-v4.txt`: +7 / -8 (totale 33901)
+  - aggiunte: `178.194.85.120` (tor-relay), `185.26.156.186` (tor-relay), `194.58.66.176` (tor-relay), `46.182.138.134` (tor-relay), `54.38.241.237` (tor-relay), `71.162.161.128` (tor-relay), `92.244.31.28` (tor-relay)
+  - rimosse: `150.136.171.160`, `155.4.42.208`, `24.0.18.37`, `43.228.174.250`, `67.215.253.83`, `82.165.21.136`, `85.209.46.236`, `87.106.173.70`
+- `dist/ip/all-v6.txt`: +4 / -5 (totale 3157)
+  - aggiunte: `2600:4040:7c28:ed00:e4dc:42fa:d39e:9f40` (tor-relay), `2602:f7d8:0:1337::80/125` (tor-relay, x4b-vpn-v6), `2a00:d0c0:200:0:b9:1a:9c:8c` (tor-relay), `2a02:1210:160b:f800:e654:e8ff:fe95:db28` (tor-relay)
+  - rimosse: `2402:3160:f00::1001`, `2602:f7d8:0:1337::81`, `2602:f7d8:0:1337::82/127`, `2602:f7d8:0:1337::84/126`, `2a01:239:221:2c00::1`
+- `dist/ip/tor-v4.txt`: +7 / -8 (totale 5119)
+  - aggiunte: `178.194.85.120` (tor-relay), `185.26.156.186` (tor-relay), `194.58.66.176` (tor-relay), `46.182.138.134` (tor-relay), `54.38.241.237` (tor-relay), `71.162.161.128` (tor-relay), `92.244.31.28` (tor-relay)
+  - rimosse: `150.136.171.160`, `155.4.42.208`, `24.0.18.37`, `43.228.174.250`, `67.215.253.83`, `82.165.21.136`, `85.209.46.236`, `87.106.173.70`
+- `dist/ip/tor-v6.txt`: +4 / -5 (totale 2459)
+  - aggiunte: `2600:4040:7c28:ed00:e4dc:42fa:d39e:9f40` (tor-relay), `2602:f7d8:0:1337::80/125` (tor-relay, x4b-vpn-v6), `2a00:d0c0:200:0:b9:1a:9c:8c` (tor-relay), `2a02:1210:160b:f800:e654:e8ff:fe95:db28` (tor-relay)
+  - rimosse: `2402:3160:f00::1001`, `2602:f7d8:0:1337::81`, `2602:f7d8:0:1337::82/127`, `2602:f7d8:0:1337::84/126`, `2a01:239:221:2c00::1`
+- `dist/adguard/block-pubblicita-strict.txt`: +2 / -0 (totale 48550)
+  - aggiunte: `||aaglpqhchibmm.site^`, `||xyivtaictjnhh.website^`
+- `dist/adguard/block-pubblicita.txt`: +2 / -0 (totale 66125)
+  - aggiunte: `||aaglpqhchibmm.site^`, `||xyivtaictjnhh.website^`
+- `dist/opnsense/doh.txt`: +2 / -1 (totale 2818)
+  - aggiunte: `dns.pernika.net`, `homec92.dns.army`
+  - rimosse: `lukscasino-479-tr.xyz`
+- `dist/opnsense/vpn.txt`: +1 / -6 (totale 5266)
+  - aggiunte: `pay4app.store`
+  - rimosse: `chicken.nuggets.are.good.privateimport.jp`, `dreamvpn.us`, `ipinator.com`, `jordansmathworkis.life`, `seed4.me`, `v.cheerfun.dev`
+
 ## 2026-10-15 11:07 UTC
 
 - `dist/ip/all-scuole-v4.txt`: +45 / -31 (totale 42550)

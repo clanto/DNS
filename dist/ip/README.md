@@ -8,10 +8,10 @@
 
 | Feed | Descrizione | IPv4 | IPv6 |
 |---|---|---|---|
-| `all` | Aziende: uscita e ingresso — aggregato: doh, tor, threat, c2 | [33902](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt) | [3158](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v6.txt) |
-| `all-scuole` | Scuole: come all, più VPN commerciali e proxy — aggregato: doh, tor, threat, c2, vpn | [42550](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v4.txt) | [3482](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v6.txt) |
+| `all` | Aziende: uscita e ingresso — aggregato: doh, tor, threat, c2 | [33901](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt) | [3157](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v6.txt) |
+| `all-scuole` | Scuole: come all, più VPN commerciali e proxy — aggregato: doh, tor, threat, c2, vpn | [42549](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v4.txt) | [3483](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v6.txt) |
 | `doh` | Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del DNS aziendale | [1338](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v4.txt) | [698](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v6.txt) |
-| `tor` | Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser) | [5120](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt) | [2460](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v6.txt) |
+| `tor` | Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser) | [5119](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt) | [2459](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v6.txt) |
 | `threat` | IP malevoli attivi (scanner, brute force, attacchi) segnalati da più blacklist | [27069](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v4.txt) | [0](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v6.txt) |
 | `c2` | Server di comando e controllo di botnet e malware | [535](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v4.txt) | [0](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v6.txt) |
 | `vpn` | VPN commerciali e proxy anonimizzanti | [9102](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v4.txt) | [414](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v6.txt) |
@@ -28,7 +28,7 @@
 | [dibdot-doh-v4](https://github.com/dibdot/DoH-IP-blocklists) | doh | GPL-3.0 | ok | 1970 |  |
 | [dibdot-doh-v6](https://github.com/dibdot/DoH-IP-blocklists) | doh | GPL-3.0 | ok | 1385 |  |
 | [tor-exit](https://metrics.torproject.org/) | tor | CC0 (Tor Metrics) | ok | 1212 |  |
-| [tor-relay](https://metrics.torproject.org/onionoo.html) | tor | CC0 (Tor Metrics) | ok | 9753 | Tutti i relay attivi (guard, middle, exit) |
+| [tor-relay](https://metrics.torproject.org/onionoo.html) | tor | CC0 (Tor Metrics) | ok | 9755 | Tutti i relay attivi (guard, middle, exit) |
 | [ipsum-level3](https://github.com/stamparm/ipsum) | threat | Unlicense | ok | 18892 | IP presenti in almeno 3 blacklist pubbliche |
 | [shadowwhisperer-threats](https://github.com/ShadowWhisperer/IPs) | threat | Unlicense | ok | 17050 | Honeypot propri: exploit, sistemi compromessi, dropper |
 | [shadowwhisperer-dns](https://github.com/ShadowWhisperer/IPs) | doh | Unlicense | ok | 183 | Resolver DNS pubblici |
