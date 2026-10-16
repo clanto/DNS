@@ -359,6 +359,7 @@
 *.mercedes.gob.ar
 *.href.ar
 *.ikhti.ar
+*.istore.ar
 *.surf.huapi.net.ar
 *.at.cpia.org.ar
 *.xy.ar
@@ -785,6 +786,7 @@
 *.clic.bio
 *.cliqueaqui.bio
 *.cus.bio
+*.dat.bio
 *.elinks.bio
 *.exi.bio
 *.followmy.bio
@@ -809,6 +811,7 @@
 *.linksflow.bio
 *.lnk.bio
 *.ltl.bio
+*.lynkme.bio
 *.mable.bio
 *.mez.bio
 *.mybio.bio
@@ -13448,6 +13451,7 @@
 *.lincat.co
 *.link-safe.co
 *.linkbio.co
+*.linkbiscuit.co
 *.linkc.co
 *.linkhd.co
 *.linkia.co
@@ -14577,6 +14581,7 @@
 *.amourna.com
 *.ampafy.com
 *.ampedlink.com
+*.amphoralaundry.com
 *.shortener.amplittlegiant.com
 *.proxy.amproliability.com
 *.ampswap.com
@@ -17037,6 +17042,7 @@
 *.cyberghostvpn.com
 *.cybergoblin.com
 *.proxy.cybernautix.com
+*.cyberrl.com
 *.cyberunblock.com
 *.cyberwoot.com
 *.cyblockproxy.com
@@ -17222,6 +17228,7 @@
 *.safersurf.derfalk.com
 *.derrape.com
 *.desbloquearpaginas.com
+*.descontosachados.com
 *.surf.deseek.com
 *.proxy.designinbalance.com
 *.designrigs.com
@@ -17640,6 +17647,7 @@
 *.easyunblocking.com
 *.easyunblockpro.com
 *.easyuri.com
+*.easyurlshortener.com
 *.easyweightgain.com
 *.easywithdrawal.com
 *.eatbeef.com
@@ -18024,6 +18032,7 @@
 *.ezilagel.com
 *.ezilinks.com
 *.ezinego.com
+*.ezlinkad.com
 *.ezlinkcloaker.com
 *.tunnel.ezmangaforums.com
 *.ezmyspaceproxy.com
@@ -18977,6 +18986,7 @@
 *.garudeya.com
 *.bypass.garyshood.com
 *.garyvee.com
+*.gasely.com
 *.gasupham.com
 *.hide.gasvn.com
 *.gate2way.com
@@ -19594,6 +19604,7 @@
 *.view.helpline-app.com
 *.helpmehide.com
 *.helpproxy.com
+*.hemihydro.com
 *.hemiwalker.com
 *.hemolytic-uremicsyndrome.com
 *.hen4.com
@@ -20817,6 +20828,7 @@
 *.jiourl.com
 *.jiroku.com
 *.jishuihuaxue.com
+*.jitupro.com
 *.jivefestival.com
 *.jldqx.com
 *.jmarshall.com
@@ -21097,6 +21109,7 @@
 *.kirchner2003.com
 *.kirimanzaru.com
 *.anna.kirimemail.com
+*.kirimlink.com
 *.kisa-link.com
 *.kisalimi.com
 *.kisproxy.com
@@ -21543,6 +21556,7 @@
 *.linkvs.com
 *.linkwizz.com
 *.linky31.com
+*.linkybe.com
 *.linkyvicky.com
 *.linmetrics.com
 *.linod.com
@@ -22330,6 +22344,7 @@
 *.mrproxy.com
 *.mrromantic.com
 *.mrrpoint.com
+*.mrsaeed.com
 *.mrsecretsurfer.com
 *.mrshellman.com
 *.ko.mrslove.com
@@ -23178,6 +23193,7 @@
 *.proxy.obamawasright.com
 *.proxy.obapps.com
 *.obblink.com
+*.oblino.com
 *.obooe.com
 *.obsidian-scripts.com
 *.obtrice.com
@@ -24157,6 +24173,7 @@
 *.prolink168.com
 *.prolivelife.com
 *.promptproxy.com
+*.promtric.com
 *.pronat360.com
 *.prontoproxy.com
 *.proo8.com
@@ -66832,6 +66849,7 @@
 *.littl.io
 *.s.livstick.io
 *.lkdin.io
+*.llinks.io
 *.lnkp.io
 *.lsc.io
 *.lulusin.io
@@ -68822,6 +68840,7 @@
 *.idfk.lol
 *.indahnyaberbagi.lol
 *.kauto.lol
+*.kingplate.lol
 *.linkme.lol
 *.luto.lol
 *.maxlink.lol
@@ -68888,6 +68907,7 @@
 *.bra.lu
 *.bul.lu
 *.cut.lu
+*.goo.lu
 *.kem.lu
 *.kuku.lu
 *.maga.lu
@@ -71926,6 +71946,7 @@
 *.secure.lunchbox.my
 *.ly.my
 *.ma.my
+*.make.my
 *.mki.my
 *.ml.my
 *.mv.my
@@ -76747,6 +76768,7 @@
 *.m4rk.org
 *.proxy.mab-burkina.org
 *.us.mpi.mac2.org
+*.machb.org
 *.machess.org
 *.0-0-0-0proxy.macrofox.org
 *.magaus.org
@@ -79093,6 +79115,7 @@
 *.googlebot.si
 *.gravita.si
 *.poxi.kofe.si
+*.krat.si
 *.server.lost.si
 *.mas.si
 *.mikgr.si
@@ -79138,6 +79161,7 @@
 *.goday.site
 *.inan.site
 *.infs.site
+*.islinks.site
 *.jinieo.site
 *.justreleased.site
 *.kav.site
@@ -79297,6 +79321,7 @@
 *.bui.st
 *.comca.st
 *.comphi.st
+*.cut.st
 *.dago.st
 *.dnt.st
 *.dpo.st
@@ -116692,7 +116717,9 @@
 *.twiam.co.to
 *.proxy.crack.to
 *.crisp.to
+*.cutli.to
 *.cutx.to
+*.cyonix.to
 *.d.to
 *.daftar.to
 *.ddot.to
@@ -118284,6 +118311,7 @@
 *.pebley.uk
 *.psys.uk
 *.qrly.uk
+*.referer.uk
 *.shortlink.uk
 *.tnflink.uk
 *.tnij.uk
@@ -119387,6 +119415,7 @@
 *.jalurwild.win
 *.liga.win
 *.loveer.win
+*.menang.win
 *.newidentity.win
 *.newip.win
 *.odsh.win
@@ -119745,6 +119774,7 @@
 *.databasegroup.xyz
 *.databaseshop.xyz
 *.debtsupport.xyz
+*.demoxpress.xyz
 *.designcompanyonline.xyz
 *.designshoponline.xyz
 *.designworkonline.xyz

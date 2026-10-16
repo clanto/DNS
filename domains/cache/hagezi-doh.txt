@@ -1192,6 +1192,7 @@ dns.kzrz.pl
 dns.l337.site
 dns.l6.ee
 dns.labar.re
+dns.labnekotest.site
 dns.lars-lehmann.net
 dns.lauraeguido.com
 dns.lavir.com
@@ -1324,6 +1325,7 @@ dns.odinpl.com
 dns.ofdoom.net
 dns.oliverweinhold.de
 dns.oliviertv.co.za
+dns.olpploiopkuyhiopsfrt.info
 dns.omada.cafe
 dns.omee4.ru
 dns.opendns.com
@@ -1555,6 +1557,7 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
+dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -1576,6 +1579,7 @@ dns.wincservices.com
 dns.wns.watch
 dns.woodyli.dev
 dns.wryhf.com
+dns.x8net.ru
 dns.xcapenet.ru
 dns.xhost.tw
 dns.xinwujiang.cn
@@ -1608,6 +1612,7 @@ dns.zarchbox.fr
 dns.zemows.industries
 dns.zky666.fun
 dns.zmobiletech.com
+dns.zui.lol
 dns.zzuhacker.cn
 dns0.eu
 dns0.permafrostmiami.com
@@ -1707,16 +1712,19 @@ dnscache0.ns71.net
 dnscdn.bai0012.com
 dnsdoh.art
 dnsenc.com
+dnses.alekberg.net
 dnsforfamily.com
 dnsforge.de
 dnsguard.hte.vn
 dnsguard.pub
 dnslow.me
 dnsmm.mywire.org
+dnsnl.alekberg.net
 dnsotls.lab.nic.cl
 dnspod.com
 dnspub.restena.lu
 dnsresolver02.ddns.net
+dnsse.alekberg.net
 dnssec.dns.enginyring.com
 dnssecure.aluwela.se
 dnsserver.mailchan.eu
@@ -1791,6 +1799,8 @@ doh.buzz
 doh.captnemo.in
 doh.ccb-net.it
 doh.centraleu.pi-dns.com
+doh.cippapp.com
+doh.cnetwork.cloud
 doh.controld.com
 doh.cornes.me
 doh.corpa.me

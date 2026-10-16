@@ -158,6 +158,7 @@ adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
 adguard.jfchenier.ca
+adguard.johanliebert.top
 adguard.k-likhachev.ru
 adguard.kantinyoyok.xyz
 adguard.kiboko.it
@@ -1273,6 +1274,7 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
+dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -1289,6 +1291,7 @@ dns.weixin.qq.com.cn
 dns.wellstsai.com
 dns.wibenson.cloud
 dns.wns.watch
+dns.x8net.ru
 dns.xcapenet.ru
 dns.xhost.tw
 dns.xinwujiang.cn
@@ -1881,7 +1884,6 @@ httpsdns.baidu.com
 huntllcx.cn
 huv01.dnscry.pt
 hydra.plan9-ns1.com
-i-puppy.ru
 i.233py.com
 iah01.dnscry.pt
 ibksturm.synology.me
@@ -2477,7 +2479,6 @@ skynet.2bsafe.info
 slc01.dnscry.pt
 sm2.doh.pub
 sm5q237c0.g666gle.me
-smartcamp.su
 smirnovfamily.ru
 sndkcuf.lekun.me
 socolov.home.ro
@@ -2578,7 +2579,6 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
-tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
@@ -2657,7 +2657,6 @@ vasiliysoldatkin.ru
 vasya-sad.px.i81.ru
 vasya.vpn.i81.ru
 vd.i81.ru
-vds2380673.my-ihor.ru
 vdsn-nl-2.azatmutq.com
 veraris.online
 vernikpro.ru

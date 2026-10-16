@@ -12526,6 +12526,7 @@
 *.covertbrowsing.co
 *.cplink.co
 *.crdrv.co
+*.cuteurl.co
 *.cvs.co
 *.cy8.co
 *.dbricks.co
@@ -19603,6 +19604,7 @@
 *.linkbitty.com
 *.linkbun.com
 *.linkclickcounter.com
+*.linkcrypter.com
 *.linkcutt.com
 *.linkdir4u.com
 *.linkdumptube.com
@@ -32760,6 +32762,7 @@
 *.encodeurl.in
 *.exa.in
 *.f0rk.in
+*.f1m.in
 *.faceb00k.in
 *.facebooklay.in
 *.facebookproxy.in
@@ -32803,6 +32806,7 @@
 *.glypeproxy.in
 *.goproxy.in
 *.gosurf.in
+*.gotos.in
 *.gpq.in
 *.poxi.gran.in
 *.gtfo.in
@@ -32864,6 +32868,7 @@
 *.iproxy.in
 *.ishort.in
 *.isneak.in
+*.itiny.in
 *.itly.in
 *.iunblock.in
 *.jaisoft.in
@@ -32956,6 +32961,7 @@
 *.httproxy.olympe.in
 *.proxy-ss.olympe.in
 *.proxyrama.olympe.in
+*.omegalinks.in
 *.onk.in
 *.onlineearnmoney.in
 *.onlineproxy.in
@@ -46153,6 +46159,7 @@
 *.ilikeschool.info
 *.ilikeyourcar.info
 *.ilikeyourshirt.info
+*.ilinky.info
 *.ilke.info
 *.ilks.info
 *.illbeback.info
@@ -63442,6 +63449,7 @@
 *.idfk.lol
 *.indahnyaberbagi.lol
 *.luto.lol
+*.pandagemoy.lol
 *.proxy.lol
 *.rotf.lol
 *.rxe.lol
@@ -63738,6 +63746,7 @@
 *.koxy.me
 *.krpp.me
 *.kulink.me
+*.kuty.me
 *.l-i-nk.me
 *.lihi1.me
 *.lihi2.me
@@ -69533,6 +69542,7 @@
 *.internet-view.online
 *.kissproxy.online
 *.kliks.online
+*.linkshortner.online
 *.mjp88.online
 *.my-ip-web.online
 *.my-stealth.online
@@ -72308,6 +72318,7 @@
 *.kve.so
 *.lil.so
 *.link.so
+*.mas.so
 *.ntn.so
 *.shorten.so
 *.tny.so
@@ -109645,6 +109656,7 @@
 *.u.g0.to
 *.gf.to
 *.gmj.to
+*.gol.to
 *.gooo.to
 *.got.to
 *.gph.to
@@ -112250,9 +112262,11 @@
 *.invisibleproxy.xyz
 *.island-surf.xyz
 *.japanproxy.xyz
+*.jaygo.xyz
 *.just-play-group.xyz
 *.justlocate.xyz
 *.kept-unknown.xyz
+*.kingurl.xyz
 *.knowledge-worker.xyz
 *.landing-papers.xyz
 *.landingjournal.xyz

@@ -2771,6 +2771,7 @@
 ||dns.vk09.ru^
 ||vladpro.ru^
 ||waydnes.ru^
+||dns.x8net.ru^
 ||xbox-dns.ru^
 ||dns.xcapenet.ru^
 ||doh.xorlet.ru^
@@ -2924,6 +2925,7 @@
 ||dns.thiz.top^
 ||kr.tomgirl.top^
 ||us44nas.top^
+||dns.wahr.top^
 ||bwh.why4free.top^
 ||wiqi.top^
 ||xholgm.top^
