@@ -485,7 +485,6 @@
 4.theartieschaffer.com
 4.thetravelingtourguide.com
 401-0506.b-cdn.net
-401-0507.b-cdn.net
 401-retsam-swodniw.b-cdn.net
 41.hide.newflamingodomain.co.uk
 416d70de.nip.io
@@ -637,7 +636,6 @@
 9nd0oy2n.com
 9sskdjs.shop
 9thballs.camdvr.org
-9w9.org
 9yuan.top
 a-regist.anondns.net
 a.cpfrx.info
@@ -1024,7 +1022,6 @@ bloquer.fr
 bluegray.us
 blueproxy.org
 bmetrics.org
-bmext1static.b-cdn.net
 bmjwk.cn
 bmqan2static.b-cdn.net
 bn0dghrx.com
@@ -1090,7 +1087,6 @@ brsueykh.com
 brunysixl.work
 brunysixl.work.cdn.cloudflare.net
 brwczgvk.com
-bs-static.b-cdn.net
 bs8h3v1f.com
 bsbollbn.com
 btc4animals.com
@@ -1209,7 +1205,6 @@ cheapv2.net
 check.peer2profit.site
 check.ragpets.com
 cheddar-chute.com
-chicken.nuggets.are.good.privateimport.jp
 chickenalert.camdvr.org
 chik-chirikvpn.com
 chinacitybit.click
@@ -2206,7 +2201,6 @@ hmnx.work
 hmx.info
 hockeybet.org
 hoeqphmi.com
-hola-client-cdn4.b-cdn.net
 hola-compat.com
 hola-vpn.com
 hola.org
@@ -2351,6 +2345,7 @@ ineedmoreips.agguiopz.ip-dynamic.org
 ineedmymoney.dynv6.net
 infatica-sdk.io
 infatica.io
+infinitecampus.online
 info.hsdjefferson.org
 infomagazine.space
 infvpn.com
@@ -2372,7 +2367,6 @@ interview.registration.abrdns.com
 intervpn.com
 iohnhbly.com
 iopl.xyz
-iosap2-static.b-cdn.net
 iosp33beec-20c12.kxcdn.com
 ioxy.de
 ip42.ip-15-204-147.us
@@ -2900,8 +2894,6 @@ mjkuhini-777.easterndns.com
 mjpabahu.com
 mkdkkn5k.com
 mkkewfye.com
-mlst-prom-static.b-cdn.net
-mlst-static.b-cdn.net
 mm.unstop.cloudns.ch
 mnqwscym.com
 mobile-socket.culturegps.com
@@ -3034,7 +3026,6 @@ mqrxgzi4.com
 mrakfhre.com
 mramato2.myclarevision.com
 mrbuwfks.com
-mrr-qa-static.b-cdn.net
 mrr-qa2-static.b-cdn.net
 mrr-qa3-static.b-cdn.net
 msc.mcafee.com
@@ -3351,7 +3342,6 @@ passageplace.com
 passssssssssword.easterndns.com
 patronize.bury.abrdns.com
 pawxy.com
-pay4app.store
 paydar.goooalir.co.uk
 pbavtqle.com
 pbproxy.red
@@ -3928,7 +3918,7 @@ securewebproxy.net
 securitykiss.com
 securly.mom
 secvpnproxy.co.cc
-seed4me.app
+seed4.me
 seed4me.help
 seelabour.com
 sefid.goooalir.co.uk
@@ -4533,6 +4523,7 @@ uwqjkirj.com
 uytjhuyghbjkuiyhbjku.fghvhbvghjgj.bonded-game.com
 uzrzhcyx.com
 v-2ray.com
+v.cheerfun.dev
 v.theartieschaffer.com
 v22013121930515853.yourvserver.net
 v2202409222721288347.megasrv.de
@@ -4835,6 +4826,7 @@ vpnnow.info
 vpnnow.mom
 vpnobratno.info
 vpnofanti.co.cc
+vpnoffice.co.cc
 vpnogon.com
 vpnon.io
 vpnone.help
@@ -5164,6 +5156,7 @@ yawdg.net
 yawn.affable.cloud-ip.cc
 yawtt.net
 yawzz.net
+yazaebalsyadelatproxy.uk
 ybmtkbiq.com
 ybqlymsu.com
 ycuaoflx.com

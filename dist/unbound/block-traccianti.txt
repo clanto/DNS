@@ -501,6 +501,7 @@
 *.stats.revitfamily.app
 *.invitation.reyesmagos.app
 *.routy.app
+*.g.rtbrain.app
 *.impression-tracker-service-5eimuebuhq-lz.a.run.app
 *.tracking-api-4lasu2nlcq-ew.a.run.app
 *.get.schoolbuddy.app
@@ -557,6 +558,7 @@
 *.link.wefish.app
 *.link.wetrade.app
 *.branch.whatsnxt.app
+*.winfluencer.app
 *.link.wix.app
 *.test-links.yelsa.app
 *.tracker.au.zitcha.app
@@ -8217,6 +8219,7 @@
 *.agonyshark.com
 *.agorapulse.com
 *.links.agoratix.com
+*.agpqmm8trk.com
 *.smetrics.agra-net.com
 *.marketing.agracel.com
 *.agreeablearch.com
@@ -10496,6 +10499,7 @@
 *.smetrics.bhgpersonal.com
 *.bhgtrack.com
 *.bhgtrack1.com
+*.bhmadn4dt2wa.com
 *.bhmediatrack.com
 *.bhp4kl7x.com
 *.link.bhvr.com
@@ -11359,6 +11363,7 @@
 *.btrackf2.com
 *.btstatic.com
 *.btttag.com
+*.btv8z9ds.com
 *.bubblebedroom.com
 *.links.bubbloapp.com
 *.bubblyaction.com
@@ -11371,6 +11376,7 @@
 *.link.buddybet.com
 *.linkus.buddybet.com
 *.buddycanvas.com
+*.buddystat.com
 *.marketing.budpack.com
 *.app.budweisergardens.com
 *.t.budweisergardens.com
@@ -19138,6 +19144,7 @@
 *.hbr7rt6trk.com
 *.botdetection.hbrsd.com
 *.hc6tytrk.com
+*.hc75tkcj.com
 *.connect.cap.hcahealthcare.com
 *.connect.cont.hcahealthcare.com
 *.connect.fwd.hcahealthcare.com
@@ -20493,6 +20500,7 @@
 *.learn.infinitylearn.com
 *.infisecure.com
 *.inflektioncdn.com
+*.inflektiondirect.com
 *.inflektionpartnerships.com
 *.inflektionshop.com
 *.inflexionanalytics.com
@@ -21283,6 +21291,7 @@
 *.app.response.j2global.com
 *.j2nm7c6trk.com
 *.j5h3s0nf.com
+*.j5rqp8trk.com
 *.j74g3jhs.com
 *.j7nmzxcv2p.com
 *.j93557g.com
@@ -21459,6 +21468,7 @@
 *.info.jfahern.com
 *.jfn3sk2sc.com
 *.jgleather.com
+*.jh5th1trk.com
 *.stats.jhsheridan.com
 *.ad.jibunde-esute.com
 *.cv.jidoumail.com
@@ -31329,6 +31339,7 @@
 *.smetrics.orangetheory.com
 *.orangetuesdayemail.com
 *.s.orangeville.com
+*.orb36aam.com
 *.orbee.com
 *.orbitanalytics.com
 *.br.ac.orbitz.com
@@ -35280,6 +35291,7 @@
 *.senzing.com
 *.marketing.seobusinessreporter.com
 *.tkgaws.seokplant.com
+*.seondnsresolve.com
 *.cdn.seonintelligence.com
 *.seoptiks.com
 *.seoscout.com
@@ -37670,6 +37682,7 @@
 *.taskdelight.com
 *.ct.taskhuman.com
 *.ct-dev.taskhuman.com
+*.taskstream.com
 *.marketing.taskus.com
 *.tasselapp.com
 *.tastefulsongs.com
@@ -38028,6 +38041,7 @@
 *.afilyo.tfehotels.com
 *.tfm-analytics.com
 *.tfqqo8trk.com
+*.tg4fbb7trk.com
 *.tgbbnhy8trk.com
 *.tggren8trk.com
 *.www.tghbn12.com
@@ -39169,6 +39183,7 @@
 *.trker.com
 *.trkingad.com
 *.trkr5r5r5.com
+*.trkscs10.com
 *.trkscs7.com
 *.trkscs8.com
 *.trkscs9.com
@@ -42236,6 +42251,7 @@
 *.zkds923.com
 *.zl2j1pbe.com
 *.a.zleep.com
+*.zm58pmd.com
 *.creator.zmags.com
 *.reporting.creator-prod.zmags.com
 *.dsp-track-global.zmaticoo.com
@@ -56916,7 +56932,7 @@
 *.webstats.site
 *.werh.site
 *.wetcj.site
-*.r.winf.site
+*.winf.site
 *.itsstats.wp1.site
 *.xanalytics.site
 *.zesti.site

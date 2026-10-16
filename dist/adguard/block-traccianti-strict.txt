@@ -272,6 +272,7 @@
 ||links.respilates.app^
 ||stats.revitfamily.app^
 ||invitation.reyesmagos.app^
+||g.rtbrain.app^
 ||impression-tracker-service-5eimuebuhq-lz.a.run.app^
 ||tracking-api-4lasu2nlcq-ew.a.run.app^
 ||get.schoolbuddy.app^
