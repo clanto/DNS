@@ -3287,6 +3287,7 @@ unfiltered.adguard-dns.com
 unfiltered.adguarddns.com
 unfiltered.joindns4.eu
 unicast.censurfridns.dk
+unicast.censurfridns.nu
 unicast.uncensoreddns.dk
 unicast.uncensoreddns.org
 unicast2.servers.censurfridns.dk

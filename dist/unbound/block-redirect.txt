@@ -10698,6 +10698,7 @@
 *.masuk.cfd
 *.minggu.cfd
 *.rmfsr.cfd
+*.sgeiruehou.cfd
 *.tapthelink.cfd
 *.tefdm.cfd
 *.nlab.cg
@@ -10870,6 +10871,7 @@
 *.soshort.click
 *.t77reg.click
 *.tapthelink.click
+*.tautan.click
 *.urlshort.click
 *.vipcair.click
 *.vipjus.click
@@ -13118,6 +13120,7 @@
 *.use-proxy.cn
 *.usunblocker.cn
 *.utunnel.cn
+*.v7c.cn
 *.vectro-proxy.cn
 *.vietptc.cn
 *.violentpublic.cn
@@ -26832,6 +26835,7 @@
 *.shortenerreviews.com
 *.shortenlab.com
 *.shortenlinkurl.com
+*.shortenpay.com
 *.shortenwe.com
 *.shortenworld.com
 *.shortenx.com
@@ -27239,6 +27243,7 @@
 *.snipitx.com
 *.sniplytics.com
 *.snipmojo.com
+*.snipqr.com
 *.snipr.com
 *.snipurl.com
 *.snipzr.com
@@ -29522,6 +29527,7 @@
 *.urlifypoint.com
 *.urlifys.com
 *.urlinko.com
+*.urlintel.com
 *.urlkai.com
 *.urlki.com
 *.urlkiss.com
@@ -29942,6 +29948,7 @@
 *.vryqb.com
 *.vsalty.com
 *.vshorturl.com
+*.vslinks.com
 *.proxy.vsoftserver.com
 *.vtaurl.com
 *.vtftn.com
@@ -31310,6 +31317,7 @@
 *.qrco.de
 *.sick.queerline.de
 *.quick2.de
+*.r303.de
 *.wowbagger.resolution.de
 *.rewebber.de
 *.s.rlp.de
@@ -36049,6 +36057,7 @@
 *.nice.hu
 *.nnm.hu
 *.raic.hu
+*.smarturl.hu
 *.transsexual-photos.szanalmas.hu
 *.zoophilia-sexpics.szanalmas.hu
 *.go.sze.hu
@@ -36805,6 +36814,7 @@
 *.smarteschool.in
 *.smartsurf.in
 *.smashing.in
+*.smilytech.in
 *.app.smler.in
 *.sneak.in
 *.sneaking.in
@@ -66995,6 +67005,7 @@
 *.telega.io
 *.tglink.io
 *.tiddly.io
+*.tinycut.io
 *.tinyfy.io
 *.tinyl.io
 *.tinyurll.io
@@ -67438,6 +67449,7 @@
 *.sbz.kr
 *.shorty.kr
 *.shul.kr
+*.sites.kr
 *.t2m.kr
 *.tap.kr
 *.tlx.kr
@@ -67744,6 +67756,7 @@
 *.oui.li
 *.owl.li
 *.pkv.li
+*.pork.li
 *.ppt.li
 *.privacy.li
 *.capital.project.li
@@ -68449,6 +68462,7 @@
 *.urlify.link
 *.urllink.link
 *.urlplus.link
+*.urlshorten.link
 *.urlsmall.link
 *.usetiny.link
 *.uxo.link
@@ -68708,6 +68722,7 @@
 *.ramcourier.live
 *.rankgenius.live
 *.rbhouse.live
+*.rcsurvey.live
 *.recruiment.live
 *.redem.live
 *.rehtek.live
@@ -69500,6 +69515,7 @@
 *.recliningchairs.me
 *.redir.me
 *.redr.me
+*.rekale.me
 *.rmuti.me
 *.rnm.me
 *.rpxl.me
@@ -69551,6 +69567,7 @@
 *.slk.me
 *.snaplinks.me
 *.sneakyfox.me
+*.sniplify.me
 *.sniply.me
 *.z.sodomise.me
 *.somee.me
@@ -72112,6 +72129,7 @@
 *.spyvn.name
 *.thetaoofbadass.name
 *.truthaboutabs.name
+*.ttt.name
 *.twoface.name
 *.unblock.name
 *.unblockbebo.name
@@ -75532,6 +75550,7 @@
 *.cutlink.now
 *.goto.now
 *.klik.now
+*.too.now
 *.akhatry.com.np
 *.ekg.com.np
 *.block.co.nr
@@ -77316,11 +77335,13 @@
 *.short-url.org
 *.short1.org
 *.shortenn.org
+*.shortenurl.org
 *.shortnerurl.org
 *.shortylink.org
 *.shosting.org
 *.shoturl.org
 *.shrink-your-link.org
+*.shrinkme.org
 *.shrinkz.org
 *.shuhv.org
 *.q.signified.org
@@ -79186,6 +79207,7 @@
 *.rtfo.site
 *.sbwiki.site
 *.sdr168.site
+*.secreet.site
 *.shlinks.site
 *.shoptapkich.site
 *.shortenerurl.site
@@ -79348,6 +79370,7 @@
 *.nyp.st
 *.over.st
 *.p.st
+*.pin.st
 *.po.st
 *.passby.putty.st
 *.rol.st
@@ -116833,6 +116856,7 @@
 *.rzr.to
 *.sail.to
 *.sazi.to
+*.seer.to
 *.short.to
 *.shortearn.to
 *.shout.to
@@ -120090,6 +120114,7 @@
 *.pws1ooo.xyz
 *.pxfm.xyz
 *.qualitydirectiononline.xyz
+*.quanturl.xyz
 *.quick-associate.xyz
 *.quickassociateonline.xyz
 *.r2slotamp.xyz
@@ -120114,6 +120139,7 @@
 *.secured-online.xyz
 *.secureproxy.xyz
 *.selectingfast.xyz
+*.selfurl.xyz
 *.separationshop.xyz
 *.servicecompany.xyz
 *.servicecorporation.xyz

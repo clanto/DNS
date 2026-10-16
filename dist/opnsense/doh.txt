@@ -158,7 +158,6 @@ adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
 adguard.jfchenier.ca
-adguard.johanliebert.top
 adguard.k-likhachev.ru
 adguard.kantinyoyok.xyz
 adguard.kiboko.it
@@ -245,6 +244,7 @@ adguard1.jsanagustin.net
 adguard1.leadmon.net
 adguard1.njy.jsanagustin.net
 adguard1.unima.ac.id
+adguard2.546413.xyz
 adguard2.ayrespace.cc
 adguard2.bonis.de
 adguard2.boykevanvugt.nl
@@ -1638,6 +1638,7 @@ ebpmc.diskstation.me
 ebpmc.tplinkdns.com
 echoe1yidzu4ioo5.myfritz.net
 edgar.tobkar.net
+edgy-dns.com
 edns.233py.com
 ee-tll.doh.sb
 egorovna.su
@@ -1746,6 +1747,7 @@ google-public-dns-b.google.com
 goose.buckyfan.net
 gr.skrsteam.info
 graf.mywire.org
+graveofhope.ru
 greatideasforlife.lol
 green2.jnraptor.net
 green3.jnraptor.net
@@ -2040,7 +2042,6 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
-mask-canary.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2597,6 +2598,7 @@ uncensoreddns.org
 unfiltered.adguard-dns.com
 unfiltered.joindns4.eu
 unicast.censurfridns.dk
+unicast.censurfridns.nu
 unicast.uncensoreddns.dk
 unicast.uncensoreddns.org
 unicast2.servers.censurfridns.dk

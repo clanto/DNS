@@ -62,6 +62,7 @@
 *.marketing.callahan.agency
 *.daydot.agency
 *.mm-api.agency
+*.tonanalytics.mugiwarattagentai.agency
 *.roianalytics.agency
 *.webtek.agency
 *.4crisk.ai
@@ -16498,6 +16499,7 @@
 *.images.insight.extrahop.com
 *.images.news.extrahop.com
 *.relations.extrahop.com
+*.extraliner.com
 *.extralocker.com
 *.stats.extramilefloorcare.com
 *.extramonies.com
@@ -29626,6 +29628,7 @@
 *.stats.myherocard.com
 *.axp.myhighplains.com
 *.0.myikas.com
+*.tp.myikas.com
 *.myip.com
 *.myip4.com
 *.myipaddress.com

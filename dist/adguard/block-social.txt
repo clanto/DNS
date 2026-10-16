@@ -484,7 +484,6 @@
 ||annex.coffee-break.cc^
 ||cafe.coffee-break.cc^
 ||mastodon.coffee-break.cc^
-||lemmy.devr.cc^
 ||digitaldarkage.cc^
 ||facebook.cc^
 ||facebookhome.cc^
@@ -2138,6 +2137,7 @@
 ||thejuddkramer.com^
 ||lemmy.theknopps.com^
 ||social.theokadas.com^
+||shitter.thepixora.com^
 ||lemmy.thewooskeys.com^
 ||kbin.thicknahalf.com^
 ||mstdn.thndl.com^
@@ -2145,6 +2145,7 @@
 ||threads.com^
 ||social.threefoldeight.com^
 ||mst.thumped.com^
+||nitter.tiekoetter.com^
 ||tiktok.com^
 ||tiktokcdn.com^
 ||tiktokcdn-eu.com^
@@ -3750,6 +3751,8 @@
 ||mstdn.sparkdream.io^
 ||mastodon.spotek.io^
 ||mastodon.studiocms.io^
+||bsky-relay.c.theo.io^
+||firehose3d.theo.io^
 ||toot.io^
 ||videos.tuist.io^
 ||misskey.turretlabs.io^
@@ -4507,6 +4510,7 @@
 ||hubzilla.monster^
 ||lemmy.monster^
 ||lolicon.monster^
+||nitter.meowing.monster^
 ||mogeko.monster^
 ||orphaned.monster^
 ||program-theia.monster^
@@ -5516,6 +5520,7 @@
 ||mastodon.fivest.one^
 ||tube.fsx.one^
 ||hns.one^
+||nitter.kareem.one^
 ||mi.kyanos.one^
 ||larkspur.one^
 ||social.librem.one^
@@ -6242,6 +6247,7 @@
 ||mastodon.gamedev.place^
 ||infosec.place^
 ||nautilus.place^
+||ottawa.place^
 ||pigeon.place^
 ||purble.place^
 ||snep.place^
@@ -8035,6 +8041,7 @@
 ||facebook.tv^
 ||facebookmail.tv^
 ||fediverse.tv^
+||firesky.tv^
 ||friprogramvarusyndikatet.tv^
 ||garr.tv^
 ||masto.hitorino.tv^
@@ -8083,6 +8090,7 @@
 ||social.rivne.dcomm.net.ua^
 ||mn.statyvka.org.ua^
 ||tube.statyvka.org.ua^
+||nitter.pp.ua^
 ||toots.pp.ua^
 ||peertube.22f.uk^
 ||bfed.uk^
@@ -8145,6 +8153,7 @@
 ||mk.tenpest-moon.uk^
 ||things.uk^
 ||whitespashe.uk^
+||xcopy.uk^
 ||bocchi.yorozu.uk^
 ||social.reutlingen.university^
 ||masto.uno^

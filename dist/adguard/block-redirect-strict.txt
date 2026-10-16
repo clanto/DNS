@@ -77,6 +77,7 @@
 ||digital.mm.am^
 ||digital.nl.am^
 ||oxf.am^
+||pd.am^
 ||proxies.am^
 ||viaja.am^
 ||vl.am^
@@ -23889,6 +23890,7 @@
 ||rosinstrument.com^
 ||schools.rotdns.com^
 ||proxy.rougea.com^
+||rounash.com^
 ||domain.round-and-round.com^
 ||roundthefilter.com^
 ||roxified.com^
@@ -24366,10 +24368,12 @@
 ||shortenerreviews.com^
 ||shortenwe.com^
 ||shortenworld.com^
+||shorterall.com^
 ||shortfarmer.com^
 ||shortifyme.com^
 ||shortlk.com^
 ||shortll.com^
+||shortlurl.com^
 ||shortlync.com^
 ||shortmenu.com^
 ||shortonly.com^
@@ -25881,6 +25885,7 @@
 ||proxy.topcinqo.com^
 ||topcoloncleansing.com^
 ||topdepo.com^
+||topfiften.com^
 ||topforumsites.com^
 ||topfree-server.com^
 ||topfreeproxies.com^
@@ -32551,6 +32556,7 @@
 ||ritea.id^
 ||s.id^
 ||shortin.id^
+||shrink.id^
 ||siklik.id^
 ||simgr.id^
 ||tautin.id^
@@ -62771,6 +62777,7 @@
 ||rptl.io^
 ||rvtv.io^
 ||rwl.io^
+||s3r.io^
 ||sck.io^
 ||scnv.io^
 ||seby.io^
@@ -63354,6 +63361,7 @@
 ||smart.link^
 ||smurl.link^
 ||sndn.link^
+||snip.link^
 ||snpy.link^
 ||sonoran.link^
 ||speedproxy.link^
@@ -69032,6 +69040,7 @@
 ||web2proxy.net^
 ||degree.webadminpro.net^
 ||webbasedproxy.net^
+||webcut.net^
 ||webevader.net^
 ||webhoneynet.net^
 ||proxy.webhop.net^
@@ -72268,6 +72277,7 @@
 ||mst.site^
 ||newyer.site^
 ||outs.site^
+||play-app.site^
 ||promo-visits.site^
 ||proxana.site^
 ||proxybg.site^
@@ -111493,6 +111503,7 @@
 ||s-i-n.us^
 ||s21.us^
 ||s23.us^
+||s7y.us^
 ||sabackdoor.us^
 ||2008.saddlemountainranch.us^
 ||safeproxy.us^
@@ -111891,6 +111902,7 @@
 ||proxybrowsing.win^
 ||proxybypass.win^
 ||proxya.proxysite.win^
+||putar.win^
 ||pzou.win^
 ||shorturl.win^
 ||ss777.win^
@@ -112478,6 +112490,7 @@
 ||rhubarbproxy.xyz^
 ||rock-music.xyz^
 ||ruby-group.xyz^
+||rusuhkali.xyz^
 ||saddr.xyz^
 ||samuraigroup.xyz^
 ||secrettunnel.xyz^
