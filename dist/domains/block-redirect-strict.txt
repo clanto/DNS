@@ -110231,6 +110231,7 @@ x-browser.co.cc
 x-d.me
 x-fast.co.cc
 x-forex-2.tk
+x-i.me
 x-it.us
 x-kicker.co.cc
 x-pass.info
@@ -112270,6 +112271,7 @@ zinkeni.com
 zinnwalditeway.info
 zinproxy.tk
 zintuigen.com
+zip.link
 zip.pe
 zip.strangled.net
 zip5.info

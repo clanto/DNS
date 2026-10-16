@@ -9471,6 +9471,8 @@ wts3.smhi.se
 wu.cz
 wu.vc
 wun.io
+wuniw.com
+wurl.io
 wurlie.net
 wurlz.com
 ww7.fr
@@ -9488,6 +9490,7 @@ wx.pn
 wy.si
 wz.my
 x-d.me
+x-i.me
 x-shrtn.com
 x.co
 x.gd
@@ -9799,6 +9802,7 @@ zik.link
 zim.ad
 zimy.pw
 zinlly.pro
+zip.link
 zip.net
 zip.pe
 zip1.io
@@ -9838,6 +9842,7 @@ zo.cm
 zobzob.com
 zoho.to
 zom.io
+zonearcad.xyz
 zoneurl.net
 zoodl.com
 zop.gr
@@ -9868,6 +9873,7 @@ zubbit.io
 zuitte.com
 zuitte.io
 zuki.ie
+zulu.bio
 zum.bi
 zuplo.link
 zurb.us

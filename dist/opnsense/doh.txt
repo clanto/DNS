@@ -22,6 +22,7 @@
 23.106.141.137.16clouds.com
 3.11i.eu
 3.local-dns.noridev.moe
+3dcosas.xyz
 3dns.eu
 3jjxxl.tech
 51576162.ru
@@ -213,7 +214,6 @@ adguard.theil.dev
 adguard.timoz.fr
 adguard.titov.es
 adguard.tmdproject.nl
-adguard.treexhd.me
 adguard.trevorpease.me
 adguard.tver-tech.ru
 adguard.ulbricht.cloud
@@ -244,7 +244,6 @@ adguard1.jsanagustin.net
 adguard1.leadmon.net
 adguard1.njy.jsanagustin.net
 adguard1.unima.ac.id
-adguard2.546413.xyz
 adguard2.ayrespace.cc
 adguard2.bonis.de
 adguard2.boykevanvugt.nl
@@ -1109,6 +1108,7 @@ dns.paxavemedia.com
 dns.pccoach.nl
 dns.peb-schmidt.de
 dns.periactes.com
+dns.pernika.net
 dns.pesaventofilippo.com
 dns.petqa.ru
 dns.phillipjberry.net
@@ -1747,7 +1747,6 @@ google-public-dns-b.google.com
 goose.buckyfan.net
 gr.skrsteam.info
 graf.mywire.org
-graveofhope.ru
 greatideasforlife.lol
 green2.jnraptor.net
 green3.jnraptor.net
@@ -2030,6 +2029,7 @@ los02.dnscry.pt
 lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
+lukscasino-479-tr.xyz
 lukscasino-929-tr.xyz
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
@@ -2042,6 +2042,10 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
+mask-canary.icloud.com
+mask-h2.icloud.com
+mask.apple-dns.net
+mask.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2525,6 +2529,7 @@ szyrzyk.pl
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
+tecdrive.site
 tecworx.at
 telex.app
 test.adg.siudzinski.net
@@ -2580,6 +2585,7 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
+tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt

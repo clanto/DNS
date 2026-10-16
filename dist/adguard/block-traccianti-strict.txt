@@ -13836,6 +13836,7 @@
 ||join.qa.fitgrid.com^
 ||a8cv.fitness-terrace.com^
 ||fitnessmapper.com^
+||fitnesssponsor.com^
 ||tmapp.fitnessyard.com^
 ||tmvasapp.fitnessyard.com^
 ||fitwithalpine.com^
@@ -14292,6 +14293,7 @@
 ||preferencecenter.fticonsulting.com^
 ||tracking.fticonsulting.com^
 ||tracking.ftitechnology.com^
+||ftpmagic.com^
 ||fudgegenie.com^
 ||get.fudigo.com^
 ||fuelinspector.com^

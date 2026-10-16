@@ -1030,10 +1030,13 @@
 ||www-kuaifan.cn^
 ||xaws40.cn^
 ||xaykmfn.cn^
+||xpombld.cn^
 ||y05qwm.cn^
+||yjfmrev.cn^
 ||yncewwf.cn^
 ||yyvjf.cn^
 ||zhangdong25.cn^
+||zjavr.cn^
 ||greenfahhh.zjhmz.cn^
 ||oh.zjhmz.cn^
 ||skibidiboi333.zjhmz.cn^
@@ -6599,6 +6602,7 @@
 ||www-letsvpn.com^
 ||www-letsvpn-app.com^
 ||wxxs290.com^
+||wycloudjs.com^
 ||x-cdn-static.com^
 ||x-lets-vpn.com^
 ||x25lt1be.com^
@@ -6617,6 +6621,7 @@
 ||xiaohuojianjiasu.com^
 ||xiaojicf.com^
 ||xiaolanniaovpn.com^
+||xiaoxuanfenggw.com^
 ||xiazte.com^
 ||xiguajiasuapp.com^
 ||xiguavpn.com^
@@ -6637,6 +6642,7 @@
 ||xn--4gq62f52gdss.com^
 ||xn--6nq44r2uh9rhj7f.com^
 ||xn--6nq44r3udk6oivn1fs.com^
+||xn--7gqy44a88hgj0a.com^
 ||xn--9kq050gk1z.com^
 ||xn--9kqr48j.com^
 ||xn--9kqrm7t.com^
@@ -6687,6 +6693,7 @@
 ||xn--vpn-9i9dv09hyii.com^
 ||xn--vpn-9i9dw30c.com^
 ||xn--vpn-b56fd868tl40a.com^
+||xn--vpn-f78fx28r.com^
 ||xn--vpn-gw2eict26u.com^
 ||xn--vpn-if0fv09mmcvnuk.com^
 ||xn--vpn-if0fv4qhynhxee63c.com^
@@ -6699,6 +6706,7 @@
 ||xn--vpn-zd8el09h.com^
 ||xn--vpn-zd8ez1i8w1csfu.com^
 ||xn--vpn-zf0f845cm13b.com^
+||xn--vxup8bh97d2gg.com^
 ||xn--yfrp36ea9901a.com^
 ||xn--yfrp5enpj81a6w4d.com^
 ||xn--yfrw1g0upg04amnn.com^
@@ -6801,6 +6809,7 @@
 ||ytvbbomh.com^
 ||yue-letsvpn.com^
 ||yunfanjiasu.com^
+||yuntuxiaozhen.com^
 ||yuyuproxy.com^
 ||www-p.yvseann.com^
 ||ywctedke.com^

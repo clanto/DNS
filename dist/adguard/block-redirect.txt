@@ -837,6 +837,7 @@
 ||youris.bio^
 ||yurl.bio^
 ||zqq.bio^
+||zulu.bio^
 ||0000opengate.biz^
 ||0000opengate2.biz^
 ||00hidemyprivacy.biz^
@@ -30452,6 +30453,7 @@
 ||wtfurl.com^
 ||wtunnel.com^
 ||domain.wuffster.com^
+||wuniw.com^
 ||wurkproxy.com^
 ||wurlz.com^
 ||go.wutdie.com^
@@ -67053,6 +67055,7 @@
 ||whbk.io^
 ||wraply.io^
 ||wun.io^
+||wurl.io^
 ||xdomain.io^
 ||xshort.io^
 ||xut.io^
@@ -120296,6 +120299,7 @@
 ||z-url.xyz^
 ||zeroshort.xyz^
 ||zjwz.xyz^
+||zonearcad.xyz^
 ||zqal.xyz^
 ||lkdg.yoga^
 ||flu.yt^

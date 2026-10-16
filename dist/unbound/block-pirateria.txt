@@ -1813,6 +1813,7 @@
 *.trackerturk.biz
 *.turktorrent.biz
 *.tv247.biz
+*.xcinemas.tvstream.biz
 *.uakino-bay.biz
 *.ugwarez.biz
 *.uhdmovies.biz
@@ -1824,6 +1825,7 @@
 *.vkstreamingfilm.biz
 *.voxfilmeonline.biz
 *.xalaflixtv.biz
+*.xmovies8.biz
 *.xmoviesforyou.biz
 *.yggtorrent.biz
 *.yomoviess.biz
@@ -5047,6 +5049,7 @@
 *.webstresser.co
 *.worldofpcgames.co
 *.x123movies.co
+*.x265movies.co
 *.tracker.x6c.co
 *.yesmovies-tv.co
 *.yesmovies9.co
@@ -6708,6 +6711,7 @@
 *.dizipalorjinal12.com
 *.dizipalorjinal13.com
 *.dizipalorjinal14.com
+*.dizipalorjinal15.com
 *.dizipalorjinal2.com
 *.dizipalorjinal3.com
 *.dizipalorjinal4.com
@@ -11950,6 +11954,7 @@
 *.streamcloud.date
 *.rlsbb.unblockit.date
 *.vegamovies-nl.date
+*.yesmovies.date
 *.tracker.cutie.dating
 *.futemax.dating
 *.vegamovies.dating
@@ -12306,6 +12311,7 @@
 *.vegamoviess.diy
 *.yesmovies.diy
 *.yomovies.diy
+*.zone-telechargement.diy
 *.mp3juice.dj
 *.downloadportal.dk
 *.irrenhaus.dyndns.dk
@@ -13328,6 +13334,7 @@
 *.streameast.gg
 *.torrent9.gg
 *.tracker.tritan.gg
+*.yesmovies.gg
 *.5movierulz.gift
 *.hdmovies4u.gift
 *.mkvcinemas.gift
@@ -16144,6 +16151,7 @@
 *.yomovies.io
 *.yts.io
 *.z-lib.io
+*.zetorrents.io
 *.clubfilm.ir
 *.srv5.digiboy.ir
 *.dood.ir
@@ -26761,6 +26769,7 @@
 *.wfs.lol
 *.xalaflix.lol
 *.xmovies3.lol
+*.xmovies8.lol
 *.ya-lordfilm.lol
 *.yandex-lordfilm.lol
 *.yesmovies.lol
@@ -31340,6 +31349,7 @@
 *.zlibraryd.online
 *.zlibu.online
 *.zlibyou.online
+*.zliq.online
 *.eurostreaming.ooo
 *.fmovies.ooo
 *.hdmovie2.ooo
@@ -33724,6 +33734,7 @@
 *.xalaflixeu.pro
 *.xalaflixx.pro
 *.xmovie8.pro
+*.xmovies.pro
 *.xxxtorrents.pro
 *.yacinetv-apk.pro
 *.yacinetvs.pro
@@ -50134,6 +50145,7 @@
 *.wareztuga.shop
 *.xcinerr.shop
 *.xmovies.shop
+*.yesmovies.shop
 *.yesmoviestv.shop
 *.zeegwet.shop
 *.zlibuhow.shop
@@ -52087,6 +52099,7 @@
 *.vegamovies2.today
 *.watchamovie.today
 *.xmovies8.today
+*.xprime.today
 *.yomovies.today
 *.zinkmovies.today
 *.zone-telechargement.today
@@ -56921,6 +56934,7 @@
 *.tracker.xiaoduola.xyz
 *.xmovies.xyz
 *.xmovies8tv.xyz
+*.xmoviesi.xyz
 *.xr-warez.xyz
 *.yesmovies.xyz
 *.yesmovies-to.xyz
@@ -56942,7 +56956,6 @@
 *.public-tracker.zooki.xyz
 *.tracker-v6.zooki.xyz
 *.zul123movies.xyz
-*.zxcstream.xyz
 *.123moviesfree.yachts
 *.3sktv.yachts
 *.altadefinizionegratis.yachts

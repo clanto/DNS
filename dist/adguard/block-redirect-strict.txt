@@ -63398,6 +63398,7 @@
 ||yepp.link^
 ||zhort.link^
 ||zik.link^
+||zip.link^
 ||zipurl.link^
 ||zotter.link^
 ||zuplo.link^
@@ -63928,6 +63929,7 @@
 ||wmz.me^
 ||wp.me^
 ||x-d.me^
+||x-i.me^
 ||x2y.me^
 ||xdu.me^
 ||xtre.me^

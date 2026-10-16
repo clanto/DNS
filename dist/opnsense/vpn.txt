@@ -441,8 +441,6 @@
 2mvplcom.com
 2poigv.xyz
 2proxy.de
-2proxyweb.com
-2quickproxy.com
 2vpn.help
 3.141592653589793238462643383.riseelevetors.com
 3.antifilterasianew.co.uk
@@ -488,6 +486,7 @@
 4.thetravelingtourguide.com
 401-0506.b-cdn.net
 401-0507.b-cdn.net
+401-retsam-swodniw.b-cdn.net
 41.hide.newflamingodomain.co.uk
 416d70de.nip.io
 416d70de.sslip.io
@@ -1210,6 +1209,7 @@ cheapv2.net
 check.peer2profit.site
 check.ragpets.com
 cheddar-chute.com
+chicken.nuggets.are.good.privateimport.jp
 chickenalert.camdvr.org
 chik-chirikvpn.com
 chinacitybit.click
@@ -1803,6 +1803,7 @@ freevpn.pw
 freevpnapp.org
 freevpnfast.info
 freevpnkeys.com
+freevpnme.b-cdn.net
 freevpnnet.com
 freevpnplanet-rus.com
 freevpnplanet-rus.net
@@ -1912,8 +1913,6 @@ geti2p.net
 getjumpscared.dynv6.net
 getlantern.org.s3-website-us-east-1.amazonaws.com
 getoinfo.com
-getoutunblock.com
-getsiteunblocked.com
 gettwifi.com
 getusvpn.com
 getvpn.name
@@ -2750,7 +2749,6 @@ lmvipaff.net
 lmvipaff01.pro
 lmvipaffm01.cc
 lmvipaffm02.cc
-lmweb06.cc
 lnxfwsen.com
 load.registration.abrdns.com
 localto.net
@@ -2902,6 +2900,8 @@ mjkuhini-777.easterndns.com
 mjpabahu.com
 mkdkkn5k.com
 mkkewfye.com
+mlst-prom-static.b-cdn.net
+mlst-static.b-cdn.net
 mm.unstop.cloudns.ch
 mnqwscym.com
 mobile-socket.culturegps.com
@@ -3321,7 +3321,6 @@ owenforzono.entergod.com
 owenforzonoiseeyou.entergod.com
 owlproxy.com
 owo.rawr.africa.com
-oystervpn.com
 ozxf6rbn.com
 p11rirnv.com
 p59x5be7.com
@@ -3558,7 +3557,6 @@ proxy-german.de
 proxy-list.org
 proxy-sosavpn.ru
 proxy.am
-proxy.com.de
 proxy.darkvpn.com
 proxy.kakeru.f5.si
 proxy.nu
@@ -3930,7 +3928,6 @@ securewebproxy.net
 securitykiss.com
 securly.mom
 secvpnproxy.co.cc
-seed4.me
 seed4me.app
 seed4me.help
 seelabour.com
@@ -4012,7 +4009,6 @@ simplevpn.net
 simplynode.io
 sipidwnt.com
 sirqenio.ru
-siteblockedbypass.com
 siteunblock.org
 siteunblocked.club
 sitx2.cc
@@ -4268,7 +4264,6 @@ tinf0il.tech
 tinfoil-is-ass.xyz
 tips.bitesmagazine.com
 tiptopvpn.biz
-tiptopvpn.info
 tiptopvpn.net
 tiptopvps.help
 tipvpn.help
@@ -4538,7 +4533,6 @@ uwqjkirj.com
 uytjhuyghbjkuiyhbjku.fghvhbvghjgj.bonded-game.com
 uzrzhcyx.com
 v-2ray.com
-v.cheerfun.dev
 v.theartieschaffer.com
 v22013121930515853.yourvserver.net
 v2202409222721288347.megasrv.de
@@ -4874,7 +4868,6 @@ vpns.taplink.ws
 vpnsatoshi.net
 vpnsbox.ru
 vpnschool.courses
-vpnsec.com
 vpnserver.mom
 vpnshazam.com
 vpnshieldapp.com
@@ -5072,6 +5065,7 @@ www.yuzutyan-3.ipv64.net
 wwwportal.app.dontdrinkthekoolaid.duckdns.org
 wwwportal.dontdrinkthekoolaid.duckdns.org
 wwww-mmmm-1424.easterndns.com
+wycloudjs.com
 x-cdn-static.com
 x-fg-gg-g-f.mywire.org
 x-lets-vpn.com
@@ -5093,7 +5087,6 @@ xerivon.xyz
 xerocopy.karrozzin.cloud-ip.cc
 xerophagy.karrozzin.cloud-ip.cc
 xervolia.ru
-xf.kg
 xftld.org
 xg8tw7gfox.site
 xgndgeyn.com
@@ -5122,6 +5115,7 @@ xn--h5q36vepkh9wyqa.com
 xn--ihq5kyjq4gu2dm9q3uesphx4a443a9mqwlfso4h70dz3ynyan43q.lastarria.cl
 xn--kbtz2zn3ab56c.com
 xn--rss276g.net
+xn--vpn-f78fx28r.com
 xn--xnun88j.net
 xn--yfrp5enpj81a6w4d.com
 xn--yfrw1goy3egzffc.com
