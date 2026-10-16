@@ -1,7 +1,7 @@
 {
  "agenziaentrate.link": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "Agenzia delle Entrate / Riscossione",
   "punteggio": 65,
   "motivi": [
@@ -14,7 +14,7 @@
  },
  "agenziaentrateriscossione.app": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "Agenzia delle Entrate / Riscossione",
   "punteggio": 55,
   "motivi": [
@@ -27,7 +27,7 @@
  },
  "appio-latino.pages.dev": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "pagoPA / app IO",
   "punteggio": 55,
   "motivi": [
@@ -40,7 +40,7 @@
  },
  "appio.fyi": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "pagoPA / app IO",
   "punteggio": 55,
   "motivi": [
@@ -53,7 +53,7 @@
  },
  "appiohunter.com": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "pagoPA / app IO",
   "punteggio": 50,
   "motivi": [
@@ -65,7 +65,7 @@
  },
  "appionment-globals88.pages.dev": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "pagoPA / app IO",
   "punteggio": 50,
   "motivi": [
@@ -77,7 +77,7 @@
  },
  "appior.com": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "pagoPA / app IO",
   "punteggio": 50,
   "motivi": [
@@ -89,7 +89,7 @@
  },
  "appioschicken.online": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "pagoPA / app IO",
   "punteggio": 70,
   "motivi": [
@@ -103,7 +103,7 @@
  },
  "appiospg88ios.vip": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "pagoPA / app IO",
   "punteggio": 65,
   "motivi": [
@@ -116,7 +116,7 @@
  },
  "appiosyscare.com": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "pagoPA / app IO",
   "punteggio": 55,
   "motivi": [
@@ -129,7 +129,7 @@
  },
  "appiotelecom.com": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "pagoPA / app IO",
   "punteggio": 50,
   "motivi": [
@@ -141,7 +141,7 @@
  },
  "arubapec.store": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "Aruba",
   "punteggio": 60,
   "motivi": [
@@ -151,9 +151,45 @@
   "nome": "arubapec.store",
   "ultimo_cert": "2026-10-12"
  },
+ "bper.me": {
+  "primo": "2026-10-16",
+  "ultimo_vivo": "2026-10-16",
+  "marchio": "BPER Banca",
+  "punteggio": 50,
+  "motivi": [
+   "marchio BPER Banca nel dominio",
+   "certificato DV gratuito"
+  ],
+  "nome": "bper.me",
+  "ultimo_cert": "2026-10-16"
+ },
+ "findomesticconcorsi.com": {
+  "primo": "2026-10-16",
+  "ultimo_vivo": null,
+  "marchio": "Findomestic",
+  "punteggio": 50,
+  "motivi": [
+   "marchio Findomestic nel dominio",
+   "wildcard"
+  ],
+  "nome": "findomesticconcorsi.com",
+  "ultimo_cert": "2026-10-16"
+ },
+ "findomesticrewards.it": {
+  "primo": "2026-10-16",
+  "ultimo_vivo": null,
+  "marchio": "Findomestic",
+  "punteggio": 50,
+  "motivi": [
+   "marchio Findomestic nel dominio",
+   "wildcard"
+  ],
+  "nome": "findomesticrewards.it",
+  "ultimo_cert": "2026-10-16"
+ },
  "inail.com": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "INAIL",
   "punteggio": 45,
   "motivi": [
@@ -164,7 +200,7 @@
  },
  "inps-roma.pages.dev": {
   "primo": "2026-10-14",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "INPS",
   "punteggio": 50,
   "motivi": [
@@ -176,7 +212,7 @@
  },
  "inps.design": {
   "primo": "2026-10-14",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "INPS",
   "punteggio": 45,
   "motivi": [
@@ -187,7 +223,7 @@
  },
  "ioapp.ir": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "pagoPA / app IO",
   "punteggio": 50,
   "motivi": [
@@ -211,7 +247,7 @@
  },
  "pagopace.ch": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "pagoPA / app IO",
   "punteggio": 50,
   "motivi": [
@@ -235,7 +271,7 @@
  },
  "pagopagopowersports.com": {
   "primo": "2026-10-14",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "pagoPA / app IO",
   "punteggio": 50,
   "motivi": [
@@ -247,7 +283,7 @@
  },
  "pagopass.com": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "pagoPA / app IO",
   "punteggio": 50,
   "motivi": [
@@ -259,7 +295,7 @@
  },
  "pagopay.cloud": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "pagoPA / app IO",
   "punteggio": 45,
   "motivi": [
@@ -270,7 +306,7 @@
  },
  "satispaybenefits.info": {
   "primo": "2026-10-14",
-  "ultimo_vivo": "2026-10-15",
+  "ultimo_vivo": "2026-10-16",
   "marchio": "Satispay",
   "punteggio": 70,
   "motivi": [
@@ -281,5 +317,42 @@
   ],
   "nome": "satispaybenefits.info",
   "ultimo_cert": "2026-10-14"
+ },
+ "unicreditbank.shop": {
+  "primo": "2026-10-16",
+  "ultimo_vivo": "2026-10-16",
+  "marchio": "UniCredit",
+  "punteggio": 60,
+  "motivi": [
+   "marchio UniCredit nel dominio",
+   "TLD .shop"
+  ],
+  "nome": "unicreditbank.shop",
+  "ultimo_cert": "2026-10-16"
+ },
+ "unicreditripple.com": {
+  "primo": "2026-10-16",
+  "ultimo_vivo": "2026-10-16",
+  "marchio": "UniCredit",
+  "punteggio": 50,
+  "motivi": [
+   "marchio UniCredit nel dominio",
+   "certificato recente"
+  ],
+  "nome": "unicreditripple.com",
+  "ultimo_cert": "2026-10-16"
+ },
+ "webank.online": {
+  "primo": "2026-10-16",
+  "ultimo_vivo": "2026-10-16",
+  "marchio": "Banco BPM / Webank",
+  "punteggio": 65,
+  "motivi": [
+   "marchio Banco BPM / Webank nel dominio",
+   "TLD .online",
+   "certificato recente"
+  ],
+  "nome": "webank.online",
+  "ultimo_cert": "2026-10-16"
  }
 }
