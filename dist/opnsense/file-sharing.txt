@@ -109,7 +109,6 @@ fileqube.com
 files-express.com
 files.catbox.moe
 files.mail.ru
-files.to
 files6.com
 filesanywhere.com
 filesavr.com
@@ -137,6 +136,7 @@ freeimagehosting.net
 freeimgshost.com
 freepik.com
 freeuploader.com
+friendlyfiles.net
 fullfotos.com.ar
 fupload.com
 get-mu.com

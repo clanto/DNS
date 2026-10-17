@@ -104,6 +104,7 @@ api.adoptium.net
 apiorouser.com
 app.5tr.org
 app.netshort-tv-jp.com
+app.slidy.ai
 app.spotifylite.online
 appleidmapa.com
 applelunar.website
@@ -216,6 +217,7 @@ calvinsmithlaw.screenconnect.com
 campus-petite-timothy-gulf.trycloudflare.com
 canabit.ai
 canabit.ca
+canjepuntosrapidobac.click
 capcha-cdn-js.beer
 capitaltrackspro.com
 capitalwillowgate.com
@@ -828,6 +830,7 @@ mirvok.vu
 missvalledeladrome.info
 mistraljs.beer
 misty-arc-rook-sleoor.com
+mizuhoca.com
 mlbysalw.cn
 mmasunandrajat.com
 mmchart.s3.us-east-1.amazonaws.com
@@ -1391,6 +1394,9 @@ wndws-pip3ln-sql3-waf3-purv3-gdprsx-dfn-azfn-appsvc-0ffapx.workers.dev
 wookidoodlesalga.com
 wordmoss.com
 workcdnmass.beer
+workspacegoogle.net.ru
+workspacegoogle.org.ru
+workspacegoogle.pp.ru
 workspacegranite.com
 worldprimenew-jp.com
 wudaksldas.com
