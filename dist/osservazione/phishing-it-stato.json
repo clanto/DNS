@@ -1,7 +1,7 @@
 {
  "agenziaentrate.link": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "Agenzia delle Entrate / Riscossione",
   "punteggio": 65,
   "motivi": [
@@ -10,11 +10,11 @@
    "certificato recente"
   ],
   "nome": "agenziaentrate.link",
-  "ultimo_cert": "2026-10-14"
+  "ultimo_cert": "2026-10-17"
  },
  "agenziaentrateriscossione.app": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "Agenzia delle Entrate / Riscossione",
   "punteggio": 55,
   "motivi": [
@@ -27,7 +27,7 @@
  },
  "appio-latino.pages.dev": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "pagoPA / app IO",
   "punteggio": 55,
   "motivi": [
@@ -36,11 +36,23 @@
    "wildcard"
   ],
   "nome": "appio-latino.pages.dev",
-  "ultimo_cert": "2026-10-14"
+  "ultimo_cert": "2026-10-17"
+ },
+ "appio.de": {
+  "primo": "2026-10-17",
+  "ultimo_vivo": "2026-10-17",
+  "marchio": "pagoPA / app IO",
+  "punteggio": 50,
+  "motivi": [
+   "marchio pagoPA / app IO nel dominio",
+   "certificato DV gratuito"
+  ],
+  "nome": "appio.de",
+  "ultimo_cert": "2026-10-17"
  },
  "appio.fyi": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "pagoPA / app IO",
   "punteggio": 55,
   "motivi": [
@@ -53,7 +65,7 @@
  },
  "appiohunter.com": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "pagoPA / app IO",
   "punteggio": 50,
   "motivi": [
@@ -65,7 +77,7 @@
  },
  "appionment-globals88.pages.dev": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "pagoPA / app IO",
   "punteggio": 50,
   "motivi": [
@@ -77,7 +89,7 @@
  },
  "appior.com": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "pagoPA / app IO",
   "punteggio": 50,
   "motivi": [
@@ -85,11 +97,11 @@
    "certificato recente"
   ],
   "nome": "appior.com",
-  "ultimo_cert": "2026-10-14"
+  "ultimo_cert": "2026-10-17"
  },
  "appioschicken.online": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "pagoPA / app IO",
   "punteggio": 70,
   "motivi": [
@@ -103,7 +115,7 @@
  },
  "appiospg88ios.vip": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "pagoPA / app IO",
   "punteggio": 65,
   "motivi": [
@@ -116,7 +128,7 @@
  },
  "appiosyscare.com": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "pagoPA / app IO",
   "punteggio": 55,
   "motivi": [
@@ -125,11 +137,11 @@
    "certificato DV gratuito"
   ],
   "nome": "appiosyscare.com",
-  "ultimo_cert": "2026-10-14"
+  "ultimo_cert": "2026-10-17"
  },
  "appiotelecom.com": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "pagoPA / app IO",
   "punteggio": 50,
   "motivi": [
@@ -137,11 +149,11 @@
    "certificato recente"
   ],
   "nome": "appiotelecom.com",
-  "ultimo_cert": "2026-10-14"
+  "ultimo_cert": "2026-10-17"
  },
  "arubapec.store": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "Aruba",
   "punteggio": 60,
   "motivi": [
@@ -153,7 +165,7 @@
  },
  "bper.me": {
   "primo": "2026-10-16",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "BPER Banca",
   "punteggio": 50,
   "motivi": [
@@ -189,7 +201,7 @@
  },
  "inail.com": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "INAIL",
   "punteggio": 45,
   "motivi": [
@@ -200,7 +212,7 @@
  },
  "inps-roma.pages.dev": {
   "primo": "2026-10-14",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "INPS",
   "punteggio": 50,
   "motivi": [
@@ -208,22 +220,35 @@
    "wildcard"
   ],
   "nome": "inps-roma.pages.dev",
-  "ultimo_cert": "2026-10-14"
+  "ultimo_cert": "2026-10-17"
+ },
+ "inps-y12px.com": {
+  "primo": "2026-10-17",
+  "ultimo_vivo": "2026-10-17",
+  "marchio": "INPS",
+  "punteggio": 55,
+  "motivi": [
+   "marchio INPS nel dominio",
+   "certificato recente",
+   "certificato DV gratuito"
+  ],
+  "nome": "inps-y12px.com",
+  "ultimo_cert": "2026-10-17"
  },
  "inps.design": {
   "primo": "2026-10-14",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "INPS",
   "punteggio": 45,
   "motivi": [
    "marchio INPS nel dominio"
   ],
   "nome": "inps.design",
-  "ultimo_cert": "2026-10-14"
+  "ultimo_cert": "2026-10-17"
  },
  "ioapp.ir": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "pagoPA / app IO",
   "punteggio": 50,
   "motivi": [
@@ -232,6 +257,17 @@
   ],
   "nome": "ioapp.ir",
   "ultimo_cert": "2026-10-12"
+ },
+ "ioapps.pro": {
+  "primo": "2026-10-17",
+  "ultimo_vivo": "2026-10-17",
+  "marchio": "pagoPA / app IO",
+  "punteggio": 45,
+  "motivi": [
+   "marchio pagoPA / app IO nel dominio"
+  ],
+  "nome": "ioapps.pro",
+  "ultimo_cert": "2026-10-17"
  },
  "pagopa-u-apim.azure-api.net": {
   "primo": "2026-10-14",
@@ -243,11 +279,11 @@
    "certificato recente"
   ],
   "nome": "pagopa-u-apim.azure-api.net",
-  "ultimo_cert": "2026-10-14"
+  "ultimo_cert": "2026-10-17"
  },
  "pagopace.ch": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "pagoPA / app IO",
   "punteggio": 50,
   "motivi": [
@@ -269,9 +305,22 @@
   "nome": "pagopagi.workers.dev",
   "ultimo_cert": "2026-10-12"
  },
+ "pagopago.com": {
+  "primo": "2026-10-17",
+  "ultimo_vivo": "2026-10-17",
+  "marchio": "pagoPA / app IO",
+  "punteggio": 55,
+  "motivi": [
+   "marchio pagoPA / app IO nel dominio",
+   "wildcard",
+   "certificato DV gratuito"
+  ],
+  "nome": "pagopago.com",
+  "ultimo_cert": "2026-10-17"
+ },
  "pagopagopowersports.com": {
   "primo": "2026-10-14",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "pagoPA / app IO",
   "punteggio": 50,
   "motivi": [
@@ -279,11 +328,11 @@
    "certificato recente"
   ],
   "nome": "pagopagopowersports.com",
-  "ultimo_cert": "2026-10-14"
+  "ultimo_cert": "2026-10-17"
  },
  "pagopass.com": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "pagoPA / app IO",
   "punteggio": 50,
   "motivi": [
@@ -295,7 +344,7 @@
  },
  "pagopay.cloud": {
   "primo": "2026-10-12",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "pagoPA / app IO",
   "punteggio": 45,
   "motivi": [
@@ -306,7 +355,7 @@
  },
  "satispaybenefits.info": {
   "primo": "2026-10-14",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "Satispay",
   "punteggio": 70,
   "motivi": [
@@ -316,11 +365,11 @@
    "wildcard"
   ],
   "nome": "satispaybenefits.info",
-  "ultimo_cert": "2026-10-14"
+  "ultimo_cert": "2026-10-17"
  },
  "unicreditbank.shop": {
   "primo": "2026-10-16",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "UniCredit",
   "punteggio": 60,
   "motivi": [
@@ -332,7 +381,7 @@
  },
  "unicreditripple.com": {
   "primo": "2026-10-16",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "UniCredit",
   "punteggio": 50,
   "motivi": [
@@ -344,7 +393,7 @@
  },
  "webank.online": {
   "primo": "2026-10-16",
-  "ultimo_vivo": "2026-10-16",
+  "ultimo_vivo": "2026-10-17",
   "marchio": "Banco BPM / Webank",
   "punteggio": 65,
   "motivi": [
@@ -354,5 +403,18 @@
   ],
   "nome": "webank.online",
   "ultimo_cert": "2026-10-16"
+ },
+ "wind3.dpdns.org": {
+  "primo": "2026-10-17",
+  "ultimo_vivo": null,
+  "marchio": "WindTre",
+  "punteggio": 55,
+  "motivi": [
+   "marchio WindTre nel dominio",
+   "certificato recente",
+   "certificato DV gratuito"
+  ],
+  "nome": "wind3.dpdns.org",
+  "ultimo_cert": "2026-10-17"
  }
 }
