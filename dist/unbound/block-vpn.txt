@@ -8022,6 +8022,7 @@
 *.nashvpn.io
 *.vpn.ncapi.io
 *.nebulaproxy.io
+*.netbird.io
 *.netnut.io
 *.ngrok.io
 *.ninjavpn.io

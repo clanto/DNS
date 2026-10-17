@@ -16940,6 +16940,7 @@
 *.final-aws-01.com
 *.final-azr-01.com
 *.finalizeforce.com
+*.finalleague.com
 *.finaloptics.com
 *.rl.finalprice.com
 *.finalresourcebliss.com
@@ -17076,6 +17077,7 @@
 *.fitwithalpine.com
 *.marketing.five-startech.com
 *.marketing.five19creative.com
+*.fiveplusthree.com
 *.activity.fiverr.com
 *.collector.fiverr.com
 *.hjgkdv.fiverr.com

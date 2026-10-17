@@ -158,7 +158,6 @@ adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
 adguard.jfchenier.ca
-adguard.johanliebert.top
 adguard.k-likhachev.ru
 adguard.kantinyoyok.xyz
 adguard.kiboko.it
@@ -406,7 +405,6 @@ bancuh.com
 barnabech.fr
 base.dns.mullvad.net
 batshitcrazy.ddns.net
-baxtri.ru
 be2aja.my.id
 beacon.dog
 beautifullife.eu.org
@@ -794,7 +792,6 @@ dns.dreamworker.idv.tw
 dns.dremaxx.de
 dns.dualhosting.eu
 dns.dumk.in
-dns.dyn1.de
 dns.dynx.pro
 dns.dzkji.cn
 dns.easyhns.com
@@ -1276,7 +1273,6 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
-dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -1585,8 +1581,6 @@ doh.zephyrus.id
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
-doh1.b-cdn.net
-doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -1639,7 +1633,6 @@ ebpmc.diskstation.me
 ebpmc.tplinkdns.com
 echoe1yidzu4ioo5.myfritz.net
 edgar.tobkar.net
-edgy-dns.com
 edns.233py.com
 ee-tll.doh.sb
 egorovna.su
@@ -2030,8 +2023,6 @@ los02.dnscry.pt
 lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
-lukscasino-479-tr.xyz
-lukscasino-929-tr.xyz
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
 maherhost.uk
@@ -2043,10 +2034,6 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
-mask-canary.icloud.com
-mask-h2.icloud.com
-mask.apple-dns.net
-mask.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2585,7 +2572,6 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
-tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt

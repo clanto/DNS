@@ -10022,6 +10022,7 @@
 *.taraftarium24-app.com
 *.taraftarium24-aslan.com
 *.taraftarium24-fb1.com
+*.taraftarium24-lgnmtk1.com
 *.taraftarium24-mhsn.com
 *.taraftarium24-off13.com
 *.taraftarium24-web6.com
@@ -10310,7 +10311,6 @@
 *.torrenteresidences.com
 *.torrentesac.com
 *.torrentesolena.com
-*.torrentestudis.com
 *.torrentesx.com
 *.torrentexplorer.com
 *.torrentface.com
@@ -11639,6 +11639,7 @@
 *.akuly-lordfilm.cyou
 *.altadefinizionegratis.cyou
 *.altadefinizionez.cyou
+*.animeiat-offcial.cyou
 *.annas-archive.cyou
 *.antihero-lordfilm.cyou
 *.apunkagames.cyou
@@ -21806,6 +21807,7 @@
 *.kora.live-koora.live
 *.livehd7i.live
 *.livesoccerstream.live
+*.livestreaminghd.live
 *.livetvsx.live
 *.lookmovie2-tv.live
 *.lordfilm-novinki.live
@@ -53462,7 +53464,6 @@
 *.social-network-lordfilm.top
 *.softwarez.top
 *.sokrovishcha-imperatora-lordfilm.top
-*.solarmovie.top
 *.solarmovie-us.top
 *.solarmovies.top
 *.solarmovietv.top

@@ -8287,6 +8287,7 @@ net4ebur.fra1.cdn.digitaloceanspaces.com
 net4ebur.fra1.digitaloceanspaces.com
 netaltr.com
 netapult.net
+netbird.io
 netdefenderpro.com
 netdrift.cyou
 netexplores.com
