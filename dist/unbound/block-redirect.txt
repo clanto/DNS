@@ -67489,6 +67489,7 @@
 *.poxi.laaa.la
 *.surfunlocked.lamer.la
 *.college.leet.la
+*.lnbz.la
 *.lph.la
 *.r.ls.la
 *.reach.ls.la

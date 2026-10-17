@@ -21603,6 +21603,7 @@
 *.jotat.com
 *.events.jotform.com
 *.tracking.jotform.com
+*.jothothsi.com
 *.joturl.com
 *.jxdptu.jouete-online.com
 *.smetrics.joules.com
@@ -31039,6 +31040,7 @@
 *.tracking.olx-st.com
 *.event-router.olympics.com
 *.link.olympya.com
+*.om-meta.com
 *.marketing.omadi.com
 *.sstats.omahasteaks.com
 *.stats.omahasteaks.com
@@ -48486,6 +48488,7 @@
 *.telemetry.transcend.io
 *.madrid.report.botm.transparentedge.io
 *.tribl.io
+*.triptease.io
 *.tropos.io
 *.trtm.io
 *.trueroas.io

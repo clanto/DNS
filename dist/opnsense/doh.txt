@@ -22,7 +22,6 @@
 23.106.141.137.16clouds.com
 3.11i.eu
 3.local-dns.noridev.moe
-3dcosas.xyz
 3dns.eu
 3jjxxl.tech
 51576162.ru
@@ -349,6 +348,7 @@ an81.ddns.net
 an81dns.ru
 ancv.sytes.net
 andrewnw.xyz
+andrey93rus.ru
 andryk111.duckdns.org
 andrykarcew.duckdns.org
 andybunn.onthewifi.com
@@ -393,6 +393,7 @@ au-syd-w-p-1.nashkan.net
 au-syd.doh.sb
 au01.dns4me.net
 au02.dns4me.net
+aveekay.ddns.net
 axaxa.fun
 aydank.freeddns.org
 ayman-dns.731my.com
@@ -410,7 +411,6 @@ beacon.dog
 beautifullife.eu.org
 beautifulthings.eu.org
 bei01.dnscry.pt
-bestwon203.com
 bh.wael.name
 biba.ydns.eu
 bkk01.dnscry.pt
@@ -793,6 +793,7 @@ dns.dreamworker.idv.tw
 dns.dremaxx.de
 dns.dualhosting.eu
 dns.dumk.in
+dns.dyn1.de
 dns.dynx.pro
 dns.dzkji.cn
 dns.easyhns.com
@@ -1552,7 +1553,6 @@ doh.pyry.me
 doh.quickline.ch
 doh.rasmusminde.dk
 doh.rezhajul.io
-doh.runsel.id
 doh.sa-sa.eu
 doh.safesurfer.io
 doh.sandbox.opendns.com
@@ -1584,6 +1584,7 @@ doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
 doh1.b-cdn.net
+doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -1663,7 +1664,6 @@ family-filter-dns.cleanbrowsing.org
 family.adguard-dns.com
 family.canadianshield.cira.ca
 family.cloudflare-dns.com
-family.dns.doubleangels.com
 family.dns.dremaxx.com
 family.dns.mullvad.net
 family.dns.ningkelle.id
@@ -2026,7 +2026,7 @@ los02.dnscry.pt
 lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
-lukscasino-929-tr.xyz
+lukscasino-479-tr.xyz
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
 maherhost.uk
@@ -2576,6 +2576,7 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
+tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
