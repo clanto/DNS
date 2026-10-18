@@ -22,6 +22,7 @@
 23.106.141.137.16clouds.com
 3.11i.eu
 3.local-dns.noridev.moe
+3dcosas.xyz
 3dns.eu
 3jjxxl.tech
 51576162.ru
@@ -409,6 +410,7 @@ beacon.dog
 beautifullife.eu.org
 beautifulthings.eu.org
 bei01.dnscry.pt
+bestwon203.com
 bh.wael.name
 biba.ydns.eu
 bkk01.dnscry.pt
@@ -791,6 +793,7 @@ dns.dreamworker.idv.tw
 dns.dremaxx.de
 dns.dualhosting.eu
 dns.dumk.in
+dns.dyn1.de
 dns.dynx.pro
 dns.dzkji.cn
 dns.easyhns.com
@@ -885,7 +888,6 @@ dns.haka.se
 dns.hakim.one
 dns.hakutakucn.com
 dns.hanmey.de
-dns.hashemlabs.co.uk
 dns.hellozhao.com
 dns.hinet.net
 dns.home.beckett.io
@@ -1107,6 +1109,7 @@ dns.paxavemedia.com
 dns.pccoach.nl
 dns.peb-schmidt.de
 dns.periactes.com
+dns.pernika.net
 dns.pesaventofilippo.com
 dns.petqa.ru
 dns.phillipjberry.net
@@ -1272,6 +1275,7 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
+dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -1634,6 +1638,7 @@ ebpmc.diskstation.me
 ebpmc.tplinkdns.com
 echoe1yidzu4ioo5.myfritz.net
 edgar.tobkar.net
+edgy-dns.com
 edns.233py.com
 ee-tll.doh.sb
 egorovna.su
@@ -1661,6 +1666,7 @@ family-filter-dns.cleanbrowsing.org
 family.adguard-dns.com
 family.canadianshield.cira.ca
 family.cloudflare-dns.com
+family.dns.doubleangels.com
 family.dns.dremaxx.com
 family.dns.mullvad.net
 family.dns.ningkelle.id
@@ -2024,6 +2030,7 @@ los02.dnscry.pt
 lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
+lukscasino-479-tr.xyz
 lukscasino-929-tr.xyz
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
@@ -2036,10 +2043,6 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
-mask-canary.icloud.com
-mask-h2.icloud.com
-mask.apple-dns.net
-mask.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2272,7 +2275,6 @@ private.canadianshield.cira.ca
 privatebard.com
 privatnas.servebeer.com
 pro.shecan.ir
-proariel.dns-dynamic.net
 project-evoex.de
 protected.canadianshield.cira.ca
 protective.joindns4.eu
