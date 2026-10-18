@@ -17104,6 +17104,7 @@
 *.fahmta.flashbak.com
 *.hiuplq.flashscore.com
 *.flashtexting.com
+*.flatpebble.com
 *.info.flattstationers.com
 *.fleathecat.com
 *.smetrics.fleetcardapplication.com
@@ -17517,6 +17518,7 @@
 *.bjpsuk.fray-id.com
 *.fraysystems.com
 *.aviite.freaksstore.com
+*.freakywacko.com
 *.ngcbjq.frecuento.com
 *.free-crochet-news.com
 *.free-email-tracker.com

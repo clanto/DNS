@@ -15,7 +15,6 @@
 1008868842.rsc.cdn77.org
 1016945378.rsc.cdn77.org
 1017683305.rsc.cdn77.org
-102-orp-diordna.b-cdn.net
 102.theartieschaffer.com
 1028989235.rsc.cdn77.org
 1034336200.rsc.cdn77.org
@@ -626,7 +625,6 @@
 9nd0oy2n.com
 9sskdjs.shop
 9thballs.camdvr.org
-9w9.org
 9yuan.top
 a-regist.anondns.net
 a.cpfrx.info
@@ -1224,7 +1222,6 @@ classes.ipv64.net
 classicpen.us
 classlink.com.de
 classlink.com.de.cdn.cloudflare.net
-classroom.broomleigh.org
 classroom.haoqiw.com
 classroom.ipv64.de
 clever.jansenmedical.net
@@ -3298,6 +3295,7 @@ p8u5t5qu.com
 p9dd884q.com
 package.nyc3.digitaloceanspaces.com
 packetpuppy.com
+packetstream.io
 paecvrvv.com
 paku.f5.si
 panel.hook--tehran.co.uk
@@ -3321,7 +3319,6 @@ passageplace.com
 passssssssssword.easterndns.com
 patronize.bury.abrdns.com
 pawxy.com
-pay4app.store
 paydar.goooalir.co.uk
 pbavtqle.com
 pbproxy.red
@@ -3471,7 +3468,6 @@ premium-vpn.store
 premium-web.info
 premium.speed-benz.co.uk
 premiumproxy.net
-prismcave.com
 privacy.io
 privacy3000.com
 privacy5000.com
@@ -3871,6 +3867,7 @@ science.vincenzodimaro.it.cdn.cloudflare.net
 sciencenews.cc
 sciences.run
 sciencesimplified.pro
+sciencewiki.medscience.cl
 scjzrku6zui5o9.online
 scratchdevfourums.5a3bz.cn
 scur.tent.cloud-ip.cc
@@ -3897,7 +3894,6 @@ securewebproxy.net
 securitykiss.com
 securly.mom
 secvpnproxy.co.cc
-seed4.me
 seed4me-vpn.mom
 seed4me.help
 seelabour.com
@@ -4671,7 +4667,6 @@ vpn.ht
 vpn.i81.ru
 vpn.internxt.com
 vpn.jogjacloud.com
-vpn.lat
 vpn.my
 vpn.ncapi.io
 vpn.net
@@ -4927,6 +4922,7 @@ webpro.xyz
 webproxy.club
 webproxy.com
 webproxy.ich-war-hier.de
+webproxy.online
 webproxy.us.com
 webproxyusa.com
 webrtc5.gvideo.co
@@ -5268,6 +5264,7 @@ zo0g.site
 zoihvj9m.com
 zokamodeling.baranepaeizi.info
 zonevpn.com
+zoog.pro
 zoogas.site
 zoogasdaj.site
 zoogasja.site
