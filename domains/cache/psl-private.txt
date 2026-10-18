@@ -1290,7 +1290,6 @@ girlfriend.jp
 girly.jp
 git-pages.rit.edu
 git-repos.de
-gitapp.si
 gitbook.io
 github.app
 github.io

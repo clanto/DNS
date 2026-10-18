@@ -64,6 +64,7 @@ adblock.dns.mullvad.net
 adblock.doh.mullvad.net
 adblock.freeddns.org
 adblock.indianets.net
+adblock.krctech.dev
 adblock.leenit.kr
 adblock.renedis.nl
 adblocker.institutobancario.edu.mx
@@ -121,6 +122,7 @@ adguard.amscenter.net
 adguard.app.sabino.pro
 adguard.bitteeinbyte.de
 adguard.bonis.de
+adguard.bonsirven.eu
 adguard.boykevanvugt.nl
 adguard.camn.uk
 adguard.cedoman.com
@@ -133,7 +135,6 @@ adguard.depieri.net
 adguard.dervart.ru
 adguard.diylab.in
 adguard.doranpierst.com.tr
-adguard.duongphuckhanh.dev
 adguard.easez.net
 adguard.ef67daisuki.club
 adguard.eischmann.cz
@@ -156,6 +157,7 @@ adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
 adguard.jfchenier.ca
+adguard.johanliebert.top
 adguard.k-likhachev.ru
 adguard.kantinyoyok.xyz
 adguard.kiboko.it
@@ -166,7 +168,6 @@ adguard.londonwebnerd.cloud
 adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
-adguard.marto.si
 adguard.mcdrifter.de
 adguard.meddy94.de
 adguard.myddns.org
@@ -1106,7 +1107,6 @@ dns.paxavemedia.com
 dns.pccoach.nl
 dns.peb-schmidt.de
 dns.periactes.com
-dns.pernika.net
 dns.pesaventofilippo.com
 dns.petqa.ru
 dns.phillipjberry.net
@@ -1581,6 +1581,7 @@ doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
 doh1.b-cdn.net
+doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -2023,6 +2024,7 @@ los02.dnscry.pt
 lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
+lukscasino-929-tr.xyz
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
 maherhost.uk
@@ -2034,6 +2036,10 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
+mask-canary.icloud.com
+mask-h2.icloud.com
+mask.apple-dns.net
+mask.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2572,6 +2578,7 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
+tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt

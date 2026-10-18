@@ -683,8 +683,8 @@
 ||tapfut.cc^
 ||theproxy.cc^
 ||theproxy2.cc^
-||mimizo19.tidelark.cc^
-||rade94.tidelark.cc^
+||tokane46.tidelark.cc^
+||vilomi57.tidelark.cc^
 ||tifa.cc^
 ||tifaix123.cc^
 ||toptip.cc^
@@ -7640,6 +7640,7 @@
 ||anonymousblog.info^
 ||anonymousvpn.info^
 ||aoxlink.info^
+||appstoff.info^
 ||archivebase.info^
 ||ir.ataman.info^
 ||ir-ir.ataman.info^
@@ -7699,7 +7700,6 @@
 ||gatern.info^
 ||ir.genesbyjohn.info^
 ||geoplace.info^
-||vahshianeh.ghodratitarin.info^
 ||ir-ir.gnutella2.info^
 ||goldvpn.info^
 ||gougouvpn.info^
@@ -11924,7 +11924,6 @@
 ||rtcstudio.ru^
 ||ruvexona.ru^
 ||sirqenio.ru^
-||proxy.sosavpn.ru^
 ||sportvideo24.ru^
 ||stayconnectedwitheasy.ru^
 ||playernation.superportret.ru^
@@ -12585,7 +12584,6 @@
 ||bfesedv.uk^
 ||catnet.uk^
 ||10bestvpn.co.uk^
-||3etare.co.uk^
 ||accessvpn.co.uk^
 ||ahvaz.co.uk^
 ||kasco.alhosein.co.uk^
@@ -12601,10 +12599,7 @@
 ||33.antifilterasianew.co.uk^
 ||33.antony-gordon.co.uk^
 ||33.assassinationpuma.co.uk^
-||iran.bingi.co.uk^
-||persia.bingi.co.uk^
 ||binhexsolutions.co.uk^
-||bo0ji.co.uk^
 ||burgerip.co.uk^
 ||buystoryapp.co.uk^
 ||silver.ciaude.co.uk^
@@ -12615,16 +12610,10 @@
 ||ddelay.co.uk^
 ||din5gli2.co.uk^
 ||dingi3.co.uk^
-||im.dumaniltd.co.uk^
 ||dashi.estabonita.co.uk^
 ||haji.estabonita.co.uk^
 ||exiscos.co.uk^
 ||team.fast--pro.co.uk^
-||dark1.globalmymusic.co.uk^
-||dark2.globalmymusic.co.uk^
-||dark3.globalmymusic.co.uk^
-||dark4.globalmymusic.co.uk^
-||dark5.globalmymusic.co.uk^
 ||irogallery.golgoli1.co.uk^
 ||digi.golgoli2.co.uk^
 ||fruit.golgoli2.co.uk^
@@ -12642,7 +12631,6 @@
 ||vasle.goooalir.co.uk^
 ||for.you.goooalir.co.uk^
 ||panel.hook--tehran.co.uk^
-||support.infinityhalo.co.uk^
 ||jhndoes.co.uk^
 ||lamnia.co.uk^
 ||aseman.lunavane.co.uk^
@@ -12654,6 +12642,7 @@
 ||mangoseason8.co.uk^
 ||ir.mediaad.co.uk^
 ||org.mediaad.co.uk^
+||ssh.meow0.co.uk^
 ||kabab.mikhay.co.uk^
 ||new7.mizanmizanesgh.co.uk^
 ||puot.mozitop.co.uk^
@@ -12668,13 +12657,13 @@
 ||41.hide.newflamingodomain.co.uk^
 ||ninjaproxy.co.uk^
 ||noblocc.co.uk^
-||nocloudnew.co.uk^
 ||nordvpn.co.uk^
 ||apple11.nowhearthis.co.uk^
 ||opsecmastur.nowhearthis.co.uk^
 ||arthi.rajmohan.nowhearthis.co.uk^
 ||onlineproxy.co.uk^
 ||petros-es.co.uk^
+||mahi.poolaki.co.uk^
 ||proxay.co.uk^
 ||proxify.co.uk^
 ||proxywebsite.co.uk^
@@ -12688,6 +12677,7 @@
 ||premium.speed-benz.co.uk^
 ||suodbo.co.uk^
 ||surfshark.co.uk^
+||price.syscloudio.co.uk^
 ||star.talebi.co.uk^
 ||termsnal.co.uk^
 ||piano.goal.the-black-hole.co.uk^
@@ -12854,8 +12844,8 @@
 ||marslink.vip^
 ||mccloud.vip^
 ||mgnet.vip^
-||mito38.mosswren.vip^
-||toka21.mosswren.vip^
+||lonymi12.mosswren.vip^
+||mide77.mosswren.vip^
 ||purejsq.vip^
 ||seona.vip^
 ||shadowrocket.vip^
@@ -12873,6 +12863,7 @@
 ||xiaohuojian.vip^
 ||xn--4gq62f52gdss.vip^
 ||yahagi.vip^
+||redflag.yazaebalsyadelatproxy.vip^
 ||proxy.extension.vn^
 ||1vpn.website^
 ||777schoolutilities.website^

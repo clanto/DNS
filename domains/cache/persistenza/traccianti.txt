@@ -10435,7 +10435,6 @@ callsource.actonservice.com
 callstats.io
 calltouch.ru
 calltrack.co
-calltracking.ru
 calltrackingmetrics.com
 calltracks.com
 calltrk.com
@@ -15895,9 +15894,6 @@ electronics.tradeshow.globalsources.com
 elegantboulevard.com
 elephantdata.net
 elephantqueue.com
-elf.site
-elfsight.com
-elfsightcdn.com
 elgas.actonservice.com
 elgreco.openapp.link
 elia.thermofisher.com
@@ -17445,7 +17441,6 @@ fact.ai
 factai.com
 factors.ai
 factory.redbull.racing
-factset.com
 factual.com
 fadechildren.com
 fadedprofit.com
@@ -60124,3 +60119,9 @@ gamerhunk.com
 @497852
 finalleague.com
 fiveplusthree.com
+@497867
+algorithmia.com
+dynamotracking.com
+opmpros.com
+sizefox.com
+surefirelocal.com

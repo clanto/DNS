@@ -8468,6 +8468,7 @@
 ||telemetry.algolia.com^
 ||algolytics.com^
 ||algonomy.com^
+||algorithmia.com^
 ||algospark.com^
 ||algqn2trk.com^
 ||sadbmetrics.alhambraventure.com^
@@ -15216,6 +15217,7 @@
 ||deeplinks.efeed.dynamify.com^
 ||deeplinks.everyday.dynamify.com^
 ||deeplinks.twelve.dynamify.com^
+||dynamotracking.com^
 ||dynata.com^
 ||dynatrace-managed.com^
 ||dynsor.com^
@@ -15653,8 +15655,6 @@
 ||webt.eleonto.com^
 ||elephantqueue.com^
 ||ivdguf.elephorm.com^
-||elfsight.com^
-||elfsightcdn.com^
 ||sts.eliasjarzombek.com^
 ||smetrics.eliquis.com^
 ||smetrics.eliquisdataportal.com^
@@ -16598,7 +16598,6 @@
 ||tms.hft.factor75.com^
 ||wejpuy.factor75.com^
 ||t.factorform.com^
-||factset.com^
 ||factual.com^
 ||fadechildren.com^
 ||fadedprofit.com^
@@ -31262,6 +31261,7 @@
 ||opinionintelligent.com^
 ||opinionshareresearch.com^
 ||opinionsurprise.com^
+||opmpros.com^
 ||smetrics.opnme.com^
 ||tcbtus.opodo.com^
 ||marketing.opoffice.com^
@@ -35909,6 +35909,7 @@
 ||twjobq.sixt.com^
 ||analytics.sixtmiddleeast.com^
 ||sixtriplezero.com^
+||sizefox.com^
 ||sizesidewalk.com^
 ||join.sizl.com^
 ||sizzlingoven.com^
@@ -37314,6 +37315,7 @@
 ||supportexp.com^
 ||supportwaves.com^
 ||nrquff.supurgemarket.com^
+||surefirelocal.com^
 ||surepathmobile.com^
 ||surfacesmedia.com^
 ||marketing.surfcityusa.com^
@@ -56124,7 +56126,6 @@
 ||pixels.boxberry.ru^
 ||stats.bunkr.ru^
 ||calltouch.ru^
-||calltracking.ru^
 ||analytics.carambatv.ru^
 ||stat.rum.cdnvideo.ru^
 ||rumstat.cdnvideo.ru^
@@ -56895,7 +56896,6 @@
 ||defas.site^
 ||digis.site^
 ||egoi.site^
-||elf.site^
 ||stats.emmas.site^
 ||flufs.site^
 ||fortnitechat.site^

@@ -5621,6 +5621,7 @@ algo.com
 algolytics.com
 algolytics.pl
 algonomy.com
+algorithmia.com
 algospark.com
 algqn2trk.com
 algrcr.sandro-paris.com
@@ -10430,7 +10431,6 @@ callsource.actonservice.com
 callstats.io
 calltouch.ru
 calltrack.co
-calltracking.ru
 calltrackingmetrics.com
 calltracks.com
 calltrk.com
@@ -15281,6 +15281,7 @@ dynamic-content.croquetteland.com
 dynamic.ziftsolutions.com
 dynamics365.com
 dynamicyield.com
+dynamotracking.com
 dynata.com
 dynatr.ac
 dynatrace-managed.com
@@ -15895,9 +15896,6 @@ electronics.tradeshow.globalsources.com
 elegantboulevard.com
 elephantdata.net
 elephantqueue.com
-elf.site
-elfsight.com
-elfsightcdn.com
 elgas.actonservice.com
 elgreco.openapp.link
 elia.thermofisher.com
@@ -17443,7 +17441,6 @@ fact.ai
 factai.com
 factors.ai
 factory.redbull.racing
-factset.com
 factual.com
 fadechildren.com
 fadedprofit.com
@@ -37316,6 +37313,7 @@ opinionsurprise.com
 opinsights.azure.us
 ople.ai
 oply.hearstapps.com
+opmpros.com
 opo4.assuronline.com
 opoffice.actonservice.com
 opph3hftrk.com
@@ -43559,6 +43557,7 @@ sixquickrun.com
 sixscissors.com
 sixtriplezero.com
 sizcsi.eobuv.cz
+sizefox.com
 sizesidewalk.com
 sizybn.shipsltd.co.jp
 sizzlingoven.com
@@ -50011,6 +50010,7 @@ supportexp.com
 supportmetrics.apple.com
 supportwaves.com
 supvka.colancolan.com
+surefirelocal.com
 surepathmobile.com
 surfacesmedia.com
 surfform.com

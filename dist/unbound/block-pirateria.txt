@@ -226,6 +226,7 @@
 *.netmirror.app
 *.netmirrorapkz.app
 *.newhdmovie2.app
+*.nexanime.app
 *.novatv.app
 *.olamovies.app
 *.onalrie.app
@@ -11346,6 +11347,7 @@
 *.younetu.com
 *.youngatheart.com
 *.youpornbook.com
+*.youranimebox.com
 *.youranimerank.com
 *.yourbittorrent.com
 *.torrents.yourexotic.com
@@ -21762,6 +21764,7 @@
 *.frenchstreamtv.live
 *.frmovies.live
 *.fullmoviez.live
+*.futbollibree.live
 *.futbollibres.live
 *.futplayhd.live
 *.gangsterland-lordfilm.live
