@@ -31653,6 +31653,7 @@
 ||anime-loads.org^
 ||anime-wiki.org^
 ||animeddl.org^
+||animedown.org^
 ||animeforever.org^
 ||animefox.org^
 ||animegod.org^
