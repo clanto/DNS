@@ -15,6 +15,7 @@
 1008868842.rsc.cdn77.org
 1016945378.rsc.cdn77.org
 1017683305.rsc.cdn77.org
+102-orp-diordna.b-cdn.net
 102.theartieschaffer.com
 1028989235.rsc.cdn77.org
 1034336200.rsc.cdn77.org
@@ -1041,7 +1042,6 @@ brd-sdk-app-packages.s3.amazonaws.com
 bright-vpn.help
 brightdata-app-production-app-bucket.s3.us-east-1.amazonaws.com
 brightvpn.pro
-bringover.net
 britishproxy.com
 bro-ru.com
 bro-ru.net
@@ -1517,7 +1517,6 @@ edgevpn.help
 edgex-102.xyz
 edgex.trafficmanager.net
 editor.codingwizard.website
-editorialescelistina.click
 ednovasyunclash.com
 edpuzzle-lol.vercel.app
 edpuzzle.space
@@ -1989,6 +1988,7 @@ gtag.club.cdn.cloudflare.net
 gtasix.sparks.ddns-ip.net
 gtdqambjtl3.online
 gtkpw.com
+guardianvpn.net
 guestappearance.us
 guildstashtracker.xyz
 gulaaron.ru
@@ -3013,6 +3013,7 @@ mrr-qa2-static.b-cdn.net
 mrr-qa3-static.b-cdn.net
 msc.mcafee.com
 msgiepkj.com
+msjohnsonsmathworksheets.blog
 msstore-submissions.s3.us-east-1.amazonaws.com
 mtdhbqbf.com
 mtkidjkn.com
@@ -3319,6 +3320,7 @@ passageplace.com
 passssssssssword.easterndns.com
 patronize.bury.abrdns.com
 pawxy.com
+pay4app.store
 paydar.goooalir.co.uk
 pbavtqle.com
 pbproxy.red
@@ -3895,6 +3897,7 @@ securitykiss.com
 securly.mom
 secvpnproxy.co.cc
 seed4me-vpn.mom
+seed4me.app
 seed4me.help
 seelabour.com
 selenite.v6.army
@@ -4493,6 +4496,7 @@ uwqjkirj.com
 uytjhuyghbjkuiyhbjku.fghvhbvghjgj.bonded-game.com
 uzrzhcyx.com
 v-2ray.com
+v.cheerfun.dev
 v.theartieschaffer.com
 v22013121930515853.yourvserver.net
 v2202409222721288347.megasrv.de
@@ -4922,7 +4926,6 @@ webpro.xyz
 webproxy.club
 webproxy.com
 webproxy.ich-war-hier.de
-webproxy.online
 webproxy.us.com
 webproxyusa.com
 webrtc5.gvideo.co
@@ -5048,7 +5051,6 @@ xerivon.xyz
 xerocopy.karrozzin.cloud-ip.cc
 xerophagy.karrozzin.cloud-ip.cc
 xervolia.ru
-xf.kg
 xftld.org
 xg8tw7gfox.site
 xgndgeyn.com
