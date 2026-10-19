@@ -13537,6 +13537,7 @@
 ||app.fashalot.com^
 ||dyghye.fashionesta.com^
 ||jldtlh.fashionnova.com^
+||fashionposter.com^
 ||eewdrt.fashiontofigure.com^
 ||pl.fashmoms.com^
 ||invite.fashom.com^
@@ -15879,6 +15880,7 @@
 ||honeybutterbliss.com^
 ||a8cv.honeys-onlineshop.com^
 ||nljjem.honeys-onlineshop.com^
+||honeyscene.com^
 ||stats.honeywell.com^
 ||honorablehydrant.com^
 ||honorableland.com^
@@ -17699,6 +17701,7 @@
 ||trk03.knect365.com^
 ||knewpenny.com^
 ||knifetreasury.com^
+||knightface.com^
 ||datas.knitpicks.com^
 ||knitstamp.com^
 ||website-usage.knorr-bremse.com^
@@ -38182,6 +38185,7 @@
 ||a8clk.firadis.net^
 ||ytbnvm.firadis.net^
 ||stats.florianfritz.net^
+||flyyoung.net^
 ||a8cv.focusneo.net^
 ||metric.foodbusinessnews.net^
 ||a8trck.ws.formzu.net^
@@ -38239,6 +38243,7 @@
 ||a8.hakata-hisamatsu.net^
 ||plausible.haltakov.net^
 ||a8-22.hana-yume.net^
+||hardsixhockey.net^
 ||metrics.hatarako.net^
 ||cname-aa.hatarakunavi.net^
 ||wqfflc.hausgarten.net^
@@ -38381,6 +38386,7 @@
 ||analytics.meituan.net^
 ||smetrics.mercy.net^
 ||images.engage.mettel.net^
+||mgrace.net^
 ||content.mhs.net^
 ||p.midbound.net^
 ||marketing.millstonefinancial.net^

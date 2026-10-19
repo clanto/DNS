@@ -16690,6 +16690,7 @@
 *.app.fashalot.com
 *.dyghye.fashionesta.com
 *.jldtlh.fashionnova.com
+*.fashionposter.com
 *.eewdrt.fashiontofigure.com
 *.pl.fashmoms.com
 *.invite.fashom.com
@@ -19712,6 +19713,7 @@
 *.honeygoldfish.com
 *.a8cv.honeys-onlineshop.com
 *.nljjem.honeys-onlineshop.com
+*.honeyscene.com
 *.stats.honeywell.com
 *.honorablehall.com
 *.honorablehydrant.com
@@ -22102,6 +22104,7 @@
 *.trk03.knect365.com
 *.knewpenny.com
 *.knifetreasury.com
+*.knightface.com
 *.datas.knitpicks.com
 *.knitstamp.com
 *.knocommerce.com
@@ -34677,6 +34680,7 @@
 *.www.said3page.com
 *.eloqua.saiganeshk.com
 *.sail-personalize.com
+*.sail-track.com
 *.sailgeneral.com
 *.pages.sailgp.com
 *.tracking.sailgp.com
@@ -52460,6 +52464,7 @@
 *.ytbnvm.firadis.net
 *.fixelpixel.net
 *.stats.florianfritz.net
+*.flyyoung.net
 *.fndrsp.net
 *.fndrsp-checkout.net
 *.fnxstats.net
@@ -52548,6 +52553,7 @@
 *.plausible.haltakov.net
 *.a8-22.hana-yume.net
 *.happy-data.net
+*.hardsixhockey.net
 *.metrics.hatarako.net
 *.cname-aa.hatarakunavi.net
 *.wqfflc.hausgarten.net
@@ -52764,6 +52770,7 @@
 *.metrics.net
 *.images.engage.mettel.net
 *.mezereon.net
+*.mgrace.net
 *.content.mhs.net
 *.microintegration.net
 *.p.midbound.net

@@ -463,6 +463,9 @@
 3wvve99e.com
 4.theartieschaffer.com
 4.thetravelingtourguide.com
+401-0506.b-cdn.net
+401-0507.b-cdn.net
+401-retsam-swodniw.b-cdn.net
 416d70de.nip.io
 416d70de.sslip.io
 43btlxit.com
@@ -652,7 +655,6 @@ adsvpn.help
 advanced.name
 advancedvpn.com
 adventureize.com
-affntowl.com
 afilite.app
 aiiaguli.info
 ailivechatweb.com
@@ -777,7 +779,6 @@ artclass.lol
 arthi.rajmohan.nowhearthis.co.uk
 artiom.made.this.h0stname.net
 artsineducation.net
-aryuyjun.cc
 asbouyo-----ya.easterndns.com
 asdfghjkcefyh.easterndns.com
 asdfghjkl.sailforeducation.org
@@ -935,7 +936,6 @@ bgvpn.com
 bhejcsfbhd.ipv64.net
 bhjxdrxfc.ipv64.net
 bhkdk.cn
-bhlzibih.cc
 bhpuvkri.com
 bhuibv.ipv64.net
 bhuosr.ipv64.net
@@ -988,6 +988,7 @@ blueproxy.org
 bmetrics.org
 bmext1static.b-cdn.net
 bmjwk.cn
+bmqan2static.b-cdn.net
 bn0dghrx.com
 bnj0d3r2.com
 boda12306.com
@@ -1166,7 +1167,6 @@ cheapv2.net
 check.peer2profit.site
 check.ragpets.com
 cheddar-chute.com
-chicken.nuggets.are.good.privateimport.jp
 chickenalert.camdvr.org
 chik-chirikvpn.com
 chinacitybit.click
@@ -1354,7 +1354,6 @@ dfa-appointment.com
 dfddjn.ipv64.net
 dfujkias8.easterndns.com
 dfysh12.easterndns.com
-dgcwbybv.cc
 dgijregktokhtohy.easterndns.com
 dhjddhj.route64.de
 di-kuailian.com.cn
@@ -1378,7 +1377,6 @@ disjwhdhdhxujw.easterndns.com
 diskcrmvpn.co.cc
 diskjlpa9.easterndns.com
 diufks10.easterndns.com
-diuwdkjf.cc
 divalane.com
 djc5yls6yrtdmo69.online
 dk414pzm.com
@@ -1533,7 +1531,6 @@ eq.dawuiiwauidwahyuiwahuioqwd.site
 eq8v2xfv.com
 eqhwuonjkmjewhqunijmemwqhuinjmkhunj.easterndns.com
 eqwnmhg.chickenkiller.com
-erjysmdn.com
 errwan65878.biz
 erwan59.pw
 erwan774.net
@@ -1648,6 +1645,7 @@ fhhcdvus.com
 fhturpmq.com
 fhvsdtll.com
 figcat.cc
+figure.run
 file.clean.abrdns.com
 filter-admins-come-and-get-me.easterndns.com
 filterbypass.me
@@ -1742,6 +1740,7 @@ freevpn.pw
 freevpnapp.org
 freevpnfast.info
 freevpnkeys.com
+freevpnme.b-cdn.net
 freevpnnet.com
 freevpnplanet-rus.com
 freevpnplanet-rus.net
@@ -1977,7 +1976,6 @@ hammerhead-shark.wifizone.org
 hammerhead.iot64.de
 hamsconfederal.top
 hamster67.loseyourip.com
-haodlmpx.cc
 haphazardlyx.com
 happ-on.ru
 happ-proxy.biz
@@ -2181,7 +2179,6 @@ hpgwxpn9.com
 hqconsole.com
 hqvpn.net
 hriscanskaadventistickacrkva.com
-hshdytfp.com
 hsyun.cloud
 hsyun.io
 ht-123.xyz
@@ -2225,6 +2222,7 @@ ib-kuailian.com.cn
 ibqlbd1z.com
 ibribeillegals.vaultnoir.com
 ibvpn.com
+ice.io
 icitek.com
 iditinahuipidorasidagga.net
 idkkilo.accesscam.org
@@ -2472,7 +2470,6 @@ kizvpn.ru
 kjantiddosvpn.online
 kk89hecrq.online
 klickhub.shop
-klimydkx.com
 kmilhmkq.com
 knightisd.org
 knotvpn.net
@@ -2480,7 +2477,6 @@ know.orbit.frawst.com
 kny666.com
 koavhvne.com
 kollon2.xyz
-kommpjxc.com
 konnnitiha----saiko.easterndns.com
 korededouda.laviewddns.com
 koxy.de
@@ -2598,7 +2594,6 @@ letsvpnpro.com
 letsvpnus.com
 letsvpnx.biz
 levsvpn.com
-leyfxjlv.cc
 lhgwneqv.com
 liability.registration.abrdns.com
 liberator.one
@@ -2800,19 +2795,8 @@ moeu01.top
 mofang02.com
 mofang06.com
 mofang07.com
-mofang076.com
 mofang09.com
 mofang10.com
-mofang101.com
-mofang102.com
-mofang103.com
-mofang104.com
-mofang105.com
-mofang106.com
-mofang107.com
-mofang108.com
-mofang109.com
-mofang110.com
 mofang111.com
 mofang112.com
 mofang113.com
@@ -2860,7 +2844,6 @@ mofang16.com
 mofang17.com
 mofang18.com
 mofang19.com
-mofang190.com
 mofang20.com
 mofang23.com
 mofang28.com
@@ -2869,13 +2852,11 @@ mofang33.com
 mofang43.com
 mofang46.com
 mofang47.com
-mofang478.com
 mofang50.com
 mofang51.com
 mofang52.com
 mofang53.com
 mofang55.com
-mofang562.com
 mofang61.com
 mofang62.com
 mofang63.com
@@ -2883,7 +2864,6 @@ mofang64.com
 mofang65.com
 mofang68.com
 mofang70.com
-mofang706.com
 mofang73.com
 mofang75.com
 mofang77.com
@@ -2913,9 +2893,10 @@ moscownews24.ru
 mouse.pics
 moutx2.co
 mqrxgzi4.com
-mrakfhre.com
 mramato2.myclarevision.com
 mrbuwfks.com
+mrr-qa-static.b-cdn.net
+mrr-qa2-static.b-cdn.net
 mrr-qa3-static.b-cdn.net
 msc.mcafee.com
 msgiepkj.com
@@ -3042,7 +3023,6 @@ nintendogames.net
 niovf.ipv64.net
 nirbytes.com
 njal.la
-nkalpwdp.com
 nkfkhcfe.com
 nljkjfdssdf.ckejlsd.nshosting.xyz
 noapi.xyz
@@ -3120,7 +3100,6 @@ oh.zjhmz.cn
 ohgodplease.help
 ohubhsvf.com
 oie1nrlo.com
-oixaqgnk.com
 okayfreedom.com
 okgfw.top
 okvpn.io
@@ -3162,7 +3141,6 @@ opsvpn.io
 oqlindar.ru
 orange1.freeddns.us
 order.registration.abrdns.com
-orfjgtif.com
 organic.storage.abrdns.com
 orinexa.xyz
 os.env.pm
@@ -3596,7 +3574,6 @@ rateavon.je
 ratecuts.us
 ravoapp.com
 rayvpn.help
-rbkqavjt.cc
 rc-1207.myclarevision.com
 rctproxy-shadow10.easterndns.com
 rctproxy-shadow11.easterndns.com
@@ -3694,7 +3671,6 @@ s18sef67.com
 s2wd5kbq.com
 s3-oregon-1.s3-us-west-2.amazonaws.com
 s4m.tech
-s4m.xyz
 s8.amazonaws.jdymqic.shop
 s8ks.us
 sacrarium.luminiferous.abrdns.com
@@ -3774,9 +3750,7 @@ securewebproxy.net
 securitykiss.com
 securly.mom
 secvpnproxy.co.cc
-seed4.me
 seed4me-vpn.mom
-seed4me.app
 seed4me.help
 seelabour.com
 selenite.v6.army
@@ -3840,13 +3814,13 @@ shopcube.pro
 shopmirrorless.xyz
 shoppingfestival.us
 shopproxy.net
-sia.tech
 sigma-vpn.store
 sigmavpn.help
 sigmavpn.homes
 sigmavpn.lol
 signup-express-vpn.guru
 simiqbwa.com
+simplevpn.info
 simplevpn.net
 simplynode.io
 sipidwnt.com
@@ -3943,6 +3917,7 @@ statsnet.group
 stayconnectedwitheasy.ru
 stayhidden.net
 steaksailor.com
+stealthsurf.app
 steganos.com
 stellar.accesscam.org
 stellar1.accesscam.org
@@ -4359,6 +4334,7 @@ uwqjkirj.com
 uytjhuyghbjkuiyhbjku.fghvhbvghjgj.bonded-game.com
 uzrzhcyx.com
 v-2ray.com
+v.cheerfun.dev
 v.theartieschaffer.com
 v22013121930515853.yourvserver.net
 v2202409222721288347.megasrv.de
@@ -4451,6 +4427,7 @@ victorokeke.com
 victorytechnologypro.com
 videocollage.us
 videomy.online
+videonew.online
 videoproxy.site
 videounblocked.com
 viewlak.com
@@ -4864,7 +4841,6 @@ wsu.ams3.digitaloceanspaces.com
 wtools.eu
 wuat2.xyz
 wuxx.store
-wwoybqre.cc
 wwqxglgbi.ipv64.net
 wws.152-53-136-204.plesk.page
 www-8.shaammy.ir
@@ -4908,6 +4884,7 @@ xerivon.xyz
 xerocopy.karrozzin.cloud-ip.cc
 xerophagy.karrozzin.cloud-ip.cc
 xervolia.ru
+xf.kg
 xftld.org
 xg8tw7gfox.site
 xgndgeyn.com
@@ -4958,7 +4935,6 @@ xupbihkb.com
 xv-client-json-configuration.s3.us-east-1.amazonaws.com
 xvmess.online
 xwnybcti.com
-xwohxfpi.cc
 xwvvwnip.com
 xyherb.xyz
 xylophagous.zelator.cloud-ip.cc
@@ -5027,7 +5003,6 @@ yozoragames.mills-family.us
 yqchonhx.com
 yrk70rea.com
 ytmusicub.bonded-game.com
-ytvbbomh.com
 ytyt.kozow.com
 yuhsce.easterndns.com
 yui.cat
@@ -5119,7 +5094,6 @@ znselxsz.com
 zo0g.site
 zoihvj9m.com
 zonevpn.com
-zoog.pro
 zoogas.site
 zoogasdaj.site
 zoogasja.site
@@ -5144,7 +5118,6 @@ zrackrmr.com
 zspeed-cdn.com
 zttqwgui.com
 zugvpn.help
-zumuzoig.cc
 zuyg.site
 zwytzjjz.com
 zxtwpkso.com
