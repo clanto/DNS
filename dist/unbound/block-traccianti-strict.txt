@@ -312,6 +312,7 @@
 *.tncid.app
 *.pa.travelwhiz.app
 *.track.ttsave.app
+*.r.upload.app
 *.nums.upscale.app
 *.to.uptime.app
 *.lets.useflash.app
@@ -10070,6 +10071,7 @@
 *.tracker.cdnbye.com
 *.statsegg.cdngeek.com
 *.beacon.cdnma.com
+*.beacon.cdnpure.com
 *.rum.cdnpure.com
 *.cdnral.com
 *.cdnwidget.com
@@ -26236,6 +26238,7 @@
 *.tics.techdirt.com
 *.techdrivethru.com
 *.analytics.techem.com
+*.stats.techinate.com
 *.marketing.techinsurance.com
 *.marketing.techlogix.com
 *.link.techmaxapp.com

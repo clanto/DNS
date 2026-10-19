@@ -7493,6 +7493,7 @@ beacon.affil.walmart.com
 beacon.aimtell.com
 beacon.cdn.qq.com
 beacon.cdnma.com
+beacon.cdnpure.com
 beacon.coofis.com
 beacon.dropbox.com
 beacon.errorception.com
@@ -26881,6 +26882,7 @@ r.sax.sina.com.cn
 r.sdiapi.net
 r.skimresources.com
 r.sportsie.com
+r.upload.app
 r.winf.site
 r.wz.de
 r1ztni.oui.sncf
@@ -34984,6 +34986,7 @@ stats.tazeros.com
 stats.tdameritrade.com
 stats.te.com
 stats.teamdetails.com
+stats.techinate.com
 stats.tedserbinski.com
 stats.teenranch.com
 stats.tekin.co.uk

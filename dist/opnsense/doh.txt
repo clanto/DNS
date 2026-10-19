@@ -157,7 +157,6 @@ adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
 adguard.jfchenier.ca
-adguard.johanliebert.top
 adguard.k-likhachev.ru
 adguard.kantinyoyok.xyz
 adguard.kiboko.it
@@ -409,7 +408,6 @@ beacon.dog
 beautifullife.eu.org
 beautifulthings.eu.org
 bei01.dnscry.pt
-bestwon203.com
 bh.wael.name
 biba.ydns.eu
 bkk01.dnscry.pt
@@ -1108,7 +1106,6 @@ dns.paxavemedia.com
 dns.pccoach.nl
 dns.peb-schmidt.de
 dns.periactes.com
-dns.pernika.net
 dns.pesaventofilippo.com
 dns.petqa.ru
 dns.phillipjberry.net
@@ -1493,7 +1490,6 @@ doh.dns4all.eu
 doh.dnscrypt.uk
 doh.dnswarden.com
 doh.domreg.lt
-doh.e7.work
 doh.eddi.net
 doh.edifiels.ru
 doh.ersei.net
@@ -1582,7 +1578,6 @@ doh.zephyrus.id
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
-doh1.b-cdn.net
 doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
@@ -1640,7 +1635,6 @@ edns.233py.com
 ee-tll.doh.sb
 egorovna.su
 egshe.myqnapcloud.com
-eime.goip.de
 ejaysss.dev
 eliatofani.ovh
 emby.rasp.tv
@@ -1663,7 +1657,6 @@ family-filter-dns.cleanbrowsing.org
 family.adguard-dns.com
 family.canadianshield.cira.ca
 family.cloudflare-dns.com
-family.dns.doubleangels.com
 family.dns.dremaxx.com
 family.dns.mullvad.net
 family.dns.ningkelle.id
@@ -1675,6 +1668,7 @@ familyshield.opendns.com
 fanscloud.net
 faradns.net
 faradns2.net
+fargos2.dns.army
 fdns1.dismail.de
 fdns2.dismail.de
 fennec.blackyfox.net
@@ -1744,6 +1738,7 @@ google-public-dns-b.google.com
 goose.buckyfan.net
 gr.skrsteam.info
 graf.mywire.org
+graveofhope.ru
 greatideasforlife.lol
 green2.jnraptor.net
 green3.jnraptor.net
@@ -2027,7 +2022,7 @@ los02.dnscry.pt
 lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
-lukscasino-479-tr.xyz
+lukscasino-929-tr.xyz
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
 maherhost.uk
@@ -2039,10 +2034,6 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
-mask-canary.icloud.com
-mask-h2.icloud.com
-mask.apple-dns.net
-mask.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2054,7 +2045,6 @@ mechanikdns.kozow.com
 meganerd.nl
 megumin.is.my.waifu.cz
 mel01.dnscry.pt
-mendozasdelivery.com
 mfimail.eu
 mia01.dnscry.pt
 mickedi.isgood.host
@@ -2525,7 +2515,6 @@ szyrzyk.pl
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
-tecdrive.site
 tecworx.at
 telex.app
 test.adg.siudzinski.net
@@ -2581,7 +2570,6 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
-tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
