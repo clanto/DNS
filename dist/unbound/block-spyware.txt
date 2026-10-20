@@ -4,6 +4,7 @@
 *.rc-api.lifecircle.app
 *.api.trackview.lifecircle.app
 *.android.spy24.app
+*.api.stalkerware.app
 *.app.xdspy.app
 *.api.mobilespy.at
 *.androidapk.biz

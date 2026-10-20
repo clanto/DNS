@@ -16,6 +16,7 @@
 1008868842.rsc.cdn77.org
 1016945378.rsc.cdn77.org
 1017683305.rsc.cdn77.org
+102-orp-diordna.b-cdn.net
 102.theartieschaffer.com
 1028989235.rsc.cdn77.org
 1034336200.rsc.cdn77.org
@@ -82,7 +83,6 @@
 1133309464.rsc.cdn77.org
 1138625791.rsc.cdn77.org
 1138962056.rsc.cdn77.org
-114-etilobrut-diordna.b-cdn.net
 114.ip-158-69-222.net
 1142797333.rsc.cdn77.org
 1153865737.rsc.cdn77.org
@@ -471,6 +471,9 @@
 3wvve99e.com
 4.theartieschaffer.com
 4.thetravelingtourguide.com
+401-0506.b-cdn.net
+401-0507.b-cdn.net
+401-retsam-swodniw.b-cdn.net
 41.hide.newflamingodomain.co.uk
 416d70de.nip.io
 416d70de.sslip.io
@@ -619,6 +622,7 @@
 9nd0oy2n.com
 9sskdjs.shop
 9thballs.camdvr.org
+9w9.org
 9yuan.top
 a-regist.anondns.net
 a.cpfrx.info
@@ -996,12 +1000,10 @@ blewpass.com
 blncapi.com
 blockaway.io
 blockziziidesu.f5.si
-blooket.broomleigh.org
 bloquer.fr
 bluegray.us
 blueproxy.org
 bmetrics.org
-bmext1static.b-cdn.net
 bmjwk.cn
 bmqan2static.b-cdn.net
 bn0dghrx.com
@@ -1042,6 +1044,7 @@ bro-ru.org
 broadearn.com
 bromineproxy.netlify.app
 browsebridge.com
+browsec-ru.b-cdn.net
 browsec-ru.bz
 browsec-ru.com
 browsec-ru.net
@@ -1065,6 +1068,7 @@ brsueykh.com
 brunysixl.work
 brunysixl.work.cdn.cloudflare.net
 brwczgvk.com
+bs-static.b-cdn.net
 bs8h3v1f.com
 bsbollbn.com
 btc4animals.com
@@ -1182,7 +1186,6 @@ cheapv2.net
 check.peer2profit.site
 check.ragpets.com
 cheddar-chute.com
-chicken.nuggets.are.good.privateimport.jp
 chickenalert.camdvr.org
 chik-chirikvpn.com
 chinacitybit.click
@@ -1772,6 +1775,7 @@ freevpn.pw
 freevpnapp.org
 freevpnfast.info
 freevpnkeys.com
+freevpnme.b-cdn.net
 freevpnnet.com
 freevpnplanet-rus.com
 freevpnplanet-rus.net
@@ -2262,6 +2266,7 @@ ib-kuailian.com.cn
 ibqlbd1z.com
 ibribeillegals.vaultnoir.com
 ibvpn.com
+ice.io
 icitek.com
 iditinahuipidorasidagga.net
 idkkilo.accesscam.org
@@ -2675,6 +2680,7 @@ lightspeedisgay.cfd
 limaklhc6.info
 limitlessproxy.com
 limpvpn.com
+linewize.broomleigh.org
 linewizenet.easterndns.com
 linewizesucks.myclarevision.com
 link-five.ibewlocalzero.com
@@ -2854,8 +2860,6 @@ mjkuhini-777.easterndns.com
 mjpabahu.com
 mkdkkn5k.com
 mkkewfye.com
-mlst-prom-static.b-cdn.net
-mlst-static.b-cdn.net
 mm.unstop.cloudns.ch
 mnqwscym.com
 mobile-socket.culturegps.com
@@ -2969,10 +2973,8 @@ moscownews24.ru
 mouse.pics
 moutx2.co
 mqrxgzi4.com
-mramato2.myclarevision.com
 mrbuwfks.com
 mrr-qa-static.b-cdn.net
-mrr-qa2-static.b-cdn.net
 mrr-qa3-static.b-cdn.net
 msc.mcafee.com
 msgiepkj.com
@@ -3248,6 +3250,7 @@ outsideproxy-2-9f1b1809ba7c1b7a.elb.us-east-1.amazonaws.com
 outsourcers4.biz
 overcloaked.was-on-decayeds-island.xyz
 overplay.net
+oversecure.ltd
 ovpn.com
 ovpn.pw
 owenforzono.entergod.com
@@ -3778,6 +3781,7 @@ s2wd5kbq.com
 s3-oregon-1.s3-us-west-2.amazonaws.com
 s47n.ir.ir.ir.meli-n12.info
 s4m.tech
+s4m.xyz
 s7n.ir.ir.ir.meli-n12.info
 s8.amazonaws.jdymqic.shop
 s8ks.us
@@ -3788,6 +3792,7 @@ safehousetech.com
 safemyip.pro
 safenetbrowser.com
 safeproxy.app
+saferiverpay.com
 safersurfing.net
 safeshellvpn.com
 safetysurf.net
@@ -5016,6 +5021,7 @@ xerivon.xyz
 xerocopy.karrozzin.cloud-ip.cc
 xerophagy.karrozzin.cloud-ip.cc
 xervolia.ru
+xf.kg
 xftld.org
 xg8tw7gfox.site
 xgndgeyn.com

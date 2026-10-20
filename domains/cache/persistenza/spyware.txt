@@ -930,3 +930,5 @@ xnore.com
 xnspy.com
 xpcpanel.com
 zdalnakontrola.pl
+@497925
+api.stalkerware.app

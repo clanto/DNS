@@ -15436,7 +15436,6 @@ harborcaption.com
 harborcontrol.com
 harborcub.com
 hardinet.actonservice.com
-hardsixhockey.net
 harlan.actonservice.com
 harman.epoise.com
 harmantest.epoise.com
@@ -18381,6 +18380,7 @@ l.bigbasket.com
 l.biglion.ru
 l.brightside.com
 l.bspace.io
+l.ca.ovhcloud.com
 l.civic.com
 l.claphere.com
 l.closermag.fr
@@ -27031,6 +27031,7 @@ receiptcent.com
 receive.wmcdp.io
 receptivereaction.com
 recessrain.com
+recipearena.com
 recipepile.net
 recipepin.com
 reco.target2sell.com

@@ -21594,6 +21594,7 @@
 *.overratedchalk.com
 *.analyticssec.overwolf.com
 *.analytics.ovh.com
+*.l.ca.ovhcloud.com
 *.tracking.ent.oviahealth.com
 *.learn.oviahealth.com
 *.app.ovloop.com
@@ -23248,6 +23249,7 @@
 *.recessrain.com
 *.trk.recetasprimavera.com
 *.link.rechat.com
+*.recipearena.com
 *.recipepin.com
 *.a8.recmount-plus.com
 *.reconditeprison.com
@@ -38251,7 +38253,6 @@
 *.a8.hakata-hisamatsu.net
 *.plausible.haltakov.net
 *.a8-22.hana-yume.net
-*.hardsixhockey.net
 *.metrics.hatarako.net
 *.cname-aa.hatarakunavi.net
 *.wqfflc.hausgarten.net
