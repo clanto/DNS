@@ -306,6 +306,7 @@
 *.analytics.vdo.ai
 *.analytics1.vdo.ai
 *.user-telemetry.vectra.ai
+*.t.venice.ai
 *.js.verisoul.ai
 *.vespa.ai
 *.adv-analytics-collector.videograph.ai
@@ -413,6 +414,7 @@
 *.go.frescofrigo.app
 *.av6fm8zw2cvz.furucombo.app
 *.join.fusely.app
+*.gaij.app
 *.guterrat.gaius.app
 *.my.gaius.app
 *.open.gaius.app
@@ -2937,6 +2939,7 @@
 *.flog.pressplay.cc
 *.privacy-analytics.cc
 *.pks-analytics.raenonx.cc
+*.report.senzia.cc
 *.si-n.cc
 *.stape.cc
 *.cv.tenjin.cc
@@ -39625,6 +39628,7 @@
 *.unbecominglamp.com
 *.unboundid.com
 *.tracker.unbxdapi.com
+*.fp.uncensored.com
 *.siewmi.uncommongoods.com
 *.uncoveredcircle.com
 *.uncoveredexpert.com
@@ -42392,6 +42396,8 @@
 *.target.pwc.com.cy
 *.tracking.stihl.com.cy
 *.api-dc-prod-001.cyou
+*.api-dc-prod-003.cyou
+*.api-dc2-prod-03.cyou
 *.api-dc2-prod-06.cyou
 *.lowprice.cyou
 *.umommy.cyou
@@ -44312,6 +44318,7 @@
 *.web-vitals-script.leaderint.workers.dev
 *.removeads.workers.dev
 *.searchable.workers.dev
+*.mxanalytics.youruncensoredai.workers.dev
 *.wpmetrics.dev
 *.tracker.xgen.dev
 *.plausible.zest.dev
@@ -47311,6 +47318,7 @@
 *.smetrics.americanairlines.in
 *.analyticsir.in
 *.appanalytics.in
+*.aqkdmicibfav.in
 *.b-eye-network.in
 *.smetrics.babycenter.in
 *.app.babycloud.in

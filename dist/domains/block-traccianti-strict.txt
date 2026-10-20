@@ -13945,6 +13945,7 @@ fp.kalevavakuutus.fi
 fp.mandatum.fi
 fp.mandatumlife.fi
 fp.mandatumtrader.fi
+fp.uncensored.com
 fpa-cdn.adweek.com
 fpa-cdn.arstechnica.com
 fpadga.mcruises.ru
@@ -14250,6 +14251,7 @@ gaccwr.dutramaquinas.com.br
 gadgetboy.net
 gagysn.floward.com
 gahhfg.bobo.com.br
+gaij.app
 gak.webtoons.com
 galileotelemetry.tencent.com
 gallerysouvlakeri.openapp.link
@@ -24164,6 +24166,7 @@ mx.information.maileva.com
 mx.mywd.com
 mx2.carte-gr.total.fr
 mx2.happ.social
+mxanalytics.youruncensoredai.workers.dev
 mxdzxd.mister-auto.com
 mxhunv.kurz-mal-weg.de
 mxmwqo.biosante.com.br
@@ -27193,6 +27196,7 @@ reply.osv.com
 report.23video.com
 report.appmetrica.yandex.net.iberostar.com
 report.meituan.com
+report.senzia.cc
 reportic.app
 reporting-api.gannettinnovation.com
 reporting.autographapp.me
@@ -36115,6 +36119,7 @@ t.usctrojans.com
 t.utahstateaggies.com
 t.utrockets.com
 t.valcyte.com
+t.venice.ai
 t.veranstaltungsticket-bahn.de
 t.vibe.co
 t.villanova.com

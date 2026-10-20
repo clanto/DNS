@@ -463,6 +463,7 @@
 ||z-library.asia^
 ||zlibrary.asia^
 ||123moviesfree.at^
+||animeunity.at^
 ||crichd.at^
 ||mixes.dfx.at^
 ||dood.at^
@@ -4434,6 +4435,7 @@
 ||altadefinizione.cloud^
 ||altadefinizione01.cloud^
 ||altadefinizionegratis.cloud^
+||animeindo.cloud^
 ||audiobooks.cloud^
 ||balkanio.cloud^
 ||bedro.cloud^
@@ -5165,7 +5167,6 @@
 ||hdmovie2.coffee^
 ||prmovies.coffee^
 ||streaming-community.coffee^
-||streamingcommunityz.coffee^
 ||yomovies.coffee^
 ||filmoflix.college^
 ||filmoflixi.college^
@@ -7631,6 +7632,7 @@
 ||hdfilmcehennemi11111.com^
 ||hdfilmcehennemi14.com^
 ||hdfilmcehennemi27.com^
+||hdfilmcehennemiizle.com^
 ||hdfilmcehennemini.com^
 ||hdfilmcehennemiv1.com^
 ||hdfilmcehennemiv2.com^
@@ -7715,6 +7717,7 @@
 ||hdmoviedaily.com^
 ||hdmoviedrive.com^
 ||hdmovieebox.com^
+||hdmoviefacts.com^
 ||hdmoviefull.com^
 ||hdmoviefun.com^
 ||hdmoviego.com^
@@ -9375,6 +9378,7 @@
 ||putlocker.com^
 ||putlocker-m.com^
 ||putlocker0k.com^
+||putlocker18.com^
 ||putlocker19.com^
 ||putlocker3k.com^
 ||putlocker4me.com^
@@ -9481,6 +9485,7 @@
 ||relizua.com^
 ||reloadedsteam.com^
 ||renrencili.com^
+||repackland.com^
 ||requestcracks.com^
 ||reqzone.com^
 ||torrent.resonatingmedia.com^
@@ -10099,11 +10104,13 @@
 ||taraftarium24bjk8.com^
 ||taraftarium24bjk9.com^
 ||taraftarium24fb.com^
+||taraftarium24fb21.com^
 ||taraftarium24izle.com^
 ||taraftarium24turkiye-hd.com^
 ||taraftarium24turkiyetv.com^
 ||taraftarium60.com^
 ||taraftariumtv32.com^
+||taraftariumtv35.com^
 ||tarantularangler.com^
 ||tarhex.com^
 ||tarjetarojatvhd.com^
@@ -15863,6 +15870,7 @@
 ||hdmovierulz.info^
 ||hdmoviesbox.info^
 ||hdmovieshub.info^
+||hdmoviesmaza.info^
 ||hdmovietrailers.info^
 ||hdreactor.info^
 ||hellofieldawarezone.info^
@@ -15915,6 +15923,7 @@
 ||motchillz.info^
 ||motchillzz.info^
 ||movierulz-2026.info^
+||movierulzapk.info^
 ||movierulztvv.info^
 ||moviesmode.info^
 ||moviespur.info^
@@ -16437,7 +16446,7 @@
 ||cmovies.is^
 ||cuevana.is^
 ||cuevana3.is^
-||tracker.cyberia.is^
+||cyberia.is^
 ||demonoid.is^
 ||dood.is^
 ||tracker.empornium.is^
@@ -27468,6 +27477,7 @@
 ||qatarstreams.me^
 ||rarbg.me^
 ||repack.me^
+||restreaming.me^
 ||tracker.revolutiontt.me^
 ||rgshows.me^
 ||rojadirecta.me^
@@ -27485,7 +27495,6 @@
 ||serien.me^
 ||series9.me^
 ||sharebb.me^
-||tracker.shkinev.me^
 ||skymovieshd.me^
 ||tracker.slitopen.me^
 ||soap2day2.me^
@@ -30102,6 +30111,7 @@
 ||seriesflixtv.net^
 ||serieson.net^
 ||seriesonlinehd.net^
+||torrent.serveblog.net^
 ||severedbytes.net^
 ||retracker.sevstar.net^
 ||sex-torrent.net^
@@ -30474,6 +30484,7 @@
 ||xdude.net^
 ||xenialbb.net^
 ||xmovies.net^
+||xmoviesforyou.net^
 ||xtaze.net^
 ||xthor.net^
 ||xtreme-warez.net^
@@ -30541,7 +30552,6 @@
 ||pelisflix2.network^
 ||solarmovie.network^
 ||streaming-community.network^
-||streamingcommunityz.network^
 ||stresser.network^
 ||unblocked.network^
 ||yesmovies.network^
@@ -31690,7 +31700,6 @@
 ||fmovies.ooo^
 ||hdmovie2.ooo^
 ||streamingcommunity.ooo^
-||streamingcommunityz.ooo^
 ||vegamovies-nl.ooo^
 ||0123movies.org^
 ||0123moviesfree.org^
@@ -32856,6 +32865,7 @@
 ||tapecity.org^
 ||tapewithadblock.org^
 ||taraftarium24turkiye.org^
+||taraftariumizle24.org^
 ||taraftariumonline24.org^
 ||tarjetarojaonline.org^
 ||tracker.tasvideos.org^
@@ -33078,6 +33088,7 @@
 ||xalaflix-tv.org^
 ||xalaflixtv.org^
 ||xbins.org^
+||xisp.org^
 ||xmovies8.org^
 ||xmoviesforyou.org^
 ||xstreaming-cdn.org^
@@ -33148,7 +33159,6 @@
 ||streamingcommunity.paris^
 ||streamingcommunityz.partners^
 ||kinox.parts^
-||streamingcommunityz.parts^
 ||torrent.parts^
 ||tracker.ducks.party^
 ||flemmix.party^
@@ -33213,7 +33223,6 @@
 ||dontorrent.photos^
 ||streaming-community.photos^
 ||streamingcommunity.photos^
-||streamingcommunityz.photos^
 ||vegamovies.photos^
 ||0123movies.pics^
 ||123movies.pics^
@@ -33314,7 +33323,6 @@
 ||mycima.pink^
 ||myflixer.pink^
 ||streamingcommunity.pink^
-||streamingcommunityz.pink^
 ||uhdmovies.pink^
 ||filmoflix.pizza^
 ||gomovies.pizza^
@@ -34020,6 +34028,7 @@
 ||soap2day-to.pro^
 ||soap2day1.pro^
 ||soap2day9.pro^
+||soap2dayfilm.pro^
 ||soap2dayhd.pro^
 ||soap2daymovies.pro^
 ||soap2daymx.pro^
@@ -34346,7 +34355,6 @@
 ||streaming-community.rentals^
 ||bollyflix.repair^
 ||hdmovie2.repair^
-||streamingcommunityz.repair^
 ||yomovies.repair^
 ||streamingcommunity.report^
 ||yomovies.report^
@@ -50340,8 +50348,7 @@
 ||onionplay.se^
 ||tracker.opentracker.se^
 ||pelisflix.se^
-||sugoi.pomf.se^
-||tracker.pomf.se^
+||pomf.se^
 ||popcorn-time.se^
 ||prmovies.se^
 ||prmoviesapp.se^
@@ -50366,6 +50373,7 @@
 ||torrentproject.se^
 ||torrents.se^
 ||uhdmovies.se^
+||unblocked.se^
 ||underver.se^
 ||vegamovies.se^
 ||vipboxtv.se^
@@ -50425,7 +50433,6 @@
 ||git.vulnix.sh^
 ||tracker.vulnix.sh^
 ||8mm.shiksha^
-||streamingcommunityz.shiksha^
 ||123movies0.shop^
 ||123movies4u.shop^
 ||123moviesfree.shop^
@@ -50929,6 +50936,7 @@
 ||ngefilm.site^
 ||nightbreeze17.site^
 ||pelisflix.site^
+||pelisflix200.site^
 ||pirateproxy.site^
 ||playerhd.site^
 ||popcornflix.site^
@@ -52011,7 +52019,7 @@
 ||mycima.tech^
 ||myflixer.tech^
 ||piratebay.tech^
-||tracker.pmman.tech^
+||pmman.tech^
 ||purstream.tech^
 ||skymovieshd.tech^
 ||solarmovie.tech^
@@ -53000,6 +53008,7 @@
 ||lordfilm-52bp.top^
 ||lordfilm-65.top^
 ||lordfilm-96ip.top^
+||lordfilm-amerikanskaya-istoriya-uzhasov.top^
 ||lordfilm-app.top^
 ||lordfilm-bb.top^
 ||lordfilm-best.top^
@@ -53014,6 +53023,7 @@
 ||lordfilm-kinozarubej.top^
 ||lordfilm-kubik.top^
 ||lordfilm-lol.top^
+||lordfilm-metlok.top^
 ||lordfilm-moli.top^
 ||lordfilm-most-cinema.top^
 ||lordfilm-my2026.top^
@@ -53056,6 +53066,7 @@
 ||lordfilm-saw.top^
 ||lordfilm-serialy.top^
 ||lordfilm-sport.top^
+||lordfilm-terapiya.top^
 ||lordfilm-tut.top^
 ||lordfilm-tvs.top^
 ||lordfilm-v.top^
@@ -53322,6 +53333,7 @@
 ||lordfilms-26.top^
 ||lordfilms-kino.top^
 ||lordfilms-orig.top^
+||lordfilms-ukrytie.top^
 ||lordfilms24.top^
 ||lordfilmsacred.top^
 ||lordfilmsadovnik.top^
@@ -56453,6 +56465,7 @@
 ||earnvids.xyz^
 ||ekinox.xyz^
 ||ekinoxilac.xyz^
+||elekk.xyz^
 ||emetsbank.xyz^
 ||tracker.encrypted-data.xyz^
 ||epic-warez.xyz^
@@ -56478,6 +56491,7 @@
 ||filmstreaming10.xyz^
 ||filmtg.xyz^
 ||filmy4play.xyz^
+||filmyflix4u.xyz^
 ||filmypark.xyz^
 ||filmytoli.xyz^
 ||finalstreams.xyz^
@@ -57336,6 +57350,7 @@
 ||uk-unblock.xyz^
 ||ukpirateproxy.xyz^
 ||ukrytie-lordfilm.xyz^
+||unblocked2.xyz^
 ||unblocked2026.xyz^
 ||unblockedgames.xyz^
 ||unblockedgames67.xyz^

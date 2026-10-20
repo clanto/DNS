@@ -6920,6 +6920,8 @@ aphxav.green-acres.it
 api-analytics-prd.pelcro.com
 api-bdc.net
 api-dc-prod-001.cyou
+api-dc-prod-003.cyou
+api-dc2-prod-03.cyou
 api-dc2-prod-06.cyou
 api-gps-em.hismarttv.com
 api-gps-na.hismarttv.com
@@ -7996,6 +7998,7 @@ aqatt7trk.com
 aqbron.battlepage.com
 aqbsolutions.com
 aqewy8trk.com
+aqkdmicibfav.in
 aqkpl1trk.com
 aqmtrck.com
 aqmzbk.avectoi.kr
@@ -18095,6 +18098,7 @@ fp.kalevavakuutus.fi
 fp.mandatum.fi
 fp.mandatumlife.fi
 fp.mandatumtrader.fi
+fp.uncensored.com
 fp.yahoo.com
 fpa-cdn.adweek.com
 fpa-cdn.arstechnica.com
@@ -18546,6 +18550,7 @@ gadgetsecom.com
 gagetapp.com
 gagysn.floward.com
 gahhfg.bobo.com.br
+gaij.app
 gainsight.com
 gainsightcloud.com
 gak.webtoons.com
@@ -35607,6 +35612,7 @@ mx.mywd.com
 mx.nextlgsdp.com
 mx2.carte-gr.total.fr
 mx2.happ.social
+mxanalytics.youruncensoredai.workers.dev
 mxcdn.net
 mxcount.xyz
 mxdzxd.mister-auto.com
@@ -40354,6 +40360,7 @@ report-uri.io
 report.23video.com
 report.appmetrica.yandex.net.iberostar.com
 report.meituan.com
+report.senzia.cc
 reportbuilder.net
 reportic.app
 reporting-api.gannettinnovation.com
@@ -50797,6 +50804,7 @@ t.usctrojans.com
 t.utahstateaggies.com
 t.utrockets.com
 t.valcyte.com
+t.venice.ai
 t.veranstaltungsticket-bahn.de
 t.vibe.co
 t.villanova.com

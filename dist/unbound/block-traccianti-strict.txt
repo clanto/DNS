@@ -125,6 +125,7 @@
 *.tracker.services.vaix.ai
 *.analytics.vdo.ai
 *.analytics1.vdo.ai
+*.t.venice.ai
 *.js.verisoul.ai
 *.adv-analytics-collector.videograph.ai
 *.deeplink.wagr.ai
@@ -196,6 +197,7 @@
 *.go.frescofrigo.app
 *.av6fm8zw2cvz.furucombo.app
 *.join.fusely.app
+*.gaij.app
 *.guterrat.gaius.app
 *.my.gaius.app
 *.open.gaius.app
@@ -2506,6 +2508,7 @@
 *.rlog.popin.cc
 *.flog.pressplay.cc
 *.pks-analytics.raenonx.cc
+*.report.senzia.cc
 *.cv.tenjin.cc
 *.tp-em.cc
 *.stbg.standardbank.cd
@@ -27552,6 +27555,7 @@
 *.unbecominghall.com
 *.unbecominglamp.com
 *.tracker.unbxdapi.com
+*.fp.uncensored.com
 *.siewmi.uncommongoods.com
 *.uncoveredexpert.com
 *.t.uncwsports.com
@@ -31244,6 +31248,7 @@
 *.rum-collector.leaderint.workers.dev
 *.web-vitals-script.leaderint.workers.dev
 *.removeads.workers.dev
+*.mxanalytics.youruncensoredai.workers.dev
 *.tracker.xgen.dev
 *.plausible.zest.dev
 *.recs-api.conde.digital
