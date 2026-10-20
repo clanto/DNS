@@ -38337,7 +38337,6 @@ pix.telekom-dienste.de
 pix.telekom.com
 pix.telekom.de
 pixanalytics.com
-pixapi.net
 pixel-a.basis.net
 pixel-storage.konnektu.ru
 pixel-tracker.com
@@ -38662,6 +38661,7 @@ play.wavelength.zone
 play5r.com
 playbook.convio.com
 playbookux.com
+playdaili.com
 player-metrics.instaread.co
 player-telemetry.vimeo.com
 playerhappy.com

@@ -109,7 +109,6 @@ fileqube.com
 files-express.com
 files.catbox.moe
 files.mail.ru
-files.to
 files6.com
 filesanywhere.com
 filesavr.com
@@ -424,5 +423,4 @@ ziddu.com
 zippyshare.com
 znail.com
 zonaimagen.es
-zoto.com
 zshare.net

@@ -38359,7 +38359,6 @@ pix.telekom-dienste.de
 pix.telekom.com
 pix.telekom.de
 pixanalytics.com
-pixapi.net
 pixel-a.basis.net
 pixel-storage.konnektu.ru
 pixel-tracker.com
@@ -60142,3 +60141,5 @@ honeyscene.com
 knightface.com
 mgrace.net
 sail-track.com
+@497908
+playdaili.com

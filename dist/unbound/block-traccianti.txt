@@ -32322,6 +32322,7 @@
 *.playbookux.com
 *.stg-data-collector.playbuzz.com
 *.tag-manager.playbuzz.com
+*.playdaili.com
 *.somni.playdium.com
 *.go.player2app.com
 *.playerhappy.com
@@ -52935,7 +52936,6 @@
 *.app.pickwin.net
 *.acv.pikarahikari.net
 *.ao.pioncomm.net
-*.pixapi.net
 *.lc-event.pixiv.net
 *.ahhrtt.pixnet.net
 *.placecast.net
