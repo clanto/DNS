@@ -42849,8 +42849,10 @@
 ||netffliix-lordfilm.ru^
 ||netffllux-lordfilms.ru^
 ||netfliiks-lordserially.ru^
+||netflix-lordfilm.ru^
 ||netflix-lordfilm-online.ru^
 ||netflixe-lordfilm.ru^
+||netflixmovies-lordfilm.ru^
 ||netplayz.ru^
 ||nettffllux-lordfilms.ru^
 ||nettflixx-lordfilm.ru^
@@ -50628,6 +50630,7 @@
 ||watchseries.show^
 ||yesmovies.show^
 ||123movies.si^
+||9anime.si^
 ||animepace.si^
 ||coflix.si^
 ||open.demonii.si^

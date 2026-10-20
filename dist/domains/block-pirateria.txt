@@ -2084,6 +2084,7 @@
 9anime.digital
 9anime.org.ua
 9anime.ru
+9anime.si
 9anime.to
 9anime.zone
 9animeapk.xyz
@@ -39064,7 +39065,9 @@ netffllux-lordfilms.ru
 netfilme.com
 netfliiks-lordserially.ru
 netflix-lordfilm-online.ru
+netflix-lordfilm.ru
 netflixe-lordfilm.ru
+netflixmovies-lordfilm.ru
 netflixparty.com
 netflytv.vip
 netmatrixbd.com

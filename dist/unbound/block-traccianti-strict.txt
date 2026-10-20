@@ -14537,6 +14537,7 @@
 *.pm.geniusmonkey.com
 *.tc.geniusmonkey.com
 *.smetrics.genomeweb.com
+*.genomicswire.com
 *.marketing.genpak.com
 *.app.gfis.genworth.com
 *.app.gfwm.genworth.com
@@ -15907,6 +15908,7 @@
 *.hospitablehall.com
 *.hospitablehat.com
 *.smetrics.hossintropia.com
+*.hostchutney.com
 *.sstats.hostelworld.com
 *.om.hoteis.com
 *.analytic.hotelclub.com
@@ -20718,6 +20720,7 @@
 *.my.nextgem.com
 *.tim.nextinpact.com
 *.link.nextlevelsports.com
+*.nextsmarty.com
 *.nexttopchef.com
 *.links.aws.nexttrucking.com
 *.links.nexttrucking.com
@@ -38564,6 +38567,7 @@
 *.count.sibbo.net
 *.a8clk.sirtuinbooster.net
 *.siteperformancetest.net
+*.skinnytea.net
 *.uudbvq.skuola.net
 *.play.skydreamcasino.net
 *.ana.skypemeet.net

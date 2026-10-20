@@ -17960,6 +17960,7 @@
 ||tc.geniusmonkey.com^
 ||genleads.com^
 ||smetrics.genomeweb.com^
+||genomicswire.com^
 ||marketing.genpak.com^
 ||gensquared.com^
 ||app.gfis.genworth.com^
@@ -19752,6 +19753,7 @@
 ||smetrics.hossintropia.com^
 ||host-tracker.com^
 ||hostanalytics.com^
+||hostchutney.com^
 ||sstats.hostelworld.com^
 ||hosterhatchhub.com^
 ||om.hoteis.com^
@@ -53106,6 +53108,7 @@
 ||a8clk.sirtuinbooster.net^
 ||site-stats.net^
 ||siteperformancetest.net^
+||skinnytea.net^
 ||uudbvq.skuola.net^
 ||play.skydreamcasino.net^
 ||ana.skypemeet.net^

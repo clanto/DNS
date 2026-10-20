@@ -16,7 +16,6 @@
 1008868842.rsc.cdn77.org
 1016945378.rsc.cdn77.org
 1017683305.rsc.cdn77.org
-102-orp-diordna.b-cdn.net
 102.theartieschaffer.com
 1028989235.rsc.cdn77.org
 1034336200.rsc.cdn77.org
@@ -702,7 +701,6 @@ alohabrowser.com
 alohaprofile.com
 alpha.y.glenwaverleychurches.org
 alphabr.online
-alphavpn.info
 alternatepath.net
 altovate.xyz
 alvgenad.com
@@ -1005,6 +1003,7 @@ blueproxy.org
 bmetrics.org
 bmext1static.b-cdn.net
 bmjwk.cn
+bmqan2static.b-cdn.net
 bn0dghrx.com
 bnj0d3r2.com
 boda12306.com
@@ -1637,6 +1636,7 @@ fastnbaapp.com
 fastnixes.net
 fastnodegw.com
 fastproxy.nl
+fastssh-vpn.com
 faststunnel.in
 faststunnel.net
 fasttime.info
@@ -2173,7 +2173,6 @@ hmnx.work
 hmx.info
 hockeybet.org
 hoeqphmi.com
-hola-client-cdn4.b-cdn.net
 hola-compat.com
 hola-vpn.com
 hola.org
@@ -2263,7 +2262,6 @@ ib-kuailian.com.cn
 ibqlbd1z.com
 ibribeillegals.vaultnoir.com
 ibvpn.com
-ice.io
 icitek.com
 iditinahuipidorasidagga.net
 idkkilo.accesscam.org
@@ -2677,7 +2675,6 @@ lightspeedisgay.cfd
 limaklhc6.info
 limitlessproxy.com
 limpvpn.com
-linewize.broomleigh.org
 linewizenet.easterndns.com
 linewizesucks.myclarevision.com
 link-five.ibewlocalzero.com
@@ -2858,6 +2855,7 @@ mjpabahu.com
 mkdkkn5k.com
 mkkewfye.com
 mlst-prom-static.b-cdn.net
+mlst-static.b-cdn.net
 mm.unstop.cloudns.ch
 mnqwscym.com
 mobile-socket.culturegps.com
@@ -2973,6 +2971,7 @@ moutx2.co
 mqrxgzi4.com
 mramato2.myclarevision.com
 mrbuwfks.com
+mrr-qa-static.b-cdn.net
 mrr-qa2-static.b-cdn.net
 mrr-qa3-static.b-cdn.net
 msc.mcafee.com
@@ -3642,7 +3641,6 @@ qwq-kuailian.com.cn
 qy4jow5snndan.online
 qya97ge69i2loo.com
 qytvipaffa01.cc
-qytvipaffa02.cc
 qytvipaffa03.cc
 qytvipaffa04.cc
 qytvipaffa05.cc
@@ -3780,7 +3778,6 @@ s2wd5kbq.com
 s3-oregon-1.s3-us-west-2.amazonaws.com
 s47n.ir.ir.ir.meli-n12.info
 s4m.tech
-s4m.xyz
 s7n.ir.ir.ir.meli-n12.info
 s8.amazonaws.jdymqic.shop
 s8ks.us
@@ -3791,7 +3788,6 @@ safehousetech.com
 safemyip.pro
 safenetbrowser.com
 safeproxy.app
-saferiverpay.com
 safersurfing.net
 safeshellvpn.com
 safetysurf.net
@@ -3932,6 +3928,7 @@ shopcube.pro
 shopmirrorless.xyz
 shoppingfestival.us
 shopproxy.net
+shorevpn.com
 shsh.anotelinopalk.co.uk
 sigma-vpn.store
 sigmavpn.help
@@ -3941,7 +3938,6 @@ signup-express-vpn.guru
 silnet.varfootball.co.uk
 silver.ciaude.co.uk
 simiqbwa.com
-simplevpn.info
 simplevpn.net
 simplynode.io
 sipidwnt.com
@@ -4481,7 +4477,6 @@ v2ny.top
 v2rayclient.com
 v2rayng.cyou
 v2raytan.ru
-v2raytun.me
 v2raytunvpn.app
 v2raytunvpn.blog
 v3u1iyrp.com
@@ -4743,7 +4738,6 @@ vpnkeys.help
 vpnkeys.me
 vpnkeys.mom
 vpnlite.net
-vpnly-ru.com
 vpnly-rus.com
 vpnly-rus.net
 vpnly-rus1.net
