@@ -10101,6 +10101,7 @@
 ||taraftarium24-aslan.com^
 ||taraftarium24-fb1.com^
 ||taraftarium24-lgnmtk1.com^
+||taraftarium24-live6.com^
 ||taraftarium24-mhsn.com^
 ||taraftarium24-off13.com^
 ||taraftarium24-web6.com^
@@ -10575,6 +10576,7 @@
 ||torrents-zone.com^
 ||torrents2download.com^
 ||torrents2hell.com^
+||torrents4mac.com^
 ||torrentsafe.com^
 ||torrentsave.com^
 ||torrentsbase.com^
@@ -13143,6 +13145,7 @@
 ||9kmovies.forum^
 ||altadefinizione-01.forum^
 ||altadefinizionegratis.forum^
+||altadefinizionex.forum^
 ||altadefinizionez.forum^
 ||cb01web.forum^
 ||cineblog001.forum^
@@ -21897,6 +21900,7 @@
 ||echoowl19.live^
 ||egydead.live^
 ||elkoora.live^
+||empirestreamings.live^
 ||eurostream.live^
 ||eurostreaming.live^
 ||eurostreamings.live^
@@ -51454,6 +51458,7 @@
 ||couchtuner.space^
 ||doodstream.space^
 ||egydead.space^
+||empirestreaming.space^
 ||eurostreamings.space^
 ||filmapik.space^
 ||filmapik21.space^

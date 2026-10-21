@@ -18,7 +18,6 @@
 1008868842.rsc.cdn77.org
 1016945378.rsc.cdn77.org
 1017683305.rsc.cdn77.org
-102-orp-diordna.b-cdn.net
 102.theartieschaffer.com
 1028989235.rsc.cdn77.org
 1034336200.rsc.cdn77.org
@@ -482,8 +481,6 @@
 4.theartieschaffer.com
 4.thetravelingtourguide.com
 401-0506.b-cdn.net
-401-0507.b-cdn.net
-401-retsam-swodniw.b-cdn.net
 41.hide.newflamingodomain.co.uk
 416d70de.nip.io
 416d70de.sslip.io
@@ -744,7 +741,6 @@ anonymous.how
 anonymousblog.info
 anonymouse.org
 anonymousengine.com
-anonymousvpn.org
 anonymox.net
 anonymurl.biz
 anonyome.com
@@ -1015,7 +1011,6 @@ bloquer.fr
 bluegray.us
 blueproxy.org
 bmetrics.org
-bmext1static.b-cdn.net
 bmjwk.cn
 bmqan2static.b-cdn.net
 bn0dghrx.com
@@ -1082,7 +1077,6 @@ brsueykh.com
 brunysixl.work
 brunysixl.work.cdn.cloudflare.net
 brwczgvk.com
-bs-static.b-cdn.net
 bs8h3v1f.com
 bsbollbn.com
 btc4animals.com
@@ -1613,6 +1607,7 @@ evol.mrco.giize.com
 evoproxy.net
 ewantt.net
 ewanw15.net
+ewanwzz.net
 ewkimppj.com
 ewon.biz
 ewrthyyhjterrxftyuhujtdr-6-udthvb-6-beta.vercel.app
@@ -2365,7 +2360,6 @@ interview.registration.abrdns.com
 intervpn.com
 iohnhbly.com
 iopl.xyz
-iosap2-static.b-cdn.net
 iosp33beec-20c12.kxcdn.com
 ioxy.de
 ip42.ip-15-204-147.us
@@ -2894,7 +2888,6 @@ mjkuhini-777.easterndns.com
 mjpabahu.com
 mkdkkn5k.com
 mkkewfye.com
-mlst-prom-static.b-cdn.net
 mlst-static.b-cdn.net
 mm.unstop.cloudns.ch
 mnqwscym.com
@@ -3010,7 +3003,6 @@ moutx2.co
 mqrxgzi4.com
 mramato2.myclarevision.com
 mrbuwfks.com
-mrr-qa-static.b-cdn.net
 mrr-qa2-static.b-cdn.net
 mrr-qa3-static.b-cdn.net
 msc.mcafee.com
@@ -3171,7 +3163,6 @@ nooshabe.mikhay.co.uk
 noprox.com
 nordvpn.com.br
 norhex.xyz
-norka.io
 normandy.tent.cloud-ip.cc
 northfayetteschools-org.sitesi.tc
 norvixa.ru
@@ -3332,6 +3323,7 @@ passageplace.com
 passssssssssword.easterndns.com
 patronize.bury.abrdns.com
 pawxy.com
+pay4app.store
 paydar.goooalir.co.uk
 pbavtqle.com
 pbproxy.red
@@ -3838,6 +3830,7 @@ safehousetech.com
 safemyip.pro
 safenetbrowser.com
 safeproxy.app
+saferiverpay.com
 safersurfing.net
 safeshellvpn.com
 safetysurf.net
@@ -4518,7 +4511,6 @@ uwqjkirj.com
 uytjhuyghbjkuiyhbjku.fghvhbvghjgj.bonded-game.com
 uzrzhcyx.com
 v-2ray.com
-v.cheerfun.dev
 v.theartieschaffer.com
 v22013121930515853.yourvserver.net
 v2202409222721288347.megasrv.de
@@ -5072,6 +5064,7 @@ xerivon.xyz
 xerocopy.karrozzin.cloud-ip.cc
 xerophagy.karrozzin.cloud-ip.cc
 xervolia.ru
+xf.kg
 xftld.org
 xg8tw7gfox.site
 xgndgeyn.com
