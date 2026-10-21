@@ -504,6 +504,7 @@
 *.ss.photospecialist.at
 *.analytics.pipelife.at
 *.analytics.pipelife-bewaesserung.at
+*.ocular.preisjaeger.at
 *.smetrics.pwc.at
 *.target.pwc.at
 *.images.campaign.reedexpo.at
@@ -10343,6 +10344,7 @@
 *.communicate.choicelogistics.com
 *.irmsolutions.choicepoint.com
 *.adebis.chojyu.com
+*.ocular.chollometro.com
 *.ftuart.chomedeynissan.com
 *.a8.choomia.com
 *.marketing.choosechicago.com
@@ -15929,6 +15931,7 @@
 *.analytics.hottopic.com
 *.sanalytics.hottopic.com
 *.vdkjfd.hottopic.com
+*.o-api.hotukdeals.com
 *.ocular.hotukdeals.com
 *.om.hotwire.com
 *.som.hotwire.com
@@ -21974,6 +21977,7 @@
 *.smetrics.peoplesjewellers.com
 *.metric.pepboys.com
 *.metrics.pepboys.com
+*.ocular.pepperdeals.com
 *.rnyhid.pepperfry.com
 *.pepperrun.com
 *.adpromo.peppynet.com
@@ -30656,6 +30660,7 @@
 *.vidfiles.net.mydays.de
 *.wpe-client02-vm4.net.mydays.de
 *.sxeimx.mydays.de
+*.ocular.mydealz.de
 *.analytics.myhermes.de
 *.as.myhomebook.de
 *.utiq.myhomebook.de
@@ -38253,6 +38258,7 @@
 *.a8.hakata-hisamatsu.net
 *.plausible.haltakov.net
 *.a8-22.hana-yume.net
+*.hardsixhockey.net
 *.metrics.hatarako.net
 *.cname-aa.hatarakunavi.net
 *.wqfflc.hausgarten.net
@@ -38568,7 +38574,6 @@
 *.count.sibbo.net
 *.a8clk.sirtuinbooster.net
 *.siteperformancetest.net
-*.skinnytea.net
 *.uudbvq.skuola.net
 *.play.skydreamcasino.net
 *.ana.skypemeet.net
@@ -40524,6 +40529,7 @@
 *.reydrj.papilot.pl
 *.adtd.parfumdreams.pl
 *.smetrics.payback.pl
+*.ocular.pepper.pl
 *.a.perfumesclub.pl
 *.smetrics.marketing.lighting.philips.pl
 *.analytics.pipelife.pl
@@ -41458,6 +41464,7 @@
 *.rddiqs.partyhallen.se
 *.stats.paulronge.se
 *.smetrics.paymarkfinans.se
+*.ocular.pepperdeals.se
 *.smetrics.marketing.lighting.philips.se
 *.pbox.photobox.se
 *.analytics.pipelife.se

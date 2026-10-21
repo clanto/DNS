@@ -22,6 +22,7 @@
 23.106.141.137.16clouds.com
 3.11i.eu
 3.local-dns.noridev.moe
+3dcosas.xyz
 3dns.eu
 3jjxxl.tech
 51576162.ru
@@ -195,7 +196,6 @@ adguard.ro0t.us
 adguard.rowdyengeesje.nl
 adguard.ruby.ci
 adguard.senthil.us
-adguard.servernation.xyz
 adguard.shoupperuser.com
 adguard.shutgaming.net
 adguard.shuting.idv.tw
@@ -334,7 +334,6 @@ alidns2.cb1999.top
 alisa.vpn.i81.ru
 all.dns.mullvad.net
 alleesph.online
-alon93rus.ru
 alpha-dns.quad9.net
 alpha.cixy.xyz
 amgr.asuscomm.com
@@ -354,6 +353,7 @@ andrykarcew.duckdns.org
 andybunn.onthewifi.com
 angry.pp.ua
 angrysky.ru
+anixlab.com
 ant.dns.qwer.pw
 antivirus.bebasid.com
 anycast.censurfridns.dk
@@ -409,6 +409,7 @@ beacon.dog
 beautifullife.eu.org
 beautifulthings.eu.org
 bei01.dnscry.pt
+bestwon203.com
 bh.wael.name
 biba.ydns.eu
 bkk01.dnscry.pt
@@ -835,6 +836,7 @@ dns.fehlsprache.de
 dns.ffnw.de
 dns.fizz.studio
 dns.flatuslifir.is
+dns.flightspace.net
 dns.floriantinney.de
 dns.flux24.net
 dns.flwagners.com
@@ -1106,6 +1108,7 @@ dns.paxavemedia.com
 dns.pccoach.nl
 dns.peb-schmidt.de
 dns.periactes.com
+dns.pernika.net
 dns.pesaventofilippo.com
 dns.petqa.ru
 dns.phillipjberry.net
@@ -1164,6 +1167,7 @@ dns.sarilouis.com
 dns.sark.dev
 dns.sb
 dns.sbstructure.ir
+dns.scapetical.com
 dns.scarx.net
 dns.scayn.com
 dns.schlagheck.berlin
@@ -1271,6 +1275,7 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
+dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -1501,6 +1506,7 @@ doh.funil.de
 doh.funtopia.tv
 doh.futa.app
 doh.hosterra.tech
+doh.hshkf.com
 doh.hugang8.cn
 doh.ibr.cs.tu-bs.de
 doh.immerda.ch
@@ -1586,6 +1592,7 @@ dohsg.goitoi.co
 dohtrial.att.net
 domburg.beruys.com
 domeq.waw.pl
+door.plasmadancer.ru
 dorkanddoodle.duckdns.org
 dot-de.blahdns.com
 dot-sg.blahdns.com
@@ -1657,6 +1664,7 @@ family-filter-dns.cleanbrowsing.org
 family.adguard-dns.com
 family.canadianshield.cira.ca
 family.cloudflare-dns.com
+family.dns.doubleangels.com
 family.dns.dremaxx.com
 family.dns.mullvad.net
 family.dns.ningkelle.id
@@ -2022,7 +2030,6 @@ lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
 lukscasino-479-tr.xyz
-lukscasino-929-tr.xyz
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
 maherhost.uk
@@ -2034,6 +2041,10 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
+mask-canary.icloud.com
+mask-h2.icloud.com
+mask.apple-dns.net
+mask.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2218,7 +2229,6 @@ padermail.net
 panel.joosh.ru
 par01.dnscry.pt
 paradise-human.shop
-pashagame456.com
 pates.services.sfr.fr.casepp.sfr.fr
 paydns.wechatpay.cn
 paydns.weixin.qq.com
@@ -2517,6 +2527,7 @@ szyrzyk.pl
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
+tecdrive.site
 tecworx.at
 telex.app
 test.adg.siudzinski.net
@@ -2679,7 +2690,6 @@ vps.atomix.in
 vps.cloaknet.eu
 vps.deckberg.de
 vps.grussenmeyer.com
-vps.poly-tank.jp
 vps.robotboard.de
 vps.techrich.net
 vps01.bbhc.xyz

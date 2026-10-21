@@ -15433,6 +15433,7 @@ harborcaption.com
 harborcontrol.com
 harborcub.com
 hardinet.actonservice.com
+hardsixhockey.net
 harlan.actonservice.com
 harman.epoise.com
 harmantest.epoise.com
@@ -24735,6 +24736,7 @@ nzqrfa.hushpuppies.com
 nzueib.dice.com
 nzuwat.miliboo.it
 nzzvvf.goldengoose.com
+o-api.hotukdeals.com
 o.bluewin.ch
 o.carmax.com
 o.catalyst.com.sa
@@ -24808,8 +24810,14 @@ ocmxbu.hanatour.com
 ocpgll.bannerbuzz.ca
 ocpi.americanexpress.ca
 ocs.hagerty.com
+ocular.chollometro.com
 ocular.dealabs.com
 ocular.hotukdeals.com
+ocular.mydealz.de
+ocular.pepper.pl
+ocular.pepperdeals.com
+ocular.pepperdeals.se
+ocular.preisjaeger.at
 ocular.promodescuentos.com
 ocwlhv.ecid.com.br
 oda.markitondemand.com
@@ -29663,7 +29671,6 @@ skillfullyfrugal.com
 skillpuppy.com
 skillshouse.actonservice.com
 skincheckwa-app.hotdoc.com.au
-skinnytea.net
 skisofa.com
 skmcwz.haselmode.co.kr
 skosgrill.openapp.link
