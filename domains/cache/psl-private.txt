@@ -136,7 +136,6 @@ aktyubinsk.su
 al.eu.org
 al.leg.br
 alces.network
-aliases121.com
 alibabacloudcs.com
 alp1.ae.flow.ch
 altervista.org
@@ -2216,7 +2215,6 @@ owo.codes
 ox.rs
 oxa.cloud
 oy.lc
-oya.to
 p.azurewebsites.net
 p.tawk.email
 p.tawkto.email

@@ -83,6 +83,7 @@
 1133309464.rsc.cdn77.org
 1138625791.rsc.cdn77.org
 1138962056.rsc.cdn77.org
+114-etilobrut-diordna.b-cdn.net
 114.ip-158-69-222.net
 1142797333.rsc.cdn77.org
 1153865737.rsc.cdn77.org
@@ -162,7 +163,6 @@
 1370935980.rsc.cdn77.org
 1373151536.rsc.cdn77.org
 1375068563.rsc.cdn77.org
-1375411732.rsc.cdn77.org
 1383105207.rsc.cdn77.org
 1390794492.rsc.cdn77.org
 1392886840.rsc.cdn77.org
@@ -307,7 +307,6 @@
 1646021056.rsc.cdn77.org
 1646363357.rsc.cdn77.org
 1647133440.rsc.cdn77.org
-1650804254.rsc.cdn77.org
 1660287952.rsc.cdn77.org
 1661063006.rsc.cdn77.org
 1661581042.rsc.cdn77.org
@@ -622,7 +621,6 @@
 9nd0oy2n.com
 9sskdjs.shop
 9thballs.camdvr.org
-9w9.org
 9yuan.top
 a-regist.anondns.net
 a.cpfrx.info
@@ -851,7 +849,6 @@ avovpn.site
 avovpnbot.info
 avpn.online
 avql.net
-awabo.com
 awardztq.com
 awhoer.net
 axyno.xyz
@@ -1004,6 +1001,7 @@ bloquer.fr
 bluegray.us
 blueproxy.org
 bmetrics.org
+bmext1static.b-cdn.net
 bmjwk.cn
 bmqan2static.b-cdn.net
 bn0dghrx.com
@@ -1021,7 +1019,6 @@ boltunblocker.com
 bookisgood.work.gd
 bookmook.hichibehichi-co.info
 booksmarts.vercel.app
-boomproxy.com
 boostqz.com
 boostvpn.top
 bore.pub
@@ -1055,6 +1052,7 @@ browsec-rus.net
 browsec-rus.org
 browsec-uninstall.s3-website.eu-central-1.amazonaws.com
 browsec-vpn-ru.com
+browsec.b-cdn.net
 browsec.best
 browsec.biz
 browsec.bz
@@ -1114,7 +1112,6 @@ bypassable.com
 bypassed.wtf
 bypasser.us
 bypassfw.com
-bypasskey.com
 bypasstunnel.com
 bytebenefit.io
 bytzvpn.com
@@ -1127,7 +1124,6 @@ cache.flight.abrdns.com
 cachezone.net
 cactusdb.net
 caisseforsmithfieldschools.org
-callandtextapp.com
 calvexon.ru
 camping.tent.cloud-ip.cc
 candle.clean.abrdns.com
@@ -1186,6 +1182,7 @@ cheapv2.net
 check.peer2profit.site
 check.ragpets.com
 cheddar-chute.com
+chicken.nuggets.are.good.privateimport.jp
 chickenalert.camdvr.org
 chik-chirikvpn.com
 chinacitybit.click
@@ -1215,6 +1212,7 @@ classes.ipv64.net
 classicpen.us
 classlink.com.de
 classlink.com.de.cdn.cloudflare.net
+classroom.broomleigh.org
 classroom.haoqiw.com
 classroom.ipv64.de
 clever.jansenmedical.net
@@ -1283,7 +1281,6 @@ cratesg.top
 crawler.mobi
 crazycattle3d.lol
 crbtqxdu.com
-createssh.com
 creativechurchnetwork.com
 creayerm.ipv64.net
 croceate.mywire.org
@@ -1403,7 +1400,6 @@ disjwhdhdhxujw.easterndns.com
 diskcrmvpn.co.cc
 diskjlpa9.easterndns.com
 diufks10.easterndns.com
-divalane.com
 djc5yls6yrtdmo69.online
 dk414pzm.com
 dms.dms.dms.tcloud.my
@@ -1908,7 +1904,6 @@ glisten.complex.abrdns.com
 glitch.zone
 glitchvpn.app
 globalreject.com
-globaltrx.com
 glock.my
 glowtundra.com
 glseries.net
@@ -1959,7 +1954,6 @@ granitvpn.com
 grape-global.mysynology.net
 graphicon.org.crabdance.com
 gratisproxy.nl
-gratisvpn.com
 gravity.sciencevictory.org
 great.cipservice.co.uk
 greatdeal.cc
@@ -2137,7 +2131,6 @@ hidethisip.net
 hidevpn.help
 hideweb.org
 hidexx.info
-hidexy.com
 hideyour.fun
 hidxmx.name
 hidxmy.info
@@ -2177,6 +2170,7 @@ hmnx.work
 hmx.info
 hockeybet.org
 hoeqphmi.com
+hola-client-cdn4.b-cdn.net
 hola-compat.com
 hola-vpn.com
 hola.org
@@ -2288,7 +2282,6 @@ ikhebdorst.nl
 ikilledmydog.vercel.app
 ikitoshi.cc
 iknowthemethods.help
-iksde.com
 ikuuu.fyi
 ikuuu.pw
 ilcsdnkf.com
@@ -2347,7 +2340,6 @@ ip42.ip-15-204-147.us
 ip65-38-99-44.pbiaas.com
 ip74-208-64-80.pbiaas.com
 ipchanger.net
-ipchanging.com
 ipfly.net
 iplama.com
 ipredator.se
@@ -2532,7 +2524,6 @@ key1lib.store
 kfkxdwfk3.easterndns.com
 khajujawegifwqaiugwa.tcp64.de
 khpkadmig.click
-kickassproxy.com
 kidsroboticsbkk.com
 kimjikononikinikikomonomini-76huki.easterndns.com
 kiohjbh.ipv64.net
@@ -2670,7 +2661,6 @@ levsvpn.com
 lhgwneqv.com
 liability.registration.abrdns.com
 liberator.one
-libertyvpn.net
 libertyvpn.org
 liedn.cc
 light.registration.abrdns.com
@@ -2680,7 +2670,6 @@ lightspeedisgay.cfd
 limaklhc6.info
 limitlessproxy.com
 limpvpn.com
-linewize.broomleigh.org
 linewizenet.easterndns.com
 linewizesucks.myclarevision.com
 link-five.ibewlocalzero.com
@@ -2850,7 +2839,6 @@ milanavpn.com
 milou.cc
 mimetic.luminiferous.abrdns.com
 minionisland.com
-minoritymath.buzz
 minutefishy.theworkpc.com
 miphgtct.ipv64.net
 mirqenzo.ru
@@ -2860,6 +2848,8 @@ mjkuhini-777.easterndns.com
 mjpabahu.com
 mkdkkn5k.com
 mkkewfye.com
+mlst-prom-static.b-cdn.net
+mlst-static.b-cdn.net
 mm.unstop.cloudns.ch
 mnqwscym.com
 mobile-socket.culturegps.com
@@ -2962,7 +2952,6 @@ mojie.kim
 mojieapp.org
 mojiedown.com
 monoprivacy.io
-monthlyssh.net
 moonlight.sparks.ddns-ip.net
 more.registration.abrdns.com
 morelogin.com
@@ -2973,8 +2962,10 @@ moscownews24.ru
 mouse.pics
 moutx2.co
 mqrxgzi4.com
+mramato2.myclarevision.com
 mrbuwfks.com
 mrr-qa-static.b-cdn.net
+mrr-qa2-static.b-cdn.net
 mrr-qa3-static.b-cdn.net
 msc.mcafee.com
 msgiepkj.com
@@ -3145,7 +3136,6 @@ notlong.com
 noturmotherlol.worksheetsforteachers.org
 notvpn.io
 notvpn.net
-nowcache.com
 nowgg.cfd
 nowvpn.pro
 noza1.easterndns.com
@@ -3254,7 +3244,6 @@ oversecure.ltd
 ovpn.com
 ovpn.pw
 owenforzono.entergod.com
-owenforzonoiseeyou.entergod.com
 owlproxy.com
 owo.rawr.africa.com
 ozxf6rbn.com
@@ -3291,7 +3280,6 @@ passageplace.com
 passssssssssword.easterndns.com
 patronize.bury.abrdns.com
 pawxy.com
-pay4app.store
 paydar.goooalir.co.uk
 pbavtqle.com
 pbproxy.red
@@ -3373,7 +3361,6 @@ plans.datacommunicationsinc.com
 platobox.info
 platobox.org
 platospace.com
-platovpn.click
 platovpn.club
 platovpn.help
 platovpn.homes
@@ -3648,7 +3635,6 @@ qytvipaffa03.cc
 qytvipaffa04.cc
 qytvipaffa05.cc
 r1v892ck.com
-r6oemdos.online
 radiodoubt.com
 radmin-vpn.org
 radom.oaklandscioly.org
@@ -3781,7 +3767,6 @@ s2wd5kbq.com
 s3-oregon-1.s3-us-west-2.amazonaws.com
 s47n.ir.ir.ir.meli-n12.info
 s4m.tech
-s4m.xyz
 s7n.ir.ir.ir.meli-n12.info
 s8.amazonaws.jdymqic.shop
 s8ks.us
@@ -3792,7 +3777,6 @@ safehousetech.com
 safemyip.pro
 safenetbrowser.com
 safeproxy.app
-saferiverpay.com
 safersurfing.net
 safeshellvpn.com
 safetysurf.net
@@ -3865,9 +3849,7 @@ securewebproxy.net
 securitykiss.com
 securly.mom
 secvpnproxy.co.cc
-seed4.me
 seed4me-vpn.mom
-seed4me.app
 seed4me.help
 seelabour.com
 sefid.goooalir.co.uk
@@ -3943,7 +3925,6 @@ signup-express-vpn.guru
 silnet.varfootball.co.uk
 silver.ciaude.co.uk
 simiqbwa.com
-simplevpn.net
 simplynode.io
 sipidwnt.com
 sirqenio.ru
@@ -4959,7 +4940,6 @@ womginx.ps.binary-person.dev
 woodenclock.us
 wordarooz.com
 work.mishutkin.click
-workdigi.com
 workers.clean.abrdns.com
 workingproxy.link
 workkidney.com
@@ -5159,6 +5139,7 @@ z0og.site
 z36qmcgt.com
 za.mreasandiego.com
 za63g7tp.com
+zacebookpk.com
 zagbit.com
 zapov2.xyz
 zapp-a-weasel.live

@@ -157,6 +157,7 @@ adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
 adguard.jfchenier.ca
+adguard.johanliebert.top
 adguard.k-likhachev.ru
 adguard.kantinyoyok.xyz
 adguard.kiboko.it
@@ -353,7 +354,6 @@ andrykarcew.duckdns.org
 andybunn.onthewifi.com
 angry.pp.ua
 angrysky.ru
-anixlab.com
 ant.dns.qwer.pw
 antivirus.bebasid.com
 anycast.censurfridns.dk
@@ -835,7 +835,6 @@ dns.fehlsprache.de
 dns.ffnw.de
 dns.fizz.studio
 dns.flatuslifir.is
-dns.flightspace.net
 dns.floriantinney.de
 dns.flux24.net
 dns.flwagners.com
@@ -1165,7 +1164,6 @@ dns.sarilouis.com
 dns.sark.dev
 dns.sb
 dns.sbstructure.ir
-dns.scapetical.com
 dns.scarx.net
 dns.scayn.com
 dns.schlagheck.berlin
@@ -1273,7 +1271,6 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
-dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -1504,7 +1501,6 @@ doh.funil.de
 doh.funtopia.tv
 doh.futa.app
 doh.hosterra.tech
-doh.hshkf.com
 doh.hugang8.cn
 doh.ibr.cs.tu-bs.de
 doh.immerda.ch
@@ -1581,6 +1577,7 @@ doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
 doh1.b-cdn.net
+doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -1589,7 +1586,6 @@ dohsg.goitoi.co
 dohtrial.att.net
 domburg.beruys.com
 domeq.waw.pl
-door.plasmadancer.ru
 dorkanddoodle.duckdns.org
 dot-de.blahdns.com
 dot-sg.blahdns.com
@@ -1633,6 +1629,7 @@ ebpmc.diskstation.me
 ebpmc.tplinkdns.com
 echoe1yidzu4ioo5.myfritz.net
 edgar.tobkar.net
+edgy-dns.com
 edns.233py.com
 ee-tll.doh.sb
 egorovna.su
@@ -1799,7 +1796,6 @@ hkg01.dnscry.pt
 hkg02.dnscry.pt
 hkg03.dnscry.pt
 hkg2.edge.access.zznet.fun
-hkname.freecdn.one
 hknat.ooguy.com
 hkns.gzelvis.com
 hkt.kozow.com
@@ -1902,6 +1898,7 @@ iow-dns.bitdefender.net
 iozoi.cn
 ire.danielfreyr.com
 irgrdns.nullapp.xyz
+irrelevant.cc
 isb01.dnscry.pt
 isecsolutions.ddns.net
 isfrntshck-pipka.duckdns.org
@@ -2221,6 +2218,7 @@ padermail.net
 panel.joosh.ru
 par01.dnscry.pt
 paradise-human.shop
+pashagame456.com
 pates.services.sfr.fr.casepp.sfr.fr
 paydns.wechatpay.cn
 paydns.weixin.qq.com

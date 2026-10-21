@@ -3,6 +3,61 @@
 > Generato da `scripts/changelog.py` a ogni build: aggiunte e rimozioni rispetto alla versione precedente.
 > Ultime voci in alto. Per gli IP è indicata la fonte (`ip/cache/`) o `manuale`.
 
+## 2026-10-21 04:51 UTC
+
+- `dist/ip/all-scuole-v4.txt`: +4296 / -3810 (totale 43776)
+  - aggiunte: `1.15.179.199` (data-shield, ipsum-level3), `1.15.30.237` (data-shield, ipsum-level3), `1.24.16.112` (ipsum-level3), `1.27.251.252` (data-shield, ipsum-level3), `1.83.125.136` (ipsum-level3), `100.28.191.174` (data-shield, ipsum-level3), `100.29.192.1` (data-shield, ipsum-level3), `100.29.192.10` (data-shield, ipsum-level3) e altre 4288
+  - rimosse: `1.117.72.220`, `1.14.192.95`, `1.159.54.33`, `1.201.176.169`, `1.215.233.74`, `1.85.42.195`, `100.29.192.100/30`, `100.29.192.104/30` e altre 3802
+- `dist/ip/all-scuole-v6.txt`: +63 / -50 (totale 3384)
+  - aggiunte: `2001:19f0:5c01:1533:5400:6ff:fedc:ecda` (tor-relay), `2001:19f0:8000:1cae:5400:4ff:fed0:15b4` (tor-relay), `2001:41c8:51:490:feff:ff:fe00:3214` (tor-relay), `2001:41d0:601:1100::385b` (tor-relay), `2001:41d0:801:2000::5f62` (tor-relay), `2001:67c:440:f887:194:147:140:110` (tor-relay), `2001:67c:e60:c0c:192:42:116:160/125` (tor-relay), `2001:67c:e60:c0c:192:42:116:28` (tor-relay) e altre 55
+  - rimosse: `2001:19f0:c800:2a8c:5400:5ff:fe8c:69e3`, `2001:1b40:5700:9016::1`, `2001:4ba0:cafe:1267::1`, `2001:550:2:38::28:2`, `2001:67c:e60:c0c:192:42:116:160/126`, `2001:67c:e60:c0c:192:42:116:164/127`, `2001:67c:e60:c0c:192:42:116:166`, `2001:67c:e60:c0c:192:42:116:28/127` e altre 42
+- `dist/ip/all-v4.txt`: +4313 / -3862 (totale 35083)
+  - aggiunte: `1.15.179.199` (data-shield, ipsum-level3), `1.15.30.237` (data-shield, ipsum-level3), `1.24.16.112` (ipsum-level3), `1.27.251.252` (data-shield, ipsum-level3), `1.83.125.136` (ipsum-level3), `100.28.191.174` (data-shield, ipsum-level3), `100.29.192.1` (data-shield, ipsum-level3), `100.29.192.10` (data-shield, ipsum-level3) e altre 4305
+  - rimosse: `1.117.72.220`, `1.14.192.95`, `1.159.54.33`, `1.201.176.169`, `1.215.233.74`, `1.85.42.195`, `100.29.192.100/30`, `100.29.192.104/30` e altre 3854
+- `dist/ip/all-v6.txt`: +63 / -50 (totale 3051)
+  - aggiunte: `2001:19f0:5c01:1533:5400:6ff:fedc:ecda` (tor-relay), `2001:19f0:8000:1cae:5400:4ff:fed0:15b4` (tor-relay), `2001:41c8:51:490:feff:ff:fe00:3214` (tor-relay), `2001:41d0:601:1100::385b` (tor-relay), `2001:41d0:801:2000::5f62` (tor-relay), `2001:67c:440:f887:194:147:140:110` (tor-relay), `2001:67c:e60:c0c:192:42:116:160/125` (tor-relay), `2001:67c:e60:c0c:192:42:116:28` (tor-relay) e altre 55
+  - rimosse: `2001:19f0:c800:2a8c:5400:5ff:fe8c:69e3`, `2001:1b40:5700:9016::1`, `2001:4ba0:cafe:1267::1`, `2001:550:2:38::28:2`, `2001:67c:e60:c0c:192:42:116:160/126`, `2001:67c:e60:c0c:192:42:116:164/127`, `2001:67c:e60:c0c:192:42:116:166`, `2001:67c:e60:c0c:192:42:116:28/127` e altre 42
+- `dist/ip/c2-v4.txt`: +1 / -2 (totale 634)
+  - aggiunte: `47.243.109.132` (tweetfeed-ip)
+  - rimosse: `217.60.103.74`, `45.56.81.89`
+- `dist/ip/doh-v4.txt`: +18 / -14 (totale 1332)
+  - aggiunte: `129.80.39.60` (dibdot-doh-v4), `143.244.60.197` (dibdot-doh-v4), `149.28.121.105` (dibdot-doh-v4), `185.150.189.29` (dibdot-doh-v4), `185.51.200.1` (dibdot-doh-v4), `185.51.200.2` (dibdot-doh-v4), `192.3.4.22` (dibdot-doh-v4), `217.0.43.50` (dibdot-doh-v4) e altre 10
+  - rimosse: `100.48.164.123`, `111.89.243.158`, `137.220.48.110`, `184.194.85.60`, `185.231.100.108`, `212.92.105.21`, `217.0.43.162`, `34.199.243.65` e altre 6
+- `dist/ip/doh-v6.txt`: +4 / -5 (totale 694)
+  - aggiunte: `2003:180:2:1000:0:4:0:53` (dibdot-doh-v6), `2003:180:2:8100:0:4:0:53` (dibdot-doh-v6), `2602:ffc8:5:b093::a` (dibdot-doh-v6), `2a01:4f9:c010:d7f4::1` (dibdot-doh-v6)
+  - rimosse: `2001:550:2:38::28:2`, `2003:180:2::4:0:53`, `2003:180:2:b000:0:4:0:53`, `2607:9d00:2000:38::1a6c`, `2a03:94e3:2317::`
+- `dist/ip/inbound-v4.txt`: +2841 / -5152 (totale 81078)
+  - aggiunte: `1.14.95.154` (data-shield), `1.24.16.106` (data-shield), `1.24.16.143` (data-shield), `1.24.16.170/31` (data-shield), `1.24.16.28` (data-shield), `1.24.16.43` (data-shield), `1.24.16.52` (data-shield), `1.24.16.78` (data-shield) e altre 2833
+  - rimosse: `1.117.68.141`, `1.12.229.231`, `1.145.89.105`, `1.168.68.89`, `1.171.2.210`, `1.171.48.213`, `1.199.241.232`, `1.203.186.149` e altre 5144
+- `dist/ip/threat-v4.txt`: +4189 / -3734 (totale 28278)
+  - aggiunte: `1.15.179.199` (data-shield, ipsum-level3), `1.15.30.237` (data-shield, ipsum-level3), `1.24.16.112` (ipsum-level3), `1.27.251.252` (data-shield, ipsum-level3), `1.83.125.136` (ipsum-level3), `100.28.191.174` (data-shield, ipsum-level3), `100.29.192.1` (data-shield, ipsum-level3), `100.29.192.10` (data-shield, ipsum-level3) e altre 4181
+  - rimosse: `1.117.72.220`, `1.14.192.95`, `1.159.54.33`, `1.215.233.74`, `1.85.42.195`, `100.29.192.100/30`, `100.29.192.104/30`, `100.29.192.109` e altre 3726
+- `dist/ip/tor-v4.txt`: +164 / -176 (totale 5007)
+  - aggiunte: `104.168.88.59` (tor-relay), `104.207.158.50` (tor-relay), `104.223.62.71` (tor-relay), `107.172.157.34` (tor-relay), `107.175.136.39` (tor-relay), `108.181.4.23` (tor-relay), `108.49.157.134` (tor-relay), `109.192.105.3` (tor-relay) e altre 156
+  - rimosse: `1.201.176.169`, `103.253.212.243`, `107.173.148.30`, `107.189.23.239`, `109.128.102.94`, `109.223.73.169`, `128.135.164.40`, `134.101.212.179` e altre 168
+- `dist/ip/tor-v6.txt`: +59 / -45 (totale 2357)
+  - aggiunte: `2001:19f0:5c01:1533:5400:6ff:fedc:ecda` (tor-relay), `2001:19f0:8000:1cae:5400:4ff:fed0:15b4` (tor-relay), `2001:41c8:51:490:feff:ff:fe00:3214` (tor-relay), `2001:41d0:601:1100::385b` (tor-relay), `2001:41d0:801:2000::5f62` (tor-relay), `2001:67c:440:f887:194:147:140:110` (tor-relay), `2001:67c:e60:c0c:192:42:116:160/125` (tor-relay), `2001:67c:e60:c0c:192:42:116:28` (tor-relay) e altre 51
+  - rimosse: `2001:19f0:c800:2a8c:5400:5ff:fe8c:69e3`, `2001:1b40:5700:9016::1`, `2001:4ba0:cafe:1267::1`, `2001:67c:e60:c0c:192:42:116:160/126`, `2001:67c:e60:c0c:192:42:116:164/127`, `2001:67c:e60:c0c:192:42:116:166`, `2001:67c:e60:c0c:192:42:116:28/127`, `2001:9e8:91:3a00:d250:99ff:fec2:ffb3` e altre 37
+- `dist/adguard/block-malware-strict.txt`: +16 / -29 (totale 213326)
+  - aggiunte: `||aniv.ergstlj.cn^`, `||apple-support.today^`, `||digilocker.governement.info^`, `||hvbaqrat.cn^`, `||keisigr.top^`, `||pub-8bb2af2b13cd4e2d90a81254aea0d169.r2.dev^`, `||rkm-20260709-1514.zip^`, `||scrollsawvideos.com^` e altre 8
+  - rimosse: `||appleidmapa.com^`, `||babipoom-ertaxjpzu.com^`, `||barabax.com^`, `||bik1nc.webwave.dev^`, `||carsonhow-ertaxjpzu.com^`, `||casibom0862.com^`, `||cnplacen-jprakutanziu.com^`, `||dsjex.net^` e altre 21
+- `dist/adguard/block-malware.txt`: +16 / -29 (totale 247676)
+  - aggiunte: `||aniv.ergstlj.cn^`, `||apple-support.today^`, `||digilocker.governement.info^`, `||hvbaqrat.cn^`, `||keisigr.top^`, `||pub-8bb2af2b13cd4e2d90a81254aea0d169.r2.dev^`, `||rkm-20260709-1514.zip^`, `||scrollsawvideos.com^` e altre 8
+  - rimosse: `||appleidmapa.com^`, `||babipoom-ertaxjpzu.com^`, `||barabax.com^`, `||bik1nc.webwave.dev^`, `||carsonhow-ertaxjpzu.com^`, `||casibom0862.com^`, `||cnplacen-jprakutanziu.com^`, `||dsjex.net^` e altre 21
+- `dist/adguard/block-pubblicita-strict.txt`: +86 / -0 (totale 50472)
+  - aggiunte: `||8tglybne443zhyuvc3.rest^`, `||anisatetowheespeans.qpon^`, `||answersstrobic.com^`, `||asuujngxvbwol.website^`, `||atelicartal.cyou^`, `||atonicsparody.com^`, `||atonty.xyz^`, `||azllewhrvqbxt.space^` e altre 78
+- `dist/adguard/block-pubblicita.txt`: +86 / -0 (totale 68130)
+  - aggiunte: `||8tglybne443zhyuvc3.rest^`, `||anisatetowheespeans.qpon^`, `||answersstrobic.com^`, `||asuujngxvbwol.website^`, `||atelicartal.cyou^`, `||atonicsparody.com^`, `||atonty.xyz^`, `||azllewhrvqbxt.space^` e altre 78
+- `dist/opnsense/doh.txt`: +5 / -7 (totale 2794)
+  - aggiunte: `adguard.johanliebert.top`, `doh2.b-cdn.net`, `edgy-dns.com`, `irrelevant.cc`, `pashagame456.com`
+  - rimosse: `anixlab.com`, `dns.flightspace.net`, `dns.scapetical.com`, `dns.wahr.top`, `doh.hshkf.com`, `door.plasmadancer.ru`, `hkname.freecdn.one`
+- `dist/opnsense/file-sharing.txt`: +1 / -15 (totale 414)
+  - aggiunte: `files.to`
+  - rimosse: `bladimix.com`, `boomycloud.com`, `datapickup.com`, `fdrop.com`, `fifostream.com`, `fileho.com`, `filespoint.com`, `fupload.com` e altre 7
+- `dist/opnsense/vpn.txt`: +11 / -30 (totale 5250)
+  - aggiunte: `114-etilobrut-diordna.b-cdn.net`, `bmext1static.b-cdn.net`, `browsec.b-cdn.net`, `chicken.nuggets.are.good.privateimport.jp`, `classroom.broomleigh.org`, `hola-client-cdn4.b-cdn.net`, `mlst-prom-static.b-cdn.net`, `mlst-static.b-cdn.net` e altre 3
+  - rimosse: `1375411732.rsc.cdn77.org`, `1650804254.rsc.cdn77.org`, `9w9.org`, `awabo.com`, `boomproxy.com`, `bypasskey.com`, `callandtextapp.com`, `createssh.com` e altre 22
+
 ## 2026-10-20 21:40 UTC
 
 - `dist/ip/all-scuole-v4.txt`: +234 / -216 (totale 43290)
