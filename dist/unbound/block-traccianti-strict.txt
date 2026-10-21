@@ -10088,6 +10088,7 @@
 *.images.engage.cebglobal.com
 *.fpc.cebglobal.com
 *.track.cecobuildings.com
+*.cedarkits.com
 *.78rkcgj4i8c6.www.cefirates.com
 *.ivrnfvlcgubm.www.cefirates.com
 *.m6c4t9vmqarj.www.cefirates.com
@@ -18011,6 +18012,7 @@
 *.qjurou.laredoute.com
 *.mktg.laresdental.com
 *.largebrass.com
+*.largetony.com
 *.adbmetrics.larioja.com
 *.sadbmetrics.larioja.com
 *.utiq.larioja.com
@@ -27565,6 +27567,7 @@
 *.unbecominglamp.com
 *.tracker.unbxdapi.com
 *.fp.uncensored.com
+*.uncommonalias.com
 *.siewmi.uncommongoods.com
 *.uncoveredexpert.com
 *.t.uncwsports.com
@@ -27596,6 +27599,7 @@
 *.action.unifiedoffice.com
 *.azxhnt.uniformadvantage.com
 *.ppyflc.uniformnext.com
+*.unifybots.com
 *.pegasus.unifygroup.com
 *.tag.unifyintent.com
 *.go.unifysquare.com
@@ -38574,6 +38578,7 @@
 *.count.sibbo.net
 *.a8clk.sirtuinbooster.net
 *.siteperformancetest.net
+*.skinnytea.net
 *.uudbvq.skuola.net
 *.play.skydreamcasino.net
 *.ana.skypemeet.net

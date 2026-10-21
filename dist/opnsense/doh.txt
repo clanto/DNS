@@ -158,7 +158,6 @@ adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
 adguard.jfchenier.ca
-adguard.johanliebert.top
 adguard.k-likhachev.ru
 adguard.kantinyoyok.xyz
 adguard.kiboko.it
@@ -1275,7 +1274,6 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
-dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wang.art
@@ -1350,7 +1348,6 @@ dns1.sarak.as
 dns1.sarakas.net
 dns1.server.my.id
 dns1.slowb.ro
-dns1.tardishost.ru
 dns1.techniverse.net
 dns1.thylacine.co.nz
 dns1.timothy-dev.com
@@ -1583,7 +1580,6 @@ doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
 doh1.b-cdn.net
-doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -1804,6 +1800,7 @@ hkg01.dnscry.pt
 hkg02.dnscry.pt
 hkg03.dnscry.pt
 hkg2.edge.access.zznet.fun
+hkname.freecdn.one
 hknat.ooguy.com
 hkns.gzelvis.com
 hkt.kozow.com
@@ -1945,7 +1942,6 @@ jp-tyo-w-p-1.nashkan.net
 jp.559299366.xyz
 jp.95576.app
 jp.hannielzhang.com
-jp.tiar.app
 jp01.dns4me.net
 jp193.flyzhouyc.win
 jp2.ooroot.com
@@ -2041,10 +2037,6 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
-mask-canary.icloud.com
-mask-h2.icloud.com
-mask.apple-dns.net
-mask.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2527,7 +2519,6 @@ szyrzyk.pl
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
-tecdrive.site
 tecworx.at
 telex.app
 test.adg.siudzinski.net
@@ -2583,6 +2574,7 @@ ttag.dns.nomu.pw
 tuandns.duckdns.org
 tujenasnaszato.xyz
 tungdnsne.duckdns.org
+tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
