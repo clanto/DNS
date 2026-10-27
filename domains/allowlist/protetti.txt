@@ -48,3 +48,4 @@ www.inps.it | 2026-10-08 | INPS | -
 www.agenziaentrate.gov.it | 2026-10-08 | Agenzia delle Entrate | -
 ivaservizi.agenziaentrate.gov.it | 2026-10-08 | Fatture e corrispettivi | -
 posteid.poste.it | 2026-10-08 | PosteID (SPID) | -
+dns.clanto.cloud | 2026-10-27 | resolver DNS/DoH di Clanto: i suoi IP non devono mai finire nei feed (dibdot lo cataloga come DoH pubblico) | -
