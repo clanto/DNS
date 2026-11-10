@@ -144,3 +144,13 @@ Il protocollo **any** nelle regole 2-4 è essenziale: con solo TCP o solo porta 
 | SonicWall | Oggetti indirizzo dinamici esterni: il percorso di menu dipende dalla versione di SonicOS; servizio **Any** |
 
 Le liste `opnsense/*.txt` (FQDN) sono verificate solo su OPNsense: sugli altri firewall usare i feed IP. I limiti di voci per feed di FortiGate e SonicWall dipendono da modello e firmware e vanno verificati sui dispositivi; si possono impostare in `max_entries` (`sources.toml`) per ricevere un avviso.
+
+## IP propri
+
+Gli IP pubblici dell'infrastruttura Clanto non finiscono mai nei feed. L'elenco è **privato**: il build lo scarica a ogni
+esecuzione da un URL con token salvato solo nel segreto GitHub `OWN_IPS_URL` (Settings → Secrets and variables →
+Actions). Gli IP non vengono scritti nel repository, nei report o nei log: nel riepilogo compare solo il numero di reti.
+Le reti dell'elenco vengono tolte da tutti i feed (anche spezzando i CIDR che le contengono) e i domini che risolvono lì
+escono dagli alias OPNsense. Se l'elenco non è raggiungibile il build si ferma e restano i feed già pubblicati: meglio
+liste di qualche ora fa che bloccare la nostra infrastruttura.
+

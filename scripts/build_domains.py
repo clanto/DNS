@@ -532,6 +532,7 @@ def main() -> int:
         warn(line.lstrip("- ").replace("`", ""))
     print("\n".join(protect_report + conflict_report))
 
+    base.update(own)  # domini propri: @@||dominio^$important sblocca anche i sottodomini e vince sulle liste upstream
     final_base = drop_covered(base)
     adguard["allow-base.txt"] = "".join(f"@@||{d}^$important\n" for d in final_base)
     in_base = [c for c, o in cfg.get("allow", {}).items() if o.get("in_base", True)]

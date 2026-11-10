@@ -25,7 +25,7 @@ import sys
 import tomllib
 
 from build_domains import CONFIG_PATH, PLAIN_DIR
-from build_ip import CONFIG_PATH as IP_CONFIG, RAW_BASE, ROOT, NetIndex, load_shared, resolve_protected, warn
+from build_ip import CONFIG_PATH as IP_CONFIG, RAW_BASE, ROOT, NetIndex, load_own_ips, load_shared, resolve_protected, warn
 
 OUT_DIR = ROOT / "dist" / "opnsense"
 MIN_RESOLVED_RATIO = 0.2  # sotto questa quota di domini risolti si presume un problema di rete
@@ -75,7 +75,8 @@ def main() -> int:
     cats = {c: o for c, o in cfg.get("block", {}).items() if o.get("opnsense")}
     try:
         cdn = NetIndex(cdn_ranges())
-        protected = NetIndex(resolve_protected())
+        # anche gli IP propri (elenco privato): un dominio che risolve lì bloccherebbe la nostra infrastruttura
+        protected = NetIndex(list(resolve_protected()) + load_own_ips(required=os.environ.get("OWN_IPS_REQUIRED") == "1"))
     except Exception as exc:  # senza filtro CDN non si pubblica: meglio tenere la versione precedente
         warn(f"intervalli CDN non disponibili ({exc}): liste OPNsense invariate")
         return 0

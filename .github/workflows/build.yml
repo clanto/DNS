@@ -37,6 +37,9 @@ jobs:
 
       - name: Genera feed
         id: build
+        env:
+          OWN_IPS_URL: ${{ secrets.OWN_IPS_URL }}  # elenco privato degli IP propri (URL con token, mai nel repository)
+          OWN_IPS_REQUIRED: "1"
         run: python scripts/build_ip.py --report "$RUNNER_TEMP/report.md"
 
       - name: Genera liste domini
@@ -46,6 +49,9 @@ jobs:
 
       - name: Genera liste FQDN per OPNsense
         continue-on-error: true
+        env:
+          OWN_IPS_URL: ${{ secrets.OWN_IPS_URL }}  # elenco privato degli IP propri (URL con token, mai nel repository)
+          OWN_IPS_REQUIRED: "1"
         run: python scripts/build_opnsense.py
 
       - name: Genera SafeSearch per Unbound

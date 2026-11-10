@@ -19,7 +19,8 @@
 # le blocklist (il build lo verifica) o le liste di bypass DNS/VPN upstream (verificato da check_domains.py).
 source_max_age_days = 7  # fonte il cui contenuto non cambia da più giorni → controllo giornaliero fallito
 psl_url = "https://publicsuffix.org/list/public_suffix_list.dat"  # MPL-2.0, per exclude_platforms
-own_domains = ["clanto.cloud"]  # domini propri: mai bloccati, esclusi dal controllo bypass (es. dns.clanto.cloud)
+own_domains = ["clanto.it", "clanto.cloud", "clanto.email", "clnt.eu", "scuola.org", "bnfirewall.org"]  # domini propri con tutti i sottodomini: mai nelle nostre blocklist, sbloccati in allow-base (anche contro le liste
+# upstream), esclusi dal controllo bypass
 
 [allow.protetti]
 description = "Servizi critici: mai bloccati da liste domini, feed IP e liste OPNsense"

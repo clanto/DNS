@@ -430,15 +430,17 @@ def section_punteggio():
     check(len(parts) == meta["partizioni"], "indice: numero di partizioni errato")
     check(perche.partizione("esempio.it", 256) == f"{__import__('zlib').crc32(b'esempio.it') % 256:02x}", "indice: hash")
     idx = perche.Indice()
-    for nome in ("duckdns.org", "fortinet.com", "push.apple.com"):
+    for nome in ("duckdns.org", "push.apple.com"):
         check(nome in json.loads((ROOT / f"dist/perche/{perche.partizione(nome)}.json").read_text())["d"],
               f"indice: {nome} nella partizione sbagliata o assente")
     r = perche.spiega("app.qualcosa.duckdns.org", idx)
     check(r["bloccato"] and any(b["lista"] == "block-ddns" and b["padre"] for b in r["blocchi"]),
           "perche: sottodominio DDNS non spiegato con la regola sul padre")
-    r = perche.spiega("fortinet.com", idx)
-    check(not r["bloccato"] and any("esclusione di cura" in t["motivo"] for t in r["tolte"]),
-          "perche: esclusione di cura di fortinet.com non spiegata")
+    # un'esclusione di cura applicata in questo build (le fonti cambiano: non un dominio fisso)
+    cura = [line.split("|")[0].strip() for line in (ROOT / "domains/escludi.txt").read_text(encoding="utf-8").splitlines()
+            if line.strip() and not line.startswith("#")]
+    spiegate = [n for n in cura[:60] if any("esclusione di cura" in t["motivo"] for t in perche.spiega(n, idx)["tolte"])]
+    check(bool(spiegate), "perche: nessuna esclusione di cura spiegata nell'indice")
     r = perche.spiega("push.apple.com", idx)
     check(not r["bloccato"] and any(c["lista"] == "allow-protetti" for c in r["consentite"]),
           "perche: servizio protetto non spiegato")
@@ -493,6 +495,27 @@ def section_security():
 
     import asn
     import check_opnsense_ips as coi
+
+    # IP propri: elenco privato obbligatorio solo nel build che pubblica; l'URL non compare mai nei messaggi
+    os.environ.pop("OWN_IPS_URL", None)
+    check(B.load_own_ips(required=False) == [], "IP propri: build locale senza elenco deve proseguire")
+    try:
+        B.load_own_ips(required=True)
+        check(False, "IP propri: segreto mancante non bloccato")
+    except B.OwnIpsError:
+        pass
+    os.environ["OWN_IPS_URL"] = "https://nonesiste.invalid/token-segreto-di-prova.txt"
+    try:
+        B.load_own_ips(required=True)
+        check(False, "IP propri: elenco irraggiungibile non bloccato")
+    except B.OwnIpsError as exc:
+        check("token-segreto" not in str(exc) and "nonesiste" not in str(exc), "IP propri: l'URL compare nel messaggio")
+    finally:
+        os.environ.pop("OWN_IPS_URL", None)
+    wf = (ROOT / ".github/workflows/build.yml").read_text(encoding="utf-8")
+    righe_env = [line.split("#")[0] for line in wf.splitlines() if "OWN_IPS_URL:" in line]
+    check(righe_env and all("${{ secrets.OWN_IPS_URL }}" in line for line in righe_env),
+          "build.yml: OWN_IPS_URL deve venire solo dal segreto")
     import inspect
 
     # dominio registrabile con la PSL completa: a.co.uk e b.co.uk sono domini diversi

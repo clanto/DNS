@@ -34,6 +34,39 @@ CUSTOM_DIR = IP_DIR / "custom"
 ALLOWLIST_PATH = IP_DIR / "allowlist.txt"
 SHARED_PATH = IP_DIR / "condivisi.txt"
 PROTECTED_PATH = ROOT / "domains" / "allowlist" / "protetti.txt"
+# IP pubblici propri (Clanto): elenco privato scaricato a ogni build da un URL con token, mai nel repository.
+# L'URL sta solo nel segreto GitHub OWN_IPS_URL; gli IP non vengono scritti in file, report o log.
+OWN_IPS_ENV = "OWN_IPS_URL"
+
+
+class OwnIpsError(RuntimeError):
+    """Elenco degli IP propri non disponibile: meglio non pubblicare che bloccare la nostra infrastruttura."""
+
+
+def load_own_ips(required: bool) -> list:
+    """Reti dell'elenco privato degli IP propri (una per riga, commenti '#'). Vuoto se l'URL non è impostato
+    e non è richiesto (build locale); OwnIpsError se richiesto e mancante, irraggiungibile o vuoto."""
+    url = os.environ.get(OWN_IPS_ENV, "").strip()
+    if not url:
+        if required:
+            raise OwnIpsError(f"segreto {OWN_IPS_ENV} non impostato")
+        return []
+    try:
+        text = asn.read_https(url, timeout=60, limit=1024 * 1024).decode("utf-8", errors="replace")
+    except Exception as exc:  # nel messaggio mai l'URL: contiene il token
+        raise OwnIpsError(f"elenco IP propri non scaricabile ({type(exc).__name__})") from None
+    nets = []
+    for raw in text.splitlines():
+        token = raw.split("#", 1)[0].strip().split()
+        if not token:
+            continue
+        try:
+            nets.append(ipaddress.ip_network(token[0], strict=False))
+        except ValueError:
+            continue
+    if not nets:
+        raise OwnIpsError("elenco IP propri vuoto o non valido")
+    return nets
 CACHE_DIR = IP_DIR / "cache"
 DIST_DIR = ROOT / "dist" / "ip"
 RAW_BASE = "https://raw.githubusercontent.com/clanto/DNS/main"
@@ -553,6 +586,22 @@ def main() -> int:
         warn(f"servizio protetto nelle fonti, escluso: {hit}")
     allow = allow + list(protected)
 
+    # IP propri: nel build che pubblica (OWN_IPS_REQUIRED=1) l'elenco è obbligatorio; senza, il build si ferma e restano i
+    # feed già pubblicati
+    try:
+        own = [] if args.check else load_own_ips(required=os.environ.get("OWN_IPS_REQUIRED") == "1")
+    except OwnIpsError as exc:
+        fail(f"{exc}: feed non aggiornati")
+        return 1
+    own_hits = 0
+    if own:
+        own_index = NetIndex(own)
+        own_hits = sum(1 for cat, meta in categories.items() if not meta.get("reserved")
+                       for n in per_cat[cat] if own_index.overlaps(n))
+        allow = allow + own
+    elif not args.check:
+        warn(f"{OWN_IPS_ENV} non impostata: IP propri non esclusi (solo build locale)")
+
     allow_hits = 0
     for cat, meta in categories.items():
         cat_allow = [] if meta.get("reserved") else allow
@@ -609,7 +658,8 @@ def main() -> int:
     report += [f"- `{s.id}`: {s.status}, {s.entries} voci {s.detail}".rstrip() for s in source_results if s.enabled]
     report += [f"- allowlist: {len(allow)} voci, {allow_hits} reti modificate",
                f"- infrastrutture condivise: {len(shared)} intervalli, {shared_hits} voci escluse",
-               f"- servizi protetti: {len(protected)} IP risolti, {len(protected_hits)} voci escluse dai feed", ""]
+               f"- servizi protetti: {len(protected)} IP risolti, {len(protected_hits)} voci escluse dai feed",
+               f"- IP propri (elenco privato): {len(own)} reti, {own_hits} voci delle fonti escluse", ""]
     if protected_hits:
         report += ["### Servizi protetti trovati nelle fonti (falsi positivi evitati)", ""]
         report += [f"- {h}" for h in protected_hits] + [""]
