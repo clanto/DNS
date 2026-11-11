@@ -1,3 +1,4 @@
+@@||dns.clanto.cloud^$important
 @@||albert.apple.com^$important
 @@||deviceenrollment.apple.com^$important
 @@||iprofiles.apple.com^$important

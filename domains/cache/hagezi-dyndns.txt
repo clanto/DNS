@@ -27,7 +27,6 @@
 3utilities.com
 404.mn
 4040.idv.tw
-4cloud.click
 4dq.com
 4khdcamera.com
 4mydomain.com
@@ -60,9 +59,7 @@ anal-slavery.com
 anastasion.com
 aneisa.com
 angelcamddns.com
-annaffiare.org
 anondns.net
-antongorbunov.com
 any64.de
 anyitsolution.com
 api64.de
@@ -86,7 +83,6 @@ auraria.org
 australia.ai
 authorizeddns.net
 authorizeddns.org
-authorizeddns.us
 autoipset.com
 avandns.com
 awiki.org
@@ -109,7 +105,6 @@ better-than.tv
 bgdsupport.com
 bhms.com
 bigbluezoo.com
-bigmoney.biz
 bine.me
 birdriver.org
 biz.st
@@ -121,6 +116,7 @@ blogdns.com
 blogdns.net
 blogdns.org
 blogsite.org
+blogsite.xyz
 blogsyte.com
 bloodforthebloodgod.com
 bloom.us
@@ -129,6 +125,7 @@ boblove.org
 boldlygoingnowhere.org
 bot.nu
 bounceme.net
+bouncers4rent.com
 boxathome.net
 brajkovic.com
 brasilia.me
@@ -246,7 +243,6 @@ ddnsfree.com
 ddnsgeek.com
 ddnsguru.com
 ddnsking.com
-ddnslive.com
 ddnss.ch
 ddnss.de
 ddnss.eu
@@ -265,11 +261,9 @@ digikabel.hu
 digitalgroupe.com
 dip.jp
 diskstation.eu
-diskstation.me
 diskstation.org
 ditchyourip.com
 dive2.net
-divx.se
 diyplans.org
 dlinkddns.com
 dmtr.ru
@@ -337,12 +331,7 @@ dray-dns.de
 drayddns.com
 dropfiles.net
 drunkensailor.org
-dscloud.me
-dscloud.mobi
 dsmtp.com
-dsmynas.com
-dsmynas.net
-dsmynas.org
 dtdns.com
 dtdns.net
 dtdns.org
@@ -496,11 +485,9 @@ ezxdev.org
 f-parts.net
 f3322.net
 f3322.org
+fagdns.com
 fairuse.org
 falcongreen.com
-familyds.com
-familyds.net
-familyds.org
 fantasyleague.cc
 faqserv.com
 farted.net
@@ -645,7 +632,6 @@ grupompr.com
 gslb.me
 gteksecurity.com
 gtk.cl
-guardz.ru
 guild-site.com
 gurcanozturk.com
 gurdit.com
@@ -717,7 +703,6 @@ https443.org
 hulichicken.com
 humorvisite.eu
 hunnur.com
-i234.me
 iamallama.com
 ics.tw
 ideasciviles.com
@@ -744,7 +729,6 @@ instanthq.com
 invitee.net
 ionexusa.com
 iot64.de
-iownyour.biz
 iownyour.org
 ip-ddns.com
 ip-dynamic.com
@@ -874,11 +858,9 @@ k22.su
 kanda.ru
 kaohsiung.tv
 kck-saratov.ru
-keenetic.link
-keenetic.name
-keenetic.pro
 keine-panik.net
 kellserve.com
+kfco.net
 kicks-ass.net
 kicks-ass.org
 klapa.eu
@@ -1007,7 +989,6 @@ myddns.rocks
 mydissent.net
 mydns.bz
 mydns.jp
-myds.me
 myeffect.net
 myftp.biz
 myftp.info
@@ -1043,7 +1024,6 @@ mysecuritycamera.com
 mysecuritycamera.net
 mysecuritycamera.org
 myserver.org
-mysynology.net
 myvnc.com
 mywebworld.info
 mywire.org
@@ -1052,7 +1032,6 @@ myxop.com
 myz.info
 n-e-t.name
 n0p.at
-n4t.co
 nard.ca
 nas64.de
 nat-ddns.com
@@ -1074,6 +1053,7 @@ networkoutpost.com
 nflfan.org
 nhlfan.net
 ninth.biz
+nip.io
 no-domain.name
 no-ip.biz
 no-ip.ca
@@ -1111,7 +1091,6 @@ ns1.name
 ns2.name
 ns3.name
 nsupdate.info
-ntdll.top
 nufszone.com
 nx.tc
 ocry.com
@@ -1344,7 +1323,6 @@ squirly.info
 srv64.de
 srvdns.de
 ssitech.bg
-ssl443.org
 sslip.io
 ssmailer.com
 star.is
@@ -1423,6 +1401,7 @@ tunnelbroker.net
 tvlinux.com
 twilightparadox.com
 twodns.de
+twsuser.com
 tzo.com
 ucvradio.cl
 udp64.de
@@ -1452,7 +1431,6 @@ venez.fr
 venez.net
 verymad.net
 viamisoftware.com
-vicinanza.org
 vicp.cc
 vicp.net
 vietnamddns.com

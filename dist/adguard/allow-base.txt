@@ -78,10 +78,13 @@
 @@||tags-eu.tiqcdn.com^$important
 @@||www.uniform-agri.com^$important
 @@||wns.windows.com^$important
+@@||clanto.email^$important
+@@||clnt.eu^$important
 @@||web.spaggiari.eu^$important
 @@||operaprima.info^$important
 @@||icanhazip.tacticalrmm.io^$important
 @@||armada.it^$important
+@@||clanto.it^$important
 @@||idproxy.consap.it^$important
 @@||csasalerno.it^$important
 @@||sgtm.dipendentincloud.it^$important
@@ -113,4 +116,6 @@
 @@||eitdxlcustomerpstorep.z6.web.core.windows.net^$important
 @@||enterpriseregistration.windows.net^$important
 @@||zencdn.net^$important
+@@||bnfirewall.org^$important
 @@||cookielaw.org^$important
+@@||scuola.org^$important

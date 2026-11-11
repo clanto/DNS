@@ -28,6 +28,7 @@ abrogate.info
 abtcoin.org
 aceov.net
 adftoken.com
+adselect.cc
 advancedandersenlab-online.com
 adventuresinscamming.site
 aeonmining.net
@@ -109,6 +110,7 @@ axelsynergy.com
 aximetria.net
 axiomnode.pro
 axiompro.lol
+axiomtrades.online
 backdropcyberrecovery.com
 baileylawfirm.top
 barcodegeu.com
@@ -134,8 +136,10 @@ besbit.com
 bescoin-crypto.com
 best-exchange.xyz
 best-trade.app
+betcam.app
 betcaz.com
 betglimmex.com
+betpoint.cc
 bfctda.com
 bfxcoin.org
 bg-vip7.com
@@ -219,7 +223,6 @@ blockchainlegal.services
 blockchainusdt.com
 blockchainxe.com
 blockcryptoms.com
-blockearner.com.au
 blockincbtc.com
 blockpips.com
 blofinhub.net
@@ -264,6 +267,7 @@ bydfiwpf.com
 bytewealt.com
 c-envy.com
 calderwren.com
+cambet.fun
 campbx.io
 canabit.ca
 capexrecovery.com
@@ -335,12 +339,14 @@ coinscyclone.org
 coinstradeau.vip
 coinstrum.net
 cointopsweb.com
+cointtracking.info
 coinvoya.com
 coinwdfx.com
 coinwhale.us
 coinxax.com
 coires.net
 coiwwel.com
+comcash.exchange
 comoexd.cc
 companycbototc.com
 compassbeta-m.com
@@ -426,6 +432,7 @@ dagdagrail.com
 daoroyal.com
 dappblock365.com
 dappresolved.online
+dappsweb3.net
 darkmode.study
 darwphex.com
 dataranking.org
@@ -539,6 +546,7 @@ epzgsa.com
 equitycapitalspartner.com
 equityfxweb3.com
 ercfw.com
+erdbeertoast.com
 essentialplus.net
 et30.net
 eth-ido.net
@@ -725,6 +733,7 @@ hyperbitexchange.com
 hyperpeak.ai
 hyptradebitts.com
 iatcommunity.com
+icaoizlx.cc
 icecas.com
 icei000-sasj.top
 icekkkk.com
@@ -752,6 +761,7 @@ ipo.capital
 iqonic.vip
 irontrust-exchange.icu
 istardust.io
+ititraders.com
 izea.top
 jadebet.gl
 jagotrack.com
@@ -780,6 +790,7 @@ kneenat.com
 koacmall.com
 koinhub.io
 kokomoswap.com
+korvixcapital.net
 kovadex.com
 krbit.site
 kryptomining.io
@@ -796,7 +807,11 @@ ledger.xyz
 ledgeractivation.com
 ledgercheckapi.com
 ledgercoinshield.com
+ledgerdiagnose.com
 ledgernanox.vip
+leverus.net
+leverus.org
+leverus.pro
 lfg.eco
 lfss.io
 lhoui.cc
@@ -828,6 +843,7 @@ magacoinofficial.com
 magicedenmint.com
 maicapital1.com
 mainnetsdiy.com
+majorfund.org
 mallbn.com
 mancuifcfx.com
 mandrilexchange.com
@@ -839,6 +855,7 @@ marsxec.com
 masa-ho.com
 matan-coin.com
 mcexexchange.com
+mcm-llc.trading
 mecxtrade.com
 megacorp.global
 melonux.com
@@ -915,6 +932,7 @@ neouro.xyz
 nerdlimited.com
 nesowin.com
 nestfincs.pro
+net3coin.org
 netapal.com
 neversino.com
 newlevelpay.com
@@ -943,6 +961,7 @@ novaxchange.live
 novesync.com
 nowaml.com
 nvidiatoken.io
+nxtcoin.org
 oakbtak-a.top
 oakvaultmarkets.com
 ocagussvip.com
@@ -951,12 +970,14 @@ officialmagacoin.com
 officialmagacoin.io
 ofrex.org
 ofssecurityledger.com
+oidradapp.com
 okacrypto.com
 okcoiin.top
 okdcprime.com
 okdctrade.com
 okxph.life
 olymp-options.com
+omnitraceapp.com
 on-chaindapps.com
 onaiw3.com
 onchain.vip
@@ -1043,6 +1064,8 @@ powerofpubwallet.com
 pqtic.com
 praivox.pro
 predicate.cc
+preds.co
+prefi.cc
 prestige-tb.online
 primefunds.net
 primepremiumtrade.com
@@ -1172,6 +1195,7 @@ solcypher.ai
 solenamarketx.com
 solfart.io
 solidity-code.tech
+solkeep.app
 solming.com
 solscan.dev
 soneiumspark.org
@@ -1188,6 +1212,7 @@ srip.ink
 stackstash.co
 stakeconsole.com
 stakedexk.com
+stakerx.ai
 stakestally.com
 standardmarketexchange.com
 starcoincapitals.com
@@ -1327,6 +1352,7 @@ ujhdhcvk.com
 ultraversecoin.com
 unionai.vip
 upcoin.finance
+uphinvestmentex.world
 us-eth.cc
 us-eth.live
 us-eth.pro
@@ -1354,6 +1380,7 @@ vaultxtrading.vip
 vectorinjector.com
 velarplay.vip
 velodromev2.top
+veloraonex.com
 velxton.com
 ventrobi.io
 vertexcapoption.com
@@ -1398,6 +1425,8 @@ web3gpt.net
 webtorn.icu
 webwapex.com
 wed-eth.vip
+wellington-app.com
+wellington-college.com
 weoplay.com
 wfage.cc
 whaleintltoy.com
@@ -1433,8 +1462,10 @@ xblock.bio
 xblock.live
 xbull.top
 xenoswallets.com
+xenpaid.com
 xevnora.top
 xevoboostnetwork.com
+xiuoi.com
 xmlcloudmining.com
 xmprodr.com
 xmrguide.info
