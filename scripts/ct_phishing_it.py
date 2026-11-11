@@ -389,6 +389,11 @@ def interroga_crtsh(prefissi: list[str], fonte: dict, scarica_fn=scarica, attend
                     if isinstance(c, dict) and "id" in c:
                         certificati.setdefault(c["id"], c)
                 break
+            except urllib.error.HTTPError as exc:
+                # 4xx (es. 404 su un prefisso) è definitivo: ritentare fa solo aspettare
+                if exc.code < 500 or tentativo == tentativi - 1:
+                    errori.append(f"{prefisso}%: {exc}")
+                    break
             except (urllib.error.URLError, http.client.HTTPException, TimeoutError, ValueError, OSError) as exc:
                 if tentativo == tentativi - 1:
                     errori.append(f"{prefisso}%: {exc}")

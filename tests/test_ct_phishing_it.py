@@ -205,6 +205,22 @@ def section_fonte():
 
     certs, errori = CT.interroga_crtsh(["a"], {"url": CFG["fonte"]["url"], "tentativi": 2}, giu, lambda s: None)
     check(not certs and len(errori) == 1, "errore definitivo non segnalato")
+
+    # 4xx: nessun nuovo tentativo (fa solo aspettare); 5xx: nuovo tentativo
+    import urllib.error
+    chiamate_http: list[int] = []
+
+    def http_err(codice):
+        def f(url, timeout):
+            chiamate_http.append(codice)
+            raise urllib.error.HTTPError(url, codice, "errore", {}, None)
+        return f
+
+    _, errori = CT.interroga_crtsh(["a"], {"url": CFG["fonte"]["url"], "tentativi": 3}, http_err(404), lambda s: None)
+    check(chiamate_http == [404] and len(errori) == 1, f"404 ritentato: {chiamate_http}")
+    chiamate_http.clear()
+    _, errori = CT.interroga_crtsh(["a"], {"url": CFG["fonte"]["url"], "tentativi": 3}, http_err(502), lambda s: None)
+    check(chiamate_http == [502, 502, 502] and len(errori) == 1, f"502 non ritentato: {chiamate_http}")
     tutti = [f"p{i}" for i in range(10)]
     giri = [set(CT.prefissi_del_giro(tutti, 4, date(2026, 10, g))) for g in (1, 2, 3)]
     check(all(len(g) == 4 for g in giri) and set().union(*giri) == set(tutti), f"rotazione dei prefissi {giri}")

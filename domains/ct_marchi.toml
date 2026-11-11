@@ -9,7 +9,7 @@ osservazione = true
 
 soglia = 60            # punteggio minimo per essere candidato
 finestra_giorni = 7    # certificati con not_before negli ultimi N giorni: crt.sh indicizza con 2-4 giorni di
-                       # ritardo e ogni prefisso è interrogato ogni 3 giorni (prefissi_per_giro)
+                       # ritardo e ogni prefisso è interrogato ogni 4 giorni (prefissi_per_giro)
 scadenza_giorni = 7    # un candidato che non risolve più da N giorni esce (il phishing vive poco)
 
 # Parole esca nel nome (login, verifica, rimborso...): aumentano il punteggio
@@ -65,10 +65,10 @@ suffissi_icann = ["co.uk", "org.uk", "com.au", "com.br", "com.ar", "com.mx", "co
 nome = "crt.sh"
 url = "https://crt.sh/?identity={q}&match=LIKE&output=json&exclude=expired"
 pausa_secondi = 15
-timeout_secondi = 120
-tentativi = 4          # backoff 30 s, 60 s, 120 s
-budget_minuti = 45     # oltre, le ricerche restanti si saltano
-prefissi_per_giro = 30 # rotazione giornaliera: con ~80 prefissi ognuno è interrogato ogni 3 giorni
+timeout_secondi = 60
+tentativi = 2          # un solo nuovo tentativo dopo 30 s, solo sugli errori 5xx (i 4xx sono definitivi)
+budget_minuti = 15     # oltre, le ricerche restanti si saltano (passano al giro successivo)
+prefissi_per_giro = 20 # rotazione giornaliera: con ~80 prefissi ognuno è interrogato ogni 4 giorni
                        # (in prova ogni ricerca ha richiesto in media 70 s tra attesa, risposta e retry)
 
 # Prefissi generici di esca: utili solo se il nome contiene anche un marchio (rimborso-inps.com)
