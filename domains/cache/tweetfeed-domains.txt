@@ -64,6 +64,7 @@ accounts.billingmicrosloft365.site
 acounts-google.duckdns.org
 action-whatsapp.com
 acxjixsd.ltd
+adb-viewersv.com
 add-mfa.com
 addoktapasskey.com
 addsecureapps.com
@@ -121,6 +122,7 @@ amazon.cgiagent.com
 amb-whatsapp.com
 ambercouncil.xyz
 amc-whatsapp.com
+amd-country-prince-episode.trycloudflare.com
 amd-whatsapp.com
 ame-whatsapp.com
 amecxfund.com
@@ -563,6 +565,7 @@ brave-whatsapp.com
 bridge-whatsapp.com
 brimembal.com
 broadspancapital.com
+browser-architecture-sync.com
 browser-whatsapp.com
 browseruphelp.com
 bryweb-whatsapp.com
@@ -733,6 +736,7 @@ cobrastealer.cool
 coclelabs.click
 coctionbit.click
 cocuktekstil.com
+codebase.zip
 codehub-whatsapp.com
 codeinashift.click
 cognovitevo.click
@@ -1137,6 +1141,7 @@ fr-ca.webhwsapp-whatsapp.com
 fr-fr.webhwsapp-whatsapp.com
 fr.webhwsapp-whatsapp.com
 fr.yxdnsy.com
+freemeetly.com
 freshmenuideas.com
 fudcomcheck.art
 fullwork3e4.gamer.free
@@ -1166,6 +1171,10 @@ geoogle.top
 gerardo.desarrollowebalcala.es
 geratronic.com.br
 get-googlemeet.com
+get.api-mall.vip
+get.xabatay.top
+get.xiner.top
+get.yabgo.top
 getfamawell.online
 getfile.centreomega.ca
 ggdxorxunolcknocbnfc.supabase.co
@@ -1294,7 +1303,9 @@ hvgua78432hfv.com
 hyipbird.com
 iasteun.cn
 icgsxf.com
+icici-lombardrenewal.com
 icicibankkyc.vercel.app
+icicilombardsrenewal.com
 icollections.github.io
 id-review.at
 id.nextbet-sports.com
@@ -1320,6 +1331,7 @@ instagram-verifica.freemyip.com
 instagram.82.165.110.7.backname.io
 instagram.dothome.co.kr
 installgarphenos.ink
+instance-hsiwi5-relay.screenconnect.com
 instantposupdate.com
 insuranceforteenagedrivers.com
 integercdn.com
@@ -1654,6 +1666,7 @@ nodedns-whatsapp.com
 nodeedge-whatsapp.com
 nodehost-whatsapp.com
 nosqldb-whatsapp.com
+nov6fp-zone-1488-reg.westus2.cloudapp.azure.com
 novametalinc.com
 novhotellogs.aclobe.me
 npparchive.z1.web.core.windows.net
@@ -1844,6 +1857,7 @@ relay.alico.shop
 relay.autoskreenllc.one
 release-whatsapp.com
 reload-whatsapp.com
+remote-helpdesk.com
 remote.5tr.org
 renovar365.dothome.co.kr
 repoapi-whatsapp.com
@@ -1859,6 +1873,7 @@ restore.webapi-whatsapp.com
 restore.webstatici-whatsapp.com
 restsetestes.com
 reviewshared.s3.us-east-005.backblazeb2.com
+rigercloud-network.com
 river-whatsapp.com
 riverpartner.org
 rjxweb-whatsapp.com
@@ -2136,6 +2151,7 @@ sunvallen-jp.com
 support-apple-in.live
 support-apple.digital
 support-apple.top
+support.rogmafia.top
 support.webapi-whatsapp.com
 support.webstatici-whatsapp.com
 supportforpolicycompliance.vercel.app
@@ -2356,6 +2372,7 @@ vyv51.top
 w8l35buwr.onlinewebshop.net
 wafnode-whatsapp.com
 walkingpad.cslt168.com
+walks-remained-aruba-scuba.trycloudflare.com
 wallet-update.at
 walletsecurity.dev
 walletsecuritypro.cam
@@ -2368,6 +2385,7 @@ wdbyyyg.net.cn
 wealthstepguide.com
 web-cn-whatsapp.com
 web-keplr.com
+web-production-ea392.up.railway.app
 web-static-cdn.od-files-repo.workers.dev
 web-whatsopp.com
 web.boot-whatsapp.com

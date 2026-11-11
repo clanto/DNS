@@ -2,13 +2,13 @@
   "feed": {
     "doh-v4.txt": 1446,
     "doh-v6.txt": 865,
-    "tor-v4.txt": 5314,
-    "tor-v6.txt": 2575,
-    "threat-v4.txt": 25815,
+    "tor-v4.txt": 5261,
+    "tor-v6.txt": 2536,
+    "threat-v4.txt": 25890,
     "threat-v6.txt": 0,
-    "c2-v4.txt": 2186,
+    "c2-v4.txt": 2189,
     "c2-v6.txt": 0,
-    "vpn-v4.txt": 9229,
+    "vpn-v4.txt": 9191,
     "vpn-v6.txt": 574,
     "social-v4.txt": 213,
     "social-v6.txt": 119,
@@ -16,14 +16,14 @@
     "file-sharing-v6.txt": 5,
     "cloud-storage-v4.txt": 4,
     "cloud-storage-v6.txt": 1,
-    "inbound-v4.txt": 89622,
+    "inbound-v4.txt": 88687,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "all-v4.txt": 34480,
-    "all-v6.txt": 3440,
-    "all-scuole-v4.txt": 43279,
-    "all-scuole-v6.txt": 3925
+    "all-v4.txt": 34505,
+    "all-v6.txt": 3401,
+    "all-scuole-v4.txt": 43265,
+    "all-scuole-v6.txt": 3885
   },
   "fonti": [
     {
@@ -53,7 +53,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1256,
+      "entries": 1252,
       "detail": ""
     },
     {
@@ -63,7 +63,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "ok",
-      "entries": 10113,
+      "entries": 10141,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -83,7 +83,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 16878,
+      "entries": 16971,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -113,7 +113,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 108536,
+      "entries": 107627,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -163,7 +163,7 @@
       "homepage": "https://github.com/0xDanielLopez/TweetFeed",
       "enabled": true,
       "status": "ok",
-      "entries": 2206,
+      "entries": 2209,
       "detail": "IoC degli ultimi 30 giorni condivisi da ricercatori di sicurezza"
     },
     {
@@ -183,7 +183,7 @@
       "homepage": "https://github.com/X4BNet/lists_vpn",
       "enabled": true,
       "status": "ok",
-      "entries": 11121,
+      "entries": 11083,
       "detail": ""
     },
     {
@@ -272,15 +272,15 @@
     }
   },
   "allowlist": {
-    "voci": 249,
+    "voci": 225,
     "reti_modificate": 1
   },
   "condivisi": {
     "intervalli": 11073,
-    "voci_escluse": 5726
+    "voci_escluse": 5724
   },
   "protetti": {
-    "ip_risolti": 239,
+    "ip_risolti": 215,
     "voci_escluse": [
       "doh: 94.23.71.64/32 usato da dns.clanto.cloud"
     ]

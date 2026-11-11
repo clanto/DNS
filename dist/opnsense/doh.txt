@@ -190,6 +190,7 @@ adguard.kitakitsune.xyz
 adguard.landropunk.xyz
 adguard.lege.despagne.net
 adguard.llf520.dpdns.org
+adguard.londonwebnerd.cloud
 adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
@@ -470,6 +471,7 @@ blackhole.myon.lu
 blade.lixd.club
 blamb.duckdns.org
 blank.dnsforge.de
+block.abstergo.it
 block.coconut.id
 blocker.thethorsens.org
 blog.kimiblock.top
@@ -959,6 +961,7 @@ dns.girino.org
 dns.giriprabhat.com
 dns.glampool.cloud
 dns.glf.wtf
+dns.glorydns.com
 dns.glsoft.ai
 dns.gnb09.id
 dns.goldplate.org
@@ -1238,6 +1241,7 @@ dns.paxavemedia.com
 dns.pccoach.nl
 dns.peb-schmidt.de
 dns.periactes.com
+dns.pernika.net
 dns.pesaventofilippo.com
 dns.petqa.ru
 dns.phillipjberry.net
@@ -1424,6 +1428,7 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
+dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wantfreedom.eu.org
@@ -1839,7 +1844,6 @@ family-filter-dns.cleanbrowsing.org
 family.adguard-dns.com
 family.canadianshield.cira.ca
 family.cloudflare-dns.com
-family.dns.doubleangels.com
 family.dns.dremaxx.com
 family.dns.mullvad.net
 family.dns.ningkelle.id
@@ -1924,7 +1928,6 @@ google-public-dns-b.google.com
 goose.buckyfan.net
 gr.skrsteam.info
 graf.mywire.org
-graveofhope.ru
 greatideasforlife.lol
 green2.jnraptor.net
 green3.jnraptor.net
@@ -1989,6 +1992,7 @@ hkg01.dnscry.pt
 hkg02.dnscry.pt
 hkg03.dnscry.pt
 hkg2.edge.access.zznet.fun
+hkname.freecdn.one
 hknat.ooguy.com
 hkns.gzelvis.com
 hkt.kozow.com
@@ -2218,6 +2222,7 @@ los02.dnscry.pt
 lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
+lukscasino-479-tr.xyz
 lunar-dns.de
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
@@ -2231,6 +2236,7 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
+mask-canary.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2255,6 +2261,7 @@ micro.alloxr.info
 midgard.asguardian.de
 mijoregner.de
 mikatos.de
+mikezhang.xyz
 mikrobill.dns-cloud.net
 mil01.dnscry.pt
 mimir.magicaobscura.de
@@ -2446,6 +2453,7 @@ panel.abolisub.ir
 panel.joosh.ru
 par01.dnscry.pt
 paradise-human.shop
+pashagame456.com
 pates.services.sfr.fr.casepp.sfr.fr
 path1.28bafa6d.top
 patrique.duckdns.org
@@ -2543,7 +2551,6 @@ rdns.faelix.net
 reaplay.ddns.net
 redsea.meetz.pw
 register.zedzander.com
-renardbleu.dev
 reniac.su
 res-acst1.absolight.net
 res-acst2.absolight.net

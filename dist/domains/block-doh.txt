@@ -913,7 +913,6 @@ dns.acezy.top
 dns.adfreedns.org
 dns.adguard-dns.com
 dns.adguard.com
-dns.adguarddns.com
 dns.adnull.com
 dns.adrianlam.com
 dns.adriason.co.uk
@@ -2313,7 +2312,6 @@ f4f.es
 facomunit.ddns.net
 family-filter-dns.cleanbrowsing.org
 family.adguard-dns.com
-family.adguarddns.com
 family.canadianshield.cira.ca
 family.cloudflare-dns.com
 family.dns.doubleangels.com
@@ -3550,7 +3548,6 @@ uncensored-dot.dnswarden.com
 uncensored.freedns.controld.com
 uncensoreddns.org
 unfiltered.adguard-dns.com
-unfiltered.adguarddns.com
 unfiltered.joindns4.eu
 unicast.censurfridns.dk
 unicast.censurfridns.nu

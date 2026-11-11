@@ -665,6 +665,7 @@
 ||tapfut.cc^
 ||theproxy.cc^
 ||theproxy2.cc^
+||dede19.tidelark.cc^
 ||vimika15.tidelark.cc^
 ||tifa.cc^
 ||tifaix123.cc^
@@ -777,6 +778,7 @@
 ||proxymint.click^
 ||ptkdfjnflmpalkfpkehjgopmjldhjhgb.click^
 ||quickcache.click^
+||losuny65.quietfjord.click^
 ||rapidcdn.click^
 ||rusnet-android.click^
 ||sbdc3cw.click^
@@ -1933,6 +1935,7 @@
 ||luminal.vseesa.blackonstuff.com^
 ||wave.blackonstuff.com^
 ||work.blackonstuff.com^
+||blacksmithvpn.com^
 ||blackvpn.com^
 ||bladeevoke.com^
 ||blanccdn.com^
@@ -2316,7 +2319,6 @@
 ||plans.datacommunicationsinc.com^
 ||dataimpulse.com^
 ||datapointhq.com^
-||daviddoesntmogaastik.com^
 ||rammer.davispetsitter.com^
 ||dawninternet.com^
 ||daydayvpn.com^
@@ -4044,8 +4046,6 @@
 ||keyphone92.com^
 ||kfwjq7a3.com^
 ||kgkt5w6.com^
-||45543.khsonthespot.com^
-||wildcard.khsonthespot.com^
 ||kickassproxy.com^
 ||kideqf.com^
 ||kidsroboticsbkk.com^
@@ -4350,7 +4350,6 @@
 ||lei-su.com^
 ||leidian123.com^
 ||leidian88.com^
-||leitingjc.com^
 ||leitingvpn1.com^
 ||leoygiuj.com^
 ||let-vpn.com^
@@ -4524,6 +4523,7 @@
 ||menavpn.com^
 ||menavpn1.com^
 ||mer6y5.com^
+||metalproxy.com^
 ||learn.logic.metaure.com^
 ||mgyfyvyo.com^
 ||mhbqhdwg.com^
@@ -5154,6 +5154,7 @@
 ||proxy4free.com^
 ||proxy62.com^
 ||proxyarab.com^
+||proxyasaservice.com^
 ||proxybits.com^
 ||proxybreeze.com^
 ||proxybros.com^
@@ -5203,6 +5204,7 @@
 ||proxysite.com^
 ||proxysneak.com^
 ||proxysocks5.com^
+||proxystride.com^
 ||proxysupply.com^
 ||proxytitan.com^
 ||proxytoplay.com^
@@ -5438,6 +5440,7 @@
 ||learnaboutbillclinton.scrapitsoftware.com^
 ||scroogethebest.com^
 ||scugoge.com^
+||sdlcproxy.com^
 ||facts.teach.sdm-tv.com^
 ||sdwkhwt4.com^
 ||sdxnblze.com^
@@ -7032,8 +7035,6 @@
 ||j.xj2.workers.dev^
 ||zadmin.dev^
 ||flarevpn.digital^
-||t3.myrka.digital^
-||t4.myrka.digital^
 ||onion.direct^
 ||labubudubaichocolatephonk.joe.dj^
 ||skibiditoilet.joe.dj^
@@ -7508,9 +7509,6 @@
 ||atlast9hdp.info^
 ||atlaswyxd3.info^
 ||avovpnbot.info^
-||best.iran.ir.awedsj.info^
-||por-sorat.ir.awedsj.info^
-||strait-of-hormuz.ir.bcsadwtgd.info^
 ||bebra-vpn.info^
 ||bebravpndownload.info^
 ||best-cooking-recipes.info^
@@ -8074,6 +8072,7 @@
 ||azerbaycanresanemiz.ir^
 ||bathshop.ir^
 ||benb.ir^
+||host.delestershop18.ir^
 ||doitnow.ir^
 ||energys.ir^
 ||farzadprx.ir^
@@ -8565,7 +8564,6 @@
 ||class.skill.theo.mx^
 ||mehmetgayalo.southern.com.my^
 ||glock.my^
-||hitray.my^
 ||hyperbea.my^
 ||my52.my^
 ||baablu.tcloud.my^
@@ -11207,19 +11205,6 @@
 ||rpttechnologies.org^
 ||hi.ryuflowing.org^
 ||s-vpn.org^
-||admin.sailforeducation.org^
-||api.sailforeducation.org^
-||app.sailforeducation.org^
-||asdfghjkl.sailforeducation.org^
-||autodiscover.sailforeducation.org^
-||correo.sailforeducation.org^
-||demo.sailforeducation.org^
-||dev.sailforeducation.org^
-||fajtbuyh.sailforeducation.org^
-||mail.sailforeducation.org^
-||poczta.sailforeducation.org^
-||staging.sailforeducation.org^
-||wmhctvlu.sailforeducation.org^
 ||backend.development.sanluix.org^
 ||database.development.sanluix.org^
 ||frontend.development.sanluix.org^
@@ -11691,8 +11676,6 @@
 ||kropvane.ru^
 ||krym-toury.ru^
 ||lagomvpn.ru^
-||edmentum-reading.lbry.ru^
-||mathworkforreal.lbry.ru^
 ||lumaay.ru^
 ||lunqaro.ru^
 ||maybeeasyxz.ru^
@@ -12212,7 +12195,6 @@
 ||airpanel.top^
 ||aiyun007.top^
 ||allgeovpn.top^
-||makasu60.amberreed.top^
 ||ano404.top^
 ||b234e85045f9249ab7688778608b2742.top^
 ||barintg.top^
@@ -12412,7 +12394,6 @@
 ||annual2025.uk^
 ||catnet.uk^
 ||10bestvpn.co.uk^
-||3etare.co.uk^
 ||accessvpn.co.uk^
 ||ahvaz.co.uk^
 ||kasco.alhosein.co.uk^
@@ -12449,14 +12430,23 @@
 ||run.golgoli2.co.uk^
 ||shoes.golgoli2.co.uk^
 ||ava.goooalir.co.uk^
+||azadi.goooalir.co.uk^
 ||baran.goooalir.co.uk^
 ||cr777.goooalir.co.uk^
+||for-iran.goooalir.co.uk^
 ||from.goooalir.co.uk^
 ||joje.goooalir.co.uk^
 ||leomessi.goooalir.co.uk^
+||nab.goooalir.co.uk^
 ||narooo.goooalir.co.uk^
 ||nigan.goooalir.co.uk^
+||paydar.goooalir.co.uk^
 ||sefid.goooalir.co.uk^
+||soh5.goooalir.co.uk^
+||soheil.goooalir.co.uk^
+||tassian.goooalir.co.uk^
+||vasle.goooalir.co.uk^
+||for.you.goooalir.co.uk^
 ||cdn1.graduat.co.uk^
 ||old.graduat.co.uk^
 ||white.graduat.co.uk^
@@ -12464,14 +12454,16 @@
 ||panel.hook--tehran.co.uk^
 ||ccc.horizon555.co.uk^
 ||one.horizon555.co.uk^
-||support.infinityhalo.co.uk^
 ||jhndoes.co.uk^
 ||lamnia.co.uk^
+||dl.linux-orggv.co.uk^
+||aseman.lunavane.co.uk^
 ||craft.malavanann.co.uk^
 ||jadide.mamadali.co.uk^
 ||api.mangoseason5.co.uk^
 ||ir.mediaad.co.uk^
 ||org.mediaad.co.uk^
+||pofak.mikhay.co.uk^
 ||ir.mohearn.co.uk^
 ||puot.mozitop.co.uk^
 ||ving.mozitop.co.uk^
@@ -12482,13 +12474,11 @@
 ||you.nasakhamia.co.uk^
 ||ninjaproxy.co.uk^
 ||noblocc.co.uk^
-||nocloudnew.co.uk^
 ||nordvpn.co.uk^
 ||apple11.nowhearthis.co.uk^
 ||opsecmastur.nowhearthis.co.uk^
 ||arthi.rajmohan.nowhearthis.co.uk^
 ||onlineproxy.co.uk^
-||ir.pcspeedyfix.co.uk^
 ||petros-es.co.uk^
 ||jadid.porsorate.co.uk^
 ||proxay.co.uk^
@@ -12496,6 +12486,8 @@
 ||proxywebsite.co.uk^
 ||royaclinic.co.uk^
 ||nice.rozinalpoku.co.uk^
+||speed.runserver.co.uk^
+||darya.saheledarya.co.uk^
 ||my.soft98.co.uk^
 ||dns.speed-benz.co.uk^
 ||premium.speed-benz.co.uk^
@@ -12511,7 +12503,6 @@
 ||unblocc.co.uk^
 ||unblocksites.co.uk^
 ||vanillacoke.co.uk^
-||ir.vanitydomain.co.uk^
 ||silnet.varfootball.co.uk^
 ||iro.varfootball2.co.uk^
 ||worldmaster.varomax.co.uk^
@@ -13048,7 +13039,9 @@
 ||kydiypro.xyz^
 ||doge.lamplifesteal.xyz^
 ||kaz.lamplifesteal.xyz^
+||dema91.larchmere.xyz^
 ||deto84.larchmere.xyz^
+||mikaga72.larchmere.xyz^
 ||neka92.larchmere.xyz^
 ||lasbg4.xyz^
 ||algebra.learnnexus.xyz^
@@ -13071,7 +13064,6 @@
 ||mochiss.xyz^
 ||mochiss2.xyz^
 ||mochiss3.xyz^
-||origin.mossharbor.xyz^
 ||mtpro.xyz^
 ||mvipcloud.xyz^
 ||mxo4bkqvdityebzvp.xyz^

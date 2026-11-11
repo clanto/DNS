@@ -12989,6 +12989,7 @@
 ||coachquartz.com^
 ||metrics.coalesse.com^
 ||coalkitchen.com^
+||coalmerchants.com^
 ||qzfxcf.coastal.com^
 ||marketing.coastalmississippi.com^
 ||marketing.coastaloakins.com^
@@ -23357,6 +23358,7 @@
 ||go.news.loyaltycompany.com^
 ||trk.news.loyaltycompany.com^
 ||loyaltylion.com^
+||loyaltymatrix.com^
 ||lp30tkr.com^
 ||lp3tdqle.com^
 ||lpjjm8trk.com^
@@ -23946,6 +23948,7 @@
 ||mashery.com^
 ||a8cv.mashumaro-bra.com^
 ||stats.mashword.com^
+||maskedadmin.com^
 ||qyuzwd.maskworld.com^
 ||crm.masonmac.com^
 ||mass-analytics.com^
@@ -36089,6 +36092,7 @@
 ||skcrtxr.com^
 ||click.devemails.skechers.com^
 ||sketchpals.com^
+||sketchpodcast.com^
 ||promo.skf.com^
 ||skf84trk.com^
 ||stats.ski.com^

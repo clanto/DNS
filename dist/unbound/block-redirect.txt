@@ -1481,7 +1481,6 @@
 *.linksbr.com.br
 *.links.luckreceptivo.com.br
 *.conteudo.megasoft.com.br
-*.nabio.com.br
 *.digital.rumori.com.br
 *.shortlinks.com.br
 *.solinks.com.br
@@ -15303,7 +15302,6 @@
 *.bebosurf.com
 *.bebounlocker.com
 *.beboxy.com
-*.bebuiltllc.com
 *.becauseimbored.com
 *.proxy.becauseitspossible.com
 *.becomehidden.com
@@ -28439,7 +28437,6 @@
 *.tinlyy.com
 *.proxy.tinos-tinos.com
 *.unblockism.tinos-tinos.com
-*.tiny-l.com
 *.tiny-links.com
 *.tiny123.com
 *.tiny1z.com
@@ -35943,6 +35940,7 @@
 *.lnv.gy
 *.mq.gy
 *.rb.gy
+*.s.gy
 *.short.gy
 *.sk.gy
 *.ty.gy
@@ -75172,7 +75170,6 @@
 *.review.worldwide-investment.net
 *.wormhole-one.net
 *.wosso.net
-*.wounofoarausooy.net
 *.wowevent.net
 *.wsfw.net
 *.wslat.net
@@ -75944,7 +75941,6 @@
 *.adclickring.org
 *.admarkservices.org
 *.advercash.org
-*.agentassistcrm.org
 *.agiledirectory.org
 *.albn.org
 *.dating.allowed.org
@@ -77778,7 +77774,6 @@
 *.zip.pe
 *.cii.pet
 *.proxysurf.adinfinitum.b2b.ph
-*.belink.ph
 *.mpfi.com.ph
 *.used.com.ph
 *.proxynetwork.i.ph

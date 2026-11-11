@@ -3256,6 +3256,7 @@ vfs.cloud9.us-east-2.amazonaws.com
 vfs.cloud9.us-west-1.amazonaws.com
 vfs.cloud9.us-west-2.amazonaws.com
 vibehost.space
+vibekit.page
 vicp.fun
 vip.jelastic.cloud
 vipsinaapp.com

@@ -10721,6 +10721,7 @@
 *.stats.coachinghive.com
 *.metrics.coalesse.com
 *.coalkitchen.com
+*.coalmerchants.com
 *.qzfxcf.coastal.com
 *.marketing.coastalmississippi.com
 *.marketing.coastaloakins.com
@@ -18641,6 +18642,7 @@
 *.link.loxclubapp.com
 *.go.news.loyaltycompany.com
 *.trk.news.loyaltycompany.com
+*.loyaltymatrix.com
 *.metrics.lpl.com
 *.smetrics.lpl.com
 *.lrkt-in.com
@@ -19082,6 +19084,7 @@
 *.go.mashery.com
 *.a8cv.mashumaro-bra.com
 *.stats.mashword.com
+*.maskedadmin.com
 *.qyuzwd.maskworld.com
 *.crm.masonmac.com
 *.secure.mass1soma.com
@@ -24981,6 +24984,7 @@
 *.skcrtxr.com
 *.click.devemails.skechers.com
 *.sketchpals.com
+*.sketchpodcast.com
 *.promo.skf.com
 *.stats.ski.com
 *.bcfgwi.skidxb.com

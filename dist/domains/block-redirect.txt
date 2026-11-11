@@ -5336,7 +5336,6 @@ agenews.tk
 agent.nz.gs
 agent.uk.to
 agent.us.to
-agentassistcrm.org
 agentbrands.tk
 agentbypass.info
 agentcircle.tk
@@ -11178,7 +11177,6 @@ bebounlocker.info
 bebouser.info
 beboxy.com
 bebrooding.tk
-bebuiltllc.com
 bec.ltd
 becakrcg.xyz
 because-mores.co.cc
@@ -11319,7 +11317,6 @@ belgiumprox.info
 believeit.info
 belikely.tk
 belink.me
-belink.ph
 belink.vebto.com
 belinki.cloud
 belinksnip.com
@@ -63509,7 +63506,6 @@ na5.nl
 naa.gg
 nabilo.cf
 nabilproxy.gq
-nabio.com.br
 nabire.co.cc
 nacht.pl
 nacn.info
@@ -87302,6 +87298,7 @@ s.free.fr
 s.g123.jp
 s.gdngs.de
 s.ggwp.be
+s.gy
 s.id
 s.jumpingcrab.com
 s.kiot.io
@@ -103442,7 +103439,6 @@ tinurl.pro
 tiny-check-20.life
 tiny-check-9.life
 tiny-check-9.live
-tiny-l.com
 tiny-link.co
 tiny-link.org
 tiny-links.com
@@ -117132,7 +117128,6 @@ wouldopengfws.tk
 wouldopenproxs.tk
 wouldopens.tk
 woundedsoldiers.tk
-wounofoarausooy.net
 wow-proxy.com
 wow-vpn.tk
 wow.doctor
