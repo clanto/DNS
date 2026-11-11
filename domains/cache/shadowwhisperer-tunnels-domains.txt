@@ -252,7 +252,6 @@ flashput.net
 flashputon.net
 flashvpn.li
 for-privacy.net
-fortinet.com
 fortinet.net
 fortiwebcloud.net
 forwardproxie.com
@@ -291,6 +290,7 @@ get-vuze-vpn.com
 get-x-web-link2.com
 geti2p.net
 getiantem.org
+getmdl.io
 getoutunblock.com
 getproton.me
 getproxylist.com
@@ -356,6 +356,7 @@ internetcloak.com
 ipbuzz.net
 ipchangeproxy.com
 ipchanging.com
+ipcook.com
 ipdisguiser.com
 ipfreely.io
 ipprotectionauth.goog

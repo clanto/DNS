@@ -49,6 +49,7 @@ cloudshare.cz
 cocoimage.com
 cocoshare.cc
 cramit.in
+cutedrive.com
 cybernetic1995.acc.de
 dada.net
 dardarkom.com
@@ -102,7 +103,6 @@ filehosting.cc
 filehosting.org
 filejungle.com
 filekicker.com
-filelodge.bolt.com
 filemail.com
 filenext.org
 filepost.com
@@ -110,7 +110,6 @@ fileqube.com
 files-express.com
 files.catbox.moe
 files.mail.ru
-files.to
 files6.com
 filesanywhere.com
 filesavr.com
@@ -122,7 +121,6 @@ filespump.com
 filestube.com
 fileup.org
 fileupyours.com
-fileurls.com
 filezzz.com
 film-2-streaming.com
 flypicture.com
@@ -178,7 +176,6 @@ imagehost.es
 imagehosting.com
 imagemule.com
 imagengratis.org
-imagepremium.com
 imageshack.us
 imagevenue.com
 imagexa.com
@@ -203,7 +200,6 @@ leechking.com
 leetleech.org
 letitbit.net
 likeimg.com
-limelinx.com
 linkspoof.com
 littlebyte.net
 lulzimg.com
@@ -235,7 +231,6 @@ mooload.com
 motionbox.com
 movshare.net
 mp3y.download
-muack.net
 multidl.com
 mundo-descargas.com
 mundoimg.com
@@ -263,7 +258,6 @@ pbase.com
 peerfactor.fr
 photofile.ru
 photoimagenes.com
-photoserver.ws
 phyrefile.com
 pic4you.ru
 picfoco.com
@@ -274,12 +268,12 @@ picoodle.com
 picscrazy.com
 picsec.com
 picturetrail.com
-picupl.com
 picvalley.net
 pixagogo.com
 pixali.com
 pixeldrain.com
 pixhost.me
+pixshock.net
 pixsy.com
 premify.com
 premiumbyleo.co.cc
@@ -341,6 +335,7 @@ streamupload.com
 sube.la
 subefotos.com
 subelas.com
+subetela.com
 subiteya.com
 sugarsync.com
 superphotospace.com
@@ -369,7 +364,6 @@ ultrashare.de
 ultrashare.net
 unibytes.com
 universitriat.co.cc
-up-file.com
 up.li.ru
 up4net.com
 updownloadserver.com
@@ -398,6 +392,7 @@ usershare.net
 userupload.net
 ushareit.com
 verysong.co.cc
+vgroupnetwork.com.ar
 vidcloud.co
 videozer.com
 vidoza.net
