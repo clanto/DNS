@@ -47,11 +47,8 @@ jobs:
             echo "Nessun dominio morto da togliere"
             exit 0
           fi
-          open=$(gh pr list --state open --json headRefName --jq '[.[] | select(.headRefName | startswith("pulizia-domini/"))] | length')
-          if [ "$open" != "0" ]; then
-            echo "::warning::Esiste già una PR di pulizia aperta: nessuna nuova PR"
-            exit 0
-          fi
+          aperte=$(gh pr list --state open --json headRefName \
+            --jq '[.[] | select(.headRefName | startswith("pulizia-domini/")) | .headRefName] | join(" ")')
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           gh auth setup-git  # credenziali solo per il push di questo step (checkout senza persist-credentials)
@@ -60,9 +57,15 @@ jobs:
           git add domains/blocklist
           git commit -m "domini: rimozione voci manuali non più esistenti (NXDOMAIN su due resolver)"
           git push origin "$branch"
+          head -c 60000 "$RUNNER_TEMP/domini.md" > "$RUNNER_TEMP/corpo.md"
           gh pr create --base main --head "$branch" \
-            --title "Pulizia blocklist manuali: domini non più esistenti" \
-            --body-file "$RUNNER_TEMP/domini.md"
+            --title "Pulizia blocklist manuali: domini non più esistenti $(date -u +%F)" \
+            --body-file "$RUNNER_TEMP/corpo.md"
+          # basso rischio (solo voci NXDOMAIN su due resolver): unita subito, resta traccia nello storico delle PR
+          gh pr merge "$branch" --squash --delete-branch
+          for vecchia in $aperte; do
+            gh pr close "$vecchia" --delete-branch --comment "Superata dalla pulizia $branch."
+          done
 
       - name: Verifica reti dei provider DNS dedicati
         if: always()

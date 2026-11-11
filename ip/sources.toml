@@ -7,7 +7,9 @@
 min_prefix_v4 = 16        # reti più ampie di /16 scartate (evita blocchi di interi provider)
 min_prefix_v6 = 32
 max_drop_ratio = 0.5      # se una fonte cala oltre il 50% rispetto all'ultima versione, si tiene la cache
-pr_threshold = 0.25       # variazione oltre il 25% su un feed → PR da approvare invece del commit diretto
+pr_threshold = 0.25       # variazione oltre il 25% su un feed → PR unita in automatico (traccia nello storico)
+hard_growth = 4.0         # crescita oltre ×4 o...
+hard_drop = 0.6           # ...calo oltre il 60%: variazione estrema, niente pubblicazione finché non è verificata
 anomaly_min_entries = 100 # sotto questa soglia i feed non generano anomalie (liste manuali piccole)
 max_entries = 0           # 0 = nessun limite; >0 segnala i feed che superano i limiti dei firewall
 source_max_age_days = 7   # fonte il cui contenuto non cambia da più giorni → controllo giornaliero fallito (max_age_days per fonte)

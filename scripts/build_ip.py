@@ -616,15 +616,23 @@ def main() -> int:
             outputs[f"{name}-v{v}.txt"] = sorted(ipaddress.collapse_addresses(merged), key=sort_key)
 
     anomalies: list[str] = []
+    severe: list[str] = []  # oltre i limiti estremi: niente pubblicazione automatica
     threshold = settings.get("pr_threshold", 0.25)
     min_base = settings.get("anomaly_min_entries", 100)
     max_entries = settings.get("max_entries", 0)
+    hard_growth = settings.get("hard_growth", 4.0)
+    hard_drop = settings.get("hard_drop", 0.6)
     for name, nets in outputs.items():
         prev = count_lines(DIST_DIR / name)
         if prev and prev >= min_base and abs(len(nets) - prev) / prev > threshold:
-            anomalies.append(f"`{name}`: {prev} → {len(nets)} voci")
+            line = f"`{name}`: {prev} → {len(nets)} voci"
+            anomalies.append(line)
+            if len(nets) > prev * hard_growth or len(nets) < prev * (1 - hard_drop):
+                severe.append(line)
         if max_entries and len(nets) > max_entries:
-            anomalies.append(f"`{name}`: {len(nets)} voci oltre il limite max_entries={max_entries}")
+            line = f"`{name}`: {len(nets)} voci oltre il limite max_entries={max_entries}"
+            anomalies.append(line)
+            severe.append(line)
 
     if write:
         DIST_DIR.mkdir(parents=True, exist_ok=True)
@@ -665,6 +673,11 @@ def main() -> int:
         report += [f"- {h}" for h in protected_hits] + [""]
     if anomalies:
         report += ["### Variazioni anomale", ""] + [f"- {a}" for a in anomalies] + [""]
+        if severe:
+            report += [f"**Variazioni estreme** (oltre ×{hard_growth:g} o calo oltre {hard_drop:.0%}): feed non "
+                       "pubblicati finché non vengono verificate.", ""] + [f"- {a}" for a in severe] + [""]
+        else:
+            report += ["Variazioni entro i limiti: PR unita in automatico, resta nello storico delle PR.", ""]
     if errors:
         report += ["### Errori nelle liste manuali (righe ignorate)", ""] + [f"- {e}" for e in errors] + [""]
     text = "\n".join(report)
@@ -676,7 +689,8 @@ def main() -> int:
             fh.write(text + "\n")
     if gh_out := os.environ.get("GITHUB_OUTPUT"):
         with open(gh_out, "a", encoding="utf-8") as fh:
-            fh.write(f"anomaly={'true' if anomalies else 'false'}\nerrors={len(errors)}\n")
+            fh.write(f"anomaly={'true' if anomalies else 'false'}\nanomaly_hard={'true' if severe else 'false'}\n"
+                     f"errors={len(errors)}\n")
     for e in errors:
         fail(e)
     # In build le righe errate vengono saltate e i feed pubblicati comunque; il workflow fallisce dopo.

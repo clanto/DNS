@@ -72,11 +72,14 @@ jobs:
         run: python scripts/changelog.py
 
       - name: Pubblica
+        id: pubblica
         env:
           GH_TOKEN: ${{ github.token }}
-          # anomalia dei feed IP o calo oltre soglia di una lista strict (build_domains.py): PR invece del push
+          # anomalia dei feed IP o calo oltre soglia di una lista strict (build_domains.py): pubblicata tramite PR
           ANOMALY: ${{ steps.build.outputs.anomaly == 'true' || steps.allow.outputs.anomaly == 'true' }}
           ACCETTA: ${{ inputs.accetta_variazioni == true }}
+          # variazione estrema dei feed IP (oltre ×4 o calo oltre il 60%, o max_entries): niente unione automatica
+          ESTREMA: ${{ steps.build.outputs.anomaly_hard == 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
@@ -91,11 +94,31 @@ jobs:
             msg="$msg (variazione anomala accettata)"
             ANOMALY=false
           fi
+          aperte=$(gh pr list --state open --json headRefName \
+            --jq '[.[] | select(.headRefName | startswith("ip-update/")) | .headRefName] | join(" ")')
+          if [ "$ANOMALY" = "true" ] && [ "$ESTREMA" != "true" ]; then
+            # Variazione sensibile ma plausibile: PR unita subito, così resta traccia cercabile nello storico
+            head -c 60000 "$RUNNER_TEMP/report.md" > "$RUNNER_TEMP/corpo.md"
+            branch="ip-update/$(date -u +%Y%m%d-%H%M)"
+            git switch -c "$branch"
+            git commit -m "$msg (variazione anomala, unita in automatico)"
+            git fetch origin main
+            git rebase origin/main
+            git push origin "$branch"
+            gh pr create --base main --head "$branch" \
+              --title "feed: variazione anomala unita in automatico $(date -u +%F)" \
+              --body-file "$RUNNER_TEMP/corpo.md"
+            gh pr merge "$branch" --squash --delete-branch
+            for vecchia in $aperte; do
+              gh pr close "$vecchia" --delete-branch --comment "Superata dalla variazione unita in automatico ($branch)."
+            done
+            echo "pubblicato=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           if [ "$ANOMALY" = "true" ]; then
             head -c 60000 "$RUNNER_TEMP/report.md" > "$RUNNER_TEMP/corpo.md"  # limite GitHub: 65536 caratteri
             # Una sola PR ip-update, sempre con i dati dell'ultimo build: mai una PR ferma al primo giorno
-            branch=$(gh pr list --state open --json headRefName \
-              --jq '[.[] | select(.headRefName | startswith("ip-update/"))][0].headRefName // empty')
+            branch="${aperte%% *}"
             nuova=false
             if [ -z "$branch" ]; then
               branch="ip-update/$(date -u +%Y%m%d-%H%M)"
@@ -106,25 +129,26 @@ jobs:
             git push --force origin "$branch"
             if [ "$nuova" = "true" ]; then
               gh pr create --base main --head "$branch" \
-                --title "feed: variazione anomala da verificare" \
+                --title "feed: variazione ESTREMA da verificare" \
                 --body-file "$RUNNER_TEMP/corpo.md"
             else
               gh pr comment "$branch" --body-file "$RUNNER_TEMP/corpo.md"
             fi
             # Il job fallisce: i feed non sono pubblicati e deve vederlo chi guarda Actions
-            echo "::error::Variazione anomala: feed NON pubblicati. Verificare la PR $branch, poi unirla oppure rilanciare Build feed con accetta_variazioni"
+            echo "::error::Variazione estrema: feed NON pubblicati. Verificare la PR $branch, poi unirla oppure rilanciare Build feed con accetta_variazioni"
             exit 1
           else
             git commit -m "$msg"
             git pull --rebase origin main
             git push origin HEAD:main
+            echo "pubblicato=true" >> "$GITHUB_OUTPUT"
           fi
 
       # Sito GitHub Pages: docs/ + indice «Perché è bloccato?» (dist/perche è in .gitignore, mai nella storia git).
-      # Solo quando il build pubblica su main: con una variazione anomala l'indice aspetta la revisione della PR.
+      # Solo quando il build pubblica su main (diretto o tramite PR unita in automatico).
       - name: Prepara il sito Pages
         id: sito
-        if: (inputs.accetta_variazioni == true || (steps.build.outputs.anomaly != 'true' && steps.allow.outputs.anomaly != 'true')) && hashFiles('dist/perche/meta.json') != ''
+        if: steps.pubblica.outputs.pubblicato == 'true' && hashFiles('dist/perche/meta.json') != ''
         run: |
           site="$RUNNER_TEMP/sito"
           mkdir -p "$site"
