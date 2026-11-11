@@ -170,7 +170,11 @@ def main() -> int:
     if summary := os.environ.get("GITHUB_STEP_SUMMARY"):
         with open(summary, "a", encoding="utf-8") as fh:
             fh.write(text + "\n")
-    return 1 if flagged_total else 0
+    if flagged_total:
+        # segnalazione, non guasto: il job resta verde e gli avvisi si leggono nelle annotazioni
+        print(f"::warning::{flagged_total} IP delle liste OPNsense su infrastrutture condivise: valutare "
+              "ip/condivisi.txt (dettaglio nel riepilogo del job)")
+    return 0
 
 
 if __name__ == "__main__":
