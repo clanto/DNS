@@ -108,9 +108,10 @@ jobs:
             gh pr create --base main --head "$branch" \
               --title "feed: variazione anomala unita in automatico $(date -u +%F)" \
               --body-file "$RUNNER_TEMP/corpo.md"
-            gh pr merge "$branch" --squash --delete-branch
+            gh pr merge "$branch" --squash  # senza --delete-branch: proverebbe a cambiare ramo nel checkout del runner
+            git push origin --delete "$branch" || true
             for vecchia in $aperte; do
-              gh pr close "$vecchia" --delete-branch --comment "Superata dalla variazione unita in automatico ($branch)."
+              gh pr close "$vecchia" --delete-branch --comment "Superata dalla variazione unita in automatico ($branch)." || true
             done
             echo "pubblicato=true" >> "$GITHUB_OUTPUT"
             exit 0

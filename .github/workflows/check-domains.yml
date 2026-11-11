@@ -62,9 +62,10 @@ jobs:
             --title "Pulizia blocklist manuali: domini non più esistenti $(date -u +%F)" \
             --body-file "$RUNNER_TEMP/corpo.md"
           # basso rischio (solo voci NXDOMAIN su due resolver): unita subito, resta traccia nello storico delle PR
-          gh pr merge "$branch" --squash --delete-branch
+          gh pr merge "$branch" --squash  # senza --delete-branch: proverebbe a cambiare ramo nel checkout del runner
+          git push origin --delete "$branch" || true
           for vecchia in $aperte; do
-            gh pr close "$vecchia" --delete-branch --comment "Superata dalla pulizia $branch."
+            gh pr close "$vecchia" --delete-branch --comment "Superata dalla pulizia $branch." || true
           done
 
       - name: Verifica reti dei provider DNS dedicati
