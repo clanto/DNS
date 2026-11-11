@@ -27,7 +27,6 @@
 3utilities.com
 404.mn
 4040.idv.tw
-4cloud.click
 4dq.com
 4khdcamera.com
 4mydomain.com
@@ -132,6 +131,7 @@ blogdns.com
 blogdns.net
 blogdns.org
 blogsite.org
+blogsite.xyz
 blogsyte.com
 bloodforthebloodgod.com
 bloom.us
@@ -286,7 +286,6 @@ dhs.org
 digitalgroupe.com
 dip.jp
 diskstation.eu
-diskstation.me
 diskstation.org
 ditchyourip.com
 dive2.net
@@ -360,12 +359,7 @@ dray-dns.de
 drayddns.com
 dropfiles.net
 drunkensailor.org
-dscloud.me
-dscloud.mobi
 dsmtp.com
-dsmynas.com
-dsmynas.net
-dsmynas.org
 dtdns.com
 dtdns.net
 dtdns.org
@@ -523,9 +517,6 @@ f3322.org
 fagdns.com
 fairuse.org
 falcongreen.com
-familyds.com
-familyds.net
-familyds.org
 fantasyleague.cc
 faqserv.com
 farted.net
@@ -750,7 +741,6 @@ https443.org
 hulichicken.com
 humorvisite.eu
 hunnur.com
-i234.me
 iamallama.com
 icg.hk
 ics.tw
@@ -910,9 +900,6 @@ k22.su
 kanda.ru
 kaohsiung.tv
 kck-saratov.ru
-keenetic.link
-keenetic.name
-keenetic.pro
 kein.hk
 keine-panik.net
 kellserve.com
@@ -1049,7 +1036,6 @@ myddns.rocks
 mydissent.net
 mydns.bz
 mydns.jp
-myds.me
 myeffect.net
 myfritz.net
 myftp.biz
@@ -1088,7 +1074,6 @@ mysecuritycamera.com
 mysecuritycamera.net
 mysecuritycamera.org
 myserver.org
-mysynology.net
 myvnc.com
 mywebworld.info
 mywire.org
@@ -1120,6 +1105,7 @@ networkoutpost.com
 nflfan.org
 nhlfan.net
 ninth.biz
+nip.io
 no-domain.name
 no-ip.biz
 no-ip.ca
@@ -1159,7 +1145,6 @@ ns1.name
 ns2.name
 ns3.name
 nsupdate.info
-ntdll.top
 nufszone.com
 nx.tc
 ocry.com

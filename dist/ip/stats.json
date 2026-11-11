@@ -1,29 +1,29 @@
 {
   "feed": {
-    "doh-v4.txt": 1323,
-    "doh-v6.txt": 695,
-    "tor-v4.txt": 5048,
-    "tor-v6.txt": 2398,
-    "threat-v4.txt": 28194,
+    "doh-v4.txt": 1446,
+    "doh-v6.txt": 865,
+    "tor-v4.txt": 5314,
+    "tor-v6.txt": 2575,
+    "threat-v4.txt": 25815,
     "threat-v6.txt": 0,
-    "c2-v4.txt": 641,
+    "c2-v4.txt": 2186,
     "c2-v6.txt": 0,
-    "vpn-v4.txt": 9118,
-    "vpn-v6.txt": 414,
-    "social-v4.txt": 211,
-    "social-v6.txt": 122,
-    "file-sharing-v4.txt": 8,
+    "vpn-v4.txt": 9229,
+    "vpn-v6.txt": 574,
+    "social-v4.txt": 213,
+    "social-v6.txt": 119,
+    "file-sharing-v4.txt": 9,
     "file-sharing-v6.txt": 5,
     "cloud-storage-v4.txt": 4,
     "cloud-storage-v6.txt": 1,
-    "inbound-v4.txt": 81730,
+    "inbound-v4.txt": 89622,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "all-v4.txt": 35037,
-    "all-v6.txt": 3093,
-    "all-scuole-v4.txt": 43730,
-    "all-scuole-v6.txt": 3425
+    "all-v4.txt": 34480,
+    "all-v6.txt": 3440,
+    "all-scuole-v4.txt": 43279,
+    "all-scuole-v6.txt": 3925
   },
   "fonti": [
     {
@@ -33,7 +33,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1953,
+      "entries": 2475,
       "detail": ""
     },
     {
@@ -43,7 +43,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1384,
+      "entries": 1859,
       "detail": ""
     },
     {
@@ -53,7 +53,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1220,
+      "entries": 1256,
       "detail": ""
     },
     {
@@ -63,7 +63,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "ok",
-      "entries": 9628,
+      "entries": 10113,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -73,7 +73,7 @@
       "homepage": "https://github.com/stamparm/ipsum",
       "enabled": true,
       "status": "ok",
-      "entries": 19858,
+      "entries": 17172,
       "detail": "IP presenti in almeno 3 blacklist pubbliche"
     },
     {
@@ -83,7 +83,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 16709,
+      "entries": 16878,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -103,7 +103,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 13138,
+      "entries": 13139,
       "detail": "scartate 1 non instradabile"
     },
     {
@@ -113,7 +113,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 92924,
+      "entries": 108536,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -123,7 +123,7 @@
       "homepage": "https://iptoasn.com/",
       "enabled": true,
       "status": "ok",
-      "entries": 122,
+      "entries": 121,
       "detail": "Meta: Facebook, Instagram, WhatsApp, Threads"
     },
     {
@@ -163,7 +163,7 @@
       "homepage": "https://github.com/0xDanielLopez/TweetFeed",
       "enabled": true,
       "status": "ok",
-      "entries": 643,
+      "entries": 2206,
       "detail": "IoC degli ultimi 30 giorni condivisi da ricercatori di sicurezza"
     },
     {
@@ -183,7 +183,7 @@
       "homepage": "https://github.com/X4BNet/lists_vpn",
       "enabled": true,
       "status": "ok",
-      "entries": 11061,
+      "entries": 11121,
       "detail": ""
     },
     {
@@ -193,8 +193,8 @@
       "homepage": "https://github.com/X4BNet/lists_vpn",
       "enabled": true,
       "status": "ok",
-      "entries": 414,
-      "detail": "scartate 84 troppo ampia"
+      "entries": 574,
+      "detail": "scartate 120 troppo ampia"
     },
     {
       "id": "et-compromised",
@@ -233,7 +233,7 @@
       "homepage": "https://iptoasn.com/",
       "enabled": true,
       "status": "ok",
-      "entries": 11,
+      "entries": 12,
       "detail": ""
     },
     {
@@ -272,15 +272,17 @@
     }
   },
   "allowlist": {
-    "voci": 189,
-    "reti_modificate": 0
+    "voci": 254,
+    "reti_modificate": 1
   },
   "condivisi": {
-    "intervalli": 11185,
-    "voci_escluse": 4441
+    "intervalli": 11072,
+    "voci_escluse": 5726
   },
   "protetti": {
-    "ip_risolti": 186,
-    "voci_escluse": []
+    "ip_risolti": 244,
+    "voci_escluse": [
+      "doh: 94.23.71.64/32 usato da dns.clanto.cloud"
+    ]
   }
 }

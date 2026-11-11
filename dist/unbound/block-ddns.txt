@@ -107,7 +107,6 @@
 *.tth.cl
 *.ucvradio.cl
 *.yao.cl
-*.4cloud.click
 *.urown.cloud
 *.dnspod.cn
 *.tpddns.cn
@@ -255,7 +254,6 @@
 *.dpcube.com
 *.drayddns.com
 *.dsmtp.com
-*.dsmynas.com
 *.dtdns.com
 *.dumb1.com
 *.dvr-ddns.com
@@ -313,7 +311,6 @@
 *.ezua.com
 *.fagdns.com
 *.falcongreen.com
-*.familyds.com
 *.faqserv.com
 *.fartit.com
 *.fatesperfection.com
@@ -935,6 +932,7 @@
 *.dedyn.io
 *.desec.io
 *.myaddr.io
+*.nip.io
 *.sly.io
 *.spr.io
 *.tru.io
@@ -962,7 +960,6 @@
 *.allez.la
 *.wha.la
 *.project.li
-*.keenetic.link
 *.ax.lt
 *.gw.lt
 *.ro.lt
@@ -972,9 +969,7 @@
 *.brasilia.me
 *.changeip.me
 *.ddns.me
-*.diskstation.me
 *.dnsfor.me
-*.dscloud.me
 *.flick2.me
 *.flyme2.me
 *.gslb.me
@@ -982,11 +977,9 @@
 *.hopto.me
 *.host2.me
 *.hostdns.me
-*.i234.me
 *.letsgo2.me
 *.loginto.me
 *.myddns.me
-*.myds.me
 *.net2me.me
 *.netea.me
 *.no-ip.me
@@ -1002,7 +995,6 @@
 *.bad.mn
 *.celltrak.mobi
 *.ddns.mobi
-*.dscloud.mobi
 *.onionsallyear.mobi
 *.pride.moe
 *.ddns.ms
@@ -1017,7 +1009,6 @@
 *.h-o-s-t.name
 *.her.name
 *.his.name
-*.keenetic.name
 *.myftp.name
 *.n-e-t.name
 *.no-domain.name
@@ -1072,7 +1063,6 @@
 *.donkeyhot.net
 *.dontexist.net
 *.dropfiles.net
-*.dsmynas.net
 *.dtdns.net
 *.dubya.net
 *.duiadns.net
@@ -1097,7 +1087,6 @@
 *.ez-ip.net
 *.f-parts.net
 *.f3322.net
-*.familyds.net
 *.farted.net
 *.feste-ip.net
 *.flashhub.net
@@ -1157,7 +1146,6 @@
 *.mypop3.net
 *.mypsx.net
 *.mysecuritycamera.net
-*.mysynology.net
 *.nerdcamp.net
 *.nhlfan.net
 *.no-ip.net
@@ -1280,7 +1268,6 @@
 *.dontexist.org
 *.doomdns.org
 *.drunkensailor.org
-*.dsmynas.org
 *.dtdns.org
 *.duckdns.org
 *.dvrdns.org
@@ -1303,7 +1290,6 @@
 *.ezxdev.org
 *.f3322.org
 *.fairuse.org
-*.familyds.org
 *.fatdiary.org
 *.flnet.org
 *.freeddns.org
@@ -1436,7 +1422,6 @@
 *.cloudns.pro
 *.dyndns.pro
 *.hmao.pro
-*.keenetic.pro
 *.netcraze.pro
 *.x443.pw
 *.24-7.ro
@@ -1528,7 +1513,6 @@
 *.dyn.addr.tools
 *.myaddr.tools
 *.now-dns.top
-*.ntdll.top
 *.better-than.tv
 *.cybertv.tv
 *.dyndns.tv
@@ -1597,6 +1581,7 @@
 *.k.vu
 *.dyndns.ws
 *.mypets.ws
+*.blogsite.xyz
 *.crafting.xyz
 *.zapto.xyz
 *.project.zone

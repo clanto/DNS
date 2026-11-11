@@ -53,7 +53,6 @@
 *.can.al
 *.cbsloc.al
 *.cuts.al
-*.e7.al
 *.less.al
 *.ringcentr.al
 *.sosy.al
@@ -613,7 +612,6 @@
 *.freeproxyserver.biz
 *.freeproxysites.biz
 *.freesurf.biz
-*.gacora.biz
 *.gaidem.biz
 *.gascreditcard.biz
 *.gavial.biz
@@ -1030,7 +1028,6 @@
 *.proxy.business
 *.s.bw
 *.blck.by
-*.blur.by
 *.cayim.by
 *.cut.by
 *.fa.by
@@ -10068,7 +10065,6 @@
 *.ytprox.cf
 *.zzproxy.cf
 *.zzzproxy.cf
-*.blogshare.cfd
 *.minggu.cfd
 *.poxi.3303.ch
 *.activetea.ch
@@ -10131,6 +10127,7 @@
 *.cin.ci
 *.circle.ci
 *.kv.ci
+*.vrd.ci
 *.rip.city
 *.proxy.cloudpro.cl
 *.digital.dittmer.cl
@@ -10156,7 +10153,6 @@
 *.cb.click
 *.easysurf.click
 *.freeproxy.click
-*.goo.click
 *.linkapp.click
 *.myown.click
 *.nord.click
@@ -10983,7 +10979,6 @@
 *.linksquad.cn
 *.list4free.cn
 *.listedproxy.cn
-*.liurl.cn
 *.livingwaiting.cn
 *.lolxy.cn
 *.longshut.cn
@@ -12562,6 +12557,7 @@
 *.fvrr.co
 *.g.co
 *.ga.co
+*.gacortexas.co
 *.georiot.co
 *.germanproxy.co
 *.github.co
@@ -12594,6 +12590,7 @@
 *.isols.co
 *.joiner.co
 *.kbank.co
+*.kbit.co
 *.kfrc.co
 *.khan.co
 *.kirr.co
@@ -13028,7 +13025,6 @@
 *.unblock.425mb.com
 *.proxpro.42t.com
 *.swirl.42t.com
-*.42url.com
 *.43proxies.com
 *.443proxy.com
 *.1.44qs.com
@@ -13104,6 +13100,7 @@
 *.733s.com
 *.access-myspace.741.com
 *.777proxy.com
+*.77url.com
 *.7atf.com
 *.7atp.com
 *.proxy.7baibkom.com
@@ -13282,7 +13279,6 @@
 *.addwheel.com
 *.redir.adengage.com
 *.adeses.com
-*.adflydsp.com
 *.adfreeproxy.com
 *.proxy.adidasgoods.com
 *.adiestrado.com
@@ -13415,7 +13411,6 @@
 *.alienso.com
 *.alientraffic.com
 *.alienvide.com
-*.aliexpi.com
 *.aligatorproxy.com
 *.alikesample.com
 *.alishort.com
@@ -15664,7 +15659,6 @@
 *.proxy.cursedprofanation.com
 *.custom-office.com
 *.american.customautobrakes.com
-*.customurlshortener.com
 *.portal.customwebpresentations.com
 *.cutblocker.com
 *.cutdownnotacross.com
@@ -16666,7 +16660,6 @@
 *.famous5.com
 *.famouscheese.com
 *.famousjeff.com
-*.famousurl.com
 *.fancy11.com
 *.fandebiao.com
 *.z.fanfasy.com
@@ -17785,6 +17778,7 @@
 *.gozend.com
 *.gpass1.com
 *.gpmaintenance.com
+*.gppyi.com
 *.gproo.com
 *.gproxy.com
 *.gpskleding.com
@@ -17893,7 +17887,6 @@
 *.hacktivismo.com
 *.loan.hacriculum.com
 *.hadquellseventeen.com
-*.hadsucma.com
 *.haganapuestas.com
 *.haizifu.com
 *.halfduplexmedia.com
@@ -20323,7 +20316,6 @@
 *.mugspace.com
 *.muhabbetyap.com
 *.hide.muimuibox.com
-*.multishorturl.com
 *.mumbaiforums.com
 *.mummylovesus.com
 *.mumpi.com
@@ -24608,7 +24600,6 @@
 *.smoothproxy.com
 *.go.smork.com
 *.ad.smowtion.com
-*.sms-my.com
 *.go.smscaster.com
 *.smsfreetoday.com
 *.smsgrup.com
@@ -27476,13 +27467,11 @@
 *.wtunnel.com
 *.domain.wuffster.com
 *.wurkproxy.com
-*.wurlz.com
 *.go.wutdie.com
 *.wuxicloak.com
 *.wuxifinger.com
 *.wuxihold.com
 *.proxy.wuziya.com
-*.wwdurl.com
 *.wwwkproxy.com
 *.wwwunblock.com
 *.wwwunblocker.com
@@ -28189,6 +28178,7 @@
 *.vielspassamgeraet.de
 *.wbze.de
 *.webbanane.de
+*.wyyw.de
 *.xtreme-babez.de
 *.yiii.de
 *.ykm.de
@@ -28200,6 +28190,7 @@
 *.dandy.dental
 *.alexa.design
 *.bridge.dev
+*.sample-app.fluf.dev
 *.j2team.dev
 *.lammariom.dev
 *.twirl.otee.dev
@@ -28230,6 +28221,7 @@
 *.snurl.dk
 *.momo.dm
 *.bit.do
+*.dad.do
 *.gizmo.do
 *.go2.do
 *.lnk.do
@@ -28954,6 +28946,7 @@
 *.69run.fun
 *.short.mypaste.fun
 *.sikilat.fun
+*.zlink.fun
 *.agt.fyi
 *.brendan.fyi
 *.kwx.fyi
@@ -30699,7 +30692,6 @@
 *.ifix.gd
 *.is.gd
 *.lnk.gd
-*.pic.gd
 *.easyclick.r.gd
 *.soo.gd
 *.tl.gd
@@ -32528,12 +32520,10 @@
 *.fanny-girl.uw.hu
 *.panxxx.uw.hu
 *.webproxy.hu
-*.short.assleo.icu
 *.cloudfare.icu
 *.linkin.icu
 *.oo0oo.icu
 *.puhli.icu
-*.terp.icu
 *.uurl.icu
 *.tel-u.ac.id
 *.s.ub.ac.id
@@ -32545,7 +32535,6 @@
 *.gjk.id
 *.s.bnpb.go.id
 *.goads.id
-*.minilink.id
 *.mtik.id
 *.cbnet.my.id
 *.rcx.my.id
@@ -33058,7 +33047,6 @@
 *.sitefoo.in
 *.skro.in
 *.sm-s.in
-*.sm4ll.in
 *.smarteschool.in
 *.smartsurf.in
 *.smashing.in
@@ -33523,6 +33511,7 @@
 *.1hour.info
 *.1hy.info
 *.1ibeworking.info
+*.1ink.info
 *.1ion.info
 *.1j3.info
 *.1jammer.info
@@ -33696,7 +33685,6 @@
 *.2hg.info
 *.2ht.info
 *.2ibeworking.info
-*.2it.info
 *.2jo.info
 *.2kd.info
 *.2kn.info
@@ -62700,7 +62688,6 @@
 *.rool.ink
 *.rpd.ink
 *.shre.ink
-*.shrt-l.ink
 *.superbl.ink
 *.teratai888.ink
 *.terbar.ink
@@ -62718,7 +62705,6 @@
 *.appurl.io
 *.bcsite.io
 *.benco.io
-*.betaloop.io
 *.by2.io
 *.cdcp.io
 *.cnfl.io
@@ -62757,7 +62743,6 @@
 *.minilink.io
 *.mttr.io
 *.muth.io
-*.ntbk.io
 *.oii.io
 *.orp.io
 *.ouo.io
@@ -62805,6 +62790,7 @@
 *.tlsn.io
 *.tpc.io
 *.turbonet.io
+*.u2l.io
 *.ubm.io
 *.ugp.io
 *.url1.io
@@ -62941,6 +62927,7 @@
 *.smarturl.it
 *.splk.it
 *.lnx.spyro.it
+*.sqrl.it
 *.taap.it
 *.tecno-core.it
 *.tlrk.it
@@ -63173,7 +63160,6 @@
 *.yayin.la
 *.thelegends.land
 *.add.lat
-*.tik.lat
 *.whcs.law
 *.local.18.lc
 *.phoenix.1a.lc
@@ -63252,13 +63238,14 @@
 *.dr-lisa.life
 *.insdr.life
 *.iyc.life
+*.kerang.life
 *.livesport88.life
 *.mainaku.life
+*.myduke.life
 *.nalo.life
 *.queen-kelly.life
 *.robloxgroup.life
 *.teeny.life
-*.tiger388.life
 *.e.lilly
 *.301.link
 *.4d2.link
@@ -63319,6 +63306,7 @@
 *.linkloom.link
 *.linkthis.link
 *.luminary.link
+*.macau123.link
 *.maejo.link
 *.mampir.link
 *.minify.link
@@ -63327,7 +63315,6 @@
 *.mybranded.link
 *.myshorturl.link
 *.natsbee.link
-*.nils.link
 *.nin.link
 *.nov.link
 *.onne.link
@@ -63336,7 +63323,6 @@
 *.packt.link
 *.page.link
 *.pchome.link
-*.pekcamke.link
 *.peppy.link
 *.ph88.link
 *.pieceof.link
@@ -63411,7 +63397,6 @@
 *.autolink.live
 *.clotplaynews.live
 *.colorstv.live
-*.conviva.live
 *.cut.live
 *.daftarhoki.live
 *.ellastern.live
@@ -63425,14 +63410,11 @@
 *.jamesastaten.live
 *.jxxl.live
 *.kopo.live
-*.ligacash88.live
 *.linkmpomax.live
-*.linkotw.live
 *.mattes.live
 *.my-club.live
 *.nofnec.live
 *.nowtrade.live
-*.rouletteonline.live
 *.unc.live
 *.videopro.live
 *.wishct.live
@@ -63573,6 +63555,7 @@
 *.tanks.ly
 *.tidd.ly
 *.to.ly
+*.urlf.ly
 *.usat.ly
 *.wartsi.ly
 *.yoox.ly
@@ -63767,7 +63750,6 @@
 *.linkit4.me
 *.linkjago.me
 *.links2.me
-*.ln-k.me
 *.love-proxy.me
 *.m.me
 *.mby.me
@@ -63832,7 +63814,6 @@
 *.qutt.me
 *.rapidproxy.me
 *.rb6.me
-*.rdre.me
 *.recliningchairs.me
 *.redr.me
 *.rmuti.me
@@ -67487,7 +67468,6 @@
 *.proxy.jimhines.net
 *.jimmyhat.net
 *.jj4.net
-*.jmp2.net
 *.jntuan.net
 *.redbg.joomla-bg.net
 *.college.joparty.net
@@ -69552,8 +69532,8 @@
 *.high-general.online
 *.internet-view.online
 *.kissproxy.online
-*.kliks.online
 *.linkshortner.online
+*.medusa88.online
 *.mjp88.online
 *.my-ip-web.online
 *.my-stealth.online
@@ -69585,7 +69565,6 @@
 *.unblockproxy.online
 *.unblocksites.online
 *.unblockwebsite.online
-*.upyun.online
 *.videoproxy.online
 *.vpnproxy.online
 *.sah.ooo
@@ -70422,12 +70401,9 @@
 *.letmesurf.org
 *.letsbunk.org
 *.lightproxy.org
-*.linkgacortexas.org
-*.linkgqq.org
 *.linkjp.org
 *.linkshrink.org
 *.linktrack.org
-*.linkvip88.org
 *.lionsmeet.org
 *.listaproxy.org
 *.listproxypro.org
@@ -71577,7 +71553,6 @@
 *.cleverlink.pro
 *.davisonbarker.pro
 *.elamal.pro
-*.getbitly.pro
 *.gurl.pro
 *.hide2you.pro
 *.howto.pro
@@ -71589,9 +71564,7 @@
 *.linkasli.pro
 *.linkshare.pro
 *.loginmaxwin.pro
-*.lowrihouston.pro
 *.megalink.pro
-*.nathanaeldan.pro
 *.newproxy.pro
 *.nicebrowser.pro
 *.proxana.pro
@@ -71601,6 +71574,7 @@
 *.surl.pro
 *.t111.pro
 *.vd1.pro
+*.vdio.pro
 *.wakgengs.pro
 *.webproxy.pro
 *.youris.pro
@@ -71885,6 +71859,7 @@
 *.1big.rocks
 *.1proxy.rocks
 *.clvr.rocks
+*.cybr.rocks
 *.freeproxy.rocks
 *.freeproxyserver.rocks
 *.go.pomona.rocks
@@ -109909,8 +109884,6 @@
 *.internetsurfing.top
 *.ipadly.top
 *.irop.top
-*.itdmusic.top
-*.kagk.top
 *.kalinax.top
 *.kapour.top
 *.kenyte.top
@@ -110464,7 +110437,6 @@
 *.youtubeproxy.tv
 *.poxi.a-ok.tw
 *.prox.a-ok.tw
-*.aptg.tw
 *.bfy.tw
 *.biggo.tw
 *.freeweb.blueghost.tw
@@ -111504,7 +111476,6 @@
 *.rwnt.us
 *.s-i-n.us
 *.s21.us
-*.s23.us
 *.s7y.us
 *.sabackdoor.us
 *.2008.saddlemountainranch.us
@@ -111733,8 +111704,6 @@
 *.blockage.1.vg
 *.ipmask.1.vg
 *.thx.1.vg
-*.110.vg
-*.bb.vg
 *.e.vg
 *.le.vg
 *.mm.vg
@@ -111881,6 +111850,7 @@
 *.davidbombal.wiki
 *.w.wiki
 *.0dspace.win
+*.adil.win
 *.agmd.win
 *.analystefinancier.win
 *.avpn.win
@@ -111904,7 +111874,6 @@
 *.proxybrowsing.win
 *.proxybypass.win
 *.proxya.proxysite.win
-*.putar.win
 *.pzou.win
 *.shorturl.win
 *.ss777.win
@@ -111985,7 +111954,6 @@
 *.factorial.ws
 *.fastproxy.ws
 *.filtershekan.ws
-*.fly2.ws
 *.fraction.ws
 *.freaky.ws
 *.freeproxy.ws
@@ -112130,6 +112098,7 @@
 *.71a.xyz
 *.7roxy.xyz
 *.88proxy.xyz
+*.abbrefy.xyz
 *.adviseonline.xyz
 *.afww.xyz
 *.allrightproxy.xyz
@@ -112206,7 +112175,6 @@
 *.designworkonline.xyz
 *.directconnexion.xyz
 *.discoveryfunnel.xyz
-*.docremedio.xyz
 *.domaindomainname.xyz
 *.domainhostingonline.xyz
 *.dorkgroup.xyz
@@ -112235,6 +112203,7 @@
 *.freewebpro.xyz
 *.fruit-samurai.xyz
 *.gacor99-vip.xyz
+*.gacorwak.xyz
 *.gameboxonline.xyz
 *.gbqr.xyz
 *.geography-group.xyz
@@ -112282,6 +112251,7 @@
 *.kept-unknown.xyz
 *.kingurl.xyz
 *.knowledge-worker.xyz
+*.kyshort.xyz
 *.landing-papers.xyz
 *.landingjournal.xyz
 *.life-ability.xyz
@@ -112513,10 +112483,10 @@
 *.shortlink88.xyz
 *.shortlinksakti.xyz
 *.shortmds.xyz
+*.shrinkin.xyz
 *.single-traffic.xyz
 *.singletrafficonline.xyz
 *.siteunblocker.xyz
-*.snapurl.xyz
 *.soccercrew.xyz
 *.socialcommunication.xyz
 *.socialexpertise.xyz
@@ -112530,6 +112500,7 @@
 *.state-highschool.xyz
 *.stay-baby-online.xyz
 *.stayprotectedshop.xyz
+*.stke.xyz
 *.super-buz-group.xyz
 *.super-proxy.xyz
 *.super-secure-online.xyz
@@ -112610,6 +112581,7 @@
 *.totallysecuredgroup.xyz
 *.traffic-group.xyz
 *.trainingsteady.xyz
+*.trisula88short.xyz
 *.trpd.xyz
 *.tunnelgroup.xyz
 *.turboproxy.xyz
@@ -112626,7 +112598,6 @@
 *.verymerry.xyz
 *.vivome.xyz
 *.vpn-server.xyz
-*.vtru.xyz
 *.vuitton-quick.xyz
 *.url.webof.xyz
 *.website-trade.xyz
@@ -112640,7 +112611,6 @@
 *.fly.yt
 *.proxy.yt
 *.reco.yt
-*.tls.yt
 *.fast.webproxy.yt
 *.school.calno.co.za
 *.glype.co.za
