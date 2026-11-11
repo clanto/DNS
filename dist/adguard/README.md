@@ -26,7 +26,7 @@ solo su istanze dedicate ai clienti che le richiedono.
 | `allow-streaming.txt` | Host specifici delle piattaforme streaming | 13 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/allow-streaming.txt) | — |
 | `block-tld.txt` | TLD interi bloccati | 6 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-tld.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-tld.txt) |
 | `block-malevoli.txt` | Domini malevoli e truffe segnalati da noi | 22 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-malevoli.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-malevoli.txt) |
-| `block-pubblicita.txt` | Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre) | 61191 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita.txt) |
+| `block-pubblicita.txt` | Pubblicità: reti pubblicitarie e ad server (EasyList, ShadowWhisperer Ads + voci nostre) | 61196 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita.txt) |
 | `block-accesso-remoto.txt` | Strumenti di accesso remoto (abusati in truffe e ransomware): escludere il proprio RMM | 18 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-accesso-remoto.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-accesso-remoto.txt) |
 | `block-ai-generativa.txt` | Chatbot di AI generativa (policy di prevenzione fuga dati) | 17 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-ai-generativa.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-ai-generativa.txt) |
 | `block-file-sharing.txt` | File sharing puro: trasferimento e hosting di file anonimi (policy di prevenzione fuga dati) | 930 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-file-sharing.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-file-sharing.txt) |
@@ -51,7 +51,7 @@ solo su istanze dedicate ai clienti che le richiedono.
 | `block-spyware-strict.txt` | Livello strict di block-spyware: solo voci con errore stimato ≤ 0.0200% (fonti affidabili e persistenti, voci manuali), per aziende e scuole | 529 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-spyware-strict.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-spyware-strict.txt) |
 | `block-cryptojacking-strict.txt` | Livello strict di block-cryptojacking: solo voci con errore stimato ≤ 0.0200% (fonti affidabili e persistenti, voci manuali), per aziende e scuole | 296 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-cryptojacking-strict.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-cryptojacking-strict.txt) |
 | `block-redirect-strict.txt` | Livello strict di block-redirect: solo voci con errore stimato ≤ 0.0200% (fonti affidabili e persistenti, voci manuali), per aziende e scuole | 112627 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-redirect-strict.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-redirect-strict.txt) |
-| `block-pubblicita-strict.txt` | Livello strict di block-pubblicita: solo voci con errore stimato ≤ 0.0200% (fonti affidabili e persistenti, voci manuali), per aziende e scuole | 42731 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita-strict.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita-strict.txt) |
+| `block-pubblicita-strict.txt` | Livello strict di block-pubblicita: solo voci con errore stimato ≤ 0.0200% (fonti affidabili e persistenti, voci manuali), per aziende e scuole | 42736 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-pubblicita-strict.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-pubblicita-strict.txt) |
 | `block-traccianti-strict.txt` | Livello strict di block-traccianti: solo voci con errore stimato ≤ 0.0200% (fonti affidabili e persistenti, voci manuali), per aziende e scuole | 43376 | [adguard](https://raw.githubusercontent.com/clanto/DNS/main/dist/adguard/block-traccianti-strict.txt) | [domini](https://raw.githubusercontent.com/clanto/DNS/main/dist/domains/block-traccianti-strict.txt) |
 
 ## Liste upstream consigliate (abbonamento diretto su AdGuard)
@@ -106,9 +106,9 @@ Voci pubblicate che arrivano **solo** da una fonte: misura quanto una lista dipe
 | block-porno | hagezi-nsfw | 62088 | 50.4% |
 | block-porno | manuale | 16 | 0.0% |
 | block-porno | sinfonietta-pornography | 47913 | 38.9% |
-| block-pubblicita | easylist | 40902 | 66.8% |
+| block-pubblicita | easylist | 40907 | 66.8% |
 | block-pubblicita | manuale | 3 | 0.0% |
-| block-pubblicita | shadowwhisperer-ads | 18537 | 30.3% |
+| block-pubblicita | shadowwhisperer-ads | 18537 | 30.2% |
 | block-redirect | blocklistproject-redirect | 108672 | 90.3% |
 | block-redirect | hagezi-urlshortener | 5810 | 4.8% |
 | block-redirect | peterdavehello-url-shorteners | 43 | 0.0% |
@@ -151,7 +151,7 @@ Misurata a ogni build: quota di voci della fonte che colpiscono un falso positiv
 | hagezi-anti-piracy | block-pirateria | 60957 | 1 | 99.998% | 0.0024% | fandango.com |
 | hagezi-nsfw | block-porno | 75287 | 24 | 99.968% | 0.0321% | 3sktv.beauty, allmanga.to, anime-sharing.com |
 | sinfonietta-pornography | block-porno | 61154 | 66 | 99.892% | 0.1070% | 1337x.to, aletorrenty.pl, anidex.info |
-| easylist | block-pubblicita | 42740 | 4 | 99.991% | 0.0103% | agenteimmobiliare.info, gvt2.com, imasdk.googleapis.com |
+| easylist | block-pubblicita | 42745 | 4 | 99.991% | 0.0103% | agenteimmobiliare.info, gvt2.com, imasdk.googleapis.com |
 | shadowwhisperer-ads | block-pubblicita | 20411 | 40 | 99.804% | 0.1892% | aboutads.info, ad.nl, adage.com |
 | blocklistproject-redirect | block-redirect | 108685 | 6 | 99.994% | 0.0059% | kicks-ass.net, name.com, operaprima.info |
 | hagezi-urlshortener | block-redirect | 9789 | 13 | 99.867% | 0.1251% | bit.ly, cdl.booksy.com, dy.fi |
@@ -179,7 +179,7 @@ Stesse liste con le sole voci a errore stimato basso. Errore di una voce = prodo
 | block-spyware | 0.0200% | 529 | 529 | 100.0% |
 | block-cryptojacking | 0.0200% | 296 | 296 | 100.0% |
 | block-redirect | 0.0200% | 120247 | 112627 | 93.7% |
-| block-pubblicita | 0.0200% | 61191 | 42731 | 69.8% |
+| block-pubblicita | 0.0200% | 61196 | 42736 | 69.8% |
 | block-traccianti | 0.0200% | 59302 | 43376 | 73.1% |
 
 Pubblicato sotto GPL-3.0.

@@ -272,15 +272,15 @@
     }
   },
   "allowlist": {
-    "voci": 254,
+    "voci": 249,
     "reti_modificate": 1
   },
   "condivisi": {
-    "intervalli": 11072,
+    "intervalli": 11073,
     "voci_escluse": 5726
   },
   "protetti": {
-    "ip_risolti": 244,
+    "ip_risolti": 239,
     "voci_escluse": [
       "doh: 94.23.71.64/32 usato da dns.clanto.cloud"
     ]

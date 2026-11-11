@@ -183,7 +183,6 @@ adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
 adguard.jodatacenter.com
-adguard.johanliebert.top
 adguard.k-likhachev.ru
 adguard.kantinyoyok.xyz
 adguard.kiboko.it
@@ -960,7 +959,6 @@ dns.girino.org
 dns.giriprabhat.com
 dns.glampool.cloud
 dns.glf.wtf
-dns.glorydns.com
 dns.glsoft.ai
 dns.gnb09.id
 dns.goldplate.org
@@ -1240,7 +1238,6 @@ dns.paxavemedia.com
 dns.pccoach.nl
 dns.peb-schmidt.de
 dns.periactes.com
-dns.pernika.net
 dns.pesaventofilippo.com
 dns.petqa.ru
 dns.phillipjberry.net
@@ -1927,6 +1924,7 @@ google-public-dns-b.google.com
 goose.buckyfan.net
 gr.skrsteam.info
 graf.mywire.org
+graveofhope.ru
 greatideasforlife.lol
 green2.jnraptor.net
 green3.jnraptor.net
@@ -1991,7 +1989,6 @@ hkg01.dnscry.pt
 hkg02.dnscry.pt
 hkg03.dnscry.pt
 hkg2.edge.access.zznet.fun
-hkname.freecdn.one
 hknat.ooguy.com
 hkns.gzelvis.com
 hkt.kozow.com
@@ -2249,6 +2246,7 @@ mediavault.ee
 meganerd.nl
 megumin.is.my.waifu.cz
 mel01.dnscry.pt
+mendozasdelivery.com
 metragi.synology.me
 mfimail.eu
 mia01.dnscry.pt
@@ -2448,7 +2446,6 @@ panel.abolisub.ir
 panel.joosh.ru
 par01.dnscry.pt
 paradise-human.shop
-pashagame456.com
 pates.services.sfr.fr.casepp.sfr.fr
 path1.28bafa6d.top
 patrique.duckdns.org

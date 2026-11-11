@@ -3,6 +3,19 @@
 > Generato da `scripts/changelog.py` a ogni build: aggiunte e rimozioni rispetto alla versione precedente.
 > Ultime voci in alto. Per gli IP è indicata la fonte (`ip/cache/`) o `manuale`.
 
+## 2026-11-11 07:39 UTC
+
+- `dist/adguard/block-pubblicita-strict.txt`: +5 / -0 (totale 42736)
+  - aggiunte: `||bquskelcsmrvk.site^`, `||gsaqyswvkveoy.online^`, `||hmffoqpiydcue.site^`, `||idfqmtrhzvtgn.online^`, `||lxoukuwkzvada.online^`
+- `dist/adguard/block-pubblicita.txt`: +5 / -0 (totale 61196)
+  - aggiunte: `||bquskelcsmrvk.site^`, `||gsaqyswvkveoy.online^`, `||hmffoqpiydcue.site^`, `||idfqmtrhzvtgn.online^`, `||lxoukuwkzvada.online^`
+- `dist/opnsense/doh.txt`: +2 / -5 (totale 3083)
+  - aggiunte: `graveofhope.ru`, `mendozasdelivery.com`
+  - rimosse: `adguard.johanliebert.top`, `dns.glorydns.com`, `dns.pernika.net`, `hkname.freecdn.one`, `pashagame456.com`
+- `dist/opnsense/vpn.txt`: +5 / -4 (totale 5174)
+  - aggiunte: `chicken.nuggets.are.good.privateimport.jp`, `schoolwork.broomleigh.org`, `sciencewiki.medscience.cl`, `unblocker.cc`, `v.cheerfun.dev`
+  - rimosse: `classroom.broomleigh.org`, `ewanwzz.net`, `iscsihost.org`, `jordansgotmathwork.gleeze.com`
+
 ## 2026-11-11 07:19 UTC
 
 - `dist/ip/all-scuole-v4.txt`: +12470 / -12921 (totale 43279)

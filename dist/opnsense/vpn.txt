@@ -1178,6 +1178,7 @@ cheapv2.net
 check.ragpets.com
 cheddar-chute.com
 chevpn.com
+chicken.nuggets.are.good.privateimport.jp
 chickenalert.camdvr.org
 chik-chirikvpn.com
 chinacitybit.click
@@ -1207,7 +1208,6 @@ classes.ipv64.net
 classicpen.us
 classlink.com.de
 classlink.com.de.cdn.cloudflare.net
-classroom.broomleigh.org
 classroom.haoqiw.com
 classroom.ipv64.de
 clever.jansenmedical.net
@@ -1568,7 +1568,6 @@ evol.mrco.giize.com
 evoproxy.net
 ewantt.net
 ewanw15.net
-ewanwzz.net
 ewkimppj.com
 ewon.biz
 ewrthyyhjterrxftyuhujtdr-6-udthvb-6-beta.vercel.app
@@ -2366,7 +2365,6 @@ irogallery.golgoli1.co.uk
 ironpebble.com
 ironsocket.com
 irreflex.biretta.cloud-ip.cc
-iscsihost.org
 isityet.net
 isoclinal.zelator.cloud-ip.cc
 ispcapi.mcafee.com
@@ -2442,7 +2440,6 @@ joje.goooalir.co.uk
 jolly1.dns.army
 jongserver.xyz
 jopidf.ipv64.net
-jordansgotmathwork.gleeze.com
 journeywalkdrive.xyz
 jp32p4mm.com
 jptrvzzc.com
@@ -3775,6 +3772,7 @@ schoolsucks.tcloud.my
 schoolsuscks.vercel.app
 schooltechreadong.mywire.org
 schoolwebproxy.com
+schoolwork.broomleigh.org
 schooxy.com
 science.dawuiiwauidwahyuiwahuioqwd.site
 science.sillygoose12.org
@@ -3783,6 +3781,7 @@ science.vincenzodimaro.it.cdn.cloudflare.net
 sciencenews.cc
 sciences.run
 sciencesimplified.pro
+sciencewiki.medscience.cl
 scjzrku6zui5o9.online
 scratchdevfourums.5a3bz.cn
 scur.tent.cloud-ip.cc
@@ -4343,6 +4342,7 @@ unblocked2.vip
 unblockedbrowser.com
 unblockedschool.com
 unblockedsites.org
+unblocker.cc
 unblocker.net
 unblocker.netlify.app
 unblockit.app
@@ -4414,6 +4414,7 @@ uubb.website
 uvjifkod11.easterndns.com
 uzrzhcyx.com
 v-2ray.com
+v.cheerfun.dev
 v.theartieschaffer.com
 v22013121930515853.yourvserver.net
 v2202409222721288347.megasrv.de
