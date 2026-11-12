@@ -100,6 +100,7 @@
 *.us.lfac.net.br
 *.dflexy.house.nom.br
 *.dns-br.leonardo.tec.br
+*.mabuktogel.business
 *.doh.buzz
 *.doh.datahata.by
 *.vps.swhome.by
@@ -1004,6 +1005,7 @@
 *.dns.codarbyte.de
 *.dns.hub.com.de
 *.adguard.crestfallen.de
+*.dns.csa-rz.de
 *.dns.csaonline.de
 *.nextcloud.d-alahmad.de
 *.dns.datenquark.de
@@ -2692,6 +2694,7 @@
 *.adguard.app.sabino.pro
 *.doh.xcom.pro
 *.xiaoxie.pro
+*.mabuktogel.properties
 *.abe01.dnscry.pt
 *.abn01.dnscry.pt
 *.adl01.dnscry.pt

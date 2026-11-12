@@ -6,7 +6,6 @@
 *.marketing.toxicology.abbott
 *.arigng.door.ac
 *.dynatr.ac
-*.a8.everest.ac
 *.mxsvjc.hackers.ac
 *.app.pdf.ac
 *.ff.pdf.ac
@@ -15,7 +14,6 @@
 *.say.ac
 *.script.ac
 *.stape.ac
-*.a8.mm-digitalsales.academy
 *.marketing.projectares.academy
 *.wt.ara.ad
 *.roq.ad
@@ -202,6 +200,7 @@
 *.llea.ai
 *.locationsciences.ai
 *.locationsciencesgroup.ai
+*.luciq.ai
 *.mable.ai
 *.magellan.ai
 *.pixel.marqo-ep.ai
@@ -323,6 +322,7 @@
 *.we360.ai
 *.weave.ai
 *.afi.biyou.web-marketing.ai
+*.afi.iryou.web-marketing.ai
 *.afi.school.web-marketing.ai
 *.afi.sougou.web-marketing.ai
 *.webtunix.ai
@@ -519,6 +519,7 @@
 *.go.test.shop.app
 *.shop-cart.app
 *.slim.app
+*.smartsignal.app
 *.link.snaphabit.app
 *.sparkloop.app
 *.t.spbx.app
@@ -551,6 +552,7 @@
 *.nums.upscale.app
 *.to.uptime.app
 *.lets.useflash.app
+*.esmg-pixel.vercel.app
 *.fp-flame.vercel.app
 *.heartbeat-pearl.vercel.app
 *.link.volt.app
@@ -3368,8 +3370,10 @@
 *.whatismyip.click
 *.wstats.click
 *.a8.elife.clinic
+*.a8cv.moana.clinic
 *.adebis.report.clinic
 *.adebis.toitoitoi.clinic
+*.a8clkcv.pcr.tokyo-brain.clinic
 *.cv.ui-chiho.clinic
 *.bot.cdn.adeo.cloud
 *.pixel.optimeeze.data.adeo.cloud
@@ -3431,6 +3435,7 @@
 *.get.nfit.club
 *.app.resq.club
 *.rewardnetwork.club
+*.smartbuy4u.club
 *.uwnytpkxxpueh.club
 *.tk.airfrance.cm
 *.atom-log.3.cn
@@ -3902,7 +3907,6 @@
 *.patternai.co
 *.pbbl.co
 *.get.peoople.co
-*.a8cv.perrot.co
 *.links.petpartner.co
 *.pigr.co
 *.stats.piplette.co
@@ -4102,6 +4106,7 @@
 *.link.poputi.coffee
 *.app.th3rdwave.coffee
 *.merchant-app.th3rdwave.coffee
+*.a8cv.marc.college
 *.02good4u.com
 *.oscnjc.035000.com
 *.awklir.0506mall.com
@@ -4166,7 +4171,6 @@
 *.uvccpk.1800petmeds.com
 *.180bytwo.com
 *.marketing.188weststjames.com
-*.tracking.196189.com
 *.1annuaire.com
 *.1clktrk.com
 *.url7061.support.1dental.com
@@ -4222,7 +4226,6 @@
 *.24trckweb.com
 *.250analytics.com
 *.254a.com
-*.a8clk.wedding.294p.com
 *.redirectdemoqpay.2c2p.com
 *.2cv.com
 *.marketing.2inspire.com
@@ -4383,7 +4386,6 @@
 *.dl-qa.nonton.99array.com
 *.deeplink.wbnc.99array.com
 *.collector-api.99designs.com
-*.a8clk.9factor.com
 *.privacy-api.9gag.com
 *.t.9gag.com
 *.9gauge.com
@@ -8198,12 +8200,12 @@
 *.agencysignals.com
 *.analytics.agenedia.com
 *.monitor.agenedia.com
-*.cv.agent-sana.com
 *.tuvevx.agent-sana.com
 *.agentanalytics.com
 *.metrics.agentprovocateur.com
 *.smetrics.agentprovocateur.com
 *.agentvi.com
+*.a8cv.ageru-career.com
 *.wstats.ageverif.com
 *.enterpriseimaging.agfahealthcare.com
 *.email.agfuse.com
@@ -8286,7 +8288,6 @@
 *.trk.aibusiness.com
 *.mktg.aicipc.com
 *.aidentified.com
-*.a8track.aidmybank.com
 *.secure.aiea6gaza.com
 *.www.aiea6gaza.com
 *.aiera.com
@@ -8691,6 +8692,7 @@
 *.webanalytics.also.com
 *.altabold1.com
 *.stat.altalex.com
+*.a8tra.altana-design.com
 *.go2.altaro.com
 *.altema-log.com
 *.acton.altep.com
@@ -8716,6 +8718,7 @@
 *.a.alzcombocare.com
 *.am64trk.com
 *.am892trk.com
+*.a8cv.ama-create.com
 *.campaign.amadeus.com
 *.campaigns.amadeus.com
 *.tracking.amadeus.com
@@ -8991,6 +8994,7 @@
 *.andd56trk.com
 *.andersanalytics.com
 *.a8.andethic.com
+*.sub.andhabit.com
 *.andlache.com
 *.andle.com
 *.sadbmetrics.andorrataste.com
@@ -9084,6 +9088,7 @@
 *.trk.anthology.com
 *.go.anthonyliftgates.com
 *.statsig.anthropic.com
+*.a8cv.antiaging-eshop.com
 *.antigena.com
 *.antiservervirus.com
 *.antivia.com
@@ -9091,7 +9096,6 @@
 *.antsomi.com
 *.antvoice.com
 *.link.antwak.com
-*.shop.anu-cosme.com
 *.smetrics.anwagolf.com
 *.anwfv8trk.com
 *.click-ext.anxa.com
@@ -9156,6 +9160,7 @@
 *.apextag.com
 *.apgstats.com
 *.apharponloun.com
+*.a8.aphex-group.com
 *.webtracker.apicasystem.com
 *.communications.apilayer.com
 *.info.apisensor.com
@@ -9299,7 +9304,6 @@
 *.visitor.arabiancentres.com
 *.views.arabnews.com
 *.marketing.aragonresearch.com
-*.a8cllk.arahataen.com
 *.aralabs.com
 *.tr.news.aramisauto.com
 *.secure.aran9midi.com
@@ -9514,12 +9518,12 @@
 *.aspiringtoy.com
 *.page.asraymond.com
 *.contact.assaydepot.com
-*.a8clk.assecli.com
 *.assemblyexchange.com
 *.assesshub.com
 *.assetflo.com
 *.marketing.assetstrategy.com
 *.communique.assetzproperty.com
+*.a8cv.assign-inc.com
 *.assimil8.com
 *.associationanalytics.com
 *.assortion.com
@@ -9611,7 +9615,6 @@
 *.dmdgdu.atmosphera.com
 *.atmtd.com
 *.vgrbvi.atncorp.com
-*.trck.atnenga.com
 *.a8clk.ato-barai.com
 *.analytics.atom.com
 *.members.atomcomplete.com
@@ -9682,6 +9685,7 @@
 *.atwola.com
 *.metrics.au.com
 *.smetrics.au.com
+*.acv.au-hikari-kddi.com
 *.a8.au-hikarinet.com
 *.app.auburntigers.com
 *.t.auburntigers.com
@@ -9720,10 +9724,8 @@
 *.augure.com
 *.app.augustaentertainmentcomplex.com
 *.t.augustaentertainmentcomplex.com
-*.a8cv.auhikari-bykddi.com
 *.acv.auhikari-norikae.com
 *.tag.aumago.com
-*.acv.aun-air-wifi.com
 *.acv.aun-company.com
 *.acv.aun-n-hikari.com
 *.acv.aun-softbank-hikari.com
@@ -9905,6 +9907,7 @@
 *.aa.avvo.com
 *.meds.avycaz.com
 *.avyn.com
+*.a8click.aw-anotherworks.com
 *.awakebird.com
 *.awarealley.com
 *.awaybound.com
@@ -10097,7 +10100,6 @@
 *.get.bambinoapp.com
 *.smetrics.bamboohr.com
 *.smetrics.banamex.com
-*.a8clk.order.banana-wifi.com
 *.bananabarrel.com
 *.stats.bananatimer.com
 *.bananatrack.com
@@ -10214,6 +10216,7 @@
 *.baskmart.com
 *.secure.bass2poll.com
 *.www.bass2poll.com
+*.a8.bassaijp.com
 *.omni.basspro.com
 *.omnis.basspro.com
 *.basspronews.com
@@ -10316,9 +10319,9 @@
 *.sofire.bdstatic.com
 *.zz.bdstatic.com
 *.bdtrckwz.com
-*.a8cv.be-slim-spbikyou.com
 *.response.b2b.bea.com
 *.response.bea.com
+*.a8.beachaccesssurf.com
 *.smetrics.beachbody.com
 *.marketing.beachleymedical.com
 *.advisors.beaconfinserv.com
@@ -10486,6 +10489,7 @@
 *.smetrics.bet.com
 *.dd.betano.com
 *.betazebra.com
+*.a8cv.app.beteam-diet.com
 *.get.betheshyft.com
 *.bethornet.com
 *.betmotion-news.com
@@ -10577,7 +10581,6 @@
 *.bigideaq.com
 *.smetrics.bigkidneybigproblem.com
 *.bigleagueadvance.com
-*.clkcv.biglobehikari-kaisen.com
 *.rfk.biglots.com
 *.smetrics.biglots.com
 *.bigmining.com
@@ -10599,7 +10602,6 @@
 *.bwapi.bikerumor.com
 *.bikesboard.com
 *.azcoct.bikkembergs.com
-*.cv.bikoshaen.com
 *.data.bilibili.com
 *.bilingualgeek.com
 *.bilintechnology.com
@@ -10661,7 +10663,6 @@
 *.tk.biovea.com
 *.ogb2.biovie.com
 *.eakwza.bipicar.com
-*.a8clk.birai-cm.com
 *.birchgazette.com
 *.t.birchlane.com
 *.birdeatsbug.com
@@ -10973,7 +10974,6 @@
 *.boatsbuilding.com
 *.boatssolar.com
 *.boatsvest.com
-*.a8.bobby-jp.com
 *.www2.bobcad.com
 *.dtmssl.bobcat.com
 *.link.bobmakler.com
@@ -11161,6 +11161,7 @@
 *.go.boxtiq.com
 *.smart.boxtone.com
 *.s.boydgaming.com
+*.bozpr1bx4dz.com
 *.bp8n3zpg.com
 *.bpaww.com
 *.smetrics.bpbusinesssolutions.com
@@ -11272,7 +11273,6 @@
 *.tr.tr.bricodepot.com
 *.jmcnwr.bricoprive.com
 *.tk.bricoprive.com
-*.a8.bridal-hills.com
 *.metrics.bridgestoneamericas.com
 *.smetrics.bridgestoneamericas.com
 *.news.bridgetowermedia.com
@@ -11710,7 +11710,6 @@
 *.marketing.callutc.com
 *.calmcactus.com
 *.calmcough.com
-*.a8.calmia-clinic.com
 *.calmlyfuturisticbuilding.com
 *.calmstudent.com
 *.info.calnexsol.com
@@ -11790,7 +11789,6 @@
 *.cannontwin.com
 *.b2binfo.canon-europe.com
 *.plausible.canpoi.com
-*.cv.cante-gym.com
 *.info.canterburyconsulting.com
 *.cl.canva.com
 *.l.create.canva.com
@@ -11842,7 +11840,6 @@
 *.utiq.caradisiac.com
 *.travel.caradonna.com
 *.analytics.carbaselive.com
-*.a8clk.carbattery110.com
 *.rtb.prod.carbonatixaudio.com
 *.tracking.carbonatixaudio.com
 *.analytics.carbonite.com
@@ -11881,6 +11878,7 @@
 *.link.careerfairplus.com
 *.response.careerstructure.com
 *.branch.careforth.com
+*.aff.carefromtoday.com
 *.carefuldolls.com
 *.carejourney.com
 *.carelesshat.com
@@ -12003,7 +12001,6 @@
 *.smetrics.casio-watches.com
 *.caspida.com
 *.stats.cassidyjames.com
-*.a8cv.cast-er.com
 *.secure.cast9half.com
 *.www.cast9half.com
 *.castcream.com
@@ -12341,7 +12338,6 @@
 *.connect.chapman.com
 *.smetrics.chapstick.com
 *.tr.news.chapsvision.com
-*.a8cv.www.chara-ani.com
 *.chargecracker.com
 *.refer.chargerunning.com
 *.marketing.charityfirst.com
@@ -12473,7 +12469,6 @@
 *.chipperisle.com
 *.chirptwig.com
 *.chivalrouscord.com
-*.a8.chiyo-moni.com
 *.chkppl.com
 *.abkobh.chobirich.com
 *.cnebis.chocola.com
@@ -12520,7 +12515,6 @@
 *.chtah.com
 *.chubbycreature.com
 *.chuchuonline.com
-*.a8clk.chuko-truck.com
 *.chunkycactus.com
 *.a8cv.chuoms.com
 *.metrics.churchill.com
@@ -12759,7 +12753,6 @@
 *.marketing.clearviewlive.com
 *.clearwater-analytics.com
 *.clearwateranalytics.com
-*.a8clk.www.cledepeau-beaute.com
 *.cleeng.com
 *.clerk-telemetry.com
 *.elqapp.clevelandbrowns.com
@@ -12895,7 +12888,6 @@
 *.a8cv.cloudthome.com
 *.www.cloudtracer101.com
 *.cloudvox.com
-*.a8cname.cloudwifi-nc.com
 *.clovercabbage.com
 *.cloverkeys.com
 *.app.clovia.com
@@ -12989,7 +12981,6 @@
 *.coachquartz.com
 *.metrics.coalesse.com
 *.coalkitchen.com
-*.coalmerchants.com
 *.qzfxcf.coastal.com
 *.marketing.coastalmississippi.com
 *.marketing.coastaloakins.com
@@ -13037,7 +13028,6 @@
 *.bpgbcl.coconala.com
 *.coconts.com
 *.marketing.coconutmalorie.com
-*.a8clk.cocorotherapy.com
 *.dtnmyp.cocotorico.com
 *.events.codainfra.com
 *.coddledcats.com
@@ -13097,7 +13087,6 @@
 *.sst.colemanfurniture.com
 *.colemaninsights.com
 *.images.info.coleparmer.com
-*.web.collaboration-access.com
 *.collateralanalytics.com
 *.log.collectaction.com
 *.collectcdn.com
@@ -13372,6 +13361,7 @@
 *.fpc.consumerportfolio.com
 *.consumertrack.com
 *.consumerzero.com
+*.trcka8net.contact2han.com
 *.contactpigeon.com
 *.smetrics.contactsdirect.com
 *.xcedwa.contactsdirect.com
@@ -13761,7 +13751,6 @@
 *.www.crb-frm-71.com
 *.pages.crd.com
 *.crdtrack.com
-*.acv.crea-lp.com
 *.info.creadis.com
 *.www.create-tracking.com
 *.createdip.com
@@ -14360,6 +14349,7 @@
 *.dee22tkr.com
 *.collect.deel.com
 *.deep-software.com
+*.a8.deep2031.com
 *.marketing.deepcrawl.com
 *.deeperinsights.com
 *.deepintent.com
@@ -14386,7 +14376,6 @@
 *.definitivehc.com
 *.preferences.definitivetechnology.com
 *.defyingbelief.com
-*.a8.degicashop.com
 *.i.degoo.com
 *.internet.degoo.com
 *.degreechariot.com
@@ -14963,7 +14952,6 @@
 *.link.doctorcareanywhere.com
 *.doctorlogic.com
 *.a8.doctorstretch.com
-*.a8cv.doctoryotsu.com
 *.documentstock.com
 *.get.docusign.com
 *.track.docusign.com
@@ -15077,7 +15065,6 @@
 *.dqttrb9trk.com
 *.a8clk.dr-10.com
 *.tracking.dr-10.com
-*.a8clk.dr-40.com
 *.a8clk.dr-8.com
 *.tracking.dr-8.com
 *.aeewjq.dr-vegefru.com
@@ -15129,7 +15116,6 @@
 *.go.drivemyfreedom.com
 *.pixel.driveniq.com
 *.drivenmove.com
-*.a8clk.driver-island.com
 *.driverequest.com
 *.ctd.drivescore.com
 *.open.drivescore.com
@@ -15235,6 +15221,7 @@
 *.go.durst-group.com
 *.iqmetrics.dus.com
 *.a8clk.www.duskin-chiyoda.com
+*.a8clk.www.duskin-hozumi.com
 *.dusthorses.com
 *.securecookiesdustininfo.dustin.com
 *.dustydime.com
@@ -15602,6 +15589,7 @@
 *.efficaciouscactus.com
 *.sdata.efficientlearning.com
 *.effirst.com
+*.a8cv.effisage.com
 *.effulgentnook.com
 *.effulgenttempest.com
 *.efgroup-thirdelement.com
@@ -15651,6 +15639,7 @@
 *.eightgreens.com
 *.ablink.8email.eightsleep.com
 *.stats.eightyfourrooms.com
+*.a8.eigoba.com
 *.a8cv.eikajapan.com
 *.smetrics.eis-inc.com
 *.eitelinsights.com
@@ -15664,6 +15653,7 @@
 *.ejjalj8trk.com
 *.ejyymghi.com
 *.eka1trk.com
+*.a8cv.ekamo.com
 *.mdws.ekccu.com
 *.ssc.ekhokavkaza.com
 *.metrics.eki-net.com
@@ -15897,6 +15887,7 @@
 *.t.emusic.com
 *.emv2.com
 *.emv3.com
+*.a8.en-courage.com
 *.rsaard.en-tea.com
 *.p01.sc.origins.en25.com
 *.p03.sc.origins.en25.com
@@ -15982,7 +15973,6 @@
 *.engiselle.com
 *.strack.englandstore.com
 *.a8cv.english-bootcamp.com
-*.a8cv.english-cc.com
 *.englshrs.com
 *.marketing.enhancedvision.com
 *.enigmaprint.com
@@ -17140,7 +17130,6 @@
 *.fitgreatest.com
 *.join.fitgrid.com
 *.join.qa.fitgrid.com
-*.a8cv.fitness-terrace.com
 *.fitnessmapper.com
 *.fitnesssponsor.com
 *.tmapp.fitnessyard.com
@@ -17193,7 +17182,6 @@
 *.flerap.com
 *.fleraprt.com
 *.fletchercsi.com
-*.acv.fletsntt.com
 *.ea.fleurancenature.com
 *.qgmikp.fleurdumal.com
 *.support.flex.com
@@ -17376,6 +17364,7 @@
 *.sa.foodnetwork.com
 *.scrippsfoodnetnew.foodnetwork.com
 *.ssa.foodnetwork.com
+*.a8cv.foods-labo.com
 *.pink-boat.fool.com
 *.vrzmfy.fool.com
 *.sanl.footaction.com
@@ -17437,7 +17426,6 @@
 *.links.news.forhims.com
 *.testing.news.forhims.com
 *.ppssav.formal-message.com
-*.a8clk.cp.formalklein.com
 *.formalyzer.com
 *.formanalytica.com
 *.contact.formasquare.com
@@ -17462,6 +17450,7 @@
 *.info.fortrea.com
 *.fortunatemark.com
 *.metrics.fortune.com
+*.a8cv.fortunes-lab.com
 *.fortvision.com
 *.marketing.fortworth.com
 *.cueohf.forumactif.com
@@ -17547,6 +17536,7 @@
 *.info.fptransitions.com
 *.fqtag.com
 *.fqu2hs2d.com
+*.a8cv.fr-shinjuku.com
 *.fr2trk.com
 *.a8.fracora.com
 *.ebisfracora.fracora.com
@@ -17619,7 +17609,6 @@
 *.freegameanalytics.com
 *.freehitwebcounters.com
 *.freeipapi.com
-*.a8cv.freeks-japan.com
 *.a8cv.freelance-start.com
 *.t.freelancer.com
 *.s.freelanceratecalculator.com
@@ -17696,6 +17685,7 @@
 *.collector-api.frspecifics.com
 *.frstbte.com
 *.frugalfiestas.com
+*.cv.fruitfulenglish.com
 *.trck.frutafrutashop.com
 *.med.frxis.com
 *.rffsds.fsastore.com
@@ -18016,7 +18006,6 @@
 *.generatormedia.com
 *.adbsmetrics.genesis.com
 *.marketing.genesis-fs.com
-*.a8cv.genesis-nipt.com
 *.info.genesishealth.com
 *.genestack.com
 *.app.mktg.genesys.com
@@ -18285,7 +18274,6 @@
 *.gillyhicks-email.com
 *.sstat.gilt.com
 *.know.gimmal.com
-*.a8cv.gimuiko.com
 *.nfptar.giordanoshop.com
 *.giosg.com
 *.giosgusercontent.com
@@ -18442,6 +18430,7 @@
 *.gmdsgl2trk.com
 *.gmfcg4t8trk.com
 *.smetrics.gmfinancial.com
+*.a8cv.order.gmocloud.com
 *.gmv0cw4gptrk.com
 *.gmyze.com
 *.metrics.gnc.com
@@ -18609,7 +18598,6 @@
 *.gi-client-tracking.goodgamestudios.com
 *.tracking.goodgamestudios.com
 *.telemetry.goodlifefitness.com
-*.a8cv.goodlucknail.com
 *.deeplink.goodmeasures.com
 *.goodolddaysmagazine-news.com
 *.links.goodpup.com
@@ -19024,7 +19012,6 @@
 *.habitualhumor.com
 *.stats.habr.com
 *.images.marketing.habtoormotors.com
-*.asp.hachipp119.com
 *.pl.hackathon-makers.com
 *.metrics.hackerrank.com
 *.hacx60.com
@@ -19374,6 +19361,7 @@
 *.helicient.com
 *.listing-a8-itp.hello-storage.com
 *.a8trck.helloactivity.com
+*.a8trck.staging-meguru.helloactivity.com
 *.mlinks.helloalfred.com
 *.applink.hellobacsi.com
 *.hi.hellobar.com
@@ -19477,6 +19465,7 @@
 *.utrack.hexun.com
 *.stats.world.hey.com
 *.heyadadapted.com
+*.a8cv.heyawari.com
 *.heycomputers.com
 *.heycustomerlabs.com
 *.lezntf.heydudeshoesusa.com
@@ -19564,12 +19553,7 @@
 *.log.hiiir.com
 *.a8clk.hikakaku.com
 *.a8cv.hikari-mega.com
-*.web.hikari-ocn.com
-*.web.hikari-softbank.com
 *.a8dev.hikarinet-s.com
-*.a8clk.hikarinobe.com
-*.acv.hikariocn.com
-*.acv.hikarisoftbank.com
 *.affa8.hikkoshi-master.com
 *.hilariouszinc.com
 *.health.hillcrest.com
@@ -19657,7 +19641,6 @@
 *.hitboxdesigns.com
 *.hitcounters.com
 *.metrics.hitentertainment.com
-*.a8.hitoma-tuhan.com
 *.stat-ssl.hitosara.com
 *.hitrackthat.com
 *.hitslink.com
@@ -19717,8 +19700,8 @@
 *.trk.hoffmanandlamson.com
 *.hoglundadvertisingandanalytics.com
 *.hoglundanalytics.com
+*.a8clk.hoiku-hiroba.com
 *.cv.hoikushi-bosyu.com
-*.a8.hoken-connect.com
 *.a8cv.hoken-laundry.com
 *.aa-metrics.hokench.com
 *.a8.hokengarden.com
@@ -19852,7 +19835,6 @@
 *.som.hotels.com
 *.dw7u.hotelsbarriere.com
 *.hotjar.com
-*.a8clk.hotman-onlineshop.com
 *.api-hotmart-tracking-manager.hotmart.com
 *.identification.hotmart.com
 *.tracking-api.hotmart.com
@@ -20401,6 +20383,7 @@
 *.analytics.ihg.com
 *.emailhoteldevelopment.ihg.com
 *.target.ihg.com
+*.a8cv.ihin-kizuna.com
 *.a8.ihinnoseiriyasan.com
 *.ihrep.com
 *.images.ihs.com
@@ -20413,6 +20396,7 @@
 *.smetrics.iilg.com
 *.iinside.com
 *.ijento.com
+*.a8.ijinet.com
 *.marketing.ijoinsolutions.com
 *.info.ijungo.com
 *.a8cv.ikapula.com
@@ -20582,6 +20566,7 @@
 *.tracking.inexchange.com
 *.infamousstream.com
 *.track.info.infectiousdiseaseadvisor.com
+*.cv.infield-sports.com
 *.infinario.com
 *.link.infineon.com
 *.track-e.infineon.com
@@ -20735,6 +20720,7 @@
 *.top3.inhaabit.com
 *.info.inigral.com
 *.marketing.ink-co.com
+*.a8-printing.ink-revolution.com
 *.ink1001.com
 *.a8cv.inkan-takumi.com
 *.metrics.inkcartridges.com
@@ -21175,6 +21161,7 @@
 *.ipaddresscheck.com
 *.ipaddressm.com
 *.ipaddressworld.com
+*.track.ipadpresence.com
 *.track-v4.ipadpresence.com
 *.ipapi.com
 *.ipbase.com
@@ -21267,7 +21254,6 @@
 *.metrics.store.irobot.com
 *.smetrics.store.irobot.com
 *.trcka8net.irobot-jp.com
-*.a8cv.irodas.com
 *.secure.iron0walk.com
 *.www.iron0walk.com
 *.info.ironcad.com
@@ -21351,7 +21337,6 @@
 *.cpt.itv.com
 *.info.itw-air.com
 *.info.itwcce.com
-*.a8aspconv.itx-home-router.com
 *.app.iuhoosiers.com
 *.t.iuhoosiers.com
 *.iurene.com
@@ -21385,7 +21370,6 @@
 *.marketing.izeno.com
 *.olqsty.izipizi.com
 *.hcjpbc.j-14.com
-*.trck-a8.j-depo.com
 *.ebiscname.j-esthe.com
 *.ebiscname.j-esthe-yoyaku.com
 *.images.brand.j2.com
@@ -21478,7 +21462,6 @@
 *.jazzdocumentary.com
 *.jazzpianofast.com
 *.jbkf92sr.com
-*.a8cv.jbl-link.com
 *.jbnhzq4n2jx.com
 *.engage.jboss.com
 *.jbx9jsk.com
@@ -21573,6 +21556,7 @@
 *.knlqeu.jewlr.com
 *.jf20tkr.com
 *.info.jfahern.com
+*.a8.jfax.com
 *.jfn3sk2sc.com
 *.jgleather.com
 *.jh5th1trk.com
@@ -21594,6 +21578,7 @@
 *.share.jisp.com
 *.telemetry.jivosite.com
 *.jivox.com
+*.a8cv.jiyuujinn.com
 *.jj6r6jzp.com
 *.smetrics.jjill.com
 *.wwu.jjill.com
@@ -21630,6 +21615,7 @@
 *.email-em.jll-mena.com
 *.jlq0y0xm.com
 *.metrics.jm-lexus.com
+*.a8cv2.jm-neo.com
 *.marketing.jmait.com
 *.nkarmh.jmbullion.com
 *.rtegbv.jmclaughlin.com
@@ -21733,7 +21719,6 @@
 *.applink.joyrun.com
 *.11959579.fun.joyrun.com
 *.ablink.fun.joyrun.com
-*.a8.joyvack.com
 *.jp0zm3rt.com
 *.jp15trk.com
 *.pbstats.jpmorgan.com
@@ -21859,10 +21844,8 @@
 *.iatoex.kahve.com
 *.gqmuky.kaigonohonne.com
 *.m.kaikuhealth.com
-*.a8cv.kaimonocart.com
 *.a8cv.kaimonoform.com
 *.marketing.kainmcarthur.com
-*.ai.kaishabaikyaku.com
 *.a8.kajitaku.com
 *.fp.kakaku.com
 *.jknarp.kakaku.com
@@ -21886,7 +21869,6 @@
 *.share.kamipuzzle.com
 *.kampyle.com
 *.kamuitracker.com
-*.a8clk.kanagawa-zero.com
 *.smetrics.kanebo.com
 *.smetrics.kanebo-global.com
 *.idbkfy.kango-roo.com
@@ -21921,6 +21903,7 @@
 *.images.on.karnovgroup.com
 *.kartbarriersystem.com
 *.a8-affiliate.kase3535.com
+*.a8cv.kasikiru.com
 *.otr.kaspersky.com
 *.tr1.kaspersky.com
 *.tr2.kaspersky.com
@@ -22088,7 +22071,6 @@
 *.repdata.kiiitv.com
 *.srepdata.kiiitv.com
 *.znmtka.kikocosmetics.com
-*.a8cv.kikubari-bento.com
 *.contact.kikusuiamerica.com
 *.images.ma.kikusuiamerica.com
 *.kilkaya.com
@@ -22198,7 +22180,6 @@
 *.kmtrak.com
 *.kmtx.com
 *.kmv.com
-*.a8cv.kn-waterserver.com
 *.knd32k.com
 *.trk01.knect365.com
 *.trk02.knect365.com
@@ -22253,7 +22234,6 @@
 *.ww8.kohls.com
 *.ww9.kohls.com
 *.axp.koin.com
-*.a8.kojyo-worker.com
 *.agvinfo.kollmorgen.com
 *.emea.kollmorgen.com
 *.info.kollmorgen.com
@@ -22345,6 +22325,7 @@
 *.ksmobile.com
 *.axp.ksn.com
 *.axp.ksnt.com
+*.a8cv.kstarselect.com
 *.app.kstatesports.com
 *.t.kstatesports.com
 *.app.ksuowls.com
@@ -22410,7 +22391,6 @@
 *.aa.kyoceradocumentsolutions.com
 *.a8cv.kyotokimono-rental.com
 *.ebistoppan1.kyowahakko-bio-campaign-1.com
-*.a8clk.kyoyu-mochibun.com
 *.t-s.kytril.com
 *.stat-ssl.kyujinbox.com
 *.acv.kyushu-internet.com
@@ -22506,7 +22486,6 @@
 *.smetrics.lakeside.com
 *.smetrics.lakewoodchev.com
 *.www.laksjd4.com
-*.a8.lalala-clean.com
 *.tr.news.lalettredelexpansion.com
 *.tr.communication.lamaisondesstartups.com
 *.tk.lamaisonduchocolat.com
@@ -22715,7 +22694,6 @@
 *.leapfaucet.com
 *.leaplunchroom.com
 *.leapquick.com
-*.a8cv.lear-caree.com
 *.marketing.learncia.com
 *.learnedmarket.com
 *.enews.learninga-z.com
@@ -22820,6 +22798,7 @@
 *.track.lesmills.com
 *.l.lesnumeriques.com
 *.utiq.lesnumeriques.com
+*.a8cv.lesson-note.com
 *.lessonsnetwork.com
 *.fmqidg.letras.com
 *.go2.letscliq.com
@@ -22845,6 +22824,7 @@
 *.prealpha.go.levelbank.com
 *.levelbehavior.com
 *.zrxdzq.levelshoes.com
+*.a8cv.leverage-learning.com
 *.app.levi.com
 *.at-ecomm.levi.com
 *.caapp.levi.com
@@ -22959,9 +22939,9 @@
 *.lidrtb.com
 *.auoehd.liebscher-bracht.com
 *.learn.liensolutions.com
+*.a8clk.aff.life-110.com
 *.a8cv.aff.life-110.com
 *.nlp-japan.life-and-mind.com
-*.web.life-cw.com
 *.hcjpbc.lifeandstylemag.com
 *.lifecoverdirect.com
 *.feedback.lifeguardarena.com
@@ -23181,6 +23161,7 @@
 *.loantrck.com
 *.get.loanzify.com
 *.lhp-mortgage.loanzify.com
+*.cv.loca-site.com
 *.sadbmetrics.localdigitalkit.com
 *.localiqtracking.com
 *.localizecdn.com
@@ -23524,6 +23505,7 @@
 *.m8trq9trk.com
 *.m91sktrk.com
 *.www.ma-catinfo.com
+*.a8cv.ma-cp.com
 *.a8clk.ma-platform.com
 *.app.go.maas360.com
 *.counter.maases.com
@@ -23551,7 +23533,6 @@
 *.smetrics.maclinfordcalgary.com
 *.mlhtmc.macnificos.com
 *.stats.macosicons.com
-*.a8clk.macpaw.com
 *.mtg.macpaw.com
 *.app.mail.mfg.macquarie.com
 *.info.macro4.com
@@ -23586,7 +23567,6 @@
 *.utiq.madmoizelle.com
 *.madnessbuzz.com
 *.madobjective.com
-*.a8cv.madoguchi.com
 *.madoverrice.com
 *.dc.madridistas.com
 *.fq9vy0muyqi3.www.madrigalmaps.com
@@ -23764,7 +23744,6 @@
 *.dl.manscore.com
 *.nid.mansionglobal.com
 *.oms.mansionglobal.com
-*.a8cv.mansiontech.com
 *.jwvazl.mansurgavriel.com
 *.manthan.com
 *.manthansystems.com
@@ -23793,7 +23772,6 @@
 *.mapmyvisitors.com
 *.maporama.com
 *.mapp.com
-*.a8clk.mapple-tour.com
 *.dimensions.mappy.com
 *.utiq.mappy.com
 *.utiq.mappyrecette.com
@@ -23962,7 +23940,6 @@
 *.t.massmutualcenter.com
 *.massrelevance.com
 *.tags.master-perf-tools.com
-*.cv.masteraxis.com
 *.metrics.mastercard.com
 *.smetrics.mastercard.com
 *.metrics.mastercardadvisors.com
@@ -24242,7 +24219,6 @@
 *.digital.medimpact.com
 *.events.medio.com
 *.waaf.medion.com
-*.a8.medireanetshopoi.com
 *.link.medium.com
 *.read.medium.com
 *.start.mediware.com
@@ -24533,6 +24509,7 @@
 *.tracking.mhealthintelligence.com
 *.ametrics.mheducation.com
 *.mtracking.mhequipment.com
+*.a8cv.mhg-webstore.com
 *.metrics.mhi.com
 *.marketing.mhinvest.com
 *.smetrics.mhlnews.com
@@ -24704,8 +24681,8 @@
 *.metrics.miniusa.com
 *.smetrics.miniusa.com
 *.a8clk.minnadeooyasan.com
-*.a8cv.minnano-eikaiwa.com
 *.minorcattle.com
+*.a8cv.cart.minorie-shop.com
 *.minormeeting.com
 *.performance-logger.minted.com
 *.pixel.mintigo.com
@@ -24738,7 +24715,6 @@
 *.miscjewelry.com
 *.miscreantmine.com
 *.miscreantmoon.com
-*.a8.mishii-list.com
 *.wemqip.misli.com
 *.smetrics.misrp.com
 *.a8.misshajp.com
@@ -29219,6 +29195,7 @@
 *.tracking.eloqua.modernize.com
 *.images.myhome.modernize.com
 *.ssl.modernmedicine.com
+*.a8cv.moderno-zing.com
 *.smetrics.modernphysician.com
 *.modernpostcard.com
 *.a8cv.modescape.com
@@ -29257,7 +29234,6 @@
 *.a8.mogurun.com
 *.refwkk.mojewypieki.com
 *.applink.mojilala.com
-*.a8cv.mokumokumarket.com
 *.news.molawyersmedia.com
 *.marketing.moldex.com
 *.moldyicicle.com
@@ -29483,7 +29459,6 @@
 *.mousescene.com
 *.mousestats.com
 *.analytics.mouthshut.com
-*.a8cv.mova-creator-school.com
 *.movableink.com
 *.movableobject.com
 *.app.movebe.com
@@ -29607,6 +29582,7 @@
 *.get.muchbetter.com
 *.muchostr4ffic.com
 *.yst4.muchoviaje.com
+*.e.muckrack.com
 *.muddledaftermath.com
 *.muddledmemory.com
 *.muddlingthroughcode.com
@@ -29637,6 +29613,7 @@
 *.muniservices.com
 *.a.munters.com
 *.mupixa.com
+*.cv.mupla-ab3.com
 *.smetrics.murata.com
 *.murbee.com
 *.murgox.com
@@ -29986,7 +29963,6 @@
 *.native-track.com
 *.info.natlenvtrainers.com
 *.gfnokk.natro.com
-*.a8cv.natulahonpo.com
 *.ping.naturadapt.com
 *.smetrics.naturalizer.com
 *.naturalpals.com
@@ -30102,6 +30078,7 @@
 *.nblv4trk.com
 *.metrics.adobe.nbprivatewealth.com
 *.nbvmrr8trk.com
+*.a8.nc-moncouture.com
 *.analytics.ncaa.com
 *.sanalytics.ncaa.com
 *.h353.ncadvertiser.com
@@ -30491,7 +30468,6 @@
 *.smetrics.nexusmentalhealth.com
 *.data.nexxt.com
 *.nexxtstepup.com
-*.a8.nezumi-guard.com
 *.a8.nezumi-kanzentaiji.com
 *.nf8fbh4b.com
 *.metrics.nfl.com
@@ -30596,7 +30572,6 @@
 *.niftyjelly.com
 *.nigelmidnightrappers.com
 *.nightwound.com
-*.a8cv.nijiun.com
 *.abt.nike.com
 *.analytics.nike.com
 *.dbzpek.nike.com
@@ -31104,6 +31079,7 @@
 *.ofrest.com
 *.t.ofsys.com
 *.oftwnia.com
+*.a8clk.www.ogacos.com
 *.a8cv.ogaland.com
 *.info.oh-ins.com
 *.app.ohiobobcats.com
@@ -31150,6 +31126,7 @@
 *.oldfashionedoffer.com
 *.tracking.oldnational.com
 *.oldportcoffee.com
+*.oldschoolthumbs.com
 *.stats.oldtinroof.com
 *.oldtransfer.com
 *.oleconnect.com
@@ -31296,6 +31273,7 @@
 *.pool.onjoyride.com
 *.marketing.onkyousa.com
 *.a8cv.online-mega.com
+*.a8.online-yomikakisoroban.com
 *.onlinemediahelper.com
 *.info.onlinetech.com
 *.travel.onlinevacationcenter.com
@@ -31644,6 +31622,7 @@
 *.owltrack.com
 *.owneriq.com
 *.a8clk.owners-age.com
+*.a8clk.stken.owners-age.com
 *.smetrics.ownertoownercommunication.com
 *.owox.com
 *.ox-bio.com
@@ -31670,7 +31649,6 @@
 *.app.oze789.com
 *.ozlopartnerships.com
 *.ozmfb8trk.com
-*.a8cv.p-antiaging.com
 *.msr.p-antiaging.com
 *.p-c-s-llc.com
 *.p3rc9trk.com
@@ -31721,6 +31699,7 @@
 *.painlessanalytics.com
 *.painstakingpickle.com
 *.paintmogul.com
+*.a8cv.paintory.com
 *.paintpear.com
 *.paintplantation.com
 *.secure.pair1tune.com
@@ -31749,7 +31728,6 @@
 *.link.palletml.com
 *.share.palletml.com
 *.bxumze.palmbeachpost.com
-*.a8cv.palms-gym.com
 *.sstats.paloaltonetworks.com
 *.metrics.palopmed.com
 *.smetrics.palopmed.com
@@ -31925,7 +31903,6 @@
 *.welcome.patientmatters.com
 *.metrics.patientsatheart.com
 *.info.patientwise.com
-*.a8clk.patpat.com
 *.lnk2.patpat.com
 *.info.patrickandco.com
 *.marketing.patriotcapitalcorp.com
@@ -32106,6 +32083,7 @@
 *.adpromo.peppynet.com
 *.tracking.dev2.pepsicopartners.com
 *.tracking.pepsicopartners.com
+*.a8cv.peraichiapp.com
 *.perceivequarter.com
 *.info.perceptics.com
 *.secure.perceptionastute7.com
@@ -32231,6 +32209,7 @@
 *.pgmatomo01.com
 *.metrics.pgs.com
 *.go.pgx.com
+*.a8clk.ph-10.com
 *.ph88trk.com
 *.images.learn.pharmacyclics.com
 *.discover.pharmaignite.com
@@ -32272,7 +32251,6 @@
 *.stats.phoenix-widget.com
 *.phonecup.com
 *.phoneresult.com
-*.a8cv.phonim.com
 *.pbox.no.photobox.com
 *.tck.photobox.com
 *.data.guide.photobucket.com
@@ -32302,7 +32280,6 @@
 *.pickmicro.com
 *.analytics.picknrg.com
 *.events.pickrr.com
-*.a8cv.picksitter.com
 *.app.pickyourtrail.com
 *.pickzen.com
 *.trk.picnictables.com
@@ -32720,6 +32697,7 @@
 *.test-fleet-eml.postmates.com
 *.try.postmuseapp.com
 *.postpilot.com
+*.a8cv.postprime.com
 *.postrank.com
 *.potatoinvention.com
 *.potentmagic.com
@@ -32782,7 +32760,6 @@
 *.email.pray.com
 *.link.pray.com
 *.notify.pray.com
-*.a8cv.pre-sana.com
 *.prealizehealth.com
 *.smetrics.preautorizacionfs.com
 *.prebidmanager.com
@@ -33296,12 +33273,14 @@
 *.pwxqq7trk.com
 *.pwztag.com
 *.px.com
+*.a8cv.pxdt-store.com
 *.pxlkng.com
 *.pxlsrc.com
 *.pxlstat.com
 *.pxltag.com
 *.pxltrck.com
 *.pxmxc8trk.com
+*.pv-track.pxtrkapp.com
 *.py02trk.com
 *.py33trk.com
 *.pyh2pm4n.com
@@ -33366,6 +33345,7 @@
 *.tk.qobuz.com
 *.analytics.qogita.com
 *.analyticsapi.qogita.com
+*.a8cv.qole.com
 *.track.qoof.com
 *.qovani.com
 *.stats.qovery.com
@@ -33390,6 +33370,7 @@
 *.rcgi.video.qq.com
 *.oss.weread.qq.com
 *.stat.y.qq.com
+*.cv.qracian.com
 *.a8clk.qracian365.com
 *.qrrabbit.com
 *.qsstats.com
@@ -33665,6 +33646,7 @@
 *.rangecake.com
 *.rangeplayground.com
 *.rangergustav.com
+*.a8cv.rank-checker.com
 *.rankaddict.com
 *.tracker.ranker.com
 *.rankfoundry.com
@@ -33946,6 +33928,7 @@
 *.telemetry.reembed.com
 *.rees46.com
 *.reevoo.com
+*.a8.refasta.com
 *.referdriving.com
 *.stats.referralhero.com
 *.referralrock.com
@@ -34118,6 +34101,7 @@
 *.branch.reserveout.com
 *.nflxjp.residences-immobilier.com
 *.smetrics.residentlearningcenter.com
+*.nisii.resiliencelabo.com
 *.resolutekey.com
 *.ping.resoluteoil.com
 *.resolutionagency.com
@@ -34261,7 +34245,6 @@
 *.eofwfj.ria.com
 *.engage.ria-insurancesolutions.com
 *.smetrics.riamoneytransfer.com
-*.a8.ricafrosh.com
 *.t9h2.ricardocuisine.com
 *.data.ricaud.com
 *.elqtracking.richardsonrfpd.com
@@ -34399,6 +34382,7 @@
 *.rj9h3jsf.com
 *.rjbdsa2trk.com
 *.rjmetrics.com
+*.a8cv.rjsoho.com
 *.rk95rn7trk.com
 *.rkd02ks.com
 *.rkdms.com
@@ -35230,6 +35214,7 @@
 *.scriptstory.com
 *.scrolldata.com
 *.scrollservice.com
+*.a8.shop.scrop-coffee-roasters.com
 *.scrubchi.com
 *.scrubswim.com
 *.sanalytics.scsbnet.com
@@ -35390,6 +35375,7 @@
 *.beuniquelyinsured.selective.com
 *.selectivesummer.com
 *.smetrics.selectquote.com
+*.selectscholars.com
 *.app.selectyourtickets.com
 *.t.selectyourtickets.com
 *.sstats.self.com
@@ -35670,6 +35656,7 @@
 *.shetrk.com
 *.shgcdn3.com
 *.shhefm9trk.com
+*.a8cv.shi-rel.com
 *.a8cv.shibuya-scramble-figure.com
 *.download.shiftsmart.com
 *.stats.shiftx.com
@@ -35689,6 +35676,7 @@
 *.ebis-tracking.shinyokohama-beauty.com
 *.shinypond.com
 *.marketing.shippers-supply.com
+*.shipsboats.com
 *.shipsonwheels.com
 *.links.shipt.com
 *.utm.shireburn.com
@@ -35697,7 +35685,6 @@
 *.shirtseasons.com
 *.shirtsidewalk.com
 *.cv.shiryoku1.com
-*.a8.shitsukekun.com
 *.shiveringspot.com
 *.shiverscissors.com
 *.campaign.shl.com
@@ -35803,7 +35790,6 @@
 *.metrics.showtime.com
 *.smetrics.showtime.com
 *.smetrics.showtimeanytime.com
-*.af.shozankan-shop.com
 *.shpdata.com
 *.marketing.shpfinancial.com
 *.shptron.com
@@ -35924,7 +35910,6 @@
 *.img.e.sigsauer.com
 *.me.sigsauer.com
 *.siipql8trk.com
-*.a8clk.sikatoru.com
 *.ehedwd.sikayetvar.com
 *.views.sikerlogistics.com
 *.views.sikerproducts.com
@@ -35940,6 +35925,7 @@
 *.secure.silk0palm.com
 *.ss.silkandsonder.com
 *.ftzets.silkfred.com
+*.a8cv.silktherich.com
 *.analytics.silktide.com
 *.silkysoda.com
 *.silkysquirrel.com
@@ -36460,7 +36446,6 @@
 *.soggysponge.com
 *.soggyzoo.com
 *.pb.i.sogou.com
-*.a8clk.sohbi-company.com
 *.sohran.com
 *.p.aty.sohu.com
 *.go.sohu.com
@@ -36489,7 +36474,6 @@
 *.mtyciy.solebox.com
 *.tr.solendi.com
 *.web.solesource.com
-*.a8clk.solideajapan.com
 *.smetrics.solidigm.com
 *.solidopinion.com
 *.info.solidscape.com
@@ -36523,6 +36507,7 @@
 *.sombersticks.com
 *.somberstructure.com
 *.sombersurprise.com
+*.a8cv.somenoya.com
 *.marketing.somero.com
 *.sona.com
 *.sonalabs.com
@@ -36587,6 +36572,7 @@
 *.metrics.sothebys.com
 *.smetrics.sothebys.com
 *.sotrender.com
+*.a8cv.sotsuenalbum.com
 *.smetrics.sotyktu.com
 *.smetrics.sotyktuhcp.com
 *.soulclicking.com
@@ -36610,7 +36596,6 @@
 *.sourcedefense.com
 *.smetrics.sourceesb.com
 *.sourceknowledge.com
-*.a8net.sourcenext.com
 *.ogcsvq.sourcenext.com
 *.sourceoak.com
 *.trk.sourcingatmagic.com
@@ -36647,11 +36632,13 @@
 *.a.smetrics.sovereign.com
 *.sowlettuce.com
 *.a8cv.soyafarm.com
+*.a8clk.sozow-park.com
 *.www.sp-newfunds.com
 *.sp-trk.com
 *.spaceaffinity.com
 *.riwkmo.spacemarket.com
 *.contact.spacesworks.com
+*.a8cv.spacioshop.com
 *.spadelocket.com
 *.spamanalyst.com
 *.mail.spandex.com
@@ -36998,7 +36985,6 @@
 *.web-beacon.starii-rover.com
 *.starmatrix11.com
 *.alwayscare.starmountlife.com
-*.a8cv.starpeg-music.com
 *.marketing.starrcompanies.com
 *.starrynets.com
 *.link.starshiphsa.com
@@ -37236,6 +37222,7 @@
 *.marketing.streck.com
 *.clarice.streema.com
 *.dlzbax.street-academy.com
+*.a8clk.www.street-academy.com
 *.streetbees.com
 *.partnerwith.us.streetbond.com
 *.streetsort.com
@@ -37363,7 +37350,6 @@
 *.secure.sugh8yami.com
 *.www.sugh8yami.com
 *.sugoicounter.com
-*.a8.sui-so.com
 *.mobile.suiste.com
 *.info.suite1000.com
 *.tr.suivi-client-edf.com
@@ -37483,7 +37469,6 @@
 *.discover.supplydepotstore.com
 *.analytics.supplyframe.com
 *.supplyreward.com
-*.a8clk.support-hoiku.com
 *.supportexp.com
 *.supportwaves.com
 *.nrquff.supurgemarket.com
@@ -37740,7 +37725,6 @@
 *.tailoredcopy.com
 *.tailsweep.com
 *.tailtarget.com
-*.asp.taishokunext.com
 *.app.tajawal.com
 *.19035955.automated.tajawal.com
 *.6519114.automated.tajawal.com
@@ -37988,6 +37972,7 @@
 *.smetrics.tecentriq.com
 *.metrics.tecentriq-hcp.com
 *.smetrics.tecentriq-hcp.com
+*.a8clk.home.me.tech-clips.com
 *.intent.techadvisor.com
 *.ukmnlp.techbang.com
 *.marketing.techbrite.com
@@ -38007,6 +37992,7 @@
 *.techmonkeypost.com
 *.marketing.technicalprospects.com
 *.pi.technik3d.com
+*.a8.shop-jp.technogelworld.com
 *.info.technologia.com
 *.marketing.technologyadvice.com
 *.marketing2.technologyadvice.com
@@ -38573,6 +38559,7 @@
 *.thfnn8trk.com
 *.thickticket.com
 *.thicktrucks.com
+*.a8.thidastone.com
 *.thinglink.com
 *.thingsafterthought.com
 *.metrics.thingspeak.com
@@ -38699,7 +38686,6 @@
 *.et.tidal.com
 *.tidaldrops.com
 *.marketing.tidedrycleaners.com
-*.a8.tideisturning.com
 *.metrics.tidycats.com
 *.tidymitten.com
 *.tidysprite.com
@@ -38870,7 +38856,6 @@
 *.smetrics.tokbox.com
 *.a8cv.toko-navi.com
 *.a8cv.cart3.toku-talk.com
-*.a8cv.tokutoku-battery.com
 *.a8cv.tokyo-dive.com
 *.a8.tokyo-hills-clinic.com
 *.a8cv.tokyo-indoorgolf.com
@@ -38973,9 +38958,11 @@
 *.tortoisepage.com
 *.secure.toru0vane.com
 *.www.toru0vane.com
+*.a8cv.torudakeweb.com
 *.metrics.toryburch.com
 *.tosladrive.com
 *.log.tossinvest.com
+*.af.total-marriage.com
 *.branch.totalbrain.com
 *.action.totalcompbuilder.com
 *.marketing.totalcsr.com
@@ -39838,7 +39825,6 @@
 *.pegasus.unifygroup.com
 *.unifyintent.com
 *.go.unifysquare.com
-*.a8clk.unihertz.com
 *.travel.stage.x.unikoom.com
 *.travel.x.unikoom.com
 *.analytics.unilogcorp.com
@@ -39873,6 +39859,7 @@
 *.eloqua-tracking.unity3d.com
 *.eloqua-trackings.unity3d.com
 *.ssl.o.univadis.com
+*.a8cv.universal-speaking.com
 *.universalcookie.com
 *.osimg.universalorlando.com
 *.oimg.universalorlandovacations.com
@@ -39932,6 +39919,7 @@
 *.unwrittenspot.com
 *.solutions.unysonlogistics.com
 *.uo6nt8on.com
+*.a8.uokura-hakata.com
 *.sstats.upack.com
 *.upalytics.com
 *.info.upcurvecloud.com
@@ -40110,6 +40098,7 @@
 *.uyh5xo6d.com
 *.open.uzitapp.com
 *.uzx2hl2i.com
+*.a8.v-2-h.com
 *.stat.v-56.com
 *.v-count.com
 *.sjanff.v-moda.com
@@ -40540,7 +40529,6 @@
 *.virtumundo.com
 *.investments.virtus.com
 *.tracking.virtus.com
-*.a8.virus-gekitai.com
 *.images.globalempcomm.visa.com
 *.tracking.cpa.qa.web.visa.com
 *.solutions.visaacceptance.com
@@ -41186,7 +41174,6 @@
 *.webcompteur.com
 *.webcreatify.com
 *.marketing.webdcmarketing.com
-*.a8.webdeki.com
 *.bpt.webedia-group.com
 *.webeo.com
 *.weberlo.com
@@ -41202,7 +41189,6 @@
 *.webglstats.com
 *.webhostingcounter.com
 *.webinstats.com
-*.a8.webist-cri.com
 *.webmasteroo.com
 *.o.webmd.com
 *.ssl.o.webmdrx.com
@@ -41796,7 +41782,6 @@
 *.wowxmedia.com
 *.pixel.wp.com
 *.stats.wp.com
-*.cv.wp-avenue.com
 *.wp-slimstat.com
 *.communications.wpcarey.com
 *.cookies.wpcarey.com
@@ -41977,12 +41962,11 @@
 *.invitation.xmastimeapp.com
 *.xms2skj3dt.com
 *.xmyip.com
+*.a8.xn--38jf6c4pa86a1dv833cexrb.com
 *.a802.xn--38jf6c4pa86a1dv833cexrb.com
 *.a803.xn--38jf6c4pa86a1dv833cexrb.com
 *.a8aspconv.xn--auso-net-h53gmnzi.com
 *.xn--besucherzhler-counter-e2b.com
-*.a8aspconv.xn--bgm-os4bt98xxicx4fqs5c8e8agvq.com
-*.a8aspconv.xn--biglobe-kc9k.com
 *.acv.xn--dckf5a1e821s9i7b.com
 *.a8cv.xn--eckl3qmbc6976d2udy3ah35b.com
 *.a8cv.xn--hckxam3skb2412b1hxe.com
@@ -42156,7 +42140,6 @@
 *.ynv4sy4c.com
 *.smetrics.yo-ko-o.com
 *.yobua.com
-*.a8cv.yobybo-japan.com
 *.yocua.com
 *.omniture.yodlee.com
 *.somniture.yodlee.com
@@ -42269,7 +42252,6 @@
 *.marketing.ytc.com
 *.smetrics.ytv.com
 *.ytv-viewing-logs.com
-*.a8clk.yu-en.com
 *.yu9rf6db.com
 *.frog.yuanfudao.com
 *.a8clk.yubisashi.com
@@ -42333,6 +42315,9 @@
 *.zd3sj4j5d.com
 *.aa.zdnet.com
 *.saa.zdnet.com
+*.a8cv.zeal-agent.com
+*.a8cv.zeal-k-agent.com
+*.a8cv.zeal-shushoku-agent.com
 *.zealousfield.com
 *.clarity-infographic.zebra.com
 *.connect.zebra.com
@@ -46892,7 +46877,6 @@
 *.plausible.fun
 *.gone.pronhub.fun
 *.trustisimportant.fun
-*.a8cv.wake.fun
 *.go2.fund
 *.stats.callum.fyi
 *.cland.fyi
@@ -47062,6 +47046,7 @@
 *.dii3.zooplus.gr
 *.dii4.zooplus.gr
 *.newrelic.gripe
+*.a8cv.ieyasu.est.group
 *.images.go.hardware.group
 *.content.hourigan.group
 *.tr.clients.idaia.group
@@ -47703,7 +47688,6 @@
 *.tr.clients.boursorama.info
 *.tr.communication.boursorama.info
 *.tr.membres.boursorama.info
-*.a8cv.brandnet.info
 *.bretweb.info
 *.brooke.info
 *.services.cairn.info
@@ -47954,6 +47938,7 @@
 *.bipp.io
 *.bitdrift.io
 *.biterg.io
+*.a8cv.bizlink.io
 *.blackfire.io
 *.1amehwchx31.bloxdhop.io
 *.link.blueheart.io
@@ -47984,7 +47969,6 @@
 *.cartsguru.io
 *.castle.io
 *.catalyst.io
-*.a8.cbiz.io
 *.reporting.cdndex.io
 *.marketing.celona.io
 *.cerex.io
@@ -49313,7 +49297,8 @@
 *.stat.wanted.jobs
 *.a8clk.011330.jp
 *.a8.01cloud.jp
-*.a8cv.1-class.jp
+*.a8cv.04510.jp
+*.a8clk.17skin.jp
 *.ecdoib.26p.jp
 *.a8clk.292957.jp
 *.a8.2ndstreet.jp
@@ -49322,6 +49307,7 @@
 *.engage.3mcompany.jp
 *.stats.4travel.jp
 *.vdrigb.8190.jp
+*.a8cv.a-bisu.jp
 *.a8cv.a-resort.jp
 *.abanalytics.jp
 *.a8.abemashopping.jp
@@ -49341,9 +49327,12 @@
 *.ad-track.jp
 *.t.adclr.jp
 *.sa.adidas.jp
+*.a8.coaching.agaroot.jp
 *.a8.learning.agaroot.jp
 *.a8cv.aiambeauty.jp
 *.ebis.aibashiro.jp
+*.a8cv.air-mobareco-asp.jp
+*.a8cv.air-mobileset.jp
 *.wxnxau.air-r.jp
 *.aa-metrics.aircard.jp
 *.aa-metrics.airpayment.jp
@@ -49356,14 +49345,11 @@
 *.a8cv.online.aivil.jp
 *.a8cv.akihabara-x.jp
 *.isovav.akomeya.jp
-*.a8clk.es.akyrise.jp
 *.adtrack.alchemy-web.jp
-*.a8.aliceandolivia.jp
 *.a8cv.all24.jp
 *.ubrihx.allbirds.jp
 *.a8clk.alljewelry.jp
 *.a8cv.store.alpen-group.jp
-*.a8.ama-mail.jp
 *.ln.ameba.jp
 *.sy.ameba.jp
 *.measure.ameblo.jp
@@ -49377,7 +49363,10 @@
 *.a9d8e7b6i5s.andgino.jp
 *.bjuvux.andgino.jp
 *.adebis.angfa-store.jp
+*.a8.aniera.jp
 *.a8cv.aplod.jp
+*.cv.aqua-style.jp
+*.a8cv.aruci.jp
 *.counter.asobeans.jp
 *.jpaatr.astellas.jp
 *.jptgtr.astellas.jp
@@ -49409,7 +49398,7 @@
 *.a8clk.beauteq.jp
 *.xcgpdf.beautygarage.jp
 *.a8cv.www.bedstyle.jp
-*.ad.belleeau.jp
+*.a8clk.belle-co.jp
 *.aas.bellemaison.jp
 *.obtfhl.bellemaison.jp
 *.euqsfp.belluna.jp
@@ -49419,6 +49408,7 @@
 *.cv.betrading.jp
 *.a8cv.bettysbeauty.jp
 *.eb.bewithyou.jp
+*.a8clk.beyondborders.jp
 *.a8cv.beyondvape.jp
 *.a8cv.cart.bi-su.jp
 *.a8clk.bikeman.jp
@@ -49431,6 +49421,7 @@
 *.a8cv.bizcomfort.jp
 *.a8track.bizdigi.jp
 *.a8clk.bizworkers.jp
+*.a8clk.blastmail.jp
 *.a8cv.bloomonline.jp
 *.bwspqc.bloomonline.jp
 *.trace.bluemonkey.jp
@@ -49439,18 +49430,20 @@
 *.fpida.bodybook.jp
 *.smetrics.boehringer-ingelheim.jp
 *.a8clk.orders.bon-book.jp
-*.a8.bon-quish.jp
 *.aa-metrics.bookingtable.jp
+*.a8track.boost-station.jp
+*.a8cv.botanium.jp
 *.a8cv.brandeuse.jp
 *.rwhneg.breaking-news.jp
 *.a8clk.bresmile.jp
 *.a8cv.bresmile.jp
 *.a8cv.broadbandservice.jp
+*.a8.store.brooklynoutdoorcompany.jp
 *.smetrics.brumate.jp
-*.a8.freeconsultant.btcagent.jp
-*.a8.freeengineer.btcagent.jp
+*.a8cv.brush-up.jp
 *.a8cv.bugsfarm.jp
 *.a8cv.busbookmark.jp
+*.a8cv.buysell-hunt.jp
 *.haoexw.buysellonline.jp
 *.analytics.contents.by-fw.jp
 *.a8cv.ca-rent.jp
@@ -49458,11 +49451,11 @@
 *.gspqch.cake.jp
 *.qxsfaj.caloo.jp
 *.zbfszb.calpis-shop.jp
-*.a8clk.camerakaitori.jp
 *.refytq.camp-fire.jp
 *.hrcpql.candymagic.jp
 *.a8clk.car-mo.jp
 *.sokutei.car2828.jp
+*.a8cvt.care-wing.jp
 *.a8.ws.job.career-tasu.jp
 *.stat-ssl.career-tasu.jp
 *.jyyzvb.careerindex.jp
@@ -49471,11 +49464,9 @@
 *.a8clk.formal.cariru.jp
 *.analytics.cartoonnetwork.jp
 *.sanalytics.cartoonnetwork.jp
-*.cosme.caseepo.jp
 *.a8.casie.jp
 *.smetrics.casio.jp
 *.analytics.castel.jp
-*.a8.cbd-cosme.jp
 *.a8.cbd-oil.jp
 *.a8clk.chapup.jp
 *.a8sup.chapup.jp
@@ -49484,9 +49475,11 @@
 *.a8cv.chillaxy.jp
 *.sfcv.chinavi-shop.jp
 *.lzwxzz.chintaistyle.jp
+*.a8.choole.jp
 *.a8.clarah.jp
 *.info.clarivate.jp
 *.skxbbj.clasic.jp
+*.cv.classmall.jp
 *.a8clk.cleaneo.jp
 *.a8cv.clickjob.jp
 *.a8cv.cloud-wi-fi.jp
@@ -49502,6 +49495,7 @@
 *.a8clk.moving.a-tm.co.jp
 *.metrics.abbott.co.jp
 *.a8cv.accelfacter.co.jp
+*.webcv.advan-corp.co.jp
 *.a8clk.adventkk.co.jp
 *.trck.aeon.co.jp
 *.adobe.aeonbank.co.jp
@@ -49518,7 +49512,6 @@
 *.a8cv.all-plan.co.jp
 *.qljiop.allabout.co.jp
 *.x.allabout.co.jp
-*.a8cv.alvo.co.jp
 *.smetrics.flex.amazon.co.jp
 *.a8clk.ambientlounge.co.jp
 *.zpashl.amgakuin.co.jp
@@ -49533,11 +49526,11 @@
 *.d-log.asahi.co.jp
 *.analytics.vk.asahi.co.jp
 *.vxvibc.asahi-kasei.co.jp
-*.a8.asdf.co.jp
 *.lcztnn.asics-trading.co.jp
 *.gxleat.attenir.co.jp
 *.adebiscname.au-sonpo.co.jp
 *.ahzqgr.au-sonpo.co.jp
+*.acv.auncompany.co.jp
 *.smetrics.axa-direct-life.co.jp
 *.ebis.ayura.co.jp
 *.a8clk.bang.co.jp
@@ -49552,7 +49545,7 @@
 *.a8cv.bellevie-inc.co.jp
 *.ebis.belta.co.jp
 *.a8cv.www.bigability.co.jp
-*.a8.boco.co.jp
+*.summary.bookoff.co.jp
 *.sub.ecd.bookoffonline.co.jp
 *.summary.bookoffonline.co.jp
 *.brainpad.co.jp
@@ -49567,11 +49560,13 @@
 *.ebis.cp.claudia.co.jp
 *.a8cv.www.club-sincerite.co.jp
 *.rjsouj.clubd.co.jp
+*.a8clk.cocoro-happy.co.jp
 *.ioovrf.coen.co.jp
 *.ghonnz.columbiasports.co.jp
 *.oexcmv.concent.co.jp
 *.a8cv.www.covearth.co.jp
 *.a8cv.covermark.co.jp
+*.a8cv.crear-ac.co.jp
 *.iqjwrk.crocodile.co.jp
 *.ilnfdq.cybozu.co.jp
 *.smetrics.cytivalifesciences.co.jp
@@ -49594,6 +49589,7 @@
 *.mkmree.dmm.co.jp
 *.info.mkt.global.dnp.co.jp
 *.a8clk.dospara.co.jp
+*.a8.shop.dreammug.co.jp
 *.a8clk.mat.duskin-hozumi.co.jp
 *.a8clk.merry.duskin-hozumi.co.jp
 *.a8clk.mop.duskin-hozumi.co.jp
@@ -49604,6 +49600,7 @@
 *.ana.e-ticket.co.jp
 *.login.e-ticket.co.jp
 *.a8cv.shokubun.ec-design.co.jp
+*.a8cv.shokubun2.ec-design.co.jp
 *.a8.efax.co.jp
 *.a8cv.egmkt.co.jp
 *.metrics.elle.co.jp
@@ -49623,9 +49620,9 @@
 *.view.fujitv.co.jp
 *.qysknb.fukuishimbun.co.jp
 *.ebis.funaisoken.co.jp
+*.a8.funtre.co.jp
 *.a8cv.fxtrade.co.jp
 *.sstats.gaba.co.jp
-*.a8cv.gaiasign.co.jp
 *.metrics.gap.co.jp
 *.rhybey.gap.co.jp
 *.securemetrics.gap.co.jp
@@ -49640,7 +49637,6 @@
 *.ebis.goldcrest.co.jp
 *.wtgnmr.golfdigest.co.jp
 *.a8.golfland.co.jp
-*.a8net.gset.co.jp
 *.a8.gtm.co.jp
 *.a8.h-daiya.co.jp
 *.a8clk.ec.halmek.co.jp
@@ -49685,6 +49681,7 @@
 *.a8clk.asp.jcity.co.jp
 *.a8cv.jcom.co.jp
 *.a8cv.jeansmate.co.jp
+*.a8.shop.jele.co.jp
 *.a8cv.jemmy.co.jp
 *.ade.jfx.co.jp
 *.hswgqa.jmsc.co.jp
@@ -49698,12 +49695,10 @@
 *.a8.tour.jtrip.co.jp
 *.affiliate.k-uno.co.jp
 *.xhqmvu.k-uno.co.jp
-*.a8clk.store.kadokawa.co.jp
 *.adebis.kamada.co.jp
 *.smetrics.kanebo-cosmetics.co.jp
 *.smetrics.kao.co.jp
 *.otr.kaspersky.co.jp
-*.a8clk.kenkoukazoku.co.jp
 *.ignchq.kentaku.co.jp
 *.a8.kimonomachi.co.jp
 *.a8clk.kaitori.kind.co.jp
@@ -49715,14 +49710,14 @@
 *.vqvuid.kobetsu.co.jp
 *.y8hxgv9m.kobetsu.co.jp
 *.adebis.kose.co.jp
-*.a8cv.kxn.co.jp
-*.a8clk.kyoto-health.co.jp
 *.cname.kyusai.co.jp
 *.kiqwil.l-m.co.jp
 *.pqlmae.lamaisonduchocolat.co.jp
+*.a8cv.lamellia-japan.co.jp
 *.ip2c.landscape.co.jp
 *.a8clk.lasana.co.jp
 *.a8cv.laviepre.co.jp
+*.a8cv.leango.co.jp
 *.afficv.lettuce.co.jp
 *.muwyib.lettuce.co.jp
 *.tracking.risk.lexisnexis.co.jp
@@ -49730,8 +49725,10 @@
 *.investment.lianest.co.jp
 *.fyebmf.lifenet-seimei.co.jp
 *.scs.lifenet-seimei.co.jp
+*.a8cv.lifenrich.co.jp
 *.fpida.lingenoel.co.jp
 *.adebis.livable.co.jp
+*.trialapp.live-english.co.jp
 *.ifkzro.llbean.co.jp
 *.webanalytics.logicool.co.jp
 *.webtarget.logicool.co.jp
@@ -49749,8 +49746,9 @@
 *.a8.www.melonbooks.co.jp
 *.smetrics.members.co.jp
 *.smetrics.rent.mercedes-benz.co.jp
-*.a8cv.mi-vision.co.jp
 *.hyxvec.michaelpage.co.jp
+*.a8.midori-zc.co.jp
+*.a8.migi-agari.co.jp
 *.tag.minimaid.co.jp
 *.ebis-cname.mirai-japan.co.jp
 *.a8cv.sell.miraias.co.jp
@@ -49763,16 +49761,16 @@
 *.a8clk.mouse-jp.co.jp
 *.ebisanalysis.mouse-jp.co.jp
 *.smetrics.mouse-jp.co.jp
-*.a8.petfood.mtflat.co.jp
+*.a8clk.sp.move-ebike.co.jp
 *.ebis.mucuna.co.jp
 *.a8.musbell.co.jp
+*.a8.campaign.musclesuit.co.jp
 *.a8cv.my-arrow.co.jp
 *.tracking.mysurance.co.jp
 *.a8cv.naradenryoku.co.jp
 *.scjlpq.navitime.co.jp
 *.smetrics.ncbank.co.jp
 *.info.neg.co.jp
-*.a8.nengajyo.co.jp
 *.kaden.netoff.co.jp
 *.a8clkapply.mycredit.nexuscard.co.jp
 *.a8cv.nichirei.co.jp
@@ -49811,9 +49809,13 @@
 *.ypbfjo.paulsmith.co.jp
 *.smetrics.peachjohn.co.jp
 *.eloqua.pearsonvue.co.jp
+*.a8-per-sonal.per-sonal.co.jp
 *.yxgcfb.petit-bateau.co.jp
+*.a8.pikaichi.co.jp
 *.adebis.pikaichi.co.jp
 *.trck.propo.co.jp
+*.test123.proudclinic.co.jp
+*.a8cv.queenbee.co.jp
 *.lfapbe.quiksilver.co.jp
 *.a8n.radishbo-ya.co.jp
 *.ebis.radishbo-ya.co.jp
@@ -49822,6 +49824,8 @@
 *.rat.rakuten.co.jp
 *.count.upc.rakuten.co.jp
 *.ebis.randstad.co.jp
+*.a8cv.raycop.co.jp
+*.a8cv.rayel.co.jp
 *.adebis.real-style.co.jp
 *.a8clk.www.rebo-success.co.jp
 *.smetrics.recruit.co.jp
@@ -49831,14 +49835,12 @@
 *.rentracks.co.jp
 *.a8clk.cv.shop.resalon.co.jp
 *.a8.www.retrospect.co.jp
-*.a8.career.rexit.co.jp
 *.www.secure.rc-club.ricoh.co.jp
 *.ilfmju.right-on.co.jp
 *.a8.ringbell.co.jp
 *.nbrngg.rinkaiseminar.co.jp
 *.a8cv.rita-style.co.jp
 *.a8cv.rohto.co.jp
-*.a8.runway-harmonia.co.jp
 *.lrjnbf.sabon.co.jp
 *.sitecatalysts.saisoncard.co.jp
 *.fgfukd.sakazen.co.jp
@@ -49846,14 +49848,12 @@
 *.adebis.sbishinseibank.co.jp
 *.smetrics.sbishinseibank.co.jp
 *.ebis.sbismile.co.jp
-*.a8.www.seesaa.co.jp
 *.ldorlv.seiban.co.jp
 *.ebis.seibu-k.co.jp
 *.vmwody.seibu-k.co.jp
 *.ebis.sekisuihouse.co.jp
 *.cname1.shakenkan.co.jp
 *.ihnbqe.shane.co.jp
-*.a8.smp.shanon.co.jp
 *.a8cv.sharing-tech.co.jp
 *.a8cv.direct.shark.co.jp
 *.a8cv.shimomoto-cl.co.jp
@@ -49871,8 +49871,8 @@
 *.zzsqqx.shopjapan.co.jp
 *.a8cv.sibody.co.jp
 *.a8trck.sibody.co.jp
+*.a8cv.sitecreation.co.jp
 *.log-lb.skyperfectv.co.jp
-*.a8.www.smart-factor.co.jp
 *.stat.smbc.co.jp
 *.metrics.smbcnikko.co.jp
 *.smetrics.smbcnikko.co.jp
@@ -49882,7 +49882,6 @@
 *.analytics.sona-mira.co.jp
 *.ssmr.sonynetwork.co.jp
 *.a8cv.soundfun.co.jp
-*.a8clk.speedcoaching.co.jp
 *.a8cv.staff-manzoku.co.jp
 *.a8cv.staffagent.co.jp
 *.cname-aa.staffservice.co.jp
@@ -49907,7 +49906,6 @@
 *.recv.tbs.co.jp
 *.recv-entry.tbs.co.jp
 *.recv-jnn.tbs.co.jp
-*.a8.tea-lab.co.jp
 *.tealium.co.jp
 *.a8.teddyworks.co.jp
 *.fkmzox.teinei.co.jp
@@ -49928,6 +49926,7 @@
 *.vouzpu.tokyolife.co.jp
 *.adebis.tokyuhotels.co.jp
 *.maaiuh.tomorrowland.co.jp
+*.cv.top-management.co.jp
 *.a8clk.d.toyo-case.co.jp
 *.lp.go.toyobo.co.jp
 *.tracking.go.toyobo.co.jp
@@ -49958,9 +49957,7 @@
 *.fpida.wacoal.co.jp
 *.xwzebw.waja.co.jp
 *.smetrics.waseda-ac.co.jp
-*.a8cv.waterenergy.co.jp
 *.a8cv.waterserver.co.jp
-*.a8dns.webcircle.co.jp
 *.a8.wemotion.co.jp
 *.a8clk.www.workport.co.jp
 *.vttics.world.co.jp
@@ -49973,35 +49970,42 @@
 *.logql.yahoo.co.jp
 *.pvtag.yahoo.co.jp
 *.yjtag.yahoo.co.jp
+*.a8cv.yakuin-organic.co.jp
+*.a8cv.yamachiya.co.jp
 *.a8.yayoi-kk.co.jp
 *.a8clk.ykd.co.jp
 *.cv.online.ysroad.co.jp
+*.a8clk.cart.yuyu-kenko.co.jp
 *.a8clk.lp.yuyu-kenko.co.jp
 *.nwajdf.zakzak.co.jp
 *.a8clk1.zkai.co.jp
 *.ebis01.zkai.co.jp
 *.szkbyo.zkai.co.jp
 *.smetrics.zurichlife.co.jp
+*.a8.zwiesel-glas.co.jp
 *.a8clk.form.coached.jp
 *.sync-a8.cocolocala.jp
 *.a8.cocomeister.jp
-*.a8cv.codexcode.jp
+*.cv.codecamp.jp
 *.smetrics.coffretdor-makeup.jp
 *.oedbml.collage-shop.jp
 *.a8.coloria.jp
+*.a8cv.photo.concorde-corp.jp
 *.a8clk.manage.conoha.jp
 *.ylsjka.conranshop.jp
 *.contentanalytics.jp
+*.a8.cookbiz.jp
 *.udonjl.coopdeli.jp
 *.a8clk.coreda.jp
+*.a8clk.test.coreda.jp
 *.a8cv.cosmosfoods.jp
 *.a8.cotta.jp
 *.zvfzqw.cotta.jp
 *.a8cv.haka.craht.jp
+*.a8cv.www.crassone.jp
 *.a8cv.crefus.jp
 *.analytics.liveact.cri-mw.jp
 *.tag.cribnotes.jp
-*.a8cv.crowdcredit.jp
 *.adebis.crowdcredit.jp
 *.a8cv.crowdlinks.jp
 *.a8clk.crowdworks.jp
@@ -50009,6 +50013,7 @@
 *.apqmxf.curama.jp
 *.tracker.curama.jp
 *.fpida.cw-x.jp
+*.a8cv.cx-cloud.jp
 *.a8.cyclemarket.jp
 *.hnpgjp.cyclemarket.jp
 *.a8.cypris-online.jp
@@ -50026,25 +50031,30 @@
 *.a8.de-limmo.jp
 *.a8cv.deiba.jp
 *.cv.denkichoice.jp
+*.a8cv.dental-recruit.jp
+*.a8cv.dentalhr.jp
 *.a8.denwa-kaisen.jp
 *.cnameforitp.dermed.jp
 *.zrw1.destinia.jp
 *.a8.diakaimasu.jp
 *.gtm.diamond.jp
 *.vjjgpt.diamond.jp
-*.affiliate.dietician-family.jp
 *.a8clk.digicafe.jp
 *.a8cv.direct-teleshop.jp
 *.smetrics.discova.jp
 *.a8cv.diyfactory.jp
+*.a8cv.mai.dk-lab.jp
 *.stlog.d.dmkt-sp.jp
 *.ssl-omtrdc.dmp-support.jp
 *.smetrics.dnszone.jp
+*.kcecv.doctork.jp
 *.track.docusign.jp
 *.a8clk.doda.jp
 *.remnkv.doda.jp
 *.adebis-dojyo.dojyo.jp
+*.a8.denki.dokoyorimo.jp
 *.tfunqc.domonet.jp
+*.a8.donnatokimo-wifi.jp
 *.a8cv.dream-licence.jp
 *.a8cv.dreambeer.jp
 *.ahachi.dreamdenki.jp
@@ -50059,23 +50069,25 @@
 *.nkothz.duskin.jp
 *.a8clk.www.duskin-hozumi.jp
 *.a8.dymtech.jp
-*.a8cv.e-3x.jp
 *.lhlext.e-aircon.jp
 *.ad.e-dpe.jp
 *.a8cv.e-earphone.jp
 *.a8clk.e-ninniku.jp
-*.cv.e-tukline.jp
 *.ems-a8net-tracking.easy-myshop.jp
 *.a8redirect.cart.ec-sites.jp
 *.tbknig.ecc.jp
 *.a8clk.shop.echigofuton.jp
+*.a8cv.ecnavi.jp
 *.a8cv.ecodepa.jp
+*.a8clkcd.ecostorecom.jp
 *.a8clk.cd.ecostorecom.jp
 *.ecreport.jp
 *.a8clk.ectool.jp
 *.ebiscname.clark.ed.jp
+*.a8.eigox.jp
 *.campaign-direct.eisai.jp
 *.cnebis.eisai.jp
+*.a8cv.elabo-shop.jp
 *.xdeiaf.elleshop.jp
 *.a8.emeao.jp
 *.a8cv.encounter2017.jp
@@ -50108,9 +50120,8 @@
 *.a8cv.foresight.jp
 *.gecfnc.foresight.jp
 *.a8clk.formasp.jp
-*.a8.fots.jp
-*.a8cv.fots.jp
 *.a8cv.frecious.jp
+*.acv.freestyle-wifi.jp
 *.salto.freeto.jp
 *.a8cv.fujiplus.jp
 *.a8clk.fuku-chan.jp
@@ -50129,11 +50140,14 @@
 *.kgmmfk.galcomi.jp
 *.tracking.game8.jp
 *.frdoki.gamefactory.jp
+*.a8clk.ganba.jp
 *.a8cv.gbset.jp
+*.a8.gensenwedding.jp
 *.a8clk.geo-arekore.jp
+*.a8cv.giftpad.jp
+*.a8cv.giftto.jp
 *.p5mcwdbu.ginzo-buy.jp
 *.cname.gladis.jp
-*.asp.glasspp119.jp
 *.trcka8net.glens.jp
 *.ebis.glico-direct.jp
 *.a8cv.global-dive.jp
@@ -50145,12 +50159,12 @@
 *.frbdzc.goguynet.jp
 *.a8cv.goods-station.jp
 *.jqsouo.gourmetcaree.jp
+*.a8cv.adv.gr.jp
 *.a8cv.kaiteki.gr.jp
 *.a8cv.grassbeaute.jp
 *.a8clk.grirose.jp
 *.uijciz.gunze.jp
 *.a8clk.gurutas.jp
-*.a8clk.guruyaku.jp
 *.smetrics.h-scc.jp
 *.a8.hagent.jp
 *.a8.hana-mail.jp
@@ -50158,6 +50172,7 @@
 *.a8cv.hanamaro.jp
 *.a8clk.cv.hanaravi.jp
 *.a8cv.handmade-ch.jp
+*.a8cv2.handmade-ch.jp
 *.hgzqxe.hanesbrandsinc.jp
 *.cv.hanna-saku.jp
 *.rbbgnn.hanshintigers.jp
@@ -50165,8 +50180,8 @@
 *.partner.haru-shop.jp
 *.adebis.harutaka.jp
 *.primary.hasegawa.jp
+*.a8.hataractive.jp
 *.sstats.healthcare-sumitomo-pharma.jp
-*.a8cv.hello-people.jp
 *.smetrics.hemapedia.jp
 *.admeasure.hh-online.jp
 *.a8cv.hi-tailor.jp
@@ -50188,8 +50203,6 @@
 *.aa-metrics.beauty.hotpepper.jp
 *.tkmeyf.houseoflotus.jp
 *.a8cv.housingbazar.jp
-*.thanks.hubspaces.jp
-*.a8clk.hurugicom.jp
 *.a8.i-staff.jp
 *.i2i.jp
 *.kxmrwu.ibarakinews.jp
@@ -50197,23 +50210,20 @@
 *.qnzczf.idc-otsuka.jp
 *.a8cv.ieagent.jp
 *.a8.ikkatsu.jp
+*.a8.imagi-nation.jp
 *.a8clk.inakakon.jp
 *.ebiscname.infofactory.jp
-*.clk.ingage.jp
-*.a8cv.store.ion-e-air.jp
 *.a8cv.isslim.jp
 *.cv.it-kyujin.jp
 *.beacon.itmedia.jp
-*.a8cv.iy-net.jp
 *.a8trck.j-sen.jp
 *.kvskic.jadore-jun.jp
 *.cname.jaic-college.jp
 *.a8clk.janiking.jp
 *.a8cv.japaden.jp
-*.cv.japan-curtain.jp
 *.a8clk.secure.jetboy.jp
-*.a8clk.booking.jetfi.jp
 *.cname.jf-d.jp
+*.a8clk.www.jieitaiclub.jp
 *.a8clk.jlp-shop.jp
 *.ad-platform.jmty.jp
 *.exxwhi.jmty.jp
@@ -50222,13 +50232,10 @@
 *.cv.www.jobcareer.jp
 *.eylnhf.jobhouse.jp
 *.adebis-cname.jobmall.jp
-*.a8clk.jobspring.jp
 *.nbyggk.jocee.jp
 *.cv.joggo.jp
 *.a8cv.join-tech.jp
 *.ebis.jojoble.jp
-*.a8cv.jokyonext.jp
-*.a8clk.joppy.jp
 *.febcyv.joshi-spa.jp
 *.lreust.joshinweb.jp
 *.ebis202001.joyfit.jp
@@ -50238,14 +50245,13 @@
 *.ojvxtz.junonline.jp
 *.a8clk.just-buy.jp
 *.link.justincase.jp
-*.a8cv.k-ikiiki.jp
 *.trvonu.k-manga.jp
-*.a8cv.kabu-online.jp
 *.a8cv.kagoya.jp
 *.dqefxd.kaigoworker.jp
 *.a8clk.kaitori-beerecords.jp
 *.a8clk.kaitori-janiyard.jp
 *.a8cv.kaitori-okoku.jp
+*.a8clk.campaigns.kaitori-premium.jp
 *.a8clk.kaitori-retrog.jp
 *.a8clk.kaitori-toretoku.jp
 *.a8clk.kaitori-yamatokukimono.jp
@@ -50256,6 +50262,7 @@
 *.idndlc.kango-oshigoto.jp
 *.adebis.kaonavi.jp
 *.a8cv.karitoke.jp
+*.a8cv.karrimor.jp
 *.smetrics.ketsusen.jp
 *.a8.www.keurig.jp
 *.affiliate.kgcshop.jp
@@ -50263,12 +50270,12 @@
 *.a8cvhoiku.kidsmate.jp
 *.a8clk.kihada.jp
 *.a8clk.cv.kihada.jp
+*.a8clk.kimera.jp
 *.bwmxdg.kimono-365.jp
 *.stat-ssl.kinarino.jp
 *.stat-ssl.kinarino-mall.jp
 *.a8.kinkaimasu.jp
 *.a8.kinkennet.jp
-*.a8.kinnikushokudo-ec.jp
 *.ad.kirara-support.jp
 *.adebis.kirei-journal.jp
 *.umiaob.kireibiz.jp
@@ -50277,8 +50284,6 @@
 *.a8.kizuna-link.jp
 *.a8cv.kk-orange.jp
 *.a8cv.kkmatsusho.jp
-*.a8.shop.km-link.jp
-*.a8.knew.jp
 *.elqview.kofax.jp
 *.xibspj.komehyo.jp
 *.a8clk.komochikon.jp
@@ -50286,6 +50291,7 @@
 *.kpis.jp
 *.ebis.kubara.jp
 *.a8cv.kuih.jp
+*.a8cv.kuradashi.jp
 *.a8.kateikyoushi.kuraveil.jp
 *.a8.kekkon.kuraveil.jp
 *.a8.ryugaku.kuraveil.jp
@@ -50293,7 +50299,6 @@
 *.cv.kuvings.jp
 *.a8cv.kuzefuku-arcade.jp
 *.a8.l-co-shop.jp
-*.a8.labiotte.jp
 *.xvteew.lacoste.jp
 *.a8cv.lalavie.jp
 *.a8cv.lancers.jp
@@ -50311,23 +50316,30 @@
 *.a8cv.lens-1.jp
 *.qtxxdm.levi.jp
 *.cv.liability.jp
+*.a8clk.liberta1.jp
 *.a8clk.libinc.jp
 *.adebis.lifestylemag.jp
+*.a8cv.lifull.jp
 *.cname.lions-mansion.jp
+*.a8.job.lismi.jp
 *.smetrics.lissage.jp
 *.track.list-finder.jp
 *.t.blog.livedoor.jp
 *.a8.liver-rhythm.jp
+*.a8clk.livr.jp
 *.analysis.aws.locondo.jp
 *.log-marketing.jp
 *.adebis.logoshome.jp
+*.a8.logrenove.jp
 *.flpwto.lohaco.jp
 *.a8clk.lolipop.jp
 *.oedxix.lolipop.jp
 *.a8.looom.jp
+*.check.looser.jp
 *.adtrack.loracle.jp
 *.a8clk.order.lpio.jp
 *.webtest.lpio.jp
+*.a8cv.lvs.jp
 *.a8.lyprimo.jp
 *.a8cv.lyprinol.jp
 *.a8cv.machi-ene.jp
@@ -50335,10 +50347,12 @@
 *.a8cv.machicon.jp
 *.fmufpo.machicon.jp
 *.a8cv.macloud.jp
+*.a8cv.maenomerinacareer.jp
 *.a8cv.maenomery.jp
 *.xutolr.mainichikirei.jp
 *.a8.makeshop.jp
 *.ebis.makeshop.jp
+*.cv.mamaikuko.jp
 *.fxmdjr.mamastar.jp
 *.a8.mamaworks.jp
 *.a8clk.manabiz.jp
@@ -50346,6 +50360,7 @@
 *.urerucname.manara.jp
 *.twkbui.mansion-review.jp
 *.xutolr.mantan-web.jp
+*.a8.mar-cari.jp
 *.cjulor.marimekko.jp
 *.marketingsuite.jp
 *.a8cv.shop.matsuo1956.jp
@@ -50355,15 +50370,13 @@
 *.a8atcomsme.mellife.jp
 *.a8cv.memberpay.jp
 *.a8cv.menina-joue.jp
-*.a8clk.mens-mr.jp
 *.a8clk.mens-rinx.jp
-*.a8.maf.mentor-capital.jp
+*.a8clk.menter.jp
 *.slryca.meyou.jp
 *.bmodjx.mgos.jp
-*.cv.michiuru.jp
 *.a8clk.miidas.jp
 *.aa-metrics.minterior.jp
-*.a8cv.shop.mintme.jp
+*.a8net.mirastore.jp
 *.a8.miror.jp
 *.nlvnht.miror.jp
 *.smetrics.mistore.jp
@@ -50381,12 +50394,12 @@
 *.sstats.mora.jp
 *.a8.mosh.jp
 *.elq.mouser.jp
-*.a8cv.ms-toushiguide.jp
 *.tm.msgs.jp
 *.adbq.bk.mufg.jp
 *.adnl.bk.mufg.jp
 *.a.munters.jp
 *.adebis.muscledeli.jp
+*.a8cv.mygol.jp
 *.marketing.biz.mynavi.jp
 *.ypdewh.dokuritsu.mynavi.jp
 *.umdpva.gakumado.mynavi.jp
@@ -50400,6 +50413,7 @@
 *.pwtftm.shingaku.mynavi.jp
 *.a8clk.staff.mynavi.jp
 *.a8cv.wedding.mynavi.jp
+*.a8clk.mynavi-cr.jp
 *.a8clk.mynavi-creator.jp
 *.a8clk.mynavi-job20s.jp
 *.ad-ebis.mynavi-job20s.jp
@@ -50408,12 +50422,15 @@
 *.a8cv.naire-seisakusho.jp
 *.nakanohito.jp
 *.aoelfb.nanouniverse.jp
+*.a8cv.naris-online.jp
 *.adex.naruko333.jp
 *.audsoa.narumiya-online.jp
+*.a8.natural-elements.jp
 *.a8cv.naturaltech.jp
 *.cv.cart.naturath.jp
-*.a8cv.naturecan-fitness.jp
+*.a8clk.naturesway.jp
 *.a8clk.amelia.ne.jp
+*.a8cv.bfg.benesse.ne.jp
 *.jvzlya.benesse.ne.jp
 *.a8.biz.ne.jp
 *.a8.creativevillage.ne.jp
@@ -50421,11 +50438,11 @@
 *.a8clk.dfashion.docomo.ne.jp
 *.stlog.dmarket.docomo.ne.jp
 *.ad-bls-tracking.lemino.docomo.ne.jp
+*.a8clk.drivee.ne.jp
 *.a8.eonet.ne.jp
 *.vonvdn.garden.ne.jp
 *.log.gs3.goo.ne.jp
 *.log000.goo.ne.jp
-*.a8.store.goo.ne.jp
 *.a8cv.greed-island.ne.jp
 *.stat-ssl.idaten.ne.jp
 *.ebis.jobcan.ne.jp
@@ -50453,6 +50470,7 @@
 *.a8.neur.jp
 *.ydvsok.newbalance.jp
 *.a8.next-hikari.jp
+*.a8.next-mobile.jp
 *.a8cv.next1-one.jp
 *.bc.nhk.jp
 *.worldmtcs.nhk.jp
@@ -50464,7 +50482,6 @@
 *.ncc.nip-col.jp
 *.a8cv.nipt-clinic.jp
 *.a8cname.nj-e.jp
-*.a8clk.nobirun.jp
 *.aaaa.nocor.jp
 *.sekaopi.nocre.jp
 *.tracking.nokai.jp
@@ -50475,7 +50492,6 @@
 *.a8clk.nyandaful.jp
 *.a.o2u.jp
 *.sjprdu.oakhouse.jp
-*.a8.obihiro-butaichi.jp
 *.smetrics.obirin.jp
 *.a8cv.oceanprincess.jp
 *.a8cv.off-site.jp
@@ -50486,12 +50502,12 @@
 *.a8.olightstore.jp
 *.a8clk.olulu-online.jp
 *.a8cv.omni7.jp
+*.a8cv.omtogether.jp
 *.a8cv.one-netbook.jp
+*.a8cv.onebride.jp
 *.a8clk.cv.onedenki.jp
 *.a8clk.onemile.jp
-*.a8.ones-ones.jp
-*.a8.erasutamo.onlinestaff.jp
-*.a8.wifi.erasutamo.onlinestaff.jp
+*.a8.onenova.jp
 *.a8clk.only-story.jp
 *.a8clk.cv.only-story.jp
 *.a8.biglobe.openplat.jp
@@ -50502,6 +50518,7 @@
 *.a8clk.jaf.or.jp
 *.a8clk.www.jaf.or.jp
 *.event.jma.or.jp
+*.a8.application2.jtca2020.or.jp
 *.vdzrjr.kenminkyosai.or.jp
 *.qqdflf.lpga.or.jp
 *.mtc.nhk.or.jp
@@ -50511,13 +50528,13 @@
 *.a8cv.suzaku.or.jp
 *.isebis.takamiclinic.or.jp
 *.rsuevw.unicef.or.jp
-*.a8cv.ygm-clinic.or.jp
-*.a8.otoku-line.jp
+*.a8clk.osakekon.jp
 *.ac-ebis.otoraku.jp
 *.a8clk.p-bandai.jp
 *.herpes2.pa-ruit.jp
 *.iwhzhi.packstyle.jp
 *.rsv.pairorder.jp
+*.a8.palclair.jp
 *.ebis.palclair.jp
 *.hzuheh.palcloset.jp
 *.metrics.panasonic.jp
@@ -50536,10 +50553,12 @@
 *.a8cv.presence.jp
 *.a8clk.career.prismy.jp
 *.profilepassport.jp
+*.a8.propertyplus.jp
 *.smetrics.protrek.jp
 *.a8clk.psd.jp
 *.ptengine.jp
 *.a8clk.purekon.jp
+*.a8.pykespeak.jp
 *.adebis.qeee.jp
 *.a8-itp.qoo10.jp
 *.eicyds.qoo10.jp
@@ -50555,6 +50574,7 @@
 *.a8clk.cart.raku-uru.jp
 *.aehudh.rakumachi.jp
 *.a8cv.rakumizu.jp
+*.a8clk.rakurakuseisan.jp
 *.uhlagm.rakurakuseisan.jp
 *.a8.rank-quest.jp
 *.hokkaidobank.rapi.jp
@@ -50562,6 +50582,7 @@
 *.hnwttl.re-katsu.jp
 *.cv.re-shop.jp
 *.ebis.re-shop.jp
+*.a8clk.realestateworks.jp
 *.aa-metrics.recruit-card.jp
 *.a8clk.recycle-net.jp
 *.csghyg.reginaclinic.jp
@@ -50570,10 +50591,10 @@
 *.a8cv.entry.renet.jp
 *.a8cv.renoveru.jp
 *.t.rentio.jp
-*.a8cv.repairman.jp
 *.a8cv.repitte.jp
 *.a8.123.rheos.jp
 *.smetrics.rinpashu.jp
+*.affiliate.rise-jms.jp
 *.cv.www.risetokyo.jp
 *.smetrics.riumachitearoom.jp
 *.pages2.rizap.jp
@@ -50589,26 +50610,25 @@
 *.ebis.s-bisco.jp
 *.hzoouw.s-re.jp
 *.adebis.s-toushi.jp
-*.a8cv.sabusuta.jp
 *.a8cv.safetycart.jp
+*.a8cv.safie.jp
 *.a8.sakuramobile.jp
-*.a8.sakuratravel.jp
+*.a8clk.sakuya-life.jp
 *.a8cv.sanix.jp
 *.bhcsub.sankeishop.jp
 *.a8cv.sankyo-fs.jp
 *.1909a8.satofull.jp
 *.ukgfxw.satofull.jp
 *.adebis.sbpayment.jp
+*.a8cv.scom-f.jp
 *.stat-ssl.screeningmaster.jp
 *.a8cv.se-navi.jp
 *.a8cv.second-hand.jp
 *.a8.seifu-ac.jp
 *.a8cv.seikatsu-kojo.jp
-*.a8.sennendo.jp
 *.pdzutf.sftworks.jp
 *.eywvko.shaddy.jp
 *.cv-match.sharebase.jp
-*.a8clk.shop.shareme.jp
 *.a8cv.sharing-tech.jp
 *.smetrics.sheen.jp
 *.a8cv.shibarinashi-wifi.jp
@@ -50624,14 +50644,12 @@
 *.acclog002.shop-pro.jp
 *.a8.shopserve.jp
 *.adebis.shopserve.jp
-*.a8cvtrack.sincere-garden.jp
 *.sinceregarden.sincere-garden.jp
 *.a8cv.sirusi.jp
 *.analytics.sixt.jp
-*.a8clk.skima.jp
 *.a8.skr-labo.jp
 *.a8clk.skynet-c.jp
-*.a8clk.sma-ene.jp
+*.cv.smakon.jp
 *.ebis.smakon.jp
 *.rtpmqv.smakon.jp
 *.tracker.smartseminar.jp
@@ -50642,7 +50660,6 @@
 *.yjrcks.smile-zemi.jp
 *.a8cv.smoola.jp
 *.smetrics.smtb.jp
-*.a8.snapmaker.jp
 *.bvr.ast.snva.jp
 *.bvr.snva.jp
 *.ddqwdh.sofastyle.jp
@@ -50660,14 +50677,16 @@
 *.metrics.sony.jp
 *.smetrics.sony.jp
 *.dztatn.soulberry.jp
-*.a8clk.hozon.sp-site.jp
 *.track.span-smt.jp
+*.a8track.spartabuddy.jp
 *.a8clk.campaigns.speed-kaitori.jp
 *.a8.speever.jp
 *.tracking.ssab.jp
+*.a8cv.sslcoupon.jp
 *.cname-aa.staffservice-engineering.jp
 *.cname-aa.staffservice-medical.jp
 *.stape.jp
+*.a8cv.star-color.jp
 *.cv1.start-eo.jp
 *.a8clk.starwifi.jp
 *.a8trk.www.std-lab.jp
@@ -50688,6 +50707,7 @@
 *.a8clk.pages.supporterz.jp
 *.a8clk.supreme-noi.jp
 *.clk.entry.surala.jp
+*.a8cv.surffit.jp
 *.surfpoint.jp
 *.a8cv.suzette-shop.jp
 *.abuaac.suzette-shop.jp
@@ -50696,56 +50716,56 @@
 *.analytics.tabichan.jp
 *.sanalytics.tabichan.jp
 *.aa-metrics.tabroom.jp
-*.a8cv.taclinic.jp
-*.affiliate.taihoshop.jp
-*.a8.tailorenglish.jp
+*.a8cv.taiko-direct.jp
 *.a8clk.taisho-beauty.jp
 *.a8cv.taisyokudaiko.jp
+*.embot.takaratomymall.jp
 *.a8clk.tamiyashop.jp
 *.a8clk.tanp.jp
 *.a8.tapp-co.jp
+*.a8cv.seminar.tapp-co.jp
 *.stat-ssl.tasclap.jp
 *.a8.taylormadegolf.jp
 *.a8clk.teacon.jp
 *.team-rec.jp
 *.stat-ssl.teamroom.jp
 *.a8.tecgate.jp
+*.junior-a8cv.techacademy.jp
 *.a8.techis.jp
 *.a8cv.techkidsschool.jp
 *.click.techtree.jp
 *.a8.tecpartners.jp
-*.a8cv.tenishokunext.jp
 *.xscmzs.tenki.jp
-*.a8cv.tenkuryo.jp
+*.a8.tential.jp
 *.teradata.jp
 *.adebis.thd-web.jp
 *.a8.the-session.jp
 *.ad.theatreacademy.jp
 *.adebis.theclinic.jp
 *.a8.themoonmilk.jp
-*.a8.thermostand.jp
 *.osvdtm.theshopyohjiyamamoto.jp
 *.rcudsw.ths-net.jp
+*.cv.ticketpay.jp
 *.ugdcxl.timeout.jp
 *.a8clk.titivate.jp
 *.sem.tkc-biyou.jp
 *.seo.tkc110.jp
 *.a8cv.tmix.jp
+*.a8clk.tocoo.jp
 *.ebis.tokado.jp
 *.a8cvtrack.tokai.jp
 *.a8cv.tokei-syuri.jp
 *.a8cv.reserve.victoria.tokyo.jp
-*.cv.tokyowork.jp
 *.electricity2.tokyu-ps.jp
 *.a8cv.tomorrow-bright.jp
 *.a8.toraiz.jp
 *.a8clk.toretoku.jp
 *.qmiiln.tower.jp
 *.tracking.go.toyobo-mc.jp
+*.a8.toyoumo.jp
 *.ad-ebis.toysub.jp
 *.ebis.treasurenet.jp
 *.aa-metrics.trip-ai.jp
-*.affiliate.tripact.jp
 *.a8.triple-m.jp
 *.metric.tsite.jp
 *.smetric.tsite.jp
@@ -50753,7 +50773,6 @@
 *.rrbaib.tsutsumishop.jp
 *.analytics.tver.jp
 *.smetrics.twany-hadabae.jp
-*.cp.cp.twendee.jp
 *.woutkw.type.jp
 *.fgmaal.u-canshop.jp
 *.a8clk.uchinotoypoo.jp
@@ -50768,11 +50787,10 @@
 *.a8cventry.uqwimax.jp
 *.adebis.urban-research.jp
 *.eonmxd.urban-research.jp
-*.a8cv.urocca.jp
-*.a8cv.celbest.urr.jp
 *.ebiscname.urr.jp
 *.a8cv.usedfun.jp
 *.cookie.sync.usonar.jp
+*.a8click.uzuz.jp
 *.a8.uzuz-college.jp
 *.bnsmoi.valx.jp
 *.a8cv2.vapelog.jp
@@ -50788,7 +50806,6 @@
 *.cv.virtualoffice-resonance.jp
 *.smetrics.virusbuster.jp
 *.ssc.vmaj.jp
-*.a8.volstar.jp
 *.fpida.w-wing.jp
 *.adobe.wacoal.jp
 *.s-adobe.wacoal.jp
@@ -50797,11 +50814,11 @@
 *.flznib.weblio.jp
 *.webtracker.jp
 *.a8clk.weleda.jp
-*.a8cv.whynot.jp
+*.a8clk.wellness-job.jp
 *.cv.willbefit.jp
 *.a8.willcloud.jp
-*.a8cv.willfu.jp
 *.a8.williesenglish.jp
+*.a8.wimax-broad.jp
 *.dwuzxuvwlq.winticket.jp
 *.a8cv.store.wiredbeans.jp
 *.irurng.wondershare.jp
@@ -50809,12 +50826,14 @@
 *.a8cv.wordman.jp
 *.a8cv.workman.jp
 *.a8cv.worx.jp
+*.a8.techsales-class.worx.jp
 *.aa.wowma.jp
 *.adebis-52667624.wowma.jp
 *.fnlvhy.wowma.jp
 *.saa.wowma.jp
+*.a8clk.xbit.jp
 *.xgai.jp
-*.a8aspconv.xn--ocn-ws1e.jp
+*.ad.xn--o9jem5iv41o982db8k.jp
 *.a8.xn--y8jd4aybzqd.jp
 *.iffalh.y-aoyama.jp
 *.tracking.y-nmc.jp
@@ -50824,6 +50843,7 @@
 *.smetrics.yo-ko-o.jp
 *.fxmdjr.yogajournal.jp
 *.hbahrd.yogibo.jp
+*.a8cv.yogino.jp
 *.lowgxl.yokumoku.jp
 *.a8clk.yourmystar.jp
 *.jxoaza.yourmystar.jp
@@ -51097,6 +51117,8 @@
 *.myangular.life
 *.cv.nell.life
 *.collector.taoxh.life
+*.a8.tomo.life
+*.a8cv.zita.life
 *.ailla.abphotos.link
 *.anet.abphotos.link
 *.ascmart.abphotos.link
@@ -51496,7 +51518,6 @@
 *.g.getsimpler.me
 *.gocertify.me
 *.play.goldplay.me
-*.a8cv.goqoo.me
 *.links.email.greenlight.me
 *.data.communication.guard.me
 *.join.haha.me
@@ -51579,10 +51600,11 @@
 *.send.merit.me
 *.mixpanel.me
 *.mrgr.me
-*.a8.narikiri.me
 *.newrelic.me
+*.a8.one-drop.me
 *.panelapp.me
 *.join.parentlove.me
+*.a8clk.photo-gift.me
 *.photorank.me
 *.plated.me
 *.calvera-telemetry.polaris.me
@@ -51917,7 +51939,6 @@
 *.aggle.net
 *.tk.agrizone.net
 *.ase.aidcgroup.net
-*.a8cv.premium.aidemy.net
 *.brc.aigrammar.net
 *.brc2.aigrammar.net
 *.link.aioremote.net
@@ -51983,7 +52004,6 @@
 *.share.appsaround.net
 *.apserver.net
 *.apxadtracking.net
-*.a8cv.araiba.net
 *.aralego.net
 *.bi-metrics.aramuz.net
 *.arclet.net
@@ -52116,6 +52136,7 @@
 *.40caidaylimpia.catzolab.net
 *.app.insider.cavs.net
 *.ccgateway.net
+*.fpkph.cdnpk.net
 *.cedexis-radar.net
 *.a8cv.celav.net
 *.a8cv.cellbic.net
@@ -52354,6 +52375,7 @@
 *.ddlnk.net
 *.insights.v3.decathlon.net
 *.decibelinsight.net
+*.a8cv.dekitus.net
 *.delidatax.net
 *.events-tracker.deliveroo.net
 *.delivery.net
@@ -52373,7 +52395,6 @@
 *.foxtel-prod-events.digitalsmiths.net
 *.digitrk.net
 *.digits.net
-*.a8.direia-to.net
 *.ydccky.direnc.net
 *.discjockeys.net
 *.www.discovertrail.net
@@ -52392,7 +52413,6 @@
 *.sp.dpgmedia.net
 *.dragontamer.net
 *.a8cv.dreamchance.net
-*.cv.drive-hikari.net
 *.dt-cdn.net
 *.dtlk8ctrk.net
 *.app.dtlphx.net
@@ -52677,6 +52697,7 @@
 *.smetrics.faz.net
 *.ttmetrics.faz.net
 *.utiq.faz.net
+*.a8cv.fc-hikaku.net
 *.adtarget.fcbarcelona.net
 *.pls.fcrpg.net
 *.feedmeter.net
@@ -52699,7 +52720,6 @@
 *.fndrsp.net
 *.fndrsp-checkout.net
 *.fnxstats.net
-*.a8cv.focusneo.net
 *.facemap.foldlife.net
 *.metric.foodbusinessnews.net
 *.a8trck.ws.formzu.net
@@ -52715,7 +52735,6 @@
 *.corporate.frontierconsul.net
 *.fstrk.net
 *.fuelfever.net
-*.a8cv.fukuoka-factoring.net
 *.fullres.net
 *.fullrestore.net
 *.stat.funshion.net
@@ -52723,6 +52742,7 @@
 *.wqfflc.fupa.net
 *.fusedeck.net
 *.a8cv.futurefinder.net
+*.a8clk.nozomi-wifi.g-sb.net
 *.gadgetboy.net
 *.mormont.gamer-network.net
 *.gamerone.net
@@ -52795,6 +52815,7 @@
 *.p.hentaiforce.net
 *.heyhelga.net
 *.hiconversion.net
+*.a8cv.highclassmoney.net
 *.access.hikaritv.net
 *.saccess.hikaritv.net
 *.a8.hikarix.net
@@ -52815,6 +52836,7 @@
 *.hscollectedforms.net
 *.hsleadflows.net
 *.hubcapcafe.net
+*.a8cv.hugkumiplus.net
 *.humbleroots.net
 *.1rer.hummel.net
 *.hyperfrost.net
@@ -52868,7 +52890,6 @@
 *.internetpulse.net
 *.invoca.net
 *.iocnt.net
-*.a8cv.ioo-sofa.net
 *.ip-adresim.net
 *.ip-label.net
 *.www.ip-route.net
@@ -52914,7 +52935,6 @@
 *.keynote.net
 *.a8cv.kidsmoneyschool.net
 *.affiliate.kinguin.net
-*.a8.kissmusic.net
 *.kitcode.net
 *.kitvc.net
 *.klarinsights.net
@@ -52976,7 +52996,6 @@
 *.marketo.net
 *.p.marktplaats.net
 *.marugroup.net
-*.a8cv.marumochiya.net
 *.analytics.maskyoo.net
 *.match2one.net
 *.mateti.net
@@ -52987,6 +53006,7 @@
 *.maxymiser.net
 *.smetrics.mbsdirect.net
 *.acv.mc-doctor.net
+*.acv.mc-kaigo.net
 *.acv.mc-nurse.net
 *.acv.mc-pharma.net
 *.kiwi.mdldb.net
@@ -53000,6 +53020,7 @@
 *.zmfdxt.megastudy.net
 *.analytics.meituan.net
 *.meltwater.net
+*.a8clk.mens-svenson.net
 *.mensnet.net
 *.smetrics.mercy.net
 *.metrics.net
@@ -53027,7 +53048,6 @@
 *.mo-data.net
 *.mobilityinsight.net
 *.mobiresults.net
-*.cv.moena-eatstyle.net
 *.stat.moevideo.net
 *.monetate.net
 *.monitus.net
@@ -53112,7 +53132,6 @@
 *.of-love.net
 *.offernet.net
 *.offerstrack.net
-*.a8cv.omakase-cyber-mimamori.net
 *.omniture.net
 *.omtrdc.net
 *.onclusive.net
@@ -53166,7 +53185,6 @@
 *.tracker.personizely.net
 *.metrics.petchow.net
 *.marketing.pfg1.net
-*.a8net.pg-learning.net
 *.app.pickwin.net
 *.acv.pikarahikari.net
 *.ao.pioncomm.net
@@ -53209,7 +53227,6 @@
 *.r7ls.net
 *.fahmta.racefans.net
 *.rdc.rachatdecredit.net
-*.cv.rakuten-hikari.net
 *.ravelin.net
 *.news.rbj.net
 *.www.rdalpha.net
@@ -53269,6 +53286,7 @@
 *.roicalculator.net
 *.cv.www.rokuzan.net
 *.views.romaniatv.net
+*.a8clk.rose-cleaning.net
 *.rovering.net
 *.royalrabbit.net
 *.monitor.ns1-s.rspcdn.net
@@ -53292,6 +53310,7 @@
 *.test.samsungrm.net
 *.www.samsungrm.net
 *.www.san-spr-01.net
+*.a8cv.santasan.net
 *.a8cv.saraschool.net
 *.khcdhu.saraschool.net
 *.stats.savoirplus-risquermoins.net
@@ -53374,7 +53393,7 @@
 *.sonicsessions.net
 *.metrics.helpguide.sony.net
 *.soundmachine.net
-*.a8.sp-hoken.net
+*.a8cv.souzoku-no-madoguchi.net
 *.sp1-brevo.net
 *.experiments.sparanoid.net
 *.sc-nossl.speakeasy.net
@@ -53390,6 +53409,7 @@
 *.squadtee.net
 *.plausible.srijn.net
 *.ss-omtrdc.net
+*.a8cv.ssl24.net
 *.stableapp.net
 *.stadiumzoo.net
 *.staffr.net
@@ -53431,11 +53451,11 @@
 *.symend.net
 *.tracking.synthasite.net
 *.sypexgeo.net
+*.a8clk.t-tree.net
 *.car-a8.tabirai.net
 *.goat.tailspace.net
 *.talkingdata.net
 *.talkingnews.net
-*.a8clkcv.tcb-beauty.net
 *.ebis-tracking.tcb-beauty.net
 *.lfercl.tcb-beauty.net
 *.fathom.tdvm.net
@@ -53468,6 +53488,7 @@
 *.metrics.timeinc.net
 *.smetrics.timeinc.net
 *.timepayment.net
+*.a8cv.tintle.net
 *.tizerbox.net
 *.tns-cs.net
 *.smetrics.tochinavi.net
@@ -53590,7 +53611,6 @@
 *.webtrekk-us.net
 *.vxlpha.weddingpark.net
 *.analytics-prd.aws.wehaa.net
-*.a8cv.wellcrew.net
 *.crashsight.wetest.net
 *.tracking.wettfreunde.net
 *.whatcounts.net
@@ -53652,7 +53672,6 @@
 *.yandexadexchange.net
 *.flexpod.ynsecureserver.net
 *.marketing.ynsecureserver.net
-*.a8cv.yohodo.net
 *.analytics.yola.net
 *.analytics.yolacdn.net
 *.a8cv.you-shoku.net
@@ -53667,7 +53686,6 @@
 *.zaiper.net
 *.zdbb.net
 *.zenanalytics.net
-*.cv.zephylrin-x.net
 *.smetrics.hoken.zexy.net
 *.ssl-omtrdc.zexy.net
 *.smetrics.zexy-en-soudan.net
@@ -54521,7 +54539,7 @@
 *.pl.weinshops.online
 *.leak.welnes.online
 *.wetvanet.online
-*.a8cv.winkle.online
+*.a8cv.world-goods.online
 *.undurs.1md.org
 *.marketing.a1cu.org
 *.smetrics.aaas.org
@@ -55988,7 +56006,6 @@
 *.adsuite.pro
 *.info.appliedtech.pro
 *.asymmetric.pro
-*.a8cv.bag-repair.pro
 *.bixaresearch.pro
 *.share.blindside.pro
 *.tr.buenasofertas.pro
@@ -57084,14 +57101,15 @@
 *.scarf.sh
 *.goatcounter.ssp.sh
 *.get.weme.sh
+*.a8cv.17kg.shop
 *.alwakr.shop
 *.anaaqah.shop
-*.a8cv.ans-ec.shop
 *.a8cv.bonaventura.shop
 *.plausible.bostad.shop
 *.a8.buddyup.shop
 *.a8cv.cinemage.shop
 *.a8.classicalelf.shop
+*.a8cv.coloris.shop
 *.emc.dr-stick.shop
 *.exeterfinancialservices.shop
 *.a8cv.exrg-premium.shop
@@ -57099,6 +57117,7 @@
 *.spenvp.gate.shop
 *.greatrate.shop
 *.growth.shop
+*.a8cv.hariti.shop
 *.hfqk.shop
 *.a8cv.itscoco.shop
 *.joodoor.shop
@@ -57108,7 +57127,6 @@
 *.a8cv.orochoku.shop
 *.bdncut.pa-man.shop
 *.a8.pcnext.shop
-*.afep.pivn.shop
 *.a8cv.radi-cool.shop
 *.rahtc.shop
 *.srbr.shop
@@ -57161,7 +57179,6 @@
 *.fortnitechat.site
 *.ggad.site
 *.glowp.site
-*.a8.goodappeal.site
 *.hiphi.site
 *.hmtracking.site
 *.imgjs.site
@@ -57359,7 +57376,6 @@
 *.analytics.airback.store
 *.beautyqatar.store
 *.stats.digiexpert.store
-*.a8cv.euria.store
 *.staging-link.kol.store
 *.play.maxgame.store
 *.mwwbazzag.store
@@ -57440,7 +57456,9 @@
 *.paerlib.tech
 *.channelwatcher.panda.tech
 *.events.paramount.tech
+*.a8.personalfile.tech
 *.pointr.tech
+*.a8clk.pollet.tech
 *.marketing.precisiondoor.tech
 *.bi.pst.tech
 *.analytics.qdrant.tech
@@ -57461,6 +57479,7 @@
 *.info.verifund.tech
 *.qa-events-schema.viacom.tech
 *.volvelle.tech
+*.a8cv.withcode.tech
 *.go.dxc.technology
 *.omni.dxc.technology
 *.somni.dxc.technology
@@ -57548,7 +57567,9 @@
 *.a8cv.b-concept.tokyo
 *.a8cv.pf.classicmusic.tokyo
 *.a8cv.str.classicmusic.tokyo
+*.a8clk.www.eco-life.tokyo
 *.a8clk.ziaco.eco-life.tokyo
+*.a8enquete.eventos.tokyo
 *.adebis.gfs.tokyo
 *.a8.hitohana.tokyo
 *.lekfso.hitohana.tokyo
@@ -57556,7 +57577,6 @@
 *.a8cv.mitaina.tokyo
 *.ac-3.mix.tokyo
 *.npfopn.mix.tokyo
-*.a8.nanafu.tokyo
 *.a8cv.xn--1lqs71d2law9k8zbv08f.tokyo
 *.geoip.tools
 *.ipaddr.tools
@@ -57904,7 +57924,6 @@
 *.hol.dir.tvsmiles.tv
 *.analytics.m7g.twitch.tv
 *.vaultdcr.tv
-*.a8clk.videocash.tv
 *.videohub.tv
 *.ads-trk.vidible.tv
 *.ssc.votvot.tv
@@ -59022,7 +59041,6 @@
 *.analytics.yomedia.vn
 *.za.zdn.vn
 *.stats.hexa.watch
-*.a8cv.www.monologue.watch
 *.moornetworks.watch
 *.pixel.watch
 *.an-identity.website
@@ -59050,16 +59068,15 @@
 *.frdoki.heisei-housewarming.work
 *.branch.hyr.work
 *.ipcheck.work
-*.a8-kouten.kouten.work
 *.frdoki.liquidfoundation.work
 *.frdoki.mineralfoundation.work
 *.test2.uat.mundi.work
 *.frdoki.nailcolor.work
 *.stats.print.work
+*.a8cv.pururu.work
 *.frdoki.selftanning.work
 *.nixie.starlightnet.work
 *.frdoki.studioglass.work
-*.sub.turningpoint.work
 *.utiq-test.utest1.work
 *.utiq.utest1-prod.work
 *.utiq.utest2.work

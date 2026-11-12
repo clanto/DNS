@@ -190,7 +190,6 @@ adguard.kitakitsune.xyz
 adguard.landropunk.xyz
 adguard.lege.despagne.net
 adguard.llf520.dpdns.org
-adguard.londonwebnerd.cloud
 adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
@@ -834,6 +833,7 @@ dns.consoro.eu
 dns.controld.com
 dns.corefusion.xyz
 dns.crystalyx.net
+dns.csa-rz.de
 dns.csaonline.de
 dns.csswg.org
 dns.cybertonic.tech
@@ -1241,7 +1241,6 @@ dns.paxavemedia.com
 dns.pccoach.nl
 dns.peb-schmidt.de
 dns.periactes.com
-dns.pernika.net
 dns.pesaventofilippo.com
 dns.petqa.ru
 dns.phillipjberry.net
@@ -1415,7 +1414,6 @@ dns.velyn.my.id
 dns.venclous.org
 dns.vietdns.vn
 dns.vinnyp.xyz
-dns.vip-kingstore.xyz
 dns.virelonix.com
 dns.virtual-qr.ir
 dns.vk09.ru
@@ -1428,7 +1426,6 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
-dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wantfreedom.eu.org
@@ -1754,7 +1751,6 @@ doh.xorlet.ru
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
-doh1.b-cdn.net
 doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
@@ -1992,7 +1988,6 @@ hkg01.dnscry.pt
 hkg02.dnscry.pt
 hkg03.dnscry.pt
 hkg2.edge.access.zznet.fun
-hkname.freecdn.one
 hknat.ooguy.com
 hkns.gzelvis.com
 hkt.kozow.com
@@ -2222,7 +2217,6 @@ los02.dnscry.pt
 lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
-lukscasino-479-tr.xyz
 lunar-dns.de
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
@@ -2236,7 +2230,6 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
-mask-canary.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2252,7 +2245,6 @@ mediavault.ee
 meganerd.nl
 megumin.is.my.waifu.cz
 mel01.dnscry.pt
-mendozasdelivery.com
 metragi.synology.me
 mfimail.eu
 mia01.dnscry.pt
@@ -2453,7 +2445,6 @@ panel.abolisub.ir
 panel.joosh.ru
 par01.dnscry.pt
 paradise-human.shop
-pashagame456.com
 pates.services.sfr.fr.casepp.sfr.fr
 path1.28bafa6d.top
 patrique.duckdns.org

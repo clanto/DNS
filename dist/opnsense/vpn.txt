@@ -15,7 +15,6 @@
 1008868842.rsc.cdn77.org
 1016945378.rsc.cdn77.org
 1017683305.rsc.cdn77.org
-102-orp-diordna.b-cdn.net
 102.theartieschaffer.com
 1028989235.rsc.cdn77.org
 1034336200.rsc.cdn77.org
@@ -82,7 +81,6 @@
 1133309464.rsc.cdn77.org
 1138625791.rsc.cdn77.org
 1138962056.rsc.cdn77.org
-114-etilobrut-diordna.b-cdn.net
 114.ip-158-69-222.net
 1142797333.rsc.cdn77.org
 1153865737.rsc.cdn77.org
@@ -117,7 +115,6 @@
 1238643100.rsc.cdn77.org
 123adsas.store
 123anonymous.com
-123bay.org
 123goproxy.com
 123me.net
 123proxy.biz
@@ -610,6 +607,7 @@
 9nd0oy2n.com
 9sskdjs.shop
 9thballs.camdvr.org
+9w9.org
 9yuan.top
 a-regist.anondns.net
 a.cpfrx.info
@@ -985,12 +983,11 @@ blewpass.com
 blncapi.com
 blockaway.io
 blockziziidesu.f5.si
+blooket.broomleigh.org
 bloquer.fr
 bluegray.us
 blueproxy.org
 bmetrics.org
-bmext1static.b-cdn.net
-bmqan2static.b-cdn.net
 bn0dghrx.com
 bnj0d3r2.com
 bo0ji.co.uk
@@ -1029,7 +1026,6 @@ bro-ru.org
 broadearn.com
 bromineproxy.netlify.app
 browsebridge.com
-browsec-ru.b-cdn.net
 browsec-ru.bz
 browsec-ru.com
 browsec-ru.net
@@ -1053,7 +1049,6 @@ browservpn.online
 brunysixl.work
 brunysixl.work.cdn.cloudflare.net
 brwczgvk.com
-bs-static.b-cdn.net
 bs8h3v1f.com
 btc4animals.com
 btc4animals.com.cdn.cloudflare.net
@@ -1172,7 +1167,6 @@ cheapv2.net
 check.ragpets.com
 cheddar-chute.com
 chevpn.com
-chicken.nuggets.are.good.privateimport.jp
 chickenalert.camdvr.org
 chik-chirikvpn.com
 chinacitybit.click
@@ -1745,7 +1739,6 @@ freevpn.pw
 freevpnapp.org
 freevpnfast.info
 freevpnkeys.com
-freevpnme.b-cdn.net
 freevpnnet.com
 freevpnplanet-rus.com
 freevpnplanet-rus.net
@@ -2143,7 +2136,6 @@ hmnx.work
 hmx.info
 hockeybet.org
 hoeqphmi.com
-hola-client-cdn4.b-cdn.net
 hola-compat.com
 hola-vpn.com
 hola.org
@@ -2235,7 +2227,6 @@ ib-kuailian.com.cn
 ibqlbd1z.com
 ibribeillegals.vaultnoir.com
 ibvpn.com
-ice.io
 icitek.com
 iditinahuipidorasidagga.net
 idkkilo.accesscam.org
@@ -2733,7 +2724,6 @@ marko1oko.online
 marshbug.com
 marshslug.com
 mashti-khan.ebimarh.info
-maskedip.com
 masons-math.work.gd
 master-clock.us
 masterspn.com
@@ -2920,7 +2910,6 @@ mouse.pics
 moutx2.co
 mqrxgzi4.com
 mramato2.myclarevision.com
-mrr-qa-static.b-cdn.net
 mrr-qa2-static.b-cdn.net
 mrr-qa3-static.b-cdn.net
 msc.mcafee.com
@@ -3635,7 +3624,6 @@ redfinger.com
 redhoodie.site
 redshieldvpn.co
 redshieldvpn.com
-redshieldvpn.info
 redshieldvpn.io
 redshieldvpn.live
 redshieldvpn.online
@@ -3729,7 +3717,6 @@ safehousetech.com
 safemyip.pro
 safenetbrowser.com
 safeproxy.app
-saferiverpay.com
 safersurfing.net
 safeshellvpn.com
 safetysurf.net
@@ -3807,7 +3794,6 @@ securly.mom
 secvpnproxy.co.cc
 seed4.me
 seed4me-vpn.mom
-seed4me.app
 seed4me.help
 seelabour.com
 sefid.goooalir.co.uk
@@ -4023,7 +4009,6 @@ supergisfire.com
 supergisfire.com.cdn.cloudflare.net
 supergreenstuff.com
 supermath.site
-superproxy123.com
 supervpn-ru.com
 supervpn.cc
 supervpn.help
@@ -4122,7 +4107,6 @@ thevpnmethod.com
 thewalruss.net
 thewirevpn.com
 third-army.surge.sh
-thirdpartycache.b-cdn.net
 thiscopyofartclassisnotgenuine.rare1k.space
 thiscost1dollar.store
 thisismathteach.myclarevision.com
@@ -4263,7 +4247,6 @@ turmericrecipes.com
 tution.bury.abrdns.com
 tuvpn.com
 tvnews7.ru
-tvone.info
 tvvv.top
 twekblwn.com
 twhd.online
@@ -4322,7 +4305,6 @@ unblock.ws
 unblockanything.com
 unblockd.org
 unblocked-7s1uththth.vercel.app
-unblocked-games-at.geometry-games.online
 unblocked.biz
 unblocked.cloud
 unblocked.foo
@@ -4409,7 +4391,6 @@ uubb.website
 uvjifkod11.easterndns.com
 uzrzhcyx.com
 v-2ray.com
-v.cheerfun.dev
 v.theartieschaffer.com
 v22013121930515853.yourvserver.net
 v2202409222721288347.megasrv.de
@@ -4941,7 +4922,6 @@ xerivon.xyz
 xerocopy.karrozzin.cloud-ip.cc
 xerophagy.karrozzin.cloud-ip.cc
 xervolia.ru
-xf.kg
 xftld.org
 xg8tw7gfox.site
 xgndgeyn.com
@@ -5060,7 +5040,6 @@ yui.cat
 yuki-bbs64c.wan64.de
 yummy.bury.abrdns.com
 yuudai-shadow.easterndns.com
-yuyuproxy.com
 yuzu-4.vpn64.de
 yuzu-haifu.ipv64.net
 yuzu.easterndns.com
