@@ -27373,7 +27373,6 @@
 ||spiderproxy.com^
 ||spidersneak.com^
 ||spidyproxy.com^
-||spidyurl.com^
 ||assured.spiegs.com^
 ||spiffyproxy.com^
 ||spinkerweb.com^

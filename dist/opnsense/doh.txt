@@ -183,6 +183,7 @@ adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
 adguard.jodatacenter.com
+adguard.johanliebert.top
 adguard.k-likhachev.ru
 adguard.kantinyoyok.xyz
 adguard.kiboko.it
@@ -190,6 +191,7 @@ adguard.kitakitsune.xyz
 adguard.landropunk.xyz
 adguard.lege.despagne.net
 adguard.llf520.dpdns.org
+adguard.londonwebnerd.cloud
 adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
@@ -886,7 +888,6 @@ dns.dremaxx.de
 dns.dualhosting.eu
 dns.dugi.io.vn
 dns.dumk.in
-dns.dyn1.de
 dns.dynx.pro
 dns.dzkji.cn
 dns.easyhns.com
@@ -1332,7 +1333,6 @@ dns.sinhrofazotron.de
 dns.skous.dedyn.io
 dns.skrep.eu
 dns.skrep.in
-dns.sktr.com.tr
 dns.skuy.co.id
 dns.sledge.cc
 dns.slinkyman.net
@@ -1426,6 +1426,7 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
+dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wantfreedom.eu.org
@@ -1625,7 +1626,6 @@ doh.233py.com
 doh.2kil.com
 doh.30x.me
 doh.360.cn
-doh.361.best
 doh.42l.fr
 doh.aaaab3n.moe
 doh.abraservice.xyz
@@ -1751,6 +1751,7 @@ doh.xorlet.ru
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
+doh1.b-cdn.net
 doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
@@ -1840,6 +1841,7 @@ family-filter-dns.cleanbrowsing.org
 family.adguard-dns.com
 family.canadianshield.cira.ca
 family.cloudflare-dns.com
+family.dns.doubleangels.com
 family.dns.dremaxx.com
 family.dns.mullvad.net
 family.dns.ningkelle.id
@@ -1988,6 +1990,7 @@ hkg01.dnscry.pt
 hkg02.dnscry.pt
 hkg03.dnscry.pt
 hkg2.edge.access.zznet.fun
+hkname.freecdn.one
 hknat.ooguy.com
 hkns.gzelvis.com
 hkt.kozow.com
@@ -2142,7 +2145,6 @@ justhost.bedro.cloud
 juuri.hagezi.org
 k3n.pw
 ka4tmb.duckdns.org
-kaiser.int.eu.org
 kakawka05.duckdns.org
 kallemarc.de
 kalwat.duckdns.org
@@ -2209,6 +2211,7 @@ lion.yazilimatolye.com
 lis01.dnscry.pt
 lis02.dnscry.pt
 llk01.dnscry.pt
+lomoff.spb.ru
 lon01.dnscry.pt
 look.xshentx.org
 lorc17-dns.komeho.info
@@ -2217,6 +2220,8 @@ los02.dnscry.pt
 lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
+lukscasino-479-tr.xyz
+lukscasino-929-tr.xyz
 lunar-dns.de
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
@@ -2245,6 +2250,7 @@ mediavault.ee
 meganerd.nl
 megumin.is.my.waifu.cz
 mel01.dnscry.pt
+mendozasdelivery.com
 metragi.synology.me
 mfimail.eu
 mia01.dnscry.pt
@@ -2253,7 +2259,6 @@ micro.alloxr.info
 midgard.asguardian.de
 mijoregner.de
 mikatos.de
-mikezhang.xyz
 mikrobill.dns-cloud.net
 mil01.dnscry.pt
 mimir.magicaobscura.de
@@ -2742,7 +2747,6 @@ ssytnik.de
 standard.mask.ad
 steering.nextdns.io
 stella.clae.net
-sterlingharris.com
 sto01.dnscry.pt
 sto02.dnscry.pt
 stratus.bugz.fr
@@ -2794,7 +2798,6 @@ tia01.dnscry.pt
 tiar.app
 tienpham.id.vn
 tiger.dns.qwer.pw
-tigrons.ru
 time.70x4.ru
 timedns.net
 timmes.nl

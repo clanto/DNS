@@ -31690,6 +31690,7 @@
 *.t.pagesix.com
 *.smetrics.pahealthwellness.com
 *.axp.pahomepage.com
+*.paidjourneys.com
 *.paidtime.com
 *.a8cv.paidy.com
 *.ping.paidy.com
@@ -36922,6 +36923,7 @@
 *.busrol.st-eustachenissan.com
 *.st-umami.com
 *.st9j18ndl.com
+*.stableparty.com
 *.stack-sonar.com
 *.stackanalytix.com
 *.bot.stackbots.com

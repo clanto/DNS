@@ -21712,6 +21712,7 @@
 ||t.pagesix.com^
 ||smetrics.pahealthwellness.com^
 ||axp.pahomepage.com^
+||paidjourneys.com^
 ||a8cv.paidy.com^
 ||ping.paidy.com^
 ||huechl.paige.com^
@@ -25586,6 +25587,7 @@
 ||swa.st.com^
 ||wa.st.com^
 ||busrol.st-eustachenissan.com^
+||stableparty.com^
 ||stack-sonar.com^
 ||bot.stackbots.com^
 ||stats.stackingthebricks.com^
