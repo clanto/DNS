@@ -1878,6 +1878,7 @@ media.strapiapp.com
 mediatech.by
 mediatech.dev
 medusajs.app
+medusajs.site
 mein-iserv.de
 meinforum.net
 mel.cloudlets.com.au

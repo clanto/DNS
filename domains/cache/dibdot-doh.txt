@@ -58,7 +58,6 @@ adguard.kantinyoyok.xyz
 adguard.kasbot.net
 adguard.kiboko.it
 adguard.lege.despagne.net
-adguard.londonwebnerd.cloud
 adguard.maison.gifino.fr
 adguard.meddy94.de
 adguard.neon0404.space
@@ -944,6 +943,7 @@ hk-hkg.doh.sb
 hkg01.dnscry.pt
 hkg02.dnscry.pt
 hkg03.dnscry.pt
+hkname.freecdn.one
 hnsdoh.com
 hole.elbschloss.xyz
 home-server.store
@@ -1027,6 +1027,7 @@ llk01.dnscry.pt
 loadlow.me
 lon01.dnscry.pt
 los02.dnscry.pt
+lukscasino-479-tr.xyz
 lukscasino-542-tr.xyz
 luxembourg.privacy-dns.pw
 mabuktogel.business
@@ -1047,6 +1048,7 @@ megumin.is.my.waifu.cz
 mel01.dnscry.pt
 mia01.dnscry.pt
 mickedi.isgood.host
+mikezhang.xyz
 mil01.dnscry.pt
 moamao.shop
 moe01.dnscry.pt

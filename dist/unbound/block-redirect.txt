@@ -66932,6 +66932,7 @@
 *.m.smartsignals.io
 *.snapt.io
 *.sniply.io
+*.socxo.io
 *.spicc.io
 *.spid.io
 *.sprkt.io

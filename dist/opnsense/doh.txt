@@ -888,6 +888,7 @@ dns.dremaxx.de
 dns.dualhosting.eu
 dns.dugi.io.vn
 dns.dumk.in
+dns.dyn1.de
 dns.dynx.pro
 dns.dzkji.cn
 dns.easyhns.com
@@ -1415,7 +1416,6 @@ dns.velyn.my.id
 dns.venclous.org
 dns.vietdns.vn
 dns.vinnyp.xyz
-dns.vip-kingstore.xyz
 dns.virelonix.com
 dns.virtual-qr.ir
 dns.vk09.ru
@@ -1428,7 +1428,6 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
-dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wantfreedom.eu.org
@@ -1753,6 +1752,8 @@ doh.xorlet.ru
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
+doh1.b-cdn.net
+doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -2221,6 +2222,7 @@ lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
 lukscasino-479-tr.xyz
+lukscasino-929-tr.xyz
 lunar-dns.de
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
@@ -2234,7 +2236,6 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
-mask-canary.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2451,6 +2452,7 @@ panel.abolisub.ir
 panel.joosh.ru
 par01.dnscry.pt
 paradise-human.shop
+pashagame456.com
 pates.services.sfr.fr.casepp.sfr.fr
 path1.28bafa6d.top
 patrique.duckdns.org
@@ -2674,7 +2676,6 @@ security-filter-dns.cleanbrowsing.org
 security.cloudflare-dns.com
 sel02.dnscry.pt
 seoul.101818.xyz
-serv0.ingener002.ip-dynamic.org
 server01.karl.one
 server01.vboekel.nl
 service.broe.ru

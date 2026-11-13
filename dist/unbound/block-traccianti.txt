@@ -21302,6 +21302,7 @@
 *.vrcamdl.istaging.com
 *.vrcamdltest.istaging.com
 *.istat24.com
+*.isticle.com
 *.images.e.istockphoto.com
 *.firstpartycookie.istockphoto.com
 *.omni.istockphoto.com
@@ -22214,6 +22215,7 @@
 *.srepdata.knoxnews.com
 *.sxjfhh.knoxnews.com
 *.kntxy.com
+*.kny2r1ej.com
 *.knzs7fvtrk.com
 *.ko6b7nsc.com
 *.hi.koalendar.com
@@ -36665,6 +36667,7 @@
 *.sparklingshelf.com
 *.marketing.sparktx.com
 *.go.spartansolutions.com
+*.spasmgame.com
 *.spatialitics.com
 *.marketing.spcapitaliq.com
 *.play.spdfun777.com
@@ -38118,6 +38121,7 @@
 *.tempertrick.com
 *.improve.tempest.com
 *.templetoninsights.com
+*.tempowraps.com
 *.stats.temptcdn.com
 *.marketing.temptimecorp.com
 *.tempttalk.com
@@ -42124,6 +42128,7 @@
 *.ans.yesnetwork.com
 *.mapp.yesstyle.com
 *.smetrics.yesterdaysnews.com
+*.yetiminis.com
 *.realtimeanalytics.yext.com
 *.yext-pixel.com
 *.analytics.yext-static.com
