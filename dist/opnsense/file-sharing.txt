@@ -110,7 +110,6 @@ fileqube.com
 files-express.com
 files.catbox.moe
 files.mail.ru
-files.to
 files6.com
 filesanywhere.com
 filesavr.com
@@ -124,7 +123,6 @@ fileup.org
 fileupyours.com
 filezzz.com
 film-2-streaming.com
-flypicture.com
 fotazas.com
 fotonons.ru
 fotop.net
@@ -296,9 +294,9 @@ rapidrar.com
 rapidshare.se
 rapidsharing.com
 rapidupload.com
+rarhost.com
 redlist.be
 refrozen.com
-reliableimage.com
 revver.com
 rhost.cz
 rockfile.co
@@ -378,7 +376,6 @@ uploadbuzz.cc
 uploadchan.org
 uploaded.net
 uploadev.org
-uploadgalaxy.com
 uploadhouse.com
 uploading.com
 uploadjar.com

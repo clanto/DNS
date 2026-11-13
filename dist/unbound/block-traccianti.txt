@@ -10096,6 +10096,7 @@
 *.wa.baltimoreravens.com
 *.baltimoresunreports.com
 *.baludok.com
+*.bamawrestling.com
 *.a8.bambi-craft.com
 *.get.bambinoapp.com
 *.smetrics.bamboohr.com
@@ -13061,6 +13062,7 @@
 *.cog-tr0.com
 *.cog-tr1.com
 *.cog-tr2.com
+*.cog-tr3.com
 *.cog2hf2i.com
 *.marketing.cogentco.com
 *.network.cogentco.com
@@ -14289,6 +14291,7 @@
 *.ddrtrx25.com
 *.research.de.com
 *.de33watrk.com
+*.deadbro.com
 *.deadpangate.com
 *.deadpanmarble.com
 *.deafeningdock.com
@@ -33822,6 +33825,7 @@
 *.marketing.recarroll.com
 *.receiptcent.com
 *.itpebis03.recella3d.com
+*.recenc.com
 *.cruntn.receno.com
 *.recentworkcode.com
 *.receptivebranch.com
@@ -35119,6 +35123,7 @@
 *.scenicdrops.com
 *.marketing.scenicsedona.com
 *.scentedkindly.com
+*.scentsquare.com
 *.www.sch-alt-91.com
 *.www.sch-crt-91.com
 *.a8.schecon.com
@@ -36154,6 +36159,7 @@
 *.analytics.sleeknote.com
 *.links.sleep.com
 *.sleepcartoon.com
+*.sleepfrankly.com
 *.smetrics.sleepnumber.com
 *.links.sleepscore.com
 *.b.sli-spark.com
@@ -36681,6 +36687,7 @@
 *.specialsnake.com
 *.specialstatement.com
 *.specialtypin.com
+*.speciesjewelry.com
 *.marketing.speconthejob.com
 *.spectacularstamp.com
 *.spectate.com

@@ -23321,6 +23321,7 @@
 ||marketing.recarroll.com^
 ||receiptcent.com^
 ||itpebis03.recella3d.com^
+||recenc.com^
 ||cruntn.receno.com^
 ||receptivereaction.com^
 ||recessrain.com^
@@ -24256,6 +24257,7 @@
 ||scenicdrops.com^
 ||marketing.scenicsedona.com^
 ||scentedkindly.com^
+||scentsquare.com^
 ||www.sch-alt-91.com^
 ||www.sch-crt-91.com^
 ||a8.schecon.com^
@@ -25022,6 +25024,7 @@
 ||slaysweater.com^
 ||analytics.sleeknote.com^
 ||links.sleep.com^
+||sleepfrankly.com^
 ||smetrics.sleepnumber.com^
 ||links.sleepscore.com^
 ||b.sli-spark.com^
@@ -25414,6 +25417,7 @@
 ||link.ride.staging.specialized.com^
 ||specialscissors.com^
 ||specialtypin.com^
+||speciesjewelry.com^
 ||marketing.speconthejob.com^
 ||spectacularstamp.com^
 ||marketing.spectracom.com^

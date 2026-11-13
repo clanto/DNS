@@ -1242,6 +1242,7 @@ dns.paxavemedia.com
 dns.pccoach.nl
 dns.peb-schmidt.de
 dns.periactes.com
+dns.pernika.net
 dns.pesaventofilippo.com
 dns.petqa.ru
 dns.phillipjberry.net
@@ -1414,6 +1415,7 @@ dns.velyn.my.id
 dns.venclous.org
 dns.vietdns.vn
 dns.vinnyp.xyz
+dns.vip-kingstore.xyz
 dns.virelonix.com
 dns.virtual-qr.ir
 dns.vk09.ru
@@ -1751,8 +1753,6 @@ doh.xorlet.ru
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
-doh1.b-cdn.net
-doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -2221,7 +2221,6 @@ lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
 lukscasino-479-tr.xyz
-lukscasino-929-tr.xyz
 lunar-dns.de
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
@@ -2235,6 +2234,7 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
+mask-canary.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2259,6 +2259,7 @@ micro.alloxr.info
 midgard.asguardian.de
 mijoregner.de
 mikatos.de
+mikezhang.xyz
 mikrobill.dns-cloud.net
 mil01.dnscry.pt
 mimir.magicaobscura.de
