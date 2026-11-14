@@ -191,7 +191,6 @@ adguard.kitakitsune.xyz
 adguard.landropunk.xyz
 adguard.lege.despagne.net
 adguard.llf520.dpdns.org
-adguard.londonwebnerd.cloud
 adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
@@ -436,7 +435,6 @@ at.pzhg.me
 atelier.alica.idv.tw
 atl01.dnscry.pt
 atlantic.dyn1.de
-atris.cyou
 atsilva.link
 au-syd-w-f-1.nashkan.net
 au-syd-w-p-1.nashkan.net
@@ -572,7 +570,6 @@ cubedns.com
 curser.dev
 cvt01.dnscry.pt
 cyliu.idv.tw
-cynntex.fun
 d.adguard-dns.com
 d.apemlegit.my.id
 d.gametechnet.com
@@ -618,7 +615,6 @@ de01.dns4me.net
 de51.tcpdoor.net
 decloudus.com
 dedidl.com
-deep-henchman-excuse.cfd
 deflectordns.com
 dehb.ru
 deic-lgb.anycast.censurfridns.dk
@@ -838,7 +834,6 @@ dns.crystalyx.net
 dns.csa-rz.de
 dns.csaonline.de
 dns.csswg.org
-dns.cybertonic.tech
 dns.d365.in
 dns.d4d.moe
 dns.d94.xyz
@@ -888,7 +883,6 @@ dns.dremaxx.de
 dns.dualhosting.eu
 dns.dugi.io.vn
 dns.dumk.in
-dns.dyn1.de
 dns.dynx.pro
 dns.dzkji.cn
 dns.easyhns.com
@@ -1001,7 +995,6 @@ dns.hostingim.com
 dns.hostux.net
 dns.hotta.page
 dns.housedenolf.be
-dns.hshoe.cn
 dns.hub.com.de
 dns.huizegunsing.nl
 dns.hujiayucc.cn
@@ -1335,6 +1328,7 @@ dns.sinhrofazotron.de
 dns.skous.dedyn.io
 dns.skrep.eu
 dns.skrep.in
+dns.sktr.com.tr
 dns.skuy.co.id
 dns.sledge.cc
 dns.slinkyman.net
@@ -1752,8 +1746,6 @@ doh.xorlet.ru
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
-doh1.b-cdn.net
-doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -1842,7 +1834,6 @@ family-filter-dns.cleanbrowsing.org
 family.adguard-dns.com
 family.canadianshield.cira.ca
 family.cloudflare-dns.com
-family.dns.doubleangels.com
 family.dns.dremaxx.com
 family.dns.mullvad.net
 family.dns.ningkelle.id
@@ -1991,7 +1982,6 @@ hkg01.dnscry.pt
 hkg02.dnscry.pt
 hkg03.dnscry.pt
 hkg2.edge.access.zznet.fun
-hkname.freecdn.one
 hknat.ooguy.com
 hkns.gzelvis.com
 hkt.kozow.com
@@ -2221,7 +2211,6 @@ los02.dnscry.pt
 lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
-lukscasino-479-tr.xyz
 lukscasino-929-tr.xyz
 lunar-dns.de
 luxembourg.privacy-dns.pw
@@ -2236,6 +2225,7 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
+mask-canary.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2251,7 +2241,6 @@ mediavault.ee
 meganerd.nl
 megumin.is.my.waifu.cz
 mel01.dnscry.pt
-mendozasdelivery.com
 metragi.synology.me
 mfimail.eu
 mia01.dnscry.pt
@@ -2260,7 +2249,6 @@ micro.alloxr.info
 midgard.asguardian.de
 mijoregner.de
 mikatos.de
-mikezhang.xyz
 mikrobill.dns-cloud.net
 mil01.dnscry.pt
 mimir.magicaobscura.de
@@ -2329,7 +2317,6 @@ newlibrarian.myqnapcloud.com
 next.atomix.in
 next.miao.ninja
 nextcloud.d-alahmad.de
-nfnvr.noiselink.com
 nick.bladeforge.com
 nickcan.xyz
 nicknarayong.ddns.net
@@ -3025,7 +3012,6 @@ xbcpb668.com
 xbox-dns.ru
 xenergy.cc
 xfer.au
-xholgm.top
 xiaoxie.pro
 xiaoxinhui.cn
 xie.ke

@@ -5103,6 +5103,7 @@ adnl.bk.mufg.jp
 adnotebook.com
 adnxtr.com
 adnymics.com
+adnz.co
 adobe-analytics-dc.belastingdienst.nl
 adobe-analytics.vionicshoes.com
 adobe-dev-landingpageprefix.descubre.interbank.pe
@@ -6093,6 +6094,7 @@ analytics.algolia.com
 analytics.allocate-cloud.com
 analytics.allovoisins.com
 analytics.alrajhibank.com.sa
+analytics.alvarezrosa.com
 analytics.amakings.com
 analytics.americanfunds.com
 analytics.americas.datasite.com
@@ -6145,6 +6147,7 @@ analytics.box.com
 analytics.boxlunch.com
 analytics.brave.com
 analytics.brickaward.com
+analytics.bucks.helixo.co
 analytics.byecorps.com
 analytics.canaltnt.es
 analytics.candlewoodsuites.com
@@ -10826,6 +10829,7 @@ cdanjoyner4374.myre.io
 cdapi.collegedunia.com
 cdeatz.spartoo.it
 cdfhpj.automobile.it
+cdid.trip.com
 cdjbf8trk.com
 cdjhcf.hometogo.es
 cdl.lvsafe.io
@@ -10856,6 +10860,7 @@ cdn.seonintelligence.com
 cdn.smartclip.net
 cdn.sy-d.io
 cdn.usefathom.com
+cdn.visits.dqapis.com
 cdn1.skrill.com
 cdn7.baunetz.de
 cdnflow.co
@@ -15835,6 +15840,7 @@ edge.truist.com
 edge.truistmomentum.com
 edge.truistsecurities.com
 edge.venatusmedia.com
+edge.wingify.net
 edge.wnetwork.com
 edgeanalytics.ca
 edgecdn.dev
@@ -18242,6 +18248,7 @@ fp.uncensored.com
 fp.yahoo.com
 fpa-cdn.adweek.com
 fpa-cdn.arstechnica.com
+fpa-events.theintercept.com
 fpadga.mcruises.ru
 fpapi.io
 fpaudience.com
@@ -36435,6 +36442,7 @@ nextsmarty.com
 nextstat.com
 nexttopchef.com
 nexttrend.com
+nexus.firecrown.com
 nexxtstepup.com
 nexxtv-events.servicebus.windows.net
 nf.nextlgsdp.com
@@ -37751,6 +37759,7 @@ ot.obi.pl
 ot.obi.si
 ot.obi.sk
 otel-collector.lenta.tech
+otel-gw.booking.com
 otel-mobile.doordash.com
 oteplia.com
 othanasis.openapp.link
@@ -40957,6 +40966,7 @@ riskalyze.com
 riskanalytics.com
 riskfactionsemail.com
 riskfirst.com
+riskpoc.trip.com
 riskpulse.com
 ritorno.ru
 rittmananalytics.com
@@ -41057,6 +41067,7 @@ rocketadserver.com
 rocketanalytics.com
 rocketinsights.de
 rocketmonitor.com
+rocketserver.net
 rocketsource.co
 rocketsource.com
 rockportmail.com
@@ -41349,6 +41360,7 @@ rxhsry.sortiraparis.com
 rxqqaq.hollandandbarrett.com
 rxtolo.domiporta.pl
 ry0.rythmefm.com
+rybbit-analytics.livecounts.io
 rybbit.com
 rybbit.io
 rybbit.sg-app.com
@@ -43758,6 +43770,7 @@ singleplatform.actonservice.com
 singletrack.com
 singroot.com
 singular.net
+sink.gw.booking.com
 sinkbooks.com
 sinkou.tireshop.com.br
 sinkportal.com
@@ -51180,6 +51193,7 @@ tag.aumago.com
 tag.boulanger.fr
 tag.brandcdn.com
 tag.cribnotes.jp
+tag.decentriq.com
 tag.digops.sincro.io
 tag.eisa.mercari.com
 tag.elevaate.io
@@ -51594,6 +51608,7 @@ tatpek.com
 tawdryson.com
 taxcutemail.com
 taxisubsea.com
+taxiwear.com
 taylorshellfish.actonservice.com
 tazeros.com
 taznfx.renters.pl

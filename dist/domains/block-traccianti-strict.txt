@@ -4596,6 +4596,7 @@ admissions.trios.com
 admit.mountsaintvincent.edu
 adnext.co
 adnl.bk.mufg.jp
+adnz.co
 adobe-analytics-dc.belastingdienst.nl
 adobe-analytics.vionicshoes.com
 adobe-dev-landingpageprefix.descubre.interbank.pe
@@ -5184,6 +5185,7 @@ analytics.airtron.com
 analytics.algolia.com
 analytics.allovoisins.com
 analytics.alrajhibank.com.sa
+analytics.alvarezrosa.com
 analytics.amakings.com
 analytics.americanfunds.com
 analytics.amig.com
@@ -5226,6 +5228,7 @@ analytics.box.com
 analytics.boxlunch.com
 analytics.brave.com
 analytics.brickaward.com
+analytics.bucks.helixo.co
 analytics.byecorps.com
 analytics.canaltnt.es
 analytics.capitalgroup.com
@@ -8574,6 +8577,7 @@ cdanjoyner4374.myre.io
 cdapi.collegedunia.com
 cdeatz.spartoo.it
 cdfhpj.automobile.it
+cdid.trip.com
 cdjbf8trk.com
 cdjhcf.hometogo.es
 cdl.lvsafe.io
@@ -8596,6 +8600,7 @@ cdn.ravm.tv
 cdn.seonintelligence.com
 cdn.sy-d.io
 cdn.usefathom.com
+cdn.visits.dqapis.com
 cdn1.skrill.com
 cdn7.baunetz.de
 cdnhst.xyz
@@ -12222,6 +12227,7 @@ edge.truist.com
 edge.truistmomentum.com
 edge.truistsecurities.com
 edge.venatusmedia.com
+edge.wingify.net
 edge.wnetwork.com
 edgedc.falabella.com
 ediemidnightzombies.com
@@ -13991,6 +13997,7 @@ fp.mandatumtrader.fi
 fp.uncensored.com
 fpa-cdn.adweek.com
 fpa-cdn.arstechnica.com
+fpa-events.theintercept.com
 fpadga.mcruises.ru
 fpapi.io
 fpaudience.com
@@ -24536,6 +24543,7 @@ newtest.wunderman-email.cjm.adobe.com
 nex.163.com
 nextsmarty.com
 nexttopchef.com
+nexus.firecrown.com
 nexxtv-events.servicebus.windows.net
 nffxqi.jorgebischoff.com.br
 nflxjp.residences-immobilier.com
@@ -25449,6 +25457,7 @@ ot.obi.pl
 ot.obi.si
 ot.obi.sk
 otel-collector.lenta.tech
+otel-gw.booking.com
 otel-mobile.doordash.com
 othanasis.openapp.link
 othisf.tagomago.pl
@@ -27547,6 +27556,7 @@ ringplant.com
 ringsrecord.com
 riovdv.mustit.co.kr
 riscitsolutions.actonservice.com
+riskpoc.trip.com
 ritzyrepresentative.com
 ritzyveil.com
 riundo.bonprix.no
@@ -27587,6 +27597,7 @@ rochelle.wantsext.me
 rockagainst.com
 rockcarving.com
 rocketmonitor.com
+rocketserver.net
 rockspreading.com
 rockstarwriter.com
 roedwy.imidapeptide.com
@@ -27757,6 +27768,7 @@ rxhsry.sortiraparis.com
 rxqqaq.hollandandbarrett.com
 rxtolo.domiporta.pl
 ry0.rythmefm.com
+rybbit-analytics.livecounts.io
 rybbit.sg-app.com
 ryjknw.sonnenbrillen.com
 rymhet.posudamart.ru
@@ -29718,6 +29730,7 @@ sinfo.dtcidev.co
 singingunicorn.com
 singleplatform.actonservice.com
 singroot.com
+sink.gw.booking.com
 sinkou.tireshop.com.br
 sinkportal.com
 sinmo.chasecenter.com
@@ -36321,6 +36334,7 @@ tag.aumago.com
 tag.boulanger.fr
 tag.brandcdn.com
 tag.cribnotes.jp
+tag.decentriq.com
 tag.digops.sincro.io
 tag.eisa.mercari.com
 tag.elevaate.io
@@ -36658,6 +36672,7 @@ tatehj.nylaarp.com
 tatpek.com
 tawdryson.com
 taxisubsea.com
+taxiwear.com
 taylorshellfish.actonservice.com
 taznfx.renters.pl
 tba.smrtp.link

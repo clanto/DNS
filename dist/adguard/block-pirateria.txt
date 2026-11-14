@@ -8280,6 +8280,7 @@
 ||abrokegamer.com^
 ||abyssplayer.com^
 ||academie-ekinoxcf.com^
+||accesstreamingtop.com^
 ||acelimg.com^
 ||opentracker.acgnx.com^
 ||acgnxtracker.com^
@@ -8332,6 +8333,7 @@
 ||all-animes.com^
 ||all-office-soft.com^
 ||all3do.com^
+||allaccessstreaming.com^
 ||alldebrid.com^
 ||allenboard.com^
 ||alleneconomicmatter.com^
@@ -10272,6 +10274,7 @@
 ||funmodapk.com^
 ||funtimebd.com^
 ||futbolchi.com^
+||futbolduellosu.com^
 ||futboletic.com^
 ||futbolheadspro.com^
 ||futbollibre-plus.com^
@@ -13208,6 +13211,7 @@
 ||the5movierulz.com^
 ||bt1.the9.com^
 ||the9kmovies.com^
+||theanimemitra.com^
 ||theanimepunk.com^
 ||theaudiobookbay.com^
 ||thebestvpn.com^
@@ -36329,6 +36333,7 @@
 ||docspedia.org^
 ||dontorrent.org^
 ||dontorrents.org^
+||dopeiptv.org^
 ||downarchive.org^
 ||download-provider.org^
 ||downloadanime.org^
@@ -36359,6 +36364,7 @@
 ||rekcart.duckdns.org^
 ||siwserver.duckdns.org^
 ||thinking.duckdns.org^
+||torrentfreak.duckdns.org^
 ||tr4ck3r.duckdns.org^
 ||unblockedverifikasifb.duckdns.org^
 ||vito-tracker.duckdns.org^

@@ -11,12 +11,14 @@
 *.furville.drinkanddrive.africa
 *.mastodon.africa
 *.nithecs.africa
+*.ourtube.africa
 *.sasa.africa
 *.social.sssa.africa
 *.creative.ai
 *.social.freysa.ai
 *.masto.ai
 *.social.mindplex.ai
+*.social.satyrn.ai
 *.bere.al
 *.fra.kt.al
 *.lazysoci.al
@@ -24,6 +26,7 @@
 *.rect.al
 *.absolutelyhar.am
 *.analog.am
+*.videos.engs.am
 *.fff.fo.am
 *.kopiti.am
 *.me.memories.am
@@ -45,7 +48,6 @@
 *.misskey.notr.app
 *.mi.nyaa.app
 *.odakyu.app
-*.social.onlinesession.app
 *.peertube.archive.pocketnet.app
 *.peertube900.pocketnet.app
 *.api.rabotaem.app
@@ -84,6 +86,7 @@
 *.outergod.art
 *.pixelfed.art
 *.mastodon.teia.art
+*.veenus.art
 *.1234.as
 *.lem.free.as
 *.slangenettet.pyjam.as
@@ -141,6 +144,7 @@
 *.mastodon.electricbrain.au
 *.fediverse.au
 *.fluffs.au
+*.m.futex.au
 *.hackerspace.au
 *.mastodon.hns.au
 *.mastodon.lanham.id.au
@@ -154,6 +158,7 @@
 *.pixelfed.au
 *.quokk.au
 *.rants.au
+*.social.sveken.au
 *.theblower.au
 *.social.ucc.au
 *.upvote.au
@@ -196,7 +201,6 @@
 *.sociabl.be
 *.pix.suqu.be
 *.tchafia.be
-*.sns.tsubasaori.be
 *.mastodon.openedx.uliege.be
 *.social.vdna.be
 *.wokka.be
@@ -286,15 +290,17 @@
 *.pixelfed.recombo.com.br
 *.www.twitter.com.br
 *.pixelfed.dev.br
+*.lemmy.eco.br
 *.social.museus.gov.br
 *.lacra.ia.br
+*.social.neuronal.ia.br
 *.peertube.lhc.net.br
 *.www.twitter.net.br
 *.play.cotv.org.br
 *.tv.terrapreta.org.br
-*.tvculturaviva.org.br
 *.hub.vilarejo.pro.br
 *.mastodon.nudecri.unicamp.br
+*.secrets.brussels
 *.buck.build
 *.animal.business
 *.dook.business
@@ -315,6 +321,7 @@
 *.miku.dewm.ca
 *.pyq.difeimao.ca
 *.toot.diglet.ca
+*.l.dongxi.ca
 *.dykes.ca
 *.nojack.easydns.ca
 *.facebook.ca
@@ -344,7 +351,6 @@
 *.rainyme.ca
 *.pixelfed.regularjessi.ca
 *.fabula.schizophreni.ca
-*.social.seanmcgregor.ca
 *.securitycafe.ca
 *.social.sineware.ca
 *.socialbc.ca
@@ -364,7 +370,6 @@
 *.buddhist.cafe
 *.burnout.cafe
 *.bynight.cafe
-*.catharsis.cafe
 *.critter.cafe
 *.cryptid.cafe
 *.curmudgeon.cafe
@@ -436,7 +441,6 @@
 *.collapse.cat
 *.estrogen.cat
 *.katzenleben.fritz.cat
-*.bloc.in4matics.cat
 *.is-a.cat
 *.videos.laguixeta.cat
 *.peertube.laveinal.cat
@@ -467,7 +471,6 @@
 *.cafemaple.cc
 *.camarena.cc
 *.chatan.cc
-*.lemmy.civl.cc
 *.cafe.coffee-break.cc
 *.mastodon.coffee-break.cc
 *.mystory.de-haan.cc
@@ -487,6 +490,7 @@
 *.ivie.cc
 *.joyreactor.cc
 *.tekkadon.manimani.cc
+*.mastodon.cc
 *.mcyt.cc
 *.michinsekki.cc
 *.mi.mieux.cc
@@ -515,7 +519,6 @@
 *.misskey.truetone.cc
 *.fedi.turbofish.cc
 *.vk.cc
-*.vsme.cc
 *.xscape.zclan.cc
 *.mastodon.3fx.ch
 *.pixelfed.aargaunet.ch
@@ -531,8 +534,8 @@
 *.lemmy.fait.ch
 *.fbwat.ch
 *.freedomofspee.ch
-*.peertube.gaialabs.ch
 *.666.glitchwit.ch
+*.lemmy.gumpri.ch
 *.lemmy.hogru.ch
 *.video.ipng.ch
 *.kagura.ch
@@ -544,6 +547,7 @@
 *.pinterest.ch
 *.pixelfed.ch
 *.social.pyme.ch
+*.fotos.rogerruckstuhl.ch
 *.mastodon.savvy.ch
 *.sofre.ch
 *.swissodon.ch
@@ -577,7 +581,6 @@
 *.cathode.church
 *.loli.church
 *.moss.church
-*.vgn.church
 *.me.ns.ci
 *.astronomy.city
 *.beach.city
@@ -684,7 +687,6 @@
 *.craftgoblin.club
 *.surf.cyberspace.club
 *.cybre.club
-*.mastodon.d14n.club
 *.dariox.club
 *.deadlymilehigh.club
 *.democracybook.club
@@ -697,6 +699,7 @@
 *.drdr.club
 *.dustbuster.club
 *.eattherich.club
+*.post.ebin.club
 *.tube.ebin.club
 *.mastodon.ef67daisuki.club
 *.efdn.club
@@ -735,6 +738,7 @@
 *.lejaua6.club
 *.librepunk.club
 *.linernotes.club
+*.lorebound.club
 *.mastodon.madhammer.club
 *.blog.mapsupport.club
 *.mastoscat.club
@@ -742,7 +746,6 @@
 *.merovingian.club
 *.metalhead.club
 *.mirus.club
-*.shin.mugicha.club
 *.nbaden.club
 *.njust.club
 *.v2.nyoki.club
@@ -768,11 +771,11 @@
 *.mstdn.schoolidol.club
 *.social.scribblers.club
 *.msk.seppuku.club
+*.shigusegubu.club
 *.shrike.club
 *.mastodon.sketchwave.club
 *.snake.club
 *.sonomu.club
-*.sopadeletras.club
 *.spikyhair.club
 *.syasai.club
 *.lem.taconuke.club
@@ -811,6 +814,7 @@
 *.m.toutiaocdn.cn
 *.m.zjurl.cn
 *.lemmy.beru.co
+*.pl.catboyindustries.co
 *.clubcyberia.co
 *.coconatsu.co
 *.mastodon.conii.co
@@ -818,6 +822,7 @@
 *.social.dednet.co
 *.social.delightfulapps.co
 *.discord.co
+*.social.driscoll.co
 *.elefanti.co
 *.facewbook.co
 *.frontrange.co
@@ -862,6 +867,7 @@
 *.msky.41kg.com
 *.45sukey.com
 *.misskey.48maro.com
+*.4bear.com
 *.social.4score7pongs.com
 *.500px.com
 *.810video.com
@@ -898,7 +904,6 @@
 *.algufr.com
 *.pstatp.com.m.alikunlun.com
 *.pstatp.com.w.alikunlun.com
-*.alwayssleeping.com
 *.amadmoon.com
 *.mi.amari-noa.com
 *.mastodon.amaseto.com
@@ -913,8 +918,10 @@
 *.giphyscripts.s3.amazonaws.com
 *.impala-media-production.s3.amazonaws.com
 *.amemv.com
+*.mastodon.amerharb.com
 *.aminoapps.com
 *.lemmy.amxl.com
+*.social.andrewwet.com
 *.ak.angelstrapped.com
 *.peertube.anon-kenkai.com
 *.mtdn.anyqn.com
@@ -934,6 +941,7 @@
 *.atlbbs.com
 *.atscaleconference.com
 *.audiophile-mastodon.com
+*.piefed.aurionblack.com
 *.awadwatt.com
 *.social.axiixc.com
 *.azasky.azarako.com
@@ -1017,6 +1025,7 @@
 *.careersatfb.com
 *.carstagram.com
 *.blog.cashparkingtest.com
+*.forum.castellvirtual.com
 *.mastodon.castlemistsoftware.com
 *.catcatnya.com
 *.moist.catsweat.com
@@ -1043,7 +1052,6 @@
 *.chengzijianzhan.com
 *.chickstagram.com
 *.social.chiefgyk3d.com
-*.blog.chikim.com
 *.china-facebook.com
 *.chiplak.com
 *.chiranote.com
@@ -1098,6 +1106,7 @@
 *.mastodon.dankim.com
 *.darticulate.com
 *.social.datasolace.com
+*.social.dawgsec.com
 *.daxuanempire.com
 *.dayza.com
 *.dazuser.com
@@ -1105,6 +1114,7 @@
 *.overctrl.dbzer0.com
 *.trailers.ddigest.com
 *.ddoskey.com
+*.ddtbanaketak.com
 *.talk.dearokasa.com
 *.misskey.delmulin.com
 *.mstdn.delmulin.com
@@ -1159,6 +1169,7 @@
 *.fedi.dzombak.com
 *.dumbo.e-kobi.com
 *.mastodon.ecnelises.com
+*.egomemei.com
 *.mastodon.eiabea.com
 *.eight-bamboo.com
 *.eksisozluk.com
@@ -1453,7 +1464,6 @@
 *.mastodon.fooddrinklife.com
 *.forestodon.com
 *.social.fort1nd.com
-*.forum-lucifer.com
 *.fosebook.com
 *.audio.foundmediaarchive.com
 *.blog.foundmediaarchive.com
@@ -1501,10 +1511,12 @@
 *.social.gerotintin.com
 *.gfacecbook.com
 *.gingadon.com
+*.misskey.gingarenpo.com
 *.mi.ginnannman.com
 *.pleroma.gjbserver.com
 *.glebadeldharma.com
 *.xeno.glyphpress.com
+*.pixelfed.gohaveanewone.com
 *.472064670264-p830d2k61ivgab1ihaq1oe5u50jf54q9.apps.googleusercontent.com
 *.908812512490-tqgub82rl7tuj6g8n7qvac1e21nqsiop.apps.googleusercontent.com
 *.goredb.com
@@ -1548,7 +1560,6 @@
 *.miexp.hirasu.com
 *.villa.hirunekingdom.com
 *.oshiro.hirunohi.com
-*.mastodon.hiveagile.com
 *.nw.hnpse.com
 *.static.hootsuite.com
 *.howtohackfacebook-account.com
@@ -1651,6 +1662,7 @@
 *.mast.john1126.com
 *.ttopencdn.jomodns.com
 *.ttv5opencdn.jomodns.com
+*.spaceplace.jonathancandler.com
 *.journodon.com
 *.juliangyinqing.com
 *.mastodon.jwsoat.com
@@ -1669,12 +1681,10 @@
 *.kiloduck.com
 *.mi.kinachan.com
 *.kingstagram.com
-*.video.kinkyboyspodcast.com
 *.kiorin.com
 *.kirakiratter.com
 *.msk.kitamiss.com
 *.mi.kitsunebi-ya.com
-*.vibe.kittenapproved.com
 *.lemmy.kixago.com
 *.lemmy.kmoneyserver.com
 *.kndon.com
@@ -1712,6 +1722,7 @@
 *.misskey.kyoupro.com
 *.masto.labrafox.com
 *.peertube.lagbag.com
+*.misskey.lagrstudio.com
 *.peertube.lagvoid.com
 *.peertube.le-cem.com
 *.blog.leadingzeroes.com
@@ -1740,7 +1751,6 @@
 *.linemyshop.com
 *.lineshoppingseller.com
 *.linkedin.com
-*.mastodon.linkerror.com
 *.social.linodians.com
 *.mast.linuxgamecast.com
 *.watch.linuxrenaissance.com
@@ -1755,6 +1765,7 @@
 *.video.logansimic.com
 *.tube.logidroflex.com
 *.looky.com
+*.social.looperlative.com
 *.social.ludepress.com
 *.lemmy.lundgrensjostrom.com
 *.lux-nightclub.com
@@ -1779,6 +1790,7 @@
 *.mastohack.com
 *.team.matechan.com
 *.matthewbogart.com
+*.mastodon.maxihan.com
 *.mcseekeri.com
 *.mech-misskey.com
 *.social.medusmedia.com
@@ -1813,6 +1825,7 @@
 *.misskey.momizi06.com
 *.moneywithfacebook.com
 *.ascy.mooo.com
+*.mastodon.mozysswamp.com
 *.dev-friendica.mrpetovan.com
 *.pixelfed.mrpetovan.com
 *.mslink.com
@@ -1835,9 +1848,9 @@
 *.naapurinpoika.com
 *.blog.nachitima.com
 *.nadajemy.com
+*.mastodon.naiveapps.com
 *.misskey.nakamurou.com
 *.namtao.com
-*.mastodon.naomina121.com
 *.nashtodon.com
 *.natterati.com
 *.misskey.nazetws.com
@@ -1899,7 +1912,6 @@
 *.lemmy.openvuture.com
 *.social.opuadm.com
 *.oreeke.com
-*.orreadi.com
 *.www.osiyuk.com
 *.otadon.com
 *.mastodon.otherworldsink.com
@@ -1916,7 +1928,6 @@
 *.persadon.com
 *.lem.ph3j.com
 *.phijkchu.com
-*.social.phoenixradio1208.com
 *.piefeed.com
 *.pinimg.com
 *.pinterest.com
@@ -1927,7 +1938,6 @@
 *.shogi.pkkis.com
 *.place-of-refuge.com
 *.social.pneumasolutions.com
-*.pneumastodon.com
 *.pnw-mastodon.com
 *.ponjour.com
 *.mastodon.pontalk.com
@@ -1937,6 +1947,7 @@
 *.prybk.com
 *.pstatp.com
 *.psyopshop.com
+*.p-misskey.pusyuuwanko.com
 *.mk.puzzlesskey.com
 *.pxlmo.com
 *.qfyf1toi.com
@@ -2011,11 +2022,11 @@
 *.siengray.com
 *.signalskey.signal-st.com
 *.social.sitedethib.com
+*.sizeriot.com
 *.sizetube.com
 *.skastodon.com
 *.mastodon.skyriser.com
 *.mastodon.slightlycyberpunk.com
-*.smithwalkerranch.com
 *.social.snamellit.com
 *.snapads.com
 *.snapchat.com
@@ -2048,10 +2059,12 @@
 *.notebook.stereofictional.com
 *.sharkey.stikyt.com
 *.piaf.stilobique.com
+*.mstdn.studiofreesia.com
 *.rss-mstdn.studiofreesia.com
 *.sublem.com
 *.subnet-masked.com
 *.social.subpolygon.com
+*.sudhirpanda.com
 *.suffigo.com
 *.mstdn.superspeed-fall.com
 *.supportfacebook.com
@@ -2066,12 +2079,10 @@
 *.video.taboulisme.com
 *.misskey.takashi-tkg.com
 *.takusuki.com
-*.misskey.takutk.com
-*.tanukitunes.com
-*.tardigram.com
 *.lemmy.tauata.com
 *.wayfarer.teacrumbs.com
 *.teamfmradio.com
+*.techniclip.com
 *.techtoots.com
 *.tellapart.com
 *.terragraph.com
@@ -2084,7 +2095,6 @@
 *.theinstagramhack.com
 *.thejuddkramer.com
 *.lemmy.theknopps.com
-*.social.theokadas.com
 *.shitter.thepixora.com
 *.lemmy.thewooskeys.com
 *.kbin.thicknahalf.com
@@ -2106,7 +2116,7 @@
 *.timeyak.com
 *.timothycreates.com
 *.peertube.tinksic.com
-*.misskey.titilat.com
+*.toot.tinsleyviaduct.com
 *.lemmy.tjadin.com
 *.mstdn.tokyocameraclub.com
 *.msky.toma09to.com
@@ -2155,7 +2165,6 @@
 *.mastodon.twocanoes.com
 *.twttr.com
 *.twvid.com
-*.sin.tyaku.com
 *.tzcafe.com
 *.misskey.ubanis.com
 *.uchu-teien.com
@@ -2213,6 +2222,7 @@
 *.withbrains.com
 *.pixelfed.wizrey.com
 *.wlslymast.com
+*.mast.wmclark.com
 *.fedi.wondernetwork.com
 *.wonkodon.com
 *.workplace.com
@@ -2241,6 +2251,7 @@
 *.x.com
 *.social.xboxdev.com
 *.xelebre.com
+*.x.xiaoten.com
 *.mi.xiexianemoxix.com
 *.social.xinghaizhandui.com
 *.xn--j5r817a.com
@@ -2263,14 +2274,12 @@
 *.mahno.zacepil.com
 *.blogz.zaclys.com
 *.mastodon.zaclys.com
-*.lemmy.zarioth.com
 *.social.zell-mbc.com
 *.hammerandchisel.ssl.zendesk.com
 *.zensky-pj.com
 *.zhihu.com
 *.zhimg.com
 *.zijieapi.com
-*.lemmy.zimage.com
 *.social.zlendy.com
 *.zohup.com
 *.zuckerberg.com
@@ -2291,12 +2300,14 @@
 *.hi-fi.community
 *.ladies.community
 *.linux.community
+*.lemmy.masto.community
 *.newsmast.community
 *.nfl.community
 *.nog.community
 *.scamper.community
 *.sfw.community
 *.shark.community
+*.solarcene.community
 *.spoonie.community
 *.sub.community
 *.mastodon.tacoma.community
@@ -2312,6 +2323,7 @@
 *.slime.computer
 *.sometimes.when.computer
 *.wholesome.computer
+*.light.contact
 *.pets.contact
 *.dataare.cool
 *.social.funkyfish.cool
@@ -2344,6 +2356,7 @@
 *.msto.cx
 *.mastodon.tmm.cx
 *.mastodon.360.cymru
+*.twt.cymru
 *.antani.cyou
 *.fedilove.cyou
 *.fenmou.cyou
@@ -2354,7 +2367,6 @@
 *.pixelfed.takeko.cyou
 *.fedinet.waltuh.cyou
 *.pen.waltuh.cyou
-*.mastodon.1984.cz
 *.peertube.arch-linux.cz
 *.beer-net.cz
 *.cztwitter.cz
@@ -2370,7 +2382,6 @@
 *.portal.digilab.nfa.cz
 *.media.nolog.cz
 *.otakuzatoka.cz
-*.mastodon.pirati.cz
 *.tv.pirati.cz
 *.pixelfed.cz
 *.mastodon.rozhlas.cz
@@ -2380,7 +2391,6 @@
 *.toot.whatever.cz
 *.witter.cz
 *.bots.doo.dad
-*.lemmy.pi4.dad
 *.leaf.dance
 *.mojimoji.date
 *.it.21stcentury.day
@@ -2393,7 +2403,6 @@
 *.theatrez.day
 *.lemmy.umucat.day
 *.mastodon.24bit48khz.de
-*.lemmy.30p87.de
 *.friendica.a-zwenkau.de
 *.social.abraum.de
 *.video.abraum.de
@@ -2408,7 +2417,6 @@
 *.mstdn.animexx.de
 *.social.anoxinon.de
 *.lemmy.stage.anoxinon.de
-*.pixelfed.stage.anoxinon.de
 *.social.stage.anoxinon.de
 *.writefreely.stage.anoxinon.de
 *.peertube.art3mis.de
@@ -2433,7 +2441,6 @@
 *.social.bund.de
 *.troet.burg-halle.de
 *.social.caserio.de
-*.is-a.catinsi.de
 *.mastodon.cemunz.de
 *.video.chbmeyer.de
 *.chillcorner.de
@@ -2442,10 +2449,10 @@
 *.mst-staging.collocall.de
 *.social.computertruhe.de
 *.mastodon.cyperpunk.de
+*.ls-freunde.d-empires.de
 *.pub.dakloifarwa.de
 *.friendica.daniel-siepmann.de
 *.social.darc.de
-*.pie.dasneuland.de
 *.lemmy.deadca.de
 *.deadinsi.de
 *.discover.deltanauten.de
@@ -2455,7 +2462,6 @@
 *.dis-le.de
 *.dizl.de
 *.dog-pound.de
-*.lemmy.dorfrollenspiel.de
 *.mastodon.dragonbox.de
 *.drehspiess-online.de
 *.duebelwein.de
@@ -2487,7 +2493,6 @@
 *.festiverse.de
 *.social.fetedelamusique.de
 *.findumon.de
-*.social.finkhaeuser.de
 *.social.firestrike.de
 *.social.fischbyte.de
 *.hubzilla.fkn-systems.de
@@ -2507,7 +2512,6 @@
 *.mastodon.glombit.de
 *.story.goegelshome.de
 *.f.gp-net.de
-*.social.grimneko.de
 *.write.grischa.de
 *.peertube.heise.de
 *.social.heise.de
@@ -2546,7 +2550,6 @@
 *.social.ksite.de
 *.lazysocial.de
 *.pt01.lehrerfortbildung-bw.de
-*.social.leinde.de
 *.peertube.lernetholenia.de
 *.leselog.de
 *.librepoop.de
@@ -2577,6 +2580,7 @@
 *.pixel.moahr.de
 *.discuss.mschae23.de
 *.social.muchametow.de
+*.social.muenchen.de
 *.musktodon.de
 *.mstdn.myifn.de
 *.nerdculture.de
@@ -2618,7 +2622,6 @@
 *.mast.rbg-l.de
 *.tube.rbg-l.de
 *.social.reapers.de
-*.f.reun.de
 *.scrum.ring2.de
 *.stream.rlp-media.de
 *.video.rlp-media.de
@@ -2628,7 +2631,6 @@
 *.tv.ruesche.de
 *.social.sachsen.de
 *.social.sachsen-anhalt.de
-*.mastodon.satoshishop.de
 *.peertube.sbbz-luise.de
 *.mastodon.schindlerfamily.de
 *.social.schleswig-holstein.de
@@ -2652,7 +2654,6 @@
 *.blog.stegemann.de
 *.social.streetcollective-leipzig.de
 *.video.stuve-bamberg.de
-*.social.sucb.de
 *.social.suchtbasis.de
 *.swg-empire.de
 *.troet.tay-tec.de
@@ -2687,7 +2688,6 @@
 *.jar.informatik.uni-oldenburg.de
 *.unteraffen.de
 *.social.vonmanstein.de
-*.pete.warpnine.de
 *.mastodon.wazongtest.de
 *.tube.webcontact.de
 *.weitwegfreun.de
@@ -2726,6 +2726,7 @@
 *.social.boger.dev
 *.mi.bokukoha.dev
 *.mstdn-srv1.social.boorloo.dev
+*.boyslop.dev
 *.lemmy.browntown.dev
 *.chatsubo.cbrpnk.dev
 *.misskey.chilitreat.dev
@@ -2747,19 +2748,16 @@
 *.mastodon.gxvwb.dev
 *.social.harding.dev
 *.misskey.hawk-tomy.dev
-*.blog.heartade.dev
 *.misskey.hikalium.dev
 *.pff.o.hina.dev
 *.mi13.ijs01140.dev
 *.imsim.dev
-*.lemmy.jann.dev
 *.jiskey.dev
 *.forum.jmklab.dev
 *.s.ktsn.dev
 *.social.ktzn.dev
 *.kutsuya.dev
 *.mastodon.kyrus.dev
-*.mbin.level5.dev
 *.social.lfx.dev
 *.misskey.millegliese581.dev
 *.soapbox.minaduki.dev
@@ -2819,6 +2817,7 @@
 *.social.zendit.digital
 *.goose.directory
 *.lemmy.selina.diy
+*.social.thirdculture.diy
 *.8763.dk
 *.lemmy.ansico.dk
 *.bermus.dk
@@ -2829,7 +2828,6 @@
 *.lysbrud.dk
 *.mstdn.dk
 *.peertube.dk
-*.piefed.dk
 *.pinterest.dk
 *.pixelfed.dk
 *.social.riversouldiers.dk
@@ -2841,6 +2839,7 @@
 *.fedi.aria.dog
 *.masto.asonix.dog
 *.video.asonix.dog
+*.federated.glacier.dog
 *.goodass.dog
 *.toots.matapacos.dog
 *.misskey.dog
@@ -2873,7 +2872,6 @@
 *.social.iris.upc.edu
 *.veterinary.education
 *.0.0n.ee
-*.cremebrul.ee
 *.lin.ee
 *.mastodon.ee
 *.misskey.ee
@@ -2916,7 +2914,6 @@
 *.social.uji.es
 *.creemoseducacioninclusiva.uma.es
 *.mst.universoalterno.es
-*.mastodon.usal.es
 *.videos-libr.es
 *.wuffi.es
 *.rb.2snc.eu
@@ -2928,9 +2925,10 @@
 *.xn--les-pluchures-de-claude-ecc.bernigaud.eu
 *.boitam.eu
 *.spolu.bucek.eu
+*.soc.citizen4.eu
 *.tube.dev.displ.eu
-*.social.doghub.eu
 *.downonthestreet.eu
+*.ptdr.duniter.eu
 *.espertubo.eu
 *.curia.social-network.europa.eu
 *.ec.social-network.europa.eu
@@ -2938,7 +2936,6 @@
 *.owo.ff15.eu
 *.fotofestival.eu
 *.mastodon.friendnet.eu
-*.peertube.gegeweb.eu
 *.toot.gnous.eu
 *.video.greenmycity.eu
 *.gregtech.eu
@@ -2953,18 +2950,17 @@
 *.ifwo.eu
 *.videos.ijug.eu
 *.mastodon.infodocs.eu
+*.peertube.iriseden.eu
 *.johnmastodon.eu
 *.social.kendoo.eu
 *.mastodon.kleph.eu
 *.blog.kobold-cave.eu
 *.kollegin.eu
 *.kotobaphil-mtdn.eu
-*.social.luebcke.eu
 *.lutaines.eu
 *.m6n.eu
 *.videos.maitregeek.eu
 *.fedi.mandarynki.eu
-*.manganiello.eu
 *.mastox.eu
 *.publish.ministryofinternet.eu
 *.mond-basis.eu
@@ -2976,6 +2972,7 @@
 *.video.ngi.eu
 *.lemmy.norbipeti.eu
 *.toot.nsgn.eu
+*.social.older-gamers.eu
 *.osintua.eu
 *.ak.pandastr.eu
 *.pixelfed.eu
@@ -3033,14 +3030,15 @@
 *.abyssdomain.expert
 *.mastodon.exposed
 *.cheekibreeki.express
+*.lemmy.grey.fail
 *.mastodon.grey.fail
 *.toot.shortbus.fail
+*.alleysmith.family
 *.amigos.family
 *.anarres.family
 *.mastodon.blaede.family
 *.glitch.cat.family
 *.fluffy.family
-*.social.masi.family
 *.nuklear.family
 *.social.overton.family
 *.adultswim.fan
@@ -3051,6 +3049,7 @@
 *.no-pony.farm
 *.unxpnx.farm
 *.social.frog.fashion
+*.lm.9d.fi
 *.masto.ahlcode.fi
 *.mastodon.ellipsis.fi
 *.energydon.fi
@@ -3088,10 +3087,12 @@
 *.morbier.foo
 *.bolha.forum
 *.poweruser.forum
+*.revolu.forum
 *.rollenspiel.forum
 *.selfhosted.forum
 *.soccer.forum
 *.comms.gsd.foundation
+*.joj.foundation
 *.toot.foundation
 *.yakumo.foundation
 *.video.ados.accoord.fr
@@ -3104,7 +3105,6 @@
 *.artitube.artifaille.fr
 *.attreno.fr
 *.bagarrosphere.fr
-*.lemmy.balamb.fr
 *.bliry.fr
 *.actu.blois.fr
 *.blog.byl.fr
@@ -3131,9 +3131,9 @@
 *.tube-langues-vivantes.apps.education.fr
 *.tube-maternelle.apps.education.fr
 *.tube-numerique-educatif.apps.education.fr
+*.tube-sciences-technologies.apps.education.fr
 *.tube.elemac.fr
 *.social.emikzam.fr
-*.peertube.r2.enst.fr
 *.masto.esophiamedias.fr
 *.mastodon.ethibox.fr
 *.peertube.ethibox.fr
@@ -3146,7 +3146,6 @@
 *.mastodon.fibre74.fr
 *.funk.firobe.fr
 *.mastodon.flifloo.fr
-*.mastodon.fossit.fr
 *.pixelfed.franjo.fr
 *.mastodon.fsu-snuipp.fr
 *.tube.futuretic.fr
@@ -3159,6 +3158,7 @@
 *.hitchtube.fr
 *.tube.hoga.fr
 *.mastodon.hosnet.fr
+*.social.humanite.fr
 *.video.imtexed.fr
 *.indymotion.fr
 *.francetube.infojournal.fr
@@ -3192,10 +3192,7 @@
 *.mastouille.fr
 *.l.mathers.fr
 *.merci-la-police.fr
-*.friendica.mesnumeriques.fr
 *.mastodon.mesnumeriques.fr
-*.peertube.mesnumeriques.fr
-*.pixelfed.mesnumeriques.fr
 *.mastodon.mim-libre.fr
 *.social.mobile-adenum.fr
 *.video.mobile-adenum.fr
@@ -3241,6 +3238,7 @@
 *.social.taker.fr
 *.tube.taker.fr
 *.oc.todon.fr
+*.mastodon.transgirl.fr
 *.mastodon.tudgwal.fr
 *.tuit.fr
 *.tvn7flix.fr
@@ -3249,10 +3247,10 @@
 *.mastodon.underworld.fr
 *.videotheque.uness.fr
 *.pad.venzano.fr
-*.tube.villejuif.fr
 *.vulgarisation-informatique.fr
 *.calckey.warrows.fr
 *.peertube.we-keys.fr
+*.video.barcelo.ynh.fr
 *.pix.darfweb.ynh.fr
 *.writefreely.shultz.ynh.fr
 *.bouquins.zbeul.fr
@@ -3315,7 +3313,6 @@
 *.mtg.garden
 *.mystical.garden
 *.lemmy.nocturnal.garden
-*.mastodon.octofriends.garden
 *.video.octofriends.garden
 *.social.ordinal.garden
 *.otter.garden
@@ -3333,9 +3330,11 @@
 *.social.beeps.gay
 *.sharkey.catgirlboobs.gay
 *.critters.gay
+*.mastodon.deadname.gay
 *.postin.dumbgeon.gay
 *.guild.explorers.gay
 *.social.exs.gay
+*.foolisholivia.gay
 *.girldick.gay
 *.social.grat.gay
 *.is-quite.gay
@@ -3343,6 +3342,7 @@
 *.kittie.gay
 *.blog.kitties.gay
 *.social.nihil.gay
+*.notorious.gay
 *.nyanya.gay
 *.fedi.roseis.gay
 *.tentacles.gay
@@ -3368,6 +3368,7 @@
 *.social.dog-s.global
 *.pixelfed.global
 *.publicsquare.global
+*.social.rebellion.global
 *.tube.rebellion.global
 *.social.antifa.gmbh
 *.alpaca.gold
@@ -3375,6 +3376,7 @@
 *.pleroma.comix.gr
 *.elltube.gr
 *.libretooth.gr
+*.shared.graphics
 *.mastodon.green
 *.homeless.group
 *.mstdn.isometry.group
@@ -3384,6 +3386,7 @@
 *.lemmy.brief.guru
 *.pi.dead.guru
 *.zy.gy
+*.social.hamburg
 *.toot.apheleia.haus
 *.breakfast.haus
 *.duck.haus
@@ -3391,6 +3394,7 @@
 *.masto.posting.haus
 *.zettel.haus
 *.awjeez.help
+*.icanteventoot.help
 *.mstdn.nere9.help
 *.mastodon.hk
 *.twitter.hk
@@ -3425,7 +3429,6 @@
 *.coolkids.house
 *.cryptid.house
 *.juju.house
-*.lemmy.lakes.house
 *.ozlabs.house
 *.stonebird.house
 *.social.targaryen.house
@@ -3433,7 +3436,6 @@
 *.tube.foi.hr
 *.mastodon.xi.ht
 *.facebook.hu
-*.fika.grin.hu
 *.mastodon.grin.hu
 *.tube.grin.hu
 *.write.grin.hu
@@ -3456,6 +3458,7 @@
 *.pharmacy.puppygirl.icu
 *.shweet.icu
 *.tty.icu
+*.udon.icu
 *.unstable.icu
 *.lemmy.wald.icu
 *.yysk.icu
@@ -3489,9 +3492,11 @@
 *.fsk.im
 *.hed.im
 *.klezmor.im
+*.b.koa.im
 *.re.lire.im
 *.m-i.im
 *.mastodon.im
+*.m.monika.im
 *.muenster.im
 *.news.piaf.im
 *.tooot.im
@@ -3517,7 +3522,6 @@
 *.notwork.in
 *.pinterest.in
 *.sharlayan.in
-*.solutionpoint.in
 *.toot.techbeat.in
 *.social.thej.in
 *.toot.furry.industries
@@ -3552,6 +3556,7 @@
 *.msk.i-red.info
 *.msk.ilnk.info
 *.social.jrruethe.info
+*.mstdn.kemono-friends.info
 *.sns.kianting.info
 *.blog.kicou.info
 *.mastodon.kronk.info
@@ -3564,7 +3569,7 @@
 *.animal-crossing.mastportal.info
 *.pokemon.mastportal.info
 *.mastodon.merkel.info
-*.miwkey.miwpayou0808.info
+*.mi.nanako-net.info
 *.nayukana.info
 *.omoro.info
 *.media.opendigital.info
@@ -3592,7 +3597,6 @@
 *.eepyth.ing
 *.fasheng.ing
 *.m.flaem.ing
-*.forcefemm.ing
 *.girlboss.ing
 *.mercur.ing
 *.dis.sociat.ing
@@ -3629,7 +3633,6 @@
 *.blacktwitter.io
 *.social.bloodedge.io
 *.mastodon.brk.io
-*.byzantinenexus.io
 *.c7.io
 *.lemmy.caliban.io
 *.lemmy.canthonyscott.io
@@ -3643,7 +3646,6 @@
 *.discordapp.io
 *.lemmy.electricmonk.io
 *.mastodon.experienceadvisors.io
-*.cantinho.falnes.io
 *.fbidb.io
 *.com3065-a26.fedihost.io
 *.fosscad.io
@@ -3651,6 +3653,7 @@
 *.social.gitea.io
 *.glaux.io
 *.lemmy.glue.io
+*.misskey.grid-space.io
 *.h4.io
 *.hachyderm.io
 *.lemmy.halis.io
@@ -3670,6 +3673,7 @@
 *.social.mkg20001.io
 *.mstdn.io
 *.mastodon.n6.io
+*.social.nacka.io
 *.lemmy.natsukashii.io
 *.social.nerdhouse.io
 *.pixelfed.homelab.officebot.io
@@ -3703,6 +3707,8 @@
 *.blog.entropie.is
 *.tube.flokinet.is
 *.lm.inu.is
+*.pixelis.luisa.is
+*.media.nsh.is
 *.social.oc.is
 *.social.rjp.is
 *.social.sour.is
@@ -3724,6 +3730,7 @@
 *.openmedia.edunova.it
 *.emmecola.it
 *.feddit.it
+*.social.gl-como.it
 *.lemmy.grys.it
 *.ma.id10t.it
 *.tube.inlinestyle.it
@@ -3754,13 +3761,13 @@
 *.video.comune.trento.it
 *.m.tsai.it
 *.social.umoja.it
+*.plaza.vncp.it
 *.social.x4s.it
 *.ruud.je
 *.fedi.flauschhaufen.jetzt
 *.problematisch.jetzt
 *.toot.team.jetzt
 *.divas.joburg
-*.itabashi.0j0.jp
 *.misskey.286.jp
 *.mi.7193.jp
 *.misskey.afy.jp
@@ -3772,7 +3779,6 @@
 *.bluesskey.jp
 *.misskey.br-project.jp
 *.misskey.buicha.jp
-*.mi.c-at.jp
 *.m.chars.jp
 *.s.chars.jp
 *.tweet.gleamorb.co.jp
@@ -3832,7 +3838,6 @@
 *.childcare.hostdon.ne.jp
 *.elevenjpnxi.hostdon.ne.jp
 *.orc.forest.hostdon.ne.jp
-*.hiryu-yakiniku.hostdon.ne.jp
 *.menzuesute.hostdon.ne.jp
 *.narikiri.hostdon.ne.jp
 *.sensitive.hostdon.ne.jp
@@ -3840,6 +3845,7 @@
 *.tanuki.hostdon.ne.jp
 *.tmss2291-1.hostdon.ne.jp
 *.mastodon.niu.ne.jp
+*.mst.nekonohige.jp
 *.akkoma.noellabo.jp
 *.misskey.noellabo.jp
 *.obufalus.jp
@@ -3953,6 +3959,7 @@
 *.sakyey.kr
 *.highway.ttobot.kr
 *.dreamcatchers.whippy.kr
+*.m.bus.la
 *.social.griff.la
 *.mastodon.la
 *.misskey.niri.la
@@ -3973,6 +3980,7 @@
 *.slime.land
 *.snowmans.land
 *.style.land
+*.swurl.land
 *.thecle.land
 *.social.theheart.land
 *.wondering.land
@@ -3984,9 +3992,9 @@
 *.providence.werewolf.lat
 *.earth.law
 *.mastodon.law
-*.base.lc
 *.mi-tempura.n8.lc
 *.onlycasino.legal
+*.tube.p2p.legal
 *.asso.lgbt
 *.fluff.avery.lgbt
 *.bark.lgbt
@@ -4011,7 +4019,6 @@
 *.myce.li
 *.mk.o3o.li
 *.other.li
-*.toot.li
 *.md.wikiwiki.li
 *.yuitobe.wikiwiki.li
 *.m.77iro.life
@@ -4020,7 +4027,6 @@
 *.autistics.life
 *.blackqueer.life
 *.social.crabs.life
-*.watch.goodluckgabe.life
 *.jubi.life
 *.kbin.life
 *.krefeld.life
@@ -4042,6 +4048,7 @@
 *.abdl.link
 *.musically.app.link
 *.musically-alternate.app.link
+*.social.bufu.link
 *.clacks.link
 *.claristdon.link
 *.mk.donotclickthis.link
@@ -4051,6 +4058,7 @@
 *.nekocwd.link
 *.m.pcgt.link
 *.sk.petalgarden.link
+*.rewt.link
 *.talos.link
 *.vk.link
 *.yumema.link
@@ -4060,6 +4068,7 @@
 *.developers.live
 *.devs.live
 *.social.fbievan.live
+*.gazette.live
 *.books.ihatebeinga.live
 *.kadras.live
 *.lizards.live
@@ -4083,6 +4092,7 @@
 *.darkestalleygang.lol
 *.lemmy.federate.lol
 *.hardpass.lol
+*.hovis.lol
 *.ibite.lol
 *.icom.lol
 *.lemmy.inbutts.lol
@@ -4114,7 +4124,7 @@
 *.pub.odekake.love
 *.misskey.resonite.love
 *.transmom.love
-*.video.tsundere.love
+*.tsundere.love
 *.xhais.love
 *.m.webtoo.ls
 *.mastodon.0011.lt
@@ -4136,7 +4146,6 @@
 *.jlai.lu
 *.lemmy.lu
 *.mastodon.lmddc.lu
-*.luxtube.lu
 *.mastodon.opencloud.lu
 *.peertube.opencloud.lu
 *.p.lu
@@ -4157,7 +4166,6 @@
 *.mastodon.creation.md
 *.mstdn.md
 *.lemmy.0upti.me
-*.lemmy.1095.me
 *.misskey.2000cho.me
 *.770ml.me
 *.9kb.me
@@ -4179,12 +4187,12 @@
 *.confeito.me
 *.cornichon.me
 *.cunnin.me
+*.s.datais.me
 *.virtual-girls-are.definitely-for.me
 *.blog.demorose.me
 *.k.fe.derate.me
 *.t.dlyang.me
 *.nextep.place451.dscloud.me
-*.e4le.me
 *.edgie.me
 *.mastodon.edufor.me
 *.ice.eeruwang.me
@@ -4199,6 +4207,7 @@
 *.ekmm.footbath.me
 *.friendica.me
 *.pixelfed.furryfandom.me
+*.grrl.me
 *.mastodon.haetsal.me
 *.handcuffedgirls.me
 *.social.hnws.me
@@ -4221,6 +4230,7 @@
 *.lightparty.me
 *.line.me
 *.lsbt.me
+*.blog.luismarques.me
 *.m.me
 *.matterofti.me
 *.maxvolu.me
@@ -4231,8 +4241,8 @@
 *.fedi.miawgogo.me
 *.mimiclem.me
 *.mjob.me
+*.notes.mroberts.me
 *.mycdn.me
-*.mastodon.my-ant.myds.me
 *.mzn-potatochips.me
 *.blog.nanoshinono.me
 *.mastodon.naturalorder.me
@@ -4255,7 +4265,6 @@
 *.pachyder.me
 *.mastodon.pastleo.me
 *.peasej.me
-*.pentimento.me
 *.tube.penzberg.me
 *.noot.pingu4.me
 *.toot.pingu4.me
@@ -4304,7 +4313,6 @@
 *.misskey.yukineko.me
 *.cho.yukiya.me
 *.lemmy.zmartin.me
-*.peertube.1312.media
 *.ayom.media
 *.discord.media
 *.drk.media
@@ -4327,7 +4335,7 @@
 *.mastodon.mg
 *.port.mk
 *.lemmy.ur.mk
-*.enterprise.lemmy.ml
+*.lemmy.ml
 *.lemmygrad.ml
 *.loma.ml
 *.mastodon.ml
@@ -4354,7 +4362,6 @@
 *.eepy.moe
 *.erica.moe
 *.fairground.moe
-*.fbk.moe
 *.feels.moe
 *.gameguard.moe
 *.ginpatu.moe
@@ -4392,9 +4399,8 @@
 *.misskey.mugiko.moe
 *.munochi.moe
 *.s.mysw.moe
+*.nijimiss.moe
 *.nyanpuppu.moe
-*.player.ojamajo.moe
-*.paella.moe
 *.pao.moe
 *.mk.pibo.moe
 *.pika.moe
@@ -4445,7 +4451,6 @@
 *.takeko.monster
 *.woof.monster
 *.mastodon.moscow
-*.andamunda.alda.ms
 *.bookwor.ms
 *.pinterest.com.mx
 *.mastodon.mx
@@ -4454,7 +4459,6 @@
 *.bytedance-tmcdn.tm.com.my
 *.and.farewell.my
 *.mastodon.my
-*.metam.my
 *.www1.misskey.nagoya
 *.novoa.nagoya
 *.bookwyrm.eble.name
@@ -4487,6 +4491,7 @@
 *.bytegeo.akadns.net
 *.bytewlb.akadns.net
 *.musical.ly.akadns.net
+*.fbcdn-a.akamaihd.net
 *.fbcdn-creative-a.akamaihd.net
 *.fbcdn-photos-a.akamaihd.net
 *.fbcdn-photos-e-a.akamaihd.net
@@ -4548,7 +4553,6 @@
 *.peertube.anduin.net
 *.pix.anduin.net
 *.mastodon.anesthetizeme.net
-*.ankoskey.net
 *.anonsys.net
 *.mstdn.anqou.net
 *.misskey.ao9s.net
@@ -4631,10 +4635,10 @@
 *.ailbhean.co-shaoghal.net
 *.talk.cocoahippo.net
 *.social.collectivemoo.net
-*.conversafiada.net
 *.mastodon.cooleysekula.net
 *.crashtodon.net
 *.mastodon.crazynewworld.net
+*.write.croustifed.net
 *.lemmy.cryonex.net
 *.tv.cuates.net
 *.cubnuuy.net
@@ -4649,7 +4653,6 @@
 *.l-0005.dc-msedge.net
 *.falkmx.ddns.net
 *.me.illis.ddns.net
-*.nemuzatu.de5.net
 *.peertube.deadpilots.net
 *.bots.defencegeeks.net
 *.social.del-c.net
@@ -4669,7 +4672,6 @@
 *.heimat.drensteinfurt.net
 *.drizzle-damp.net
 *.peertube.dsmouse.net
-*.social.dsmouse.net
 *.dullsters.net
 *.masto.e-tuna.net
 *.toot.ecclesias.net
@@ -4780,6 +4782,7 @@
 *.ig.ferencak.net
 *.social.ferrocarril.net
 *.social.ffmuc.net
+*.pixelfed.fftlt.net
 *.m.filmfreedom.net
 *.tv.filmfreedom.net
 *.toot.finfur.net
@@ -4791,6 +4794,7 @@
 *.social.fohte.net
 *.tiktok.com.c.footprint.net
 *.tiktok.com.c.secure.footprint.net
+*.misskey.frainsan.net
 *.freebasics.net
 *.freefacebook.net
 *.freefacebookads.net
@@ -4912,7 +4916,6 @@
 *.misskey.lag129.net
 *.misskey.lazywildcat.net
 *.pixelfed.lebeaunuage.net
-*.lebrady.net
 *.left-bank.net
 *.misskey.lehhair.net
 *.lemmyverse.net
@@ -4966,6 +4969,7 @@
 *.sns.mouii.net
 *.tube.move-it-online.net
 *.social.mrtoto.net
+*.freeski.msnis.net
 *.social.multiverset.net
 *.mstdn.murasama.net
 *.mastodon.murkworks.net
@@ -4980,7 +4984,6 @@
 *.nbabot.net
 *.mastodon.neometropolis.net
 *.social.nerd.net
-*.shork.nerdmusic.net
 *.mastodon.nether.net
 *.m.neutral-human.net
 *.social.ng1n.net
@@ -5028,6 +5031,7 @@
 *.poils.pachyderme.net
 *.don.paltee.net
 *.pandapla.net
+*.fediblog.parleur.net
 *.mastodon.parleur.net
 *.videos.parleur.net
 *.pleroma.pch.net
@@ -5037,7 +5041,6 @@
 *.phonetown.net
 *.photocave.net
 *.photodn.net
-*.lemmy.photon-grove.net
 *.tube.picasoft.net
 *.lemmy.piepjes.net
 *.vault76.pikaser.net
@@ -5049,6 +5052,7 @@
 *.pravdasocial.net
 *.social.process-one.net
 *.procrastodon.net
+*.procydon.net
 *.mastodon.progaccess.net
 *.social.publicspaces.net
 *.video.publicspaces.net
@@ -5065,13 +5069,11 @@
 *.rankett.net
 *.mastodon.raumfahrer.net
 *.tube.rdan.net
-*.mi.re22.net
 *.clips.regenpfeifer.net
 *.pics.regenpfeifer.net
 *.social.regenpfeifer.net
 *.peertube.rezel.net
 *.pt.rikkalab.net
-*.lemmy.rimfaxe.net
 *.mstdn.rinsuki.net
 *.rknyman.net
 *.rocksdb.net
@@ -5095,6 +5097,7 @@
 *.sc-corp.net
 *.sc-prod.net
 *.sc-static.net
+*.schoffelen.net
 *.mastodon.sebfox.net
 *.social.securitytheater.net
 *.tube.sekretaerbaer.net
@@ -5105,6 +5108,7 @@
 *.ukadon.shillest.net
 *.shortens.net
 *.shredderfood.net
+*.mstdn.sids-ai.net
 *.misskey.simesaba80.net
 *.fedi.simonwillison.net
 *.mastodon.simounet.net
@@ -5120,13 +5124,13 @@
 *.peertube.solidev.net
 *.somewhy.net
 *.multiverse.soulism.net
+*.videos.squat.net
 *.byteoversea.com.srip.net
 *.muscdn.com.srip.net
 *.standup-comics.net
 *.mastodon.staropa.net
 *.stellanaut.net
 *.forum.storstad.net
-*.mstdn.strafpla.net
 *.misskey6.subaseka.net
 *.misskey.sui-ryu.net
 *.mi.suiteru-space.net
@@ -5159,8 +5163,6 @@
 *.s.thenautilus.net
 *.tube.theplattform.net
 *.mastodon.theqonline.net
-*.mk.therwi.net
-*.social.thetaits.net
 *.threads.net
 *.yuzzzkey.tiekayo.net
 *.peertube.tiennot.net
@@ -5189,7 +5191,7 @@
 *.social.uninformation.net
 *.wf.unixcat.net
 *.urbanmind.net
-*.usuarix.net
+*.utaskey.net
 *.uwyn.net
 *.varishangout.net
 *.fedi.virtualgalleria.net
@@ -5206,7 +5208,6 @@
 *.vkuservideo.net
 *.vocalodon.net
 *.discuss.voidcentury.net
-*.vrc-ins.net
 *.waff-skey.net
 *.i.wakakyu.net
 *.social.walnutquacks.net
@@ -5223,6 +5224,7 @@
 *.misskey.wotsulabo.net
 *.wp-social.net
 *.peertube.wtfayla.net
+*.wyrdsweb.net
 *.anarkey.xennippon.net
 *.mastodon.xethos.net
 *.fedi.xirion.net
@@ -5236,13 +5238,13 @@
 *.yakyudon.net
 *.yasaiseikatsu.net
 *.misskey.yeonji.net
-*.fedi.yesmap.net
 *.videos.yeswiki.net
 *.read.yjmbo.net
 *.next.yncrypt.net
 *.post.yourein.net
 *.yumesuki.net
-*.misskey.yurut.net
+*.zanqa.net
+*.social.zclan.net
 *.mastodon.zergy.net
 *.zkgmkskz.net
 *.vn.zohup.net
@@ -5258,6 +5260,7 @@
 *.federation.network
 *.galacticsocial.network
 *.hubzilla.network
+*.kviz.leemoon.network
 *.leftist.network
 *.lily.network
 *.muri.network
@@ -5283,6 +5286,7 @@
 *.tube.cara.news
 *.communick.news
 *.eicker.news
+*.gioia.news
 *.learnk8s.news
 *.masto.news
 *.video.megaphone.news
@@ -5293,6 +5297,7 @@
 *.fox.nexus
 *.microblog.infinito.nexus
 *.video.infinito.nexus
+*.kvarkki.nexus
 *.lemmy.nexus
 *.toots.niark.nexus
 *.shark.protogen.nexus
@@ -5341,15 +5346,16 @@
 *.hyves.nl
 *.social.interlunium.nl
 *.tube.kher.nl
+*.mastodon.klaaspier.nl
 *.lemy.nl
 *.linkedin.nl
+*.pixelfed.marcelendechaps.nl
 *.mastodon.nl
 *.lemmy.moonling.nl
 *.mastodon.moonling.nl
 *.mublog.nl
 *.bodli.mven.nl
 *.social.oarsnet.nl
-*.kiek.opensoos.nl
 *.social.overheid.nl
 *.piefed.nl
 *.pinterest.nl
@@ -5386,6 +5392,7 @@
 *.i1.no
 *.mofu.kemo.no
 *.kjas.no
+*.blog.potetserver.no
 *.peertube.ra.no
 *.snabelen.no
 *.tutoteket.no
@@ -5403,12 +5410,12 @@
 *.video.ocs.nu
 *.tube.shela.nu
 *.toots.nu
-*.mu.zaitcev.nu
 *.lucha.nyc
 *.masto.nyc
 *.pixelfed.nyc
 *.social.praxis.nyc
 *.socialclub.nyc
+*.video.nyc
 *.tube.arthack.nz
 *.cloudisland.nz
 *.pinterest.co.nz
@@ -5454,6 +5461,7 @@
 *.mintama.one
 *.kuroyuki-server.misskey.one
 *.lemmy.mrm.one
+*.mstdn.one
 *.nep.one
 *.netsphere.one
 *.nya.one
@@ -5470,7 +5478,6 @@
 *.tkz.one
 *.uneune.one
 *.mkultra.x27.one
-*.zoinks.one
 *.blog.gaza.onl
 *.loci.onl
 *.moe.onl
@@ -5489,8 +5496,6 @@
 *.crazypeople.online
 *.cville.online
 *.discuss.online
-*.dreamin.online
-*.lemmy.durstig.online
 *.fem.elbarri.online
 *.fedi.engelise.online
 *.misskey.favskey.online
@@ -5534,11 +5539,13 @@
 *.social.pearqueendom.online
 *.retrochat.online
 *.rpvortex.online
+*.schleuss.online
 *.shmg.online
 *.lemmy.sietch.online
 *.signers.online
 *.silversword.online
 *.slayers.online
+*.squatch.online
 *.stefanbohacek.online
 *.mastodon.stevex.online
 *.submarin.online
@@ -5548,7 +5555,6 @@
 *.hal9.ooo
 *.lemmy.igl.ooo
 *.mastodon.igl.ooo
-*.lemmy.mats.ooo
 *.toast.ooo
 *.lemmy.0xloc.org
 *.1312blogs.org
@@ -5613,6 +5619,7 @@
 *.brinjal.org
 *.byted.org
 *.social.caa-ins.org
+*.camaapp.camfed.org
 *.mastodon.cemea.org
 *.videos.cemea.org
 *.social.chalec.org
@@ -5639,6 +5646,7 @@
 *.lemmy.cyberia9.org
 *.peertube.dair-institute.org
 *.dansu.org
+*.darkraislegs.org
 *.dasforum.org
 *.lemmy.datenverkehr.org
 *.medias.debrouillonet.org
@@ -5662,7 +5670,9 @@
 *.duuckzz.duckdns.org
 *.funkwhale.duckdns.org
 *.video.genky.duckdns.org
+*.lemmy.scotchandsawdust.duckdns.org
 *.sekai-biyori.duckdns.org
+*.videotube.duckdns.org
 *.social.duniter.org
 *.social.dvd-regal.org
 *.thegoatery.dyndns.org
@@ -5677,7 +5687,6 @@
 *.eientei.org
 *.lemmy.eknz.org
 *.pf.elesoc.org
-*.catharsis.emancipe.org
 *.enredarnos.org
 *.chirp.enworld.org
 *.partners.eqtube.org
@@ -5689,6 +5698,7 @@
 *.mast.eu.org
 *.petlover.eu.org
 *.ramen-fsm.eu.org
+*.liminalgici.spacc.eu.org
 *.hoihoi.superboi.eu.org
 *.mastodon.evilgeniuschronicles.org
 *.eviltoast.org
@@ -5722,6 +5732,7 @@
 *.discontent.fedward.org
 *.tube.felinn.org
 *.social.ffconf.org
+*.video.fhtagn.org
 *.mastodon.fightforthefuture.org
 *.videos.figucarolina.org
 *.firetribe.org
@@ -5796,6 +5807,7 @@
 *.ist-ur.org
 *.newskey.ja-jp.org
 *.jiaojiao.org
+*.mastodon.joaoleitao.org
 *.lemmy.johnnei.org
 *.join-lemmy.org
 *.joinmastodon.org
@@ -5815,6 +5827,8 @@
 *.kotikone.org
 *.toot.kotocoop.org
 *.krabb.org
+*.masto.krashboyz.org
+*.media.krashboyz.org
 *.pic.krashboyz.org
 *.mi.kuropen.org
 *.l3ib.org
@@ -5823,6 +5837,7 @@
 *.pix.lalafell.org
 *.social.landshut.org
 *.lemmus.org
+*.lemmy.org
 *.lemmychan.org
 *.videos.lescommuns.org
 *.blog.librescrum.org
@@ -5833,6 +5848,7 @@
 *.lab.liteyuki.org
 *.peertube.livingutopia.org
 *.lnrs.org
+*.mastodon.loess-aauw.org
 *.writefreely.lokean.org
 *.m.lonet.org
 *.obradoirodaresonancia.lostrego.org
@@ -5843,6 +5859,9 @@
 *.mastocomm.org
 *.mastodon-swiss.org
 *.mastodon.matrix.org
+*.fed.mavzer.org
+*.sosyal.mavzer.org
+*.esquite.mazorca.org
 *.mcrouter.org
 *.mastodon.mediafaro.org
 *.peertube.meditationsteps.org
@@ -5856,7 +5875,6 @@
 *.videos.mgnosv.org
 *.blog.michaeldileo.org
 *.lemmy.michaelsasser.org
-*.masto.millforge.org
 *.milpamerica.org
 *.videos.miolo.org
 *.misp-community.org
@@ -5864,6 +5882,7 @@
 *.mlemapp.org
 *.lm.mlfh.org
 *.blog.morschel.org
+*.bots.mpaq.org
 *.masto.mtcrew.org
 *.mastodon.muage.org
 *.mujico.org
@@ -5885,11 +5904,9 @@
 *.mastodon.nnn1590.org
 *.noblogo.org
 *.node9.org
-*.tube.nogafa.org
 *.nomiss.org
 *.akk.novalug.org
 *.social.nrwonline.org
-*.social.nubecula.org
 *.social.nuberu.org
 *.nusara.org
 *.watch.ocaml.org
@@ -5907,6 +5924,7 @@
 *.social.openrightsgroup.org
 *.social.opensource.org
 *.tube.opentech-auc.org
+*.mastodon.opter.org
 *.orfodon.org
 *.lemmy.organic-server.org
 *.community.orixon.org
@@ -5928,7 +5946,6 @@
 *.social.politicaconciencia.org
 *.poliverso.org
 *.toot.portes-imaginaire.org
-*.tube.portes-imaginaire.org
 *.postb.org
 *.social.prepedia.org
 *.media.privacyinternational.org
@@ -5958,6 +5975,7 @@
 *.saptodon.org
 *.social.sceneworld.org
 *.sdasocial.org
+*.lemmy.sdf.org
 *.mastodon.sdf.org
 *.social.sdfeu.org
 *.mastodon.seattlematrix.org
@@ -5976,6 +5994,7 @@
 *.smithtodon.org
 *.camp.smolnet.org
 *.snapmap.org
+*.mast.social-pod.org
 *.socialcoders.org
 *.sociallydental.org
 *.syndicat.solidaires.org
@@ -5987,7 +6006,6 @@
 *.surlaterre.org
 *.mast.swfindercore.org
 *.lemmy.syltburk.org
-*.social.synacek.org
 *.toaster.syntaxes.org
 *.mstdn.syoshida.org
 *.mastodon.tal.org
@@ -5998,8 +6016,8 @@
 *.tube.teckids.org
 *.telegram.org
 *.terreta.org
-*.lemmy.tespia.org
 *.videos.testimonia.org
+*.social.tgjb.org
 *.thebrainbin.org
 *.fedi.thechangebook.org
 *.hub.thechangebook.org
@@ -6020,6 +6038,7 @@
 *.vid.ttwsyfree.org
 *.tubedu.org
 *.tubefree.org
+*.tuohy.org
 *.tutter.org
 *.two-bits.org
 *.videos.ubuntu-paris.org
@@ -6067,6 +6086,7 @@
 *.c64.page
 *.cerulean.page
 *.lemmy.freewilltiger.page
+*.mastodon.hurley.page
 *.mastoxiv.page
 *.misskey.polyhymnia.page
 *.calc.rettuce.page
@@ -6152,6 +6172,7 @@
 *.lemmy.trippy.pizza
 *.0x3c.pl
 *.101010.pl
+*.social.chatik.pl
 *.mastodon.com.pl
 *.entropiadaily.pl
 *.blog.brwinow.gmina.pl
@@ -6172,6 +6193,7 @@
 *.types.pl
 *.aoharu.place
 *.awkward.place
+*.charities.place
 *.clip.place
 *.fedi.eepycats.place
 *.mastodon.gamedev.place
@@ -6181,6 +6203,7 @@
 *.pigeon.place
 *.snep.place
 *.supernova.place
+*.suya.place
 *.union.place
 *.social.security.plumbing
 *.estrogen.plus
@@ -6217,6 +6240,7 @@
 *.hedgehog.pub
 *.infosec.pub
 *.kono.pub
+*.reads.netsphere.pub
 *.nord.pub
 *.opinion.pub
 *.perkins.pub
@@ -6242,7 +6266,6 @@
 *.lemmy.beagle.quest
 *.milkiyatelier.quest
 *.fedi.pathsecho.quest
-*.vid.pathsecho.quest
 *.hollow.raccoon.quest
 *.tube.raccoon.quest
 *.vex.quest
@@ -6290,6 +6313,7 @@
 *.belfry.rip
 *.in.coffin.rip
 *.mastodon.ftp.rip
+*.mk.iwashi.rip
 *.kwick.rip
 *.mastodon.rip
 *.lemmy.stinky.rip
@@ -6318,7 +6342,6 @@
 *.social.pmj.rocks
 *.fw.ponychord.rocks
 *.reclaim.rocks
-*.social.team-prism.rocks
 *.pt.thishorsie.rocks
 *.tuiter.rocks
 *.wien.rocks
@@ -6339,9 +6362,10 @@
 *.www.twitter.rs
 *.ukraine.rs
 *.22x22.ru
+*.3zi.ru
+*.alexme.ru
 *.anekdot.ru
 *.tiktok.cdnvideo.ru
-*.lemmy.drath.ru
 *.dtf.ru
 *.mastodon.dungur.ru
 *.dzen.ru
@@ -6360,6 +6384,7 @@
 *.peertube.luanti.ru
 *.tusky.maildog.ru
 *.mamba.ru
+*.tube.mgppu.ru
 *.mirtesen.ru
 *.mirtube.ru
 *.mt.ru
@@ -6437,16 +6462,17 @@
 *.pixelfedsweden.se
 *.social.podsnack.se
 *.rightbay.se
+*.mastodon.samtalsforum.se
 *.skrivel.se
 *.sociall.se
 *.streetwi.se
 *.mastodon.acc.sunet.se
 *.social.sunet.se
 *.social-test.sunet.se
-*.mastodon.triggerphra.se
 *.tetrahedron.trisec.se
 *.tyckling.se
 *.in.unover.se
+*.xn--samsprka-f0a.se
 *.canal.facil.services
 *.jasette.facil.services
 *.social.growyourown.services
@@ -6479,7 +6505,6 @@
 *.misskey.kohakuserver.f5.si
 *.lty.f5.si
 *.mastodon.midnight-club.f5.si
-*.misskey.scn-adm1n.f5.si
 *.m.shibshib.f5.si
 *.sns.wamom.f5.si
 *.kino.kompot.si
@@ -6492,6 +6517,7 @@
 *.yharnam.singles
 *.mi.7mi.site
 *.aana.site
+*.pixelfed.arecki.site
 *.birb.site
 *.blog.cjeller.site
 *.dannythe.site
@@ -6518,8 +6544,10 @@
 *.tanoshii.site
 *.skyblog.tausendblum.site
 *.temeritas.site
+*.theillegal.site
 *.twoot.site
 *.viditube.site
+*.alt-f4.sk
 *.glimpster.sk
 *.mastodon.sk
 *.social.pozrisi.sk
@@ -6537,7 +6565,6 @@
 *.23.social
 *.41020.social
 *.4d2.social
-*.4unt1ngt0n.social
 *.a11y.social
 *.a2mi.social
 *.abend.social
@@ -6574,6 +6601,7 @@
 *.arthropod.social
 *.artsandculture.social
 *.arvr.social
+*.asamblea.social
 *.aschaffenburg.social
 *.akkoma.ascyltos.social
 *.asozialesnetzwerk.social
@@ -6614,8 +6642,6 @@
 *.belastodon.social
 *.belgae.social
 *.bemrose.social
-*.beo.social
-*.bergamot.social
 *.mastodon.bergen.social
 *.berlin.social
 *.bertha.social
@@ -6623,9 +6649,9 @@
 *.bewegung.social
 *.beyondgender.social
 *.beyondwatts.social
+*.bien-etre.social
 *.bigrat.social
 *.bihar.social
-*.bikersgo.social
 *.bildung.social
 *.billsmafia.social
 *.biodiversity.social
@@ -6650,7 +6676,6 @@
 *.boriken.social
 *.social.boro.social
 *.boskovice.social
-*.brainport.social
 *.brandenburg.social
 *.breadandnet.social
 *.breizh.social
@@ -6668,20 +6693,21 @@
 *.cabanyal.social
 *.pix.calculate.social
 *.tube.calculate.social
-*.campduffel.social
 *.caneandable.social
 *.cansoccer.social
 *.capcom.social
 *.cas.social
 *.cascarilla.social
+*.casjay.social
 *.catalan.social
+*.cbr.social
 *.cccwi.social
 *.mastodon.cde.social
 *.cfn.social
 *.chablis.social
 *.changelog.social
 *.chaos.social
-*.pixelfeed.chaos-gp.social
+*.chaos-gp.social
 *.chaosfurs.social
 *.chroma.social
 *.churchofjesuschrist.social
@@ -6703,7 +6729,6 @@
 *.computerclub.social
 *.computermuseum.social
 *.confessional.social
-*.copland.social
 *.coplus.social
 *.cordel.social
 *.corndog.social
@@ -6733,6 +6758,7 @@
 *.cyberplace.social
 *.czinege.social
 *.d-64.social
+*.daan.social
 *.dair-community.social
 *.darkmoon.social
 *.darksheep.social
@@ -6748,6 +6774,7 @@
 *.deen.social
 *.deepspace.social
 *.defcon.social
+*.degrowth.social
 *.denton.social
 *.denvr.social
 *.der-echte-nerden.social
@@ -6770,7 +6797,6 @@
 *.dju.social
 *.dnsimple.social
 *.does.social
-*.domum.social
 *.donphan.social
 *.dordrecht.social
 *.dotnet.social
@@ -6821,6 +6847,7 @@
 *.fairpoints.social
 *.mastodon.faithtree.social
 *.fanaticus.social
+*.fanboys.social
 *.farts.social
 *.fastcompany.social
 *.mstdn.feddit.social
@@ -6833,9 +6860,11 @@
 *.fediworld.social
 *.feedmirror.social
 *.fellies.social
+*.fem.social
 *.fiasco.social
 *.fidelis.social
 *.fietkau.social
+*.fietser.social
 *.firekitten.social
 *.fischmarkt.social
 *.fisting.social
@@ -6919,6 +6948,7 @@
 *.gruene.social
 *.mastodon.gruenheide.social
 *.grumble.social
+*.guelph.social
 *.guzmer.social
 *.h-net.social
 *.hackaday.social
@@ -6953,6 +6983,7 @@
 *.honeybadger.social
 *.hoosier.social
 *.hooves.social
+*.horrortalk.social
 *.hortensia.social
 *.hostux.social
 *.howdee.social
@@ -7052,7 +7083,6 @@
 *.linh.social
 *.linke.social
 *.linuxhotel.social
-*.mbin.linuxnation.social
 *.literatur.social
 *.chatter.llamarific.social
 *.lohmann.social
@@ -7128,13 +7158,13 @@
 *.mutirao.social
 *.myfedi.social
 *.myna.social
-*.friendica.myportal.social
 *.n7.social
 *.nabu.social
 *.nahe.social
 *.nahetown.social
 *.nap.social
 *.naturschutz.social
+*.navi.social
 *.neander.social
 *.nekos.social
 *.nekton.social
@@ -7179,7 +7209,6 @@
 *.nycr.social
 *.oak.social
 *.obeya.social
-*.oceanplayground.social
 *.ocw.social
 *.oddprocess.social
 *.odenwald.social
@@ -7219,6 +7248,7 @@
 *.peering.social
 *.penfount.social
 *.penguicon.social
+*.peoplegroup.social
 *.pfadi.social
 *.pfalz.social
 *.phalanstere.social
@@ -7248,7 +7278,6 @@
 *.podcaster.social
 *.podcastindex.social
 *.podcasts.social
-*.pol.social
 *.polsci.social
 *.pone.social
 *.ponies.social
@@ -7279,7 +7308,7 @@
 *.racoon.social
 *.radikal.social
 *.raphus.social
-*.ratingen.social
+*.recht.social
 *.recluse.social
 *.recsys.social
 *.redwombat.social
@@ -7310,6 +7339,7 @@
 *.roanoke.social
 *.rollenspiel.social
 *.rosti.social
+*.route66.social
 *.rubber.social
 *.ruby.social
 *.ruhr.social
@@ -7347,6 +7377,7 @@
 *.sechtor.social
 *.seeedstudio.social
 *.segeln.social
+*.seglerinfo.social
 *.sekai.social
 *.semaphor.social
 *.semtex.social
@@ -7391,6 +7422,7 @@
 *.squawk.social
 *.squeak.social
 *.beta.stacky.social
+*.lemmy.stad.social
 *.statesnewsroom.social
 *.stereodon.social
 *.sticky.social
@@ -7469,6 +7501,7 @@
 *.topspicy.social
 *.transfem.social
 *.transfur.social
+*.transzh.social
 *.trees.social
 *.trekkies.social
 *.trg.social
@@ -7497,6 +7530,7 @@
 *.ucb.social
 *.hub.uckermark.social
 *.uddannelse.social
+*.uesantandreu.social
 *.uestc.social
 *.ull.social
 *.umas.social
@@ -7594,6 +7628,7 @@
 *.social.controlnet.space
 *.gdl.cooltura.space
 *.coretalk.space
+*.tube.cosmicflow.space
 *.crabsin.space
 *.cuddly.space
 *.d3f4ult.space
@@ -7622,7 +7657,7 @@
 *.hexagon.space
 *.hiradai.space
 *.hispagatos.space
-*.lemmy.hkserv.space
+*.hunni.space
 *.hydrate.space
 *.hydrocube.space
 *.social.iamforum.space
@@ -7645,7 +7680,6 @@
 *.layer8.space
 *.leminal.space
 *.lemmynal.space
-*.lewacki.space
 *.lgbtqia.space
 *.my.lono.space
 *.note.lono.space
@@ -7696,11 +7730,11 @@
 *.spacey.space
 *.starcities.space
 *.f.starshard.space
+*.social.starsyn.space
 *.stereophonic.space
 *.sunstation.space
 *.books.superawesomecorp.space
 *.thevipvipers.space
-*.theweird.space
 *.trilobite.space
 *.trollian.space
 *.social.tupo.space
@@ -7708,6 +7742,7 @@
 *.mastodon.wolfssocial.space
 *.yasuragino.space
 *.zelk.space
+*.snep.spot
 *.mastodon.adju.st
 *.social.blazma.st
 *.ice.ch3.st
@@ -7743,10 +7778,10 @@
 *.dragon.style
 *.normal.style
 *.video.383.su
-*.peertube.cif.su
 *.fabler.su
 *.mstdn.forfun.su
 *.fosstodon.su
+*.idealists.su
 *.kommunity.su
 *.tube.kx-home.su
 *.mi.starlamp.su
@@ -7754,6 +7789,7 @@
 *.bloom.surf
 *.awful.systems
 *.collapsible.systems
+*.zarja.crq.systems
 *.discuss.systems
 *.social.glitched.systems
 *.misskey.systems
@@ -7771,6 +7807,7 @@
 *.mastodon-test.fsd.team
 *.hikki.team
 *.tardis.team
+*.masto2.100flowers.tech
 *.write.bauxite.tech
 *.mastodon.brol.tech
 *.mastodon.chrisedwards.tech
@@ -7804,10 +7841,13 @@
 *.woof.tech
 *.catgirls.technology
 *.social.ninefives.technology
+*.social.technology
 *.hamradio.tel
 *.mice.tel
 *.write.outer.tf
 *.pix.trom.tf
+*.social.trom.tf
+*.videos.trom.tf
 *.mstdn.in.th
 *.mk.na.in.th
 *.pinterest.th
@@ -7851,16 +7891,13 @@
 *.funkwhale.agapimou.top
 *.alien.top
 *.social.arisnet.top
-*.lemmy.bouniet.top
 *.furca.top
 *.jugopiksel.top
 *.kudaizuna.top
 *.wf.lavatech.top
 *.librefeed.top
 *.mastodon.top
-*.megumi1.top
 *.m.moec.top
-*.akkoma.moemoekyun.top
 *.pegelinux.top
 *.redspinning.top
 *.retirenow.top
@@ -7918,7 +7955,6 @@
 *.whinge.town
 *.mastodon.com.tr
 *.yaktube.yakhub.com.tr
-*.video.bilecik.edu.tr
 *.pix.internetiseviyorum.tr
 *.misskey.tr
 *.shitpost.trade
@@ -7940,7 +7976,6 @@
 *.peer.tube
 *.pony.tube
 *.praxis.tube
-*.share.tube
 *.spook.tube
 *.tankie.tube
 *.thecool.tube
@@ -7994,9 +8029,9 @@
 *.xn--ior.tw
 *.social.zeroplex.tw
 *.filmly.co.ua
-*.peertube.in.ua
 *.social.kyiv.dcomm.net.ua
 *.social.lviv.dcomm.net.ua
+*.social.mykolayiv.dcomm.net.ua
 *.social.rivne.dcomm.net.ua
 *.mn.statyvka.org.ua
 *.tube.statyvka.org.ua
@@ -8040,7 +8075,6 @@
 *.toot.me.uk
 *.writing.transient.me.uk
 *.minazukey.uk
-*.lemmy.mio19.uk
 *.mi.mtomo.uk
 *.m.nekohub.uk
 *.social.aa.net.uk
@@ -8059,6 +8093,7 @@
 *.socialforlife.uk
 *.mk.tenpest-moon.uk
 *.things.uk
+*.whitespashe.uk
 *.xcopy.uk
 *.bocchi.yorozu.uk
 *.social.reutlingen.university
@@ -8079,6 +8114,7 @@
 *.social.ds106.us
 *.facebook.us
 *.glammr.us
+*.mastodon.jacobwhite.us
 *.jiong.us
 *.vid.kinuseka.us
 *.social.longwing.us
@@ -8110,7 +8146,6 @@
 *.mastodon.uy
 *.tube.undernet.uy
 *.www.twitter.uz
-*.mtd.task.vc
 *.wuma.vc
 *.social.yolo.ventures
 *.mi.eap.vg
@@ -8134,6 +8169,7 @@
 *.play-my.video
 *.peertube.s2s.video
 *.sfba.video
+*.snipesearch.video
 *.solarsystem.video
 *.spectra.video
 *.streamsource.video
@@ -8166,6 +8202,7 @@
 *.mastodon.unsuspicious.website
 *.untrusted.website
 *.wiggle.website
+*.dec.fix.wien
 *.mastodon.wien
 *.lemmy.charles.wiki
 *.joinfediverse.wiki
@@ -8233,7 +8270,7 @@
 *.friendica.world
 *.cal.gaooo.world
 *.community.goodcommons.world
-*.pale.hellel.world
+*.hellel.world
 *.hobbit.world
 *.lemmy.world
 *.mastodon.world
@@ -8244,7 +8281,6 @@
 *.oomfie.world
 *.m.otta.world
 *.photofed.world
-*.piefed.world
 *.sharkey.world
 *.shitposter.world
 *.fediverse.thefloatinglab.world
@@ -8264,7 +8300,6 @@
 *.fedii.xn--n3haa.ws
 *.c.wtf
 *.chai.wtf
-*.cultofshiv.wtf
 *.dudelike.wtf
 *.faf.wtf
 *.hachyderm.wtf
@@ -8306,7 +8341,7 @@
 *.arxkey.xyz
 *.avantwhatever.xyz
 *.verse.averagedood.xyz
-*.lemmy.b0tt0m.xyz
+*.az-social.xyz
 *.bakedbean.xyz
 *.barkclub.xyz
 *.masto.bimbiribase.xyz
@@ -8314,6 +8349,7 @@
 *.blimps.xyz
 *.boys-love.xyz
 *.bytesize.xyz
+*.video.cartoon-aa.xyz
 *.hoya.casacamelia.xyz
 *.lokyoski.casacamelia.xyz
 *.video.cat-jump.xyz
@@ -8329,14 +8365,15 @@
 *.dline.xyz
 *.doushishokun.xyz
 *.elekk.xyz
+*.fedi.epicalert.xyz
 *.misskey.eulendore.xyz
 *.ifrit.gaia.ff14-mstdn.xyz
 *.blog.foxylo.xyz
 *.lemmy.frozeninferno.xyz
 *.genderheretics.xyz
 *.india.goonj.xyz
+*.social.goonj.xyz
 *.gorone.xyz
-*.peertube.gravitywell.xyz
 *.pie.gravitywell.xyz
 *.lemmy.halfbro.xyz
 *.blog.hllcn.xyz
@@ -8348,6 +8385,7 @@
 *.misskey.kzkr.xyz
 *.mastodon.lanofthedead.xyz
 *.odin.lanofthedead.xyz
+*.mi.lapiskey.xyz
 *.videos.lukesmith.xyz
 *.writeas.madjo.xyz
 *.maekongtown.xyz
@@ -8393,8 +8431,6 @@
 *.blog.sanifair.xyz
 *.videos.scanlines.xyz
 *.scicomm.xyz
-*.seediqbale.xyz
-*.misskey.sharkbot.xyz
 *.misskey.shinanoji.xyz
 *.misskey.shinanomai.xyz
 *.sironi.xyz
@@ -8420,11 +8456,11 @@
 *.k.yumeka.xyz
 *.yumk.xyz
 *.orcas.enjoying.yachts
+*.meyon.com.ye
 *.chomps.you
 *.red.fox.yt
 *.mastodon.monoceros.co.za
 *.social.oevents.co.za
-*.cuties.zip
 *.misskey.gourry.zip
 *.lemmy.zip
 *.mastodon.zip
@@ -8433,6 +8469,7 @@
 *.soc.runx.zip
 *.soph.zip
 *.synth.zip
+*.wtf.zip
 *.aussie.zone
 *.autonomous.zone
 *.mastodon.bhop.zone
@@ -8465,6 +8502,7 @@
 *.taur.zone
 *.therian.zone
 *.tilde.zone
+*.mutual.tls.zone
 *.ursal.zone
 *.vixen.zone
 *.xcloud.zone

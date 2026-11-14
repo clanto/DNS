@@ -3038,6 +3038,7 @@
 *.link.24go.co
 *.sa.adidas.co
 *.adnext.co
+*.adnz.co
 *.get.aivatar.co
 *.app.albrt.co
 *.app-test.albrt.co
@@ -3192,6 +3193,7 @@
 *.links.grand.co
 *.stats.greatlakesdesign.co
 *.info.heirtight.co
+*.analytics.bucks.helixo.co
 *.go.heybianca.co
 *.link.heycloudy.co
 *.munnin.hicsuntdra.co
@@ -7525,6 +7527,7 @@
 *.altopd.com
 *.pakdru.altrarunning.com
 *.learn.altsourcesoftware.com
+*.analytics.alvarezrosa.com
 *.zcjemo.alwaysfashion.com
 *.a.alzcombocare.com
 *.a8cv.ama-create.com
@@ -9248,6 +9251,8 @@
 *.mlinkdev.bookedout.com
 *.sstats.bookhostels.com
 *.asanalytics.booking.com
+*.sink.gw.booking.com
+*.otel-gw.booking.com
 *.web-perf.booking.com
 *.sstats.bookingbuddy.com
 *.stats.bookingbuddy.com
@@ -11717,6 +11722,7 @@
 *.debonairtree.com
 *.data.debugbear.com
 *.ibbmfq.decameron.com
+*.tag.decentriq.com
 *.tr.lettre.dechets-infos.com
 *.decidedrum.com
 *.decimalnet.com
@@ -12283,6 +12289,7 @@
 *.tracking.dpmlol.com
 *.m.dq.com
 *.dq95d35.com
+*.cdn.visits.dqapis.com
 *.a8clk.dr-10.com
 *.tracking.dr-10.com
 *.a8clk.dr-8.com
@@ -13799,6 +13806,7 @@
 *.marketing.firearmsins.com
 *.smetrics.fireballwhisky.com
 *.firecatfilms.com
+*.nexus.firecrown.com
 *.fpc.firemountaingems.com
 *.fpcs.firemountaingems.com
 *.analytics.firespring.com
@@ -26265,6 +26273,7 @@
 *.a8cv.taxi-qjin.com
 *.branchio.taxibeat.com
 *.taxisubsea.com
+*.taxiwear.com
 *.11b6n4ty2x3.taxliencode.com
 *.ta.taxslayer.com
 *.tsa.taxslayer.com
@@ -26628,6 +26637,7 @@
 *.links.theinfatuation.com
 *.d712.theinformation.com
 *.marketing.theinovogroup.com
+*.fpa-events.theintercept.com
 *.thejavalane.com
 *.link.thejetjournal.com
 *.rgmseo.thejewellershop.com
@@ -27341,7 +27351,9 @@
 *.smetrics.us.trintellix.com
 *.t-pan.triodos.com
 *.admissions.trios.com
+*.cdid.trip.com
 *.chloro.trip.com
+*.riskpoc.trip.com
 *.say.hello.tripactions.com
 *.wepany.tripbeat.com
 *.bnc.tripcody.com
@@ -34580,6 +34592,7 @@
 *.leadhit.io
 *.lemonpi.io
 *.tag.lexer.io
+*.rybbit-analytics.livecounts.io
 *.branch.att.llabs.io
 *.3889082.dev.att.llabs.io
 *.branch.dev.att.llabs.io
@@ -38677,6 +38690,7 @@
 *.analytics.reyrey.net
 *.statistics.riskommunal.net
 *.smetrics.rocheonline.net
+*.rocketserver.net
 *.managedaccounts.rockymountainpower.net
 *.matrk.rockymountainpower.net
 *.cv.www.rokuzan.net
@@ -38889,6 +38903,7 @@
 *.targetemsecure.blob.core.windows.net
 *.analyticsehnwe.servicebus.windows.net
 *.nexxtv-events.servicebus.windows.net
+*.edge.wingify.net
 *.analytics.witglobal.net
 *.txvoin.with2.net
 *.panorama.wixapps.net
