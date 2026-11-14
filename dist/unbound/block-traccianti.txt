@@ -35943,6 +35943,7 @@
 *.ftzets.silkfred.com
 *.a8cv.silktherich.com
 *.analytics.silktide.com
+*.silkyslumber.com
 *.silkysoda.com
 *.silkysquirrel.com
 *.sillyscrew.com
@@ -48625,7 +48626,7 @@
 *.plausible.simplelogin.io
 *.sincro.io
 *.sirdata.io
-*.api-engage-us.sitecorecloud.io
+*.sitecorecloud.io
 *.siteimproveanalytics.io
 *.siteviewer.io
 *.sjpf.io

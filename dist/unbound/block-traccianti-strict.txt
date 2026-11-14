@@ -24877,6 +24877,7 @@
 *.ftzets.silkfred.com
 *.a8cv.silktherich.com
 *.analytics.silktide.com
+*.silkyslumber.com
 *.sillyscrew.com
 *.fathom.app.silverbeak.com
 *.form.e.silverfernfarms.com

@@ -15,7 +15,6 @@
 1008868842.rsc.cdn77.org
 1016945378.rsc.cdn77.org
 1017683305.rsc.cdn77.org
-102-orp-diordna.b-cdn.net
 102.theartieschaffer.com
 1028989235.rsc.cdn77.org
 1034336200.rsc.cdn77.org
@@ -83,7 +82,6 @@
 1133309464.rsc.cdn77.org
 1138625791.rsc.cdn77.org
 1138962056.rsc.cdn77.org
-114-etilobrut-diordna.b-cdn.net
 114.ip-158-69-222.net
 1142797333.rsc.cdn77.org
 1153865737.rsc.cdn77.org
@@ -469,9 +467,6 @@
 3wvve99e.com
 4.theartieschaffer.com
 4.thetravelingtourguide.com
-401-0506.b-cdn.net
-401-0507.b-cdn.net
-401-retsam-swodniw.b-cdn.net
 416d70de.nip.io
 416d70de.sslip.io
 43btlxit.com
@@ -1011,8 +1006,6 @@ bloquer.fr
 bluegray.us
 blueproxy.org
 bmetrics.org
-bmext1static.b-cdn.net
-bmqan2static.b-cdn.net
 bn0dghrx.com
 bnj0d3r2.com
 boda12306.com
@@ -1050,7 +1043,6 @@ bro-ru.org
 broadearn.com
 bromineproxy.netlify.app
 browsebridge.com
-browsec-ru.b-cdn.net
 browsec-ru.bz
 browsec-ru.com
 browsec-ru.net
@@ -1061,7 +1053,6 @@ browsec-rus.net
 browsec-rus.org
 browsec-uninstall.s3-website.eu-central-1.amazonaws.com
 browsec-vpn-ru.com
-browsec.b-cdn.net
 browsec.best
 browsec.biz
 browsec.bz
@@ -1074,7 +1065,6 @@ browservpn.online
 brunysixl.work
 brunysixl.work.cdn.cloudflare.net
 brwczgvk.com
-bs-static.b-cdn.net
 bs8h3v1f.com
 btc4animals.com
 btc4animals.com.cdn.cloudflare.net
@@ -1656,7 +1646,6 @@ fc5eyro1.com
 fcgv4rovovvlixqc2a7qncvev40dbxsy.lambda-url.us-east-1.on.aws
 fck-gulf-of-america.easterndns.com
 fcpchurch.org
-fcvipaffa02.cc
 fdfsvbh.ipv64.net
 fediverse.faefox.org
 feherb.xyz
@@ -1767,7 +1756,6 @@ freevpn.pw
 freevpnapp.org
 freevpnfast.info
 freevpnkeys.com
-freevpnme.b-cdn.net
 freevpnnet.com
 freevpnplanet-ru.com
 freevpnplanet-rus.com
@@ -2174,7 +2162,6 @@ hmnx.work
 hmx.info
 hockeybet.org
 hoeqphmi.com
-hola-client-cdn4.b-cdn.net
 hola-compat.com
 hola-vpn.com
 hola.org
@@ -2266,7 +2253,6 @@ ib-kuailian.com.cn
 ibqlbd1z.com
 ibribeillegals.vaultnoir.com
 ibvpn.com
-ice.io
 icitek.com
 iditinahuipidorasidagga.net
 idkkilo.accesscam.org
@@ -2311,7 +2297,6 @@ incloak.es
 incog.works
 indo-ssh.com
 ineedmoreips.agguiopz.ip-dynamic.org
-ineedmymoney.dynv6.net
 inertproxy.online
 inevpn.com
 infatica-sdk.io
@@ -2339,7 +2324,6 @@ interview.registration.abrdns.com
 intervpn.com
 iohnhbly.com
 iopl.xyz
-iosap2-static.b-cdn.net
 iosp33beec-20c12.kxcdn.com
 iosvpnassistance.com
 ioxy.de
@@ -2842,8 +2826,6 @@ mixing.run
 mjkuhini-777.easterndns.com
 mkdkkn5k.com
 mkkewfye.com
-mlst-prom-static.b-cdn.net
-mlst-static.b-cdn.net
 mm.unstop.cloudns.ch
 mnqwscym.com
 mobile-socket.culturegps.com
@@ -2949,9 +2931,6 @@ mouse.pics
 moutx2.co
 mqrxgzi4.com
 mramato2.myclarevision.com
-mrr-qa-static.b-cdn.net
-mrr-qa2-static.b-cdn.net
-mrr-qa3-static.b-cdn.net
 msc.mcafee.com
 msgiepkj.com
 msjohnsonsmathworksheets.blog
@@ -3751,6 +3730,7 @@ s3-oregon-1.s3-us-west-2.amazonaws.com
 s3.server-space52.info
 s47n.ir.ir.ir.meli-n12.info
 s4m.tech
+s4m.xyz
 s7n.ir.ir.ir.meli-n12.info
 s8.amazonaws.jdymqic.shop
 s8ks.us
@@ -3811,7 +3791,6 @@ science.vincenzodimaro.it.cdn.cloudflare.net
 sciencenews.cc
 sciences.run
 sciencesimplified.pro
-sciencewiki.medscience.cl
 scjzrku6zui5o9.online
 scratchdevfourums.5a3bz.cn
 scur.tent.cloud-ip.cc
@@ -3840,6 +3819,7 @@ securly.com.atamanco.eu
 securly.mom
 secvpnproxy.co.cc
 seed4.me
+seed4me.app
 seed4me.help
 seelabour.com
 sefid.goooalir.co.uk
@@ -4157,6 +4137,7 @@ thevpnmethod.com
 thewalruss.net
 thewirevpn.com
 third-army.surge.sh
+thirdpartycache.b-cdn.net
 thiscopyofartclassisnotgenuine.rare1k.space
 thisismathteach.myclarevision.com
 thisisthe.bestprogramsforkids.com
@@ -4439,7 +4420,6 @@ uubb.website
 uvjifkod11.easterndns.com
 uzrzhcyx.com
 v-2ray.com
-v.cheerfun.dev
 v.theartieschaffer.com
 v22013121930515853.yourvserver.net
 v2202409222721288347.megasrv.de
@@ -4928,6 +4908,7 @@ www-kuaifan.cn
 www-pro.kosite.net
 www-proxy.deersserverhosting.com
 www-proxy.migastep.com
+www-proxy.p2pear.asia
 www-theweb.deersserverhosting.com
 www.3.theartieschaffer.com
 www.94.theartieschaffer.com
@@ -5078,6 +5059,7 @@ yui.cat
 yuki-bbs64c.wan64.de
 yummy.bury.abrdns.com
 yuudai-shadow.easterndns.com
+yuyuproxy.com
 yuzu-4.vpn64.de
 yuzu-haifu.ipv64.net
 yuzu.easterndns.com

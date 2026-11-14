@@ -436,6 +436,7 @@ at.pzhg.me
 atelier.alica.idv.tw
 atl01.dnscry.pt
 atlantic.dyn1.de
+atris.cyou
 atsilva.link
 au-syd-w-f-1.nashkan.net
 au-syd-w-p-1.nashkan.net
@@ -571,6 +572,7 @@ cubedns.com
 curser.dev
 cvt01.dnscry.pt
 cyliu.idv.tw
+cynntex.fun
 d.adguard-dns.com
 d.apemlegit.my.id
 d.gametechnet.com
@@ -1415,6 +1417,7 @@ dns.velyn.my.id
 dns.venclous.org
 dns.vietdns.vn
 dns.vinnyp.xyz
+dns.vip-kingstore.xyz
 dns.virelonix.com
 dns.virtual-qr.ir
 dns.vk09.ru
@@ -1752,8 +1755,6 @@ doh.xorlet.ru
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
-doh1.b-cdn.net
-doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -1991,6 +1992,7 @@ hkg01.dnscry.pt
 hkg02.dnscry.pt
 hkg03.dnscry.pt
 hkg2.edge.access.zznet.fun
+hkname.freecdn.one
 hknat.ooguy.com
 hkns.gzelvis.com
 hkt.kozow.com
@@ -2225,6 +2227,7 @@ lukscasino-479-tr.xyz
 lukscasino-929-tr.xyz
 lunar-dns.de
 luxembourg.privacy-dns.pw
+mabuktogel.solutions
 mad01.dnscry.pt
 maherhost.uk
 mail.data.haus
@@ -2237,9 +2240,6 @@ man01.dnscry.pt
 maqgie.xyz
 maradns.org
 mask-canary.icloud.com
-mask-h2.icloud.com
-mask.apple-dns.net
-mask.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2255,6 +2255,7 @@ mediavault.ee
 meganerd.nl
 megumin.is.my.waifu.cz
 mel01.dnscry.pt
+mendozasdelivery.com
 metragi.synology.me
 mfimail.eu
 mia01.dnscry.pt
@@ -2263,6 +2264,7 @@ micro.alloxr.info
 midgard.asguardian.de
 mijoregner.de
 mikatos.de
+mikezhang.xyz
 mikrobill.dns-cloud.net
 mil01.dnscry.pt
 mimir.magicaobscura.de

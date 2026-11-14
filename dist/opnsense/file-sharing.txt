@@ -110,7 +110,6 @@ fileqube.com
 files-express.com
 files.catbox.moe
 files.mail.ru
-files.to
 files6.com
 filesanywhere.com
 filesavr.com
@@ -335,7 +334,6 @@ streamupload.com
 sube.la
 subefotos.com
 subelas.com
-subetela.com
 subiteya.com
 sugarsync.com
 superphotospace.com

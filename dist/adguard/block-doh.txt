@@ -1724,6 +1724,7 @@
 ||guard-2.vilbav.id.lv^
 ||doh.nic.lv^
 ||d0.tada.ly^
+||mabuktogel.marketing^
 ||bl.eq.md^
 ||ns.00dani.me^
 ||doh.30x.me^
@@ -3091,6 +3092,7 @@
 ||arashi.solutions^
 ||dns.cloudtrust.solutions^
 ||dns.lupine.solutions^
+||mabuktogel.solutions^
 ||webteufel-it.solutions^
 ||1.0rz.space^
 ||2.0rz.space^
