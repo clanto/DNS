@@ -851,6 +851,7 @@
 ||fkey.club^
 ||free-vpn.club^
 ||g01-cn.club^
+||diegito.glandelinnia.club^
 ||gogoo.club^
 ||gtag.club^
 ||hidemy.club^
@@ -3526,6 +3527,7 @@
 ||yessir.happyforever.com^
 ||happykuailian.com^
 ||harbor-lane-bistro.com^
+||harmonygrandeurproxy.com^
 ||harvest-moon-market.com^
 ||harvestinflate.com^
 ||hawkacid.com^
@@ -3763,6 +3765,7 @@
 ||iajee.com^
 ||ianmwxbj.com^
 ||iapure.com^
+||novahistory.ibernoticias.com^
 ||link-five.ibewlocalzero.com^
 ||link-four.ibewlocalzero.com^
 ||link-one.ibewlocalzero.com^
@@ -4061,6 +4064,7 @@
 ||kineticmason.com^
 ||kk98njtt.com^
 ||klcknerrip.com^
+||klpc-letsvpn.com^
 ||klvpn-app.com^
 ||klvpn-pc.com^
 ||kmaojsq.com^
@@ -4468,6 +4472,7 @@
 ||maifot.com^
 ||mainlandvpnapp.com^
 ||mainssh.com^
+||malinavpn.com^
 ||mallocapp.com^
 ||mallocprivacy.com^
 ||mamas-garden-market.com^
@@ -5591,6 +5596,8 @@
 ||snipermixer.com^
 ||snowproxy.com^
 ||dove.soapagent.com^
+||dove.soapclient.com^
+||signup.soapclient.com^
 ||soax.com^
 ||socketprovpn.com^
 ||socksproxychecker.com^
@@ -6319,6 +6326,7 @@
 ||vpnshieldapp.com^
 ||vpnside.com^
 ||vpnsites.com^
+||vpnslotgacor.com^
 ||vpnspa.com^
 ||vpnstunnel.com^
 ||vpnsuper.com^
@@ -6786,6 +6794,7 @@
 ||zqxgfbtj.com^
 ||zrackrmr.com^
 ||zspeed-cdn.com^
+||zuravpn.com^
 ||zwyr157wwiu6eior.com^
 ||zwytzjjz.com^
 ||zxtwpkso.com^
@@ -6904,6 +6913,7 @@
 ||khajujawegifwqaiugwa.tcp64.de^
 ||tcpghe.tcp64.de^
 ||ultimatearca.de^
+||v2ny.de^
 ||yuzu-4.vpn64.de^
 ||classroom-a.wan64.de^
 ||classroom-b.wan64.de^
@@ -9815,6 +9825,7 @@
 ||foreverlian.net^
 ||fortvpn.net^
 ||fproxy.net^
+||free-planet-vpn.net^
 ||free-vpn-planet.net^
 ||free-vpnplanet.net^
 ||free-vpnplanet-ru.net^
@@ -10518,6 +10529,7 @@
 ||gigavpn.online^
 ||gqxzrqicuqjbjazrzmz4cjlc.online^
 ||gullible.online^
+||homesetupvpn.online^
 ||hsnjx4a.online^
 ||ibdwcewgnkujqnzfsxxa.online^
 ||inertproxy.online^
@@ -10536,6 +10548,7 @@
 ||milfavpn.online^
 ||monsterproxy.online^
 ||morivpn.online^
+||myau-vpn.online^
 ||myhalo.online^
 ||nettunnel.online^
 ||newlenta24.online^
@@ -11813,6 +11826,7 @@
 ||vanilcraft.ru^
 ||vanyadvpn.ru^
 ||veltrisia.ru^
+||vexiro.ru^
 ||vezarys.ru^
 ||voltrex.ru^
 ||vorlenta.ru^
@@ -12129,7 +12143,6 @@
 ||activefkey.store^
 ||bizdomain.store^
 ||calculra.store^
-||do-not-block.store^
 ||dobaster1.store^
 ||douyin-update.store^
 ||fastcontent.store^
@@ -13199,6 +13212,7 @@
 ||proxyita.xyz^
 ||proxymtprototg.xyz^
 ||proxytrue.xyz^
+||proxywebsite.xyz^
 ||punchb.xyz^
 ||pure-jsq.xyz^
 ||purejsq.xyz^
@@ -13310,7 +13324,9 @@
 ||vpnifyultra.xyz^
 ||vpnjunkie.xyz^
 ||vpnmir.xyz^
+||vpnreview.xyz^
 ||vpnspeaks.xyz^
+||vpntarget.xyz^
 ||overcloaked.was-on-decayeds-island.xyz^
 ||web3vpn.xyz^
 ||webpro.xyz^
@@ -13331,6 +13347,7 @@
 ||xxcloud.xyz^
 ||xyherb.xyz^
 ||youtu1.xyz^
+||zangyovpn.xyz^
 ||zapov2.xyz^
 ||zavento.xyz^
 ||zc102.xyz^

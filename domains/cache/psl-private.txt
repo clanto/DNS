@@ -213,6 +213,7 @@ api.gov.uk
 api.lp.dev
 apigee.io
 app-ionos.space
+app.amba.host
 app.os.fedoraproject.org
 app.os.stg.fedoraproject.org
 app.render.com
@@ -492,6 +493,7 @@ cc.ua
 ccwu.cc
 cd.eu.org
 cdn-edges.net
+cdn.amba.host
 cdn.bubble.io
 cdn.cloudflare.net
 cdn.cloudflareanycast.net
@@ -669,6 +671,7 @@ cpserver.com
 craft.me
 cranky.jp
 crap.jp
+crbts.app
 crd.co
 cs.keliweb.cloud
 csb.app
@@ -1165,6 +1168,7 @@ floppy.jp
 flt.cloud.muni.cz
 flutterflow.app
 fly.dev
+fn.amba.host
 fnc.fr-par.scw.cloud
 fool.jp
 for-better.biz
@@ -1310,6 +1314,7 @@ global.prod.fastly.net
 global.ssl.fastly.net
 gloomy.jp
 glug.org.uk
+go.amba.host
 go.biz.ng
 go.dyndns.org
 go.leg.br

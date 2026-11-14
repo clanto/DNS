@@ -1028,6 +1028,7 @@
 ||proxy.business^
 ||s.bw^
 ||blck.by^
+||blur.by^
 ||cayim.by^
 ||cut.by^
 ||fa.by^
@@ -12641,6 +12642,7 @@
 ||polestrong.co^
 ||politi.co^
 ||popfeed.co^
+||potong.co^
 ||prgress.co^
 ||privateinvestigation.co^
 ||prodd.co^
@@ -13411,6 +13413,7 @@
 ||alienso.com^
 ||alientraffic.com^
 ||alienvide.com^
+||aliexpi.com^
 ||aligatorproxy.com^
 ||alikesample.com^
 ||alishort.com^
@@ -19632,6 +19635,7 @@
 ||linod.com^
 ||linproxy.com^
 ||lintlicker.com^
+||lintlink.com^
 ||work.linux2dz.com^
 ||p.linwind.com^
 ||linxology.com^
@@ -33041,6 +33045,7 @@
 ||sevenpercent.in^
 ||shlom.in^
 ||shortin.in^
+||shotcut.in^
 ||shrinkforearn.in^
 ||shrinkme.in^
 ||sinyi.in^
@@ -112256,6 +112261,7 @@
 ||landingjournal.xyz^
 ||life-ability.xyz^
 ||lifewarn.xyz^
+||lillink.xyz^
 ||linkis.xyz^
 ||local-trade.xyz^
 ||location-online.xyz^

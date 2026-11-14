@@ -578,6 +578,7 @@
 ||doth.huque.com^
 ||dns.huyizhou.com^
 ||dns.hyas.com^
+||dns.iakovf1.com^
 ||mask.icloud.com^
 ||mask-api.icloud.com^
 ||mask-canary.icloud.com^
@@ -1260,6 +1261,7 @@
 ||dns2.klcd.eu^
 ||xray.krnl.eu^
 ||ns.kubiskap.eu^
+||ledns.eu^
 ||dnsserver.mailchan.eu^
 ||mfimail.eu^
 ||dns.michaldusek.eu^

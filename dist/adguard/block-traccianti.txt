@@ -37737,6 +37737,7 @@
 ||grxsaq.tagheuer.com^
 ||taghike.com^
 ||taginstall.com^
+||tagloyalty.com^
 ||tagsrvcs.com^
 ||tagstaticx.com^
 ||publish.tagstorm.com^
@@ -39177,6 +39178,7 @@
 ||app.trainline.com^
 ||ablink.comms.trainline.com^
 ||ablink.commsinfo.trainline.com^
+||trainyourlab.com^
 ||trajectdata.com^
 ||trakaff.com^
 ||trakkadhits.com^
@@ -44439,6 +44441,7 @@
 ||stats.radicalweb.design^
 ||api.ryanyao.design^
 ||analytics.ahrefs.dev^
+||metrics.us-east-1.iris.apx.amazon.dev^
 ||watchtower.imdbtv.amazon.dev^
 ||mshopbugsnag.irm.amazon.dev^
 ||bugsnag.kindle.amazon.dev^
@@ -49358,6 +49361,7 @@
 ||a8.learning.agaroot.jp^
 ||a8cv.aiambeauty.jp^
 ||ebis.aibashiro.jp^
+||aibeacon.jp^
 ||a8cv.air-mobareco-asp.jp^
 ||a8cv.air-mobileset.jp^
 ||wxnxau.air-r.jp^
@@ -54510,6 +54514,7 @@
 ||telemetry.firez.one^
 ||cf.api.instant.one^
 ||event.api.instant.one^
+||dash.kryon.one^
 ||matoma.one^
 ||matomo.one^
 ||link.million.one^

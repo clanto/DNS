@@ -3635,6 +3635,7 @@ dicloak.com
 diddle.club.cdn.cloudflare.net
 diddy.info.north-kazakhstan.su.cdn.cloudflare.net
 diddyblud.cxhzegpg.shop
+diegito.glandelinnia.club
 dieuy732rkuvo.cloudfront.net
 difference.clean.abrdns.com
 differentiate.ddnsgeek.com
@@ -3719,7 +3720,6 @@ dnshostnamelol.easterndns.com
 dnwkts.com
 dnyixsfdixqf8.cloudfront.net
 do-kuailian.com.cn
-do-not-block.store
 do.anotelinopalk.co.uk
 do789.net
 do91.net
@@ -3908,6 +3908,7 @@ dousgame.com
 douyin-update.store
 dovanvu.top
 dove.soapagent.com
+dove.soapclient.com
 doveeeapp.com
 dovypr.com
 dowaiwang.com
@@ -5015,6 +5016,7 @@ frayoasis.com
 frayquantum.com
 fraytether.com
 free-planet-vpn.com
+free-planet-vpn.net
 free-proxy.com.de
 free-proxy.cz
 free-proxy.xyz
@@ -5686,6 +5688,7 @@ hardenglish.buzz
 hardenglish.buzz.cdn.cloudflare.net
 hardmath.buzz
 hardmath.buzz.cdn.cloudflare.net
+harmonygrandeurproxy.com
 hartfordps.org
 harupika-416yuki.easterndns.com
 harupika-macos890.easterndns.com
@@ -6097,6 +6100,7 @@ homeproxy.net
 homes.jif9.net
 homes.tr25.cn
 homes999.com
+homesetupvpn.online
 homevpn.eu
 homevpn.info
 homevpn.org
@@ -6903,6 +6907,7 @@ klcknerrip.com
 klickhub.shop
 klimora.ru
 klnqgidu.cc
+klpc-letsvpn.com
 klvpn-app.com
 klvpn-pc.com
 klvpn.net
@@ -7650,6 +7655,7 @@ majimekun.dynipv6.de
 major.know.unielectronics.ca
 makomako.easterndns.com
 maleyu.org
+malinavpn.com
 mallocapp.com
 mallocprivacy.com
 malusvpn.net
@@ -8080,6 +8086,7 @@ my1337jog.run
 my52.my
 my9f7732e9a.webhop.me
 myapps.classlink.trelease.net
+myau-vpn.online
 mycheapfqvpnlist.com
 mycheapladderlist.com
 mycheapvpnlist.com
@@ -8474,6 +8481,7 @@ notscrewed.com
 noturmotherlol.worksheetsforteachers.org
 notvpn.io
 notvpn.net
+novahistory.ibernoticias.com
 novatech.fun
 novayjr9g.info
 novproxy.com
@@ -9441,6 +9449,7 @@ proxyvpnserver.com
 proxyway.com
 proxyweb.com.es
 proxywebsite.co.uk
+proxywebsite.xyz
 proxywebtunnel.com
 proxywindow.com
 proxywing.com
@@ -10300,6 +10309,7 @@ sigma-vpn.store
 sigmavpn.homes
 sigmavpn.lol
 signup-express-vpn.guru
+signup.soapclient.com
 silkbasalt.com
 silkcobalt.com
 silkcortex.com
@@ -11708,6 +11718,7 @@ v2fast.cc
 v2nodes.com
 v2ny.cc
 v2ny.co
+v2ny.de
 v2ny.mom
 v2ny.net
 v2ny.one
@@ -11864,6 +11875,7 @@ veryeducationaltrust.lat
 veryinterest.com
 verynicewebsite.letz.dev
 veta.best
+vexiro.ru
 vexkif.com
 vexmoriano.xyz
 vextuproxy.cloud
@@ -12292,6 +12304,7 @@ vpnrapid.net
 vpnrcmd.com
 vpnreactor.com
 vpnreactor.net
+vpnreview.xyz
 vpnrice.com
 vpnru.help
 vpnrussia.help
@@ -12312,6 +12325,7 @@ vpnshazam.com
 vpnshieldapp.com
 vpnside.com
 vpnsites.com
+vpnslotgacor.com
 vpnspa.com
 vpnspeaks.xyz
 vpnstatus.site
@@ -12321,6 +12335,7 @@ vpnsuper.app
 vpnsuper.com
 vpnsurfguard.com
 vpnt.help
+vpntarget.xyz
 vpnteam.store
 vpntelegram.info
 vpnto.bhadrikais.my.id
@@ -13187,6 +13202,7 @@ zacebookpk.com
 zadmin.dev
 zagbit.com
 zalmos.com
+zangyovpn.xyz
 zanverom.study
 zapov2.xyz
 zapp-a-weasel.live
@@ -13362,6 +13378,7 @@ zspeed-cdn.com
 zt.al
 ztz-100.net
 zugvpn.help
+zuravpn.com
 zuyg.site
 zva-186.global.ssl.fastly.net
 zwskk3lczgjwug3hzpd.online

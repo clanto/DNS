@@ -29933,6 +29933,7 @@
 *.w-tunnel.com
 *.w-we.com
 *.w00tage.com
+*.w0of-woof.com
 *.proxy.w1z44rdy.com
 *.w2link.com
 *.w3dv.com
@@ -75240,6 +75241,7 @@
 *.yourbypass.net
 *.yourfreedom.net
 *.yourfreeproxy.net
+*.yourls.net
 *.domain.yourpersonalbestinc.net
 *.yourproxies.net
 *.bypass.yoursky.net
@@ -119068,6 +119070,7 @@
 *.whyblock.us
 *.wi7.us
 *.wigb.us
+*.wlink.us
 *.wrighty.us
 *.kenway.wsse.us
 *.x-it.us
@@ -119632,6 +119635,7 @@
 *.accommodatingly.xyz
 *.adviseonline.xyz
 *.afww.xyz
+*.akunjpvip.xyz
 *.alldomainwhois.xyz
 *.allrightproxy.xyz
 *.amazoncloudgroup.xyz

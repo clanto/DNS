@@ -5548,6 +5548,7 @@ ai.thermofisher.com
 ai23jstrk.com
 aianalytics.ie
 aianalytics.uk
+aibeacon.jp
 aic-gfts.nextlgsdp.com
 aic-ngfts.lge.com
 aic.cdpbeacon.lgtvcommon.com
@@ -13422,6 +13423,7 @@ dart.onjoyri.de
 darwin.cx
 darwin.to
 dash.getsitecontrol.com
+dash.kryon.one
 dashboardbntest.branchcustom.xyz
 dashingdirt.com
 dashingdrop.com
@@ -30579,6 +30581,7 @@ metrics.unipolsai.it
 metrics.united-internet.de
 metrics.uol.com.br
 metrics.ups.com
+metrics.us-east-1.iris.apx.amazon.dev
 metrics.us.playstation.com
 metrics.usbank.com
 metrics.userguiding.com
@@ -51235,6 +51238,7 @@ taggrs.io
 taggstar.com
 taghike.com
 taginstall.com
+tagloyalty.com
 tagm.eduscho.at
 tagm.tchibo.de
 tagmanager.toast.com
@@ -55154,6 +55158,7 @@ training.hager.co.uk
 training.indigobusiness.co.uk
 training.thunderhead.com
 trainingreality.com
+trainyourlab.com
 trajectdata.com
 traka8.crypto-mall.org
 trakaff.com

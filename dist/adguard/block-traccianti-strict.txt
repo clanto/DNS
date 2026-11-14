@@ -26156,6 +26156,7 @@
 ||branch.tadatada.com^
 ||event-logger.tagboard.com^
 ||grxsaq.tagheuer.com^
+||tagloyalty.com^
 ||publish.tagstorm.com^
 ||gotest.taillight.com^
 ||tailoredcopy.com^
@@ -27222,6 +27223,7 @@
 ||app.trainline.com^
 ||ablink.comms.trainline.com^
 ||ablink.commsinfo.trainline.com^
+||trainyourlab.com^
 ||listen.trakks.com^
 ||open.trakks.com^
 ||invite.traktivity.com^
@@ -39641,6 +39643,7 @@
 ||telemetry.firez.one^
 ||cf.api.instant.one^
 ||event.api.instant.one^
+||dash.kryon.one^
 ||link.million.one^
 ||get.openph.one^
 ||stats.tresor.one^
