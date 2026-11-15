@@ -38875,6 +38875,7 @@
 *.mdws.vantageone.net
 *.wt.viagogo.net
 *.stats.videasy.net
+*.vinylanswer.net
 *.viralfoodie.net
 *.info.virtela.net
 *.smetrics.virtual-cosme.net

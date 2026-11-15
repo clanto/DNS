@@ -136,7 +136,6 @@ adg.jnorton.us
 adg.khon.dev
 adg.lintasjrg.xyz
 adg.proprietarypenguin.com
-adg.rednetline.com
 adg.rokh.biz
 adg.rueiliu.space
 adg.spacework.com.mx
@@ -1406,7 +1405,6 @@ dns.lvqing.eu.org
 dns.maciozo.com
 dns.mafyuh.io
 dns.mahiro.online
-dns.mailcastle.in
 dns.maitrekuc.fr
 dns.malhuda.com
 dns.mandre.dev
@@ -1620,7 +1618,6 @@ dns.rl-analytix.de
 dns.roedel.cloud
 dns.rogpurs.com
 dns.romain.tech
-dns.romareyme.online
 dns.ronc.ru
 dns.rotunneling.net
 dns.rubyfish.cn
@@ -2022,6 +2019,7 @@ doh-lb-gb.dnsflex.com
 doh-lb-in.dnsflex.com
 doh-lb-sg.dnsflex.com
 doh-lb-tr.dnsflex.com
+doh-mullvad.quad9.net
 doh-primary-pool.detoxifypornblocker.com
 doh-primary-pool.goodbyegambling.com
 doh-pure.onedns.net
@@ -2032,7 +2030,6 @@ doh.233py.com
 doh.2kil.com
 doh.30x.me
 doh.360.cn
-doh.361.best
 doh.42l.fr
 doh.aaaab3n.moe
 doh.abraservice.xyz
@@ -2347,7 +2344,6 @@ filya.vpn.i81.ru
 fin1.avalika.pro
 firefox.dns.nextdns.io
 flat.loisy.it
-flyloadguard.dynu.net
 fnt01.dnscry.pt
 forzalaquila.servebeer.com
 fr-dns1.bancuh.com
@@ -2401,12 +2397,10 @@ geniimisli.duckdns.org
 genscorp.es
 geshido.vpn.geshido.ru
 getdnsapi.net
-gibblets.top
 gigatapbot.top
 ginnungagap.rabenhain.net
 gitea.sukon.idv.tw
 gl33tch.pro
-glacius.top
 globalcloud.ir
 gmf-dns.ddns.net
 gmf2.ddns.net
@@ -2595,7 +2589,6 @@ ihctw.synology.me
 ikarosalpha.xyz
 iki.at9.eu
 immich.rokian.net
-imperio.top
 in-blr.doh.sb
 inadsware.ddns.net
 incaseineeditoneday.com
@@ -2781,6 +2774,7 @@ lukscasino-929-tr.xyz
 lunar-dns.de
 luxembourg.privacy-dns.pw
 mabuktogel.business
+mabuktogel.cards
 mabuktogel.marketing
 mabuktogel.properties
 mabuktogel.solutions
@@ -2930,7 +2924,6 @@ nl-ams-w-p-1.nashkan.net
 nl-ams.doh.sb
 nl-dro-w-f-1.nashkan.net
 nl-dro-w-p-1.nashkan.net
-nl-nod2.mineweb.cc
 nl.dns.privex.io
 nl.dns.shx.su
 nl.rslvr.eu
@@ -3343,7 +3336,6 @@ sel02.dnscry.pt
 selsby.info
 seoul.101818.xyz
 seoul.dnsovertor.cc
-serv0.ingener002.ip-dynamic.org
 server01.karl.one
 server01.vboekel.nl
 service.broe.ru

@@ -72,7 +72,6 @@
 ||polisitogel.beauty^
 ||ad.tzockt.beer^
 ||dns.schlagheck.berlin^
-||doh.361.best^
 ||doh.best^
 ||appart.yoannchappaz.best^
 ||oracle001.330k.biz^
@@ -118,6 +117,7 @@
 ||dns.dns.tbnk.ca^
 ||dot.tooli.ca^
 ||dns.omada.cafe^
+||mabuktogel.cards^
 ||dns.casadecampo.casa^
 ||pds.cfornas.casa^
 ||guard.gama.casa^
@@ -142,7 +142,6 @@
 ||irrelevant.cc^
 ||bt.luoo.cc^
 ||maxfong.cc^
-||nl-nod2.mineweb.cc^
 ||dns.mytest.cc^
 ||dns.niccoli.cc^
 ||dns.nonomi.cc^
@@ -821,7 +820,6 @@
 ||ns2.ravdns.com^
 ||dns.rayanbab.com^
 ||hk.reaticle.com^
-||adg.rednetline.com^
 ||dns.renardyre.com^
 ||dns.repinger.com^
 ||dns.retakecs.com^
@@ -1519,7 +1517,6 @@
 ||dns.jkey.in^
 ||dns.joindns4.in^
 ||dns.kapite.in^
-||dns.mailcastle.in^
 ||dns.mcnerds.in^
 ||doh.micronets.in^
 ||dns.nic.in^
@@ -1987,7 +1984,6 @@
 ||takhtakh.domyah.net^
 ||ccadguard.dynu.net^
 ||adguard.ekhozie.dynu.net^
-||flyloadguard.dynu.net^
 ||quangdo92.dynu.net^
 ||gustamadh.dynv6.net^
 ||dnscache.e-utp.net^
@@ -2343,7 +2339,6 @@
 ||okado.online^
 ||pdnssrvagh.online^
 ||petinom.online^
-||dns.romareyme.online^
 ||dns.sales-kbr.online^
 ||shadowart.online^
 ||vadim.online^
@@ -2553,7 +2548,6 @@
 ||hshh.org^
 ||hkg.hytec.org^
 ||ur.hytec.org^
-||serv0.ingener002.ip-dynamic.org^
 ||josephfamily.org^
 ||joshberg.org^
 ||dns.jundev.org^
@@ -3171,12 +3165,9 @@
 ||dns.erkin.top^
 ||ad.fai001.top^
 ||ychk.ft1991.top^
-||gibblets.top^
 ||gigatapbot.top^
-||glacius.top^
 ||cloud.gqwyq.top^
 ||dns-us.ibmcloud.top^
-||imperio.top^
 ||ai.in3377.top^
 ||adguardhome.ittoolman.top^
 ||hk.jason666.top^

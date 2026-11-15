@@ -16313,7 +16313,6 @@
 ||elektromercado.com^
 ||elementalproxy.com^
 ||elfarcha.com^
-||elfdirect.com^
 ||proxy.elgrupolobo.com^
 ||tunnel.elisanford.com^
 ||proxy.eliseuborges.com^
@@ -28029,7 +28028,6 @@
 ||swirl.4u2.de^
 ||73x.de^
 ||9u9.de^
-||airshort.de^
 ||alternativeplans.de^
 ||proxy.amicos.de^
 ||anon.de^
@@ -71554,7 +71552,6 @@
 ||antena.pro^
 ||bitli.pro^
 ||byli.pro^
-||changelink.pro^
 ||cleverlink.pro^
 ||davisonbarker.pro^
 ||elamal.pro^
@@ -111690,7 +111687,6 @@
 ||freeme.zqlz.us^
 ||zurb.us^
 ||zywv.us^
-||nah.uy^
 ||tw.uy^
 ||pi.uz^
 ||03.vc^

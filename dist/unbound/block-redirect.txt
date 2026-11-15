@@ -527,7 +527,6 @@
 *.shortly.at
 *.shortr.at
 *.shorturl.at
-*.shorturls.at
 *.shurli.at
 *.party.sleep.at
 *.proxy.sm-s.at
@@ -14013,7 +14012,6 @@
 *.4freeproxy.com
 *.blog2.4glenview.com
 *.4ine.com
-*.4insurancejobs.com
 *.proxy.4lx.com
 *.proxyaway.4mg.com
 *.4myspaceproxy.com
@@ -16388,7 +16386,6 @@
 *.cestu.com
 *.cetrondigicontech.com
 *.cetsohbet.com
-*.cfons.com
 *.cfunnel.com
 *.cgatx.com
 *.cgibrowser.com
@@ -21518,7 +21515,6 @@
 *.linksumo.com
 *.linksvid.com
 *.linktgd.com
-*.linktransform.com
 *.linkulb.com
 *.linkunshorten.com
 *.linkurltiny.com
@@ -23841,7 +23837,6 @@
 *.pizzamarinara.com
 *.pizzaviennese.com
 *.pizzavirtual.com
-*.pjspo.com
 *.pk-salon.com
 *.pktunnel.com
 *.placecalled.com
@@ -27915,7 +27910,6 @@
 *.sydflames.com
 *.sydkings.com
 *.sydney4dogs.com
-*.goto.synapse.com
 *.sync-gaming.com
 *.synonym24.com
 *.sysclicks.com
@@ -29408,7 +29402,6 @@
 *.uqwy.com
 *.uqxu.com
 *.uqzu.com
-*.ur301.com
 *.ur4l.com
 *.kutt.ural-agro.com
 *.uraniuminvest.com
@@ -29436,10 +29429,7 @@
 *.url127x.com
 *.url12xx.com
 *.app.url180.com
-*.url28x.com
 *.url2s.com
-*.url36x.com
-*.url37x.com
 *.url38x.com
 *.url39x.com
 *.url50.com
@@ -29517,7 +29507,6 @@
 *.urlroot.com
 *.urlroute.com
 *.urlrw.com
-*.urls1xx.com
 *.proxy.urls247.com
 *.urlshor.com
 *.urlshort4.com
@@ -29544,7 +29533,6 @@
 *.urltools.com
 *.urltoshort.com
 *.urltrax.com
-*.urltronic.com
 *.urlunicorn.com
 *.urluno.com
 *.urlvanish.com
@@ -36875,7 +36863,6 @@
 *.url1.in
 *.url2.in
 *.urlhide.in
-*.urli.in
 *.urlo.in
 *.urltamil.in
 *.urlzs.in
@@ -67060,7 +67047,6 @@
 *.dehe.ir
 *.deheh.ir
 *.drnx.ir
-*.e9e.ir
 *.ebbco.ir
 *.ee9.ir
 *.fi9.ir
@@ -67283,7 +67269,6 @@
 *.tech.undo.it
 *.go.unoblog.it
 *.unshorten.it
-*.urlin.it
 *.urwebs.it
 *.utml.it
 *.google.valledigioia.it
@@ -67747,7 +67732,6 @@
 *.vav.li
 *.vim.li
 *.vov.li
-*.w33.li
 *.webi.li
 *.wec.li
 *.wed.li
@@ -68167,7 +68151,6 @@
 *.f44.link
 *.fandom.link
 *.faras.link
-*.fastfilehost.link
 *.fattoincasadabenedetta.link
 *.fbstw.link
 *.ffxiv.link
@@ -68206,7 +68189,6 @@
 *.hide-me.link
 *.hider.link
 *.hocmai.link
-*.hokiku.link
 *.hopework.link
 *.hux.link
 *.idch.link
@@ -68325,7 +68307,6 @@
 *.s11.link
 *.saasmaster.link
 *.sc.link
-*.seemless.link
 *.segueae.link
 *.seif.link
 *.seocantik.link
@@ -69522,7 +69503,6 @@
 *.sniply.me
 *.z.sodomise.me
 *.somee.me
-*.sorc.me
 *.sorkale.me
 *.sotly.me
 *.spoo.me
@@ -75300,7 +75280,6 @@
 *.apple.news
 *.arab.news
 *.blstg.news
-*.bsg.news
 *.lnk.news
 *.mlog.news
 *.msai.news
@@ -75801,7 +75780,6 @@
 *.witly.online
 *.wplinks.online
 *.xboys.online
-*.yulllu01.online
 *.sah.ooo
 *.0-b.org
 *.0000opengate.org
@@ -77688,7 +77666,6 @@
 *.proxy.zsomb.org
 *.ztunnel.org
 *.zunereactor.org
-*.zyva.org
 *.arcade.zzl.org
 *.surfman.zzl.org
 *.unzipped.zzl.org
@@ -78101,7 +78078,6 @@
 *.shortwave.pro
 *.shrinkme.pro
 *.shrinky.pro
-*.shrtct.pro
 *.socialbio.pro
 *.st3.pro
 *.surl.pro
@@ -116749,7 +116725,6 @@
 *.mah.to
 *.mapfan.to
 *.masl.to
-*.masuk.to
 *.mcd.to
 *.met.to
 *.poxi.milf.to
@@ -117213,7 +117188,6 @@
 *.shortclient.top
 *.shorte.top
 *.shortenurl.top
-*.shortyurl.top
 *.showgirl2015.top
 *.shrinkme.top
 *.simolife.top
@@ -118269,7 +118243,6 @@
 *.referer.uk
 *.shortlink.uk
 *.tnflink.uk
-*.tnij.uk
 *.unroxy.uk
 *.url4.uk
 *.vodafone.uk
@@ -118568,7 +118541,6 @@
 *.gate8.us
 *.gate9.us
 *.proxy.gateshare.us
-*.gemilink.us
 *.gen11.us
 *.geni.us
 *.getpast.us

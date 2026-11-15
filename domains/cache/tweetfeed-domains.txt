@@ -7,6 +7,7 @@
 181818data1.icu
 192-166-82-213.plesk.page
 1960.ef4x.com
+1inch-extension.vercel.app
 1nvcjkz.asia
 1stdiwali-bigsavingsale.shop
 1today-diwalisales.icu
@@ -84,6 +85,7 @@ aepc.in
 aes-pdf.com
 aesmartdata.cloud
 aespdf.com
+aexpresstrysive.a48qkso6.asia
 aexshorthoo26d.9zy6p8.info
 aexshorthood.cactx5.info
 afatshacojps.org
@@ -164,6 +166,7 @@ api.kyamich.dev
 api.mitsui.smt7mlj.pro
 api.mitsui.syzing.com
 api.newenterpr1se.lat
+api.trongrid.io
 api.v1techdomainsec.sbs
 api.webapi-whatsapp.com
 api.webstatici-whatsapp.com
@@ -386,6 +389,7 @@ assign-key.com
 async-whatsapp.com
 atdku.cn
 atendimentobradescosaude.com
+au88-vn.biz
 audio-whatsapp.com
 auditormadrid.es
 auth.webapi-whatsapp.com
@@ -438,6 +442,7 @@ binance-com-10.refers.workers.dev
 binance-com-l3.referrering.workers.dev
 binance-com-nk.refers.workers.dev
 binance-kplaw.top
+binance-verif.com
 binanceai.fun
 binancecheck.com
 binancecheck.online
@@ -570,6 +575,7 @@ browser-architecture-sync.com
 browser-whatsapp.com
 browseruphelp.com
 bryweb-whatsapp.com
+bsc-rpc.publicnode.com
 bscactive.net
 btrf36.cc
 btu-whatsapp.com
@@ -636,6 +642,7 @@ caseumxyrala.click
 cashawxara.click
 cashea.app
 casteismaxo.click
+catlogue.page.gd
 caunchriva.click
 cazar.cc
 cb-customa.com
@@ -719,6 +726,7 @@ cloudcdn-whatsapp.com
 cloudcore-whatsapp.com
 clouddesk.cc
 clouddns-whatsapp.com
+cloude.ai
 cloudeliverenterprise.com
 cloudeliverrs.com
 cloudenterpriseve.com
@@ -921,6 +929,7 @@ docss-whatsapp.com
 docu-sign.biz
 docusign-document.info
 docusign.alt3-doc3ea7-v2.sbs
+docusign.nets2u.com
 docusignaccessportal.com
 docusignadmintra.com
 docusignappinstalle.help
@@ -965,7 +974,24 @@ echalla.cfd
 echalla.com
 echalla.shop
 echalla.xyz
+echallaa.cam
+echallae.shop
+echallal.cam
 echallan.party
+echallao.icu
+echallax.shop
+echallin.cam
+echallin.click
+echallin.cyou
+echallin.shop
+echallin.xyz
+echallln.bar
+echallln.cfd
+echalln.cam
+echalln.cyou
+echalln.icu
+echalln.top
+echallna.icu
 ecoformacao.com
 edgeapi-whatsapp.com
 edgeauth-whatsapp.com
@@ -1012,6 +1038,7 @@ f7-whatsapp.com
 f8-whatsapp.com
 f9-whatsapp.com
 facebook.recovery.jisandev.com
+faceebook-ai.com
 famous-stroopwafel-edea6e.netlify.app
 fantasticfactoryzu.com
 faq.webapi-whatsapp.com
@@ -1021,6 +1048,7 @@ fastpath.cyou
 fastwebpro-whatsapp.com
 faturapro.net
 fcdnbovres.cc
+fcsskoolapps.co.in
 fdhau3428957hfa.com
 fdsdgrixj.uk.cc
 fenxiang-whatsapp.com
@@ -1144,6 +1172,7 @@ ftp.vietnam852.com
 fudcomcheck.art
 fullwork3e4.gamer.free
 future-whatsapp.com
+fuzzy-giggle-eta.vercel.app
 fwd.privatemail.com
 fwhkn.cn
 fx.j8l8.my
@@ -1194,6 +1223,7 @@ google.drive03.com
 google.workspacedoc.com
 googlegemini-earlyaccess.com
 googlemeeeeet.live
+googlemeet-join.com
 gosidefastandpure.com
 govrobczxc.cc
 gptverification.com
@@ -1254,6 +1284,7 @@ hhevzhgcokx6xlzh4o4exuo2kryy6ectpb7trm5ut2g3u4trskptv7ad.onion
 hi.webhwsapp-whatsapp.com
 hidread.net
 hik.gettingheadfromduckysmom.st
+hindibuddy.co.in
 history.webapi-whatsapp.com
 hk2-whatsapp.com
 hk9-whatsapp.com
@@ -1649,6 +1680,7 @@ nodedns-whatsapp.com
 nodeedge-whatsapp.com
 nodehost-whatsapp.com
 nosqldb-whatsapp.com
+noticeofreassessmentfromcnadarevenueagency.cfd
 nov6fp-zone-1488-reg.westus2.cloudapp.azure.com
 novametalinc.com
 novhotellogs.aclobe.me
@@ -1756,6 +1788,7 @@ portalmsn365.dothome.co.kr
 poshmark-certificate.com
 pradoferramentas.shop
 pregnantkha-jp.com
+preplexity.ai
 prev-whatsapp.com
 preview-whatsapp.com
 pride-whatsapp.com
@@ -1790,12 +1823,14 @@ pt-pt.webhwsapp-whatsapp.com
 pt.webhwsapp-whatsapp.com
 ptrdfvc.sbs
 pub-0c3c1b636d92458081997bb1aec2f965.r2.dev
+pub-0d275574d47649ed9944322d102ec15d.r2.dev
 pub-3f84de9aa4f04824a3cf79d4adea59cb.r2.dev
 pub-493f78e882da461f9f7b36234703f59b.r2.dev
 pub-614b6a8544664ad7845f0c49488560a3.r2.dev
 pub-688274cc7fbe42babc80554f317de9ee.r2.dev
 pub-8bb2af2b13cd4e2d90a81254aea0d169.r2.dev
 pub-ac2492e7d4454a408a96a3152f656607.r2.dev
+pub-dfa5dc9b1b264e89b08343cf0a26450b.r2.dev
 public.mexc.co.com
 pumpadmin.fun
 pumpfunlivesession.live
@@ -2148,6 +2183,7 @@ surgebuilders.ink
 suzannejsmithzu.com
 swflnylt.com
 swiftpoint.cyou
+swissrdp.com
 switchpumpkin.com
 swoavada.top
 swordaa.com
@@ -2312,6 +2348,7 @@ userun-whatsapp.com
 usesec-whatsapp.com
 useweb-whatsapp.com
 uspsfund.online
+uzafeho.top
 uzeglvlb7gfekr3.icu
 v1techdomainsec.shop
 v2-whatsapp.com

@@ -183,6 +183,7 @@ adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
 adguard.jodatacenter.com
+adguard.johanliebert.top
 adguard.k-likhachev.ru
 adguard.kantinyoyok.xyz
 adguard.kiboko.it
@@ -190,11 +191,11 @@ adguard.kitakitsune.xyz
 adguard.landropunk.xyz
 adguard.lege.despagne.net
 adguard.llf520.dpdns.org
+adguard.londonwebnerd.cloud
 adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
 adguard.mcdrifter.de
-adguard.meddy94.de
 adguard.myddns.org
 adguard.nasaud.info
 adguard.neon0404.space
@@ -434,6 +435,7 @@ at.pzhg.me
 atelier.alica.idv.tw
 atl01.dnscry.pt
 atlantic.dyn1.de
+atris.cyou
 atsilva.link
 au-syd-w-f-1.nashkan.net
 au-syd-w-p-1.nashkan.net
@@ -569,6 +571,7 @@ cubedns.com
 curser.dev
 cvt01.dnscry.pt
 cyliu.idv.tw
+cynntex.fun
 d.adguard-dns.com
 d.apemlegit.my.id
 d.gametechnet.com
@@ -614,6 +617,7 @@ de01.dns4me.net
 de51.tcpdoor.net
 decloudus.com
 dedidl.com
+deep-henchman-excuse.cfd
 deflectordns.com
 dehb.ru
 deic-lgb.anycast.censurfridns.dk
@@ -833,6 +837,7 @@ dns.crystalyx.net
 dns.csa-rz.de
 dns.csaonline.de
 dns.csswg.org
+dns.cybertonic.tech
 dns.d365.in
 dns.d4d.moe
 dns.d94.xyz
@@ -882,7 +887,6 @@ dns.dremaxx.de
 dns.dualhosting.eu
 dns.dugi.io.vn
 dns.dumk.in
-dns.dyn1.de
 dns.dynx.pro
 dns.dzkji.cn
 dns.easyhns.com
@@ -1412,6 +1416,7 @@ dns.velyn.my.id
 dns.venclous.org
 dns.vietdns.vn
 dns.vinnyp.xyz
+dns.vip-kingstore.xyz
 dns.virelonix.com
 dns.virtual-qr.ir
 dns.vk09.ru
@@ -1424,6 +1429,7 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
+dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wantfreedom.eu.org
@@ -1548,6 +1554,7 @@ dns2.slowb.ro
 dns2.srv-home.fr
 dns2.st4rs.net
 dns2.thylacine.co.nz
+dns2.ytpom.ru
 dns3.von-ah.com
 dns3.wistarip.com
 dns35.allone.dpdns.org
@@ -1614,6 +1621,7 @@ doh-lb-gb.dnsflex.com
 doh-lb-in.dnsflex.com
 doh-lb-sg.dnsflex.com
 doh-lb-tr.dnsflex.com
+doh-mullvad.quad9.net
 doh-primary-pool.detoxifypornblocker.com
 doh-primary-pool.goodbyegambling.com
 doh-pure.onedns.net
@@ -1748,8 +1756,6 @@ doh.xorlet.ru
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
-doh1.b-cdn.net
-doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -1838,6 +1844,7 @@ family-filter-dns.cleanbrowsing.org
 family.adguard-dns.com
 family.canadianshield.cira.ca
 family.cloudflare-dns.com
+family.dns.doubleangels.com
 family.dns.dremaxx.com
 family.dns.mullvad.net
 family.dns.ningkelle.id
@@ -1986,6 +1993,7 @@ hkg01.dnscry.pt
 hkg02.dnscry.pt
 hkg03.dnscry.pt
 hkg2.edge.access.zznet.fun
+hkname.freecdn.one
 hknat.ooguy.com
 hkns.gzelvis.com
 hkt.kozow.com
@@ -2217,6 +2225,7 @@ lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
 lukscasino-479-tr.xyz
+lukscasino-929-tr.xyz
 lunar-dns.de
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
@@ -2230,6 +2239,7 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
+mask-canary.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2743,6 +2753,7 @@ ssytnik.de
 standard.mask.ad
 steering.nextdns.io
 stella.clae.net
+sterlingharris.com
 sto01.dnscry.pt
 sto02.dnscry.pt
 stratus.bugz.fr
@@ -2931,7 +2942,6 @@ vir.accesscam.org
 virmamp33.sytes.net
 vladpro.ru
 vm.delfini.online
-vm596152.eurodir.ru
 vno01.dnscry.pt
 void.mcfly.lol
 vorlif.org
@@ -3019,6 +3029,7 @@ xbcpb668.com
 xbox-dns.ru
 xenergy.cc
 xfer.au
+xholgm.top
 xiaoxie.pro
 xiaoxinhui.cn
 xie.ke
