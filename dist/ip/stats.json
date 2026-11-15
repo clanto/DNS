@@ -1,12 +1,12 @@
 {
   "feed": {
-    "doh-v4.txt": 1459,
-    "doh-v6.txt": 867,
-    "tor-v4.txt": 5206,
-    "tor-v6.txt": 2514,
-    "threat-v4.txt": 26407,
+    "doh-v4.txt": 1458,
+    "doh-v6.txt": 866,
+    "tor-v4.txt": 5230,
+    "tor-v6.txt": 2540,
+    "threat-v4.txt": 26076,
     "threat-v6.txt": 0,
-    "c2-v4.txt": 2357,
+    "c2-v4.txt": 2328,
     "c2-v6.txt": 0,
     "vpn-v4.txt": 9213,
     "vpn-v6.txt": 578,
@@ -16,14 +16,14 @@
     "file-sharing-v6.txt": 5,
     "cloud-storage-v4.txt": 4,
     "cloud-storage-v6.txt": 1,
-    "inbound-v4.txt": 86767,
+    "inbound-v4.txt": 86475,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "all-v4.txt": 35090,
-    "all-v6.txt": 3381,
-    "all-scuole-v4.txt": 43877,
-    "all-scuole-v6.txt": 3874
+    "all-v4.txt": 34762,
+    "all-v6.txt": 3406,
+    "all-scuole-v4.txt": 43546,
+    "all-scuole-v6.txt": 3901
   },
   "fonti": [
     {
@@ -33,7 +33,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 2524,
+      "entries": 2526,
       "detail": ""
     },
     {
@@ -53,7 +53,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1259,
+      "entries": 1258,
       "detail": ""
     },
     {
@@ -63,7 +63,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "ok",
-      "entries": 9990,
+      "entries": 10069,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -73,7 +73,7 @@
       "homepage": "https://github.com/stamparm/ipsum",
       "enabled": true,
       "status": "ok",
-      "entries": 18337,
+      "entries": 18171,
       "detail": "IP presenti in almeno 3 blacklist pubbliche"
     },
     {
@@ -83,7 +83,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 16936,
+      "entries": 16929,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -113,7 +113,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 106023,
+      "entries": 105783,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -163,7 +163,7 @@
       "homepage": "https://github.com/0xDanielLopez/TweetFeed",
       "enabled": true,
       "status": "ok",
-      "entries": 2383,
+      "entries": 2355,
       "detail": "IoC degli ultimi 30 giorni condivisi da ricercatori di sicurezza"
     },
     {
@@ -272,15 +272,15 @@
     }
   },
   "allowlist": {
-    "voci": 231,
+    "voci": 262,
     "reti_modificate": 1
   },
   "condivisi": {
     "intervalli": 11073,
-    "voci_escluse": 5884
+    "voci_escluse": 5925
   },
   "protetti": {
-    "ip_risolti": 221,
+    "ip_risolti": 252,
     "voci_escluse": [
       "doh: 94.23.71.64/32 usato da dns.clanto.cloud"
     ]

@@ -27162,6 +27162,7 @@
 ||marketing.tourismsaskatoon.com^
 ||marketing.tourismwinnipeg.com^
 ||takigx.tourneau.com^
+||tourspicker.com^
 ||ejrbgi.tous.com^
 ||a8cv.toushi-up.com^
 ||adebis.toushi-up.com^
@@ -38833,6 +38834,7 @@
 ||go.topicit.net^
 ||toplaunch.net^
 ||topsecretapp.net^
+||torhosting.net^
 ||logger.torimochi-ad.net^
 ||a8cv.toysub.net^
 ||www.track-web.net^

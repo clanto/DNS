@@ -8445,6 +8445,7 @@
 ||animes-online.com^
 ||animesagax.com^
 ||animesamaactu.com^
+||animesdatabases.com^
 ||animesgratisbr.com^
 ||animeshgraphicsengs.com^
 ||animesimple.com^
@@ -8658,6 +8659,7 @@
 ||bestgermaniptv.com^
 ||besthardwarezoneus.com^
 ||besthdmoviespoint.com^
+||bestiptvsubs.com^
 ||bestkoditips.com^
 ||bestmmatorrents.com^
 ||bestmp4movies.com^
@@ -9130,9 +9132,15 @@
 ||ctgstream.com^
 ||ctrlwarez.com^
 ||cuevana2.com^
+||cuevana2series.com^
+||cuevana3-hd.com^
+||cuevana3-tv.com^
+||cuevana3ai.com^
 ||cuevanagt.com^
+||cuevanahd3.com^
 ||cuevanamax.com^
 ||cuevanamx.com^
+||cuevanapro3.com^
 ||cuevanaserie.com^
 ||cuevanathree.com^
 ||cuevanatvseries.com^
@@ -17144,6 +17152,7 @@
 ||fmovies.global^
 ||netmirror.global^
 ||z-lib.global^
+||futemax.gmbh^
 ||vegamovies.gmbh^
 ||123movies.gold^
 ||5movierulz.gold^
@@ -17190,6 +17199,7 @@
 ||pirateparty.gr^
 ||fmovies.graphics^
 ||hdmovie2.graphics^
+||cuevana4.gratis^
 ||direttecommunity.gratis^
 ||filmesviatorrents.gratis^
 ||fmoviesz.gratis^
@@ -25829,6 +25839,7 @@
 ||criaflix.live^
 ||crichd.live^
 ||crimsonstorm18.live^
+||cuevana3s.live^
 ||ddizi.live^
 ||deporte-libre.live^
 ||deporte-libre7.live^
@@ -30029,6 +30040,7 @@
 ||lordfilmssil.lol^
 ||lordfilmsss.lol^
 ||lordfilmssw.lol^
+||lordfilmstart.lol^
 ||lordfilmste.lol^
 ||lordfilmsth.lol^
 ||lordfilmstoqy.lol^
@@ -33592,6 +33604,8 @@
 ||www.crsky.net^
 ||ctgtel.net^
 ||cue3.net^
+||cuevana3i.net^
+||cuevana4u.net^
 ||cuevanaflix.net^
 ||cyber-quest.net^
 ||cyberfilme.net^
@@ -35369,6 +35383,7 @@
 ||movierulz.one^
 ||moviesjoy.one^
 ||moviesmods.one^
+||movietoday.one^
 ||multicanais.one^
 ||mycima.one^
 ||myflixer.one^
@@ -35427,6 +35442,7 @@
 ||altadefinizionegratis.onl^
 ||bollyflix.onl^
 ||casacinema.onl^
+||ccuevana3.onl^
 ||cineblog001.onl^
 ||cineby.onl^
 ||dizimag.onl^
@@ -35621,6 +35637,7 @@
 ||coolmoviezone.online^
 ||tracker.corpscorp.online^
 ||crazymovies.online^
+||cuevanapro.online^
 ||devushki-s-makarovym-lordfilm.online^
 ||dizipal.online^
 ||dizipal4556.online^
@@ -36395,6 +36412,7 @@
 ||cubeflix.org^
 ||tracker.cubonegro.org^
 ||cuevana3tv.org^
+||cuevanamx.org^
 ||cyberphoenix.org^
 ||danishbits.org^
 ||datahorde.org^
@@ -38106,12 +38124,14 @@
 ||cuevana30.pro^
 ||cuevana3a.pro^
 ||cuevana3c.pro^
+||cuevana3g.pro^
 ||cuevana3k.pro^
 ||cuevana3play.pro^
 ||cuevana3r.pro^
 ||cuevana3w.pro^
 ||cuevanaplus.pro^
 ||cuevanas3.pro^
+||dcuevana.pro^
 ||defcon.pro^
 ||desiflix.pro^
 ||dlions.pro^
@@ -38976,6 +38996,7 @@
 ||hdmovieshub.rest^
 ||igra-na-vyzhivanie-lordfilm.rest^
 ||igra-prestolov-lordfilm.rest^
+||il-geniodellostreaming.rest^
 ||improvizatsiya-lordfilm.rest^
 ||interny-lordfilm.rest^
 ||ishcheyka-lordfilm.rest^
@@ -55863,6 +55884,7 @@
 ||coflix.space^
 ||comicaso.space^
 ||couchtuner.space^
+||cuevana5.space^
 ||dinostreaming.space^
 ||doodstream.space^
 ||egydead.space^
@@ -56418,6 +56440,7 @@
 ||altadefinizionex.surf^
 ||bollyflix.surf^
 ||casa-cinema.surf^
+||ccuevana3.surf^
 ||cineblog001.surf^
 ||cinehdplus.surf^
 ||cinepulse.surf^
@@ -56537,6 +56560,7 @@
 ||eurostreamings.tattoo^
 ||fmovies.tattoo^
 ||gomoviesx.tattoo^
+||il-geniodellostreaming.tattoo^
 ||lacuevana2.tattoo^
 ||lordfilm2026.tattoo^
 ||lordfilm4.tattoo^
@@ -61500,6 +61524,7 @@
 ||coltanime.xyz^
 ||comandoplay.xyz^
 ||commentaryanime.xyz^
+||commentsanime.xyz^
 ||complainanime.xyz^
 ||computinganime.xyz^
 ||conditionanime.xyz^
@@ -61526,6 +61551,7 @@
 ||datmusic.xyz^
 ||deep-warez.xyz^
 ||defensiveanime.xyz^
+||defianceanime.xyz^
 ||delhianime.xyz^
 ||delightsanime.xyz^
 ||demolishanime.xyz^
@@ -61672,6 +61698,7 @@
 ||gaspanime.xyz^
 ||gdrivedl.xyz^
 ||gdrivemovies.xyz^
+||genesanime.xyz^
 ||gestorwarez.xyz^
 ||getkkiste.xyz^
 ||getpiratebay.xyz^
