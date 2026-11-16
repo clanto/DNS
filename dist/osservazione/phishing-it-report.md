@@ -4,15 +4,15 @@
 
 **Fase di osservazione**: i candidati non sono in nessuna blocklist pubblicata. Servono a misurare i falsi positivi prima di promuovere la lista a `block-phishing-it`.
 
-Giro del 2026-11-15: fonte crt.sh, soglia 60, finestra 7 giorni, scadenza 7 giorni.
+Giro del 2026-11-16: fonte crt.sh, soglia 60, finestra 7 giorni, scadenza 7 giorni.
 
 ## Statistiche del giro
 
 | Voce | Valore |
 |---|---|
 | prefissi interrogati | 20 di 81 |
-| errori della fonte | 5 |
-| certificati letti | 12423 |
+| errori della fonte | 3 |
+| certificati letti | 9017 |
 | certificati nella finestra | 0 |
 | nomi distinti analizzati | 0 |
 | scartati: nessun marchio | 0 |
@@ -25,7 +25,7 @@ Giro del 2026-11-15: fonte crt.sh, soglia 60, finestra 7 giorni, scadenza 7 gior
 | scartati: sotto soglia | 0 |
 | scartati: non è un nome a dominio | 0 |
 | non risolvono (in questo giro) | 2 |
-| durata (secondi) | 903 |
+| durata (secondi) | 788 |
 | candidati pubblicabili (sopra soglia e vivi) | 9 |
 | voci nello stato | 41 |
 | uscite per scadenza | 0 |
@@ -34,22 +34,20 @@ Giro del 2026-11-15: fonte crt.sh, soglia 60, finestra 7 giorni, scadenza 7 gior
 
 | Dominio | Marchio | Punteggio | Motivi | Primo avvistamento | Ultima risposta DNS |
 |---|---|---|---|---|---|
-| appioschicken.online | pagoPA / app IO | 70 | marchio pagoPA / app IO nel dominio; TLD .online; wildcard; certificato DV gratuito | 2026-10-12 | 2026-11-15 |
-| satispaybenefits.info | Satispay | 70 | marchio Satispay nel dominio; TLD .info; certificato recente; wildcard | 2026-10-14 | 2026-11-15 |
+| appioschicken.online | pagoPA / app IO | 70 | marchio pagoPA / app IO nel dominio; TLD .online; wildcard; certificato DV gratuito | 2026-10-12 | 2026-11-16 |
+| satispaybenefits.info | Satispay | 70 | marchio Satispay nel dominio; TLD .info; certificato recente; wildcard | 2026-10-14 | 2026-11-16 |
 | agenziaentrate.link | Agenzia delle Entrate / Riscossione | 65 | marchio Agenzia delle Entrate / Riscossione nel dominio; TLD .link; certificato recente | 2026-10-12 | 2026-11-14 |
-| appiospg88ios.vip | pagoPA / app IO | 65 | marchio pagoPA / app IO nel dominio; TLD .vip; wildcard | 2026-10-12 | 2026-11-15 |
-| appiosu.site | pagoPA / app IO | 65 | marchio pagoPA / app IO nel dominio; TLD .site; wildcard | 2026-10-23 | 2026-11-15 |
-| webank.online | Banco BPM / Webank | 65 | marchio Banco BPM / Webank nel dominio; TLD .online; certificato recente | 2026-10-16 | 2026-11-15 |
+| appiospg88ios.vip | pagoPA / app IO | 65 | marchio pagoPA / app IO nel dominio; TLD .vip; wildcard | 2026-10-12 | 2026-11-16 |
+| appiosu.site | pagoPA / app IO | 65 | marchio pagoPA / app IO nel dominio; TLD .site; wildcard | 2026-10-23 | 2026-11-16 |
+| webank.online | Banco BPM / Webank | 65 | marchio Banco BPM / Webank nel dominio; TLD .online; certificato recente | 2026-10-16 | 2026-11-16 |
 | arubapec.store | Aruba | 60 | marchio Aruba nel dominio; TLD .store | 2026-10-12 | 2026-11-10 |
-| buddybanks.xyz | UniCredit | 60 | marchio UniCredit nel dominio; TLD .xyz | 2026-10-19 | 2026-11-15 |
-| unicreditbank.shop | UniCredit | 60 | marchio UniCredit nel dominio; TLD .shop | 2026-10-16 | 2026-11-15 |
+| buddybanks.xyz | UniCredit | 60 | marchio UniCredit nel dominio; TLD .xyz | 2026-10-19 | 2026-11-16 |
+| unicreditbank.shop | UniCredit | 60 | marchio UniCredit nel dominio; TLD .shop | 2026-10-16 | 2026-11-16 |
 
 Voci sotto soglia nello stato: 32 (non elencate: servono solo a misurare la soglia).
 
 ## Errori della fonte
 
-- poste%: The read operation timed out
-- webank%: HTTP Error 404: Not Found
-- ing-%: The read operation timed out
-- ingdirect%: HTTP Error 404: Not Found
-- budget di tempo esaurito: saltati 2 prefissi
+- agenzia-entrate%: HTTP Error 502: Bad Gateway
+- entrate%: HTTP Error 404: Not Found
+- pagopa%: HTTP Error 404: Not Found
