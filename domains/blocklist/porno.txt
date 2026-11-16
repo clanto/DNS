@@ -1,9 +1,6 @@
 # Blocklist domini - porno
 # Aggiunte manuali oltre alle fonti dinamiche (domains.toml): solo siti che le fonti non contengono.
 # Formato: dominio | data inserimento AAAA-MM-GG | motivo | ticket (o -) | scadenza AAAA-MM-GG (opzionale)
-filmporno.xxx | 2022-07-07 | assente dalle fonti automatiche (ex liste/pornoextra.txt) | -
-donporno.blog | 2022-07-07 | assente dalle fonti automatiche (ex liste/pornoextra.txt) | -
-sborraqui.it | 2022-07-07 | assente dalle fonti automatiche (ex liste/pornoextra.txt) | -
 pornogratis.stream | 2022-07-07 | assente dalle fonti automatiche (ex liste/pornoextra.txt) | -
 pt.blxh.world | 2024-10-25 | assente dalle fonti automatiche (ex liste/pornoextra.txt) | -
 blxh.world | 2024-10-25 | assente dalle fonti automatiche (ex liste/pornoextra.txt) | -
