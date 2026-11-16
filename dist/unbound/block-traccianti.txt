@@ -39308,6 +39308,7 @@
 *.tremendoustime.com
 *.tremendoustreatment.com
 *.trendalyze.com
+*.trendcone.com
 *.trendemon.com
 *.utiq.trendencias.com
 *.ingress.trendii.com
@@ -39607,6 +39608,7 @@
 *.go.tuv.com
 *.statistics.tuv.com
 *.smetrics.tuvsud.com
+*.tuxedocard.com
 *.aa.tv.com
 *.tv52trk.com
 *.tvb8nk4y.com
@@ -53426,6 +53428,7 @@
 *.solutionshindsight.net
 *.sonicsessions.net
 *.metrics.helpguide.sony.net
+*.soulfreedom.net
 *.soundmachine.net
 *.a8cv.souzoku-no-madoguchi.net
 *.sp1-brevo.net

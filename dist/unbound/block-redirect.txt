@@ -100,6 +100,7 @@
 *.shrtlink.ai
 *.smsit.ai
 *.trimlink.ai
+*.u2l.ai
 *.share.uplifted.ai
 *.uplifter.ai
 *.urlhub.ai

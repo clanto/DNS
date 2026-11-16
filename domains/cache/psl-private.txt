@@ -223,6 +223,7 @@ appengine.flow.ch
 applinzi.com
 apps-1and1.com
 apps-1and1.net
+apps.devs.ai
 apps.fbsbx.com
 apps.grok.bot
 apps.lair.io
@@ -506,6 +507,7 @@ cdn77-ssl.net
 cdn77-storage.com
 ce.leg.br
 cechire.com
+ceero.site
 centralia.wa.us
 centralindia-01.azurewebsites.net
 centralus-01.azurewebsites.net
@@ -1302,6 +1304,7 @@ ggff.net
 gh.srv.us
 gig-harbor.wa.us
 giize.com
+ginta.page
 girlfriend.jp
 girly.jp
 git-pages.rit.edu
@@ -1809,6 +1812,7 @@ linodeobjects.com
 littlestar.jp
 live-on.net
 live-website.com
+loc.cc
 localcert.net
 localplayer.dev
 localto.net

@@ -1314,6 +1314,7 @@
 *.french-stream.biz
 *.french-streams.biz
 *.frenchstream.biz
+*.futbollibregol.biz
 *.gidonline.biz
 *.gidonline-hd.biz
 *.go123movies.biz
@@ -7505,6 +7506,7 @@
 *.vegamovies2.club
 *.vegamovis.club
 *.velikiy-uravnitel-lordfilm.club
+*.verfutbolenvivo.club
 *.vikingi-lordfilm.club
 *.vikingi-valhalla-lordfilm.club
 *.vlastelin-kolec-lordfilm.club
@@ -8428,6 +8430,7 @@
 *.anime.com
 *.anime-avatar-creator.com
 *.anime-city.com
+*.anime-dee.com
 *.anime-faith.com
 *.anime-moka.com
 *.anime-sharing.com
@@ -10437,6 +10440,7 @@
 *.go-123movies.com
 *.go123movies.com
 *.go2load.com
+*.goatedfutbol.com
 *.god-games.com
 *.godriveplayer.com
 *.gofutbolero.com
@@ -13076,6 +13080,7 @@
 *.streamingcommunity.com
 *.streamingcommunity-nuovo.com
 *.streamingcommunityz.com
+*.streamingease.com
 *.streamingexecution.com
 *.streamingfrench.com
 *.streamingnordic.com
@@ -13226,6 +13231,7 @@
 *.taraftarium24bjk25.com
 *.taraftarium24bjk26.com
 *.taraftarium24bjk27.com
+*.taraftarium24bjk28.com
 *.taraftarium24bjk4.com
 *.taraftarium24bjk8.com
 *.taraftarium24bjk9.com
@@ -33667,6 +33673,7 @@
 *.www.ddlrls.net
 *.ddlseries.net
 *.asiatorrent.ddns.net
+*.torrent.epasquet.ddns.net
 *.houniao.ddns.net
 *.ddgu.ddos-guard.net
 *.ddosforhire.net
@@ -34062,6 +34069,7 @@
 *.linuxmafia.net
 *.live-kooora-tv.net
 *.livesx.net
+*.livetvsports.net
 *.livrefilmeshd.net
 *.lookmovieti.net
 *.lordfilm-2027.net
@@ -36667,6 +36675,8 @@
 *.futbollibregol.org
 *.futbollibreperu.org
 *.futbollibreplay.org
+*.futbollibretvgol.org
+*.futbollibretvplay.org
 *.futbollibretvplus.org
 *.fyber.org
 *.fzmovies-tv.org
@@ -54256,6 +54266,7 @@
 *.lordfilmatonal.sbs
 *.lordfilmauteur.sbs
 *.lordfilmautumn.sbs
+*.lordfilmavenue.sbs
 *.lordfilmballyhoo.sbs
 *.lordfilmbeside.sbs
 *.lordfilmbfc.sbs
@@ -54623,6 +54634,7 @@
 *.sumerky-lordfilm.sbs
 *.superflixapi.sbs
 *.supernatural-lordfilm.sbs
+*.supreheroes-lordfilms.sbs
 *.svaty-lordfilm.sbs
 *.sverhestestvennoe-lordfilm.sbs
 *.tainyi-dnevnik-verity-lordfilm.sbs

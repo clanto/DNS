@@ -27317,6 +27317,7 @@
 ||sapi.tremendous.com^
 ||tremendousplastic.com^
 ||tremendoustime.com^
+||trendcone.com^
 ||utiq.trendencias.com^
 ||ingress.trendii.com^
 ||info.trendler.com^
@@ -27528,6 +27529,7 @@
 ||go.tuv.com^
 ||statistics.tuv.com^
 ||smetrics.tuvsud.com^
+||tuxedocard.com^
 ||aa.tv.com^
 ||koifrz.tvc-mall.com^
 ||aa.tvguide.com^
@@ -38766,6 +38768,7 @@
 ||solutionshindsight.net^
 ||sonicsessions.net^
 ||metrics.helpguide.sony.net^
+||soulfreedom.net^
 ||soundmachine.net^
 ||a8cv.souzoku-no-madoguchi.net^
 ||experiments.sparanoid.net^
