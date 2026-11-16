@@ -106,7 +106,6 @@ adg.lintasjrg.xyz
 adg.proprietarypenguin.com
 adg.rueiliu.space
 adg.spacework.com.mx
-adg.tshost.no
 adg.yybyy.wiki
 adgaurd.kazhdom.ir
 adgaurd.lingmont.net
@@ -190,6 +189,7 @@ adguard.kitakitsune.xyz
 adguard.landropunk.xyz
 adguard.lege.despagne.net
 adguard.llf520.dpdns.org
+adguard.londonwebnerd.cloud
 adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
@@ -434,6 +434,7 @@ at.pzhg.me
 atelier.alica.idv.tw
 atl01.dnscry.pt
 atlantic.dyn1.de
+atris.cyou
 atsilva.link
 au-syd-w-f-1.nashkan.net
 au-syd-w-p-1.nashkan.net
@@ -525,7 +526,6 @@ child-noads.joindns4.eu
 child.joindns4.eu
 chlaebi.synology.me
 chromium.dns.nextdns.io
-chronicle14.tplinkdns.com
 chungocoai.name.vn
 chynik.duckdns.org
 circumitor.de
@@ -569,6 +569,7 @@ cubedns.com
 curser.dev
 cvt01.dnscry.pt
 cyliu.idv.tw
+cynntex.fun
 d.adguard-dns.com
 d.apemlegit.my.id
 d.gametechnet.com
@@ -1411,6 +1412,7 @@ dns.velyn.my.id
 dns.venclous.org
 dns.vietdns.vn
 dns.vinnyp.xyz
+dns.vip-kingstore.xyz
 dns.virelonix.com
 dns.virtual-qr.ir
 dns.vk09.ru
@@ -1423,7 +1425,6 @@ dns.vpn.i81.ru
 dns.vps.pw
 dns.w3ctag.org
 dns.wael.name
-dns.wahr.top
 dns.walker.id
 dns.walshnet.co.uk
 dns.wantfreedom.eu.org
@@ -1548,7 +1549,6 @@ dns2.slowb.ro
 dns2.srv-home.fr
 dns2.st4rs.net
 dns2.thylacine.co.nz
-dns2.ytpom.ru
 dns3.von-ah.com
 dns3.wistarip.com
 dns35.allone.dpdns.org
@@ -1750,8 +1750,6 @@ doh.xorlet.ru
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
-doh1.b-cdn.net
-doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu

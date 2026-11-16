@@ -21337,6 +21337,7 @@
 ||1vyt1eguj27.ommasign.com^
 ||refwkk.omnicalculator.com^
 ||marketing.omnifymarketing.com^
+||wt.omnisendlink.com^
 ||fpssl-monitor-dal.omniture.com^
 ||app.green.omniture.com^
 ||metrics.omniture.com^
@@ -22825,6 +22826,7 @@
 ||publicsofa.com^
 ||metric.publicstorage.com^
 ||metrics.publicstorage.com^
+||view.publitas.com^
 ||metrix.publix.com^
 ||puffyloss.com^
 ||puffypaste.com^
@@ -25500,6 +25502,7 @@
 ||target.sportsmansguide.com^
 ||uxkurx.sportsmansguide.com^
 ||sportsnearby.com^
+||sportswidows.com^
 ||sportybrains.com^
 ||sportyforum.com^
 ||mtcvyv.sporx.com^
@@ -27084,6 +27087,7 @@
 ||marketing.topekapartnership.com^
 ||topicalcartel.com^
 ||topicjungle.com^
+||topicspin.com^
 ||stats.topofblogs.com^
 ||otx23nu6rzon.prep.toppers.com^
 ||topratedwaterfilter.com^
@@ -28662,6 +28666,7 @@
 ||xjkugh.waterdropfilter.com^
 ||tracking.waterfrontmedia.com^
 ||marketing.wateriqtech.com^
+||waterloco.com^
 ||smetrics.waterlooford.com^
 ||smetrics.waterloolincoln.com^
 ||smetrics.waters.com^
@@ -37800,6 +37805,7 @@
 ||loader-cdn.azureedge.net^
 ||msadsscale.azureedge.net^
 ||sdtagging.azureedge.net^
+||adsagentclientafd-b7hqhjdrf3fpeqh2.b01.azurefd.net^
 ||sd-tagging.azurefd.net^
 ||freshatl.azurewebsites.net^
 ||rmgdapfnccsharpprd.azurewebsites.net^
@@ -37876,6 +37882,9 @@
 ||catlanguage.net^
 ||40caidaylimpia.catzolab.net^
 ||app.insider.cavs.net^
+||data.cdnbasket.net^
+||page.cdnbasket.net^
+||view.cdnbasket.net^
 ||fpkph.cdnpk.net^
 ||a8cv.celav.net^
 ||a8cv.cellbic.net^

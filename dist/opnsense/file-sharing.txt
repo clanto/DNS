@@ -24,6 +24,7 @@ alojarfotos.com
 anyhub.net
 anzwers.org
 arcadeupload.com
+arcadya.net
 archivosgrandes.com
 axifile.com
 badongo.com
@@ -110,7 +111,6 @@ fileqube.com
 files-express.com
 files.catbox.moe
 files.mail.ru
-files.to
 files6.com
 filesanywhere.com
 filesavr.com

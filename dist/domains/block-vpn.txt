@@ -5546,6 +5546,7 @@ groundvpn.xyz
 group.camdvr.org
 gruvpn.com
 gsbdgef.com
+gscloud-vpn.com
 gscloud.cfd
 gscloud.icu
 gsd92gov.com
@@ -9157,6 +9158,7 @@ proportiongrass.org
 prosox.io
 prostovpn.org
 prostudyhabits.co
+prosvetvpn.com
 proton-vpn.help
 protonvpn.ch
 protonvpn.com
@@ -9547,6 +9549,7 @@ qodami.com
 qolfgv.xyz
 qoqo-oqoq.myclarevision.com
 qpadf.com
+qproxy.com
 qtrwplkdz.com
 qtyrqg.com
 quack-start.surge.sh
@@ -10204,6 +10207,7 @@ shandianjiasu.com
 shandianpro.com
 shandianpro.github.io
 shandianpro.org
+shandiianvpn.com
 shanhai.cfd
 shanhai.click
 shanhai.me
@@ -10284,6 +10288,7 @@ simply-history.xyz
 simplynode.io
 sinaproject.xyz
 sing-box.org
+singularvpn.com
 sinovpn.com
 sipidwnt.com
 sir90hl.com
@@ -10406,7 +10411,6 @@ soax.com
 socchanpxy.f5.si
 social-welfare.us
 socialnetworkinfo.us
-socketprovpn.com
 socks5.io
 sockslist.us
 socksproxychecker.com
@@ -12130,6 +12134,7 @@ vpnforrussia.online
 vpngame.com
 vpngame.help
 vpngame.net
+vpngarden.xyz
 vpngate.homes
 vpngate.jp
 vpngate.net
@@ -12229,6 +12234,7 @@ vpnpie.org
 vpnplanet-free.ru
 vpnplus.help
 vpnplus.to
+vpnpowered.xyz
 vpnpremium.lol
 vpnpremium.mom
 vpnpremiums.com
@@ -12277,6 +12283,7 @@ vpnspa.com
 vpnspeaks.xyz
 vpnstatus.site
 vpnstore.help
+vpnstudio.xyz
 vpnstunnel.com
 vpnsuper.app
 vpnsuper.com
@@ -12316,6 +12323,7 @@ vpnwebsite.com
 vpnwelt.com
 vpnwholesaler.com
 vpnxray.site
+vpnxstore.xyz
 vpnzaychik.ru
 vpnzebra.com
 vpnzo-application.com

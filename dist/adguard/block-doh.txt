@@ -2925,7 +2925,6 @@
 ||dns.geohide.ru^
 ||geshido.vpn.geshido.ru^
 ||roma.vpn.geshido.ru^
-||graveofhope.ru^
 ||dns.graybox-dev.ru^
 ||adg.grinavto.ru^
 ||dns2.gw-host.ru^

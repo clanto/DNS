@@ -3477,6 +3477,7 @@
 *.grnhdh81.com
 *.gruvpn.com
 *.gsbdgef.com
+*.gscloud-vpn.com
 *.gsd92gov.com
 *.gtfyeca.com
 *.gtkpw.com
@@ -5126,6 +5127,7 @@
 *.proigor.com
 *.project-cyber.com
 *.promptxvpn.com
+*.prosvetvpn.com
 *.vpn.protondownload.com
 *.protonvpn.com
 *.vpncdn.protonweb.com
@@ -5275,6 +5277,7 @@
 *.qntfrkbz.com
 *.qodami.com
 *.qpadf.com
+*.qproxy.com
 *.qtrwplkdz.com
 *.qtyrqg.com
 *.quanqiuyun07.com
@@ -5505,6 +5508,7 @@
 *.shandiancn.com
 *.shandianjiasu.com
 *.shandianpro.com
+*.shandiianvpn.com
 *.shanyangvpn.com
 *.shareaha1.com
 *.sharejav.com
@@ -5542,6 +5546,7 @@
 *.notes.pupil.simplecharity.com
 *.the.simplecharity.com
 *.simplexsolutionsinc.com
+*.singularvpn.com
 *.sinovpn.com
 *.sipidwnt.com
 *.sir90hl.com
@@ -5588,7 +5593,6 @@
 *.dove.soapclient.com
 *.signup.soapclient.com
 *.soax.com
-*.socketprovpn.com
 *.socksproxychecker.com
 *.softbasalt.com
 *.softcobalt.com
@@ -13257,12 +13261,16 @@
 *.vpnconvergence.xyz
 *.vpncoordinates.xyz
 *.vpndivide.xyz
+*.vpngarden.xyz
 *.vpnifyultra.xyz
 *.vpnjunkie.xyz
 *.vpnmir.xyz
+*.vpnpowered.xyz
 *.vpnreview.xyz
 *.vpnspeaks.xyz
+*.vpnstudio.xyz
 *.vpntarget.xyz
+*.vpnxstore.xyz
 *.overcloaked.was-on-decayeds-island.xyz
 *.web3vpn.xyz
 *.webpro.xyz

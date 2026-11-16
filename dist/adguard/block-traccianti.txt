@@ -518,6 +518,7 @@
 ||go.shop.app^
 ||go.test.shop.app^
 ||shop-cart.app^
+||sitestats.app^
 ||slim.app^
 ||smartsignal.app^
 ||link.snaphabit.app^
@@ -3438,6 +3439,7 @@
 ||smartbuy4u.club^
 ||uwnytpkxxpueh.club^
 ||tk.airfrance.cm^
+||newrelic.cm^
 ||atom-log.3.cn^
 ||s.360.cn^
 ||tf.360.cn^
@@ -16227,6 +16229,7 @@
 ||essayplanet.com^
 ||essayspin.com^
 ||smetrics.essds.com^
+||esse4d-slot.com^
 ||marketing.essellc.com^
 ||hmeqvp.essencemakeup.com^
 ||ao-marketing.essendant.com^
@@ -18128,6 +18131,7 @@
 ||fetch.gethuan.com^
 ||stats.gethyas.com^
 ||marketing-company.getinsured.com^
+||getiploc.com^
 ||app.getjerry.com^
 ||getjess.com^
 ||getkoala.com^
@@ -18906,6 +18910,7 @@
 ||event-log-api-data-platform-data-lake-prod.gryphline.com^
 ||metrics.gs-chat.com^
 ||tickets.gs-warriors.com^
+||gs5nx7flow.com^
 ||smetrics.gsbank.com^
 ||app.gseagles.com^
 ||t.gseagles.com^
@@ -19716,6 +19721,7 @@
 ||a8cv.hoken-laundry.com^
 ||aa-metrics.hokench.com^
 ||a8.hokengarden.com^
+||hoki99slot.com^
 ||app.hokiesports.com^
 ||t.hokiesports.com^
 ||utiq.hola.com^
@@ -22836,6 +22842,7 @@
 ||dev.go.levelbank.com^
 ||prealpha.go.levelbank.com^
 ||levelbehavior.com^
+||levellr.com^
 ||zrxdzq.levelshoes.com^
 ||a8cv.leverage-learning.com^
 ||app.levi.com^
@@ -24646,6 +24653,7 @@
 ||millhouses.com^
 ||millioncounter.com^
 ||millswell.com^
+||milorii.com^
 ||trk.miltonroy.com^
 ||marketing.mimakiusa.com^
 ||mimosamajor.com^
@@ -30165,6 +30173,8 @@
 ||oms.neimanmarcus.com^
 ||neimanmarcusemail.com^
 ||geoip.nekudo.com^
+||nelioabtesting.com^
+||neliosoftware.com^
 ||mdws.nelsoncu.com^
 ||a8clk.nenga-kazoku.com^
 ||a8.nengahonpo.com^
@@ -30778,6 +30788,7 @@
 ||nvrmd.novaramedia.com^
 ||novaseekers.com^
 ||iirpzp.novasol.com^
+||novasoln.com^
 ||marketing.novatel.com^
 ||novatrck02.com^
 ||marketing.novelcoworking.com^
@@ -31197,6 +31208,7 @@
 ||omnisci.com^
 ||omniscientfeeling.com^
 ||omniscientspark.com^
+||wt.omnisendlink.com^
 ||omnitagjs.com^
 ||omniture.com^
 ||omniture-netops.com^
@@ -33161,6 +33173,7 @@
 ||publisher-news.com^
 ||publishers-on.com^
 ||publishingcampus.com^
+||view.publitas.com^
 ||metrix.publix.com^
 ||pubocean.com^
 ||pubperf.com^
@@ -36803,6 +36816,7 @@
 ||target.sportsmansguide.com^
 ||uxkurx.sportsmansguide.com^
 ||sportsnearby.com^
+||sportswidows.com^
 ||sportybrains.com^
 ||sportyforum.com^
 ||mtcvyv.sporx.com^
@@ -38933,6 +38947,7 @@
 ||topicalcartel.com^
 ||topichawaii.com^
 ||topicjungle.com^
+||topicspin.com^
 ||stats.topofblogs.com^
 ||topofferlink.com^
 ||otx23nu6rzon.prep.toppers.com^
@@ -39384,6 +39399,7 @@
 ||a.trivita.com^
 ||trk-brevinate.com^
 ||trk-maiorum.com^
+||trk1smlnk.com^
 ||trk2afse.com^
 ||trkbc.com^
 ||trkcliq.com^
@@ -41100,6 +41116,7 @@
 ||xjkugh.waterdropfilter.com^
 ||tracking.waterfrontmedia.com^
 ||marketing.wateriqtech.com^
+||waterloco.com^
 ||smetrics.waterlooford.com^
 ||smetrics.waterloolincoln.com^
 ||watermarkinsights.com^
@@ -41411,6 +41428,7 @@
 ||whatismyipv6address.com^
 ||whatismypublicip.com^
 ||whatismypublicipaddress.com^
+||whatismyv6.com^
 ||luumhi.whatonearthcatalog.com^
 ||whatsmycountry.com^
 ||whatsmyfuckingip.com^
@@ -45436,6 +45454,7 @@
 ||jrzgcz.latinaoggi.eu^
 ||utiq.lebenindeutschland.eu^
 ||tr.newsletter.leocare.eu^
+||lets-stream.eu^
 ||stats.limitlessnetworks.eu^
 ||fsqwdj.live-tennis.eu^
 ||etppmr.luko.eu^
@@ -48857,6 +48876,7 @@
 ||psyonline.ir^
 ||sv7.ir^
 ||tlog.ir^
+||youip.ir^
 ||go.zartoo.ir^
 ||analytic.is^
 ||app.begin.is^
@@ -51570,6 +51590,7 @@
 ||stats.igassmann.me^
 ||ip.me^
 ||ip4.me^
+||ip4only.me^
 ||ip6.me^
 ||ipcheck.me^
 ||ipctx.me^
@@ -52070,6 +52091,7 @@
 ||loader-cdn.azureedge.net^
 ||msadsscale.azureedge.net^
 ||sdtagging.azureedge.net^
+||adsagentclientafd-b7hqhjdrf3fpeqh2.b01.azurefd.net^
 ||sd-tagging.azurefd.net^
 ||azurehdinsight.net^
 ||freshatl.azurewebsites.net^
@@ -52171,6 +52193,9 @@
 ||40caidaylimpia.catzolab.net^
 ||app.insider.cavs.net^
 ||ccgateway.net^
+||data.cdnbasket.net^
+||page.cdnbasket.net^
+||view.cdnbasket.net^
 ||fpkph.cdnpk.net^
 ||cedexis-radar.net^
 ||a8cv.celav.net^
@@ -56042,6 +56067,7 @@
 ||sf-test.groc.press^
 ||sm.groc.press^
 ||sm-test.groc.press^
+||newrelic.press^
 ||capping.sirius.press^
 ||admon.pro^
 ||adsuite.pro^
@@ -57427,6 +57453,7 @@
 ||gulf.moneroocean.stream^
 ||marketing.mowe.studio^
 ||analytics.multithread.studio^
+||newrelic.studio^
 ||invite.openhouse.study^
 ||ddlcvm.clas.style^
 ||a8cv.icoi.style^
@@ -57443,6 +57470,7 @@
 ||trackuity.supplies^
 ||marketing.et.support^
 ||yoiku-sub.yoiku.support^
+||newrelic.surf^
 ||engage.3m.com.sv^
 ||smetrics.prado.com.sv^
 ||vwakpz.vidri.com.sv^
@@ -57916,6 +57944,7 @@
 ||collection.mola.tv^
 ||sc.mtv.tv^
 ||myhomescreen.tv^
+||newrelic.tv^
 ||sc.nick.tv^
 ||ssc.nick.tv^
 ||ssc.nickourworld.tv^
@@ -59014,6 +59043,7 @@
 ||analytics.neoogilvy.uy^
 ||mc.yandex.uz^
 ||analytics-stamp.confi.com.vc^
+||newrelic.com.vc^
 ||a8cv.nigaoe.graphics.vc^
 ||qc.vc^
 ||sanalytics.cartoonnetwork.com.ve^
@@ -59092,6 +59122,7 @@
 ||multifbpixels.website^
 ||a8.pla-cole.wedding^
 ||analytics.consumerrights.wiki^
+||newrelic.wiki^
 ||ortto.wiki^
 ||pagestats.win^
 ||stats.patriot.win^
@@ -59267,6 +59298,7 @@
 ||ml-sys.xyz^
 ||moviesrock.xyz^
 ||mxcount.xyz^
+||newrelic.xyz^
 ||order2get.xyz^
 ||stats.ownpath.xyz^
 ||pixelinstall.xyz^

@@ -1,9 +1,6 @@
 *.voice-kids2026.bond
-*.caritasvigevano.com
-*.whatsverify.com
 *.petrahanschke.de
 *.soprecision.de
-*.slowgim.fun
 *.braintrax.info
 *.futureballot.life
 *.bimbilive.live
@@ -17,6 +14,5 @@
 *.milsakura.pro
 *.thankswisdom.pro
 *.mysterfim.top
-*.ngdancekidsvote.top
 *.tinyballot.top
 *.get.activated.win
