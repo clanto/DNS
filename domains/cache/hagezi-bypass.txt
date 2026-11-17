@@ -24,6 +24,7 @@
 0x3d.lu
 1.0rz.space
 1.11i.eu
+1.baumgardner.us
 1.dns.noridev.moe
 1.hotelne.com
 1.rdnls.ru
@@ -1321,6 +1322,7 @@ adguard.infrapod.nl
 adguard.io
 adguard.itclogic.cloud
 adguard.jaydub.cloud
+adguard.jfchenier.ca
 adguard.jodatacenter.com
 adguard.johanliebert.top
 adguard.jvpatel.com
@@ -1939,6 +1941,7 @@ arcticstorm.ru
 ardebill.miandoabs.info
 area.level.southtrestle.com
 area51.mywire.org
+area9.uk
 areas.fun
 arenaproxy.xyz
 argovpn.com
@@ -2787,7 +2790,6 @@ botvpntype.com
 bouquetberlin.org
 box.seidenstrabe.com
 bpn.wtf
-bproxy.one
 bqinoiq.com
 bqkqixr.com
 br.lfac.net.br
@@ -3636,7 +3638,6 @@ cyclesydneylondon.com
 cyliu.idv.tw
 cyneros.com
 cynntex.fun
-cyperproxies.io
 cyphervpn.pro
 cyphyl.com
 czrnavdk.com
@@ -4301,6 +4302,7 @@ desertsand.us
 desk.registration.abrdns.com
 desm0s.vercel.app
 desm0slearning.vercel.app
+desmos.edu.baumgardner.us
 desmossciencehelp.global.ssl.fastly.net
 detnyefta482w.cloudfront.net
 deuw50mhc01sy.cloudfront.net
@@ -7057,6 +7059,7 @@ flashput.com
 flashput.net
 flashputon.com
 flashputon.net
+flashvpn.li
 flasksync.com
 flat.loisy.it
 fleshpanopticon.agguiopz.ip-dynamic.org
@@ -7249,10 +7252,7 @@ freevpnconnect.xyz
 freevpncuba.com
 freevpnfast.info
 freevpnfirst.online
-freevpnghana.com
-freevpnhongkong.com
 freevpnkeys.com
-freevpnlebanon.com
 freevpnmars.com
 freevpnme.b-cdn.net
 freevpnnet.com
@@ -7470,6 +7470,7 @@ geometrycalculatorhelprvhs.college
 geonix.com
 geonode.com
 geoplace.info
+george-is.a-bum.and-me-and-john.are.cool.baumgardner.us
 georgetown.duia.us
 georgevpn.xyz
 geosurf.com
@@ -8453,6 +8454,7 @@ how.learn.harimurti.web.id
 how.prep.topmoto.pl
 howdy.id
 howo.pages.dev
+howto.klinikkenoj.dk
 howvpn.help
 hoxx.net
 hp72ipg3.com
@@ -9329,6 +9331,7 @@ kfkxdwfk3.easterndns.com
 kfwjq7a3.com
 kgkt5w6.com
 khajujawegifwqaiugwa.tcp64.de
+khal33.me
 khanacademy.mom.cdn.cloudflare.net
 khare-gol.golabkashan.info
 khobi-alhamdolelah.ebimarh.info
@@ -9730,6 +9733,7 @@ l07nhabs.com
 l0gwz0ku.com
 l4bor.com
 la-doh.stuptech.com
+la-vacca.klinikkenoj.dk
 lablancer.com
 labubudubaichocolatephonk.joe.dj
 lacertilian.karrozzin.cloud-ip.cc
@@ -10880,7 +10884,6 @@ neo-vpn.ink
 neodon-vpn.com
 neoncrumb.com
 neonforests.com
-neptunproxies.com
 nerbix.xyz
 neru.cc
 nerwo.info
@@ -10934,6 +10937,7 @@ nexav.app
 nexifyvpn.org
 nexitally.info
 nexitallyeb.com
+nexitallyhh.com
 nexitallyig.com
 nexitallyjc.com
 nexitallysafe.com
@@ -10996,6 +11000,7 @@ ninnkinahitonopurokisitteburokkusareyasuiyone.easterndns.com
 nintendogames.net
 niovf.ipv64.net
 nirbytes.com
+nirselenite.klinikkenoj.dk
 nitter.ujwie.co
 njal.la
 njtzzrvg0lwj3bsn.info
@@ -11229,6 +11234,7 @@ nthu.cc
 nttconnections.com
 ntwrkh.pro
 ntyrqg.com
+nucleusvpn.com
 nucnhwsx.com
 nuevita.org
 nuia4jjw.com
@@ -11320,7 +11326,6 @@ okayvpn.com
 okedr.ru
 okgfw.top
 oklubnika.ru
-okovpn.app
 okproxy.com
 okryjovnik.ru
 okvpn.io
@@ -11623,6 +11628,7 @@ pcgo.fun
 pcornet.freeboxos.fr
 pcxyca9z.com
 pdf.worksheetsforteachers.org
+pdfproxy.com
 pdns.elecura.net
 pdns.faelix.net
 pdns.itxe.net
@@ -11808,6 +11814,7 @@ planetvpn.cloud
 planetvpn.club
 planetvpnfree.com
 planetvpnfree.net
+planetvpnru.net
 plans.datacommunicationsinc.com
 plant.smart.energysemi.com
 planvero.ru
@@ -12262,7 +12269,6 @@ proxyspace.pro
 proxyspace.pro.cdn.cloudflare.net
 proxyssl.org
 proxystride.com
-proxystrike.io
 proxysupply.com
 proxysurfing.org
 proxytime.net
@@ -12350,7 +12356,6 @@ purelink.cc
 puremember.com
 purepiston.com
 pureprojsq.xyz
-pureproxies.io
 puresiq.xyz
 puretuijian.com
 puretuijian.pro
@@ -12803,6 +12808,7 @@ romanschrom.com
 romathebest.bumbleshrimp.com
 ronald.run
 ronaldvkrueger.ddns.net
+roodel.com
 roof.clean.abrdns.com
 roogen.com
 roomatic.net
@@ -12847,7 +12853,6 @@ ru-vpnly.net
 ru7.0f.be.l.dyn.ir.xy.n.com.a7.fo.8kmc.co.uk
 rubyarcade.pages.dev
 rubyfish.cn
-rubyproxies.com
 rudmoain.co.uk
 rudolphdesigns.com
 rufvyhjidk6.easterndns.com
@@ -12915,6 +12920,7 @@ s4m.tech
 s4m.xyz
 s5-us3.startpage.com
 s57.top
+s7mmervxbes-luck-is-real.baumgardner.us
 s7n.ir.ir.ir.meli-n12.info
 s8.amazonaws.jdymqic.shop
 s8ks.us
@@ -13081,6 +13087,7 @@ seaofseals.org
 search-apis.com
 search.azbusclub.org
 searchsafe.com
+seb-likes-men.klinikkenoj.dk
 sec-tunnel.com
 sec.iamninja.ru
 secretbrowser.net
@@ -13808,6 +13815,7 @@ super-vpn.info
 super123.org
 superapi.cz
 superbproxy.com
+superbypasses.com
 superconnect.dev
 superfreevpn.com
 supergisfire.com
@@ -14265,6 +14273,7 @@ tomasvpn.pro
 tommattinglyda.site
 tond.strobox.info
 tonvpn.com
+toocoolforschool.donhoo.com
 toolara.net
 toolcio.com
 tools.development.sanluix.org
@@ -15972,6 +15981,7 @@ www-testus.spiderprx.com
 www-theweb.deersserverhosting.com
 www-web.sshub.win
 www-webproxy.ipstar.io
+www-wsdr.weasdr.site
 www-www.fb3h0y.top
 www-yt.nikooo.ir
 www-yy.in6.to

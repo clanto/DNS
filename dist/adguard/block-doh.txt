@@ -110,6 +110,7 @@
 ||dnscrypt.ca^
 ||dns.edgeworkssystems.ca^
 ||ag.ff0x.ca^
+||adguard.jfchenier.ca^
 ||doh.nukys.ca^
 ||router.sapib.ca^
 ||yavin.securahost.ca^

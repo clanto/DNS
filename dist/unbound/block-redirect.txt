@@ -17002,6 +17002,7 @@
 *.cutmoa.com
 *.cutmyurl.com
 *.cutqr.com
+*.cuts-url.com
 *.cuts2.com
 *.cuttgoo.com
 *.cutth.com
@@ -31210,6 +31211,7 @@
 *.infong601.kundenserver.de
 *.kurzelinks.de
 *.lagometer.de
+*.lamacchina.de
 *.leercasette.de
 *.lelien.de
 *.limeproxy.de
@@ -66596,6 +66598,7 @@
 *.7a.ink
 *.8n.ink
 *.add-l.ink
+*.agll.ink
 *.ase.ink
 *.ata.ink
 *.bcl.ink
@@ -69270,6 +69273,7 @@
 *.unblock.itl.me
 *.itlinks.me
 *.izip.me
+*.jalanku.me
 *.jali.me
 *.janji.me
 *.janjikita.me
@@ -69375,6 +69379,7 @@
 *.web-miner.noip.me
 *.okdc.me
 *.okurl.me
+*.olhe.me
 *.olii.me
 *.oline.me
 *.ondrej.me

@@ -241,6 +241,7 @@ adguard.infralink.space
 adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
+adguard.jfchenier.ca
 adguard.jodatacenter.com
 adguard.johanliebert.top
 adguard.jvpatel.com
@@ -2685,6 +2686,7 @@ kellerbier-home.com
 kennethhuang.com
 kevinss-us-1.kevinss886.de5.net
 khome.site
+kids.dns0.eu
 kids.ns.nwps.fi
 kids.vietdns.vn
 kihn.org
@@ -3022,6 +3024,7 @@ online.zotio.ru
 oowo.de
 open-resolver1.unima.ac.id
 open.dns.dremaxx.com
+open.dns0.eu
 openbld.net
 opencdn.jomodns.com
 opendns.one
@@ -3782,6 +3785,7 @@ zapacasa.ddns.net
 zapranet.my.id
 zaziss.com
 zdn.ro
+zero.dns0.eu
 zetland.rm-ni.uk
 zeusvps.cloudns.nz
 zhang.wenru.xyz

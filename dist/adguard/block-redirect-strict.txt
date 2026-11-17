@@ -27470,6 +27470,7 @@
 ||wtunnel.com^
 ||domain.wuffster.com^
 ||wurkproxy.com^
+||wurlz.com^
 ||go.wutdie.com^
 ||wuxicloak.com^
 ||wuxifinger.com^
@@ -63402,6 +63403,7 @@
 ||colorstv.live^
 ||cut.live^
 ||daftarhoki.live^
+||delta.live^
 ||ellastern.live^
 ||euapoio.live^
 ||eurl.live^
@@ -111875,6 +111877,7 @@
 ||proxybrowsing.win^
 ||proxybypass.win^
 ||proxya.proxysite.win^
+||putar.win^
 ||pzou.win^
 ||shorturl.win^
 ||ss777.win^

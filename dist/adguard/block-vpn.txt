@@ -127,7 +127,6 @@
 ||ninjavpn.app^
 ||nodecat.app^
 ||nooken.app^
-||okovpn.app^
 ||onlinevpn.app^
 ||pawns.app^
 ||peremen.app^
@@ -2482,6 +2481,7 @@
 ||domogu.com^
 ||doneverdrop.com^
 ||gpthinker.donghaiji.com^
+||toocoolforschool.donhoo.com^
 ||doniuniu.com^
 ||donpv.com^
 ||donwloda.com^
@@ -3302,10 +3302,7 @@
 ||freevpn724.com^
 ||freevpnastro.com^
 ||freevpncuba.com^
-||freevpnghana.com^
-||freevpnhongkong.com^
 ||freevpnkeys.com^
-||freevpnlebanon.com^
 ||freevpnmars.com^
 ||freevpnnet.com^
 ||freevpnnode.com^
@@ -4810,7 +4807,6 @@
 ||neodon-vpn.com^
 ||neoncrumb.com^
 ||neonforests.com^
-||neptunproxies.com^
 ||nessbytejc.com^
 ||nestandneighbours.com^
 ||netaltr.com^
@@ -4830,6 +4826,7 @@
 ||newtpeak.com^
 ||newwaggish.com^
 ||nexitallyeb.com^
+||nexitallyhh.com^
 ||nexitallyig.com^
 ||nexitallyjc.com^
 ||nexitallysafe.com^
@@ -4913,6 +4910,7 @@
 ||nthlink.com^
 ||nttconnections.com^
 ||ntyrqg.com^
+||nucleusvpn.com^
 ||nucnhwsx.com^
 ||nuia4jjw.com^
 ||numberweak.com^
@@ -5037,6 +5035,7 @@
 ||pcd25xcm.com^
 ||theory.edu.pcsmsnow.com^
 ||pcxyca9z.com^
+||pdfproxy.com^
 ||pdwcauia.com^
 ||peacedefine.com^
 ||peaceful-valley-inn.com^
@@ -5421,6 +5420,7 @@
 ||rocksymmetry.com^
 ||rockwhisper.com^
 ||romanschrom.com^
+||roodel.com^
 ||roogen.com^
 ||roonyx.com^
 ||rootbat.com^
@@ -5440,7 +5440,6 @@
 ||rtyhf.com^
 ||ru-bropay.com^
 ||ru-planetvpn.com^
-||rubyproxies.com^
 ||rungame20.com^
 ||rushproxy.com^
 ||rusthelix.com^
@@ -5809,6 +5808,7 @@
 ||sunset-grove-farm.com^
 ||super123proxy.com^
 ||superbproxy.com^
+||superbypasses.com^
 ||superfreevpn.com^
 ||supergisfire.com^
 ||supergreenstuff.com^
@@ -7110,6 +7110,10 @@
 ||skibiditoilet.joe.dj^
 ||bebra.dk^
 ||nickel.klinikfysik.dk^
+||howto.klinikkenoj.dk^
+||la-vacca.klinikkenoj.dk^
+||nirselenite.klinikkenoj.dk^
+||seb-likes-men.klinikkenoj.dk^
 ||vm.mathfilm.dk^
 ||vpn-byen.dk^
 ||ash.do^
@@ -7940,7 +7944,6 @@
 ||coproxy.io^
 ||corsproxy.io^
 ||curd.io^
-||cyperproxies.io^
 ||dailyvpn.io^
 ||evavpn.io^
 ||fortpay.io^
@@ -8078,8 +8081,6 @@
 ||proxyheaven.io^
 ||proxyjet.io^
 ||proxys.io^
-||proxystrike.io^
-||pureproxies.io^
 ||qiaqia.io^
 ||edu.ezlearning.qzz.io^
 ||quasar.ezlearning.qzz.io^
@@ -8527,6 +8528,7 @@
 ||www.yowus.html-5.me^
 ||huojian.me^
 ||iportal.me^
+||khal33.me^
 ||rh.kindlytouch.me^
 ||kingdomhearts.me^
 ||laomaoyun.me^
@@ -10211,6 +10213,7 @@
 ||planetvpn-ru.net^
 ||planetvpn-rus.net^
 ||planetvpnfree.net^
+||planetvpnru.net^
 ||platobox.net^
 ||platovpn.net^
 ||playerstation.net^
@@ -10524,7 +10527,6 @@
 ||vp.what.cloudns.nz^
 ||bg.geek.nz^
 ||eleven.observer^
-||bproxy.one^
 ||changjinglu.one^
 ||dukadi.one^
 ||freevpn.one^
@@ -12151,6 +12153,7 @@
 ||vpntun.site^
 ||vpnxray.site^
 ||wakou-engineering-univ.site^
+||www-wsdr.weasdr.site^
 ||web-proxy.site^
 ||xg8tw7gfox.site^
 ||xvless.site^
@@ -12561,6 +12564,7 @@
 ||3245.uk^
 ||365vpn.uk^
 ||annual2025.uk^
+||area9.uk^
 ||catnet.uk^
 ||10bestvpn.co.uk^
 ||3etare.co.uk^
@@ -12750,8 +12754,12 @@
 ||train.terms.4twenty.us^
 ||anchorfree.us^
 ||appshost.us^
+||1.baumgardner.us^
 ||67.baumgardner.us^
+||george-is.a-bum.and-me-and-john.are.cool.baumgardner.us^
+||desmos.edu.baumgardner.us^
 ||garden.baumgardner.us^
+||s7mmervxbes-luck-is-real.baumgardner.us^
 ||bensvpn.us^
 ||bluegray.us^
 ||bypasser.us^

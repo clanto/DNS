@@ -1140,6 +1140,7 @@ familyds.net
 familyds.org
 fantasyleague.cc
 fashionstore.jp
+fastedge.app
 fastly-edge.com
 fastly-terrarium.com
 fastlylb.net
@@ -1287,6 +1288,7 @@ game-host.org
 game-server.cc
 gateway.dev
 gb.net
+gcorecdn.com
 gcp.databricksapps.com
 gda.pl
 gdansk.pl
