@@ -35,6 +35,7 @@
 2ix.at
 2ix.ch
 2ix.de
+2na.am
 3.azurestaticapps.net
 32-b.it
 3utilities.com
@@ -2932,6 +2933,7 @@ snowflake.app
 soc.srcf.net
 sochi.su
 sol.site
+solidres.page
 sopot.pl
 soundcast.me
 sourcecraft.site

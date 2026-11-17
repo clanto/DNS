@@ -28622,6 +28622,7 @@
 ||smetrics.walmartmoneycard.com^
 ||smetrics.walmartstores.com^
 ||axp.wane.com^
+||wanmatures.com^
 ||analytics-gw.games.wanmei.com^
 ||go.wanna.com^
 ||secure.want7feed.com^
@@ -28689,6 +28690,7 @@
 ||axp.wavy.com^
 ||branch.wawa.com^
 ||wa.wawlabs.com^
+||waxguide.com^
 ||waxsirens.com^
 ||app.waybetter.com^
 ||s.wayfair.com^
@@ -38892,6 +38894,7 @@
 ||info.virtela.net^
 ||smetrics.virtual-cosme.net^
 ||tracking.visma.net^
+||vistacool.net^
 ||page.vital4.net^
 ||stats.vk-portal.net^
 ||vkanalytics.net^

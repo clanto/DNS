@@ -8330,6 +8330,7 @@
 ||affinyddl.com^
 ||afratafreeh.com^
 ||afterdawn.com^
+||agelessanime.com^
 ||agenticwarez.com^
 ||agyanimediaworx.com^
 ||ahashare.com^
@@ -8450,6 +8451,7 @@
 ||animesamaactu.com^
 ||animesdatabases.com^
 ||animeshgraphicsengs.com^
+||animeshrpartha.com^
 ||animesimple.com^
 ||animesom.com^
 ||animestoree.com^
@@ -10268,6 +10270,7 @@
 ||futbollibretvapp.com^
 ||futbolllibreapk.com^
 ||futbologica.com^
+||futbolreplica.com^
 ||futbolsalaapuestas.com^
 ||futemax50.com^
 ||futurenet-bd.com^
@@ -10890,6 +10893,7 @@
 ||iptvinontario.com^
 ||iptvitaliahq.com^
 ||iptvitalianetv.com^
+||iptvktn.com^
 ||iptvmap.com^
 ||iptvmarketi.com^
 ||iptvmj.com^
@@ -10907,6 +10911,8 @@
 ||iptvsupra.com^
 ||iptvsverigeiptv.com^
 ||iptvtelevizija.com^
+||iptvusaprovider.com^
+||iptvvibe.com^
 ||iraniantorrents.com^
 ||is123moviesto.com^
 ||isitdownyet.com^
@@ -11202,6 +11208,7 @@
 ||livetv-fr.com^
 ||livetv-fr2.com^
 ||livetv-sports.com^
+||livetvsteam.com^
 ||livingtorrents.com^
 ||livxow.com^
 ||lizaonlinebd.com^
@@ -11442,6 +11449,7 @@
 ||megauploadparadise.com^
 ||megaups.com^
 ||mejortorrent.com^
+||mekanikotopark.com^
 ||melomaniacos.com^
 ||memsware.com^
 ||merlinwz.com^
@@ -11779,6 +11787,7 @@
 ||moviestrawberry.com^
 ||moviestreez.com^
 ||movietly.com^
+||movietobe.com^
 ||movietv88.com^
 ||movietvdeal.com^
 ||movietvforums.com^
@@ -11939,6 +11948,7 @@
 ||naijavault.com^
 ||nanniesofgreenhills.com^
 ||tracker.nanyangpt.com^
+||napolistreaming.com^
 ||nathanfromsubject.com^
 ||natorrent.com^
 ||naturalbd.com^
@@ -12227,6 +12237,7 @@
 ||pig2pig.com^
 ||pinoy-tv-replay.com^
 ||pioneersoap.com^
+||piptvplayer.com^
 ||piratebay-mirrors.com^
 ||piratebay-proxylist.com^
 ||piratebayblocked.com^
@@ -12319,6 +12330,7 @@
 ||prostokvashino-lordfilm.com^
 ||protoolsarena.com^
 ||protvcollection.com^
+||provider-iptv.com^
 ||tpb.proxyduck.com^
 ||ps4pkg.com^
 ||psarips.com^
@@ -12672,6 +12684,7 @@
 ||sknetcity.com^
 ||skullxdcc.com^
 ||sky-animes.com^
+||skyiptvgo.com^
 ||skylinectg.com^
 ||skynetchowmuhani.com^
 ||crackkeys2013.skyrock.com^
@@ -12679,6 +12692,7 @@
 ||slopwarez.com^
 ||slyck.com^
 ||sm123movies.com^
+||smallhdmovies.com^
 ||smartbox-tv.com^
 ||smartnetltd.com^
 ||smartonlinebd.com^
@@ -12840,6 +12854,7 @@
 ||songswave.com^
 ||sonidavison.com^
 ||sonofshun.com^
+||sophlivetv.com^
 ||tracker.soshifanclub.com^
 ||sosulki.com^
 ||soulfullmoviehd.com^
@@ -12951,8 +12966,10 @@
 ||streamingcommunity.com^
 ||streamingcommunity-nuovo.com^
 ||streamingcommunityz.com^
+||streamingcompass.com^
 ||streamingease.com^
 ||streamingexecution.com^
+||streamingfaster.com^
 ||streamingfrench.com^
 ||streamingnordic.com^
 ||streamingpeten.com^
@@ -13220,6 +13237,7 @@
 ||tioanime.com^
 ||tipucrack.com^
 ||tiranator.com^
+||tivimiptv.com^
 ||tivo8k.com^
 ||tixati.com^
 ||tkjlegalsoftwareza.com^
@@ -14188,7 +14206,6 @@
 ||warezddl.com^
 ||warezdescargashd.com^
 ||warezee.com^
-||warezela.com^
 ||warezeno.com^
 ||warezfactor.com^
 ||warezfans.com^
@@ -20321,6 +20338,7 @@
 ||httpslordfilm101kino.lat^
 ||hypeflix.lat^
 ||hypeflixtv.lat^
+||icuevana3.lat^
 ||il-geniodellostreaming.lat^
 ||ilgeniodellostreaming.lat^
 ||inattv1.lat^
@@ -31707,6 +31725,7 @@
 ||123moviesfree.mobi^
 ||123movieshd.mobi^
 ||123moviess.mobi^
+||3cuevana3.mobi^
 ||apkmody.mobi^
 ||cineblog01.mobi^
 ||cineby.mobi^
@@ -32995,7 +33014,6 @@
 ||streamm4u.my^
 ||streamm4uz.my^
 ||thepiratebay.my^
-||top1iptv.my^
 ||torrent-p2p.my^
 ||torrent-site.my^
 ||torrent9v1.my^
@@ -35303,6 +35321,7 @@
 ||720pmovies.online^
 ||7movierulzfree.online^
 ||911-odynokaya-zvezda-lordfilm.online^
+||aanimeinspiresetsy.online^
 ||ajda-lordfilm.online^
 ||all123movies.online^
 ||altadefinizione.online^
@@ -35311,11 +35330,13 @@
 ||altadefinizione01.online^
 ||altadefinizionegratis.online^
 ||altadefinizionex.online^
+||animefillerorder.online^
 ||animekisa.online^
 ||animevia.online^
 ||animevilla.online^
 ||antenasport.online^
 ||apksoap2day.online^
+||aromaiptv.online^
 ||assistirseriados.online^
 ||assistirtvgratis.online^
 ||atakinox.online^
@@ -35383,6 +35404,7 @@
 ||filmovie.online^
 ||filmsenzalimiti.online^
 ||filmstreaming.online^
+||filmycz.online^
 ||filmyhit.online^
 ||filmyhub.online^
 ||filmyra.online^
@@ -35431,6 +35453,7 @@
 ||fullmovieshd.online^
 ||fullmovieswatch.online^
 ||futbollibredirecto.online^
+||futbollibres.online^
 ||fzmovies.online^
 ||gidonlinehd.online^
 ||gogo-flix.online^
@@ -35489,6 +35512,8 @@
 ||iboxbd.online^
 ||ilovekino.online^
 ||inattvmac.online^
+||iptv-barbados.online^
+||iptvguy.online^
 ||iptvresellerpanell.online^
 ||iptvsrbija.online^
 ||is123movies.online^
@@ -36086,6 +36111,7 @@
 ||ns2.circus-project.org^
 ||citymovie.org^
 ||cksub.org^
+||cleanimei.org^
 ||climatebites.org^
 ||clipmovie.org^
 ||clonehub.org^
@@ -36329,6 +36355,7 @@
 ||fullversions.org^
 ||funfile.org^
 ||futbol10.org^
+||futbollibrego.org^
 ||futbollibregol.org^
 ||futbollibreperu.org^
 ||futbollibreplay.org^
@@ -36451,6 +36478,7 @@
 ||intercambiosvirtuales.org^
 ||iplusfree.org^
 ||iptvfinder.org^
+||iptvfrance.org^
 ||iptvhelder.org^
 ||iptvkastje.org^
 ||iptvusax.org^
@@ -37300,6 +37328,7 @@
 ||shadowshq.yi.org^
 ||yiffy-torrent.org^
 ||yify-torrent.org^
+||yomovie.org^
 ||yomovies.org^
 ||yomovies1.org^
 ||yomoviesstudios.org^
@@ -55027,7 +55056,6 @@
 ||lordfilm4.site^
 ||lordfilmlegal.site^
 ||lordfilmll.site^
-||lordfilmserial.site^
 ||lordfilmyserialy.site^
 ||losmovies.site^
 ||tracker.lyretain.site^
@@ -57176,6 +57204,7 @@
 ||garripotter-lordfilm.top^
 ||tracker.gcrenwp.top^
 ||gdplayer.top^
+||geniodellostreaming.top^
 ||gentleman-lordfilm.top^
 ||gentlemen-lordfilm.top^
 ||getlordfilm720.top^
@@ -61742,6 +61771,7 @@
 ||mykkiste.xyz^
 ||myp2px.xyz^
 ||mypiratebay.xyz^
+||mytotalsportek.xyz^
 ||mywarez.xyz^
 ||nbastreameast.xyz^
 ||nbastreamlinks.xyz^
@@ -61812,7 +61842,6 @@
 ||premium-warez.xyz^
 ||tracker.privateseedbox.xyz^
 ||prmovies.xyz^
-||prmovies1.xyz^
 ||projectfreetv.xyz^
 ||prompt-warez.xyz^
 ||prostateanime.xyz^
@@ -61930,6 +61959,7 @@
 ||streamerflix.xyz^
 ||streamingaddons.xyz^
 ||streamingcommunity.xyz^
+||streaminghub.xyz^
 ||streammaster.xyz^
 ||streamtape.xyz^
 ||streamtapeadblockuser.xyz^
