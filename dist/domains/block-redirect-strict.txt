@@ -38518,6 +38518,7 @@ go-go-go-2.tk
 go-go-go-go.tk
 go-hp.com
 go-link.ru
+go-links.net
 go-maps.info
 go-now.tk
 go-open.tk
@@ -82143,7 +82144,6 @@ s.et4.de
 s.free.fr
 s.g123.jp
 s.gdngs.de
-s.ggwp.be
 s.id
 s.jumpingcrab.com
 s.lovestylish.com
@@ -105488,7 +105488,6 @@ videomreza.com
 videon.ed.mu
 videonow.hu.tl
 videopaths.com
-videopro.live
 videoproxy.info
 videoproxy.online
 videoproxy.site

@@ -326,7 +326,6 @@
 *.gamecopyworld.be
 *.gamedaemons.be
 *.getproxies.be
-*.s.ggwp.be
 *.greekradio.be
 *.greekwaves.be
 *.hd-gaming.be
@@ -63421,7 +63420,6 @@
 *.nofnec.live
 *.nowtrade.live
 *.unc.live
-*.videopro.live
 *.wishct.live
 *.wolftravels.live
 *.cb.lk
@@ -67180,6 +67178,7 @@
 *.glypeproxy.net
 *.bypass.gmanual.net
 *.gnor.net
+*.go-links.net
 *.go777.net
 *.gocps.net
 *.hosting.goddns.net

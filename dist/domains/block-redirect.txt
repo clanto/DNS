@@ -10117,7 +10117,6 @@ baap.info
 baaq.info
 baas.kr
 baba.biatches.org
-baba.bio
 baba.hancur.org
 baba.psybnc.org
 baba.sektori.org
@@ -11221,6 +11220,7 @@ beeforex.tk
 beefsalmons.co.cc
 beehide.com
 beel.info
+beelnk.com
 beemine.info
 beenbanned.com
 beenbanned.info
@@ -23266,7 +23266,6 @@ currentproxygw.tk
 currentsoncomputers.com
 currentsurfer.tk
 currentv.tk
-curriculumsystem.org
 curryfielddistribution.com
 cursedearth.co.cc
 cursexserver.tk
@@ -26975,7 +26974,6 @@ dsastro.com
 dscef.rest
 dsecure-unblock.tk
 dsecurityguarsite.tk
-dsgfs.io
 dsh.re
 dshopdish.tk
 dside.ca
@@ -54225,7 +54223,6 @@ kutt.isesaki.in
 kutt.it
 kutt.itarian.com
 kutt.mariodian.com
-kutt.schantli.cloud
 kutt.this.team
 kutt.to
 kutt.ural-agro.com
@@ -60029,6 +60026,7 @@ microspeeds.tk
 microsurf.ed.mu
 microtunnels7.tk
 microurl.org
+microurls.io
 microvpn.com
 microwavefood.co.cc
 microwavesnow.co.cc
@@ -86432,7 +86430,6 @@ rjwfd.sbs
 rjyjwq.com
 rkbuilders.ml
 rko.in
-rkt.bio
 rku.in
 rli.io
 rls.my
@@ -111000,7 +110997,6 @@ urlshortener.mahamafzar.com
 urlshortener.pro
 urlshortener.site
 urlshortenerapi.com
-urlshortenerr.live
 urlshortenertool.com
 urlshortenervip.com
 urlshortening.webalias.com
@@ -118905,7 +118901,6 @@ yourls.newstargeted.com
 yourls.org
 yourls.ph-freiburg.de
 yourls.sci.io
-yourls.website
 yourmain.tk
 yourmask.info
 yourmomproxy.com
@@ -120218,6 +120213,7 @@ zyguer.com
 zymi.info
 zynexly.com
 zynga.my
+zyp.to
 zysz.com
 zytel.tk
 zywv.us

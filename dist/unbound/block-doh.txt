@@ -316,6 +316,9 @@
 *.dns-unfiltered.adguard.com
 *.adguard-dns.com
 *.adguardaaron.com
+*.dns.adguarddns.com
+*.family.adguarddns.com
+*.unfiltered.adguarddns.com
 *.dns.adnull.com
 *.dns.adrianlam.com
 *.dns.aebas.com
@@ -3201,7 +3204,6 @@
 *.us44nas.top
 *.mdns.vseti.top
 *.pdns.vseti.top
-*.dns.wahr.top
 *.wankey.top
 *.bwh.why4free.top
 *.wiqi.top

@@ -13089,6 +13089,7 @@
 ||coachquartz.com^
 ||metrics.coalesse.com^
 ||coalkitchen.com^
+||coalmerchants.com^
 ||qzfxcf.coastal.com^
 ||marketing.coastalmississippi.com^
 ||marketing.coastaloakins.com^
@@ -20199,6 +20200,7 @@
 ||trackcommon.hujiang.com^
 ||images.go.hulft.com^
 ||hulilly.com^
+||event.prod.asgard.hullabalook.com^
 ||api.distribution.hulu.com^
 ||t2.hulu.com^
 ||vortex.hulu.com^
@@ -42090,6 +42092,7 @@
 ||smetrics.wileyplus.com^
 ||a8cv.will-agaclinic.com^
 ||marketing.willamettewines.com^
+||willcollect.com^
 ||metrics.william-reed.com^
 ||metrics.williamhill.com^
 ||metrics2.williamhill.com^
@@ -42160,6 +42163,7 @@
 ||qc.wired.com^
 ||sstats.wired.com^
 ||stats.wired.com^
+||wiredcarts.com^
 ||wiredforcoffee.com^
 ||smetrics.wireimage.com^
 ||wirenewsletter.com^
@@ -42849,6 +42853,7 @@
 ||yourlifedream.com^
 ||yourluckydaypro.com^
 ||images.info.yourmobilitypartner.com^
+||yourownexpert.com^
 ||yourpeopleinsight.com^
 ||www.yourplanprovisions.com^
 ||yoursiteanalytics.com^

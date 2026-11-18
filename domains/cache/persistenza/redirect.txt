@@ -109751,7 +109751,6 @@ b7.tel
 b8my.live
 b9d.me
 baas.kr
-baba.bio
 babblecase.com
 babel.team
 babyurl.net
@@ -110826,7 +110825,6 @@ curl.pk
 curl.ro
 curlm.in
 curlmin.com
-curriculumsystem.org
 curryfielddistribution.com
 curt.wiz.co
 curts.me
@@ -111229,7 +111227,6 @@ druuz.com
 drw.sh
 dsastro.com
 dscef.rest
-dsgfs.io
 dsh.re
 dside.ca
 dsn.io
@@ -113399,7 +113396,6 @@ kutt.isesaki.in
 kutt.it
 kutt.itarian.com
 kutt.mariodian.com
-kutt.schantli.cloud
 kutt.this.team
 kutt.to
 kutt.ural-agro.com
@@ -116312,7 +116308,6 @@ rjtgoyal92.live
 rjvn.co
 rjwfd.sbs
 rjyjwq.com
-rkt.bio
 rli.io
 rls.my
 rlu.ru
@@ -118964,7 +118959,6 @@ urlshortener.mahamafzar.com
 urlshortener.pro
 urlshortener.site
 urlshortenerapi.com
-urlshortenerr.live
 urlshortenertool.com
 urlshortenervip.com
 urlshortening.webalias.com
@@ -120289,7 +120283,6 @@ videyx.fun
 vnvodich.life
 xav.cc
 yesb.app
-yourls.website
 @498451
 s.gy
 @498499
@@ -120307,3 +120300,7 @@ cuts-url.com
 jalanku.me
 lamacchina.de
 olhe.me
+@498607
+beelnk.com
+microurls.io
+zyp.to

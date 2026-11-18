@@ -131,6 +131,7 @@ adguard.abd.ong
 adguard.acrobyte.org
 adguard.adrianofrongillo.ovh
 adguard.aenth.com
+adguard.ajinga.net
 adguard.alu.dog
 adguard.aminetwork.biz
 adguard.amscenter.net
@@ -188,7 +189,6 @@ adguard.kitakitsune.xyz
 adguard.landropunk.xyz
 adguard.lege.despagne.net
 adguard.llf520.dpdns.org
-adguard.londonwebnerd.cloud
 adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
@@ -425,6 +425,7 @@ armm.duckdns.org
 arrakis.korolyzer.com.br
 as-1.tyo.jp.a.443.mx
 as6604t-04.myasustor.com
+ashixu.ggff.net
 asia.tri-dns.net
 aslamovnl.duckdns.org
 at.pzhg.me
@@ -567,7 +568,6 @@ cubedns.com
 curser.dev
 cvt01.dnscry.pt
 cyliu.idv.tw
-cynntex.fun
 d.adguard-dns.com
 d.apemlegit.my.id
 d.gametechnet.com
@@ -829,7 +829,6 @@ dns.crystalyx.net
 dns.csa-rz.de
 dns.csaonline.de
 dns.csswg.org
-dns.cybertonic.tech
 dns.d365.in
 dns.d4d.moe
 dns.d94.xyz
@@ -879,7 +878,6 @@ dns.dremaxx.de
 dns.dualhosting.eu
 dns.dugi.io.vn
 dns.dumk.in
-dns.dyn1.de
 dns.dynx.pro
 dns.dzkji.cn
 dns.easyhns.com
@@ -1594,7 +1592,6 @@ dnsupstream02.familieberfelo.nl
 dnsvps.familiamv.net
 dnswebvsn.com
 dnx.niko-sem.com
-do-39574-tr.xyz
 do.dnscrypt.uk
 do.shimul.me
 docker-hub.ir
@@ -1748,8 +1745,6 @@ doh.xorlet.ru
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
-doh1.b-cdn.net
-doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -1961,6 +1956,7 @@ helios.plan9-dns.com
 helsh0ru5.mooo.com
 herkes.online
 hexxitcompany.com
+hfgx.shop
 hgrps.eu
 hieutrang-99.duckdns.org
 himedns.com
@@ -2233,6 +2229,7 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
+mask-canary.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2258,7 +2255,6 @@ midgard.asguardian.de
 mijoregner.de
 mikatos.de
 mikezhang.xyz
-mikrobill.dns-cloud.net
 mil01.dnscry.pt
 mimir.magicaobscura.de
 mipelinusa.ddns.net
@@ -2289,7 +2285,6 @@ mx1.laoxiao789.com
 my.8484848.cn
 myadg.ru
 myagh.claptrap.me
-myatris.sbs
 mycactus.duckdns.org
 mycloud-dns.duckdns.org
 mydns.ddns.me
@@ -3023,7 +3018,6 @@ xbcpb668.com
 xbox-dns.ru
 xenergy.cc
 xfer.au
-xholgm.top
 xiaoxie.pro
 xiaoxinhui.cn
 xie.ke

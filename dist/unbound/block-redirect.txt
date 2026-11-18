@@ -778,7 +778,6 @@
 *.acesso.bio
 *.aduke.bio
 *.applink.bio
-*.baba.bio
 *.bezt.bio
 *.biofy.bio
 *.bitx.bio
@@ -822,7 +821,6 @@
 *.pops.bio
 *.qlink.bio
 *.redirect.bio
-*.rkt.bio
 *.roketlink.bio
 *.rolink.bio
 *.sayhi.bio
@@ -10891,7 +10889,6 @@
 *.megadownload.cloud
 *.go.popoway.cloud
 *.provte.cloud
-*.kutt.schantli.cloud
 *.tanzx.cloud
 *.vdr.cloud
 *.vietnamproxy.cloud
@@ -15306,6 +15303,7 @@
 *.becomehidden.com
 *.bee1s.com
 *.beehide.com
+*.beelnk.com
 *.beenbanned.com
 *.beepurl.com
 *.beesoftgroup.com
@@ -66729,7 +66727,6 @@
 *.diwi.io
 *.doturl.io
 *.drpsnd.io
-*.dsgfs.io
 *.dsn.io
 *.dti.io
 *.dtsx.io
@@ -66815,6 +66812,7 @@
 *.mdsh.io
 *.microlinkfy.io
 *.microlinks.io
+*.microurls.io
 *.milc.io
 *.minilink.io
 *.minlink.io
@@ -68726,7 +68724,6 @@
 *.unc.live
 *.unknown123.live
 *.urllink.live
-*.urlshortenerr.live
 *.vellygearswiki.live
 *.vendoagora.live
 *.videopro.live
@@ -76178,7 +76175,6 @@
 *.proxy.cultureservice.org
 *.cup.org
 *.curlproxy.org
-*.curriculumsystem.org
 *.cuty.org
 *.cvvv.org
 *.cyberbay.org
@@ -116880,6 +116876,7 @@
 *.dot-to-proxy.zaridi.to
 *.zoho.to
 *.zopen.to
+*.zyp.to
 *.aki.today
 *.discoverall.today
 *.gameover.today
@@ -119307,7 +119304,6 @@
 *.titok.website
 *.unlocked.website
 *.usproxy.website
-*.yourls.website
 *.03.wf
 *.fff.wf
 *.glo.wf
