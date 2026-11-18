@@ -4080,6 +4080,7 @@ embtrk.com
 emcien.com
 emctrack.com
 emediapower.pl
+emediatrend.pl
 emergingindiagroup.com
 emeritus-analytics.io
 emerton-data.com
@@ -5709,7 +5710,6 @@ htrnb8trk.com
 htrrg8trk.com
 httptrack.com
 hu-manity.co
-hubapi.com
 hubspotanalytics.com
 huckabuy.com
 hudb.pl
@@ -5849,6 +5849,7 @@ igged9trk.com
 ignitionone.com
 igodigital.com
 igsonar.com
+iguernica.com
 ihance.com
 ihrep.com
 ihrep.net
@@ -13414,6 +13415,7 @@ performance-booster.com
 performance-click.com
 performanceanalyser.net
 performancehorizon.com
+performaro.com
 performgroup.com
 performrct.com
 perftest.f5-cloud-demo.com
@@ -13451,6 +13453,7 @@ ph88trk.com
 phef6trk.com
 phg4iudj.com
 phh3dnsk.com
+phixstats.site
 phnx.click
 photographpan.com
 photorank.me
@@ -13935,6 +13938,7 @@ pushspring.com
 putags.com
 putler.com
 puzzlingproperty.com
+pv7gfn9trk.com
 pv8cd5trk.com
 pvd.to
 pvdpix.com
@@ -13958,6 +13962,7 @@ pxltrck.com
 pxmxc8trk.com
 py02trk.com
 py33trk.com
+pyee61ch.com
 pyh2pm4n.com
 pyramidanalytics.com
 pyze.com
@@ -15805,6 +15810,7 @@ statementsweater.com
 stathat.com
 static-layer.pro
 statica.live
+staticapi.org
 statifyo.com
 statinside.com
 statisgeek.com
@@ -18215,6 +18221,7 @@ xtool.ru
 xtracloud.net
 xtrastats.com
 xttrk.com
+xvzb6us5whs.com
 xx-email-795.top
 xxx-entertainment.top
 xxxcounter.com

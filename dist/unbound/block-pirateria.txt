@@ -342,6 +342,7 @@
 *.filmoflix.army
 *.moviesmod.army
 *.multicanaishd.army
+*.streaming-community.army
 *.tracker.army
 *.vegamoviess.army
 *.watchmovierulz.army
@@ -406,6 +407,7 @@
 *.motchilll.art
 *.motchillmc.art
 *.motchillv.art
+*.motchillwe.art
 *.movie4k-to.art
 *.movieku.art
 *.moviesleech.art
@@ -555,6 +557,7 @@
 *.9kmovies.auction
 *.bollyflix.auction
 *.hdfilme.auction
+*.multicanaistv.auction
 *.pelisflix2.auction
 *.pobreflix.auction
 *.skymovieshd.auction
@@ -707,6 +710,7 @@
 *.1movies.bar
 *.5movierulzto.bar
 *.altadefinizione.bar
+*.altadefinizionew.bar
 *.altadefinizionex.bar
 *.cb01one.bar
 *.cb01primo.bar
@@ -1019,6 +1023,7 @@
 *.himovies.best
 *.holod-lordfilm.best
 *.holod-lordfilms.best
+*.hypeflixhit.best
 *.mycima.iegy.best
 *.im88.best
 *.juraganfilm.best
@@ -2083,6 +2088,7 @@
 *.lordfilmik.blog
 *.lordfilms.blog
 *.mkvcinemas.blog
+*.motchillwe.blog
 *.movierulzs.blog
 *.movierulzz.blog
 *.multicanais.blog
@@ -2204,6 +2210,7 @@
 *.hypeflix.bond
 *.il-geniodellostreaming.bond
 *.laroza.bond
+*.laroza1.bond
 *.lordfilm-kinoshka.bond
 *.lordfilmafs.bond
 *.lordfilmbuy.bond
@@ -2246,6 +2253,7 @@
 *.pelisflixhd.bond
 *.purstream.bond
 *.seriesflix.bond
+*.soap2dayhub.bond
 *.soap2days.bond
 *.soccerstreams.bond
 *.solarmovies.bond
@@ -2366,6 +2374,7 @@
 *.bukhta-vdov-lordfilm.buzz
 *.bukiny-lordfilm.buzz
 *.casa-cinema.buzz
+*.cb01one.buzz
 *.chernobyl-lordfilm.buzz
 *.chernoe-zerkalo-lordfilm.buzz
 *.chikatilo-lordfilm.buzz
@@ -2788,6 +2797,7 @@
 *.amerikanskii-pirog-lordfilms.cam
 *.amityville-horror-lordfilm.cam
 *.animals-lordfilm.cam
+*.ann-beaulieu-lordfilm.cam
 *.attack-titan-lordfilms.cam
 *.austinpowers-lordfilm.cam
 *.avatars-pandora-lordfilm.cam
@@ -3251,6 +3261,7 @@
 *.tantifilm.casa
 *.unblockit.casa
 *.vegamovies.casa
+*.vegamoviesa.casa
 *.vegamoviesnl.casa
 *.vegamoviess.casa
 *.vegamoviesu.casa
@@ -3482,7 +3493,9 @@
 *.motchillsh.cc
 *.motchilltv.cc
 *.motchilltx.cc
+*.motchillxf.cc
 *.motchillxi.cc
+*.motchillxv.cc
 *.motchillzg.cc
 *.motchillzl.cc
 *.motchillzw.cc
@@ -3704,6 +3717,7 @@
 *.soap2days.ceo
 *.soap2dayto.ceo
 *.streamingcommunityz.ceo
+*.uhdmovies.ceo
 *.vegamovies.ceo
 *.askbas.cf
 *.cdownloaderz522.cf
@@ -4819,6 +4833,7 @@
 *.lordfilmcurled.cfd
 *.lordfilmdarkest.cfd
 *.lordfilmdenial.cfd
+*.lordfilmdetective.cfd
 *.lordfilmdiss.cfd
 *.lordfilmdocket.cfd
 *.lordfilmdolly.cfd
@@ -4845,6 +4860,7 @@
 *.lordfilmguild.cfd
 *.lordfilmguzzle.cfd
 *.lordfilmhalcyon.cfd
+*.lordfilmhanging.cfd
 *.lordfilmhomage.cfd
 *.lordfilmhomey.cfd
 *.lordfilmhubris.cfd
@@ -5292,6 +5308,7 @@
 *.neobyatnyi-okean-lordfilm.cfd
 *.neobyatnyy-okean-lordfilm.cfd
 *.nepobedimyy-atomnaya-eva-lordfilm.cfd
+*.netmirror.cfd
 *.neuromant-lordfilm.cfd
 *.new-lordfilm.cfd
 *.neyromant-lordfilm.cfd
@@ -6884,6 +6901,8 @@
 *.123movies.click
 *.123movies1.click
 *.123movies123.click
+*.123moviesgo.click
+*.123movieshq.click
 *.123movieslive.click
 *.123moviesto.click
 *.123movieswatch.click
@@ -6944,6 +6963,10 @@
 *.filmpertutti.click
 *.filmsenzalimiti.click
 *.filmstreaming.click
+*.fmoviesco.click
+*.fmoviesgo.click
+*.fmovieshq.click
+*.fmovieshub.click
 *.fmoviess.click
 *.fmoviesto.click
 *.fmoviestocc.click
@@ -7537,6 +7560,7 @@
 *.hdmovie7.cn
 *.tracker.hismz.cn
 *.tracker.hiyj.cn
+*.jshdtv.cn
 *.tracker.home.kmzs123.cn
 *.tracker.kmzs123.cn
 *.tracker.loligirl.cn
@@ -8103,6 +8127,7 @@
 *.123moviesmovies.com
 *.123moviesmp4.com
 *.123moviesmy.com
+*.123moviesn.com
 *.123moviesna.com
 *.123moviesneo.com
 *.123moviesnow.com
@@ -8125,6 +8150,7 @@
 *.123moviesreal.com
 *.123moviesreview.com
 *.123moviesrip.com
+*.123moviesrule.com
 *.123moviesseries.com
 *.123moviesservies.com
 *.123moviessg.com
@@ -9529,6 +9555,45 @@
 *.dizipal2158.com
 *.dizipal2159.com
 *.dizipal2160.com
+*.dizipal2161.com
+*.dizipal2162.com
+*.dizipal2163.com
+*.dizipal2164.com
+*.dizipal2165.com
+*.dizipal2166.com
+*.dizipal2167.com
+*.dizipal2168.com
+*.dizipal2169.com
+*.dizipal2170.com
+*.dizipal2171.com
+*.dizipal2172.com
+*.dizipal2173.com
+*.dizipal2174.com
+*.dizipal2175.com
+*.dizipal2176.com
+*.dizipal2177.com
+*.dizipal2178.com
+*.dizipal2179.com
+*.dizipal2180.com
+*.dizipal2181.com
+*.dizipal2182.com
+*.dizipal2183.com
+*.dizipal2184.com
+*.dizipal2185.com
+*.dizipal2186.com
+*.dizipal2187.com
+*.dizipal2188.com
+*.dizipal2189.com
+*.dizipal2190.com
+*.dizipal2191.com
+*.dizipal2192.com
+*.dizipal2193.com
+*.dizipal2194.com
+*.dizipal2195.com
+*.dizipal2196.com
+*.dizipal2197.com
+*.dizipal2198.com
+*.dizipal2199.com
 *.dizipal22.com
 *.dizipal2200.com
 *.dizipal2203.com
@@ -10429,6 +10494,7 @@
 *.gostreamlineco.com
 *.gostreamlinedlaw.com
 *.gostreamlinemedia.com
+*.gostreamlinesolution.com
 *.gostreamlinesped.com
 *.gostreamopsai.com
 *.gostreampay.com
@@ -10566,6 +10632,7 @@
 *.hdfilmkedisi.com
 *.hdfilmkeyfiniz.com
 *.hdfilmkusagi.com
+*.hdfilmseytani.com
 *.hdfilmsite.com
 *.hdfilmyolu.com
 *.hdfilmywap.com
@@ -11067,6 +11134,7 @@
 *.open.kickasstracker.com
 *.kickassunblock.com
 *.kickmedown.com
+*.kidsiptv.com
 *.kimoitv.com
 *.kinej395aoo.com
 *.kingdom-leaks.com
@@ -11300,6 +11368,7 @@
 *.lordfilml.com
 *.lordfilmof.com
 *.lordfilmonlinetv.com
+*.lordfilmovie.com
 *.lordfilmqs.com
 *.lordfilmrus.com
 *.lordfilms-24.com
@@ -11866,6 +11935,7 @@
 *.my-free-mp3s.com
 *.my-gamebox.com
 *.myabandonware.com
+*.myanimestory.com
 *.myanmariptv.com
 *.mybabele.com
 *.mybdix.com
@@ -12623,6 +12693,7 @@
 *.series9labs.com
 *.seriesflix-1.com
 *.seriesflixai.com
+*.seriesflixapk.com
 *.seriesflixbiz.com
 *.seriesflixbr.com
 *.seriesflixcine.com
@@ -13346,6 +13417,7 @@
 *.torrentaudio.com
 *.torrentavenue.com
 *.torrentazos.com
+*.torrentb.com
 *.torrentb2b.com
 *.torrentbam102.com
 *.torrentbam66.com
@@ -14616,6 +14688,7 @@
 *.ilgeniodellostreaming.company
 *.kinox.company
 *.megakino.company
+*.movie4k.company
 *.myflixer.company
 *.putlocker.company
 *.soap2day.company
@@ -14772,6 +14845,7 @@
 *.limetorrent.cx
 *.lordfilm.cx
 *.megakino1.cx
+*.miruro.cx
 *.motchillu.cx
 *.movie2k.cx
 *.mycima.cx
@@ -15514,6 +15588,7 @@
 *.soap2day-1.day
 *.soap2day-hd.day
 *.soap2day-to.day
+*.soap2day1.day
 *.soap2day2.day
 *.soap2dayfree.day
 *.soap2dayhd.day
@@ -15622,6 +15697,8 @@
 *.torrentvideos.de
 *.tsecurity.de
 *.tv-mediatheken.de
+*.unblocked5.de
+*.unblockedscene.de
 *.torrent.unix-ag.uni-kl.de
 *.unknownsite.de
 *.uraniumhexafluori.de
@@ -16284,6 +16361,7 @@
 *.annas-archive.fit
 *.biohealthy.fit
 *.bollyflix.fit
+*.cineby.fit
 *.coflixtv.fit
 *.dldokan.fit
 *.eonmovies.fit
@@ -16325,6 +16403,7 @@
 *.motchilltv.fit
 *.motchillv.fit
 *.motchillvip.fit
+*.motchillwe.fit
 *.motchillzl.fit
 *.movie4k.fit
 *.movierulz.fit
@@ -16964,6 +17043,7 @@
 *.futemax.gmbh
 *.vegamovies.gmbh
 *.123movies.gold
+*.123moviesfree.gold
 *.bollyflix.gold
 *.coflix.gold
 *.filmsenzalimiti.gold
@@ -17288,6 +17368,7 @@
 *.hdmovie2.help
 *.hdmovieshub.help
 *.il-geniodellostreaming.help
+*.lookmovie2.help
 *.lordfilm1.help
 *.lordfilm11.help
 *.lordfilm12.help
@@ -17340,6 +17421,7 @@
 *.motchill.help
 *.motchilltv.help
 *.motchillv.help
+*.moviesleech.help
 *.multicanais.help
 *.multicanaistv.help
 *.myflixer.help
@@ -19141,6 +19223,7 @@
 *.an1.co.in
 *.apk4all.co.in
 *.apkpure.co.in
+*.filmapik.co.in
 *.fmovies.co.in
 *.hdmovie2.co.in
 *.hdmovie99.co.in
@@ -19308,6 +19391,7 @@
 *.5movierulz.industries
 *.hdmovie2.industries
 *.0123movieshd.info
+*.123movies-free.info
 *.123moviesbig.info
 *.123moviesc.info
 *.123moviescc.info
@@ -19609,6 +19693,7 @@
 *.sportsurges.info
 *.ssoap2day.info
 *.stafaband.info
+*.streaming-communityz.info
 *.streamingcommunityx.info
 *.streamingcommunityz.info
 *.streamixiptv.info
@@ -19707,6 +19792,7 @@
 *.9animetv.ink
 *.altadefinizione-01.ink
 *.altadefinizionegratis.ink
+*.altadefinizionex.ink
 *.cb01uno.ink
 *.cineblog001.ink
 *.cineblog01.ink
@@ -19716,6 +19802,7 @@
 *.eurostream.ink
 *.eurostreamings.ink
 *.extraflix.ink
+*.film-pertutti.ink
 *.fmovies24.ink
 *.french-stream.ink
 *.frenchstream.ink
@@ -19750,6 +19837,7 @@
 *.motchillmx.ink
 *.motchillv.ink
 *.motchillvn.ink
+*.motchillwe.ink
 *.motchillx.ink
 *.motchillxm.ink
 *.movierulz.ink
@@ -20163,6 +20251,7 @@
 *.yomovies.it
 *.futemax.je
 *.dontorrent.jetzt
+*.watchmovierulz.jetzt
 *.tracker1.520.jp
 *.tracker.bjut.jp
 *.kinox.co.jp
@@ -20303,6 +20392,7 @@
 *.cb01.lat
 *.cb01-ai.lat
 *.cb01one.lat
+*.cb01primo.lat
 *.cb01web.lat
 *.chudo-lordfilm.lat
 *.cineblog001.lat
@@ -20477,6 +20567,7 @@
 *.lordfilm-rus-kino.lat
 *.lordfilm-rus0.lat
 *.lordfilm-rus1.lat
+*.lordfilm-rus15-film.lat
 *.lordfilm-rus2-film.lat
 *.lordfilm-ruskino.lat
 *.lordfilm-russ.lat
@@ -20583,6 +20674,7 @@
 *.lordfilm26-kino22.lat
 *.lordfilm26-kino23.lat
 *.lordfilm26-kino24.lat
+*.lordfilm26-kino25.lat
 *.lordfilm26-kino3.lat
 *.lordfilm26-kino7.lat
 *.lordfilm26-kino8.lat
@@ -23975,6 +24067,7 @@
 *.lordfilmy413.lat
 *.lordfilmy414.lat
 *.lordfilmy415.lat
+*.lordfilmy416.lat
 *.lordfilmy5k.lat
 *.lordfilmy5z.lat
 *.lordfilmyaj.lat
@@ -24277,6 +24370,7 @@
 *.soap2days.lat
 *.soap2dayx.lat
 *.soccerstreams100.lat
+*.solarmoviehd.lat
 *.solarmovies.lat
 *.solarmoviestv.lat
 *.sportsonline.lat
@@ -24452,6 +24546,7 @@
 *.lordfilm46.life
 *.lordfilm47.life
 *.lordfilm48.life
+*.lordfilm49.life
 *.lordfilmacf.life
 *.lordfilmaco.life
 *.lordfilmaes.life
@@ -25391,6 +25486,7 @@
 *.marik-lordfilm.life
 *.megakino.life
 *.mlwbd.life
+*.motchillwe.life
 *.movie4k.life
 *.movie4kto.life
 *.movierulzhd.life
@@ -26200,6 +26296,7 @@
 *.motchilll.live
 *.motchilln.live
 *.motchillv.live
+*.motchillwe.live
 *.motchillz.live
 *.motchillzz.live
 *.movie4u.live
@@ -26538,6 +26635,7 @@
 *.breaking-bed-lordfilm.lol
 *.bridzhertony-lordfilm.lol
 *.bridzhertony-lordfilms.lol
+*.casa-cinema.lol
 *.casacinema.lol
 *.cb01.lol
 *.cb01-ai.lol
@@ -26654,6 +26752,7 @@
 *.gostream.lol
 *.gostreamto.lol
 *.guardaserie.lol
+*.guardaseriex.lol
 *.hdfilmcehennemi.lol
 *.hdfilmcehennemi1.lol
 *.hdfilmcehennemi2.lol
@@ -26895,6 +26994,7 @@
 *.lordfilm262.lol
 *.lordfilm263.lol
 *.lordfilm264.lol
+*.lordfilm265.lol
 *.lordfilm26b.lol
 *.lordfilm271.lol
 *.lordfilm281.lol
@@ -27057,6 +27157,8 @@
 *.lordfilm977.lol
 *.lordfilm98x.lol
 *.lordfilm991.lol
+*.lordfilm997.lol
+*.lordfilm998.lol
 *.lordfilm999.lol
 *.lordfilm99k.lol
 *.lordfilm9dx.lol
@@ -27386,6 +27488,7 @@
 *.lordfilmcaa.lol
 *.lordfilmcabu.lol
 *.lordfilmcaf.lol
+*.lordfilmcalendar.lol
 *.lordfilmcanted.lol
 *.lordfilmcaramel.lol
 *.lordfilmcarpet.lol
@@ -27454,6 +27557,7 @@
 *.lordfilmcnv.lol
 *.lordfilmcoke.lol
 *.lordfilmcold.lol
+*.lordfilmcollege.lol
 *.lordfilmcomfort.lol
 *.lordfilmcore.lol
 *.lordfilmcove.lol
@@ -31093,6 +31197,7 @@
 *.skymovieshd-official.lol
 *.skytorrents.lol
 *.smena-peredach-lordfilm.lol
+*.soap2day-hd.lol
 *.soap2day-official.lol
 *.soap2day-tv.lol
 *.soap2day1.lol
@@ -31143,6 +31248,7 @@
 *.torrentz2-official.lol
 *.tseluyu-kitti-lordfilm.lol
 *.tsvetok-smerti-lordfilm.lol
+*.turk-lordfilm.lol
 *.turkru-lordfilm-2026.lol
 *.ubiystva-vzdanii-lordfilm.lol
 *.ubiytsa-zmey-lordfilm.lol
@@ -31561,6 +31667,7 @@
 *.moviesque.me
 *.movieswebonline.me
 *.mp3skull.me
+*.multicanaisfutebol.me
 *.mycima.me
 *.mymovierulz.me
 *.nbastream.me
@@ -31887,6 +31994,7 @@
 *.movierulz.mobi
 *.movies123movies.mobi
 *.multicanais.mobi
+*.myflixertv.mobi
 *.myflixerz.mobi
 *.prmovies.mobi
 *.purstream.mobi
@@ -32033,6 +32141,7 @@
 *.motchillae.mom
 *.motchillai.mom
 *.motchillar.mom
+*.motchillav.mom
 *.motchillaz.mom
 *.motchillb.mom
 *.motchillc.mom
@@ -32871,6 +32980,7 @@
 *.futbol-libre.mov
 *.gidonline.mov
 *.gomovies123.mov
+*.hdfilmcehennemi.mov
 *.hdmovie2r.mov
 *.himovies.mov
 *.motchilla.mov
@@ -33158,6 +33268,7 @@
 *.b-stream-1.name
 *.filmsenzalimiti.name
 *.flemmix.name
+*.multicanais.name
 *.mycima.name
 *.qoob.name
 *.rutor.name
@@ -33808,6 +33919,7 @@
 *.hdmovie4.net
 *.hdmovie88.net
 *.hdmoviearea.net
+*.hdmovieon.net
 *.hdmovieonline.net
 *.hdmovies20.net
 *.hdmovies23.net
@@ -34444,6 +34556,7 @@
 *.sportlemons.net
 *.sportsurge.net
 *.sportsurge-4k.net
+*.sportsurge-v2.net
 *.sportsurge100.net
 *.sportsurgeapk.net
 *.sportsurgers.net
@@ -34666,6 +34779,7 @@
 *.viperplay.net
 *.vipmolik.net
 *.mp3.vipmp3.net
+*.vizyona.net
 *.vkstreaming.net
 *.voe-unblock.net
 *.voeun-block.net
@@ -35386,6 +35500,7 @@
 *.123movies4ufree.online
 *.123movies4uhd.online
 *.123movies4us.online
+*.123movies4you.online
 *.123movies600.online
 *.123movies88.online
 *.123movies900.online
@@ -35420,6 +35535,7 @@
 *.123moviesrulz.online
 *.123moviess.online
 *.123moviessite.online
+*.123moviesto.online
 *.123movieston.online
 *.123moviestube.online
 *.123moviesusa.online
@@ -35642,7 +35758,6 @@
 *.iptv-barbados.online
 *.iptvguy.online
 *.iptvresellerpanell.online
-*.iptvsrbija.online
 *.is123movies.online
 *.ita101.online
 *.italia-film.online
@@ -35719,10 +35834,12 @@
 *.motchilll.online
 *.motchilltv.online
 *.motchilltvb.online
+*.motchillwe.online
 *.motchillzz.online
 *.motioniptv.online
 *.movie-news.online
 *.movie123.online
+*.movie4k.online
 *.movie4kstreamen.online
 *.moviecenter.online
 *.movieit.online
@@ -36841,6 +36958,7 @@
 *.motchillum.org
 *.motchilluy.org
 *.motchillv.org
+*.motchillwe.org
 *.motchillx.org
 *.motchillye.org
 *.motchillyy.org
@@ -36895,6 +37013,7 @@
 *.mvgroup.org
 *.mvking17.org
 *.my-123movies.org
+*.my123movies1.org
 *.myaccountinghelp.org
 *.mybadbits.org
 *.myduckisdead.org
@@ -38044,6 +38163,7 @@
 *.hdfilme.pro
 *.hdfilmizlemax.pro
 *.hdfilmlercehennemi.pro
+*.hdfilms.pro
 *.hdmovie2.pro
 *.hdmovie33.pro
 *.hdmovie5.pro
@@ -38427,6 +38547,7 @@
 *.torrentor.pro
 *.torrentoyunindir.pro
 *.torrentradar.pro
+*.torrents.pro
 *.torrentsites.pro
 *.torrentsoft.pro
 *.totalsportek.pro
@@ -38942,6 +39063,7 @@
 *.rojadirectaatv.rest
 *.sake-lordfilm.rest
 *.sashatanya-lordfilm.rest
+*.sdmoviespoint.rest
 *.seks-v-bolshom-gorode-lordfilm.rest
 *.serial-lordfilm.rest
 *.series9.rest
@@ -53654,6 +53776,7 @@
 *.bollyflix.run
 *.cb01net.run
 *.cb01one.run
+*.cineblog001.run
 *.cineblog01.run
 *.cineby.run
 *.cpasbien.run
@@ -53680,6 +53803,7 @@
 *.lordfilmkd.run
 *.lordfilmkf.run
 *.lordfilmks.run
+*.lordfilmy.run
 *.mkvcinemas.run
 *.motchill.run
 *.multimovies.run
@@ -53754,6 +53878,7 @@
 *.1sdmoviespoint.sbs
 *.1vegamovies.sbs
 *.2001-space-odyssey-lordfilm.sbs
+*.27-dresses-lordfilm.sbs
 *.28-days-weeks-years-later-lordfilm.sbs
 *.300-lordfilm.sbs
 *.41lordfilm.sbs
@@ -54091,6 +54216,7 @@
 *.lordfilmelixir.sbs
 *.lordfilmending.sbs
 *.lordfilmensue.sbs
+*.lordfilmeternal.sbs
 *.lordfilmeternity.sbs
 *.lordfilmf2025.sbs
 *.lordfilmfargo.sbs
@@ -54138,6 +54264,7 @@
 *.lordfilmlith.sbs
 *.lordfilmlocation.sbs
 *.lordfilmlonely.sbs
+*.lordfilmlosing.sbs
 *.lordfilmmaster.sbs
 *.lordfilmmax.sbs
 *.lordfilmmix.sbs
@@ -54333,6 +54460,7 @@
 *.pelisflix200.sbs
 *.percyjackson-lordfilm.sbs
 *.perevodchik-lordfilm.sbs
+*.perfectos-mentirosos-lordfilm.sbs
 *.perks-being-wallflower-lordfilm.sbs
 *.pipec-lordfilm.sbs
 *.pirates-of-the-caribbean-lordfilm.sbs
@@ -54529,6 +54657,7 @@
 *.anikototv.se
 *.animebam.se
 *.audiobookbay.se
+*.avxhm.se
 *.bollyflixhd.se
 *.cineby.se
 *.fmovies.com.se
@@ -54680,6 +54809,7 @@
 *.coflix.shop
 *.crichd.shop
 *.cuevana1.shop
+*.cuevana3x.shop
 *.cuevanaa.shop
 *.dlwarezbb.shop
 *.dnevniki-vampira-lordfilm.shop
@@ -55178,6 +55308,7 @@
 *.la123movies.site
 *.laroza.site
 *.laroza-tv.site
+*.laroza-video.site
 *.laroza1.site
 *.layarlebar24.site
 *.letstream.site
@@ -55386,6 +55517,8 @@
 *.torrentranking16.site
 *.torrentreel137.site
 *.torrentreel143.site
+*.torrentreel151.site
+*.torrentreel152.site
 *.torrentreel29.site
 *.torrentreel33.site
 *.torrentreel5.site
@@ -55635,6 +55768,7 @@
 *.frenchstreams.social
 *.futemax.social
 *.gostream.social
+*.gostreamtv.social
 *.hdmovie2.social
 *.kinox.social
 *.lookmovie.social
@@ -55961,6 +56095,7 @@
 *.robowarez.store
 *.rpyztjadsbonh.store
 *.seriesflix.store
+*.soap2day-hd.store
 *.soap2day-to.store
 *.solarmovie.store
 *.sstreamingcommunity.store
@@ -56218,7 +56353,6 @@
 *.retracker.nts.su
 *.nzb.su
 *.planete-lolo.su
-*.planetsoft.su
 *.ridomovies.su
 *.seez.su
 *.streamed.su
@@ -56390,6 +56524,7 @@
 *.soap2day.tattoo
 *.sportsurge.tattoo
 *.streaming-community.tattoo
+*.tanti-film.tattoo
 *.zone-telechargement.tattoo
 *.guardaseriehd.tax
 *.hdmovie2r.tax
@@ -56476,6 +56611,7 @@
 *.pmman.tech
 *.purstream.tech
 *.skymovieshd.tech
+*.soap2dayhd.tech
 *.soap2daynew.tech
 *.soap2dayplus.tech
 *.solarmovie.tech
@@ -57174,6 +57310,7 @@
 *.bratya-lordfilm.top
 *.brave-lordfilm.top
 *.brigada-lordfilm.top
+*.brightlight40.top
 *.btracker.top
 *.bukhta-vdov-lordfilm.top
 *.c3-lordfilms.top
@@ -57462,6 +57599,7 @@
 *.just-go-with-it-lordfilm.top
 *.kak-priruchit-drakona-lordfilms.top
 *.katmoviehd.top
+*.keeply.top
 *.kerri-lordfilm.top
 *.kevinsport.top
 *.khodyachie-mertvetsy-lordfilm.top
@@ -58175,6 +58313,7 @@
 *.pelisflixapk.top
 *.pelisflixhd1.top
 *.pelismart.top
+*.perfectos-mentirosos-lordfilm.top
 *.perks-being-wallflower-lordfilm.top
 *.pervaya-raketka-lordfilm.top
 *.pet-sematary-lordfilm.top
@@ -58240,6 +58379,7 @@
 *.runner-lordfilm.top
 *.running-man-lordfilm.top
 *.rycar-semi-korolevstv-lordfilm.top
+*.saltburn-lordfilm.top
 *.sashatanya-lordfilm.top
 *.sbplordfilm.top
 *.scary-movie-comedy-lordfilm.top
@@ -59100,6 +59240,7 @@
 *.fastpiratebay.co.uk
 *.filesoup.co.uk
 *.flixflux.co.uk
+*.french-stream.co.uk
 *.gosfish.co.uk
 *.hardwarezentrum.co.uk
 *.hardwarezone.co.uk
@@ -59216,6 +59357,7 @@
 *.pelisflix20.uno
 *.rojadirectatv.uno
 *.seehd.uno
+*.soap2day.uno
 *.sportsurge.uno
 *.streaming-communityz.uno
 *.tanti-film.uno
@@ -59463,6 +59605,7 @@
 *.123moviesgo.vip
 *.123movieshd.vip
 *.123moviesla.vip
+*.5movierulz.vip
 *.5movies.vip
 *.altadefinizione.vip
 *.altadefinizionex.vip
@@ -59663,6 +59806,7 @@
 *.dizipalorijinal2.vip
 *.dizipalorijinal21.vip
 *.dizipalorijinal22.vip
+*.dizipalorijinal23.vip
 *.dizipalorijinal3.vip
 *.dizipalorijinaliburda.vip
 *.dizipalorj1.vip
@@ -59741,6 +59885,7 @@
 *.motchill1.vip
 *.motchill68.vip
 *.motchillcv.vip
+*.motchilld.vip
 *.motchille.vip
 *.motchilli.vip
 *.motchillj.vip
@@ -60594,6 +60739,7 @@
 *.fmovies2.work
 *.fmoviesto.work
 *.frembed.work
+*.french-stream.work
 *.guardaseriex.work
 *.hdmovieshub.work
 *.il-geniodellostreaming.work
@@ -61007,6 +61153,7 @@
 *.123moviestv.xyz
 *.123moviesu.xyz
 *.123moviesus.xyz
+*.123movieswatch.xyz
 *.123movieswebsites.xyz
 *.123moviesworld.xyz
 *.123moviesx.xyz
@@ -61283,6 +61430,7 @@
 *.byzantineanime.xyz
 *.c123movies.xyz
 *.c1movies.xyz
+*.casa-cinema.xyz
 *.cb01.xyz
 *.cb01one.xyz
 *.cestrm.xyz
@@ -62071,6 +62219,7 @@
 *.soap2day-official.xyz
 *.soap2day-soap2day.xyz
 *.soap2day-to.xyz
+*.soap2day-tv.xyz
 *.soap2day7.xyz
 *.soap2daycommunity.xyz
 *.soap2dayhd.xyz
@@ -62630,6 +62779,7 @@
 *.hdmovie2.you
 *.kinox.you
 *.lordfilm1.you
+*.megakino-co.you
 *.streaming-community.you
 *.weflix.you
 *.dood.yt

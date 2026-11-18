@@ -6839,6 +6839,7 @@ ar.quadient.com
 ar1.aza.io
 aragenbio.actonservice.com
 aragonresearch.actonservice.com
+arc.msn.com
 arch.net.jumia.ug
 arch.onjoyri.de
 archiv.promatis.de
@@ -7153,6 +7154,7 @@ awuapj.landwatch.com
 awzbijw.com
 ax.babe.today
 ax.idg.se
+axcii.com
 axentis.arclogics.com
 axfevh.bandab.com.br
 axiomaticanger.com
@@ -9252,6 +9254,7 @@ comms.groupmarketing.dimensiondata.com
 comms.hello.global.ntt
 comms.services.global.ntt
 comms.supplychain.nhs.uk
+commswap.com
 communicate.apcerls.com
 communicate.choicelogistics.com
 communicate.cision.ca
@@ -14328,6 +14331,7 @@ gatan.actonservice.com
 gateway.aimia.com
 gateway.foresee.com
 gatherer.m.qq.com
+gator.volces.com
 gaudyairplane.com
 gawayez.e-postserv.com
 gay-hotvideo.net
@@ -24614,6 +24618,7 @@ nlbukc.babyworld.se
 nlf6.vente-unique.pl
 nlgzhd.yoox.com
 nljjem.honeys-onlineshop.com
+nlog.instajob.ai
 nlp-japan.life-and-mind.com
 nltcs.idfnet.net
 nltihf.fashiondays.ro
@@ -26710,6 +26715,7 @@ pushspring.actonservice.com
 putphc.zuhre.com.tr
 puzzle.spiriteq.com
 pv-track.pxtrkapp.com
+pv-track.venatus.com
 pv.hd.sohu.com
 pv.kuaizhan.com
 pv.ltn.com.tw
@@ -29486,6 +29492,7 @@ sfpc.changehealthcare.com
 sfr.mno.link
 sfsinfo.sabic.com
 sftrack.searchforce.net
+sg-fp.apitd.net
 sg-go.experian.com
 sg.carousellmotors.com
 sg.lucanet.com

@@ -111,6 +111,7 @@ fileqube.com
 files-express.com
 files.catbox.moe
 files.mail.ru
+files.to
 files6.com
 filesanywhere.com
 filesavr.com
@@ -174,6 +175,7 @@ imageban.ru
 imagecave.com
 imagecloset.com
 imagehost.es
+imagehosting.com
 imagemule.com
 imagengratis.org
 imageshack.us
@@ -190,6 +192,7 @@ ipicture.ru
 ipswitch.com
 iwastemytime.com
 jawcloud.co
+jpghosting.com
 jumbofiles.com
 keepeek.com
 keepmyfiles.com
@@ -272,6 +275,7 @@ pixagogo.com
 pixali.com
 pixeldrain.com
 pixhost.me
+pixshock.net
 premify.com
 premiumbyleo.co.cc
 putfile.com

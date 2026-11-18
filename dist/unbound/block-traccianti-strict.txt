@@ -85,6 +85,7 @@
 *.vzal21mooz.hyperwrite.ai
 *.idsequoia.ai
 *.s.imagica.ai
+*.nlog.instajob.ai
 *.ep.jamx.ai
 *.get.jan.ai
 *.t.jasper.ai
@@ -8410,6 +8411,7 @@
 *.sinfo.awrostamani.com
 *.images.demand.awspls.com
 *.awzbijw.com
+*.axcii.com
 *.as.axelspringer.com
 *.elq.axeslive.com
 *.axiomaticanger.com
@@ -10894,6 +10896,7 @@
 *.smetrics.commonclaimsmistakesvideo.com
 *.smetrics.commonwealth.com
 *.info.commonwealthcommercial.com
+*.commswap.com
 *.marketing.communityassociationmanagement.com
 *.links.communitycarehelp.com
 *.mdws.communityfirst-cu.com
@@ -20057,6 +20060,7 @@
 *.msi.msigts.com
 *.t-s.msimmunology.com
 *.smetrics.mslifelines.com
+*.arc.msn.com
 *.confiant.msn.com
 *.g.msn.com
 *.srtb.msn.com
@@ -27992,6 +27996,7 @@
 *.ve.velocityclinical.com
 *.smetrics.velocityfrequentflyer.com
 *.velvetquasar.com
+*.pv-track.venatus.com
 *.edge.venatusmedia.com
 *.track.venatusmedia.com
 *.metrics.venclextahcp.com
@@ -28486,6 +28491,7 @@
 *.app.response.volarisgroup.com
 *.volatileprofit.com
 *.volatilevessel.com
+*.gator.volces.com
 *.l.voleousa.com
 *.metric.volkswagen.com
 *.smetric.volkswagen.com
@@ -37783,6 +37789,7 @@
 *.andfauna.net
 *.go.anifox.net
 *.ping.anizm.net
+*.sg-fp.apitd.net
 *.apitiny.net
 *.r.apkpure.net
 *.response.approva.net

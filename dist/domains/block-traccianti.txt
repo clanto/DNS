@@ -8151,6 +8151,7 @@ aragonresearch.actonservice.com
 aralabs.com
 aralego.net
 arbor.io
+arc.msn.com
 arch.net.jumia.ug
 arch.onjoyri.de
 architectureanalytics.com
@@ -8666,6 +8667,7 @@ awyyzx.com
 awzbijw.com
 ax.babe.today
 ax.idg.se
+axcii.com
 axciom.com
 axentis.arclogics.com
 axfevh.bandab.com.br
@@ -12049,6 +12051,7 @@ comms.groupmarketing.dimensiondata.com
 comms.hello.global.ntt
 comms.services.global.ntt
 comms.supplychain.nhs.uk
+commswap.com
 communicate.apcerls.com
 communicate.choicelogistics.com
 communicate.cision.ca
@@ -16707,6 +16710,7 @@ emea.kollmorgen.com
 emeadm.rockwellautomation.com
 emeanews.secureforms.partnermcafee.com
 emediapower.pl
+emediatrend.pl
 emedns.bonify.de
 emergingindiagroup.com
 emeritus-analytics.io
@@ -18932,6 +18936,7 @@ gateway.foresee.com
 gatewaypn.com
 gatherer.m.qq.com
 gator.io
+gator.volces.com
 gatorapi.com
 gaudyairplane.com
 gaudybeginner.com
@@ -21554,6 +21559,7 @@ igpr.actonservice.com
 igrid.org
 igsonar.com
 iguazu.doordash.com
+iguernica.com
 igxqyi.iese.edu
 igyswj.sixt.it
 ih.newegg.com
@@ -36924,6 +36930,7 @@ nlbukc.babyworld.se
 nlf6.vente-unique.pl
 nlgzhd.yoox.com
 nljjem.honeys-onlineshop.com
+nlog.instajob.ai
 nlogic.ca
 nlp-japan.life-and-mind.com
 nlsn.media
@@ -38796,6 +38803,7 @@ performanceanalyser.net
 performancehorizon.com
 performanceplay.co.kr
 performantcorp.actonservice.com
+performaro.com
 performgroup.com
 performrct.com
 perftest.f5-cloud-demo.com
@@ -38877,6 +38885,7 @@ phhjak.frame-store.com
 philadelphia-content.cresa.com
 phinnk.airtrip.jp
 phionline.actonservice.com
+phixstats.site
 phlebotomyexam.quantresear.ch
 phnx.click
 phoenix-content.cresa.com
@@ -40097,12 +40106,14 @@ putphc.zuhre.com.tr
 puzzle.spiriteq.com
 puzzlingproperty.com
 pv-track.pxtrkapp.com
+pv-track.venatus.com
 pv.hd.sohu.com
 pv.kuaizhan.com
 pv.ltn.com.tw
 pv.partenaires-verisure.fr
 pv.sohu.com
 pv.xcar.com.cn
+pv7gfn9trk.com
 pv8cd5trk.com
 pvd.to
 pvdpix.com
@@ -40160,6 +40171,7 @@ py.nextlgsdp.com
 py02trk.com
 py33trk.com
 pydnsv.ejobs.ro
+pyee61ch.com
 pyh2pm4n.com
 pylon.micstatic.com
 pyouad.autonvaraosat24.fi
@@ -43883,6 +43895,7 @@ sfr.mno.link
 sfsinfo.sabic.com
 sftrack.searchforce.net
 sfylytics.com
+sg-fp.apitd.net
 sg-go.experian.com
 sg-swift-46.top
 sg.carousellmotors.com
@@ -49488,6 +49501,7 @@ static.fengkongcloud.com
 static.osalta.eu
 static.whatsapp.net.iberostar.com
 statica.live
+staticapi.org
 statifyo.com
 statinside.com
 statisgeek.com
@@ -60324,6 +60338,7 @@ xuymgm.hostgator.mx
 xvantage.ingrammicro.com
 xvteew.lacoste.jp
 xvyxgy.stz.com.br
+xvzb6us5whs.com
 xwpoxv.birdies.com
 xwpzlz.gemimarket.it
 xwzebw.waja.co.jp

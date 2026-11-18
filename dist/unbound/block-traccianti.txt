@@ -170,6 +170,7 @@
 *.included.ai
 *.inpowered.ai
 *.insent.ai
+*.nlog.instajob.ai
 *.instantly.ai
 *.intent.ai
 *.irex.ai
@@ -9964,6 +9965,7 @@
 *.awy6vtrk.com
 *.awyyzx.com
 *.awzbijw.com
+*.axcii.com
 *.axciom.com
 *.as.axelspringer.com
 *.elq.axeslive.com
@@ -13302,6 +13304,7 @@
 *.commonswing.com
 *.smetrics.commonwealth.com
 *.info.commonwealthcommercial.com
+*.commswap.com
 *.marketing.communityassociationmanagement.com
 *.links.communitycarehelp.com
 *.mdws.communityfirst-cu.com
@@ -20607,6 +20610,7 @@
 *.my.igrafx.com
 *.igsonar.com
 *.diagnose.igstatic.com
+*.iguernica.com
 *.ihance.com
 *.ablink.mail1.iheart.com
 *.my.iheart.com
@@ -29867,6 +29871,7 @@
 *.t-s.msimmunology.com
 *.msimsi.com
 *.smetrics.mslifelines.com
+*.arc.msn.com
 *.confiant.msn.com
 *.events.data.msn.com
 *.g.msn.com
@@ -32516,6 +32521,7 @@
 *.performance-click.com
 *.performancehorizon.com
 *.marketing.performantcorp.com
+*.performaro.com
 *.performgroup.com
 *.performrct.com
 *.a.perfumesclub.com
@@ -33660,6 +33666,7 @@
 *.putler.com
 *.tracking.puustelli.com
 *.puzzlingproperty.com
+*.pv7gfn9trk.com
 *.pv8cd5trk.com
 *.web.e.pvccladding.com
 *.pvdpix.com
@@ -33702,6 +33709,7 @@
 *.pv-track.pxtrkapp.com
 *.py02trk.com
 *.py33trk.com
+*.pyee61ch.com
 *.pyh2pm4n.com
 *.analytics.pyksid.com
 *.pyramidanalytics.com
@@ -40803,6 +40811,7 @@
 *.velou.com
 *.velvetnova.com
 *.velvetquasar.com
+*.pv-track.venatus.com
 *.edge.venatusmedia.com
 *.track.venatusmedia.com
 *.metrics.venclextahcp.com
@@ -41400,6 +41409,7 @@
 *.volatileprofit.com
 *.volatilerainstorm.com
 *.volatilevessel.com
+*.gator.volces.com
 *.l.voleousa.com
 *.metric.volkswagen.com
 *.smetric.volkswagen.com
@@ -42639,6 +42649,7 @@
 *.t.xtreamarena.com
 *.xttrk.com
 *.ms.xunyou.com
+*.xvzb6us5whs.com
 *.xxxcounter.com
 *.watg.xxxlutz.com
 *.count.xxxssk.com
@@ -52642,6 +52653,7 @@
 *.api-bdc.net
 *.apicit.net
 *.apiip.net
+*.sg-fp.apitd.net
 *.apitiny.net
 *.r.apkpure.net
 *.appcelerator.net
@@ -55946,6 +55958,7 @@
 *.smetrics.stanfordhealthcare.org
 *.stape.org
 *.plausible.starlegacyfoundation.org
+*.staticapi.org
 *.re.stjude.org
 *.sm.stjude.org
 *.marketing.stmh.org
@@ -56308,6 +56321,7 @@
 *.metrics.egencia.pl
 *.statystyki.ekspertyzy-szkolenia.pl
 *.emediapower.pl
+*.emediatrend.pl
 *.ed.emp-shop.pl
 *.eofertomat.pl
 *.eportal24.pl
@@ -57869,6 +57883,7 @@
 *.loggychops.paulsmith.site
 *.pelop.site
 *.pemjh.site
+*.phixstats.site
 *.plausible.site
 *.qerra.site
 *.reilt.site

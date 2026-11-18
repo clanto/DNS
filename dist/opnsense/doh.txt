@@ -26,7 +26,6 @@
 3.11i.eu
 3.local-dns.noridev.moe
 388024.vm.spacecore.network
-3dcosas.xyz
 3dns.eu
 3jjxxl.tech
 45-33-113-218.ip.linodeusercontent.com
@@ -189,6 +188,7 @@ adguard.kitakitsune.xyz
 adguard.landropunk.xyz
 adguard.lege.despagne.net
 adguard.llf520.dpdns.org
+adguard.londonwebnerd.cloud
 adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
@@ -459,7 +459,6 @@ beatquantum.com
 beautifullife.eu.org
 beautifulthings.eu.org
 bei01.dnscry.pt
-bestwon203.com
 bh.wael.name
 biba.ydns.eu
 blackdragon6699.diskstation.me
@@ -568,6 +567,7 @@ cubedns.com
 curser.dev
 cvt01.dnscry.pt
 cyliu.idv.tw
+cynntex.fun
 d.adguard-dns.com
 d.apemlegit.my.id
 d.gametechnet.com
@@ -613,6 +613,7 @@ de01.dns4me.net
 de51.tcpdoor.net
 decloudus.com
 dedidl.com
+deep-henchman-excuse.cfd
 deflectordns.com
 dehb.ru
 deic-lgb.anycast.censurfridns.dk
@@ -829,6 +830,7 @@ dns.crystalyx.net
 dns.csa-rz.de
 dns.csaonline.de
 dns.csswg.org
+dns.cybertonic.tech
 dns.d365.in
 dns.d4d.moe
 dns.d94.xyz
@@ -878,6 +880,7 @@ dns.dremaxx.de
 dns.dualhosting.eu
 dns.dugi.io.vn
 dns.dumk.in
+dns.dyn1.de
 dns.dynx.pro
 dns.dzkji.cn
 dns.easyhns.com
@@ -975,7 +978,6 @@ dns.ha-dvin.pp.ua
 dns.hahnjo.de
 dns.haka.se
 dns.hakim.one
-dns.hakutakucn.com
 dns.hanmey.de
 dns.hellozhao.com
 dns.hinet.net
@@ -990,7 +992,6 @@ dns.hostingim.com
 dns.hostux.net
 dns.hotta.page
 dns.housedenolf.be
-dns.hshoe.cn
 dns.hub.com.de
 dns.huizegunsing.nl
 dns.hujiayucc.cn
@@ -1156,7 +1157,6 @@ dns.moog.sh
 dns.moondip.net
 dns.moonssif.com
 dns.moraes.tech
-dns.moraru.net
 dns.mstolik.org
 dns.mtoo.vip
 dns.muellerstech.de
@@ -1592,6 +1592,7 @@ dnsupstream02.familieberfelo.nl
 dnsvps.familiamv.net
 dnswebvsn.com
 dnx.niko-sem.com
+do-39574-tr.xyz
 do.dnscrypt.uk
 do.shimul.me
 docker-hub.ir
@@ -1745,6 +1746,8 @@ doh.xorlet.ru
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
+doh1.b-cdn.net
+doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -2255,6 +2258,7 @@ midgard.asguardian.de
 mijoregner.de
 mikatos.de
 mikezhang.xyz
+mikrobill.dns-cloud.net
 mil01.dnscry.pt
 mimir.magicaobscura.de
 mipelinusa.ddns.net
@@ -2285,6 +2289,7 @@ mx1.laoxiao789.com
 my.8484848.cn
 myadg.ru
 myagh.claptrap.me
+myatris.sbs
 mycactus.duckdns.org
 mycloud-dns.duckdns.org
 mydns.ddns.me
@@ -2389,6 +2394,7 @@ ns6.ygy.ru
 nsc.torgues.net
 nsec.arnor.org
 nsnacho.sytes.net
+nsown.com
 ntwrkh.pro
 nue01.dnscry.pt
 nvi-dns.bitdefender.net
@@ -2767,7 +2773,6 @@ t.yuhui.eu.org
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
-tecdrive.site
 tecworx.at
 teknorota.com
 telex.app
@@ -2835,7 +2840,6 @@ tujenasnaszato.xyz
 tungdnsne.duckdns.org
 tunnel.70x4.ru
 tupah421.duckdns.org
-tuskythehusky.tech
 tuu01.dnscry.pt
 tyo.883933770.xyz
 tyo01.dnscry.pt
@@ -3018,6 +3022,7 @@ xbcpb668.com
 xbox-dns.ru
 xenergy.cc
 xfer.au
+xholgm.top
 xiaoxie.pro
 xiaoxinhui.cn
 xie.ke
