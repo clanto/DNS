@@ -267,6 +267,7 @@
 ||shapes.ai^
 ||shoplift.ai^
 ||mp.sintra.ai^
+||s.sintra.ai^
 ||sisu.ai^
 ||go.skippy.ai^
 ||dev-share.smartfashion.ai^
@@ -291,6 +292,7 @@
 ||systema.ai^
 ||syte.ai^
 ||link.szl.ai^
+||p.teamily.ai^
 ||teamwork.ai^
 ||tontine.ai^
 ||traces.ai^
@@ -8055,6 +8057,7 @@
 ||smetrics.adt.com^
 ||digital.adt-worldwide.com^
 ||smartcam.adt-worldwide.com^
+||adtechpanda.com^
 ||adtector.com^
 ||adtj92jd.com^
 ||adtogametrk.com^
@@ -10487,6 +10490,7 @@
 ||orion.bendingspoons.com^
 ||beneficialbeef.com^
 ||benefiio.com^
+||benefitboys.com^
 ||benefitkitchen.com^
 ||benefits-check.com^
 ||benefitssense.com^
@@ -11708,6 +11712,7 @@
 ||cabledemand.com^
 ||analytics-scripts.cablelabs.com^
 ||marketing.cableloc.com^
+||cabstrategy.com^
 ||marketing.cachetservices.com^
 ||tr.news.cad-magazine.com^
 ||tk.cadeaux.com^
@@ -13194,6 +13199,7 @@
 ||supvka.colancolan.com^
 ||coldbalance.com^
 ||coldcallpro.com^
+||coldcrucible.com^
 ||tracking.coldspringusa.com^
 ||iycifx.coldwatercreek.com^
 ||sst.colemanfurniture.com^
@@ -41837,6 +41843,7 @@
 ||u1sdata.webullfintech.com^
 ||kabokc.webuy.com^
 ||webvisor.com^
+||webworksworld.com^
 ||webworxshop.com^
 ||analytics.webynize.com^
 ||wecantrack.com^
@@ -42807,6 +42814,7 @@
 ||yottlyscript.com^
 ||go.you-app.com^
 ||a8click.you-up.com^
+||youanonymous.com^
 ||applink.youareaceo.com^
 ||stagelink.youareaceo.com^
 ||youbora.com^
@@ -45072,6 +45080,7 @@
 ||app-performance.music.amazon.dev^
 ||sonar.prime-video.amazon.dev^
 ||bugsnag.shopbop.amazon.dev^
+||insights.builderprofile.aws.dev^
 ||link.bambu.dev^
 ||stats.bholmes.dev^
 ||brainbi.dev^
@@ -53815,6 +53824,7 @@
 ||ortechnologies.net^
 ||stats.otsohavanto.net^
 ||outcomes.net^
+||outpro.net^
 ||owistats.net^
 ||owneriq.net^
 ||p-i.net^
@@ -58526,6 +58536,7 @@
 ||track.bestpornsites.tv^
 ||go.bigo.tv^
 ||link.bigroom.tv^
+||braveglobal.tv^
 ||stats-dev.brid.tv^
 ||events.brightline.tv^
 ||link.bulbul.tv^

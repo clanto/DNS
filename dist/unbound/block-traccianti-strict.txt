@@ -111,6 +111,7 @@
 *.joinb.rune.ai
 *.events.shoplift.ai
 *.mp.sintra.ai
+*.s.sintra.ai
 *.go.skippy.ai
 *.dev-share.smartfashion.ai
 *.ev.stellarlabs.ai
@@ -119,6 +120,7 @@
 *.analytics.superstructure.ai
 *.hi.syllable.ai
 *.link.szl.ai
+*.p.teamily.ai
 *.app.trainfitness.ai
 *.l.unfy.ai
 *.track.unidata.ai
@@ -8784,6 +8786,7 @@
 *.btstats.benakt.com
 *.benchlamp.com
 *.orion.bendingspoons.com
+*.benefitboys.com
 *.benefitssense.com
 *.smetrics.beneful.com
 *.marketing.beneplace.com
@@ -9667,6 +9670,7 @@
 *.www.cable-cen-01.com
 *.analytics-scripts.cablelabs.com
 *.marketing.cableloc.com
+*.cabstrategy.com
 *.marketing.cachetservices.com
 *.tr.news.cad-magazine.com
 *.tk.cadeaux.com
@@ -10806,6 +10810,7 @@
 *.supvka.colancolan.com
 *.coldbalance.com
 *.coldcallpro.com
+*.coldcrucible.com
 *.tracking.coldspringusa.com
 *.iycifx.coldwatercreek.com
 *.sst.colemanfurniture.com
@@ -28779,6 +28784,7 @@
 *.u1sdata.webullfintech.com
 *.kabokc.webuy.com
 *.mc.webvisor.com
+*.webworksworld.com
 *.analytics.webynize.com
 *.stats.wecodeni.com
 *.smetrics.wedenik.com
@@ -29484,6 +29490,7 @@
 *.yottlyscript.com
 *.go.you-app.com
 *.a8click.you-up.com
+*.youanonymous.com
 *.applink.youareaceo.com
 *.stagelink.youareaceo.com
 *.youborafds01.com
@@ -31349,6 +31356,7 @@
 *.analytics.ahrefs.dev
 *.session.bugsnag.kindle.amazon.dev
 *.bugsnag.shopbop.amazon.dev
+*.insights.builderprofile.aws.dev
 *.link.bambu.dev
 *.stats.bholmes.dev
 *.stats.byterocket.dev
@@ -38654,6 +38662,7 @@
 *.a8clk.order-box.net
 *.tracker-shr.ortb.net
 *.stats.otsohavanto.net
+*.outpro.net
 *.px.owneriq.net
 *.p7cloud.net
 *.managedaccounts.pacificpower.net
