@@ -130,6 +130,7 @@ adguard.abd.ong
 adguard.acrobyte.org
 adguard.adrianofrongillo.ovh
 adguard.aenth.com
+adguard.ajinga.net
 adguard.alu.dog
 adguard.aminetwork.biz
 adguard.amscenter.net
@@ -242,7 +243,6 @@ adguard.trevorpease.me
 adguard.tver-tech.ru
 adguard.ulbricht.cloud
 adguard.veanswart.cloudns.be
-adguard.vegann.space
 adguard.vozersky.com
 adguard.wallura.eu
 adguard.where.tf
@@ -431,6 +431,7 @@ at.pzhg.me
 atelier.alica.idv.tw
 atl01.dnscry.pt
 atlantic.dyn1.de
+atris.cyou
 atsilva.link
 au-syd-w-f-1.nashkan.net
 au-syd-w-p-1.nashkan.net
@@ -1463,7 +1464,6 @@ dns.zombire.ru
 dns.zui.lol
 dns.zyxienn.fun
 dns.zzuhacker.cn
-dns0.eu
 dns0.permafrostmiami.com
 dns0.tardishost.ru
 dns01.enginyring.com
@@ -1953,6 +1953,7 @@ helios.plan9-dns.com
 helsh0ru5.mooo.com
 herkes.online
 hexxitcompany.com
+hfgx.shop
 hgrps.eu
 hieutrang-99.duckdns.org
 himedns.com
@@ -2141,7 +2142,6 @@ kdgnkjho4od8w40.americasnet.com.br
 kellerbier-home.com
 kennethhuang.com
 khome.site
-kids.dns0.eu
 kids.ns.nwps.fi
 kids.vietdns.vn
 kihn.org
@@ -2187,8 +2187,8 @@ le-mesle.fr
 ledns.eu
 lelux.fi
 lena.vpn.i81.ru
+lesuo.top
 lfbn-gre-1-319-7.w90-112.abo.wanadoo.fr
-libredns.gr
 lifeisa.live
 lilibox.freeboxos.fr
 lime.samonte.ovh
@@ -2213,7 +2213,6 @@ lunar-dns.de
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
 maherhost.uk
-mail.data.haus
 mail.hilton-groups.com
 mailer.amlegion.org
 maincloud.ir
@@ -2246,6 +2245,7 @@ micro.alloxr.info
 midgard.asguardian.de
 mijoregner.de
 mikatos.de
+mikezhang.xyz
 mikrobill.dns-cloud.net
 mil01.dnscry.pt
 mimir.magicaobscura.de
@@ -2277,6 +2277,7 @@ mx1.laoxiao789.com
 my.8484848.cn
 myadg.ru
 myagh.claptrap.me
+myatris.sbs
 mycactus.duckdns.org
 mycloud-dns.duckdns.org
 mydns.ddns.me
@@ -2404,7 +2405,6 @@ onedns.net
 oowo.de
 open-resolver1.unima.ac.id
 open.dns.dremaxx.com
-open.dns0.eu
 opencdn.jomodns.com
 opendns.one
 opennic-ns.egelhaus.de
@@ -3055,7 +3055,6 @@ zanty123456.myasustor.com
 zapranet.my.id
 zaziss.com
 zdn.ro
-zero.dns0.eu
 zetland.rm-ni.uk
 zeusvps.cloudns.nz
 zhang.wenru.xyz

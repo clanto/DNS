@@ -1312,8 +1312,6 @@ guide-ledegr.framer.media
 guiformat.app
 guiformat.com
 guiglen.sbs
-guildbase.org
-guildkit.org
 guildpass.one
 guj.jp
 gumeminlogi.webflow.io

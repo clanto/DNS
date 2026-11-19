@@ -17641,6 +17641,7 @@
 ||a8cv.fortunes-lab.com^
 ||fortvision.com^
 ||marketing.fortworth.com^
+||fortyninemaps.com^
 ||cueohf.forumactif.com^
 ||cueohf.forumattivo.com^
 ||cueohf.forumieren.com^
@@ -24235,6 +24236,7 @@
 ||mas2r4j2.com^
 ||mas2trk.com^
 ||masae-analytics.com^
+||mascguys.com^
 ||marketing.masergy.com^
 ||ssc.mashaalradio.com^
 ||g.mashable.com^
@@ -54394,6 +54396,7 @@
 ||grow.urbandictionary.network^
 ||veradata.network^
 ||whatismyip.network^
+||ph.cto.new^
 ||atlantablackstar.black.news^
 ||blackenterprise.black.news^
 ||blavity.black.news^
@@ -57983,6 +57986,7 @@
 ||dii3.zoohit.sk^
 ||dii4.zoohit.sk^
 ||refwkk.zoznam.sk^
+||digifaro-digital.uk.monitoringsolutions.sky^
 ||telem.prod.ott.sky^
 ||go.twi.sm^
 ||tk.airfrance.sn^
