@@ -50097,9 +50097,6 @@ sxmxpm.nectarsleep.com
 sxp.allianz.de
 sxwxswg8z1xe.www.arnowebtv.com
 sxzpqm8trk.com
-sy.ameba.jp
-sy.amebame.com
-sy.ameblo.jp
 sy.nextlgsdp.com
 sy57d8wi.com
 syftanalytics.com
@@ -61221,3 +61218,7 @@ eventpiper.vlcapi.net
 g2insights-fd-a0gpgwa4fycxd9d4.z01.azurefd.net
 ideamornings.com
 lidsmarket.com
+@498668
+masondown.com
+ordinalzero.com
+rapidscraper.com

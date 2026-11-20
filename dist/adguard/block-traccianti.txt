@@ -8831,7 +8831,6 @@
 ||link.global.amd.com^
 ||metrics.amd.com^
 ||amd83trk.com^
-||sy.amebame.com^
 ||ometrics.ameds.com^
 ||amenityanalytics.com^
 ||amenityllc.com^
@@ -24251,6 +24250,7 @@
 ||stats.mashword.com^
 ||maskedadmin.com^
 ||qyuzwd.maskworld.com^
+||masondown.com^
 ||crm.masonmac.com^
 ||mass-analytics.com^
 ||secure.mass1soma.com^
@@ -31862,6 +31862,7 @@
 ||orchidgenius.com^
 ||orderjumper.com^
 ||a8clk.cart.ordersupli.com^
+||ordinalzero.com^
 ||stats.ordinarypuzzles.com^
 ||rzdcyv.oreca-store.com^
 ||metrics.oreck.com^
@@ -34114,6 +34115,7 @@
 ||rapidcounter.com^
 ||rapidkittens.com^
 ||marketing.rapidlockingsystem.com^
+||rapidscraper.com^
 ||rapidspike.com^
 ||website-security.rapidssl.com^
 ||affiliate-api.raptive.com^
@@ -50025,9 +50027,7 @@
 ||a8clk.alljewelry.jp^
 ||a8cv.store.alpen-group.jp^
 ||ln.ameba.jp^
-||sy.ameba.jp^
 ||measure.ameblo.jp^
-||sy.ameblo.jp^
 ||metrics.americanairlines.jp^
 ||a8cv.amiami.jp^
 ||fpida.amphi.jp^

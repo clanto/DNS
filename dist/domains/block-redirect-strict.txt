@@ -1261,7 +1261,6 @@
 247proxy.net
 247proxy.nl
 247server4surf.tk
-247superhost.com
 247surf.info
 247surf.net
 247tunnel.com

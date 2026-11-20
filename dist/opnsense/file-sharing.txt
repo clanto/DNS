@@ -112,7 +112,6 @@ files-express.com
 files-upload.com
 files.catbox.moe
 files.mail.ru
-files.to
 files6.com
 filesanywhere.com
 filesavr.com
@@ -164,6 +163,7 @@ hugedrive.com
 hulkload.com
 hulkshare.com
 humyo.com
+hyperfileshare.com
 ifdnrg.com
 ifile.it
 ifolder.ru

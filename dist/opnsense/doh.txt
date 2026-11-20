@@ -187,6 +187,7 @@ adguard.kitakitsune.xyz
 adguard.landropunk.xyz
 adguard.lege.despagne.net
 adguard.llf520.dpdns.org
+adguard.londonwebnerd.cloud
 adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
@@ -221,7 +222,6 @@ adguard.senthil.us
 adguard.shoupperuser.com
 adguard.shutgaming.net
 adguard.shuting.idv.tw
-adguard.sixxi.de
 adguard.spaceindex.net
 adguard.spankula.xyz
 adguard.sre.ovh
@@ -564,6 +564,7 @@ cubedns.com
 curser.dev
 cvt01.dnscry.pt
 cyliu.idv.tw
+cynntex.fun
 d.adguard-dns.com
 d.apemlegit.my.id
 d.gametechnet.com
@@ -825,6 +826,7 @@ dns.crystalyx.net
 dns.csa-rz.de
 dns.csaonline.de
 dns.csswg.org
+dns.cybertonic.tech
 dns.d365.in
 dns.d4d.moe
 dns.d94.xyz
@@ -1738,8 +1740,6 @@ doh.xorlet.ru
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
-doh1.b-cdn.net
-doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -1799,7 +1799,6 @@ echoe1yidzu4ioo5.myfritz.net
 echoisles20.duckdns.org
 echooff.xyz
 edgar.tobkar.net
-edgy-dns.com
 edns.233py.com
 edns.my.id
 ee-tll.doh.sb
@@ -2219,6 +2218,7 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
+mask-canary.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2243,6 +2243,7 @@ micro.alloxr.info
 midgard.asguardian.de
 mijoregner.de
 mikatos.de
+mikezhang.xyz
 mikrobill.dns-cloud.net
 mil01.dnscry.pt
 mimir.magicaobscura.de
@@ -2378,7 +2379,6 @@ ns6.ygy.ru
 nsc.torgues.net
 nsec.arnor.org
 nsnacho.sytes.net
-nsown.com
 ntwrkh.pro
 nue01.dnscry.pt
 nvi-dns.bitdefender.net
@@ -2468,6 +2468,7 @@ pihole.datamatter.co.za
 pihole1.hoerli.net
 pihole2.hoerli.net
 pihole3.hoerli.net
+pingbi.xyz
 pips.kpsn.org
 pitchforkwaydns.duckdns.org
 pl-waw-w-p-2.nashkan.net
@@ -2731,7 +2732,6 @@ ssytnik.de
 standard.mask.ad
 steering.nextdns.io
 stella.clae.net
-sterlingharris.com
 sto01.dnscry.pt
 sto02.dnscry.pt
 stratus.bugz.fr
@@ -3004,6 +3004,7 @@ xbcpb668.com
 xbox-dns.ru
 xenergy.cc
 xfer.au
+xholgm.top
 xiaoxie.pro
 xiaoxinhui.cn
 xie.ke

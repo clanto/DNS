@@ -12890,7 +12890,6 @@
 ||247freeproxy.com^
 ||unblock.247ihost.com^
 ||247proxy.com^
-||247superhost.com^
 ||247tunnel.com^
 ||247unblockme.com^
 ||247webproxy.com^

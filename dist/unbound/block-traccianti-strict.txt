@@ -7581,7 +7581,6 @@
 *.links.commercialemails.amcplc.com
 *.link.global.amd.com
 *.metrics.amd.com
-*.sy.amebame.com
 *.ometrics.ameds.com
 *.sstats.americafirst.com
 *.stats.americafirst.com
@@ -19084,6 +19083,7 @@
 *.stats.mashword.com
 *.maskedadmin.com
 *.qyuzwd.maskworld.com
+*.masondown.com
 *.crm.masonmac.com
 *.secure.mass1soma.com
 *.www.mass1soma.com
@@ -21569,6 +21569,7 @@
 *.orchidgenius.com
 *.orderjumper.com
 *.a8clk.cart.ordersupli.com
+*.ordinalzero.com
 *.stats.ordinarypuzzles.com
 *.rzdcyv.oreca-store.com
 *.metrics.oreck.com
@@ -23226,6 +23227,7 @@
 *.smetrics.rapidadvance.com
 *.tracking.rapidape.com
 *.marketing.rapidlockingsystem.com
+*.rapidscraper.com
 *.website-security.rapidssl.com
 *.affiliate-api.raptive.com
 *.stormgate.production.raptive.com
@@ -35410,9 +35412,7 @@
 *.a8clk.alljewelry.jp
 *.a8cv.store.alpen-group.jp
 *.ln.ameba.jp
-*.sy.ameba.jp
 *.measure.ameblo.jp
-*.sy.ameblo.jp
 *.metrics.americanairlines.jp
 *.a8cv.amiami.jp
 *.fpida.amphi.jp
