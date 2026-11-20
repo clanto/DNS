@@ -4433,6 +4433,7 @@
 *.a8723.com
 *.a88wptk.com
 *.a8a8altrk.com
+*.cdn.a9f3k7z2m1.com
 *.a9gn8ftrk.com
 *.images.cargomarketing.email.aa.com
 *.metrics.aa.com
@@ -20549,6 +20550,7 @@
 *.partner.net.idealo-partner.com
 *.idealspot.com
 *.wpyvue.idealwine.com
+*.ideamornings.com
 *.ideata-analytics.com
 *.idebamarketing.com
 *.ideepeners.com
@@ -23236,6 +23238,7 @@
 *.ssl.licensemag.com
 *.liddsp.com
 *.lidrtb.com
+*.lidsmarket.com
 *.auoehd.liebscher-bracht.com
 *.learn.liensolutions.com
 *.a8clk.aff.life-110.com
@@ -23808,6 +23811,7 @@
 *.m2hf9trk.com
 *.m2ibepdawk.com
 *.m2insights.com
+*.cdn.m2z7r9k4p1.com
 *.marketing.m3design.com
 *.m3n1pdoy.com
 *.m5gfm7trk.com
@@ -33579,7 +33583,6 @@
 *.publisher-news.com
 *.publishers-on.com
 *.publishingcampus.com
-*.view.publitas.com
 *.metrix.publix.com
 *.pubocean.com
 *.pubperf.com
@@ -33729,6 +33732,7 @@
 *.q0losid.com
 *.smetrics.q107.com
 *.insights.connect.q4inc.com
+*.cdn.q4x8n6b2t5.com
 *.q85ehcrh.com
 *.q8mng7trk.com
 *.qa-analytics.com
@@ -34621,6 +34625,7 @@
 *.tr.info.reunica.com
 *.app.reuters.com
 *.info.assets.reuters.com
+*.dd.reuters.com
 *.link.reuters.com
 *.info.reutersagency.com
 *.rev-stripe.com
@@ -42522,6 +42527,7 @@
 *.x61mesm2i.com
 *.x6h2tsbh.com
 *.x7gbdj8dh.com
+*.cdn.x7k9m2q4z8r1.com
 *.x93jditk.com
 *.stats.xactcode.com
 *.info.xactflex.com
@@ -52708,6 +52714,8 @@
 *.sdtagging.azureedge.net
 *.adsagentclientafd-b7hqhjdrf3fpeqh2.b01.azurefd.net
 *.sd-tagging.azurefd.net
+*.connext-fd-gnbrate4fjhjb3f7.z01.azurefd.net
+*.g2insights-fd-a0gpgwa4fycxd9d4.z01.azurefd.net
 *.azurehdinsight.net
 *.freshatl.azurewebsites.net
 *.rmgdapfnccsharpprd.azurewebsites.net
@@ -54261,6 +54269,7 @@
 *.page.vital4.net
 *.stats.vk-portal.net
 *.vkanalytics.net
+*.eventpiper.vlcapi.net
 *.vmweb.net
 *.tracking3.vnncdn.net
 *.vstats.net
@@ -55859,6 +55868,7 @@
 *.stjoe.psjhealth.org
 *.tracker.psjhealth.org
 *.start.ptl.org
+*.analytics-prod.pubgen.org
 *.analytics.python.org
 *.waati.quechoisir.org
 *.images.learn.queenslibrary.org

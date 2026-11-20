@@ -3615,6 +3615,7 @@
 ||a3kvau184uea.com^
 ||a47b.com^
 ||a8723.com^
+||cdn.a9f3k7z2m1.com^
 ||images.cargomarketing.email.aa.com^
 ||metrics.aa.com^
 ||smetrics.aa.com^
@@ -16343,6 +16344,7 @@
 ||marketing.net.idealo-partner.com^
 ||partner.net.idealo-partner.com^
 ||wpyvue.idealwine.com^
+||ideamornings.com^
 ||smetrics.identityguard.com^
 ||communications.idera.com^
 ||app.idexevent.com^
@@ -18337,6 +18339,7 @@
 ||eventapi.libring.com^
 ||flashstats.libsyn.com^
 ||ssl.licensemag.com^
+||lidsmarket.com^
 ||auoehd.liebscher-bracht.com^
 ||learn.liensolutions.com^
 ||a8clk.aff.life-110.com^
@@ -18741,6 +18744,7 @@
 ||t-s.lyticportfolio.com^
 ||analyze-82dfgsi2.m-w.com^
 ||www.m1ll1c4n0.com^
+||cdn.m2z7r9k4p1.com^
 ||marketing.m3design.com^
 ||now.m5net.com^
 ||tk.m6boutique.com^
@@ -22839,7 +22843,6 @@
 ||publicsofa.com^
 ||metric.publicstorage.com^
 ||metrics.publicstorage.com^
-||view.publitas.com^
 ||metrix.publix.com^
 ||puffyloss.com^
 ||puffypaste.com^
@@ -22950,6 +22953,7 @@
 ||pzimff.com^
 ||q0losid.com^
 ||smetrics.q107.com^
+||cdn.q4x8n6b2t5.com^
 ||mtc.qantas.com^
 ||smtc.qantas.com^
 ||go.qantaswellbeing.com^
@@ -23584,6 +23588,7 @@
 ||tr.info.reunica.com^
 ||app.reuters.com^
 ||info.assets.reuters.com^
+||dd.reuters.com^
 ||link.reuters.com^
 ||info.reutersagency.com^
 ||info.rev1ventures.com^
@@ -26143,6 +26148,7 @@
 ||smetrics.t-mobile.com^
 ||metrics.t-mobilemoney.com^
 ||smetrics.t-mobilemoney.com^
+||cdn.t2037ulzqct5.com^
 ||marketing.t2systems.com^
 ||app.ta3weem.com^
 ||tabcarts.com^
@@ -29287,6 +29293,7 @@
 ||ywrcqa.wzzm13.com^
 ||t.e.x.com^
 ||marketing.net.x24factory.com^
+||cdn.x7k9m2q4z8r1.com^
 ||stats.xactcode.com^
 ||info.xactflex.com^
 ||campaigns.xactware.com^
@@ -37832,6 +37839,8 @@
 ||sdtagging.azureedge.net^
 ||adsagentclientafd-b7hqhjdrf3fpeqh2.b01.azurefd.net^
 ||sd-tagging.azurefd.net^
+||connext-fd-gnbrate4fjhjb3f7.z01.azurefd.net^
+||g2insights-fd-a0gpgwa4fycxd9d4.z01.azurefd.net^
 ||freshatl.azurewebsites.net^
 ||rmgdapfnccsharpprd.azurewebsites.net^
 ||a8.b-cafe.net^
@@ -38922,6 +38931,7 @@
 ||page.vital4.net^
 ||stats.vk-portal.net^
 ||vkanalytics.net^
+||eventpiper.vlcapi.net^
 ||tracking3.vnncdn.net^
 ||a.vturb.net^
 ||wafflemakers.net^
@@ -40261,6 +40271,7 @@
 ||stjoe.psjhealth.org^
 ||tracker.psjhealth.org^
 ||start.ptl.org^
+||analytics-prod.pubgen.org^
 ||analytics.python.org^
 ||waati.quechoisir.org^
 ||images.learn.queenslibrary.org^

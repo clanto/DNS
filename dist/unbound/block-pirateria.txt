@@ -12433,6 +12433,7 @@
 *.prkinoxhaus.com
 *.prmoviescasino.com
 *.prmoviesnow.com
+*.proanimetric.com
 *.procracksoft.com
 *.prodesigntools.com
 *.prodigem.com
@@ -13295,6 +13296,7 @@
 *.thebigheap.com
 *.thebtclub.com
 *.theebooksbay.com
+*.thefilmypocket.com
 *.theflashwarez.com
 *.thefrenchstream.com
 *.thehiddenbay.com
@@ -25605,6 +25607,7 @@
 *.watchseries.lifestyle
 *.yesmovies.lifestyle
 *.5movierulz.limited
+*.futemax.limited
 *.lordfilm.limited
 *.liber3.eth.limo
 *.watchmovierulz.limo
@@ -31498,7 +31501,6 @@
 *.laroza.makeup
 *.larozza.makeup
 *.losmovies.makeup
-*.movierulz.makeup
 *.multicanaishd.makeup
 *.multimovies.makeup
 *.soap2day.makeup

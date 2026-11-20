@@ -130,7 +130,6 @@ adguard.abd.ong
 adguard.acrobyte.org
 adguard.adrianofrongillo.ovh
 adguard.aenth.com
-adguard.ajinga.net
 adguard.alu.dog
 adguard.aminetwork.biz
 adguard.amscenter.net
@@ -188,7 +187,6 @@ adguard.kitakitsune.xyz
 adguard.landropunk.xyz
 adguard.lege.despagne.net
 adguard.llf520.dpdns.org
-adguard.londonwebnerd.cloud
 adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
@@ -942,7 +940,6 @@ dns.futuredns.me
 dns.fxdc.ru
 dns.garymarek.me
 dns.gayanalysing.co.uk
-dns.gearworks.app
 dns.geohide.ru
 dns.ghost.pm
 dns.gi.co.id
@@ -1403,6 +1400,7 @@ dns.velyn.my.id
 dns.venclous.org
 dns.vietdns.vn
 dns.vinnyp.xyz
+dns.vip-kingstore.xyz
 dns.virelonix.com
 dns.virtual-qr.ir
 dns.vk09.ru
@@ -1953,7 +1951,6 @@ helios.plan9-dns.com
 helsh0ru5.mooo.com
 herkes.online
 hexxitcompany.com
-hfgx.shop
 hgrps.eu
 hieutrang-99.duckdns.org
 himedns.com
@@ -2187,8 +2184,8 @@ le-mesle.fr
 ledns.eu
 lelux.fi
 lena.vpn.i81.ru
-lesuo.top
 lfbn-gre-1-319-7.w90-112.abo.wanadoo.fr
+libredns.gr
 lifeisa.live
 lilibox.freeboxos.fr
 lime.samonte.ovh
@@ -2213,6 +2210,7 @@ lunar-dns.de
 luxembourg.privacy-dns.pw
 mad01.dnscry.pt
 maherhost.uk
+mail.data.haus
 mail.hilton-groups.com
 mailer.amlegion.org
 maincloud.ir
@@ -2245,7 +2243,6 @@ micro.alloxr.info
 midgard.asguardian.de
 mijoregner.de
 mikatos.de
-mikezhang.xyz
 mikrobill.dns-cloud.net
 mil01.dnscry.pt
 mimir.magicaobscura.de
@@ -2277,7 +2274,6 @@ mx1.laoxiao789.com
 my.8484848.cn
 myadg.ru
 myagh.claptrap.me
-myatris.sbs
 mycactus.duckdns.org
 mycloud-dns.duckdns.org
 mydns.ddns.me
@@ -2472,7 +2468,6 @@ pihole.datamatter.co.za
 pihole1.hoerli.net
 pihole2.hoerli.net
 pihole3.hoerli.net
-pingbi.xyz
 pips.kpsn.org
 pitchforkwaydns.duckdns.org
 pl-waw-w-p-2.nashkan.net
@@ -2765,7 +2760,6 @@ tecworx.at
 teknorota.com
 telex.app
 tenclubamst.ru
-tenmei.casacam.net
 test.143.sh
 test.adg.siudzinski.net
 test.businessconnect.com.tr
@@ -3010,7 +3004,6 @@ xbcpb668.com
 xbox-dns.ru
 xenergy.cc
 xfer.au
-xholgm.top
 xiaoxie.pro
 xiaoxinhui.cn
 xie.ke

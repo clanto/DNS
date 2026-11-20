@@ -6081,6 +6081,7 @@ analytics-portals.com
 analytics-prd.aws.wehaa.net
 analytics-pro.liana.fi
 analytics-prod-alb-292764149.us-west-2.elb.amazonaws.com
+analytics-prod.pubgen.org
 analytics-prod2.glance-internal.inmobi.com
 analytics-production.hapyak.com
 analytics-proxy.springboard.com
@@ -10943,23 +10944,28 @@ cdn-sitegainer.com
 cdn-vitals.com
 cdn-zeptoapps.com
 cdn.9gtb.com
+cdn.a9f3k7z2m1.com
 cdn.arcstudiopro.com
 cdn.dfsdk.com
 cdn.eaec.fpfis.tech.ec.europa.eu
 cdn.getsmartcontent.com
 cdn.hbbtv.smartclip.net
 cdn.ltba.io
+cdn.m2z7r9k4p1.com
 cdn.net.dz.jumia.com
 cdn.net.elogia.net
 cdn.polarbyte.com
 cdn.prod.euid.eu
+cdn.q4x8n6b2t5.com
 cdn.ravm.tv
 cdn.samsungcloudsolution.net
 cdn.seonintelligence.com
 cdn.smartclip.net
 cdn.sy-d.io
+cdn.t2037ulzqct5.com
 cdn.usefathom.com
 cdn.visits.dqapis.com
+cdn.x7k9m2q4z8r1.com
 cdn1.skrill.com
 cdn7.baunetz.de
 cdnflow.co
@@ -12364,6 +12370,7 @@ connectwithus.cetera.com
 connexica.com
 connexity.net
 connext-cdn.azureedge.net
+connext-fd-gnbrate4fjhjb3f7.z01.azurefd.net
 conscent.in
 consciouschairs.com
 consciouscheese.com
@@ -14301,6 +14308,7 @@ dd.g2.com
 dd.garena.com
 dd.leboncoin.fr
 dd.nytimes.com
+dd.reuters.com
 dd.seloger-bureaux-commerces.com
 dd.seloger.com
 dd.selogerneuf.com
@@ -17368,6 +17376,7 @@ eventos.emkt.ingressorapido.com.br
 eventos.mirecweek.com
 eventos.ubmmexico.com
 eventos.usj.es
+eventpiper.vlcapi.net
 events-endpoint.pointandplace.com
 events-ingestion-helpcenter.services.gorgias.help
 events-logs.doctolib.com
@@ -18861,6 +18870,7 @@ g2048.rgluk.com
 g2575096355.co
 g2c.club
 g2insights-cdn.azureedge.net
+g2insights-fd-a0gpgwa4fycxd9d4.z01.azurefd.net
 g2m5trk.com
 g2qtkenv.com
 g30sltrk.com
@@ -21474,6 +21484,7 @@ iddu1vvb7sk8-a.akamaihd.net
 ideadevice.actonservice.com
 idealcx.com.au
 idealspot.com
+ideamornings.com
 ideas.nanawall.com
 ideata-analytics.com
 idebamarketing.com
@@ -25331,6 +25342,7 @@ licili.io
 lid.st
 liddsp.com
 lidrtb.com
+lidsmarket.com
 liecso.e-himart.co.kr
 lieudetravail.ricoh.fr
 life.io
@@ -57870,7 +57882,6 @@ view.fujitv.co.jp
 view.kirbybuildingsystems.com
 view.metlspan.com
 view.nucorbuildingsystems.com
-view.publitas.com
 viewclc.com
 viewcore.live
 viewer.pandasuite.io

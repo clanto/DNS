@@ -8,37 +8,37 @@
 
 | Feed | Descrizione | IPv4 | IPv6 |
 |---|---|---|---|
-| `all` | Aziende: uscita e ingresso — aggregato: doh, tor, threat, c2 | [36118](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt) | [3342](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v6.txt) |
-| `all-scuole` | Scuole: come all, più VPN commerciali e proxy — aggregato: doh, tor, threat, c2, vpn | [44926](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v4.txt) | [3838](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v6.txt) |
-| `doh` | Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del DNS aziendale | [1377](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v4.txt) | [724](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v6.txt) |
-| `tor` | Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser) | [5350](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt) | [2618](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v6.txt) |
-| `threat` | IP malevoli attivi (scanner, brute force, attacchi) segnalati da più blacklist | [27290](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v4.txt) | [0](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v6.txt) |
-| `c2` | Server di comando e controllo di botnet e malware | [2419](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v4.txt) | [0](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v6.txt) |
-| `vpn` | VPN commerciali e proxy anonimizzanti | [9238](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v4.txt) | [578](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v6.txt) |
+| `all` | Aziende: uscita e ingresso — aggregato: doh, tor, threat, c2 | [36365](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v4.txt) | [3349](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-v6.txt) |
+| `all-scuole` | Scuole: come all, più VPN commerciali e proxy — aggregato: doh, tor, threat, c2, vpn | [45164](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v4.txt) | [3845](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/all-scuole-v6.txt) |
+| `doh` | Resolver DNS-over-HTTPS/TLS pubblici: impediscono il bypass del DNS aziendale | [1381](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v4.txt) | [728](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/doh-v6.txt) |
+| `tor` | Rete Tor: nodi di uscita e relay (blocca sia gli attacchi da Tor sia l'uso di Tor Browser) | [5339](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v4.txt) | [2621](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/tor-v6.txt) |
+| `threat` | IP malevoli attivi (scanner, brute force, attacchi) segnalati da più blacklist | [27469](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v4.txt) | [0](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/threat-v6.txt) |
+| `c2` | Server di comando e controllo di botnet e malware | [2400](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v4.txt) | [0](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/c2-v6.txt) |
+| `vpn` | VPN commerciali e proxy anonimizzanti | [9239](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v4.txt) | [578](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/vpn-v6.txt) |
 | `social` | Social network e messaggistica per AS: Meta (Facebook, Instagram, WhatsApp), TikTok, X, Telegram | [213](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/social-v4.txt) | [119](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/social-v6.txt) |
 | `file-sharing` | File sharing puro per AS dedicati: Mega, MediaFire (WeTransfer, Gofile e simili stanno su CDN condivise: solo DNS) | [9](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/file-sharing-v4.txt) | [5](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/file-sharing-v6.txt) |
 | `cloud-storage` | Archiviazione cloud di lavoro per AS dedicato: Dropbox (Box e OneDrive stanno su cloud condivisi: solo DNS) | [4](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/cloud-storage-v4.txt) | [1](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/cloud-storage-v6.txt) |
-| `inbound` | IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN | [90591](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v4.txt) | [0](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v6.txt) |
+| `inbound` | IP che attaccano servizi esposti (scanner, brute force): SOLO in ingresso WAN → LAN | [90273](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v4.txt) | [0](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/inbound-v6.txt) |
 | `bogon` | Reti riservate/private (RFC 6890): SOLO in ingresso su interfacce WAN, mai su LAN | [14](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/bogon-v4.txt) | [11](https://raw.githubusercontent.com/clanto/DNS/main/dist/ip/bogon-v6.txt) |
 
 ## Fonti
 
 | ID | Categoria | Licenza | Stato | Voci | Note |
 |---|---|---|---|---|---|
-| [dibdot-doh-v4](https://github.com/dibdot/DoH-IP-blocklists) | doh | GPL-3.0 | ok | 1697 |  |
-| [dibdot-doh-v6](https://github.com/dibdot/DoH-IP-blocklists) | doh | GPL-3.0 | ok | 1101 |  |
-| [tor-exit](https://metrics.torproject.org/) | tor | CC0 (Tor Metrics) | ok | 1300 |  |
-| [tor-relay](https://metrics.torproject.org/onionoo.html) | tor | CC0 (Tor Metrics) | ok | 10366 | Tutti i relay attivi (guard, middle, exit) |
-| [ipsum-level3](https://github.com/stamparm/ipsum) | threat | Unlicense | ok | 18355 | IP presenti in almeno 3 blacklist pubbliche |
-| [shadowwhisperer-threats](https://github.com/ShadowWhisperer/IPs) | threat | Unlicense | ok | 17490 | Honeypot propri: exploit, sistemi compromessi, dropper |
+| [dibdot-doh-v4](https://github.com/dibdot/DoH-IP-blocklists) | doh | GPL-3.0 | ok | 1701 |  |
+| [dibdot-doh-v6](https://github.com/dibdot/DoH-IP-blocklists) | doh | GPL-3.0 | ok | 1105 |  |
+| [tor-exit](https://metrics.torproject.org/) | tor | CC0 (Tor Metrics) | ok | 1296 |  |
+| [tor-relay](https://metrics.torproject.org/onionoo.html) | tor | CC0 (Tor Metrics) | ok | 10309 | Tutti i relay attivi (guard, middle, exit) |
+| [ipsum-level3](https://github.com/stamparm/ipsum) | threat | Unlicense | ok | 19089 | IP presenti in almeno 3 blacklist pubbliche |
+| [shadowwhisperer-threats](https://github.com/ShadowWhisperer/IPs) | threat | Unlicense | ok | 17905 | Honeypot propri: exploit, sistemi compromessi, dropper |
 | [shadowwhisperer-dns](https://github.com/ShadowWhisperer/IPs) | doh | Unlicense | ok | 183 | Resolver DNS pubblici |
-| [shadowwhisperer-tunnels](https://github.com/ShadowWhisperer/IPs) | vpn | Unlicense | ok | 13139 | scartate 1 non instradabile |
-| [data-shield](https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist) | inbound | GPL-3.0 | ok | 109965 | Sonde e SIEM propri, non aggregatore |
+| [shadowwhisperer-tunnels](https://github.com/ShadowWhisperer/IPs) | vpn | Unlicense | ok | 13140 | scartate 1 non instradabile |
+| [data-shield](https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist) | inbound | GPL-3.0 | ok | 109663 | Sonde e SIEM propri, non aggregatore |
 | [social-meta](https://iptoasn.com/) | social | PDDL 1.0 (iptoasn.com) | ok | 121 | Meta: Facebook, Instagram, WhatsApp, Threads |
 | [social-tiktok](https://iptoasn.com/) | social | PDDL 1.0 (iptoasn.com) | ok | 182 | ByteDance e TikTok (i contenuti video passano anche da CDN condivise: bloccare anche via DNS) |
 | [social-x](https://iptoasn.com/) | social | PDDL 1.0 (iptoasn.com) | ok | 17 | X (Twitter) |
 | [social-telegram](https://iptoasn.com/) | social | PDDL 1.0 (iptoasn.com) | ok | 12 | Telegram |
-| [tweetfeed-ip](https://github.com/0xDanielLopez/TweetFeed) | c2 | CC0-1.0 | ok | 2447 | IoC degli ultimi 30 giorni condivisi da ricercatori di sicurezza |
+| [tweetfeed-ip](https://github.com/0xDanielLopez/TweetFeed) | c2 | CC0-1.0 | ok | 2428 | IoC degli ultimi 30 giorni condivisi da ricercatori di sicurezza |
 | [abusech-feodo](https://feodotracker.abuse.ch/blocklist/) | c2 | CC0 | ok | 5 | CC0 dichiarato sulla pagina Feodo Tracker (regime diverso dai ToS generali abuse.ch) |
 | [x4b-vpn-v4](https://github.com/X4BNet/lists_vpn) | vpn | MIT | ok | 11060 |  |
 | [x4b-vpn-v6](https://github.com/X4BNet/lists_vpn) | vpn | MIT | ok | 578 | scartate 124 troppo ampia |
