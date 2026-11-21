@@ -1214,6 +1214,7 @@
 ||ahoj.email^
 ||dns.bcel.email^
 ||dns.jucker.engineering^
+||mabuktogel.enterprises^
 ||prdot.cldsrv.es^
 ||dns.esnube.es^
 ||f4f.es^
@@ -1716,6 +1717,7 @@
 ||dns.ourvau.lt^
 ||dns.redvau.lt^
 ||dns.5273.ltd^
+||mabuktogel.ltd^
 ||sink.nolo.ltd^
 ||crd.circl.lu^
 ||dns.circl.lu^

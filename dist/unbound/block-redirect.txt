@@ -36599,6 +36599,7 @@
 *.rayan-mbz.mobie.in
 *.moonlinks.in
 *.mortgageadviser.in
+*.mrlink.in
 *.msfy.in
 *.munlock.in
 *.my-link.in
@@ -66769,6 +66770,7 @@
 *.ilog.io
 *.link.intract.io
 *.jmeet.io
+*.jmpz.io
 *.jpjp.io
 *.jujubots.io
 *.jurl.io

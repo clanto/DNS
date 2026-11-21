@@ -52162,6 +52162,7 @@ jmp.im
 jmp.sh
 jmp2.net
 jmpto.net
+jmpz.io
 jmvmul.com
 jmxxud.com
 jmyspace.info
@@ -61483,6 +61484,7 @@ mrih.com
 mrisurf.tk
 mrjack.co.cc
 mrjj.uk
+mrlink.in
 mrmachado.tk
 mrmdomains.com
 mrmyspace.net

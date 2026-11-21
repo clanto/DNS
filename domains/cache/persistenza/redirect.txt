@@ -120307,3 +120307,6 @@ zyp.to
 gir.my
 @498679
 zipy.me
+@498691
+jmpz.io
+mrlink.in

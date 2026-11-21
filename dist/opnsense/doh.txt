@@ -130,6 +130,7 @@ adguard.abd.ong
 adguard.acrobyte.org
 adguard.adrianofrongillo.ovh
 adguard.aenth.com
+adguard.ajinga.net
 adguard.alu.dog
 adguard.aminetwork.biz
 adguard.amscenter.net
@@ -151,7 +152,6 @@ adguard.dantynes.cyou
 adguard.depieri.net
 adguard.dervart.ru
 adguard.devel.win
-adguard.discounthost.co.uk
 adguard.diylab.in
 adguard.doranpierst.com.tr
 adguard.dragonlab.work
@@ -187,6 +187,7 @@ adguard.kitakitsune.xyz
 adguard.landropunk.xyz
 adguard.lege.despagne.net
 adguard.llf520.dpdns.org
+adguard.londonwebnerd.cloud
 adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
@@ -302,7 +303,6 @@ ads.hunga1k47.com
 ads.hunga1k47.win
 ads.therman.eu
 ads.wordlez.com
-ads.x88.in
 adsl.viettel.vn
 adult-filter-dns.cleanbrowsing.org
 ae-agh1.dns.cryptroute.net
@@ -428,7 +428,6 @@ at.pzhg.me
 atelier.alica.idv.tw
 atl01.dnscry.pt
 atlantic.dyn1.de
-atris.cyou
 atsilva.link
 au-syd-w-f-1.nashkan.net
 au-syd-w-p-1.nashkan.net
@@ -563,6 +562,7 @@ cubedns.com
 curser.dev
 cvt01.dnscry.pt
 cyliu.idv.tw
+cynntex.fun
 d.adguard-dns.com
 d.apemlegit.my.id
 d.gametechnet.com
@@ -608,6 +608,7 @@ de01.dns4me.net
 de51.tcpdoor.net
 decloudus.com
 dedidl.com
+deep-henchman-excuse.cfd
 deflectordns.com
 dehb.ru
 deic-lgb.anycast.censurfridns.dk
@@ -874,6 +875,7 @@ dns.dremaxx.de
 dns.dualhosting.eu
 dns.dugi.io.vn
 dns.dumk.in
+dns.dyn1.de
 dns.dynx.pro
 dns.dzkji.cn
 dns.easyhns.com
@@ -1634,6 +1636,7 @@ doh.bortzmeyer.fr
 doh.bt.com
 doh.buzz
 doh.captnemo.in
+doh.centraleu.pi-dns.com
 doh.cippapp.com
 doh.cleanbrowsing.org
 doh.cnetwork.cloud
@@ -1648,6 +1651,9 @@ doh.dns4all.eu
 doh.dnscrypt.uk
 doh.dnswarden.com
 doh.domreg.lt
+doh.eastas.pi-dns.com
+doh.eastau.pi-dns.com
+doh.eastus.pi-dns.com
 doh.eddi.net
 doh.edifiels.ru
 doh.ersei.net
@@ -1690,6 +1696,7 @@ doh.ndmc.work.gd
 doh.nic.lv
 doh.niyawe.de
 doh.nl.ahadns.net
+doh.northeu.pi-dns.com
 doh.ntu.ssooss.win
 doh.nukys.ca
 doh.oco-lae.my.id
@@ -1697,6 +1704,7 @@ doh.onedns.net
 doh.opendns.com
 doh.palapa.net.id
 doh.phdns2.lonet.org
+doh.pi-dns.com
 doh.plaawan.uk
 doh.plop.cc
 doh.powerdns.org
@@ -1730,6 +1738,7 @@ doh.us.moe.tips
 doh.valscosmos.com
 doh.viatech.com.tw
 doh.webnmail.de
+doh.westus.pi-dns.com
 doh.wewitro.net
 doh.xcom.pro
 doh.xfinity.com
@@ -1753,16 +1762,22 @@ dot-de.blahdns.com
 dot-sg.blahdns.com
 dot.360.cn
 dot.886675.xyz
+dot.centraleu.pi-dns.com
 dot.cox.net
+dot.eastas.pi-dns.com
+dot.eastau.pi-dns.com
+dot.eastus.pi-dns.com
 dot.ffmuc.net
 dot.la.ahadns.net
 dot.libredns.gr
 dot.nl.ahadns.net
+dot.northeu.pi-dns.com
 dot.pub
 dot.quickline.ch
 dot.seby.io
 dot.tiar.app
 dot.tooli.ca
+dot.westus.pi-dns.com
 dot.xfinity.com
 dot1.applied-privacy.net
 dot1.appliedprivacy.net
@@ -1949,6 +1964,7 @@ helios.plan9-dns.com
 helsh0ru5.mooo.com
 herkes.online
 hexxitcompany.com
+hfgx.shop
 hgrps.eu
 hieutrang-99.duckdns.org
 himedns.com
@@ -2141,7 +2157,6 @@ kids.ns.nwps.fi
 kids.vietdns.vn
 kihn.org
 kilabit.info
-kilo.ddns.net
 kino.ipcon9886546.space
 kintoun.alves.cc
 kiri.nonexiste.net
@@ -2167,6 +2182,7 @@ kronos.plan9-dns.com
 krtekvpn.duckdns.org
 kubinet.duckdns.org
 kudns.kescher.at
+kx-97795-tr.xyz
 kz-pav-w-p-1.nashkan.net
 la-doh.stuptech.com
 lamdtl.giize.com
@@ -2207,6 +2223,8 @@ lukscasino-479-tr.xyz
 lukscasino-929-tr.xyz
 lunar-dns.de
 luxembourg.privacy-dns.pw
+mabuktogel.enterprises
+mabuktogel.ltd
 mad01.dnscry.pt
 maherhost.uk
 mail.data.haus
@@ -2218,11 +2236,6 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
-mask-canary.icloud.com
-mask-h2.icloud.com
-mask.apple-dns.net
-mask.icloud.com
-mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
 mavalleenumerique.hopto.org
@@ -2465,6 +2478,7 @@ pers-dns.com
 phantom3c.net
 phongg.vn
 phx01.dnscry.pt
+pi-dns.com
 pi.homeanywhere.org
 pidoh.mapledns.net
 pihole.aws.ketan.dev
@@ -2472,6 +2486,7 @@ pihole.datamatter.co.za
 pihole1.hoerli.net
 pihole2.hoerli.net
 pihole3.hoerli.net
+pingbi.xyz
 pips.kpsn.org
 pitchforkwaydns.duckdns.org
 pl-waw-w-p-2.nashkan.net

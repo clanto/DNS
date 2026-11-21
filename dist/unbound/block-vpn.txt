@@ -688,6 +688,8 @@
 *.v2ray.cc
 *.vanyavpn.cc
 *.velara.cc
+*.light.velvetwindow.cc
+*.sun.velvetwindow.cc
 *.vpef4.cc
 *.vpnlux.cc
 *.vpnv.cc
@@ -2117,8 +2119,6 @@
 *.ccavea.com
 *.cdiiceyn.com
 *.cdnaccelerate.com
-*.cdncoast.com
-*.cdncove.com
 *.cedarbranches.com
 *.censor-check.com
 *.center184.com
@@ -4406,6 +4406,7 @@
 *.letsvpnpro.com
 *.letsvpnus.com
 *.letsvpnxpc.com
+*.letsxvpn.com
 *.levelrounds.com
 *.levsvpn.com
 *.lhgwneqv.com
@@ -5022,6 +5023,8 @@
 *.paopaodog.com
 *.papansya.com
 *.paperflyvpn.com
+*.light.paperteapot.com
+*.sun.paperteapot.com
 *.parallelpet.com
 *.partyvpn.com
 *.pasdfn.com
@@ -6623,6 +6626,7 @@
 *.xn--emovpn-u40k507h.com
 *.xn--fetx50be7pf6w.com
 *.xn--fhq389femyc1d.com
+*.xn--fiq626gzzgkv2a.com
 *.xn--fiqs8s9rjgsr.com
 *.xn--fiqy4bl9l81zp7skjc1xd.com
 *.xn--h5q36vepk.com
@@ -7584,7 +7588,7 @@
 *.atlast9hdp.info
 *.atlaswyxd3.info
 *.avovpnbot.info
-*.my.home.ir.bcsadwtgd.info
+*.my.iran.ir.bcsadwtgd.info
 *.strait-of-hormuz.ir.bcsadwtgd.info
 *.this-is-home.ir.bcsadwtgd.info
 *.bebra-vpn.info
@@ -7614,6 +7618,8 @@
 *.crazysurfer.info
 *.cv2.info
 *.dageyun.info
+*.amir-kabir.davooti.info
+*.zzzzzzz.davooti.info
 *.directoryproxy.info
 *.donsalvatore.info
 *.easynetwork.info
@@ -7718,7 +7724,6 @@
 *.new.magli200.info
 *.white.magli200.info
 *.mailproxy.info
-*.hsdh7o.ir.ir.ir.meli-n12.info
 *.s47n.ir.ir.ir.meli-n12.info
 *.s7n.ir.ir.ir.meli-n12.info
 *.sn.ir.ir.ir.meli-n12.info
@@ -8364,6 +8369,7 @@
 *.packetline.live
 *.piro.live
 *.privado.live
+*.proxtstar.live
 *.quiz25.live
 *.redshieldvpn.live
 *.rinki.live
@@ -10559,6 +10565,8 @@
 *.30t.online
 *.3jdyuyqtvf.online
 *.49032ur98u3892h84h8h243t.online
+*.4j9echn8mdr.online
+*.4vtw3ktojjadh0xlr.online
 *.55aktnolkvuoctxitm.online
 *.8mvnbml4uxmm.online
 *.abcvpn.online
@@ -10622,6 +10630,7 @@
 *.gospodar-vpn-bot.online
 *.gullible.online
 *.homesetupvpn.online
+*.hrf4hpcwvc8w.online
 *.hsnjx4a.online
 *.ibdwcewgnkujqnzfsxxa.online
 *.inertproxy.online
@@ -10643,7 +10652,9 @@
 *.milfavpn.online
 *.monsterproxy.online
 *.morivpn.online
+*.mpubszuhrylvqz.online
 *.myau-vpn.online
+*.mycbi9cskt.online
 *.myhalo.online
 *.nettunnel.online
 *.newlenta24.online
@@ -11044,7 +11055,6 @@
 *.1992523241.rsc.cdn77.org
 *.1995964223.rsc.cdn77.org
 *.1999369668.rsc.cdn77.org
-*.cdnbarrel.org
 *.cdnbridge.org
 *.cdnonedge.org
 *.censortracker.org
@@ -12045,7 +12055,6 @@
 *.luminalos.shop
 *.miscrosoft.shop
 *.nexusproxy.shop
-*.nyakawai.shop
 *.obscurenamelab.shop
 *.prvd.shop
 *.randomdomain.shop
@@ -12054,6 +12063,7 @@
 *.star-vpn.shop
 *.tianhang.shop
 *.uboost.shop
+*.ultraproxy.shop
 *.wssss.shop
 *.wzqy.shop
 *.x-zy.shop
@@ -12199,8 +12209,6 @@
 *.gsoubgh.space
 *.gsouyou.space
 *.sdfergrdewdwdawdwdszdsadsadas.helixarcade.space
-*.gardenkite.heronglade.space
-*.pine.heronglade.space
 *.ilovecrocs.space
 *.infomagazine.space
 *.jjs-bbq.space
@@ -12492,7 +12500,6 @@
 *.proxycheck.top
 *.mobile.prxtg.top
 *.sso.prxtg.top
-*.w.prxtg.top
 *.puhr.top
 *.pvmj.top
 *.qhqi.top
@@ -12578,7 +12585,6 @@
 *.a3.anotelinopalk.co.uk
 *.a4.anotelinopalk.co.uk
 *.a5.anotelinopalk.co.uk
-*.a6.anotelinopalk.co.uk
 *.char.anotelinopalk.co.uk
 *.do.anotelinopalk.co.uk
 *.haf.anotelinopalk.co.uk
@@ -12609,6 +12615,7 @@
 *.exiscos.co.uk
 *.fandogh.co.uk
 *.team.fast--pro.co.uk
+*.e3fand.fesgheli.co.uk
 *.all.foriran.co.uk
 *.proxy.foriran.co.uk
 *.ir.forzajuve.co.uk
@@ -12633,10 +12640,7 @@
 *.paydar.goooalir.co.uk
 *.sefid.goooalir.co.uk
 *.soh5.goooalir.co.uk
-*.soheil.goooalir.co.uk
 *.tassian.goooalir.co.uk
-*.vasle.goooalir.co.uk
-*.for.you.goooalir.co.uk
 *.cdn1.graduat.co.uk
 *.old.graduat.co.uk
 *.white.graduat.co.uk
@@ -12646,10 +12650,7 @@
 *.ignify.co.uk
 *.d1.jadroom.co.uk
 *.jhndoes.co.uk
-*.ir.konstruktion.co.uk
 *.lamnia.co.uk
-*.dl.linux-orggv.co.uk
-*.aseman.lunavane.co.uk
 *.craft.malavanann.co.uk
 *.dizgrakh.mamadali.co.uk
 *.jadide.mamadali.co.uk
@@ -12661,12 +12662,11 @@
 *.pofak.mikhay.co.uk
 *.ir.mohearn.co.uk
 *.puot.mozitop.co.uk
+*.bimeh.my-moon.co.uk
 *.my-private-network.co.uk
 *.new.nakoskoskesh.co.uk
 *.dokhtar.nanaz.co.uk
 *.hapoo.nanaz.co.uk
-*.pesar.nanaz.co.uk
-*.pishi.nanaz.co.uk
 *.you.nasakhamia.co.uk
 *.ninjaproxy.co.uk
 *.noblocc.co.uk
@@ -12676,8 +12676,6 @@
 *.arthi.rajmohan.nowhearthis.co.uk
 *.onlineproxy.co.uk
 *.ir.pcspeedyfix.co.uk
-*.ir.peachsoft.co.uk
-*.you.pelastic.co.uk
 *.petros-es.co.uk
 *.ir.philgent.co.uk
 *.boro.poolaki.co.uk
@@ -12691,7 +12689,6 @@
 *.royaclinic.co.uk
 *.nice.rozinalpoku.co.uk
 *.speed.runserver.co.uk
-*.darya.saheledarya.co.uk
 *.isaco.ir.setado.co.uk
 *.gishniz.shambelile.co.uk
 *.ir.shentaichiacademy.co.uk
@@ -13008,6 +13005,7 @@
 *.freelux.world
 *.freeproxy.world
 *.getaccess.world
+*.russia.knox-proxy.world
 *.letsvpn.world
 *.letsvpncn.world
 *.pkt.world
@@ -13168,6 +13166,7 @@
 *.editingvpn.xyz
 *.editionvpn.xyz
 *.ednovas.xyz
+*.blog.electricpiano.xyz
 *.electricproxy.xyz
 *.elvkd0.xyz
 *.engineeringvpn.xyz
@@ -13281,6 +13280,7 @@
 *.justmysocks.xyz
 *.kaldc.xyz
 *.karo-vpn.xyz
+*.lelo74.kelpmoor.xyz
 *.kerlix.xyz
 *.kernelvpn.xyz
 *.kolavpn.xyz
@@ -13434,6 +13434,7 @@
 *.skibidislicers.xyz
 *.skytreeapi.xyz
 *.sohex.xyz
+*.loga86.sorrelbay.xyz
 *.speedycdn.xyz
 *.spolb.xyz
 *.stackfront.xyz

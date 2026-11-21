@@ -21655,6 +21655,7 @@
 *.jabmo.com
 *.mea.jabra.com
 *.oms.jack969.com
+*.jackalsmovie.com
 *.jackfornj.com
 *.yjpzqw.jackjones.com
 *.ablink.e.jackpocket.com
@@ -23526,6 +23527,7 @@
 *.logmycalls.com
 *.a8clkcv.lognavi.com
 *.logoip.com
+*.logomet.com
 *.ssc.logotv.com
 *.logpostback.com
 *.logr-in.com
@@ -34269,6 +34271,7 @@
 *.www.rear9axis.com
 *.reauthenticator.com
 *.trk.reavell.com
+*.rebatecircle.com
 *.rebelclover.com
 *.rebelhen.com
 *.fgfecw.rebelle.com
@@ -34292,6 +34295,7 @@
 *.receptiveink.com
 *.receptivereaction.com
 *.recessrain.com
+*.recessremote.com
 *.trk.recetasprimavera.com
 *.link.rechat.com
 *.recipearena.com
@@ -34389,6 +34393,7 @@
 *.reedelsevier.com
 *.images.campaign.reedexpo.com
 *.subscriptions.reedpop.com
+*.reelboat.com
 *.reelcombat.com
 *.telemetry.reembed.com
 *.rees46.com
