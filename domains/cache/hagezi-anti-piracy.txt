@@ -3698,6 +3698,7 @@ animeinterface.xyz
 animeinventory.xyz
 animeinvestors.xyz
 animekai.bz
+animekai.to
 animekaizoku.com
 animekayo.com
 animekhor.org
@@ -5597,7 +5598,6 @@ bollyflix.love
 bollyflix.makeup
 bollyflix.me
 bollyflix.menu
-bollyflix.miami
 bollyflix.mom
 bollyflix.monster
 bollyflix.motorcycles
@@ -22009,6 +22009,7 @@ lookmovie.buzz
 lookmovie.cam
 lookmovie.cfd
 lookmovie.city
+lookmovie.click
 lookmovie.cloud
 lookmovie.co.uk
 lookmovie.com
@@ -40803,7 +40804,6 @@ moviesleech.app
 moviesleech.art
 moviesleech.asia
 moviesleech.bar
-moviesleech.eu
 moviesleech.help
 moviesleech.link
 moviesleech.media
@@ -52490,6 +52490,7 @@ streamkiki.cyou
 streamkiste.club
 streamkiste.net
 streamkiste.pro
+streamkiste.site
 streamkiste.taxi
 streamlairtv.com
 streamlive.to
@@ -55327,6 +55328,7 @@ torrentclient.net
 torrentclient.org
 torrentcloud9.me
 torrentclub.com
+torrentclub.online
 torrentclub.tech
 torrentcocleaning.com
 torrentcode.xyz
@@ -58732,6 +58734,7 @@ vegamovies.school
 vegamovies.se
 vegamovies.services
 vegamovies.sex
+vegamovies.shop
 vegamovies.si
 vegamovies.site
 vegamovies.skin
@@ -59258,6 +59261,7 @@ vidsrc.to
 vidsrcme.ru
 vidsrcme.su
 vidstream.id
+vidstream.to
 vidstream.watch
 vidstrm.cloud
 vidstrm.mom
@@ -62402,7 +62406,6 @@ zlib.lol
 zlib.quest
 zlib.re
 zlib.si
-zlib.site
 zlib.sk
 zlib.store
 zlib.to

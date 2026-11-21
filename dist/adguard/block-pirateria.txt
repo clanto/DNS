@@ -7331,6 +7331,7 @@
 ||kkiste-io.click^
 ||laaroza.click^
 ||laroza1.click^
+||lookmovie.click^
 ||lookmovie2-to.click^
 ||lookmovies.click^
 ||lookmovies2.click^
@@ -16496,7 +16497,6 @@
 ||megakino.eu^
 ||mkvcinemas.eu^
 ||movie2k.eu^
-||moviesleech.eu^
 ||moviewatcher.eu^
 ||myfeed2all.eu^
 ||myp2px.eu^
@@ -32328,7 +32328,6 @@
 ||bollyflix.menu^
 ||hdhub4u.menu^
 ||streaming-community.menu^
-||bollyflix.miami^
 ||fmovies.miami^
 ||hdmovie2.miami^
 ||vegamovies.miami^
@@ -36405,6 +36404,7 @@
 ||torrentadsdemo66.online^
 ||torrentadsdemo7.online^
 ||torrentanlagholm.online^
+||torrentclub.online^
 ||torrentdownload.online^
 ||torrentfilmi.online^
 ||torrentgalaxy.online^
@@ -55399,6 +55399,7 @@
 ||unblockit.shop^
 ||van-pis-lordfilm.shop^
 ||vanpanchmen-lordfilm.shop^
+||vegamovies.shop^
 ||vegamovies2.shop^
 ||vegamovies3.shop^
 ||vegamoviesdenji.shop^
@@ -55872,6 +55873,7 @@
 ||ssoap2day.site^
 ||startflix.site^
 ||streamingservices.site^
+||streamkiste.site^
 ||streamlivetv.site^
 ||streamrk.site^
 ||streamta.site^
@@ -55993,7 +55995,6 @@
 ||yggtorrent.site^
 ||yomovies.site^
 ||youplex.site^
-||zlib.site^
 ||zorrostream.site^
 ||box.sk^
 ||fmovies.sk^
@@ -57152,6 +57153,7 @@
 ||board.anime-miako.to^
 ||tracker.anime-miako.to^
 ||animedao.to^
+||animekai.to^
 ||animenosub.to^
 ||animepahetv.to^
 ||animeultima.to^
@@ -57503,6 +57505,7 @@
 ||vidics.to^
 ||vidmoly.to^
 ||vidsrc.to^
+||vidstream.to^
 ||vinovo.to^
 ||vodly.to^
 ||vumoo.to^

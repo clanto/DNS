@@ -8,6 +8,6 @@ su IP di CDN/hosting condivisi (Cloudflare, AWS, Fastly, Vercel…), che blocche
 
 | Lista | Descrizione | Pubblicati | Morti | CDN condivise | Totale AdGuard |
 |---|---|---|---|---|---|
-| [file-sharing.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/file-sharing.txt) | File sharing puro: trasferimento e hosting di file anonimi (policy di prevenzione fuga dati) | 425 | 249 | 257 | 931 |
-| [doh.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/doh.txt) | Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale | 3065 | 376 | 360 | 3801 |
-| [vpn.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/vpn.txt) | VPN, proxy e servizi di bypass (scuole) | 5210 | 2401 | 5879 | 13490 |
+| [file-sharing.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/file-sharing.txt) | File sharing puro: trasferimento e hosting di file anonimi (policy di prevenzione fuga dati) | 428 | 249 | 254 | 931 |
+| [doh.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/doh.txt) | Resolver DNS-over-HTTPS/TLS/QUIC: impediscono il bypass del DNS aziendale | 3068 | 379 | 355 | 3802 |
+| [vpn.txt](https://raw.githubusercontent.com/clanto/DNS/main/dist/opnsense/vpn.txt) | VPN, proxy e servizi di bypass (scuole) | 5278 | 2436 | 5861 | 13575 |

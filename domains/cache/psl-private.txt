@@ -1172,6 +1172,7 @@ firewall-gateway.net
 firewalledreplit.co
 firm.dk
 firm.ng
+fj.kg
 fldrv.com
 flier.jp
 flop.jp
@@ -2986,6 +2987,7 @@ stackit.run
 stackit.zone
 stage.nodeart.io
 staging.expo.app
+staging.wordsmithmcpcontent.com
 static-access.net
 static.hf.space
 static.observableusercontent.com
@@ -3451,6 +3453,7 @@ wmcloud.org
 wmflabs.org
 wnext.app
 woltlab-demo.com
+wordsmithmcpcontent.com
 workers.dev
 workisboring.com
 worse-than.tv

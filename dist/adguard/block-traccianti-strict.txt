@@ -15988,6 +15988,7 @@
 ||metrics2.houselogic.com^
 ||smetrics.houseoffraser.com^
 ||ubmups.houseofindya.com^
+||housewheels.com^
 ||web.houstontexans.com^
 ||web.houstontexansluxe.com^
 ||evt.houzz.com^
@@ -20914,6 +20915,7 @@
 ||smetrics.nissanusa.com^
 ||sytuzk.nissanvimontlaval.com^
 ||zkvxgc.nissui-kenko.com^
+||nitrojiveband.com^
 ||tracker.nitropay.com^
 ||app.go.nitropdf.com^
 ||a8cv.nittei-group-alliance.com^
@@ -38082,6 +38084,7 @@
 ||qgbnjd.coches.net^
 ||wsstats.coches.net^
 ||coffeefire.net^
+||colorfilter.net^
 ||email.everyonesocial.colt.net^
 ||serviceo.comcast.net^
 ||serviceos.comcast.net^

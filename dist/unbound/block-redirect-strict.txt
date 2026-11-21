@@ -39817,6 +39817,7 @@
 *.costumbre.info
 *.cotson.info
 *.cottonconfection.info
+*.cotv.info
 *.cotywiat.info
 *.couc.info
 *.coud.info
@@ -72208,6 +72209,7 @@
 *.trt.sh
 *.upt.sh
 *.vena.sh
+*.djarum88.shop
 *.indahnyaberbagi.shop
 *.oneany.shop
 *.4x.si

@@ -119835,6 +119835,7 @@ zipurl.fr
 zipurl.link
 zipurl.net
 zipurl.vercel.app
+zipy.me
 zipzy.in
 zirfy.com
 zirutechno.info

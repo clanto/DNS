@@ -187,7 +187,6 @@ adguard.kitakitsune.xyz
 adguard.landropunk.xyz
 adguard.lege.despagne.net
 adguard.llf520.dpdns.org
-adguard.londonwebnerd.cloud
 adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
@@ -564,7 +563,6 @@ cubedns.com
 curser.dev
 cvt01.dnscry.pt
 cyliu.idv.tw
-cynntex.fun
 d.adguard-dns.com
 d.apemlegit.my.id
 d.gametechnet.com
@@ -876,7 +874,6 @@ dns.dremaxx.de
 dns.dualhosting.eu
 dns.dugi.io.vn
 dns.dumk.in
-dns.dyn1.de
 dns.dynx.pro
 dns.dzkji.cn
 dns.easyhns.com
@@ -1740,6 +1737,8 @@ doh.xorlet.ru
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
+doh1.b-cdn.net
+doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -2183,6 +2182,7 @@ le-mesle.fr
 ledns.eu
 lelux.fi
 lena.vpn.i81.ru
+lesuo.top
 lfbn-gre-1-319-7.w90-112.abo.wanadoo.fr
 libredns.gr
 lifeisa.live
@@ -2219,6 +2219,9 @@ man01.dnscry.pt
 maqgie.xyz
 maradns.org
 mask-canary.icloud.com
+mask-h2.icloud.com
+mask.apple-dns.net
+mask.icloud.com
 mastergad.me
 masters-of-cloud.de
 math.netlab.my.id
@@ -2275,6 +2278,7 @@ mx1.laoxiao789.com
 my.8484848.cn
 myadg.ru
 myagh.claptrap.me
+myatris.sbs
 mycactus.duckdns.org
 mycloud-dns.duckdns.org
 mydns.ddns.me
@@ -2468,7 +2472,6 @@ pihole.datamatter.co.za
 pihole1.hoerli.net
 pihole2.hoerli.net
 pihole3.hoerli.net
-pingbi.xyz
 pips.kpsn.org
 pitchforkwaydns.duckdns.org
 pl-waw-w-p-2.nashkan.net
@@ -2477,6 +2480,7 @@ plex.skin57.de
 pluton.plan9-dns.com
 pns2.sadraidc.com
 polisitogel.beauty
+polisitogel.green
 polisitogel.hair
 positif4.cross.net.id
 prg01.dnscry.pt
@@ -3004,7 +3008,6 @@ xbcpb668.com
 xbox-dns.ru
 xenergy.cc
 xfer.au
-xholgm.top
 xiaoxie.pro
 xiaoxinhui.cn
 xie.ke

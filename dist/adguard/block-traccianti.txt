@@ -20097,6 +20097,7 @@
 ||metrics2.houselogic.com^
 ||smetrics.houseoffraser.com^
 ||ubmups.houseofindya.com^
+||housewheels.com^
 ||housingmonitor.com^
 ||houston-analytics.com^
 ||web.houstontexans.com^
@@ -30978,6 +30979,7 @@
 ||sytuzk.nissanvimontlaval.com^
 ||zkvxgc.nissui-kenko.com^
 ||nitrado-aff.com^
+||nitrojiveband.com^
 ||tracker.nitropay.com^
 ||app.go.nitropdf.com^
 ||a8cv.nittei-group-alliance.com^
@@ -53007,6 +53009,7 @@
 ||wsstats.coches.net^
 ||coffeefire.net^
 ||collective-media.net^
+||colorfilter.net^
 ||email.everyonesocial.colt.net^
 ||serviceo.comcast.net^
 ||serviceos.comcast.net^

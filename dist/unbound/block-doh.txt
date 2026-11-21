@@ -1402,6 +1402,7 @@
 *.nicsezcheckfbi.gov
 *.libredns.gr
 *.dns.rbn.gr
+*.polisitogel.green
 *.polisitogel.hair
 *.mail.data.haus
 *.ns.data.haus
