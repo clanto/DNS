@@ -693,7 +693,6 @@ clean.dnsforge.de
 cleanbrowsing.org
 clic.eu.org
 closetruth.date
-cloud.198.games
 cloud.beerloga.su
 cloud.efreakbnc.net
 cloud.gqwyq.top
@@ -1201,7 +1200,6 @@ dns.fxdc.ru
 dns.gamban.com
 dns.garymarek.me
 dns.gayanalysing.co.uk
-dns.gearworks.app
 dns.geohide.ru
 dns.ghost.pm
 dns.gi.co.id

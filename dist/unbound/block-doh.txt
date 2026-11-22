@@ -13,7 +13,6 @@
 *.doh.disconnect.app
 *.dns.frguthrie.app
 *.doh.futa.app
-*.dns.gearworks.app
 *.dns-01.hir.app
 *.dns.narl.app
 *.dns.nieto.app
@@ -1391,7 +1390,6 @@
 *.syd.core.access.zznet.fun
 *.hkg2.edge.access.zznet.fun
 *.sin2.edge.access.zznet.fun
-*.cloud.198.games
 *.doh.ndmc.work.gd
 *.doh.futa.gg
 *.hades001.spv.gg

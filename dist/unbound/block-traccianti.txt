@@ -35306,6 +35306,7 @@
 *.images.na.sage.com
 *.app.sbas.sage.com
 *.kukckk.sagefinds.com
+*.sagemosaicart.com
 *.info.sagepointfinancial.com
 *.info.sagewater.com
 *.seniorliving.sagewoodlcs.com
@@ -36926,6 +36927,7 @@
 *.chrooo.soccerandrugby.com
 *.hiuplq.soccerstand.com
 *.track.social.com
+*.socialbackyard.com
 *.socialbakers.com
 *.socialblade.com
 *.socialbro.com
@@ -38243,6 +38245,7 @@
 *.images.tableau.com
 *.try.tableau.com
 *.tableausoftware.com
+*.tableheads.com
 *.tableleaders.com
 *.dl.tablelist.com
 *.dl-dev.tablelist.com
@@ -39315,6 +39318,7 @@
 *.engage.tines.com
 *.tingyun.com
 *.tinybluewhale.com
+*.tinybodega.com
 *.tinyclues.com
 *.sp.tinymce.com
 *.tinyswans.com
@@ -54148,12 +54152,14 @@
 *.survata.net
 *.survey01.net
 *.sushi-melt.net
+*.sweetbeat.net
 *.sweetsoul.net
 *.swogo.net
 *.symanto.net
 *.symend.net
 *.tracking.synthasite.net
 *.sypexgeo.net
+*.systemone.net
 *.a8clk.t-tree.net
 *.car-a8.tabirai.net
 *.goat.tailspace.net

@@ -21401,7 +21401,6 @@
 *.linkalp.com
 *.linkasd.com
 *.linkatra.com
-*.linkbby.com
 *.linkbee.com
 *.linkbirdy.com
 *.linkbirligi.com

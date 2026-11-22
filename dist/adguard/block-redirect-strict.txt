@@ -32562,7 +32562,6 @@
 ||toliveal.ie^
 ||unblockbebo.ie^
 ||url.ie^
-||urls.ie^
 ||urlx.ie^
 ||zuki.ie^
 ||123123.co.il^
@@ -69538,7 +69537,6 @@
 ||high-general.online^
 ||internet-view.online^
 ||kissproxy.online^
-||linkshortner.online^
 ||medusa88.online^
 ||mjp88.online^
 ||my-ip-web.online^

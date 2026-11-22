@@ -44,6 +44,7 @@
 ||mastodon.liyuan.app^
 ||maho.app^
 ||rcj1.mstdon.app^
+||nitter.app^
 ||misskey.notr.app^
 ||mi.nyaa.app^
 ||odakyu.app^
@@ -56,6 +57,7 @@
 ||mi.seanut.app^
 ||social.soraharu.app^
 ||tagpush.app^
+||tchi.app^
 ||tube.unif.app^
 ||vkgo.app^
 ||vklive.app^
@@ -223,7 +225,6 @@
 ||masto.deluma.biz^
 ||doujin.biz^
 ||posts.dship.biz^
-||dustyrab.biz^
 ||ferretfrizz.biz^
 ||line.biz^
 ||yap.pony.biz^
@@ -341,6 +342,7 @@
 ||micro.mkp.ca^
 ||mstdn.ca^
 ||write.naln1.ca^
+||nitter.ca^
 ||o3o.ca^
 ||pataterie.ca^
 ||piefed.ca^
@@ -434,6 +436,7 @@
 ||shutafem.casa^
 ||peertube.tata.casa^
 ||br.terada.casa^
+||nitter.christian.cash^
 ||realbitcoin.cash^
 ||is.acute.cat^
 ||shrimp.acute.cat^
@@ -522,13 +525,17 @@
 ||misskey.truetone.cc^
 ||fedi.turbofish.cc^
 ||vk.cc^
+||nitter.xitter.cc^
 ||xscape.zclan.cc^
 ||agi.cd^
+||nitter.cf^
+||xitter.cf^
 ||mastodon.3fx.ch^
 ||pixelfed.aargaunet.ch^
 ||agendo.ch^
 ||ovaltube.codinglab.ch^
 ||crispsandwi.ch^
+||nitter.ditler.ch^
 ||dtth.ch^
 ||eatzeri.ch^
 ||inspeer.eduge.ch^
@@ -548,6 +555,7 @@
 ||lemmy.mrpostman.ch^
 ||mstdn.ch^
 ||oddte.ch^
+||nitter.perennialte.ch^
 ||pinterest.ch^
 ||pixelfed.ch^
 ||social.pyme.ch^
@@ -621,6 +629,7 @@
 ||clockcrock.click^
 ||m.eskey.click^
 ||inari.click^
+||nitter.click^
 ||aisky.no-name.click^
 ||astro.clinic^
 ||42.101010.cloud^
@@ -857,6 +866,7 @@
 ||vine.co^
 ||mastodon.wakoma.co^
 ||yamabi.co^
+||nitter.klinger.codes^
 ||ne.codes^
 ||signs.codes^
 ||mastodon.swee.codes^
@@ -866,6 +876,7 @@
 ||mofmof.coffee^
 ||nya.coffee^
 ||plantsand.coffee^
+||nitter.private.coffee^
 ||social.cologne^
 ||00wd00.com^
 ||social.0x705h.com^
@@ -904,6 +915,7 @@
 ||ads-twitter.com^
 ||advancediddetection.com^
 ||misskey.adzukimame.com^
+||nitter.aeovii.com^
 ||aethy.com^
 ||agora-eu.com^
 ||airhornbot.com^
@@ -931,6 +943,7 @@
 ||aminoapps.com^
 ||ak.angelstrapped.com^
 ||peertube.anon-kenkai.com^
+||nitter.anonimbus.com^
 ||mtdn.anyqn.com^
 ||social.apfelfunk.com^
 ||app-measurement.com^
@@ -986,6 +999,7 @@
 ||social.bosunpkm.com^
 ||boteden.com^
 ||boundcovers.com^
+||nitter.boxparadox.com^
 ||brettiverse.com^
 ||social.brianenigma.com^
 ||social.brush-and-tale.com^
@@ -1035,6 +1049,7 @@
 ||forum.castellvirtual.com^
 ||mastodon.castlemistsoftware.com^
 ||catcatnya.com^
+||nitter.catsarch.com^
 ||moist.catsweat.com^
 ||mastodon.catwuschel.com^
 ||mastodon.ccqjv.com^
@@ -1450,6 +1465,7 @@
 ||fedimovie.com^
 ||fedisnap.com^
 ||feelinsonice.com^
+||nitter.feitanborr.com^
 ||peertube.fenarinarsa.com^
 ||feook.com^
 ||ferabook.com^
@@ -1524,6 +1540,7 @@
 ||472064670264-p830d2k61ivgab1ihaq1oe5u50jf54q9.apps.googleusercontent.com^
 ||908812512490-tqgub82rl7tuj6g8n7qvac1e21nqsiop.apps.googleusercontent.com^
 ||goredb.com^
+||goyimx.com^
 ||pixelfed.graal369.com^
 ||gregism.com^
 ||groomlakeroad.com^
@@ -1866,6 +1883,7 @@
 ||nekogenesis.com^
 ||misskey.nekoyoukan.com^
 ||mastodon.nervesocket.com^
+||nitter.netbub.com^
 ||social.netlandish.com^
 ||newsfeed.com^
 ||nextstop.com^
@@ -1876,6 +1894,9 @@
 ||fediverse.nicknisi.com^
 ||social.nifeeden.com^
 ||nitiasa.com^
+||nittere.com^
+||nitterhousemasonry.com^
+||nitternatter.com^
 ||nochudsnomasters.com^
 ||peertube.nodja.com^
 ||nodotsam.com^
@@ -1917,6 +1938,7 @@
 ||mastodon.opencollective.com^
 ||opengraphprotocol.com^
 ||eva.openjw.com^
+||openupzone.com^
 ||lemmy.openvuture.com^
 ||social.opuadm.com^
 ||oreeke.com^
@@ -1953,6 +1975,7 @@
 ||mastodon.pontalk.com^
 ||posskey.com^
 ||poyusbuddy.com^
+||nitter.privacyredirect.com^
 ||pronounmail.com^
 ||prorocketeers.com^
 ||prybk.com^
@@ -1962,6 +1985,8 @@
 ||pxlmo.com^
 ||qfyf1toi.com^
 ||quora.com^
+||qwice.com^
+||nitter.r4fo.com^
 ||social.radiofg.com^
 ||raggedfeathers.com^
 ||rassilni.com^
@@ -2261,11 +2286,13 @@
 ||wwwmfacebook.com^
 ||x.com^
 ||social.xboxdev.com^
+||xcancel.com^
 ||xelebre.com^
 ||x.xiaoten.com^
 ||mi.xiexianemoxix.com^
 ||social.xinghaizhandui.com^
 ||xn--j5r817a.com^
+||xnologin.com^
 ||lemmy.xoynq.com^
 ||misskey.xuan25.com^
 ||peertube.xwiki.com^
@@ -2397,6 +2424,7 @@
 ||friendica.namestaci.cz^
 ||nastub.cz^
 ||portal.digilab.nfa.cz^
+||nohup.cz^
 ||media.nolog.cz^
 ||otakuzatoka.cz^
 ||mastodon.pirati.cz^
@@ -2436,6 +2464,8 @@
 ||text.andreasschoedl.de^
 ||blog.anghenfil.de^
 ||mstdn.animexx.de^
+||nitter.animux.de^
+||nitter.anoxinon.de^
 ||social.anoxinon.de^
 ||lemmy.stage.anoxinon.de^
 ||pixelfed.stage.anoxinon.de^
@@ -2549,6 +2579,7 @@
 ||mastodon.hs-furtwangen.de^
 ||m.it.hs-worms.de^
 ||hub.hubzilla.de^
+||nitter.iamcord.de^
 ||ibbstagram.de^
 ||iceshrimp.de^
 ||ieji.de^
@@ -2598,6 +2629,8 @@
 ||meerjungfrauengrotte.de^
 ||meinungsschubla.de^
 ||social.meissa-gmbh.de^
+||shi.meowing.de^
+||nitter.stusta.mhn.de^
 ||social.milchreislieferei.de^
 ||misskey.de^
 ||missocial.de^
@@ -2678,6 +2711,7 @@
 ||steelfeed.de^
 ||blog.stegemann.de^
 ||social.streetcollective-leipzig.de^
+||nitter.stusta.de^
 ||video.stuve-bamberg.de^
 ||social.suchtbasis.de^
 ||swg-empire.de^
@@ -2765,6 +2799,7 @@
 ||lemmy.dryja.dev^
 ||ice.finnley.dev^
 ||flow.dev^
+||nitter.fpetros.dev^
 ||giesing.dev^
 ||go5.dev^
 ||gochisou.dev^
@@ -2799,11 +2834,13 @@
 ||nmil.dev^
 ||mi.nu1.dev^
 ||social.oddly-influenced.dev^
+||nitter.app.ooguz.dev^
 ||social.openinfra.dev^
 ||otlab.dev^
 ||misskey.otnc.dev^
 ||devmi1.oyasumi.dev^
 ||esc.ozar.dev^
+||nitterts.pages.dev^
 ||misskey.peruki.dev^
 ||misskey.pokete.dev^
 ||populus-social.dev^
@@ -2836,7 +2873,10 @@
 ||social.vlhl.dev^
 ||mi.w477.dev^
 ||runakuwomte.wliageo.dev^
+||nitter.woodie.dev^
 ||mastodon.wootton.dev^
+||nitter-cz.huziyan.workers.dev^
+||nitter-tiekoetter-com.huziyan.workers.dev^
 ||mk.yurax2.dev^
 ||bremen.digital^
 ||toot.chattanooga.digital^
@@ -2963,6 +3003,7 @@
 ||peertube.european-pirates.eu^
 ||owo.ff15.eu^
 ||fotofestival.eu^
+||nitter.freedit.eu^
 ||mastodon.friendnet.eu^
 ||peertube.gegeweb.eu^
 ||toot.gnous.eu^
@@ -3119,8 +3160,10 @@
 ||soccer.forum^
 ||comms.gsd.foundation^
 ||joj.foundation^
+||nitter.mie.foundation^
 ||toot.foundation^
 ||yakumo.foundation^
+||nitter.42l.fr^
 ||video.ados.accoord.fr^
 ||blog.adjoly.fr^
 ||mastodon.animint.fr^
@@ -3176,6 +3219,7 @@
 ||mastodon.flifloo.fr^
 ||pixelfed.franjo.fr^
 ||mastodon.fsu-snuipp.fr^
+||nitter.fullex.fr^
 ||tube.futuretic.fr^
 ||gazouiller.fr^
 ||social.ggbox.fr^
@@ -3201,6 +3245,7 @@
 ||tube.koweb.fr^
 ||peertube.laas.fr^
 ||mastodon.labhouse.fr^
+||nitter.lacontrevoie.fr^
 ||videos.lacontrevoie.fr^
 ||lejournaldesbriques.fr^
 ||videos.leslionsfloorball.fr^
@@ -3408,6 +3453,8 @@
 ||social.antifa.gmbh^
 ||alpaca.gold^
 ||bbq.golf^
+||nitter.gq^
+||xitter.gq^
 ||pleroma.comix.gr^
 ||elltube.gr^
 ||libretooth.gr^
@@ -3474,6 +3521,7 @@
 ||vtuber.house^
 ||tube.foi.hr^
 ||mastodon.xi.ht^
+||nitter.dcs0.hu^
 ||facebook.hu^
 ||fika.grin.hu^
 ||mastodon.grin.hu^
@@ -3562,6 +3610,7 @@
 ||notwork.in^
 ||pinterest.in^
 ||sharlayan.in^
+||nitter.softwarefreedom.in^
 ||solutionpoint.in^
 ||toot.techbeat.in^
 ||social.thej.in^
@@ -3635,6 +3684,7 @@
 ||teqpot.info^
 ||mastodon.vhome.info^
 ||mstdn.yakitamago.info^
+||nitter.zebes.info^
 ||social.zocradio.info^
 ||lemmy.zwanenburg.info^
 ||eepyth.ing^
@@ -3986,10 +4036,12 @@
 ||avalatte.kr^
 ||msk.canor.kr^
 ||mst.canor.kr^
+||nitter.caadiq.co.kr^
 ||mastodon.mnetwork.co.kr^
 ||pinterest.co.kr^
 ||frulink.kr^
 ||jmm.kr^
+||nitter.kro.kr^
 ||exoria.pe.kr^
 ||violetgarden.pe.kr^
 ||pinterest.kr^
@@ -4004,6 +4056,7 @@
 ||nekolobby.niri.la^
 ||ihan.outo.la^
 ||seka.pona.la^
+||nitter.mashi.wip.la^
 ||aleph.land^
 ||pellicule.bim.land^
 ||social.bim.land^
@@ -4209,6 +4262,7 @@
 ||770ml.me^
 ||9kb.me^
 ||social.ahlroos.me^
+||nitter.airnode.me^
 ||allav.me^
 ||avone.me^
 ||b612.me^
@@ -4278,6 +4332,7 @@
 ||mewl.me^
 ||fedi.miawgogo.me^
 ||mimiclem.me^
+||nitter.miningtcup.me^
 ||mjob.me^
 ||notes.mroberts.me^
 ||mycdn.me^
@@ -4332,8 +4387,10 @@
 ||peertube.astral0pitek.synology.me^
 ||pixelfed.datenwall.synology.me^
 ||pixelfed.tommydavids.synology.me^
+||nitter.xen-half-life.synology.me^
 ||t.me^
 ||mk.taiy.me^
+||nitter.taruna.me^
 ||tapir.tkf.me^
 ||trepa.me^
 ||trumbeta.me^
@@ -4639,6 +4696,7 @@
 ||burgetts.net^
 ||burningboard.net^
 ||burningnebula.net^
+||nitter.bwets.net^
 ||aweme-beta.bytedance.net^
 ||dm.bytedance.net^
 ||vas-boei18n.bytedance.net^
@@ -5046,6 +5104,7 @@
 ||misskey.nicovrc.net^
 ||lemmy.nikore.net^
 ||nonexiste.net^
+||nitter.noodlemaps.net^
 ||social.noparking.net^
 ||mstdn.nostalgia-tns.net^
 ||novatube.net^
@@ -5209,6 +5268,7 @@
 ||tastingtraffic.net^
 ||tasukaranight.net^
 ||blog.tattiebogle.net^
+||teapawt.net^
 ||techfieldday.net^
 ||mastodon.tejat.net^
 ||telefant.net^
@@ -5238,6 +5298,7 @@
 ||mastodon.transneptune.net^
 ||tribe.net^
 ||triggeron.net^
+||nitter.cerberus-pound.ts.net^
 ||tschopp.net^
 ||mi.tsujigoya.net^
 ||kameuo.turtton.net^
@@ -5323,6 +5384,7 @@
 ||leftist.network^
 ||lily.network^
 ||muri.network^
+||nitter.nohost.network^
 ||nyan.network^
 ||opensource.network^
 ||lemmy.pootis.network^
@@ -5450,6 +5512,7 @@
 ||i1.no^
 ||mofu.kemo.no^
 ||kjas.no^
+||nitters-bilspa.no^
 ||blog.potetserver.no^
 ||peertube.ra.no^
 ||snabelen.no^
@@ -5497,6 +5560,7 @@
 ||social.ursa.nz^
 ||fediverse.observer^
 ||geostationary.orbiting.observer^
+||nitter.8633.one^
 ||beepboop.one^
 ||bologna.one^
 ||buttersc.one^
@@ -5554,6 +5618,7 @@
 ||hydaelyn.coerthansnowstorm.online^
 ||crazypeople.online^
 ||cville.online^
+||nitter.darlopvil-hub.online^
 ||discuss.online^
 ||elbarri.online^
 ||fedi.engelise.online^
@@ -5625,6 +5690,7 @@
 ||lemmy.4d2.org^
 ||4four.org^
 ||500px.org^
+||nitter.aboa.org^
 ||mastodon.acm.org^
 ||adforward.org^
 ||mastodon.adst.org^
@@ -5716,6 +5782,7 @@
 ||toots.dgplug.org^
 ||piefed.diffrint.org^
 ||digforfire.org^
+||nitter.dilbaz.org^
 ||dimebagofknowledge.org^
 ||x.discut.org^
 ||fe.disroot.org^
@@ -5755,6 +5822,7 @@
 ||shiyi.lu.eu.org^
 ||lust4love.eu.org^
 ||mast.eu.org^
+||nitter.eu.org^
 ||petlover.eu.org^
 ||ramen-fsm.eu.org^
 ||liminalgici.spacc.eu.org^
@@ -6067,6 +6135,8 @@
 ||mstdn.syoshida.org^
 ||mastodon.tal.org^
 ||healingexchange.tcmclinic.org^
+||teapaw.org^
+||teapawt.org^
 ||techeasy.org^
 ||f-social.techtransthai.org^
 ||toot.teckids.org^
@@ -6088,6 +6158,7 @@
 ||toobnix.org^
 ||tootbot.org^
 ||toplap.org^
+||nuku.trabun.org^
 ||trashbrain.org^
 ||blog.troch.org^
 ||lm.tros.org^
@@ -6357,6 +6428,7 @@
 ||nord.red^
 ||pinkorange.red^
 ||mastodon.praxis.red^
+||nitter.fumo.reisen^
 ||monado.ren^
 ||pan.rent^
 ||social.dromografos.report^
@@ -6536,6 +6608,7 @@
 ||send.sex^
 ||mastodon.sg^
 ||social.catboy.sh^
+||dev-null.sh^
 ||eattra.sh^
 ||fkft.sh^
 ||fstab.sh^
@@ -6575,6 +6648,7 @@
 ||aana.site^
 ||pixelfed.arecki.site^
 ||birb.site^
+||nittere.chatgpt.site^
 ||blog.cjeller.site^
 ||cosmosenso.site^
 ||dannythe.site^
@@ -7671,6 +7745,7 @@
 ||awoo.space^
 ||bangdream.space^
 ||birb.space^
+||nitter.brainfuck.space^
 ||brettspiel.space^
 ||brontosin.space^
 ||byeolvit.space^
@@ -7750,6 +7825,7 @@
 ||myhm.space^
 ||nba.space^
 ||lemmy.neko-in.space^
+||nitter.space^
 ||misskey.no707.space^
 ||norrebro.space^
 ||oldbytes.space^
@@ -7809,6 +7885,7 @@
 ||wf.sofita.noho.st^
 ||pinky.st^
 ||puppyden.st^
+||ruf.st^
 ||write.trees.st^
 ||social.v.st^
 ||social.3delights.store^
@@ -7818,6 +7895,7 @@
 ||black.len-q-phantom.stream^
 ||misskey.stream^
 ||social.naun.stream^
+||nitter.substructure.stream^
 ||thehappyfamily.stream^
 ||dingdong.fishking.studio^
 ||gongran.studio^
@@ -7837,6 +7915,7 @@
 ||tube.kx-home.su^
 ||mi.starlamp.su^
 ||xn--80aaid7au.su^
+||nitter.yjb.su^
 ||bloom.surf^
 ||awful.systems^
 ||collapsible.systems^
@@ -7940,6 +8019,7 @@
 ||alien.top^
 ||social.arisnet.top^
 ||furca.top^
+||nitter.jinvic.top^
 ||jugopiksel.top^
 ||kudaizuna.top^
 ||wf.lavatech.top^
@@ -8112,6 +8192,9 @@
 ||fishd.uk^
 ||fjdk.uk^
 ||hobbs-end.uk^
+||nitter.ip6arpa.uk^
+||nitter.jaydenha.uk^
+||songlark.jaydenha.uk^
 ||kavlak.uk^
 ||social.lomia.uk^
 ||mastodonapp.uk^
@@ -8301,6 +8384,7 @@
 ||zoner.work^
 ||m.758.works^
 ||sh.itjust.works^
+||nitter.kovalev.works^
 ||nothing-ever.works^
 ||stormskey.works^
 ||toot.works^
@@ -8380,11 +8464,13 @@
 ||misskey.0sakana.xyz^
 ||lemmy.100010101.xyz^
 ||misskey.106aleph.xyz^
+||nitter.134667.xyz^
 ||lemmy.14042003.xyz^
 ||338338.xyz^
 ||39383844.xyz^
 ||mstdn.3naly.xyz^
 ||social.alteria.xyz^
+||nitter.altgr.xyz^
 ||anyehua.xyz^
 ||artoot.xyz^
 ||arxkey.xyz^
@@ -8428,6 +8514,7 @@
 ||lemmy.halfbro.xyz^
 ||blog.hllcn.xyz^
 ||lemmy.homenook.xyz^
+||nitter.iysbdt.xyz^
 ||garden.kaku-girl-laboratory.xyz^
 ||kaoism.xyz^
 ||social.kyaru.xyz^
@@ -8502,6 +8589,7 @@
 ||wandzeitung.xyz^
 ||soc.webair.xyz^
 ||wobbl.xyz^
+||nitter.xnand.xyz^
 ||k.yumeka.xyz^
 ||yumk.xyz^
 ||orcas.enjoying.yachts^
@@ -8522,6 +8610,7 @@
 ||wtf.zip^
 ||aussie.zone^
 ||autonomous.zone^
+||nitter.avali.zone^
 ||mastodon.bhop.zone^
 ||blahaj.zone^
 ||correlation.zone^

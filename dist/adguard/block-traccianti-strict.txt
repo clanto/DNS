@@ -24069,6 +24069,7 @@
 ||images.na.sage.com^
 ||app.sbas.sage.com^
 ||kukckk.sagefinds.com^
+||sagemosaicart.com^
 ||info.sagepointfinancial.com^
 ||info.sagewater.com^
 ||seniorliving.sagewoodlcs.com^
@@ -25237,6 +25238,7 @@
 ||chrooo.soccerandrugby.com^
 ||hiuplq.soccerstand.com^
 ||track.social.com^
+||socialbackyard.com^
 ||marketing.socialbakers.com^
 ||cryo.socialblade.com^
 ||more.socialflow.com^
@@ -26177,6 +26179,7 @@
 ||images.tableausoftware.com^
 ||telemetry.tableausoftware.com^
 ||try.tableausoftware.com^
+||tableheads.com^
 ||tableleaders.com^
 ||dl.tablelist.com^
 ||dl-dev.tablelist.com^
@@ -27005,6 +27008,7 @@
 ||marketing.timmons.com^
 ||engage.tines.com^
 ||tinybluewhale.com^
+||tinybodega.com^
 ||sp.tinymce.com^
 ||tinyswans.com^
 ||tinytendency.com^
@@ -38862,8 +38866,10 @@
 ||dluat.supremapoker.net^
 ||l.supremapoker.net^
 ||surftogether.net^
+||sweetbeat.net^
 ||sweetsoul.net^
 ||tracking.synthasite.net^
+||systemone.net^
 ||a8clk.t-tree.net^
 ||car-a8.tabirai.net^
 ||goat.tailspace.net^
