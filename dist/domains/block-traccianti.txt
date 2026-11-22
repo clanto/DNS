@@ -5057,7 +5057,6 @@ adktrack96.xyz
 adktrack97.xyz
 adktrack98.xyz
 adktrack99.xyz
-adl.bankofthewest.com
 adl.kkguan.com
 adlc-exchange.toast.com
 adleads.space
@@ -6140,7 +6139,6 @@ analytics.api.justeattakeaway.com
 analytics.apnewsregistry.com
 analytics.app.funnelish.com
 analytics.apps.compumark.com
-analytics.archive.org
 analytics.argeton.com
 analytics.artirix.com
 analytics.arunraghavan.net
@@ -8423,6 +8421,7 @@ atgsvcs.com
 atgt.grafana.com
 atgtfj.bettermusic.com.au
 athena-event-provider.n11.com
+athena.archive.org
 athl.lsusports.net
 athlete.uninterrupted.com
 ati-a1.946d001b783803c1.xhst.bbci.co.uk
@@ -18450,7 +18449,11 @@ fp.yahoo.com
 fp0trk.com
 fpa-cdn.adweek.com
 fpa-cdn.arstechnica.com
+fpa-cdn.nbcnews.com
+fpa-cdn.today.com
+fpa-events.nbcnews.com
 fpa-events.theintercept.com
+fpa-events.today.com
 fpadga.mcruises.ru
 fpapi.io
 fpaudience.com
@@ -39027,6 +39030,7 @@ pitapan.openapp.link
 pitatisisminis.openapp.link
 pitcher.actonservice.com
 pitcom-webanalyse.de
+pitmanmusic.com
 pittaking.openapp.link
 pivotpointsecurity.actonservice.com
 piwik-die-wolff.de
@@ -40908,6 +40912,7 @@ redlink.com
 redlink.io
 redlion.actonservice.com
 redlotus.com
+redmaceta.com
 redmillgroup.com
 redpotatomail.co.uk
 redprivet.com
@@ -42622,6 +42627,7 @@ sanalytics.yorkstatebank.com
 sandbox-connectlp.keysight.com
 sandbox-elq.keysight.com
 sandboxbid.com
+sandshredder.com
 sandsiv.com
 sandstrophies.com
 sandypocket.com
@@ -44318,6 +44324,7 @@ singleplatform.actonservice.com
 singletrack.com
 singroot.com
 singular.net
+sink.archive.org
 sink.gw.booking.com
 sinkbooks.com
 sinkou.tireshop.com.br
@@ -50538,6 +50545,7 @@ steinsala.viessmann.lu
 stel.telegraaf.nl
 stellarbalms.com
 stellarbizt.com
+stellarcoded.com
 stellarduel.com
 stellarspectro.com
 stentel.actonservice.com

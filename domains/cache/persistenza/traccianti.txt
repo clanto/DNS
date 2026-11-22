@@ -4770,7 +4770,6 @@ adktrack17.xyz
 adktrack55.xyz
 adktrack56.xyz
 adktrack85.xyz
-adl.bankofthewest.com
 adl.kkguan.com
 adlc-exchange.toast.com
 adleads.space
@@ -5822,7 +5821,6 @@ analytics.api.justeattakeaway.com
 analytics.apnewsregistry.com
 analytics.app.funnelish.com
 analytics.apps.compumark.com
-analytics.archive.org
 analytics.argeton.com
 analytics.artirix.com
 analytics.arunraghavan.net
@@ -61232,3 +61230,14 @@ logomet.com
 rebatecircle.com
 recessremote.com
 reelboat.com
+@498702
+athena.archive.org
+fpa-cdn.nbcnews.com
+fpa-cdn.today.com
+fpa-events.nbcnews.com
+fpa-events.today.com
+pitmanmusic.com
+redmaceta.com
+sandshredder.com
+sink.archive.org
+stellarcoded.com

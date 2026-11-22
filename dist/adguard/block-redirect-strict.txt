@@ -61948,6 +61948,7 @@
 ||xazz.info^
 ||xbeboproxy.info^
 ||xbid.info^
+||xbig.info^
 ||xblock.info^
 ||xbox360proxy.info^
 ||xboxproxy.info^
@@ -63238,6 +63239,7 @@
 ||bchf.life^
 ||bee-kz.life^
 ||bose.life^
+||briidge.life^
 ||dr-lisa.life^
 ||insdr.life^
 ||iyc.life^
@@ -111279,7 +111281,6 @@
 ||hyipforums.us^
 ||i13.us^
 ||ibypass.us^
-||idvip.us^
 ||ifile.us^
 ||ihide.us^
 ||ileech.us^

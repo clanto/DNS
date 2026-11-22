@@ -378,7 +378,6 @@
 *.beatquantum.com
 *.bebasid.com
 *.domburg.beruys.com
-*.bestwon203.com
 *.dns.bezmezhau.com
 *.dns.bgeneto.com
 *.httpdns.bilivideo.com
@@ -503,7 +502,6 @@
 *.easyhandshake.com
 *.dns.easyhns.com
 *.dns.edc-pws.com
-*.edgy-dns.com
 *.dns.efficientdocuments.com
 *.dns.ekinao.com
 *.adguard.elrobit.com
@@ -1879,7 +1877,6 @@
 *.adguard.amscenter.net
 *.dns.andersonr.net
 *.adguard01.apexhost.net
-*.mask-api.fe.apple-dns.net
 *.mask.apple-dns.net
 *.applied-privacy.net
 *.doh.appliedprivacy.net
@@ -3083,7 +3080,6 @@
 *.doh.mochou.site
 *.s1.s2.shahramv1.site
 *.agha.sunryu.site
-*.tecdrive.site
 *.vtcuong.site
 *.dns.levonet.sk
 *.dns.p3k.sk

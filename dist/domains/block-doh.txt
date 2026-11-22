@@ -601,7 +601,6 @@ bebasid.com
 bei01.dnscry.pt
 bella.981377612.xyz
 berd.moe
-bestwon203.com
 bg.rslvr.eu
 bh.wael.name
 biba.ydns.eu
@@ -2291,7 +2290,6 @@ echooff.xyz
 ecs-doh.dnswarden.com
 edgar.tobkar.net
 edge.nextdns.io
-edgy-dns.com
 edns.233py.com
 edns.my.id
 ee-tll.doh.sb
@@ -2806,7 +2804,6 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
-mask-api.fe.apple-dns.net
 mask-api.icloud.com
 mask-canary.icloud.com
 mask-h2.icloud.com
@@ -3467,7 +3464,6 @@ takhtakh.domyah.net
 tartanbahn.eu.org
 tbs01.dnscry.pt
 teamspeak.adriason.co.uk
-tecdrive.site
 tecworx.at
 teknorota.com
 telex.app

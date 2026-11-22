@@ -5643,7 +5643,6 @@ akproxy.ml
 akr.gr
 akrforex.co.cc
 akril.info
-akses.digital
 akses.gg
 akses.me
 akslot.io
@@ -6192,7 +6191,6 @@ alphavpn.info
 alphawork.info
 alphra.hu.tl
 alpinedatalake.com
-alpinehr.ca
 alpisforex.co.cc
 alproxy.info
 alquilerdeviviendas.info
@@ -58191,6 +58189,7 @@ mafully-unblock.tk
 maga.lu
 magaproxy.com
 magatxt.us
+magaus.xyz
 magazinesave.info
 magentaway.info
 maggieproxy.info
@@ -85442,6 +85441,7 @@ redintruder.tk
 redir.adengage.com
 redir.ebumna.net
 redir.ec
+redir.fr
 redir.io
 redir.is
 redir.me
@@ -102792,7 +102792,6 @@ therockinghuts.live
 therockz.com
 theromancasino.info
 therush.xyz
-thesa.us
 thesafeproxy.tk
 thesafesurf.com
 thesafetyt.tk
@@ -117894,6 +117893,7 @@ xpdatastorage.co.cc
 xperiamini.co.cc
 xpew.com
 xphardtools.co.cc
+xplinks.com
 xpol.com.tr
 xporxy.p.ht
 xpower.ed.mu

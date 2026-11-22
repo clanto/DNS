@@ -1581,7 +1581,6 @@
 *.1ql.ca
 *.3ft.ca
 *.2fast.allcanadacollect.ca
-*.alpinehr.ca
 *.annihilator.ca
 *.anonymousproxy.ca
 *.yourls.irex.aretex.ca
@@ -30496,6 +30495,7 @@
 *.xpbypass.com
 *.proxy.xpectro-bo.com
 *.xpew.com
+*.xplinks.com
 *.xproxie.com
 *.xproxy.com
 *.xproxylist.com
@@ -31373,7 +31373,6 @@
 *.v0.dev
 *.wavesnetwork.dev
 *.wp-lib.dev
-*.akses.digital
 *.ampifire.digital
 *.augustinus.digital
 *.diju.digital
@@ -32279,6 +32278,7 @@
 *.psilo.fr
 *.qrtag.fr
 *.real-debrid.fr
+*.redir.fr
 *.relink.fr
 *.fb.richie.fr
 *.rwz.fr
@@ -118945,7 +118945,6 @@
 *.thecolorgreen.us
 *.thefreeproxy.us
 *.theproxy.us
-*.thesa.us
 *.thexite.us
 *.thinkpl.us
 *.campus.timewaster.us
@@ -119804,6 +119803,7 @@
 *.location-online.xyz
 *.lompat.xyz
 *.lovetale.xyz
+*.magaus.xyz
 *.maicowa.xyz
 *.managementinc.xyz
 *.marchproxy.xyz

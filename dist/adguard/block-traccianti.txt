@@ -10192,7 +10192,6 @@
 ||sa.bankofinternet.com^
 ||tracking.bankofoklahoma.com^
 ||tracking.bankoftexas.com^
-||adl.bankofthewest.com^
 ||stats.bankofthewest.com^
 ||analytics.banksneveraskthat.com^
 ||trk.banktech.com^
@@ -30417,6 +30416,8 @@
 ||lpbhnv.nbclosangeles.com^
 ||lpbhnv.nbcmiami.com^
 ||aamt.nbcnews.com^
+||fpa-cdn.nbcnews.com^
+||fpa-events.nbcnews.com^
 ||links.nbcnews.com^
 ||lpbhnv.nbcnewyork.com^
 ||lpbhnv.nbcphiladelphia.com^
@@ -32785,6 +32786,7 @@
 ||sadbmetrics.pisos.com^
 ||mp.pitchero.com^
 ||sstats.pitchfork.com^
+||pitmanmusic.com^
 ||www3s.pitstopautoparts.com^
 ||app.pittsburghpanthers.com^
 ||t.pittsburghpanthers.com^
@@ -34371,6 +34373,7 @@
 ||metric.redlobster.com^
 ||smetric.redlobster.com^
 ||redlotus.com^
+||redmaceta.com^
 ||ablink.em.redmart.com^
 ||redmillgroup.com^
 ||a8cv.jp.redodopower.com^
@@ -35446,6 +35449,7 @@
 ||sandboxbid.com^
 ||seniorliving.sandhillcove.com^
 ||algrcr.sandro-paris.com^
+||sandshredder.com^
 ||sandsiv.com^
 ||sandstrophies.com^
 ||sandypocket.com^
@@ -37637,6 +37641,7 @@
 ||cv.stella-s.com^
 ||stellarbalms.com^
 ||stellarbizt.com^
+||stellarcoded.com^
 ||stellarduel.com^
 ||marketing.stellarmls.com^
 ||stellarspectro.com^
@@ -39413,6 +39418,8 @@
 ||tobiipro.com^
 ||akgnwd.tocris.com^
 ||aamt.today.com^
+||fpa-cdn.today.com^
+||fpa-events.today.com^
 ||todayinhistoryproducts.com^
 ||todaymediareports.com^
 ||b.todaytix.com^
@@ -55330,7 +55337,8 @@
 ||appier.org^
 ||appnext.org^
 ||tk.apprentis-auteuil.org^
-||analytics.archive.org^
+||athena.archive.org^
+||sink.archive.org^
 ||marketing.arlington.org^
 ||elq.artsfestival.org^
 ||links.asbury.org^
