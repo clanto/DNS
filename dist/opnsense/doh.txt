@@ -130,7 +130,6 @@ adguard.abd.ong
 adguard.acrobyte.org
 adguard.adrianofrongillo.ovh
 adguard.aenth.com
-adguard.ajinga.net
 adguard.alu.dog
 adguard.aminetwork.biz
 adguard.amscenter.net
@@ -192,6 +191,7 @@ adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
 adguard.mcdrifter.de
+adguard.meddy94.de
 adguard.myddns.org
 adguard.nasaud.info
 adguard.neon0404.space
@@ -607,7 +607,6 @@ de01.dns4me.net
 de51.tcpdoor.net
 decloudus.com
 dedidl.com
-deep-henchman-excuse.cfd
 deflectordns.com
 dehb.ru
 deic-lgb.anycast.censurfridns.dk
@@ -874,6 +873,7 @@ dns.dremaxx.de
 dns.dualhosting.eu
 dns.dugi.io.vn
 dns.dumk.in
+dns.dyn1.de
 dns.dynx.pro
 dns.dzkji.cn
 dns.easyhns.com
@@ -1311,7 +1311,6 @@ dns.shecan.ir
 dns.shiza.foo
 dns.shrike.ru
 dns.sildom.me
-dns.simplylinux.ch
 dns.sindominio.net
 dns.sinhrofazotron.de
 dns.skous.dedyn.io
@@ -1799,7 +1798,6 @@ edgar.tobkar.net
 edns.233py.com
 edns.my.id
 ee-tll.doh.sb
-egorovna.su
 egshe.myqnapcloud.com
 eime.goip.de
 ejaysss.dev
@@ -2165,7 +2163,6 @@ kronos.plan9-dns.com
 krtekvpn.duckdns.org
 kubinet.duckdns.org
 kudns.kescher.at
-kx-97795-tr.xyz
 kz-pav-w-p-1.nashkan.net
 la-doh.stuptech.com
 lamdtl.giize.com
@@ -2219,6 +2216,7 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
+mask-canary.icloud.com
 masters-of-cloud.de
 math.netlab.my.id
 mavalleenumerique.hopto.org
@@ -2359,7 +2357,6 @@ ns1.flodns.net
 ns1.i-evolve.net
 ns1.level3.net
 ns1.opennameserver.org
-ns1.qquack.org
 ns1.recursive.dnsbycomodo.com
 ns2.4netguides.org
 ns2.flodns.net
@@ -2466,7 +2463,6 @@ pihole.datamatter.co.za
 pihole1.hoerli.net
 pihole2.hoerli.net
 pihole3.hoerli.net
-pingbi.xyz
 pips.kpsn.org
 pitchforkwaydns.duckdns.org
 pl-waw-w-p-2.nashkan.net
@@ -2726,7 +2722,6 @@ srv03.dns64.de
 srv04.dns64.de
 srv5.jiripocta.cz
 ss.0001.xyz
-ss.microbaidu.com
 ssh-storage.ru
 ssytnik.de
 standard.mask.ad
@@ -2760,6 +2755,7 @@ tecworx.at
 teknorota.com
 telex.app
 tenclubamst.ru
+tenmei.casacam.net
 test.143.sh
 test.adg.siudzinski.net
 test.businessconnect.com.tr
@@ -3004,7 +3000,6 @@ xbcpb668.com
 xbox-dns.ru
 xenergy.cc
 xfer.au
-xholgm.top
 xiaoxie.pro
 xiaoxinhui.cn
 xie.ke

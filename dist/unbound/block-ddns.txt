@@ -1192,7 +1192,6 @@
 *.thehomeserver.net
 *.thenme.net
 *.thruhere.net
-*.topsddns.net
 *.trickip.net
 *.tunnelbroker.net
 *.venez.net
@@ -1574,7 +1573,6 @@
 *.shacknet.us
 *.stuff-4-sale.us
 *.tobuy.us
-*.wwwhost.us
 *.hs.vc
 *.webs.vc
 *.qlbv.vn

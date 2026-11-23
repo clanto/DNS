@@ -3435,6 +3435,7 @@
 *.we-love-privacy.humane.club
 *.link.icecream.club
 *.play.jdb888.club
+*.jzkdrpijw30voy0.club
 *.my-ip.club
 *.get.nfit.club
 *.app.resq.club
@@ -4360,6 +4361,7 @@
 *.6824track.com
 *.6ldu6qa.com
 *.amethyst.6pm.com
+*.6s83mz9kbtrj.com
 *.6sense.com
 *.bskblt.6thstreet.com
 *.clicks.6thstreet.com
@@ -4433,7 +4435,7 @@
 *.a8723.com
 *.a88wptk.com
 *.a8a8altrk.com
-*.cdn.a9f3k7z2m1.com
+*.a9f3k7z2m1.com
 *.a9gn8ftrk.com
 *.images.cargomarketing.email.aa.com
 *.metrics.aa.com
@@ -13548,6 +13550,7 @@
 *.convertexperiments.com
 *.track.convertfox.com
 *.tp.convertiser.com
+*.insights-tag.convertkit.com
 *.analytics.convertlanguage.com
 *.convertlink.com
 *.convertpath.com
@@ -17933,6 +17936,7 @@
 *.stats.fundimmo.com
 *.plans.fundtherebuild.com
 *.app-link.funfull.com
+*.funkpit.com
 *.marketing.funmobility.com
 *.funnelback.com
 *.video.funnelbox.com
@@ -20850,6 +20854,7 @@
 *.marketing.influitive.com
 *.br.potato1.influitive.com
 *.marketing.influxdb.com
+*.ayc0zsm69431gfebd.info.com
 *.tr.info-btob-leaders.com
 *.infoancre-vie.com
 *.eloqua.infobip.com
@@ -23812,7 +23817,7 @@
 *.m2hf9trk.com
 *.m2ibepdawk.com
 *.m2insights.com
-*.cdn.m2z7r9k4p1.com
+*.m2z7r9k4p1.com
 *.marketing.m3design.com
 *.m3n1pdoy.com
 *.m5gfm7trk.com
@@ -33739,7 +33744,7 @@
 *.q0losid.com
 *.smetrics.q107.com
 *.insights.connect.q4inc.com
-*.cdn.q4x8n6b2t5.com
+*.q4x8n6b2t5.com
 *.q85ehcrh.com
 *.q8mng7trk.com
 *.qa-analytics.com
@@ -36153,6 +36158,7 @@
 *.link.sheeriz.com
 *.edge.sheffieldfinancial.com
 *.pub.sheknows.com
+*.analytics.shelbyklein.com
 *.nscmetrics.shell.com
 *.scmetrics.shell.com
 *.mdws.shellcu.com
@@ -37524,6 +37530,7 @@
 *.metrics.staplesadvantage.com
 *.smetrics.staplesadvantage.com
 *.www.star-cntr-5.com
+*.staradmiral.com
 *.sw88.starchannel-bg.com
 *.sw88.starchannel-hr.com
 *.sw88.starchannel-rs.com
@@ -38701,6 +38708,7 @@
 *.tensorsocial.com
 *.secure.tent0mown.com
 *.www.tent0mown.com
+*.tentpick.com
 *.tepatonol.com
 *.tepuw.com
 *.tera-wurfl.com
@@ -39431,6 +39439,7 @@
 *.trk.todocouplings.com
 *.toecircle.com
 *.toedrawer.com
+*.toffeetribe.com
 *.tofusquirrel.com
 *.link.togaapp.com
 *.sbttlj.togetter.com
@@ -42450,6 +42459,7 @@
 *.wqwln8trk.com
 *.scanalytics.wral.com
 *.wrapstretch.com
+*.wrathsecrets.com
 *.wrating.com
 *.axp.wrbl.com
 *.wrckinbll.com
@@ -42547,7 +42557,7 @@
 *.x61mesm2i.com
 *.x6h2tsbh.com
 *.x7gbdj8dh.com
-*.cdn.x7k9m2q4z8r1.com
+*.x7k9m2q4z8r1.com
 *.x93jditk.com
 *.stats.xactcode.com
 *.info.xactflex.com
@@ -52366,6 +52376,7 @@
 *.adgile.media
 *.admetrics.media
 *.stats.amaeya.media
+*.bytes.media
 *.bnc.cityscope.media
 *.vlogs.deja.media
 *.infa.media

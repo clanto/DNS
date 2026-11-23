@@ -683,7 +683,6 @@
 *.mendozasdelivery.com
 *.ss.microbaidu.com
 *.mikewaddick.com
-*.dns.mipauns.com
 *.httpdns.browser.miui.com
 *.dns.miyun1.com
 *.doh.mmmalia.com
@@ -778,7 +777,6 @@
 *.dns.p55k.com
 *.dns.pacificmonster.com
 *.pashagame456.com
-*.doh.gcp.pathofgrace.com
 *.dns.paxavemedia.com
 *.dns.periactes.com
 *.dns0.permafrostmiami.com
@@ -1267,7 +1265,6 @@
 *.dns.michaldusek.eu
 *.dns.mihalcea.eu
 *.mydevpn.eu
-*.n0.eu
 *.personal-proj-by-me.eu
 *.dns.rhscz.eu
 *.dns1.rhscz.eu
@@ -1485,7 +1482,6 @@
 *.dns.jsd.web.id
 *.panser.web.id
 *.doh.this.web.id
-*.doh.zephyrus.id
 *.ag.hostme.co.il
 *.us.aab.im
 *.doh.angry.im
@@ -2966,7 +2962,6 @@
 *.panel.joosh.ru
 *.juicysalmon.ru
 *.adguard.k-likhachev.ru
-*.kocapb.ru
 *.komo4ek.ru
 *.kondrcloud.ru
 *.kopcm.ru
@@ -3014,7 +3009,6 @@
 *.lomoff.spb.ru
 *.ssh-storage.ru
 *.ag.stepnew.ru
-*.structoriumwings.ru
 *.dns0.tardishost.ru
 *.dns1.tardishost.ru
 *.nl.tcpu.ru
@@ -3414,7 +3408,6 @@
 *.dns.333551.xyz
 *.dns.354688.xyz
 *.xjpdns.354688.xyz
-*.3dcosas.xyz
 *.n.5201344.xyz
 *.adguard2.546413.xyz
 *.bwg.559299366.xyz
@@ -3451,7 +3444,6 @@
 *.filter.badbotdev.xyz
 *.safe-guard.badbotdev.xyz
 *.vps01.bbhc.xyz
-*.bluedns.xyz
 *.adguard.chanhome.xyz
 *.alpha.cixy.xyz
 *.dns.clickhost.xyz
@@ -3463,7 +3455,6 @@
 *.echooff.xyz
 *.hole.elbschloss.xyz
 *.adguard.eximpius.xyz
-*.fra1.eyecay.xyz
 *.dns.f97.xyz
 *.agent.frankutils.xyz
 *.performance.gosami.xyz
@@ -3535,7 +3526,6 @@
 *.ns02.nerdytechgeeks.co.za
 *.dns.oliviertv.co.za
 *.pooblet.co.za
-*.doh.vpsdns.co.za
 *.paulo.nom.za
 *.dns.froth.zone
 *.dns.furrix.zone

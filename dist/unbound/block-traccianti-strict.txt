@@ -2900,6 +2900,7 @@
 *.we-love-privacy.humane.club
 *.link.icecream.club
 *.play.jdb888.club
+*.jzkdrpijw30voy0.club
 *.get.nfit.club
 *.app.resq.club
 *.tk.airfrance.cm
@@ -3570,6 +3571,7 @@
 *.www.66infra-strat.com
 *.oms.680news.com
 *.amethyst.6pm.com
+*.6s83mz9kbtrj.com
 *.epsilon.6sense.com
 *.bskblt.6thstreet.com
 *.clicks.6thstreet.com
@@ -3615,7 +3617,7 @@
 *.a3kvau184uea.com
 *.a47b.com
 *.a8723.com
-*.cdn.a9f3k7z2m1.com
+*.a9f3k7z2m1.com
 *.images.cargomarketing.email.aa.com
 *.metrics.aa.com
 *.smetrics.aa.com
@@ -9083,6 +9085,7 @@
 *.smetrics.blockbuster.com
 *.som.blockbuster.com
 *.blockdial.com
+*.fingerprint.blockifyapp.com
 *.stats.blockleviton.com
 *.www.blocwhite7.com
 *.adbmetrics.blogasturias.com
@@ -11060,6 +11063,7 @@
 *.convertbatch.com
 *.track.convertfox.com
 *.tp.convertiser.com
+*.insights-tag.convertkit.com
 *.analytics.convertlanguage.com
 *.convertlink.com
 *.plausible.conveyal.com
@@ -14374,6 +14378,7 @@
 *.stats.fundimmo.com
 *.plans.fundtherebuild.com
 *.app-link.funfull.com
+*.funkpit.com
 *.marketing.funmobility.com
 *.video.funnelbox.com
 *.analytics.app.funnelish.com
@@ -16550,6 +16555,7 @@
 *.marketing.influitive.com
 *.br.potato1.influitive.com
 *.marketing.influxdb.com
+*.ayc0zsm69431gfebd.info.com
 *.tr.info-btob-leaders.com
 *.eloqua.infobip.com
 *.images.infofreddiemac.com
@@ -18745,7 +18751,7 @@
 *.t-s.lyticportfolio.com
 *.analyze-82dfgsi2.m-w.com
 *.www.m1ll1c4n0.com
-*.cdn.m2z7r9k4p1.com
+*.m2z7r9k4p1.com
 *.marketing.m3design.com
 *.now.m5net.com
 *.tk.m6boutique.com
@@ -22960,7 +22966,7 @@
 *.pzimff.com
 *.q0losid.com
 *.smetrics.q107.com
-*.cdn.q4x8n6b2t5.com
+*.q4x8n6b2t5.com
 *.mtc.qantas.com
 *.smtc.qantas.com
 *.go.qantaswellbeing.com
@@ -24678,6 +24684,7 @@
 *.link.sheeriz.com
 *.edge.sheffieldfinancial.com
 *.pub.sheknows.com
+*.analytics.shelbyklein.com
 *.nscmetrics.shell.com
 *.scmetrics.shell.com
 *.mdws.shellcu.com
@@ -25680,6 +25687,7 @@
 *.metrics.staplesadvantage.com
 *.smetrics.staplesadvantage.com
 *.www.star-cntr-5.com
+*.staradmiral.com
 *.sw88.starchannel-bg.com
 *.sw88.starchannel-hr.com
 *.sw88.starchannel-rs.com
@@ -26164,7 +26172,7 @@
 *.smetrics.t-mobile.com
 *.metrics.t-mobilemoney.com
 *.smetrics.t-mobilemoney.com
-*.cdn.t2037ulzqct5.com
+*.t2037ulzqct5.com
 *.marketing.t2systems.com
 *.app.ta3weem.com
 *.tabcarts.com
@@ -26514,6 +26522,7 @@
 *.a8cv.tenshinocart.com
 *.secure.tent0mown.com
 *.www.tent0mown.com
+*.tentpick.com
 *.tepatonol.com
 *.answers.teradata.com
 *.review.teradata.com
@@ -27078,6 +27087,7 @@
 *.b.todaytix.com
 *.test-b.todaytix.com
 *.trk.todocouplings.com
+*.toffeetribe.com
 *.tofusquirrel.com
 *.link.togaapp.com
 *.sbttlj.togetter.com
@@ -29252,6 +29262,7 @@
 *.axp.wpri.com
 *.ywrcqa.wqad.com
 *.scanalytics.wral.com
+*.wrathsecrets.com
 *.axp.wrbl.com
 *.axp.wreg.com
 *.wretchedfloor.com
@@ -29313,7 +29324,7 @@
 *.ywrcqa.wzzm13.com
 *.t.e.x.com
 *.marketing.net.x24factory.com
-*.cdn.x7k9m2q4z8r1.com
+*.x7k9m2q4z8r1.com
 *.stats.xactcode.com
 *.info.xactflex.com
 *.campaigns.xactware.com
@@ -37578,6 +37589,7 @@
 *.b.zedge.me
 *.referrals.zunify.me
 *.stats.amaeya.media
+*.bytes.media
 *.bnc.cityscope.media
 *.vlogs.deja.media
 *.utiq.ippen.media

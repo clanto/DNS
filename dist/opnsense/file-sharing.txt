@@ -78,7 +78,6 @@ eazyshare.net
 eazyupload.net
 egoshare.com
 egydown.com
-electronicfiles.net
 emstorage.fr
 epload.co
 evilshare.com
@@ -112,7 +111,6 @@ files-express.com
 files-upload.com
 files.catbox.moe
 files.mail.ru
-files.to
 files6.com
 filesanywhere.com
 filesavr.com
@@ -126,6 +124,7 @@ fileup.org
 fileupyours.com
 filezzz.com
 film-2-streaming.com
+flypicture.com
 fotazas.com
 fotonons.ru
 fotop.net
@@ -159,6 +158,7 @@ hotchyx.com
 hotfile.com
 hotlinkfiles.com
 hotshare.net
+hugedrive.com
 hulkload.com
 hulkshare.com
 humyo.com
@@ -268,6 +268,7 @@ picoodle.com
 picscrazy.com
 picsec.com
 picturetrail.com
+picupl.com
 picvalley.net
 pixagogo.com
 pixali.com
@@ -275,7 +276,6 @@ pixeldrain.com
 pixhost.me
 pixshock.net
 premify.com
-premiumbyleo.co.cc
 putfile.com
 putlocker.com
 qfile.de
@@ -296,11 +296,13 @@ rapidsharing.com
 rapidupload.com
 redlist.be
 refrozen.com
+reliableimage.com
 revver.com
 rhost.cz
 rockfile.co
 sadew.com
 savefile.com
+scambia.com
 send-file.co.uk
 sendmefile.com
 sendspace.com
@@ -337,7 +339,6 @@ subiteya.com
 sugarsync.com
 superphotospace.com
 supload.com
-surfblocked.co.cc
 swfcabin.com
 swiftdesk.com
 swisstransfer.com
@@ -348,7 +349,6 @@ thefreesite.com
 theimagehosting.com
 theupload.com
 thumblogger.com
-tinydot.co.cc
 tinypic.com
 toutbox.fr
 trackerx.com.ar
@@ -361,7 +361,6 @@ turboupload.com
 ultrashare.de
 ultrashare.net
 unibytes.com
-universitriat.co.cc
 up.li.ru
 up4net.com
 updownloadserver.com
@@ -375,6 +374,7 @@ uploadbuzz.cc
 uploadchan.org
 uploaded.net
 uploadev.org
+uploadgalaxy.com
 uploadhouse.com
 uploading.com
 uploadjar.com
@@ -388,7 +388,6 @@ usaupload.net
 usershare.net
 userupload.net
 ushareit.com
-verysong.co.cc
 vgroupnetwork.com.ar
 vidcloud.co
 videozer.com

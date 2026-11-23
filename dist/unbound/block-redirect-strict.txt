@@ -384,7 +384,6 @@
 *.superproxy.be
 *.surf-anoniem.be
 *.surfanonymous.be
-*.surl.be
 *.theproxy.be
 *.theyankees.be
 *.tinu.be
@@ -418,7 +417,6 @@
 *.malagerod.bid
 *.proxer.bid
 *.short.bid
-*.ylink.bid
 *.keepo.bio
 *.myown.bio
 *.redirect.bio
@@ -1046,7 +1044,6 @@
 *.cph.bz
 *.deli.bz
 *.dky.bz
-*.dld.bz
 *.dte.bz
 *.hiphop.eggdrop.bz
 *.egw.bz
@@ -8374,7 +8371,6 @@
 *.rethinktw.cc
 *.reurl.cc
 *.rsgo.cc
-*.sa-link.cc
 *.shortly.cc
 *.shortner.cc
 *.skyurl.cc
@@ -10104,7 +10100,6 @@
 *.link.phsz.ch
 *.surfunlocked.pisoft.ch
 *.popm.ch
-*.produktiver.ch
 *.proxies.ch
 *.proxyd.ch
 *.qlicq.ch
@@ -10116,7 +10111,6 @@
 *.skrun.ch
 *.swisswebproxy.ch
 *.tcch.ch
-*.tcrn.ch
 *.uniface.ch
 *.unblock.vitu.ch
 *.vegas.web-lab.ch
@@ -12588,7 +12582,6 @@
 *.insurance-medical-trading.co
 *.iplogger.co
 *.isols.co
-*.joiner.co
 *.kbank.co
 *.kbit.co
 *.kfrc.co
@@ -12611,7 +12604,6 @@
 *.mck.co
 *.mcys.co
 *.meck.co
-*.minifyurl.co
 *.mney.co
 *.u1.mnge.co
 *.moomusic.co
@@ -12860,7 +12852,6 @@
 *.1potatoproxy.1sthoster.com
 *.hiweb.1sthoster.com
 *.myproxy.1sthoster.com
-*.1sturl.com
 *.1th3.com
 *.1the-best.com
 *.1toc.com
@@ -15366,7 +15357,6 @@
 *.cloakyou.com
 *.cloakzone.com
 *.clockproxy.com
-*.clockurl.com
 *.clone99.com
 *.clonesports.com
 *.proxy-m-y-s-p-a-c-e.close.com
@@ -16923,7 +16913,6 @@
 *.proxied.fizwig.com
 *.fjdot.com
 *.fkfg.com
-*.fklit.com
 *.fl-y.com
 *.website.fla-p.com
 *.proxy.flakyhost.com
@@ -17964,7 +17953,6 @@
 *.proxy.hellokittyauctions.com
 *.hellomynigca.com
 *.helloproxy.com
-*.hellotxt.com
 *.helloyo.com
 *.help-on.com
 *.helphideme.com
@@ -18452,7 +18440,6 @@
 *.hustleproxy.com
 *.hustlersforum.com
 *.hustlersgame.com
-*.hutbz.com
 *.huwaw.com
 *.felxa.huxleybypass.com
 *.proxy.hwarangdofsu.com
@@ -19394,7 +19381,6 @@
 *.kronoprox.com
 *.krossfitness.com
 *.kroxi.com
-*.krunchd.com
 *.kt24h.com
 *.ktabate.com
 *.ktckesaria.com
@@ -19593,7 +19579,6 @@
 *.link1s.com
 *.linkadded.com
 *.linkaff.com
-*.linkbee.com
 *.linkbirligi.com
 *.linkbitty.com
 *.linkbun.com
@@ -21367,7 +21352,6 @@
 *.panthersurf.com
 *.panzanlon.com
 *.paperclown.com
-*.paperspeedy.com
 *.papertigershark.com
 *.papollo.com
 *.paranoidproxy.com
@@ -23638,7 +23622,6 @@
 *.realproxylist.com
 *.realstealth.com
 *.realtimeproxy.com
-*.realtours360.com
 *.rebeccasdecor.com
 *.rebelproxy.com
 *.rebrandly.com
@@ -25037,7 +25020,6 @@
 *.stupidproxy.com
 *.stupidschool.com
 *.sturgid.com
-*.sturly.com
 *.stylepizza.com
 *.stylishproxy.com
 *.subarrendar.com
@@ -26920,7 +26902,6 @@
 *.viperstealth.com
 *.vipproxies.com
 *.viproxy.com
-*.vipshortener.com
 *.vipsurfer.com
 *.vipswingclub.com
 *.viralbanner.com
@@ -27896,7 +27877,6 @@
 *.tunnel.eu.cr
 *.prooxy.free.cr
 *.got.cr
-*.lin.cr
 *.pp.cr
 *.soc.cr
 *.free-web-proxy.cricket
@@ -28298,7 +28278,6 @@
 *.texantonio1.esy.es
 *.everywhere.es
 *.freevpnproxy.es
-*.gurl.es
 *.adami.hol.es
 *.webforall.hol.es
 *.yourfree.hol.es
@@ -30724,7 +30703,6 @@
 *.2s.gg
 *.4.gg
 *.9k.gg
-*.a.gg
 *.akses.gg
 *.unblock.at.gg
 *.bch.gg
@@ -32532,10 +32510,8 @@
 *.short-url.upr.ac.id
 *.agroforestri.id
 *.bca.id
-*.datalisa.id
 *.gjk.id
 *.s.bnpb.go.id
-*.goads.id
 *.mtik.id
 *.cbnet.my.id
 *.rcx.my.id
@@ -32557,8 +32533,6 @@
 *.holiday.hillstart.ie
 *.unblock.hillstart.ie
 *.mamm.ie
-*.short.ie
-*.tiny.ie
 *.toliveal.ie
 *.unblockbebo.ie
 *.url.ie
@@ -32900,7 +32874,6 @@
 *.litty.in
 *.liv3.in
 *.lku.in
-*.lnk.in
 *.lnkd.in
 *.lnkiy.in
 *.lnnk.in
@@ -32971,7 +32944,6 @@
 *.p1n.in
 *.p4k.in
 *.passme.in
-*.pbplx.in
 *.peeking.in
 *.bypass.peeks.in
 *.pgrs.in
@@ -33027,7 +32999,6 @@
 *.rubysolar.in
 *.rusd.in
 *.s4w.in
-*.safly.in
 *.saikesavabooks.in
 *.sanajay.in
 *.sanzlinux.in
@@ -33073,7 +33044,6 @@
 *.proxywebonline.sxx.in
 *.tapz.in
 *.taruneek.in
-*.tebar.in
 *.terabox.in
 *.thereport.in
 *.thisproxyis.in
@@ -62716,7 +62686,6 @@
 *.ctfl.io
 *.d-sh.io
 *.doturl.io
-*.dsn.io
 *.dtsx.io
 *.easycut.io
 *.edl.io
@@ -62725,7 +62694,6 @@
 *.gesit.io
 *.ggle.io
 *.git.io
-*.hex.io
 *.hhbw.io
 *.ho.io
 *.hts.io
@@ -62813,13 +62781,9 @@
 *.1ea.ir
 *.1o2.ir
 *.4eq.ir
-*.7g7.ir
 *.900r.ir
 *.agbr.ir
-*.akoo.ir
-*.az6.ir
 *.b2n.ir
-*.cnz.ir
 *.rasees.coo.ir
 *.drnx.ir
 *.ebbco.ir
@@ -62829,21 +62793,17 @@
 *.ilk.ir
 *.irkala.ir
 *.khtm.ir
-*.linck.ir
 *.lt5.ir
 *.miniurl.ir
-*.mskb.ir
 *.goldway.mybloc.ir
 *.goldway.myblog.ir
 *.pa-ko.ir
-*.pb6.ir
 *.amir_mountains.persianblog.ir
 *.myprox.persianblog.ir
 *.go.poweren.ir
 *.radly.ir
 *.rizy.ir
 *.trezurl.ir
-*.ul3.ir
 *.yourl.ir
 *.yun.ir
 *.zurl.ir
@@ -62874,7 +62834,6 @@
 *.urbn.is
 *.wasap.is
 *.go.wilde.is
-*.linq.ist
 *.1url.it
 *.45h.it
 *.adweek.it
@@ -63162,7 +63121,6 @@
 *.weighed.mask.wtf.la
 *.yayin.la
 *.thelegends.land
-*.add.lat
 *.whcs.law
 *.local.18.lc
 *.phoenix.1a.lc
@@ -63564,7 +63522,6 @@
 *.wartsi.ly
 *.yoox.ly
 *.zeep.ly
-*.30na.ma
 *.abe.ma
 *.gproxy.blueloft.ma
 *.cr.ma
@@ -63577,7 +63534,6 @@
 *.yo.ma
 *.zi.ma
 *.proxy.mba
-*.knf.md
 *.l.md
 *.nej.md
 *.unblock.prink.md
@@ -63616,7 +63572,6 @@
 *.bloat.me
 *.blocked.me
 *.brazilproxy.me
-*.brilink.me
 *.bslm.me
 *.bstk.me
 *.buk.me
@@ -65844,7 +65799,6 @@
 *.ytxt.mobi
 *.aaa.moda
 *.sht.moe
-*.linux.mom
 *.zeus4d.mom
 *.inf.money
 *.sexy.jill.survive.from.the.monster
@@ -65866,7 +65820,6 @@
 *.k9.ms
 *.lat.ms
 *.nyti.ms
-*.ri.ms
 *.short.ms
 *.surfme.sux.ms
 *.unfilter.sux.ms
@@ -66086,7 +66039,6 @@
 *.proxy.my
 *.ss88.my
 *.tpaper.my
-*.tr.my
 *.urlz.my
 *.use.my
 *.wallets.my
@@ -66274,7 +66226,6 @@
 *.go.12ip.net
 *.my.12ip.net
 *.1337proxy.net
-*.153in.net
 *.surf.15gb.net
 *.163flash.net
 *.168tv.net
@@ -70168,7 +70119,6 @@
 *.degree.geocubo.org
 *.gesoft.org
 *.get-access.org
-*.getadsnow.org
 *.gethidden.org
 *.getluckynow.org
 *.getproxies.org
@@ -71151,7 +71101,6 @@
 *.uproxyit.org
 *.kritovana.urhostz.org
 *.url10.org
-*.urlex.org
 *.urlexpander.org
 *.urlhide.org
 *.urlproxy.org
@@ -71548,7 +71497,6 @@
 *.su.pr
 *.proxyjust.press
 *.123l.pro
-*.99vpn.pro
 *.accessyou.pro
 *.antena.pro
 *.bitli.pro
@@ -71634,7 +71582,6 @@
 *.5proxy.pw
 *.6proxy.pw
 *.7proxy.pw
-*.888b.pw
 *.8proxy.pw
 *.8u.pw
 *.9proxy.pw
@@ -71807,7 +71754,6 @@
 *.invisiblesurf.review
 *.proxy-list.review
 *.web-site.review
-*.clik.rip
 *.luna.rip
 *.1proxy.ro
 *.videoblog.ablog.ro
@@ -71825,7 +71771,6 @@
 *.mee.elvin.ro
 *.tvmania.evolink.ro
 *.ded-01008.expertz.ro
-*.fi.ro
 *.invest.financemanagement.ro
 *.proxy.ghici.ro
 *.icks.ro
@@ -71949,7 +71894,6 @@
 *.server.horohelp.ru
 *.htgi.ru
 *.z.ibmx.ru
-*.inlnk.ru
 *.ipgrabber.ru
 *.ipgraber.ru
 *.iplogger.ru
@@ -72247,7 +72191,6 @@
 *.free-proxy.site
 *.freememoryapp.site
 *.freepro.site
-*.glowin88.site
 *.goday.site
 *.inan.site
 *.infs.site
@@ -72270,7 +72213,6 @@
 *.unblocking.site
 *.unblocksite.site
 *.unshort.site
-*.urlshortener.site
 *.videoproxy.site
 *.vipslot4d.site
 *.0a.sk
@@ -111479,7 +111421,6 @@
 *.rwnt.us
 *.s-i-n.us
 *.s21.us
-*.s7y.us
 *.sabackdoor.us
 *.2008.saddlemountainranch.us
 *.safeproxy.us
