@@ -64,7 +64,6 @@
 ||bcns.ai^
 ||beacons.ai^
 ||biofy.ai^
-||bosslinks.ai^
 ||centi.ai^
 ||clica.ai^
 ||dailym.ai^
@@ -13216,7 +13215,6 @@
 ||yucepr.cn^
 ||yumi58.cn^
 ||proxy.z-blog8.cn^
-||z5h.cn^
 ||zaixian86.cn^
 ||zebraproxy.cn^
 ||zerofilters.cn^
@@ -17341,7 +17339,6 @@
 ||dnusers.com^
 ||dnyan.com^
 ||do57.com^
-||doaistri.com^
 ||doburl.com^
 ||docoja.com^
 ||docproxy.com^
@@ -19146,7 +19143,6 @@
 ||glasmanua.com^
 ||auto.glasshousetheband.com^
 ||glassnestoftables.com^
-||glattly.com^
 ||glbass.com^
 ||tunnel.glennkuczer.com^
 ||glideuk.com^
@@ -19295,7 +19291,6 @@
 ||gopastit.com^
 ||gophonez.com^
 ||goplaceshere.com^
-||gopreply.com^
 ||goprocy.com^
 ||goprookies.com^
 ||goproxies.com^
@@ -20232,7 +20227,6 @@
 ||ikull.com^
 ||ikwer.com^
 ||ikww.com^
-||ikztf.com^
 ||ilekk.com^
 ||ilell.com^
 ||proxy.ilikegirlswholikegirls.com^
@@ -25725,7 +25719,6 @@
 ||qrlinkolustur.com^
 ||qrlit.com^
 ||qrnamic.com^
-||qrnesign.com^
 ||qroxi.com^
 ||qroxy.com^
 ||qrpathway.com^
@@ -25733,7 +25726,6 @@
 ||qrre.com^
 ||qrride.com^
 ||qrtli.com^
-||qrybaan.com^
 ||qtgv.com^
 ||qtproxy.com^
 ||qtunnel.com^
@@ -26132,7 +26124,6 @@
 ||ripyou.com^
 ||riquezaz.com^
 ||ritmarket.com^
-||rizchi.com^
 ||rizooox.com^
 ||rjmy.com^
 ||rjnox.com^
@@ -30556,7 +30547,6 @@
 ||ygudy.com^
 ||yhqapp.com^
 ||yidbio.com^
-||yigza.com^
 ||yixxoo.com^
 ||yjmva.com^
 ||ykbofo.com^
@@ -66700,7 +66690,6 @@
 ||ggle.io^
 ||gh.io^
 ||git.io^
-||glatt.io^
 ||golinkfy.io^
 ||grem.io^
 ||greyhive.io^
@@ -68332,7 +68321,6 @@
 ||urlb.link^
 ||urlbutter.link^
 ||urlcut.link^
-||urlify.link^
 ||urllink.link^
 ||urlplus.link^
 ||urlshorten.link^
@@ -68632,7 +68620,6 @@
 ||spotifypigeon.live^
 ||srwedding.live^
 ||startupperks.live^
-||stor.live^
 ||sumpahdokteruph52.live^
 ||supporticket231.live^
 ||syl83otk.live^
@@ -68893,7 +68880,6 @@
 ||rebrand.ly^
 ||ru.ly^
 ||scrb.ly^
-||short.ly^
 ||shorturl.ly^
 ||simp.ly^
 ||sincere.ly^
@@ -72656,7 +72642,6 @@
 ||proxy.daysago.net^
 ||proxy.dc-telemach.net^
 ||buffel.ddns.net^
-||ddp.net^
 ||deal-with-me.net^
 ||hosted.dealjee.net^
 ||decentproxy.net^
@@ -73710,7 +73695,9 @@
 ||net.net^
 ||kikis.net16.net^
 ||timperumichael.net23.net^
-||net46.net^
+||ipjumper.net46.net^
+||letmebrowse.net46.net^
+||test.net46.net^
 ||madads.net76.net^
 ||test101.net76.net^
 ||up.net76.net^
@@ -75590,7 +75577,6 @@
 ||pdy.one^
 ||poy.one^
 ||r2c.one^
-||shoco.one^
 ||shortlink.one^
 ||sld.one^
 ||sosyal.one^
@@ -75620,7 +75606,6 @@
 ||t2m.onl^
 ||tinylink.onl^
 ||ttt.onl^
-||vai.onl^
 ||anonyme.online^
 ||aroundeu.online^
 ||ativado.online^
@@ -79285,7 +79270,6 @@
 ||proxy.tc^
 ||sexeouchialage.qc.tc^
 ||sohbetchat.tc^
-||tls.tc^
 ||climb.top.tc^
 ||unlock.top.tc^
 ||safesurf.ua.tc^

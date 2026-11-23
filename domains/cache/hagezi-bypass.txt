@@ -1105,7 +1105,6 @@ actfordeal.com
 actipw3.online
 activefkey.store
 activitysforscience.space.cdn.cloudflare.net
-activpn.com
 actmobile.com
 ad-blocking.eu.org
 ad.800801.xyz
@@ -2019,7 +2018,6 @@ aurevia.ru
 auronsvr.site
 auronvpn.com
 auronvpn.site
-auroraest.com
 aurorajiasu.com
 aurorastork.com
 austim.cloud
@@ -2132,7 +2130,6 @@ banana-vpn.com
 banana.global.ssl.fastly.net
 bananakun.camdvr.org
 bananakun.zapto.org
-bananaspeed.site
 bananavpn.com
 bancuh.com
 band-lessons.com
@@ -2158,7 +2155,6 @@ barksymmetry.com
 barktether.com
 barnabech.fr
 bartproxies.com
-bartvpn.com
 bas-ranmmm.nas64.de
 base.goal.computersforpeace.net
 base.recap.premierleagueassists.com
@@ -2747,7 +2743,6 @@ botvpn.help
 botvpntype.com
 bouquetberlin.org
 box.seidenstrabe.com
-bpn.wtf
 bqinoiq.com
 bqkqixr.com
 br.lfac.net.br
@@ -2982,7 +2977,6 @@ canopypebble.com
 cantfindme.org
 canvas-math-tools.firebaseapp.com
 canvas-math-tools.web.app
-canvas.mom
 canvasarts.org
 canvasarts.org.cdn.cloudflare.net
 canyongravity.com
@@ -2992,7 +2986,6 @@ capella-090.easterndns.com
 captive.blob.core.windows.net
 capybaravpn.app
 car.registration.abrdns.com
-carebuzz.com
 carebuzz.io
 careersandjobs.org
 careproxy.com
@@ -3031,7 +3024,6 @@ caxc.atamanco.eu
 cayden.farted.net
 caytitf.com
 cb.gripe
-cbr2ozbx.online
 cc2.v8er.net
 ccadguard.dynu.net
 ccave.com
@@ -4345,7 +4337,6 @@ discord.tattoo
 discord.tattoo.cdn.cloudflare.net
 discordvpn.cloudsearch.workers.dev
 discordvpn.com
-disinformer.mooo.com
 disjwhdhdhxujw.easterndns.com
 diskcrmvpn.co.cc
 diskjlpa9.easterndns.com
@@ -4967,7 +4958,6 @@ dns.marcbond.uk
 dns.marschi.de
 dns.mateo.ovh
 dns.mathewakhil.online
-dns.matthias-prost.com
 dns.maybe.icu
 dns.mayr.ws
 dns.mayx.eu.org
@@ -4990,7 +4980,6 @@ dns.mikeliu.org
 dns.mikopono.nl
 dns.mikrotikrumahan.my.id
 dns.millernetwork.uk
-dns.miyun1.com
 dns.mnet-online.de
 dns.mni.li
 dns.mochalka.com
@@ -5038,7 +5027,6 @@ dns.netraptor.com.au
 dns.netrve.net
 dns.netvpn.net
 dns.neubsi.at
-dns.neutopia.org
 dns.nextdns.io
 dns.nguyendn.com
 dns.nhtsky.com
@@ -5879,6 +5867,7 @@ dosurf-shark.com
 dot-security-systems.com
 dot.360.cn
 dot.886675.xyz
+dot.centraleu.pi-dns.com
 dot.cleardns.io
 dot.cox.net
 dot.pub
@@ -6948,7 +6937,6 @@ fishproxy.com
 fishstory.org
 fitnessdepotprices.com
 fittfi.ddnsgeek.com
-fivefootoneiscrazyngl.groups.id
 fivestarontop.pages.dev
 fivestarsmobi.net
 fixproxy.com
@@ -7079,7 +7067,6 @@ fraytether.com
 frealvpn.xyz
 fredic.us
 free-planet-vpn.com
-free-planet-vpn.net
 free-proxy.cz
 free-proxy.xyz
 free-proxyserver.com
@@ -7090,7 +7077,6 @@ free-vpn.club
 free-vpn.en.softonic.com
 free-vpn.pro
 free-vpn.xyz
-free-vpnplanet-ru.net
 free-webproxy.com
 free.shecan.ir
 free2surfvpn.com
@@ -8570,7 +8556,6 @@ ilovecheapestvpn.com
 ilovechinadlvpn.com
 ilovecnforeverfreevpn.com
 ilovecnvpn.com
-ilovecrocs.space
 iloveforeverfreevpn.com
 ilovefreefqvpn.com
 ilovefreevpn.com
@@ -9089,7 +9074,6 @@ jumpthewall.net
 jumpvpn.homes
 jumpvpn.mom
 juniorvpn.xyz
-jupitrdns.com
 jupon.karrozzin.cloud-ip.cc
 juproxy.com
 jurre-home.duckdns.org
@@ -9500,12 +9484,10 @@ krtekvpn.duckdns.org
 kruchenue-sam.xyz
 krym-toury.ru
 krypton-tau.vercel.app
-kryptovpn.kryptotel.net
 ks7aoe.site
 ksd-resource.sababat.com
 ksfodsgq.com
 ksho.uk
-kslsivnv.com
 kstdownload.com
 ksuu.loan
 kthksg.com
@@ -9545,7 +9527,6 @@ kuailian-ui.com
 kuailian-vip.com
 kuailian-vpn.com
 kuailian-we.com
-kuailian-win.com
 kuailian-wp.com
 kuailian-zo.com
 kuailian.cc
@@ -11220,7 +11201,6 @@ okayvpn.com
 okedr.ru
 okgfw.top
 oklubnika.ru
-okproxy.com
 okryjovnik.ru
 okvpn.io
 okyuovkg.com
@@ -11251,7 +11231,6 @@ onelight.cc
 oneproxy.xyz
 onesy.top
 onevpn.com
-onion.ca
 onion.cab
 onion.casa
 onion.city
@@ -11559,7 +11538,6 @@ peremen.am
 peremen.app
 peremen.space
 peremen.website
-perfect-privacy.com
 perfectlying.com
 performance.gosami.xyz
 perlproxy.com
@@ -11712,7 +11690,6 @@ platovpn.club
 platovpn.com
 platovpn.homes
 platovpn.net
-platovpn.org
 platovpn.ru
 platovpn.site
 platovpn.space
@@ -12465,7 +12442,6 @@ raspy-recipe-71c0.workers.dev
 rateavon.je
 ratecuts.us
 ratmist.com
-ravoapp.com
 rayneau.fr
 rayobyte.com
 rayvpn.help
@@ -13585,7 +13561,6 @@ stealthsurf.app
 stealthtunnel.com
 stealthtunnel.net
 stealthvpn.com
-steamstatic.xyz
 steelwrites.com
 steering.nextdns.io
 steganos.com
@@ -13619,7 +13594,6 @@ streamvia.com
 streamvpn.com
 streisand.blog
 streisand.pics
-streisandvpn.biz
 strong.hosiyaman.info
 strongvpn.com
 strongvpnapp.com
@@ -14322,7 +14296,6 @@ turbovpnapp.net
 turkmenvibe.ru
 turmericrecipes.com
 turtle.happyforever.com
-tuskythehusky.tech
 tution.bury.abrdns.com
 tutor.idea.shand.org
 tutoring4free.org
@@ -14385,7 +14358,6 @@ ubst.space
 ubstv.click
 ubstvpn.click
 ubtv.space
-ubyis.top
 uc.robby.blue
 udal.karrozzin.cloud-ip.cc
 udetaca.tattoo
@@ -14700,7 +14672,6 @@ v2ny.net
 v2ny.one
 v2ny.org
 v2ny.pro
-v2ny.top
 v2ny.vip
 v2ny.xyz
 v2plus.cc
@@ -14786,7 +14757,6 @@ vapor.my
 vapor.my.cdn.cloudflare.net
 vapor.onl
 vapor.techno.pics
-vaporgithub.pages.dev
 vaporized.help
 vaporon.top
 vaporon.top.cdn.cloudflare.net
@@ -15019,7 +14989,6 @@ vpn-russia.app
 vpn-rw.fdn.fr
 vpn-sd.ff.avast.com
 vpn-server.xyz
-vpn-service.us
 vpn-services.co.cc
 vpn-simple.com
 vpn-th.net
@@ -15431,7 +15400,6 @@ vps2.rootax.org
 vpstv.lol
 vpsus3.pzhg.me
 vptskmzra.com
-vpv-pay.ru
 vpvpay.ru
 vqols.cc
 vrbl.space
@@ -15448,7 +15416,6 @@ vstkp.click
 vtbimdkh.com
 vtcuong.site
 vthiawvu.com
-vthrnrwrbtq2n1xpjt5d.online
 vulturematrix.com
 vundekra.com
 vusetc.com
@@ -15711,7 +15678,6 @@ wjpiwixm.com
 wkor3yiac4.com
 wlvpn.com
 wmqbjq.cn
-wnuxuhdj.com
 woalongit.synology.me
 wobti.com
 wokasn.com
@@ -16402,7 +16368,6 @@ zgproxy.com
 zgproxy.org
 zgvnp.site
 zgvnpn.site
-zgvpn.fit
 zgvpn.net
 zgvpn.org
 zh-index-kuailian.com.cn
@@ -16411,8 +16376,6 @@ zhangdong25.cn
 zhcn-kuailian.com.cn
 zhengkaiyun.top
 zhk.13142233.xyz
-zhkflohs.com
-zhknia0azrek.online
 zhs-kuailian.com.cn
 zhudedafeiji.com
 zhuifengdao.cloud

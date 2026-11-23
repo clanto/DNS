@@ -1065,7 +1065,6 @@
 *.proxies.bz
 *.proxy.bz
 *.proxylist.bz
-*.qr2.bz
 *.rckstr.bz
 *.rfr.bz
 *.shutr.bz
@@ -10108,7 +10107,6 @@
 *.proxy.schnocklake.ch
 *.secureproxy.ch
 *.sh7.ch
-*.skrun.ch
 *.swisswebproxy.ch
 *.tcch.ch
 *.uniface.ch
@@ -23891,7 +23889,6 @@
 *.rubalapacen.com
 *.proxy.rubycrossing.com
 *.rubyproxy.com
-*.rubyurl.com
 *.ruccy.com
 *.rudefox.com
 *.rudeproxy.com
@@ -26679,7 +26676,6 @@
 *.urlli.com
 *.urllimit.com
 *.urlmama.com
-*.urlot.com
 *.urlpoints.com
 *.urlq.com
 *.urlra.com
@@ -28171,7 +28167,6 @@
 *.dandy.dental
 *.alexa.design
 *.bridge.dev
-*.sample-app.fluf.dev
 *.j2team.dev
 *.lammariom.dev
 *.twirl.otee.dev
@@ -28216,7 +28211,6 @@
 *.unblocked.download
 *.unblockserver.download
 *.websurf.download
-*.adr.ec
 *.cyb.ec
 *.freeproxy.motelesvip.ec
 *.p.nico.ec
@@ -32532,7 +32526,6 @@
 *.cnnmon.ie
 *.holiday.hillstart.ie
 *.unblock.hillstart.ie
-*.mamm.ie
 *.toliveal.ie
 *.unblockbebo.ie
 *.url.ie
@@ -46116,7 +46109,6 @@
 *.iknowthetrick.info
 *.ikstwast.info
 *.ikzv.info
-*.ild.info
 *.ileet.info
 *.ilhamnov.info
 *.ilikebrowse.info
@@ -62805,7 +62797,6 @@
 *.rizy.ir
 *.trezurl.ir
 *.yourl.ir
-*.yun.ir
 *.zurl.ir
 *.0i.is
 *.711.is
@@ -63251,7 +63242,6 @@
 *.gowebsite.link
 *.grabify.link
 *.hausarzt.link
-*.heartofthenorthtours.link
 *.heybit.link
 *.hide.link
 *.hide-me.link
@@ -63721,7 +63711,6 @@
 *.mobilelife.me
 *.moovit.me
 *.mub.me
-*.mumy.me
 *.naver.me
 *.free.nbay.me
 *.newipnow.me
@@ -112147,7 +112136,6 @@
 *.freewebpro.xyz
 *.fruit-samurai.xyz
 *.gacor99-vip.xyz
-*.gacorwak.xyz
 *.gameboxonline.xyz
 *.gbqr.xyz
 *.geography-group.xyz

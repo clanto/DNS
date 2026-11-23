@@ -122,6 +122,7 @@ airflow.us-east-1.on.aws
 airflow.us-east-2.on.aws
 airflow.us-west-1.on.aws
 airflow.us-west-2.on.aws
+airoapp.ai
 aiven.app
 aivencloud.com
 akadns.net
@@ -1429,6 +1430,7 @@ hopto.me
 hopto.org
 hoquiam.wa.us
 hosp.uk
+host.cloud
 hosted-by-files.com
 hosted.app
 hostedpi.com
@@ -2929,6 +2931,7 @@ site.tb-hosting.com
 site.transip.me
 site.webhosting.be
 siteleaf.net
+sites.aspirethemes.com
 sites.reliantlabs.dev
 sk.eu.org
 skierniewice.pl

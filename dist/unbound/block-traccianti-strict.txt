@@ -27596,6 +27596,7 @@
 *.temp.twicomi.com
 *.images.en25content.twilio.com
 *.jcaqvl.twinset.com
+*.twistboat.com
 *.twistloss.com
 *.twochihuahuas.com
 *.twofishweb.com
@@ -28709,6 +28710,7 @@
 *.metrics.waste360.com
 *.smetrics.waste360.com
 *.see.wasteorshare.com
+*.watchbighead.com
 *.link.watchbravotv.com
 *.lets.watcho.com
 *.link.watchoxygen.com
@@ -28843,6 +28845,7 @@
 *.link.wegowhere.com
 *.logtake.weidian.com
 *.knapia.weightwatchers.com
+*.weirdknight.com
 *.trk.welchvacuum.com
 *.seniorliving.welcometomonarchlanding.com
 *.seniorliving.welcometosedgebrook.com
@@ -29508,6 +29511,7 @@
 *.omniture.yodlee.com
 *.somniture.yodlee.com
 *.bwujxl.yoga-lava.com
+*.yogatryout.com
 *.info.eu.tmi.yokogawa.com
 *.pr.yokohama-chokin.com
 *.a8cv.yokoyamakaban.com
@@ -29603,6 +29607,7 @@
 *.gyxtyd.yummicandles.com
 *.links.yummly.com
 *.app-branch.yummybazaar-qa.com
+*.yummymacaroni.com
 *.isebis.yutoriform.com
 *.a8.yuzen-official.com
 *.analytics.yyggames.com
@@ -29731,6 +29736,7 @@
 *.dsp-track-global.zmaticoo.com
 *.www.zmxncb5.com
 *.zodalt.com
+*.zodiacglass.com
 *.smetrics.zodiacshoes.com
 *.pagesense-collect.zoho.com
 *.dl.zola.com

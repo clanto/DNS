@@ -672,7 +672,6 @@
 *.adguard.manmademagic.com
 *.dns.maomaovpn.com
 *.doh.maskab.com
-*.dns.matthias-prost.com
 *.mcttechs.com
 *.dns.me7878.com
 *.dns.megaong.com
@@ -684,13 +683,11 @@
 *.ss.microbaidu.com
 *.mikewaddick.com
 *.httpdns.browser.miui.com
-*.dns.miyun1.com
 *.doh.mmmalia.com
 *.dnstls.mobik.com
 *.query.mobyds.com
 *.dns.mochalka.com
 *.dns.moonssif.com
-*.disinformer.mooo.com
 *.e23a.mooo.com
 *.feellike.mooo.com
 *.helsh0ru5.mooo.com
@@ -3129,7 +3126,6 @@
 *.qqmcfw.tech
 *.dns.romain.tech
 *.dns.startupstack.tech
-*.tuskythehusky.tech
 *.voyage-s01.cloudku.technology
 *.voyage-s02.cloudku.technology
 *.dns.kawa.tf

@@ -130,6 +130,7 @@ adguard.abd.ong
 adguard.acrobyte.org
 adguard.adrianofrongillo.ovh
 adguard.aenth.com
+adguard.ajinga.net
 adguard.alu.dog
 adguard.aminetwork.biz
 adguard.amscenter.net
@@ -427,7 +428,6 @@ at.pzhg.me
 atelier.alica.idv.tw
 atl01.dnscry.pt
 atlantic.dyn1.de
-atris.cyou
 atsilva.link
 au-syd-w-f-1.nashkan.net
 au-syd-w-p-1.nashkan.net
@@ -1311,6 +1311,7 @@ dns.shecan.ir
 dns.shiza.foo
 dns.shrike.ru
 dns.sildom.me
+dns.simplylinux.ch
 dns.sindominio.net
 dns.sinhrofazotron.de
 dns.skous.dedyn.io
@@ -1945,7 +1946,6 @@ helios.plan9-dns.com
 helsh0ru5.mooo.com
 herkes.online
 hexxitcompany.com
-hfgx.shop
 hgrps.eu
 hieutrang-99.duckdns.org
 himedns.com
@@ -2007,6 +2007,7 @@ host94.rheingold.com.ua
 hr.i81.ru
 hrsm12181.duckdns.org
 hshh.org
+hsu.plus
 http-dns.imoim.net
 httpdns-api.aliyuncs.com
 httpdns-browser.platform.dbankcloud.cn
@@ -2163,6 +2164,7 @@ kronos.plan9-dns.com
 krtekvpn.duckdns.org
 kubinet.duckdns.org
 kudns.kescher.at
+kx-97795-tr.xyz
 kz-pav-w-p-1.nashkan.net
 la-doh.stuptech.com
 lamdtl.giize.com
@@ -2216,7 +2218,6 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
-mask-canary.icloud.com
 masters-of-cloud.de
 math.netlab.my.id
 mavalleenumerique.hopto.org
@@ -2272,7 +2273,6 @@ mx1.laoxiao789.com
 my.8484848.cn
 myadg.ru
 myagh.claptrap.me
-myatris.sbs
 mycactus.duckdns.org
 mycloud-dns.duckdns.org
 mydns.ddns.me
@@ -2402,7 +2402,6 @@ opennic-ns.egelhaus.de
 opennic.i2pd.xyz
 opennic1.eth-services.de
 opennic2.i2pd.xyz
-oracle.q66z.com
 oracle001.330k.biz
 oraclejp01.zerotorez.com
 oraclejp2.chungyu.com
@@ -2463,6 +2462,7 @@ pihole.datamatter.co.za
 pihole1.hoerli.net
 pihole2.hoerli.net
 pihole3.hoerli.net
+pingbi.xyz
 pips.kpsn.org
 pitchforkwaydns.duckdns.org
 pl-waw-w-p-2.nashkan.net
@@ -2963,7 +2963,6 @@ wec-httpdns-platform-dbankcloud-com-drcn.region.dbankedge.cn
 wg-ag.isgood.host
 wg.ciepiela.org
 wg.pastorov.ru
-wg.req1.fr
 wg.thienhv.com
 whatcaniplay.com
 wifrousl.spdns.de
@@ -3000,6 +2999,7 @@ xbcpb668.com
 xbox-dns.ru
 xenergy.cc
 xfer.au
+xholgm.top
 xiaoxie.pro
 xiaoxinhui.cn
 xie.ke

@@ -40211,6 +40211,7 @@
 ||twingly.com^
 ||twinpinenetwork.com^
 ||jcaqvl.twinset.com^
+||twistboat.com^
 ||twistloss.com^
 ||twistsweater.com^
 ||twitstat.com^
@@ -41692,6 +41693,7 @@
 ||metrics.waste360.com^
 ||smetrics.waste360.com^
 ||see.wasteorshare.com^
+||watchbighead.com^
 ||link.watchbravotv.com^
 ||watchingthat.com^
 ||lets.watcho.com^
@@ -41908,6 +41910,7 @@
 ||wehvtomny.com^
 ||logtake.weidian.com^
 ||knapia.weightwatchers.com^
+||weirdknight.com^
 ||trk.welchvacuum.com^
 ||welcomesoftware.com^
 ||seniorliving.welcometomonarchlanding.com^
@@ -42828,6 +42831,7 @@
 ||omniture.yodlee.com^
 ||somniture.yodlee.com^
 ||bwujxl.yoga-lava.com^
+||yogatryout.com^
 ||info.eu.tmi.yokogawa.com^
 ||pr.yokohama-chokin.com^
 ||a8cv.yokoyamakaban.com^
@@ -42957,6 +42961,7 @@
 ||gyxtyd.yummicandles.com^
 ||yummly.com^
 ||app-branch.yummybazaar-qa.com^
+||yummymacaroni.com^
 ||yusp.com^
 ||yuspcdn.com^
 ||isebis.yutoriform.com^
@@ -43135,6 +43140,7 @@
 ||dsp-track-global.zmaticoo.com^
 ||www.zmxncb5.com^
 ||zodalt.com^
+||zodiacglass.com^
 ||smetrics.zodiacshoes.com^
 ||zogbyanalytics.com^
 ||pagesense-collect.zoho.com^

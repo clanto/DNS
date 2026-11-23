@@ -353,7 +353,6 @@
 *.proxies.biz
 *.proxify.biz
 *.secretsline.biz
-*.streisandvpn.biz
 *.theproxy2.biz
 *.torguard.biz
 *.ultraproxy.biz
@@ -431,7 +430,6 @@
 *.myproxy.ca
 *.ne1.ca
 *.returnofzack2026.nondestructivetesting.ca
-*.onion.ca
 *.vps-11cf82ff.vps.ovh.ca
 *.vps-3183c6bd.vps.ovh.ca
 *.pizdets.ca
@@ -1404,7 +1402,6 @@
 *.acidtungsten.com
 *.acrosslinehosting.com
 *.actfordeal.com
-*.activpn.com
 *.actmobile.com
 *.vpn-android.adbl0ck.com
 *.adblockluna.com
@@ -1601,7 +1598,6 @@
 *.auraclient.com
 *.auraphatom.com
 *.auronvpn.com
-*.auroraest.com
 *.aurorajiasu.com
 *.aurorastork.com
 *.auth-secure-socket.com
@@ -1655,7 +1651,6 @@
 *.barksymmetry.com
 *.barktether.com
 *.bartproxies.com
-*.bartvpn.com
 *.base99.com
 *.bastlipv.com
 *.batvpn.com
@@ -2038,7 +2033,6 @@
 *.canopypebble.com
 *.canyongravity.com
 *.canyonshore.com
-*.carebuzz.com
 *.careproxy.com
 *.secretsubdomain1.caribbeanpremierhotels.com
 *.carnegle.com
@@ -4182,7 +4176,6 @@
 *.kproxy.com
 *.kqvtnrzla.com
 *.ksfodsgq.com
-*.kslsivnv.com
 *.kthksg.com
 *.ktyjsq.com
 *.ktyrqg.com
@@ -4208,7 +4201,6 @@
 *.kuailian-vip.com
 *.kuailian-vpn.com
 *.kuailian-we.com
-*.kuailian-win.com
 *.kuailian-wp.com
 *.kuailian-zo.com
 *.kuailian003.com
@@ -4847,7 +4839,6 @@
 *.okayfreedom.com
 *.okayvpn.com
 *.okofreevpn.com
-*.okproxy.com
 *.okyuovkg.com
 *.oldgymlife.com
 *.omegaproxy.com
@@ -5269,7 +5260,6 @@
 *.raresoot.com
 *.ultramatheducation.raspberryip.com
 *.ratmist.com
-*.ravoapp.com
 *.rayobyte.com
 *.rcvqvgo.com
 *.readoverlook.com
@@ -6412,7 +6402,6 @@
 *.wjpiwixm.com
 *.wkor3yiac4.com
 *.wlvpn.com
-*.wnuxuhdj.com
 *.wobti.com
 *.wokasn.com
 *.wolfpure.com
@@ -6684,7 +6673,6 @@
 *.zexway.com
 *.zgcvpn.com
 *.zgproxy.com
-*.zhkflohs.com
 *.zhudedafeiji.com
 *.zhuifengdao.com
 *.zhuiyunjiasu.com
@@ -6941,7 +6929,6 @@
 *.ultraviolet-static-dhd.pages.dev
 *.unblockit.pages.dev
 *.uv-staticf.pages.dev
-*.vaporgithub.pages.dev
 *.vaporsite.pages.dev
 *.wowinterstellar.pages.dev
 *.zatoga.pages.dev
@@ -7058,7 +7045,6 @@
 *.nordvpn.fi
 *.tor2web.fi
 *.teacher4biology.fit
-*.zgvpn.fit
 *.zoogvpn.fit
 *.void.radio.fm
 *.unblocked.foo
@@ -7363,7 +7349,6 @@
 *.sammyspawnedhotspot.keriss.co.id
 *.croxyproxy.id
 *.croxyproxy1.id
-*.fivefootoneiscrazyngl.groups.id
 *.velocity.groups.id
 *.howdy.id
 *.vpnto.bhadrikais.my.id
@@ -8496,7 +8481,6 @@
 *.befreevpn.mom
 *.blancvpn.mom
 *.caiyun.mom
-*.canvas.mom
 *.covpn.mom
 *.dashi.mom
 *.elliotshanock.mom
@@ -9753,8 +9737,6 @@
 *.foreverlian.net
 *.fortvpn.net
 *.fproxy.net
-*.free-planet-vpn.net
-*.free-vpnplanet-ru.net
 *.freeanonymousproxy.net
 *.freedome-vpn.net
 *.freeplanetvpn.net
@@ -9937,7 +9919,6 @@
 *.knvpn.net
 *.koolfreenpv.net
 *.www-pro.kosite.net
-*.kryptovpn.kryptotel.net
 *.kuailailian.net
 *.kuailian-letsvpn.net
 *.kuailianletsvpn.net
@@ -10416,7 +10397,6 @@
 *.business-integration.online
 *.bv33.online
 *.bxv88.online
-*.cbr2ozbx.online
 *.cgahwtlh3.online
 *.chatgptspro.online
 *.clashvpn.online
@@ -10530,7 +10510,6 @@
 *.vpnproxy.online
 *.vpntrustway.online
 *.go.vrpyourself.online
-*.vthrnrwrbtq2n1xpjt5d.online
 *.webproxy.online
 *.weontoplmsbauchi.online
 *.wii23upuz2in4.online
@@ -10540,7 +10519,6 @@
 *.ywtm5afvcjjihelual.online
 *.z1j9ortoc.online
 *.zgcon.online
-*.zhknia0azrek.online
 *.zkcfi3szz.online
 *.zwskk3lczgjwug3hzpd.online
 *.ktm.ooo
@@ -11174,7 +11152,6 @@
 *.pipster.org
 *.piraproxy.org
 *.platobox.org
-*.platovpn.org
 *.ponghive.org
 *.topic.terms.port0.org
 *.media.logic.postie.org
@@ -11773,7 +11750,6 @@
 *.vpnrussia.ru
 *.vpnsbox.ru
 *.vpnzaychik.ru
-*.vpv-pay.ru
 *.vpvpay.ru
 *.vsela.ru
 *.wimorala.ru
@@ -11920,7 +11896,6 @@
 *.auronsvr.site
 *.auronvpn.site
 *.avovpn.site
-*.bananaspeed.site
 *.c7484e359297.site
 *.cdnaccelerate.site
 *.classicoo.site
@@ -12029,7 +12004,6 @@
 *.gsoubgh.space
 *.gsouyou.space
 *.sdfergrdewdwdawdwdszdsadsadas.helixarcade.space
-*.ilovecrocs.space
 *.infomagazine.space
 *.jjs-bbq.space
 *.learn-math.space
@@ -12353,10 +12327,8 @@
 *.tsmeog.top
 *.tvvv.top
 *.uboost.top
-*.ubyis.top
 *.uproxy.top
 *.upsidedowntext.top
-*.v2ny.top
 *.vaporon.top
 *.vpnmaster.top
 *.vvppnn.top
@@ -12701,7 +12673,6 @@
 *.untraceable.us
 *.valuepremium.us
 *.videocollage.us
-*.vpn-service.us
 *.waitfree.us
 *.webproxy.us
 *.wedding-present.us
@@ -12864,7 +12835,6 @@
 *.unblock.ws
 *.xite.ws
 *.ajh.wtf
-*.bpn.wtf
 *.bypassed.wtf
 *.eazy.wtf
 *.proxy.facil.wtf
@@ -13271,7 +13241,6 @@
 *.starvevpn.xyz
 *.starwayvpn.xyz
 *.staticvaultcdn.xyz
-*.steamstatic.xyz
 *.stupidstow.xyz
 *.ehs.suondaxi.xyz
 *.suyinx.xyz

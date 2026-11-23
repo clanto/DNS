@@ -116,7 +116,6 @@ filesanywhere.com
 filesavr.com
 filesend.net
 filesmap.com
-filesmore.com
 filespoint.com
 filespump.com
 filestube.com
@@ -385,6 +384,7 @@ uploadyourfiles.de
 upshare.eu
 upvid.co
 usaupload.net
+usersdrive.com
 usershare.net
 userupload.net
 ushareit.com
