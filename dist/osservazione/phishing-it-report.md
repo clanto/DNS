@@ -4,15 +4,15 @@
 
 **Fase di osservazione**: i candidati non sono in nessuna blocklist pubblicata. Servono a misurare i falsi positivi prima di promuovere la lista a `block-phishing-it`.
 
-Giro del 2026-11-23: fonte crt.sh, soglia 60, finestra 7 giorni, scadenza 7 giorni.
+Giro del 2026-11-24: fonte crt.sh, soglia 60, finestra 7 giorni, scadenza 7 giorni.
 
 ## Statistiche del giro
 
 | Voce | Valore |
 |---|---|
 | prefissi interrogati | 20 di 81 |
-| errori della fonte | 20 |
-| certificati letti | 0 |
+| errori della fonte | 4 |
+| certificati letti | 2001 |
 | certificati nella finestra | 0 |
 | nomi distinti analizzati | 0 |
 | scartati: nessun marchio | 0 |
@@ -25,7 +25,7 @@ Giro del 2026-11-23: fonte crt.sh, soglia 60, finestra 7 giorni, scadenza 7 gior
 | scartati: sotto soglia | 0 |
 | scartati: non è un nome a dominio | 0 |
 | non risolvono (in questo giro) | 1 |
-| durata (secondi) | 907 |
+| durata (secondi) | 901 |
 | candidati pubblicabili (sopra soglia e vivi) | 7 |
 | voci nello stato | 39 |
 | uscite per scadenza | 0 |
@@ -34,35 +34,19 @@ Giro del 2026-11-23: fonte crt.sh, soglia 60, finestra 7 giorni, scadenza 7 gior
 
 | Dominio | Marchio | Punteggio | Motivi | Primo avvistamento | Ultima risposta DNS |
 |---|---|---|---|---|---|
-| appioschicken.online | pagoPA / app IO | 70 | marchio pagoPA / app IO nel dominio; TLD .online; wildcard; certificato DV gratuito | 2026-10-12 | 2026-11-23 |
-| satispaybenefits.info | Satispay | 70 | marchio Satispay nel dominio; TLD .info; certificato recente; wildcard | 2026-10-14 | 2026-11-23 |
-| appiospg88ios.vip | pagoPA / app IO | 65 | marchio pagoPA / app IO nel dominio; TLD .vip; wildcard | 2026-10-12 | 2026-11-23 |
-| appiosu.site | pagoPA / app IO | 65 | marchio pagoPA / app IO nel dominio; TLD .site; wildcard | 2026-10-23 | 2026-11-23 |
-| webank.online | Banco BPM / Webank | 65 | marchio Banco BPM / Webank nel dominio; TLD .online; certificato recente | 2026-10-16 | 2026-11-23 |
-| buddybanks.xyz | UniCredit | 60 | marchio UniCredit nel dominio; TLD .xyz | 2026-10-19 | 2026-11-23 |
-| unicreditbank.shop | UniCredit | 60 | marchio UniCredit nel dominio; TLD .shop | 2026-10-16 | 2026-11-23 |
+| appioschicken.online | pagoPA / app IO | 70 | marchio pagoPA / app IO nel dominio; TLD .online; wildcard; certificato DV gratuito | 2026-10-12 | 2026-11-24 |
+| satispaybenefits.info | Satispay | 70 | marchio Satispay nel dominio; TLD .info; certificato recente; wildcard | 2026-10-14 | 2026-11-24 |
+| appiospg88ios.vip | pagoPA / app IO | 65 | marchio pagoPA / app IO nel dominio; TLD .vip; wildcard | 2026-10-12 | 2026-11-24 |
+| appiosu.site | pagoPA / app IO | 65 | marchio pagoPA / app IO nel dominio; TLD .site; wildcard | 2026-10-23 | 2026-11-24 |
+| webank.online | Banco BPM / Webank | 65 | marchio Banco BPM / Webank nel dominio; TLD .online; certificato recente | 2026-10-16 | 2026-11-24 |
+| buddybanks.xyz | UniCredit | 60 | marchio UniCredit nel dominio; TLD .xyz | 2026-10-19 | 2026-11-24 |
+| unicreditbank.shop | UniCredit | 60 | marchio UniCredit nel dominio; TLD .shop | 2026-10-16 | 2026-11-24 |
 
 Voci sotto soglia nello stato: 32 (non elencate: servono solo a misurare la soglia).
 
 ## Errori della fonte
 
-- areaclienti%: HTTP Error 502: Bad Gateway
-- verifica%: HTTP Error 502: Bad Gateway
-- poste%: HTTP Error 502: Bad Gateway
-- bancoposta%: HTTP Error 502: Bad Gateway
-- posteid%: HTTP Error 502: Bad Gateway
-- intesa%: HTTP Error 502: Bad Gateway
-- isybank%: HTTP Error 502: Bad Gateway
-- unicredit%: HTTP Error 502: Bad Gateway
-- buddybank%: HTTP Error 502: Bad Gateway
-- bper%: HTTP Error 502: Bad Gateway
-- bancobpm%: HTTP Error 502: Bad Gateway
-- bpm-%: HTTP Error 502: Bad Gateway
-- webank%: HTTP Error 502: Bad Gateway
-- fineco%: HTTP Error 502: Bad Gateway
-- mediolanum%: HTTP Error 502: Bad Gateway
-- bancamediolanum%: HTTP Error 502: Bad Gateway
-- ing-%: HTTP Error 502: Bad Gateway
-- ingitalia%: HTTP Error 502: Bad Gateway
-- ingdirect%: HTTP Error 502: Bad Gateway
-- creditagricole%: HTTP Error 502: Bad Gateway
+- agricole%: The read operation timed out
+- nexi%: HTTP Error 502: Bad Gateway
+- spidaccesso%: HTTP Error 502: Bad Gateway
+- inps%: HTTP Error 404: Not Found
