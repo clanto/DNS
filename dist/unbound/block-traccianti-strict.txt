@@ -18386,6 +18386,7 @@
 *.somni.lightstream.com
 *.marketing.lightstreamin.com
 *.lighttalon.com
+*.lightwars.com
 *.beta-link.liilix.com
 *.debug-inform.liilix.com
 *.inform.liilix.com

@@ -501,6 +501,7 @@
 ||easyhandshake.com^
 ||dns.easyhns.com^
 ||dns.edc-pws.com^
+||dns.edgeburnmedia.com^
 ||dns.efficientdocuments.com^
 ||dns.ekinao.com^
 ||adguard.elrobit.com^
@@ -1346,7 +1347,6 @@
 ||dns.qkc.fr^
 ||home.r01.fr^
 ||rayneau.fr^
-||wg.req1.fr^
 ||dns.sellan.fr^
 ||pates.services.sfr.fr.casepp.sfr.fr^
 ||dns.spirio.fr^
@@ -2882,7 +2882,6 @@
 ||amazonka7.ru^
 ||dns.amigo-mgn.ru^
 ||an81dns.ru^
-||andrey93rus.ru^
 ||angrysky.ru^
 ||ad.anym0re.ru^
 ||arcticstorm.ru^
@@ -2909,7 +2908,6 @@
 ||dns.echpochmak-club.ru^
 ||doh.edifiels.ru^
 ||dns.engineer-lib.ru^
-||vm596152.eurodir.ru^
 ||dns.farshmc.ru^
 ||dns.fidbonteam.ru^
 ||doh.fullhosting.ru^

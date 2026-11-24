@@ -13014,6 +13014,7 @@
 ||unblock.425mb.com^
 ||proxpro.42t.com^
 ||swirl.42t.com^
+||42url.com^
 ||43proxies.com^
 ||443proxy.com^
 ||1.44qs.com^
@@ -26661,7 +26662,6 @@
 ||urlbrowse.com^
 ||urlbucks.com^
 ||urlburst.com^
-||urlcover.com^
 ||urlcut.com^
 ||urlday.com^
 ||urlencoded.com^
@@ -47583,7 +47583,6 @@
 ||layermask.info^
 ||lazyfoo.info^
 ||lcloak.info^
-||ldgr.info^
 ||ldirection.info^
 ||leachip.info^
 ||leaningatschool.info^
