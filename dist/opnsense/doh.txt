@@ -130,7 +130,6 @@ adguard.abd.ong
 adguard.acrobyte.org
 adguard.adrianofrongillo.ovh
 adguard.aenth.com
-adguard.ajinga.net
 adguard.alu.dog
 adguard.aminetwork.biz
 adguard.amscenter.net
@@ -187,7 +186,6 @@ adguard.kitakitsune.xyz
 adguard.landropunk.xyz
 adguard.lege.despagne.net
 adguard.llf520.dpdns.org
-adguard.londonwebnerd.cloud
 adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
@@ -428,6 +426,7 @@ at.pzhg.me
 atelier.alica.idv.tw
 atl01.dnscry.pt
 atlantic.dyn1.de
+atris.cyou
 atsilva.link
 au-syd-w-f-1.nashkan.net
 au-syd-w-p-1.nashkan.net
@@ -607,6 +606,7 @@ de01.dns4me.net
 de51.tcpdoor.net
 decloudus.com
 dedidl.com
+deep-henchman-excuse.cfd
 deflectordns.com
 dehb.ru
 deic-lgb.anycast.censurfridns.dk
@@ -879,6 +879,7 @@ dns.dzkji.cn
 dns.easyhns.com
 dns.echpochmak-club.ru
 dns.eddi.net
+dns.edgeburnmedia.com
 dns.edgeworkssystems.ca
 dns.efficientdocuments.com
 dns.ekinao.com
@@ -1737,6 +1738,8 @@ doh.xorlet.ru
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
+doh1.b-cdn.net
+doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -1894,7 +1897,6 @@ geg01.dnscry.pt
 genielee.duckdns.org
 geniimisli.duckdns.org
 genscorp.es
-geshido.vpn.geshido.ru
 getdnsapi.net
 gigatapbot.top
 ginnungagap.rabenhain.net
@@ -2164,7 +2166,6 @@ kronos.plan9-dns.com
 krtekvpn.duckdns.org
 kubinet.duckdns.org
 kudns.kescher.at
-kx-97795-tr.xyz
 kz-pav-w-p-1.nashkan.net
 la-doh.stuptech.com
 lamdtl.giize.com
@@ -2180,7 +2181,6 @@ le-mesle.fr
 ledns.eu
 lelux.fi
 lena.vpn.i81.ru
-lesuo.top
 lfbn-gre-1-319-7.w90-112.abo.wanadoo.fr
 libredns.gr
 lifeisa.live
@@ -2584,7 +2584,6 @@ ro-buc-w-f-1.nashkan.net
 ro-buc-w-p-1.nashkan.net
 roadesdyn.go.ro
 roelgianotten.ddnsfree.com
-roma.vpn.geshido.ru
 romania.privacy-dns.pw
 ronaldvkrueger.ddns.net
 root.hagezi.org

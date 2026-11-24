@@ -113631,7 +113631,6 @@ link.nn.ru
 link.oarc.uk
 link.paior.com
 link.payple.kr
-link.peds.to
 link.phsz.ch
 link.pixelida.com
 link.plains.io
@@ -114732,7 +114731,6 @@ munbyn.biz
 mundoonatural.com
 mupf.me
 murl.com
-murl.gg
 murls.xyz
 music.yosa.org
 musicpack4djs.download
@@ -116033,7 +116031,6 @@ raxpj.com
 rayburn.link
 raykiemery.com
 rayzershort.com
-razi-link.ir
 rb-story.com
 rb.gy
 rb6.me
@@ -116311,7 +116308,6 @@ rsshort.com
 rstr.me
 rt.se
 rtc.la
-rtedq.com
 rtfo.site
 rtk.tools
 rtpslotmax.win
@@ -118696,8 +118692,6 @@ url2go.pro
 url2s.com
 url302x.icu
 url302x.top
-url38x.com
-url39x.com
 url4.eu
 url4.org
 url4.uk
@@ -118840,7 +118834,6 @@ urlshor.com
 urlshort.allcrom.com.br
 urlshort.ca
 urlshort.click
-urlshort.co
 urlshort.dev
 urlshort.host
 urlshort.rest
@@ -120195,3 +120188,7 @@ mrlink.in
 magaus.xyz
 redir.fr
 xplinks.com
+@498753
+casa.netsons.org
+snipi.io
+url.optidiscover.com

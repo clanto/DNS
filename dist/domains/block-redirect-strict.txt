@@ -1983,6 +1983,7 @@
 429proxy.info
 42cc.info
 42r.info
+42url.com
 42usprox.info
 431789proxy.tk
 4321cnzz.tk
@@ -51643,7 +51644,6 @@ lcmargin.tk
 lcproxy.com
 lcschoolproxy.tk
 lcslearn.tk
-ldgr.info
 ldiablo.com
 ldirection.info
 ldjet.io
@@ -104029,7 +104029,6 @@ urlchecker.info
 urlcloakr.info
 urlcoat.info
 urlcode.info
-urlcover.com
 urlcut.com
 urlcut.link
 urlday.cc

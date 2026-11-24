@@ -508,7 +508,6 @@ an81.ddns.net
 an81dns.ru
 ancv.sytes.net
 andrewnw.xyz
-andrey93rus.ru
 andryk111.duckdns.org
 andrykarcew.duckdns.org
 andybunn.onthewifi.com
@@ -1127,6 +1126,7 @@ dns.easyhns.com
 dns.echpochmak-club.ru
 dns.edc-pws.com
 dns.eddi.net
+dns.edgeburnmedia.com
 dns.edgeworkssystems.ca
 dns.edison42.dev
 dns.efficientdocuments.com
@@ -3628,7 +3628,6 @@ virga.pp.ua
 virmamp33.sytes.net
 vladpro.ru
 vm.delfini.online
-vm596152.eurodir.ru
 vn.dns.abpvn.com
 vno01.dnscry.pt
 void.mcfly.lol
@@ -3687,7 +3686,6 @@ wec-httpdns-platform-dbankcloud-com-drcn.region.dbankedge.cn
 wg-ag.isgood.host
 wg.ciepiela.org
 wg.pastorov.ru
-wg.req1.fr
 wg.thienhv.com
 whatcaniplay.com
 wifrousl.spdns.de

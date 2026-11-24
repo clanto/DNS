@@ -13630,7 +13630,6 @@
 ||urlbit.co^
 ||urlco.co^
 ||urlio.co^
-||urlshort.co^
 ||urlty.co^
 ||urly.co^
 ||usaproxy.co^
@@ -23350,6 +23349,7 @@
 ||oprid.com^
 ||oproxies.com^
 ||opticalillusionsgalore.com^
+||url.optidiscover.com^
 ||rapid.optimizedshells.com^
 ||optimumproxy.com^
 ||optimus4u.com^
@@ -26225,7 +26225,6 @@
 ||rsshort.com^
 ||rsswin.com^
 ||antispam.rsvpit.com^
-||rtedq.com^
 ||rtunnel.com^
 ||rtvote.com^
 ||goo-gl.ru.com^
@@ -29390,8 +29389,6 @@
 ||url12xx.com^
 ||app.url180.com^
 ||url2s.com^
-||url38x.com^
-||url39x.com^
 ||url50.com^
 ||url56x.com^
 ||url666x.com^
@@ -34116,7 +34113,6 @@
 ||lmg.gg^
 ||ludia.gg^
 ||m.gg^
-||murl.gg^
 ||naa.gg^
 ||go.navi.gg^
 ||njit.gg^
@@ -66857,6 +66853,7 @@
 ||skly.io^
 ||m.smartsignals.io^
 ||snapt.io^
+||snipi.io^
 ||sniply.io^
 ||socxo.io^
 ||spicc.io^
@@ -67026,7 +67023,6 @@
 ||go.poweren.ir^
 ||proshare.ir^
 ||radly.ir^
-||razi-link.ir^
 ||rizy.ir^
 ||sarmadinst.ir^
 ||shxi.ir^
@@ -76740,6 +76736,7 @@
 ||netevader.org^
 ||netizen303.org^
 ||netrabbit.org^
+||casa.netsons.org^
 ||netsurfers.org^
 ||proxy.netuno.org^
 ||newproxysites.org^
@@ -116640,7 +116637,6 @@
 ||ovh.to^
 ||paths.to^
 ||paut.to^
-||link.peds.to^
 ||philips.to^
 ||pjps.to^
 ||pke.to^
