@@ -186,6 +186,7 @@ adguard.kitakitsune.xyz
 adguard.landropunk.xyz
 adguard.lege.despagne.net
 adguard.llf520.dpdns.org
+adguard.londonwebnerd.cloud
 adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
@@ -817,6 +818,7 @@ dns.complianceauditores.com.br
 dns.comss.one
 dns.connect.fail
 dns.consoro.eu
+dns.containerpi.com
 dns.controld.com
 dns.corefusion.xyz
 dns.crystalyx.net
@@ -1226,7 +1228,6 @@ dns.paxavemedia.com
 dns.pccoach.nl
 dns.peb-schmidt.de
 dns.periactes.com
-dns.pernika.net
 dns.pesaventofilippo.com
 dns.petqa.ru
 dns.phillipjberry.net
@@ -1318,7 +1319,6 @@ dns.sinhrofazotron.de
 dns.skous.dedyn.io
 dns.skrep.eu
 dns.skrep.in
-dns.sktr.com.tr
 dns.skuy.co.id
 dns.sledge.cc
 dns.slinkyman.net
@@ -1343,6 +1343,7 @@ dns.surfsharkdns.com
 dns.surobe.com
 dns.sv-zauner.at
 dns.svoi.dev
+dns.swin.pro
 dns.switch.ch
 dns.sy.st
 dns.syaifullah.com
@@ -1877,7 +1878,6 @@ funti.cc
 funtikspb.ru
 furrytech.io
 futurearts.cc
-fvpn.jarvishome.ru
 fwgw.orangepipc.mywire.org
 gaia.plonknet.com
 galileo.math.unipd.it
@@ -1948,6 +1948,7 @@ helios.plan9-dns.com
 helsh0ru5.mooo.com
 herkes.online
 hexxitcompany.com
+hfgx.shop
 hgrps.eu
 hieutrang-99.duckdns.org
 himedns.com
@@ -2166,6 +2167,7 @@ kronos.plan9-dns.com
 krtekvpn.duckdns.org
 kubinet.duckdns.org
 kudns.kescher.at
+kx-97795-tr.xyz
 kz-pav-w-p-1.nashkan.net
 la-doh.stuptech.com
 lamdtl.giize.com
@@ -2181,6 +2183,7 @@ le-mesle.fr
 ledns.eu
 lelux.fi
 lena.vpn.i81.ru
+lesuo.top
 lfbn-gre-1-319-7.w90-112.abo.wanadoo.fr
 libredns.gr
 lifeisa.live
@@ -2435,7 +2438,6 @@ patrique.duckdns.org
 paydns.wechatpay.cn
 paydns.weixin.qq.com
 pccoach.ddns.net
-pcgo.fun
 pcornet.freeboxos.fr
 pdns.elecura.net
 pdns.faelix.net
@@ -2462,7 +2464,6 @@ pihole.datamatter.co.za
 pihole1.hoerli.net
 pihole2.hoerli.net
 pihole3.hoerli.net
-pingbi.xyz
 pips.kpsn.org
 pitchforkwaydns.duckdns.org
 pl-waw-w-p-2.nashkan.net
@@ -2754,7 +2755,6 @@ tecworx.at
 teknorota.com
 telex.app
 tenclubamst.ru
-tenmei.casacam.net
 test.143.sh
 test.adg.siudzinski.net
 test.businessconnect.com.tr

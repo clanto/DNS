@@ -34549,6 +34549,7 @@
 *.aem-collector.daumkakao.io
 *.link.debatespace.io
 *.trk.decido.io
+*.tips.delt.io
 *.stats.devrain.io
 *.2e718yf5jypb.test.digitalsurge.io
 *.stats-factory.digitregroup.io

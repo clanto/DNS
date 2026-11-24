@@ -2684,6 +2684,7 @@
 *.dns.privateservices.pro
 *.cdn.refined.pro
 *.adguard.app.sabino.pro
+*.dns.swin.pro
 *.doh.xcom.pro
 *.xiaoxie.pro
 *.mabuktogel.properties

@@ -48752,6 +48752,7 @@
 ||decido.io^
 ||deepdivr.io^
 ||delightchat.io^
+||tips.delt.io^
 ||demandanalytics.io^
 ||stats.devrain.io^
 ||dha.io^
