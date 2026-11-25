@@ -44,7 +44,6 @@
 0123movies.org
 0123movies.org.uk
 0123movies.pics
-0123movies.pro
 0123movies.pw
 0123movies.quest
 0123movies.run
@@ -542,7 +541,6 @@
 123movies2.org
 123movies2.xyz
 123movies200.online
-123movies201.com
 123movies2017.online
 123movies2018.com
 123movies2019.com
@@ -799,6 +797,7 @@
 123moviesfree.beauty
 123moviesfree.best
 123moviesfree.biz
+123moviesfree.blog
 123moviesfree.bond
 123moviesfree.boo
 123moviesfree.casa
@@ -8135,6 +8134,7 @@ coflix.red
 coflix.rest
 coflix.rodeo
 coflix.shop
+coflix.si
 coflix.space
 coflix.store
 coflix.stream
@@ -10660,6 +10660,7 @@ domohozyayki-shefow-lordfilme.ru
 domokhozyayki-lordfilm.ru
 domovenok-kuzya-film-lordfilm.ru
 domovenok-kuzya-film-lordfilms.ru
+domzadomom.ru
 don-diego-lordfilm.top
 donaldlineelse.com
 donevideo.com
@@ -18457,6 +18458,7 @@ hitsports.pro
 hitwarez.website
 hivex.stream
 hjelldyvers-lordfilm.cfd
+hk-lordfilm.lol
 hkonline.com.bd
 hlscat.com
 hlsflast.com
@@ -22361,6 +22363,7 @@ lendmann-lordfilm.ru
 lendmen-lordfilm3.ru
 leningrad-46-lordfilme.ru
 leningrad-46-serial-lordfilm.ru
+leninist.online
 leo-i-tig-lordfilm-online.ru
 leo-i-tig-lordfilm.ru
 leo-tig-lordfilm.ru
@@ -35230,6 +35233,7 @@ lordfilmvfv.lol
 lordfilmvfw.biz
 lordfilmvfy.lat
 lordfilmvfy.lol
+lordfilmvg.monster
 lordfilmvgd.lol
 lordfilmvggm.lol
 lordfilmvgp.lol
@@ -37330,6 +37334,7 @@ losmovies-to.xyz
 losmovies-tv-lol.cyou
 losmovies-tv.lol
 losmovies-tw.cyou
+losmovies.app
 losmovies.autos
 losmovies.baby
 losmovies.buzz
@@ -40271,6 +40276,7 @@ motchillzz.in
 motchillzz.info
 motchillzz.live
 motchillzz.my
+motchillzz.net
 motchillzz.online
 motchillzz.quest
 motchillzz.sbs
@@ -40384,7 +40390,6 @@ movie4k.lifestyle
 movie4k.living
 movie4k.ltd
 movie4k.movie
-movie4k.online
 movie4k.org
 movie4k.sbs
 movie4k.space
@@ -42322,6 +42327,7 @@ myflixtor.lol
 myflixtor.se
 myflixtor.skin
 myflixtor.to
+myflixtor.tv
 myflixtor.vip
 myflixtors.com
 myflixtortv.cfd
@@ -44437,6 +44443,7 @@ open.kickasstracker.com
 open.lolicon.eu
 open.touki.ru
 open.tracker.ink
+open.u-p.pw
 openbittorrent.com
 openclip.info
 openflix.pro
@@ -49711,6 +49718,7 @@ sestrukha-lordfilm.skin
 sestrukha-lordfilm.top
 sestry-serial-lordfilm.ru
 settingsanime.xyz
+seuedu.online
 seven-deadly-sins-lordfilm.ru
 seven-lordfilms.homes
 seven-lordfilms.sbs
@@ -51097,7 +51105,6 @@ soap2dayhg.com
 soap2dayhhd.com
 soap2dayhhd.my
 soap2dayhhd.world
-soap2dayhq.online
 soap2dayhub.bond
 soap2dayhub.com
 soap2dayhub.live
@@ -53128,12 +53135,16 @@ streamingcommunityz.deals
 streamingcommunityz.fit
 streamingcommunityz.foo
 streamingcommunityz.food
+streamingcommunityz.fun
 streamingcommunityz.garden
 streamingcommunityz.gay
 streamingcommunityz.gripe
 streamingcommunityz.help
 streamingcommunityz.house
+streamingcommunityz.icu
 streamingcommunityz.info
+streamingcommunityz.ist
+streamingcommunityz.lat
 streamingcommunityz.life
 streamingcommunityz.live
 streamingcommunityz.llc
@@ -53150,6 +53161,7 @@ streamingcommunityz.party
 streamingcommunityz.pro
 streamingcommunityz.qpon
 streamingcommunityz.republican
+streamingcommunityz.rodeo
 streamingcommunityz.sbs
 streamingcommunityz.shiksha
 streamingcommunityz.space
@@ -55048,6 +55060,7 @@ thebestvpn.com
 thebigheap.com
 thebollyflix.gen.in
 thebollyflix.in
+thebollyflix.mom
 thebollyflix.net
 thebollyflix.one
 thebollyflix.xyz
@@ -56125,6 +56138,7 @@ torrentclient.org
 torrentcloud9.me
 torrentclub.com
 torrentclub.online
+torrentclub.space
 torrentclub.tech
 torrentcocleaning.com
 torrentcode.xyz
@@ -57595,6 +57609,7 @@ tracker.hismz.cn
 tracker.hitpt.com
 tracker.hiyj.cn
 tracker.home.kmzs123.cn
+tracker.hownetwork.xyz
 tracker.iamhansen.xyz
 tracker.ilibr.org
 tracker.imgoingto.icu
@@ -57615,6 +57630,7 @@ tracker.kali.org
 tracker.kamigami.org
 tracker.kawaii.id
 tracker.keepfrds.com
+tracker.kitaujisub.site
 tracker.kmzs123.cn
 tracker.kmzs123.top
 tracker.kuroy.me
@@ -57702,7 +57718,6 @@ tracker.revolutiontt.me
 tracker.riverarmy.xyz
 tracker.run.place
 tracker.safe.moe
-tracker.sakurato.art
 tracker.sakurato.xyz
 tracker.sbsub.com
 tracker.seedceo.com
@@ -62039,7 +62054,6 @@ www.dahen.net
 www.darkwarez.pl
 www.datafilehost.com
 www.davidsoft.org
-www.ddl-warez.theproxy.lol
 www.ddl-world.ws
 www.ddl2.ws
 www.ddlicious.com
@@ -62805,6 +62819,7 @@ www.xforce-cracks.com
 www.xn--80a4b.com
 www.xn--80aeugjdc1b.com
 www.xparadise.ru
+www.yggtorrent.town
 www.yiffy-torrent.org
 www.yify-movie.com
 www.yify-movies-torrents.com
@@ -62839,7 +62854,6 @@ www.zdownloadx488.tk
 www.zipcodeshop.com
 www.zmovie.ru
 www.zonawarez.net
-www.zone-torrent.town
 www.zoomtorrents.com
 www.zoozle.org
 www.zourtube.com
@@ -63007,7 +63021,6 @@ xcinema.boxmovies.club
 xcinema.ro
 xcinema.site
 xcinema188.com
-xcinemas.tvstream.biz
 xcinemaxxx.com
 xcinepk.top
 xcinerr.asia
@@ -63543,7 +63556,6 @@ yggtorrent.si
 yggtorrent.site
 yggtorrent.skin
 yggtorrent.top
-yggtorrent.town
 yggtorrent.us
 yggtorrent.vip
 yggtorrent.win
@@ -64475,6 +64487,7 @@ zlibo.ru
 zlibp.ru
 zlibpremium.com
 zlibq.ru
+zlibr.online
 zlibr.ru
 zlibraries.top
 zlibrary-africa.se
@@ -64500,18 +64513,30 @@ zlibraryaccess.com
 zlibraryapk.com
 zlibraryapk.online
 zlibraryapk.org
+zlibraryc.online
 zlibraryd.online
 zlibraryf.ru
+zlibraryg.online
 zlibraryhindi.com
+zlibraryk.online
+zlibraryl.online
+zlibrarym.online
 zlibrarym.ru
+zlibraryo.online
+zlibraryp.online
 zlibraryp.ru
 zlibrarys.ru
 zlibrarysk.com
+zlibraryt.online
 zlibraryu.ru
+zlibraryw.online
 zlibraryweb.com
+zlibraryy.online
+zlibraryz.online
 zlibrazy.com
 zlibriry.com
 zlibrw9z.top
+zlibs.online
 zlibs.ru
 zlibs.tips
 zlibt.ru
@@ -64521,6 +64546,7 @@ zlibu.ru
 zlibuhow.shop
 zlibv.my
 zlibv.ru
+zlibw.online
 zlibw.ru
 zlibx.ru
 zliby.ru
@@ -64622,7 +64648,6 @@ zombilandu-lordfilm.ru
 zombilend-lordfilm.top
 zombilend-lordfilme.ru
 zombilend-smotret-lordfilm2.ru
-zombtracker.the-zomb.com
 zona-komforta-lordfilm.buzz
 zona-komforta-lordfilm.homes
 zona-komforta-lordfilm.rest

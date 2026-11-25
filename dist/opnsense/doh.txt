@@ -130,6 +130,7 @@ adguard.abd.ong
 adguard.acrobyte.org
 adguard.adrianofrongillo.ovh
 adguard.aenth.com
+adguard.ajinga.net
 adguard.alu.dog
 adguard.aminetwork.biz
 adguard.amscenter.net
@@ -875,7 +876,6 @@ dns.dremaxx.de
 dns.dualhosting.eu
 dns.dugi.io.vn
 dns.dumk.in
-dns.dyn1.de
 dns.dynx.pro
 dns.dzkji.cn
 dns.easyhns.com
@@ -1739,8 +1739,6 @@ doh.xorlet.ru
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
-doh1.b-cdn.net
-doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -1981,6 +1979,7 @@ hkt.kozow.com
 hnsdoh.com
 hockaday.synology.me
 hole.elbschloss.xyz
+home-server.store
 home.azagra.dev
 home.basthorst.eu
 home.dlinkddns.com
@@ -2221,6 +2220,7 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
+mask-canary.icloud.com
 masters-of-cloud.de
 math.netlab.my.id
 mavalleenumerique.hopto.org
@@ -2276,6 +2276,7 @@ mx1.laoxiao789.com
 my.8484848.cn
 myadg.ru
 myagh.claptrap.me
+myatris.sbs
 mycactus.duckdns.org
 mycloud-dns.duckdns.org
 mydns.ddns.me
@@ -2464,6 +2465,7 @@ pihole.datamatter.co.za
 pihole1.hoerli.net
 pihole2.hoerli.net
 pihole3.hoerli.net
+pingbi.xyz
 pips.kpsn.org
 pitchforkwaydns.duckdns.org
 pl-waw-w-p-2.nashkan.net
@@ -2798,7 +2800,6 @@ totoland.eu
 tpa01.dnscry.pt
 tpe01.dnscry.pt
 tr-ist-w-p-2.nashkan.net
-tr.league1.xyz
 travis90x.ddns.net
 trf01.dnscry.pt
 tri-dns.net

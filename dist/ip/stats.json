@@ -1,10 +1,10 @@
 {
   "feed": {
-    "doh-v4.txt": 1376,
-    "doh-v6.txt": 727,
-    "tor-v4.txt": 5345,
-    "tor-v6.txt": 2607,
-    "threat-v4.txt": 25597,
+    "doh-v4.txt": 1378,
+    "doh-v6.txt": 726,
+    "tor-v4.txt": 5368,
+    "tor-v6.txt": 2631,
+    "threat-v4.txt": 26961,
     "threat-v6.txt": 0,
     "c2-v4.txt": 2412,
     "c2-v6.txt": 0,
@@ -16,14 +16,14 @@
     "file-sharing-v6.txt": 5,
     "cloud-storage-v4.txt": 4,
     "cloud-storage-v6.txt": 1,
-    "inbound-v4.txt": 91055,
+    "inbound-v4.txt": 89916,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "all-v4.txt": 34515,
-    "all-v6.txt": 3334,
-    "all-scuole-v4.txt": 43482,
-    "all-scuole-v6.txt": 3839
+    "all-v4.txt": 35885,
+    "all-v6.txt": 3357,
+    "all-scuole-v4.txt": 44849,
+    "all-scuole-v6.txt": 3863
   },
   "fonti": [
     {
@@ -53,7 +53,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1251,
+      "entries": 1255,
       "detail": ""
     },
     {
@@ -63,7 +63,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "ok",
-      "entries": 10275,
+      "entries": 10265,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -73,7 +73,7 @@
       "homepage": "https://github.com/stamparm/ipsum",
       "enabled": true,
       "status": "ok",
-      "entries": 16564,
+      "entries": 17537,
       "detail": "IP presenti in almeno 3 blacklist pubbliche"
     },
     {
@@ -83,7 +83,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 18160,
+      "entries": 18279,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -113,7 +113,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 110152,
+      "entries": 108598,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -164,7 +164,7 @@
       "enabled": true,
       "status": "cache",
       "entries": 2440,
-      "detail": "calo sospetto 2440 → 1138 voci"
+      "detail": "calo sospetto 2440 → 1147 voci"
     },
     {
       "id": "abusech-feodo",
@@ -272,15 +272,15 @@
     }
   },
   "allowlist": {
-    "voci": 250,
+    "voci": 203,
     "reti_modificate": 1
   },
   "condivisi": {
     "intervalli": 11074,
-    "voci_escluse": 5538
+    "voci_escluse": 5468
   },
   "protetti": {
-    "ip_risolti": 240,
+    "ip_risolti": 193,
     "voci_escluse": [
       "doh: 94.23.71.64/32 usato da dns.clanto.cloud"
     ]

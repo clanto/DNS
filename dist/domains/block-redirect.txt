@@ -43131,7 +43131,6 @@ h1w.info
 h2077619.stratoserver.net
 h264-rt.tk
 h2apz.com
-h2mhridayff.com
 h2oproxy.com
 h3x.ir
 h3y.info
@@ -55219,6 +55218,7 @@ letsbunk.org
 letsbypass.info
 letscheat.info
 letscheat.net
+letsconnect.fun
 letsget.racing
 letsgetyou.in
 letsgetyou.info
@@ -90940,6 +90940,7 @@ shortenme.io
 shortenme.me
 shortenmyurl.online
 shortenn.org
+shortenn.site
 shortenpay.com
 shortenpro.com
 shortenr-app.vercel.app
@@ -103961,6 +103962,7 @@ toolaxy.com
 toolbardata.co.cc
 toolbarhide.tk
 toolbites.com
+toolboxdaily.com
 toolbypasslocked.tk
 toolfor.info
 toolforschool.com

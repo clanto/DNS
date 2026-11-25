@@ -19025,6 +19025,7 @@
 *.smetrics.greenflag.com
 *.gblock.greenhousedata.com
 *.metrics.greenies.com
+*.uniqueness.greenmangaming.com
 *.analytics.greenmountain.com
 *.analytics.greenmountainenergy.com
 *.info.greenosupply.com
@@ -21611,6 +21612,7 @@
 *.metrics.ivivva.com
 *.smetrics.ivivva.com
 *.fd.ivoclar.com
+*.ivoryandcrow.com
 *.ivykiosk.com
 *.iw039dkd.com
 *.metrics.iwakifc.com

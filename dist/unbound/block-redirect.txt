@@ -19441,7 +19441,6 @@
 *.h-talk.com
 *.h-tunnel.com
 *.h2apz.com
-*.h2mhridayff.com
 *.h2oproxy.com
 *.links.h4stack.com
 *.h5bio.com
@@ -28488,6 +28487,7 @@
 *.toofficialwebsite.com
 *.toolaxy.com
 *.toolbites.com
+*.toolboxdaily.com
 *.toolforschool.com
 *.toolforus.com
 *.toolkingo.com
@@ -32271,6 +32271,7 @@
 *.bj88php.fun
 *.doodsty.fun
 *.janjihoki.fun
+*.letsconnect.fun
 *.main-xgslot88.fun
 *.mainterus.fun
 *.minitv.fun
@@ -79020,6 +79021,7 @@
 *.shlinks.site
 *.shoptapkich.site
 *.shortenerurl.site
+*.shortenn.site
 *.shortslinks.site
 *.shortsurl.site
 *.shrinkme.site

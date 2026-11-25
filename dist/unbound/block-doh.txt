@@ -3161,7 +3161,6 @@
 *.adguardhome.ittoolman.top
 *.hk.jason666.top
 *.jimmyshjj.top
-*.adguard.johanliebert.top
 *.ad.kccsl.top
 *.blog.kimiblock.top
 *.2024.laijy.top

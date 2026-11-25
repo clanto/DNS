@@ -242,7 +242,6 @@ adguard.itclogic.cloud
 adguard.jaydub.cloud
 adguard.jfchenier.ca
 adguard.jodatacenter.com
-adguard.johanliebert.top
 adguard.jvpatel.com
 adguard.k-likhachev.ru
 adguard.kalyanmudumby.com
@@ -2182,6 +2181,7 @@ doh.us.moe.tips
 doh.valscosmos.com
 doh.viatech.com.tw
 doh.webnmail.de
+doh.westeu.pi-dns.com
 doh.westus.pi-dns.com
 doh.wewitro.net
 doh.xcom.pro
