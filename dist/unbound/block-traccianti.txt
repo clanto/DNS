@@ -9972,6 +9972,7 @@
 *.awzbijw.com
 *.axcii.com
 *.axciom.com
+*.axedint.com
 *.as.axelspringer.com
 *.elq.axeslive.com
 *.axfry8trk.com
@@ -15139,6 +15140,7 @@
 *.dollarthrill.com
 *.d401.dollartree.com
 *.dolldetail.com
+*.dolphinplate.com
 *.dolphinsrule.com
 *.domaincolumn.com
 *.domdex.com
@@ -39309,6 +39311,7 @@
 *.timelessyes.com
 *.smetrics.timeout.com
 *.ugdcxl.timeout.com
+*.timeprince.com
 *.bxumze.times-gazette.com
 *.tracker.timesgroup.com
 *.sxjfhh.timesrecordnews.com
@@ -53430,6 +53433,7 @@
 *.smetrics.fetnet.net
 *.fico.net
 *.figurehunter.net
+*.filmcomm.net
 *.geoip.finanzen.net
 *.tracking.finanzen.net
 *.ciszhp.finanzfrage.net

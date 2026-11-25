@@ -109,6 +109,7 @@ files-express.com
 files-upload.com
 files.catbox.moe
 files.mail.ru
+files.to
 files6.com
 filesanywhere.com
 filesavr.com
@@ -121,6 +122,7 @@ fileup.org
 fileupyours.com
 filezzz.com
 film-2-streaming.com
+flypicture.com
 fotazas.com
 fotonons.ru
 fotop.net
@@ -154,6 +156,7 @@ hotchyx.com
 hotfile.com
 hotlinkfiles.com
 hotshare.net
+hugedrive.com
 hulkload.com
 hulkshare.com
 humyo.com
@@ -263,6 +266,7 @@ picoodle.com
 picscrazy.com
 picsec.com
 picturetrail.com
+picupl.com
 picvalley.net
 pixagogo.com
 pixali.com
@@ -290,11 +294,13 @@ rapidsharing.com
 rapidupload.com
 redlist.be
 refrozen.com
+reliableimage.com
 revver.com
 rhost.cz
 rockfile.co
 sadew.com
 savefile.com
+scambia.com
 send-file.co.uk
 sendmefile.com
 sendspace.com
@@ -364,6 +370,7 @@ uploadbuzz.cc
 uploadchan.org
 uploaded.net
 uploadev.org
+uploadgalaxy.com
 uploadhouse.com
 uploading.com
 uploadjar.com

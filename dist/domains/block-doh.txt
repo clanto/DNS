@@ -2495,7 +2495,6 @@ hole.elbschloss.xyz
 home-server.store
 home.azagra.dev
 home.basthorst.eu
-home.bruckmoser.it
 home.dlinkddns.com
 home.fc.idv.tw
 home.fendya.com
@@ -3122,6 +3121,7 @@ polisitogel.beauty
 polisitogel.contractors
 polisitogel.green
 polisitogel.hair
+polisitogel.living
 polisitogel.webcam
 pooblet.co.za
 positif4.cross.net.id
@@ -3599,6 +3599,7 @@ use-application-dns.net
 usxui.13142233.xyz
 uw-dns.rubyfish.cn
 v.dnscrypt.uk
+v.qdev.cc
 v.recipes
 v.yuhui.eu.org
 v0dka.ru

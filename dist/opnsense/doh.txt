@@ -876,6 +876,7 @@ dns.dremaxx.de
 dns.dualhosting.eu
 dns.dugi.io.vn
 dns.dumk.in
+dns.dyn1.de
 dns.dynx.pro
 dns.dzkji.cn
 dns.easyhns.com
@@ -949,7 +950,6 @@ dns.ginovs.nl
 dns.girino.org
 dns.giriprabhat.com
 dns.glampool.cloud
-dns.glf.wtf
 dns.glorydns.com
 dns.glsoft.ai
 dns.gnb09.id
@@ -1343,7 +1343,6 @@ dns.surfsharkdns.com
 dns.surobe.com
 dns.sv-zauner.at
 dns.svoi.dev
-dns.swin.pro
 dns.switch.ch
 dns.sy.st
 dns.syaifullah.com
@@ -1739,6 +1738,8 @@ doh.xorlet.ru
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
+doh1.b-cdn.net
+doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
 doh64.dns4all.eu
@@ -1979,7 +1980,6 @@ hkt.kozow.com
 hnsdoh.com
 hockaday.synology.me
 hole.elbschloss.xyz
-home-server.store
 home.azagra.dev
 home.basthorst.eu
 home.dlinkddns.com
@@ -2203,7 +2203,6 @@ los02.dnscry.pt
 lothuscorp.com.br
 lslnyjq.uk
 luba.vpn.i81.ru
-lukscasino-479-tr.xyz
 lukscasino-929-tr.xyz
 lunar-dns.de
 luxembourg.privacy-dns.pw
@@ -2220,7 +2219,6 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
-mask-canary.icloud.com
 masters-of-cloud.de
 math.netlab.my.id
 mavalleenumerique.hopto.org
@@ -2292,7 +2290,6 @@ myvps69hrw.duckdns.org
 mzs1.ddns.net
 n.5201344.xyz
 n5.lsasss.com
-naganohara-yoimiya.momokko.moe
 najiakeji.top
 namdn.duckdns.org
 nanopi.cybergroove.net
@@ -3041,7 +3038,6 @@ z.vipit.one
 zakaria.website
 zal01.dnscry.pt
 zanty123456.myasustor.com
-zapranet.my.id
 zaziss.com
 zdn.ro
 zetland.rm-ni.uk
