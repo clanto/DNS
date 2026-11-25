@@ -146,6 +146,7 @@
 ||dns.niccoli.cc^
 ||dns.nonomi.cc^
 ||doh.plop.cc^
+||v.qdev.cc^
 ||resolve2.r9x.cc^
 ||dns.redroot.cc^
 ||dns.seaotter.cc^
@@ -1628,7 +1629,6 @@
 ||dns.flatuslifir.is^
 ||ricko.is^
 ||block.abstergo.it^
-||home.bruckmoser.it^
 ||doh.ccb-net.it^
 ||dns.home.daniil.it^
 ||dns2.guidocioni.it^
@@ -1688,6 +1688,7 @@
 ||solaxy.live^
 ||xins.live^
 ||v2.xx3210766.live^
+||polisitogel.living^
 ||acomit.lk^
 ||cpru.dolbankoinc.lol^
 ||de.dolbankoinc.lol^

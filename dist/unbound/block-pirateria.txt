@@ -74,7 +74,6 @@
 *.yesmovies.ag
 *.yts.ag
 *.123movies.agency
-*.9kmovies.agency
 *.allmovieshub.agency
 *.altadefinizione.agency
 *.bollyflix.agency
@@ -198,6 +197,7 @@
 *.macked.app
 *.mkvcinemas.app
 *.motchill1.app
+*.motchill10.app
 *.motchill33.app
 *.motchillb.app
 *.motchille.app
@@ -257,6 +257,7 @@
 *.soccerlive.app
 *.soccerstreamsz.app
 *.solarmovie.app
+*.solarmovies.app
 *.sportsurge.app
 *.streamfree.app
 *.streamingcommunity.app
@@ -344,6 +345,8 @@
 *.aleks-ljutyj-lordfilm.art
 *.allmovieland.art
 *.altadefinizionex.art
+*.anna-medium-lordfilm.art
+*.balabol-lordfilm.art
 *.beguschaja-lordfilm.art
 *.bolshaja-farma-lordfilm.art
 *.bratja-lordfilm.art
@@ -355,6 +358,8 @@
 *.chelovek-pauk-novyj-den-lordfilm.art
 *.chernaja-ljubov-lordfilm.art
 *.cherno-belaja-ljubov-lordfilm.art
+*.chernoe-solnce-lordfilm.art
+*.chernoe-zerkalo-lordfilm.art
 *.chikatilo-lordfilm.art
 *.chukur-lordfilm.art
 *.chuzhaja-lordfilm.art
@@ -380,21 +385,32 @@
 *.formula-prestuplenija-lordfilm.art
 *.gangsterlend-lordfilm.art
 *.gogo-flix.art
+*.goljak-lordfilm.art
 *.gomovies123.art
 *.graviti-folz-lordfilm.art
 *.guardaseriex.art
+*.gudovy-lordfilm.art
 *.hdfilmizlesende.art
 *.hdmovie2.art
 *.hdmovie20.art
+*.himera-lordfilm.art
+*.holms-lordfilm.art
 *.holod-lordfilm.art
+*.holodnye-berega-lordfilm.art
+*.horoshij-chelovek-lordfilm.art
 *.hozjain-moskvy-lordfilm.art
 *.hudozhnik-lordfilm.art
+*.igra-na-vyzhivanie-lordfilm.art
 *.indiaboat.art
 *.istorija-ego-sluzhanki-lordfilm.art
 *.istrebiteli-lordfilm.art
+*.jenn-lordfilm.art
 *.kapitan-tuman-lordfilm.art
+*.kletka-lordfilm.art
 *.kljukvennyj-scherbet-lordfilm.art
 *.klon-lordfilm.art
+*.kordon-lordfilm.art
+*.krasnaja-koroleva-lordfilm.art
 *.krasnye-linii-lordfilm.art
 *.krovavaja-barynja-lordfilm.art
 *.krovavye-cvety-lordfilm.art
@@ -418,7 +434,9 @@
 *.majkl-lordfilm.art
 *.megafilmeshdeseries.art
 *.mentalist-lordfilm.art
+*.mentovskie-vojny-lordfilm.art
 *.mest-ne-vyshe-ljubvi-lordfilm.art
+*.minuta-tishiny-lordfilm.art
 *.motchill.art
 *.motchilll.art
 *.motchillmc.art
@@ -431,7 +449,10 @@
 *.multimovies.art
 *.myflixer.art
 *.myflixerz.art
+*.na-kraju-lordfilm.art
+*.nash-specnaz-lordfilm.art
 *.netmirror.art
+*.nevernye-lordfilm.art
 *.nevskij-blizkij-vrag-lordfilm.art
 *.obitel-zla-lordfilm.art
 *.odin-plus-odin-lordfilm.art
@@ -444,14 +465,19 @@
 *.otchim-lordfilm.art
 *.otpechatki-lordfilm.art
 *.ovcharka-lordfilm.art
+*.papiny-dochki-novye-lordfilm.art
+*.pautina-lordfilm.art
 *.pelisflix.art
 *.pelisflix2.art
 *.pelisflix200.art
 *.pelisflixhd.art
+*.pervaja-raketka-lordfilm.art
 *.pes-lordfilm.art
+*.piligrim-lordfilm.art
 *.pletenyj-muzh-lordfilm.art
 *.pohischenie-lordfilm.art
 *.polden-lordfilm.art
+*.poljarnyj-lordfilm.art
 *.pora-na-zavod-lordfilm.art
 *.postuchis-v-moju-dver-lordfilm.art
 *.prazdniki-lordfilm.art
@@ -461,14 +487,22 @@
 *.proekt-konec-sveta-lordfilm.art
 *.professionalnyj-sosed-lordfilm.art
 *.proxtpb.art
+*.puaro-lordfilm.art
 *.purstream.art
 *.putlockers.art
+*.rannjaja-ptashka-lordfilm.art
+*.roditeli-roditelej-lordfilm.art
 *.ronin-lordfilm.art
+*.serdce-na-troih-lordfilm.art
 *.serdce-zverja-lordfilm.art
+*.seriesflixplay.art
+*.sestruha-lordfilm.art
 *.shifr-lordfilm.art
 *.shkola-lordfilm.art
 *.sklifosovskij-lordfilm.art
 *.skoraja-pomosch-lordfilm.art
+*.slepaja-lordfilm.art
+*.smersh-lordfilm.art
 *.soap2dayhd.art
 *.soap2dayto.art
 *.solarmoviess.art
@@ -483,6 +517,8 @@
 *.street-fighter-lordfilm.art
 *.sverhestestvennoe-lordfilm.art
 *.svoi-lordfilm.art
+*.tajga-lordfilm.art
+*.tajny-sledstvija-lordfilm.art
 *.tajnyj-dnevnik-veriti-lordfilm.art
 *.tanti-film.art
 *.ten-lordfilm.art
@@ -495,19 +531,25 @@
 *.uchastok-lordfilm.art
 *.ulica-lordfilm.art
 *.univer-novaja-obschaga-lordfilm.art
+*.uslovnyj-ment-lordfilm.art
 *.vegamovies.art
 *.vegamovieshd.art
 *.velikaja-lordfilm.art
+*.velikolepnaja-pjaterka-lordfilm.art
 *.velikolepnyj-vek-lordfilm.art
 *.vetrenyj-lordfilm.art
 *.vikingi-lordfilm.art
+*.vor-v-zagone-lordfilm.art
 *.vyzhivshie-lordfilm.art
 *.xalaflix.art
 *.xmovies8-alternative.art
 *.yaoiflix.art
 *.yomovies.art
 *.zakonnik-lordfilm.art
+*.zapozdalaja-ljubov-lordfilm.art
+*.zapretnaja-ljubov-lordfilm.art
 *.zapretnyj-plod-lordfilm.art
+*.zhvachka-lordfilm.art
 *.zimorodok-lordfilm.art
 *.123moviesfree.asia
 *.1vegamovies.asia
@@ -518,6 +560,7 @@
 *.altadefinizionex.asia
 *.bollyflix.asia
 *.cb01one.asia
+*.cb01primo.asia
 *.cineblog001.asia
 *.cineblog01.asia
 *.cineby.asia
@@ -595,7 +638,6 @@
 *.z-library.asia
 *.zlibrary.asia
 *.123moviesfree.at
-*.5movierulz.at
 *.animeunity.at
 *.crichd.at
 *.mixes.dfx.at
@@ -980,6 +1022,7 @@
 *.holod-lordfilm.beer
 *.il-geniodellostreaming.beer
 *.ilgeniodellostreaming.beer
+*.kinlordfilms.beer
 *.laroza.beer
 *.larozaa.beer
 *.lookmovie2.beer
@@ -1176,6 +1219,7 @@
 *.123movieshub.bet
 *.123moviess.bet
 *.1movies.bet
+*.5movierulz2.bet
 *.5movierulzs.bet
 *.9kmovies.bet
 *.altadefinizione.bet
@@ -1404,6 +1448,7 @@
 *.fmovies4k.biz
 *.fmovies4u.biz
 *.fmoviesf.biz
+*.fmoviesite.biz
 *.fmoviess.biz
 *.fmoviesx.biz
 *.fmoviesz.biz
@@ -1649,6 +1694,7 @@
 *.lordfilmhngm.biz
 *.lordfilmhzu.biz
 *.lordfilmi2.biz
+*.lordfilmi2026.biz
 *.lordfilmi5q.biz
 *.lordfilmibh.biz
 *.lordfilmicwx.biz
@@ -1722,6 +1768,7 @@
 *.lordfilmly2.biz
 *.lordfilmlyg.biz
 *.lordfilmlz3.biz
+*.lordfilmm.biz
 *.lordfilmm25.biz
 *.lordfilmmah.biz
 *.lordfilmmbgp.biz
@@ -2091,6 +2138,7 @@
 *.sstreamingcommunity.biz
 *.stadium-live.biz
 *.streaming-community.biz
+*.streamingunity.biz
 *.streamzy.biz
 *.tanti-film.biz
 *.taraftarium24-mahsunsports.biz
@@ -2178,8 +2226,13 @@
 *.lordfilm.blog
 *.lordfilm-go.blog
 *.lordfilm-india.blog
+*.lordfilmact.blog
+*.lordfilmadventure.blog
+*.lordfilmarc.blog
 *.lordfilmbeach.blog
 *.lordfilmbeacon.blog
+*.lordfilmbeat1.blog
+*.lordfilmbend.blog
 *.lordfilmblaze.blog
 *.lordfilmbolt.blog
 *.lordfilmbond.blog
@@ -2189,69 +2242,124 @@
 *.lordfilmcave.blog
 *.lordfilmchain.blog
 *.lordfilmcharge.blog
+*.lordfilmchord.blog
 *.lordfilmcircle.blog
 *.lordfilmcitadel.blog
 *.lordfilmcoast.blog
 *.lordfilmcrown.blog
+*.lordfilmcurrent.blog
+*.lordfilmcurve.blog
 *.lordfilmdeck1.blog
 *.lordfilmden.blog
+*.lordfilmdiscover.blog
 *.lordfilmdock.blog
 *.lordfilmdomain.blog
+*.lordfilmdrift.blog
 *.lordfilmember.blog
 *.lordfilmempire.blog
 *.lordfilmenergy.blog
+*.lordfilmexplore.blog
+*.lordfilmfind.blog
 *.lordfilmfire.blog
 *.lordfilmflame.blog
 *.lordfilmflare.blog
+*.lordfilmflow1.blog
+*.lordfilmfocus.blog
 *.lordfilmforce.blog
 *.lordfilmforest.blog
 *.lordfilmfort.blog
+*.lordfilmframe.blog
 *.lordfilmfrost.blog
 *.lordfilmgarden.blog
 *.lordfilmgem.blog
+*.lordfilmglide.blog
 *.lordfilmgrid.blog
 *.lordfilmgrove.blog
+*.lordfilmharmony.blog
 *.lordfilmhive.blog
+*.lordfilmhunt.blog
 *.lordfilmhut.blog
 *.lordfilmice.blog
 *.lordfilmik.blog
 *.lordfilmjewel.blog
+*.lordfilmjourney.blog
 *.lordfilmkingdom.blog
 *.lordfilmknot.blog
 *.lordfilmlake.blog
 *.lordfilmlamp.blog
+*.lordfilmlens.blog
 *.lordfilmlight.blog
 *.lordfilmlink1.blog
 *.lordfilmloop.blog
 *.lordfilmmark.blog
+*.lordfilmmelody.blog
 *.lordfilmmesh.blog
 *.lordfilmnest1.blog
+*.lordfilmnote.blog
 *.lordfilmocean.blog
+*.lordfilmpan.blog
+*.lordfilmpath.blog
 *.lordfilmpier.blog
+*.lordfilmpitch.blog
 *.lordfilmpoint1.blog
 *.lordfilmports.blog
 *.lordfilmpower.blog
 *.lordfilmpulse1.blog
+*.lordfilmquest1.blog
 *.lordfilmrealm.blog
+*.lordfilmreel.blog
+*.lordfilmrhythm.blog
 *.lordfilmring.blog
+*.lordfilmripple.blog
 *.lordfilmriver.blog
+*.lordfilmroad.blog
 *.lordfilmrock.blog
+*.lordfilmroll.blog
 *.lordfilms.blog
+*.lordfilmsail.blog
+*.lordfilmscene.blog
+*.lordfilmscope1.blog
+*.lordfilmscore.blog
+*.lordfilmscreen.blog
 *.lordfilmsea.blog
+*.lordfilmsearch.blog
+*.lordfilmseek.blog
+*.lordfilmshift.blog
+*.lordfilmshot.blog
 *.lordfilmsign.blog
 *.lordfilmsignal.blog
+*.lordfilmslide.blog
 *.lordfilmsnow.blog
 *.lordfilmsphere.blog
+*.lordfilmspin.blog
 *.lordfilmspot1.blog
+*.lordfilmstage.blog
 *.lordfilmstone.blog
 *.lordfilmstorm.blog
+*.lordfilmstream1.blog
+*.lordfilmstreet.blog
+*.lordfilmswing.blog
+*.lordfilmtape.blog
 *.lordfilmthrone.blog
 *.lordfilmthunder.blog
+*.lordfilmtide.blog
 *.lordfilmtie.blog
+*.lordfilmtilt.blog
+*.lordfilmtone.blog
 *.lordfilmtower.blog
+*.lordfilmtrace.blog
+*.lordfilmtrack.blog
+*.lordfilmtrail.blog
+*.lordfilmturn.blog
+*.lordfilmtwist.blog
+*.lordfilmview.blog
+*.lordfilmvision1.blog
 *.lordfilmvolt.blog
+*.lordfilmvoyage.blog
 *.lordfilmwatt.blog
+*.lordfilmwave1.blog
 *.lordfilmweb1.blog
+*.lordfilmzoom1.blog
 *.mkvcinemas.blog
 *.motchillwe.blog
 *.movierulzs.blog
@@ -2413,6 +2521,7 @@
 *.motchillzl.bond
 *.movie2ktv.bond
 *.movie4kto.bond
+*.movierulzhd.bond
 *.movies123.bond
 *.movies123tv.bond
 *.mrunblock.bond
@@ -2426,6 +2535,7 @@
 *.pelisflixhd.bond
 *.purstream.bond
 *.seriesflix.bond
+*.soap2dayhd.bond
 *.soap2dayhub.bond
 *.soap2days.bond
 *.soccerstreams.bond
@@ -2540,6 +2650,7 @@
 *.blich-lordfilm.buzz
 *.bogatyri-lordfilm.buzz
 *.bollyflix2.buzz
+*.bolnitsa-pitt-lordfilm.buzz
 *.bolshoy-chelovek-lordfilm.buzz
 *.bukhta-vdov-lordfilm.buzz
 *.bukiny-lordfilm.buzz
@@ -2593,6 +2704,7 @@
 *.fullstream.buzz
 *.gangsterlend-lordfilm.buzz
 *.golordfilms365.buzz
+*.golovolomka-lordfilm.buzz
 *.gomovies.buzz
 *.gomovies123.buzz
 *.gomovieshd.buzz
@@ -2615,6 +2727,7 @@
 *.interny-lordfilm.buzz
 *.ishcheyka-lordfilm.buzz
 *.ivanko-lordfilm.buzz
+*.izvne-lordfilm.buzz
 *.kadetstvo-lordfilm.buzz
 *.kamedi-klab-lordfilm.buzz
 *.karatel-lordfilm.buzz
@@ -2923,6 +3036,7 @@
 *.5movierulz2.cafe
 *.7movierulz.cafe
 *.altadefinizionegratis.cafe
+*.cineblog001.cafe
 *.cinemalibero.cafe
 *.filmyfly.cafe
 *.flemmix.cafe
@@ -3969,6 +4083,7 @@
 *.7-pritchin-vlyubitsya-lordfilm2.cfd
 *.7-pritchin-vlyubitsya-lordfilm3.cfd
 *.72-chasa-lordfilm.cfd
+*.911-odinokaya-zvezda-lordfilm.cfd
 *.911-sluzhba-spasenija-9-1-1-lordfilm.cfd
 *.911-sluzhba-spaseniya-9-1-1-lordfilm.cfd
 *.9kmovies.cfd
@@ -3994,6 +4109,7 @@
 *.agenty-shch-i-t-lordfilm.cfd
 *.agjent-kym-snova-v-dele-lordfilm.cfd
 *.agyent-kym-snova-v-dele-lordfilm.cfd
+*.akademiia-ambrella-lordfilm.cfd
 *.akademija-ambrella-lordfilm.cfd
 *.akademiya-ambrella-lordfilm.cfd
 *.akademiya-vedmochek-lordfilm.cfd
@@ -4007,9 +4123,12 @@
 *.amerikanskiy-papasha-lordfilm.cfd
 *.angry-birds-v-kino-lordfilm.cfd
 *.anime-lordfilm.cfd
+*.apgreyd-lordfilm.cfd
 *.aphera-tomasa-krauna-lordfilm.cfd
 *.aphjera-tomasa-krauna-lordfilm.cfd
 *.aphyera-tomasa-krauna-lordfilm.cfd
+*.arsenal-voennoy-akademii-lordfilm.cfd
+*.astral-lordfilm.cfd
 *.atele-koldovskih-kolpakov-lordfilm.cfd
 *.atele-koldovskih-kolpakov-lordfilm2.cfd
 *.atele-koldovskih-kolpakov-lordfilm3.cfd
@@ -4027,6 +4146,7 @@
 *.baki-lordfilm.cfd
 *.balerina-lordfilm.cfd
 *.bass-iks-mashina-lordfilm.cfd
+*.bbc-zemlya-lordfilm.cfd
 *.beguschaya-lordfilm.cfd
 *.begushaya-lordfilm.cfd
 *.begushchaja-lordfilm.cfd
@@ -4037,7 +4157,10 @@
 *.begushhaya-lordfilm.cfd
 *.begushhaya-lordfilm2.cfd
 *.begushhaya-lordfilm3.cfd
+*.berlin-lordfilm.cfd
+*.betmen-nachalo-lordfilm.cfd
 *.bezdna-lordfilm.cfd
+*.bezmolvnoe-bratstvo-lordfilm.cfd
 *.bitldzhus-bitldzhus-lordfilm.cfd
 *.blagoslovenie-nebozhiteley-lordfilm.cfd
 *.bleyd-lordfilm.cfd
@@ -4120,6 +4243,7 @@
 *.cawant-lordfilm.cfd
 *.cb01net.cfd
 *.cb01one.cfd
+*.charli-i-shokoladnaya-fabrika-lordfilm.cfd
 *.chastye-pobochnye-yavleniya-lordfilm.cfd
 *.chelovek-c-meshkom-lordfilm.cfd
 *.chelovek-muravey-lordfilm.cfd
@@ -4133,6 +4257,11 @@
 *.chem-my-zaniaty-v-teni-lordfilm.cfd
 *.chem-my-zanjaty-v-teni-lordfilm.cfd
 *.chem-my-zanyaty-v-teni-lordfilm.cfd
+*.cherepashki-nindzia-lordfilm.cfd
+*.cherepashki-nindzja-lordfilm.cfd
+*.cherepashki-nindzya-istorii-lordfilm.cfd
+*.cherepashki-nindzya-lordfilm.cfd
+*.chernaya-dyra-lordfilm.cfd
 *.chernoe-zerkalo-lordfilm.cfd
 *.cherny-plasch-lordfilm.cfd
 *.chernyy-klever-lordfilm.cfd
@@ -4141,6 +4270,7 @@
 *.chto-esli-lordfilm.cfd
 *.chudo-chelovek-lordfilm.cfd
 *.chudo-tchelovek-lordfilm.cfd
+*.chudo-zhenshchina-lordfilm.cfd
 *.chuiaya-mama-lordfilm.cfd
 *.chujaya-mama-lordfilm.cfd
 *.chujaya-mama-lordfilm2.cfd
@@ -4151,8 +4281,13 @@
 *.chuzhaya-mamaa-lordfilm.cfd
 *.chuzhestranka-lordfilm.cfd
 *.chuzhoi-lordfilm.cfd
+*.chuzhoi-romul-lordfilm.cfd
+*.chuzhoj-lordfilm.cfd
 *.chuzhoy-lordfilm.cfd
 *.chuzhoy-romul-lordfilm.cfd
+*.chuzhoy-zemlya-lordfilm.cfd
+*.chyornaya-dyra-lordfilm.cfd
+*.chyornaya-pantera-lordfilm.cfd
 *.chyornyy-adam-lordfilm.cfd
 *.cineblog001.cfd
 *.cineblog01.cfd
@@ -4193,6 +4328,7 @@
 *.d-okhotnik-na-vampirov-lordfilm.cfd
 *.dan-lordfilm.cfd
 *.dandadan-lordfilm.cfd
+*.davay-derzay-lordfilm.cfd
 *.davlene-lordfilm.cfd
 *.davlenie-lordfilm.cfd
 *.davleniie-lordfilm.cfd
@@ -4202,6 +4338,7 @@
 *.davlenye-lordfilm3.cfd
 *.davljenye-lordfilm.cfd
 *.davlyenye-lordfilm.cfd
+*.deffchonki-lordfilm.cfd
 *.deison-steitem-ukral-moi-baik-lordfilm.cfd
 *.dekster-voskreshenie-lordfilm.cfd
 *.den-razoblachenia-lordfilm.cfd
@@ -4237,6 +4374,7 @@
 *.dety-lyesa-2-lordfilm.cfd
 *.detyektiv-hole-lordfilm.cfd
 *.deviat-jiznei-kota-nerona-lordfilm.cfd
+*.devid-brent-zhizn-v-doroge-lordfilm.cfd
 *.devjat-jiznei-kota-nerona-lordfilm.cfd
 *.devushka-iz-komandi-lordfilm.cfd
 *.devyat-jiznei-kota-nerona-lordfilm.cfd
@@ -4282,6 +4420,7 @@
 *.djon-rambo-lordfilm3.cfd
 *.djon-rembo-lordfilm.cfd
 *.djon-rembo-lordfilm2.cfd
+*.djuna-prorochestvo-lordfilm.cfd
 *.dnevnik-bridzhit-dzhons-lordfilm.cfd
 *.dnevnik-pamyati-lordfilm.cfd
 *.dnevnik-raznih-stran-lordfilm.cfd
@@ -4298,6 +4437,8 @@
 *.doktor-iks-epokha-beloi-mafii-lordfilm.cfd
 *.doktor-khaus-lordfilm.cfd
 *.doktor-kto-lordfilm.cfd
+*.doktor-stoun-lordfilm.cfd
+*.doktor-stoun-ryusuy-lordfilm.cfd
 *.dom-dukhov-lordfilm.cfd
 *.dontorrent.cfd
 *.doodstream.cfd
@@ -4319,6 +4460,7 @@
 *.drozh-lordfilm.cfd
 *.drozsh-lordfilm.cfd
 *.drugaya-sestra-bennet-lordfilm.cfd
+*.drugie-proklyatie-kukushki-lordfilm.cfd
 *.druza-jivotnie-lordfilm2.cfd
 *.druzia-jivotnie-lordfilm.cfd
 *.druzja-jivotnie-lordfilm.cfd
@@ -4355,9 +4497,11 @@
 *.dzhentlmeny-lordfilm.cfd
 *.dzheyson-steitem-ukral-moi-baik-lordfilm.cfd
 *.dzhinni-i-dzhordzhiya-lordfilm.cfd
+*.dzhoker-lordfilm.cfd
 *.dzhon-rembo-lordfilm.cfd
 *.dzhon-uik-lordfilm.cfd
 *.ebtvmovie38.cfd
+*.edinozhdy-solgav-lordfilm.cfd
 *.edinstvennii-svidetel-lordfilm.cfd
 *.ego-i-ee-lordfilm.cfd
 *.ego-i-ejo-lordfilm.cfd
@@ -4387,6 +4531,8 @@
 *.epokha-smut-lordfilm.cfd
 *.estokaya-noch-2-lordfilm.cfd
 *.eternavt-lordfilm.cfd
+*.eto-vsyo-agata-lordfilm.cfd
+*.etot-zamechatelnyi-mir-boginya-lordfilm.cfd
 *.etot-zamechatelnyy-mir-boginya-lordfilm.cfd
 *.eurostream.cfd
 *.eurostreaming.cfd
@@ -4394,14 +4540,17 @@
 *.extraflix.cfd
 *.fahst-lordfilm.cfd
 *.fanari-lordfilm.cfd
+*.fantomas-lordfilm.cfd
 *.fast-lordfilm.cfd
 *.fbr-lordfilm.cfd
 *.fear-the-invisible-man-lordfilm.cfd
+*.fei-lordfilm.cfd
 *.film-pertutti.cfd
 *.filmapik21.cfd
 *.filmoflix.cfd
 *.filmoflixi.cfd
 *.flemmix.cfd
+*.flesh-lordfilm.cfd
 *.fmovies3.cfd
 *.fmoviesctv.cfd
 *.fmovieshd.cfd
@@ -4419,6 +4568,7 @@
 *.fonary-lordfilm3.cfd
 *.fonaryi-lordfilm.cfd
 *.forsazh-lordfilm.cfd
+*.fort-bliss-lordfilm.cfd
 *.france-lordfilm.cfd
 *.front-krovavoi-blokady-lordfilm.cfd
 *.front-krovavoj-blokady-lordfilm.cfd
@@ -4430,6 +4580,8 @@
 *.futemax.cfd
 *.fyonary-lordfilm.cfd
 *.fzmoviestv.cfd
+*.gadkiy-ya-lordfilm.cfd
+*.gaetmaeul-chachacha-lordfilm.cfd
 *.gangsterlend-lordfilm.cfd
 *.garfield-2-lordfilm.cfd
 *.garfild-2-lordfilm.cfd
@@ -4439,6 +4591,7 @@
 *.garfyld-2-lordfilm3.cfd
 *.garphyld-2-lordfilm.cfd
 *.geenna-gde-zhivyot-smert-lordfilm.cfd
+*.gerkules-lordfilm.cfd
 *.geroi-starshey-shkoly-lordfilm.cfd
 *.geunom-eun-heug-yeomlyong-lordfilm.cfd
 *.gharfyld-2-lordfilm.cfd
@@ -4499,10 +4652,13 @@
 *.godzylla-minus-nol-lordfilm3.cfd
 *.godzylla-mynus-nol-lordfilm.cfd
 *.gol-lordfilm.cfd
+*.goliak-lordfilm.cfd
+*.goljak-lordfilm.cfd
 *.golordfilms.cfd
 *.golovolomka-2-lordfilm.cfd
 *.golovolomka-lordfilm.cfd
 *.golubaya-krov-lordfilm.cfd
+*.golyak-lordfilm.cfd
 *.golyi-pistolet-lordfilm.cfd
 *.golyy-pistolet-lordfilm.cfd
 *.gomorra-lordfilm.cfd
@@ -4553,6 +4709,7 @@
 *.grenlandiya-2-migracyja-lordfilm.cfd
 *.grenlandiya-2-migratsiya-lordfilm.cfd
 *.grenlandyja-2-migraciya-lordfilm.cfd
+*.grey-s-anatomy-lordfilm.cfd
 *.grozovoi-pereval-lordfilm.cfd
 *.grozovoi-perevall-lordfilm.cfd
 *.grozovoy-pereval-lordfilm.cfd
@@ -4564,7 +4721,9 @@
 *.grozovoy-pyereval-lordfilm.cfd
 *.guardaflixi.cfd
 *.gureumi-geurin-dalbit-lordfilm.cfd
+*.harli-kvinn-lordfilm.cfd
 *.harri-uaild-lordfilm.cfd
+*.harri-uayld-lordfilm.cfd
 *.harry-potter-lordfilm.cfd
 *.harum168gol.cfd
 *.hdfilmcehennemi.cfd
@@ -4621,10 +4780,13 @@
 *.ia-tebya-znayu-lordfilm.cfd
 *.iel-lordfilm.cfd
 *.igra-na-vyzhivanie-lordfilm.cfd
+*.igra-v-kalmara-lordfilm.cfd
 *.inattv252.cfd
 *.inattv253.cfd
 *.indexsoccer.cfd
 *.interstellar-lordfilm.cfd
+*.ip-man-lordfilm.cfd
+*.irlandec-lordfilm.cfd
 *.irlandets-lordfilm.cfd
 *.iskusstvo-sari-lordfilm.cfd
 *.iskusstvo-sarry-lordfilm.cfd
@@ -4645,8 +4807,10 @@
 *.istoria-elektritchestva-v-dvadsatom-veke-evrika-lordfilm2.cfd
 *.istoria-elektritchestva-v-dvadsatom-veke-evrika-lordfilm3.cfd
 *.istoria-o-perekure-za-supermarketom-lordfilm.cfd
+*.istoriia-igrushek-lordfilm.cfd
 *.istoriia-lyubvi-lordfilm.cfd
 *.istoriia-o-perekure-za-supermarketom-lordfilm.cfd
+*.istorija-igrushek-lordfilm.cfd
 *.istorija-liubvi-lordfilm.cfd
 *.istorija-ljubvi-lordfilm.cfd
 *.istorija-lyubvi-lordfilm.cfd
@@ -4659,14 +4823,18 @@
 *.istorija-o-pjerekure-za-supermarketom-lordfilm.cfd
 *.istorija-o-pyerekure-za-supermarketom-lordfilm.cfd
 *.istoriya-dvortsa-kunnin-lordfilm.cfd
+*.istoriya-igrushek-lordfilm.cfd
 *.istoriya-khua-chzhi-lordfilm.cfd
 *.istoriya-lubvi-lordfilm.cfd
 *.istoriya-lyubvi-lordfilm.cfd
+*.istoriya-o-parenke-iz-derevni-lordfilm.cfd
 *.istoriya-o-perekure-za-supermarketom-lordfilm.cfd
 *.istorja-elektritchestva-v-dvadsatom-veke-evrika-lordfilm.cfd
 *.istorya-elektritchestva-v-dvadsatom-veke-evrika-lordfilm.cfd
 *.iugli-lordfilm.cfd
 *.iutiki-lordfilm.cfd
+*.iz-ada-lordfilm.cfd
+*.iz-glubiny-lordfilm.cfd
 *.izgonyayuschii-dyavola-mucheniki-lordfilm.cfd
 *.izgonyayushchi-dyavola-mucheniki-lordfilm.cfd
 *.izgonyayushchii-dyavola-mucheniki-lordfilm.cfd
@@ -4676,6 +4844,7 @@
 *.izgonyayushhii-dyavola-muczeniki-lordfilm.cfd
 *.izgonyayushhii-dyavola-mutcheniki-lordfilm.cfd
 *.izgonyayushii-dyavola-mucheniki-lordfilm.cfd
+*.izvne-lordfilm.cfd
 *.ja-idu-iskat-2-lordfilm.cfd
 *.ja-idu-iskat-2-lordfilm2.cfd
 *.ja-idu-iskat-2-lordfilm3.cfd
@@ -4760,7 +4929,9 @@
 *.karosi-lordfilm.cfd
 *.karry-lordfilm.cfd
 *.karty-dengi-dva-stvola-lordfilm.cfd
+*.kastlvaniya-lordfilm.cfd
 *.kazhdii-god-posle-lordfilm.cfd
+*.kazino-royal-lordfilm.cfd
 *.kaznit-nelza-pomilovat-lordfilm.cfd
 *.kaznit-nelzia-pomilovat-lordfilm.cfd
 *.kaznit-nelzja-pomilovat-lordfilm.cfd
@@ -4776,9 +4947,13 @@
 *.kerry-lordfilm2.cfd
 *.kerry-lordfilm3.cfd
 *.kevin-lordfilm.cfd
+*.key-pop-okhotnitsy-na-demonov-lordfilm.cfd
 *.khadson-i-reks-lordfilm.cfd
+*.kharli-kvinn-lordfilm.cfd
+*.kharri-uajld-lordfilm.cfd
 *.kharri-uayld-lordfilm.cfd
 *.khartlend-lordfilm.cfd
+*.khellboy-lordfilm.cfd
 *.khellboy-proklyatie-gorbuna-lordfilm.cfd
 *.khellsing-ultimate-lordfilm.cfd
 *.khischnii-rivok-lordfilm.cfd
@@ -4832,6 +5007,7 @@
 *.klinika-lordfilm.cfd
 *.klinki-khranitelei-veter-pustini-lordfilm.cfd
 *.klinok-rasekayushchi-demonov-beskonechnaya-lordfilm.cfd
+*.klinok-rassekaiuschiy-demonov-lordfilm.cfd
 *.klinok-rassekajushchij-demonov-lordfilm.cfd
 *.klinok-rassekayushchii-demonov-lordfilm.cfd
 *.klinok-rassekayushchiy-demonov-lordfilm.cfd
@@ -4848,6 +5024,7 @@
 *.klyatva-lyubvi-lordfilm.cfd
 *.klyeyfeis-lordfilm.cfd
 *.klyki-nochi-lordfilm.cfd
+*.kod-giass-vosstanie-lelusha-lordfilm.cfd
 *.kokomelon-v-kino-lordfilm.cfd
 *.koloniia-lordfilm.cfd
 *.kolonija-lordfilm.cfd
@@ -4862,9 +5039,11 @@
 *.korol-shamanov-lordfilm.cfd
 *.korol-talsy-lordfilm.cfd
 *.korol-vechnyy-monarkh-lordfilm.cfd
+*.koroleva-chkhorin-lordfilm.cfd
 *.koroleva-slez-lordfilm.cfd
 *.koroleva-slyoz-lordfilm.cfd
 *.korolevskii-strazh-lordfilm.cfd
+*.korporatsiya-monstrov-lordfilm.cfd
 *.korzinka-fruktov-lordfilm.cfd
 *.koshechki-sobachki-lordfilm.cfd
 *.koshmar-pered-rozhdestvom-lordfilm.cfd
@@ -4877,6 +5056,7 @@
 *.kot-v-shhlyape-lordfilm.cfd
 *.kot-v-shljape-lordfilm.cfd
 *.kot-v-shlyape-lordfilm.cfd
+*.krapopolis-lordfilm.cfd
 *.krasata-lordfilm.cfd
 *.krasota-lordfilm.cfd
 *.kredo-ubiici-lordfilm.cfd
@@ -4887,6 +5067,7 @@
 *.kredo-ubiytsy-lordfilm.cfd
 *.kredo-ubyjci-lordfilm.cfd
 *.krestnyy-otets-lordfilm.cfd
+*.krid-nasledie-rokki-lordfilm.cfd
 *.krik-lordfilm.cfd
 *.krilya-svobodi-lordfilm.cfd
 *.kriminal-lordfilm.cfd
@@ -4916,6 +5097,7 @@
 *.kung-fu-panda-lordfilm.cfd
 *.kupertino-lordfilm.cfd
 *.kurazh-truslivyy-pyos-lordfilm.cfd
+*.kuznets-svyashchennykh-mechey-lordfilm.cfd
 *.kyerri-lordfilm.cfd
 *.lacy-lordfilm.cfd
 *.laki-lordfilm.cfd
@@ -4945,6 +5127,7 @@
 *.ledjanaya-stena-lordfilm2.cfd
 *.ledjanaya-stena-lordfilm3.cfd
 *.ledyanaya-stena-lordfilm.cfd
+*.legenda-lordfilm.cfd
 *.legenda-o-zelde-lordfilm.cfd
 *.legenda-o-zyelde-lordfilm.cfd
 *.legendi-lordfilm.cfd
@@ -4953,6 +5136,9 @@
 *.limetorrents.cfd
 *.liniya-ognya-lordfilm.cfd
 *.ljegenda-o-zelde-lordfilm.cfd
+*.ljubov-v-bolshom-gorode-lordfilm.cfd
+*.ljudi-iks-lordfilm.cfd
+*.ljudi-v-chernom-lordfilm.cfd
 *.loki-lordfilm.cfd
 *.lokot-lordfilm.cfd
 *.lookmovie.cfd
@@ -5268,6 +5454,7 @@
 *.lordfilmabrupt.cfd
 *.lordfilmalong.cfd
 *.lordfilmbattle.cfd
+*.lordfilmcable.cfd
 *.lordfilmchc.cfd
 *.lordfilmcheeks.cfd
 *.lordfilmchips.cfd
@@ -5286,6 +5473,7 @@
 *.lordfilmentropy.cfd
 *.lordfilmfabric.cfd
 *.lordfilmfading.cfd
+*.lordfilmfairytale.cfd
 *.lordfilmfolklore.cfd
 *.lordfilmgiallo.cfd
 *.lordfilmgjz.cfd
@@ -5313,6 +5501,7 @@
 *.lordfilmnmh.cfd
 *.lordfilmnvo.cfd
 *.lordfilmnyc.cfd
+*.lordfilmoneself.cfd
 *.lordfilmparadox.cfd
 *.lordfilmproject.cfd
 *.lordfilmpull.cfd
@@ -5324,6 +5513,7 @@
 *.lordfilmrefuge.cfd
 *.lordfilmrenew.cfd
 *.lordfilmrepetition.cfd
+*.lordfilmrestless.cfd
 *.lordfilmreverie.cfd
 *.lordfilmroyal.cfd
 *.lordfilmrpb.cfd
@@ -5358,6 +5548,8 @@
 *.lordfilmydq.cfd
 *.lordfilmyvg.cfd
 *.losmoviestv.cfd
+*.love-alarm-lordfilm.cfd
+*.lunnyi-rycar-lordfilm.cfd
 *.lunnyy-rytsar-lordfilm.cfd
 *.lyaky-lordfilm.cfd
 *.lyegenda-o-zelde-lordfilm.cfd
@@ -5366,12 +5558,16 @@
 *.lyegenda-o-zyelde-lordfilm.cfd
 *.lyegjenda-o-zelde-lordfilm.cfd
 *.lyegyenda-o-zelde-lordfilm.cfd
+*.lyubimaya-voennaya-forma-lordfilm.cfd
+*.lyubov-s-igolochki-lordfilm.cfd
 *.lyubov-v-bolshom-gorode-lordfilm.cfd
 *.lyubov-v-nochi-lordfilm.cfd
 *.lyucifer-lordfilm.cfd
 *.lyudi-iks-evolyutsiya-lordfilm.cfd
 *.lyudi-iks-lordfilm.cfd
+*.lyudi-iks-nachalo-rosomaha-lordfilm.cfd
 *.lyudi-iks-nachalo-rosomakha-lordfilm.cfd
+*.lyudi-v-chernom-lordfilm.cfd
 *.lyupen-lordfilm.cfd
 *.lyutsifer-lordfilm.cfd
 *.m4ufree.cfd
@@ -5383,6 +5579,7 @@
 *.maczo-i-botan-3-lordfilm.cfd
 *.maczo-y-botan-3-lordfilm.cfd
 *.madagaskar-lordfilm.cfd
+*.made-in-abyss-lordfilm.cfd
 *.madoka-magika-valpurgieva-noch-voschod-lordfilm.cfd
 *.madoka-magika-valpurgieva-noch-voshchod-lordfilm.cfd
 *.madoka-magika-valpurgieva-noch-voshod-lordfilm.cfd
@@ -5392,6 +5589,9 @@
 *.madoka-magika-valpurgieva-noch-vosod-lordfilm.cfd
 *.madoka-magika-valpurgieva-nocz-voshod-lordfilm.cfd
 *.madoka-magika-valpurgieva-notch-voshod-lordfilm.cfd
+*.mag-na-polnuiu-stavku-lordfilm.cfd
+*.mag-na-polnuju-stavku-lordfilm.cfd
+*.mag-na-polnuyu-stavku-lordfilm.cfd
 *.mag-obmanshchik-iz-drugogo-mira-lordfilm.cfd
 *.magicheskaja-bitva-lordfilm.cfd
 *.magicheskaya-bitva-lordfilm.cfd
@@ -5418,7 +5618,9 @@
 *.malenkii-domik-v-preryjah-lordfilm.cfd
 *.malenkiy-domik-v-preriyah-lordfilm.cfd
 *.malenkyj-domik-v-preriyah-lordfilm.cfd
+*.mandalorec-lordfilm.cfd
 *.mandalorets-lordfilm.cfd
+*.manuskript-nindzia-lordfilm.cfd
 *.manuskript-nindzja-lordfilm.cfd
 *.manuskript-nindzya-lordfilm.cfd
 *.mao-gakuin-no-futekigosha-lordfilm.cfd
@@ -5430,6 +5632,7 @@
 *.mardzi-klaus-lordfilm.cfd
 *.mariya-lordfilm.cfd
 *.marji-klaus-lordfilm.cfd
+*.marsianin-lordfilm.cfd
 *.marzhi-klaus-lordfilm.cfd
 *.marzhy-klaus-lordfilm.cfd
 *.mastera-mecha-onlayn-lordfilm.cfd
@@ -5462,6 +5665,8 @@
 *.medvedy-buni-nerazlutchnie-lordfilm.cfd
 *.megakino.cfd
 *.meidei-lordfilm.cfd
+*.mektub-moya-lyubov-lordfilm.cfd
+*.melomanka-lordfilm.cfd
 *.mest-2-lordfilm.cfd
 *.mest-la-ioroni-lordfilm.cfd
 *.mest-la-joroni-lordfilm.cfd
@@ -5475,6 +5680,7 @@
 *.metchtat-ne-vredno-lordfilm2.cfd
 *.metchtat-ne-vredno-lordfilm3.cfd
 *.metchtat-nye-vredno-lordfilm.cfd
+*.metlok-lordfilm.cfd
 *.meydei-lordfilm.cfd
 *.meydei-lordfilm2.cfd
 *.meydei-lordfilm3.cfd
@@ -5508,6 +5714,7 @@
 *.mjetchtat-ne-vredno-lordfilm.cfd
 *.mjeydei-lordfilm.cfd
 *.mkvcinematv.cfd
+*.moana-lordfilm.cfd
 *.moi-brat-minotavr-lordfilm.cfd
 *.moi-dva-tsenta-lordfilm.cfd
 *.moi-malenkii-poni-lordfilm.cfd
@@ -5521,6 +5728,8 @@
 *.mojno-li-peryevesti-lyubov-lordfilm.cfd
 *.mojno-li-pjerevesti-lyubov-lordfilm.cfd
 *.mojno-li-pyerevesti-lyubov-lordfilm.cfd
+*.molodoy-mors-lordfilm.cfd
+*.molodoy-sherlok-lordfilm.cfd
 *.molodye-monarkhi-lordfilm.cfd
 *.monolog-farmacevta-lordfilm.cfd
 *.monolog-farmacevta-sokrovische-pokoinoi-lordfilm.cfd
@@ -5534,11 +5743,14 @@
 *.monolog-farmatsevta-lordfilm.cfd
 *.monolog-farmatsevta-sokrovishche-pokoinoi-lordfilm.cfd
 *.mononoke-film-proklyatie-zmeya-lordfilm.cfd
+*.monstr-lordfilm.cfd
 *.monstr-v-parizhe-lordfilm.cfd
 *.monstry-lordfilm.cfd
 *.monstry-na-kanikulah-lordfilm.cfd
 *.monstry-na-kanikulah-lordfilms.cfd
 *.monstry-na-kanikulakh-lordfilm.cfd
+*.morbius-lordfilm.cfd
+*.morskaia-politsiia-spetsotdel-lordfilm.cfd
 *.morskaja-politsija-spetsotdel-lordfilm.cfd
 *.morskaya-policiya-specotdel-lordfilm.cfd
 *.morskaya-politsiya-spetsotdel-lordfilm.cfd
@@ -5566,12 +5778,16 @@
 *.movies123.cfd
 *.movies123tv.cfd
 *.moviesdrives.cfd
+*.moy-boss-lordfilm.cfd
 *.moy-malenkiy-poni-druzhba-eto-chudo-lordfilm.cfd
 *.moy-malenkiy-poni-lordfilm.cfd
+*.moy-signalnyy-ogon-lordfilm.cfd
 *.moy-taynyy-roman-lordfilm.cfd
 *.moya-geroiskaya-akademiya-lordfilm.cfd
+*.moya-geroyskaya-akademiya-film-lordfilm.cfd
 *.moya-geroyskaya-akademiya-lordfilm.cfd
 *.mozhno-li-perevesti-lyubov-lordfilm.cfd
+*.mstiteli-lordfilm.cfd
 *.mult-lordfilm.cfd
 *.multicanais.cfd
 *.multicanaishd.cfd
@@ -5580,6 +5796,7 @@
 *.multimoviestv.cfd
 *.muzh-moey-mechty-lordfilm.cfd
 *.my-byli-lzhetsami-lordfilm.cfd
+*.my-vse-mertvy-lordfilm.cfd
 *.myatej-lordfilm.cfd
 *.myatej-lordfilm2.cfd
 *.myatej-lordfilm3.cfd
@@ -5587,6 +5804,7 @@
 *.myatezhh-lordfilm.cfd
 *.myatjej-lordfilm.cfd
 *.myatyej-lordfilm.cfd
+*.myau-myau-lordfilm.cfd
 *.myedden-lordfilm.cfd
 *.myedden-lordfilm2.cfd
 *.myedden-lordfilm3.cfd
@@ -5616,6 +5834,7 @@
 *.mynecraft-v-kino-v-kvadratye-lordfilm.cfd
 *.mynjecraft-v-kino-v-kvadrate-lordfilm.cfd
 *.mynyecraft-v-kino-v-kvadrate-lordfilm.cfd
+*.myortvaya-zona-lordfilm.cfd
 *.mys-straha-lordfilm.cfd
 *.mys-straha-lordfilm3.cfd
 *.mys-strakha-lordfilm.cfd
@@ -5651,7 +5870,9 @@
 *.na-vershinne-lordfilm.cfd
 *.na-vjerschine-lordfilm.cfd
 *.na-vyerschine-lordfilm.cfd
+*.nabi-moya-macheha-lordfilm.cfd
 *.nabi-moya-machekha-lordfilm.cfd
+*.nachalo-lordfilm.cfd
 *.nadedjda-lordfilm.cfd
 *.nadejda-lordfilm.cfd
 *.nadejda-lordfilm2.cfd
@@ -5687,6 +5908,7 @@
 *.ne-odny-lordfilm.cfd
 *.ne-odny-lordfilm2.cfd
 *.ne-odny-lordfilm3.cfd
+*.ne-smotrite-naverh-lordfilm.cfd
 *.ne-smotrite-naverkh-lordfilm.cfd
 *.neidealnie-djenshhini-lordfilm.cfd
 *.neidealnie-jenshhini-lordfilm.cfd
@@ -5711,16 +5933,23 @@
 *.neobjatnyj-okean-lordfilm.cfd
 *.neobyatnyi-okean-lordfilm.cfd
 *.neobyatnyy-okean-lordfilm.cfd
+*.nepobedimyi-atomnaya-eva-lordfilm.cfd
 *.nepobedimyy-atomnaya-eva-lordfilm.cfd
+*.nepobedimyy-svyatoy-lordfilm.cfd
 *.netmirror.cfd
 *.neuromant-lordfilm.cfd
 *.new-lordfilm.cfd
 *.neyromant-lordfilm.cfd
 *.neyromant-lordfilm2.cfd
 *.neyromant-lordfilm3.cfd
+*.nezabyvaemaja-ljubov-lordfilm.cfd
 *.nezabyvaemaya-lyubov-lordfilm.cfd
+*.nezhiti-ne-povezlo-lordfilm.cfd
+*.neznakomcy-iz-ada-lordfilm.cfd
 *.neznakomtsy-iz-ada-lordfilm.cfd
 *.ni-odnoy-bolshe-lordfilm.cfd
+*.nimfomanka-chast-1-lordfilm.cfd
+*.nit-astral-lordfilm.cfd
 *.nje-odni-lordfilm.cfd
 *.nje-odny-lordfilm.cfd
 *.njeiromant-lordfilm.cfd
@@ -5826,6 +6055,7 @@
 *.odissjeja-lordfilm.cfd
 *.odissyeja-lordfilm.cfd
 *.odjerjimost-lordfilm.cfd
+*.odna-zhenshchina-lordfilm.cfd
 *.odnazhdi-na-blizhnem-vostoke-lordfilm.cfd
 *.odnazhdy-razrushenie-lordfilm.cfd
 *.odni-iz-nas-lordfilm.cfd
@@ -5861,6 +6091,7 @@
 *.ograblenye-lordfilm3.cfd
 *.ograbljenye-lordfilm.cfd
 *.ograblyenye-lordfilm.cfd
+*.okhotnichi-psy-lordfilm.cfd
 *.okoldovanii-lordfilm.cfd
 *.okoldovannii-lordfilm.cfd
 *.okoldovanniy-lordfilm.cfd
@@ -5870,6 +6101,7 @@
 *.okoldovannyj-lordfilm.cfd
 *.okoldowannii-lordfilm.cfd
 *.okoldowanniy-lordfilm.cfd
+*.olenenok-lordfilm.cfd
 *.one-piece-dolina-bogow-lordfilm.cfd
 *.oni-pridut-za-toboi-lordfilm.cfd
 *.oni-pridut-za-tobojj-lordfilm.cfd
@@ -5889,6 +6121,8 @@
 *.opasniy-duet-lordfilm3.cfd
 *.opasniy-dujet-lordfilm.cfd
 *.opasniy-duyet-lordfilm.cfd
+*.opasnost-v-moem-serdce-lordfilm.cfd
+*.opasnost-v-moyom-serdtse-lordfilm.cfd
 *.opasny-duet-lordfilm.cfd
 *.opasnyj-duet-lordfilm.cfd
 *.operaciia-panda-dikaya-missiya-lordfilm.cfd
@@ -5970,6 +6204,9 @@
 *.otpusk-na-dvoyh-lordfilm.cfd
 *.otpusk-na-dvoykh-lordfilm.cfd
 *.otpusk-na-dwoih-lordfilm.cfd
+*.otrjad-samoubijts-lordfilm.cfd
+*.otryad-samoubiic-lordfilm.cfd
+*.otryad-samoubiyts-lordfilm.cfd
 *.pacany-lordfilm.cfd
 *.padayushchaya-zvezda-lordfilm.cfd
 *.padenie-i-vzlyot-redzhi-dinkinsa-lordfilm.cfd
@@ -5986,6 +6223,7 @@
 *.panikuyte-ostorojno-lordfilm.cfd
 *.panikuyte-ostorozhno-lordfilm.cfd
 *.panykuite-ostorojno-lordfilm.cfd
+*.papa-strannyy-lordfilm.cfd
 *.passadjir-lordfilm.cfd
 *.passadjyr-lordfilm.cfd
 *.passajir-lordfilm.cfd
@@ -6015,8 +6253,12 @@
 *.pelisflix200.cfd
 *.pelisflixhd.cfd
 *.perepisat-lyubov-lordfilm.cfd
+*.perevodchik-lordfilm.cfd
 *.perevozchik-lordfilm.cfd
 *.perish-lordfilm.cfd
+*.pervozdannaya-amerika-lordfilm.cfd
+*.pervyi-mstitel-lordfilm.cfd
+*.pervyy-mstitel-lordfilm.cfd
 *.petukh-dudl-du-lordfilm.cfd
 *.phaast-lordfilm.cfd
 *.phact-lordfilm.cfd
@@ -6026,6 +6268,7 @@
 *.phiast-lordfilm.cfd
 *.phonary-lordfilm.cfd
 *.phyast-lordfilm.cfd
+*.piraty-karibskogo-moria-lordfilm.cfd
 *.piraty-karibskogo-morja-lordfilm.cfd
 *.piraty-karibskogo-morya-lordfilm.cfd
 *.pixar-lordfilm.cfd
@@ -6036,6 +6279,7 @@
 *.plohie-fei-lordfilm3.cfd
 *.plohie-fjei-lordfilm.cfd
 *.plohie-fyei-lordfilm.cfd
+*.plohie-parni-lordfilm.cfd
 *.plohije-fei-lordfilm.cfd
 *.plohiye-fei-lordfilm.cfd
 *.plohoi-den-lordfilm.cfd
@@ -6064,6 +6308,7 @@
 *.podniatie-urovnia-v-odinochku-lordfilm.cfd
 *.podnjatie-urovnja-v-odinochku-lordfilm.cfd
 *.podnyatie-urovnya-v-odinochku-lordfilm.cfd
+*.podruchnyy-luizy-nulizy-lordfilm.cfd
 *.poka-ty-spish-lordfilm.cfd
 *.pokemon-dikaia-karta-lordfilm.cfd
 *.pokemon-dikaja-karta-lordfilm.cfd
@@ -6075,6 +6320,7 @@
 *.pokimon-dikaya-karta-lordfilm.cfd
 *.pokjemon-dikaja-karta-lordfilm.cfd
 *.pokyemon-dikaja-karta-lordfilm.cfd
+*.polnyi-raskolbas-lordfilm.cfd
 *.polnyy-raskolbas-lordfilm.cfd
 *.poluchelovek-lordfilm.cfd
 *.poluchelowek-lordfilm.cfd
@@ -6085,6 +6331,7 @@
 *.polutchelovyek-lordfilm.cfd
 *.polutchjelovek-lordfilm.cfd
 *.polutchyelovek-lordfilm.cfd
+*.polyarnyy-ekspress-lordfilm.cfd
 *.poni-lordfilm.cfd
 *.poschadi-menya-velikiy-gospodin-lordfilm.cfd
 *.posle-lordfilm.cfd
@@ -6101,6 +6348,7 @@
 *.posljedniy-dom-lordfilm.cfd
 *.poslyedniy-dom-lordfilm.cfd
 *.poteryannaya-lyusi-lordfilm.cfd
+*.povelitel-lordfilm.cfd
 *.povelitel-muh-lordfilm.cfd
 *.povelitel-muh-lordfilm2.cfd
 *.povelitel-muh-lordfilm3.cfd
@@ -6148,8 +6396,10 @@
 *.prigunyi-lordfilm.cfd
 *.primat-lordfilm.cfd
 *.primatt-lordfilm.cfd
+*.printsessa-i-lyagushka-lordfilm.cfd
 *.prisheltsy-lordfilm.cfd
 *.prism-rondo-lordfilm.cfd
+*.privet-malysh-lordfilm.cfd
 *.priyateli-lordfilm.cfd
 *.prizrak-lordfilm.cfd
 *.prizrak-v-dospehah-lordfilm.cfd
@@ -6166,7 +6416,9 @@
 *.prjmat-lordfilm.cfd
 *.prmoviess.cfd
 *.prmoviestv.cfd
+*.prodavets-na-polstavki-lordfilm.cfd
 *.proekt-a-ko-lordfilm.cfd
+*.proekt-adam-lordfilm.cfd
 *.proekt-konec-sveta-lordfilm.cfd
 *.proekt-konec-sveta-lordfilm2.cfd
 *.proekt-konec-sveta-lordfilm3.cfd
@@ -6174,9 +6426,13 @@
 *.proekt-konets-sveta-lordfilm.cfd
 *.proekt-konjec-sveta-lordfilm.cfd
 *.proekt-konyec-sveta-lordfilm.cfd
+*.proekt-tiran-lordfilm.cfd
+*.project-blue-book-lordfilm.cfd
 *.projekt-konec-sveta-lordfilm.cfd
+*.prokljatie-annabel-lordfilm.cfd
 *.proklyatie-annabel-lordfilm.cfd
 *.proyekt-konec-sveta-lordfilm.cfd
+*.proza-brodyachih-psov-lordfilm.cfd
 *.proza-brodyachikh-psov-lordfilm.cfd
 *.pryedmeste-lordfilm.cfd
 *.pryedmeste-lordfilm2.cfd
@@ -6200,6 +6456,7 @@
 *.psihopatka-lordfilm2.cfd
 *.psihopatka-lordfilm3.cfd
 *.psihopatkka-lordfilm.cfd
+*.psikho-psikhoz-lordfilm.cfd
 *.psikhopatka-lordfilm.cfd
 *.psikhopatkaa-lordfilm.cfd
 *.psixopatka-lordfilm.cfd
@@ -6245,6 +6502,7 @@
 *.razve-plokho-iskat-sebe-paru-lordfilm.cfd
 *.realnye-upyri-lordfilm.cfd
 *.rei-gann-lordfilm.cfd
+*.reinkarnatsiya-bezrabotnogo-lordfilm.cfd
 *.reka-madison-lordfilm.cfd
 *.reka-madyson-lordfilm.cfd
 *.reka-madyson-lordfilm2.cfd
@@ -6270,6 +6528,7 @@
 *.rjeka-madyson-lordfilm.cfd
 *.rjey-gann-lordfilm.cfd
 *.rozhdestvo-s-merayey-keri-lordfilm.cfd
+*.rusalochka-lordfilm.cfd
 *.rustar-lordfilm.cfd
 *.ruster-lordfilm.cfd
 *.rustier-lordfilm.cfd
@@ -6286,6 +6545,7 @@
 *.rytsar-semi-korolevstv-lordfilm.cfd
 *.samyi-cennyi-igrok-lordfilm.cfd
 *.samyy-tsennyy-igrok-lordfilm.cfd
+*.santa-klaus-lordfilm.cfd
 *.savant-lordfilm.cfd
 *.sawaant-lordfilm.cfd
 *.sawant-lordfilm.cfd
@@ -6333,6 +6593,7 @@
 *.series9tv.cfd
 *.seriesflix.cfd
 *.seriesflix-official.cfd
+*.seriesflixhd.cfd
 *.seriesflixweb.cfd
 *.sex-education-lordfilm.cfd
 *.shagi-lordfilm.cfd
@@ -6349,6 +6610,7 @@
 *.shhyopot-za-oknom-lordfilm.cfd
 *.shingeki-no-kyojin-lordfilm.cfd
 *.shitts-krik-lordfilm.cfd
+*.shkola-front-lordfilm.cfd
 *.shrek-lordfilm.cfd
 *.shtrafbat-lordfilm.cfd
 *.shugar-lordfilm.cfd
@@ -6361,6 +6623,7 @@
 *.shyopot-za-oknom-lordfilm.cfd
 *.siawant-lordfilm.cfd
 *.silnaya-lyubov-lordfilm.cfd
+*.simpsony-lordfilm.cfd
 *.sistema-razvlechenii-vischla-iz-stroya-lordfilm.cfd
 *.sistema-razvlechenii-vischla-iz-stroya-lordfilm2.cfd
 *.sistema-razvlechenii-vischla-iz-stroya-lordfilm3.cfd
@@ -6370,6 +6633,7 @@
 *.sistema-razvlechenij-vishla-iz-stroya-lordfilm.cfd
 *.sistema-razvleczenii-vischla-iz-stroya-lordfilm.cfd
 *.sistema-razvletchenii-vischla-iz-stroya-lordfilm.cfd
+*.siyanie-lordfilm.cfd
 *.sjerdce-zverya-lordfilm.cfd
 *.skallolaz-lordfilm.cfd
 *.skalolas-lordfilm.cfd
@@ -6383,6 +6647,7 @@
 *.skarpyietta-lordfilm.cfd
 *.skarpyjetta-lordfilm.cfd
 *.skarpyyetta-lordfilm.cfd
+*.skazka-o-hvoste-fei-lordfilm.cfd
 *.skazka-o-khvoste-fei-lordfilm.cfd
 *.skhvatit-dziro-lordfilm.cfd
 *.skhvatka-2-lordfilm.cfd
@@ -6395,9 +6660,12 @@
 *.skrudy-lordfilm.cfd
 *.skrudzh-lordfilm.cfd
 *.skrudzzh-lordfilm.cfd
+*.skrytaja-ljubov-lordfilm.cfd
+*.skrytaya-lyubov-lordfilm.cfd
 *.skvoz-slyozy-ya-pritvoryayus-lordfilm.cfd
 *.skvoz-sneg-lordfilm.cfd
 *.skymovieshd.cfd
+*.slavnyy-malyy-khoroshiy-paren-lordfilm.cfd
 *.sledstvie-vedut-ovechci-lordfilm.cfd
 *.sledstvie-vedut-ovechki-lordfilm.cfd
 *.sledstvie-vedut-oveczki-lordfilm.cfd
@@ -6418,6 +6686,7 @@
 *.sluzhebnii-roman-lordfilm.cfd
 *.slyedstvie-vedut-ovetchki-lordfilm.cfd
 *.smert-na-nile-lordfilm.cfd
+*.smertelnaia-bitva-lordfilm.cfd
 *.smertelnaja-bitva-lordfilm.cfd
 *.smertelnaya-bitva-lordfilm.cfd
 *.smeshariki-lordfilm.cfd
@@ -6469,6 +6738,7 @@
 *.solovyey-lordfilm.cfd
 *.solowey-lordfilm.cfd
 *.solowyey-lordfilm.cfd
+*.son-vo-sne-lordfilm.cfd
 *.soobscheniya-dlya-izabel-lordfilm.cfd
 *.soobshchenia-dlya-izabel-lordfilm.cfd
 *.soobshcheniya-dlya-izabel-lordfilm.cfd
@@ -6478,6 +6748,8 @@
 *.soobshheniya-dlya-izabel-lordfilm2.cfd
 *.soobshheniya-dlya-izabel-lordfilm3.cfd
 *.soobshhenyja-dlya-izabel-lordfilm.cfd
+*.sorvigolova-lordfilm.cfd
+*.sorvigolova-rozhdennyi-zanovo-lordfilm.cfd
 *.sorvigolova-rozhdennyy-zanovo-lordfilm.cfd
 *.sovershenno-novoe-zhivotnoe-lordfilm.cfd
 *.sovershennyy-chelovek-pauk-velikiy-chelovek-pauk-lordfilm.cfd
@@ -6520,6 +6792,7 @@
 *.stalnoi-alhimik-lordfilm.cfd
 *.stalnoy-alkhimik-bratstvo-lordfilm.cfd
 *.stalnoy-alkhimik-lordfilm.cfd
+*.star-vs-the-forces-of-evil-lordfilm.cfd
 *.sterling-point-lordfilm.cfd
 *.sterling-poynt-lordfilm.cfd
 *.sterlyng-point-lordfilm.cfd
@@ -6590,7 +6863,10 @@
 *.supyer-mario-galaktitcheskoe-kino-lordfilm.cfd
 *.supyergjorl-lordfilm.cfd
 *.supyertchudaki-lordfilm.cfd
+*.suzhdeno-byt-s-toboy-lordfilm.cfd
 *.svadba-svetlyachkov-lordfilm.cfd
+*.sverkhestestvennoe-lordfilm.cfd
+*.svetlyachok-lordfilm.cfd
 *.svyatilishche-lordfilm.cfd
 *.syawant-lordfilm.cfd
 *.syerdce-zverya-lordfilm.cfd
@@ -6630,6 +6906,7 @@
 *.takaia-sladkaia-liubov-lordfilm.cfd
 *.takaja-sladkaja-ljubov-lordfilm.cfd
 *.takaya-sladkaya-lyubov-lordfilm.cfd
+*.taksist-lordfilm.cfd
 *.tantara-lordfilm.cfd
 *.tantaraa-lordfilm.cfd
 *.tanti-film.cfd
@@ -6656,6 +6933,8 @@
 *.tenj-lordfilm.cfd
 *.tenn-lordfilm.cfd
 *.tetrad-smerti-lordfilm.cfd
+*.tetris-lordfilm.cfd
+*.the-last-letter-from-your-lover-lordfilm.cfd
 *.ti-i-ia-polnie-protivopolojnosti-lordfilm.cfd
 *.ti-i-ja-polnie-protivopolojnosti-lordfilm.cfd
 *.ti-i-ya-polnie-protivopolojnosti-lordfilm.cfd
@@ -6676,13 +6955,20 @@
 *.tikava-taina-ostrova-rusalok-lordfilm.cfd
 *.tikhoe-mesto-3-lordfilm.cfd
 *.tikhoye-mesto-3-lordfilm.cfd
+*.titanik-lordfilm.cfd
+*.tokiiskie-mstiteli-lordfilm.cfd
 *.tokiiskii-gul-lordfilm.cfd
 *.tokiyskie-mstiteli-lordfilm.cfd
 *.tokiyskiy-gul-lordfilm.cfd
+*.tolko-radi-lyubvi-lordfilm.cfd
+*.tor-lordfilm.cfd
 *.torrent9.cfd
 *.torrent911.cfd
+*.torrento.cfd
 *.torrentz2.cfd
 *.tot-kto-mne-nravilsya-okazalsya-ne-parnem-lordfilm.cfd
+*.tretiy-lishniy-lordfilm.cfd
+*.triumf-lordfilm.cfd
 *.troecarstvie-iaponii-lordfilm.cfd
 *.troecarstvie-japonii-lordfilm.cfd
 *.troecarstvie-yaponii-lordfilm.cfd
@@ -6692,6 +6978,7 @@
 *.troecarstvie-yaponyj-lordfilm.cfd
 *.troetsarstvie-japonii-lordfilm.cfd
 *.troetsarstvie-yaponii-lordfilm.cfd
+*.trollitopiya-lordfilm.cfd
 *.tsapkan-2-lordfilm.cfd
 *.tsrasota-lordfilm.cfd
 *.tsugai-zagrobnogo-mira-lordfilm.cfd
@@ -6735,6 +7022,7 @@
 *.ubezzhishe-lordfilm.cfd
 *.ubiica-lordfilm.cfd
 *.ubiistvo-dzhonbenet-remsi-lordfilm.cfd
+*.ubit-billa-lordfilm.cfd
 *.ubiystva-v-odnom-zdanii-lordfilm.cfd
 *.ubiystvo-v-vostochnom-ekspresse-lordfilm.cfd
 *.ubiytsa-goblinov-lordfilm.cfd
@@ -6793,7 +7081,9 @@
 *.v-filadelfii-vsegda-solnechno-lordfilm.cfd
 *.v-glushi-neukrotimyy-lordfilm.cfd
 *.v-parke-chair-lordfilm.cfd
+*.v-strane-zhenshchin-lordfilm.cfd
 *.v-tchuzhoi-schkure-lordfilm.cfd
+*.v-techenie-sezona-lordfilm.cfd
 *.van-pis-film-dolina-boggow-lordfilm.cfd
 *.van-pis-lordfilm.cfd
 *.van-piys-lordfilm.cfd
@@ -6849,6 +7139,7 @@
 *.velichaishhii-lordfilm.cfd
 *.velichaishi-lordfilm.cfd
 *.velichaishii-lordfilm.cfd
+*.velikaya-ironiya-lordfilm.cfd
 *.velikiy-uravnitel-lordfilm.cfd
 *.velikoe-zapredele-lordfilm.cfd
 *.velikoye-zapredele-lordfilm.cfd
@@ -6859,6 +7150,8 @@
 *.velykoje-zapredele-lordfilm.cfd
 *.velykoye-zapredele-lordfilm.cfd
 *.venom-3-posledniy-tanets-lordfilm.cfd
+*.venom-lordfilm.cfd
+*.vera-lordfilm.cfd
 *.vestis-lordfilm.cfd
 *.vetchnii-strannik-lordfilm.cfd
 *.vetchnii-strannik-lordfilm2.cfd
@@ -6877,6 +7170,7 @@
 *.vjelykoe-zapredele-lordfilm.cfd
 *.vkusnyi-tvoi-tvoi-vkus-lordfilm.cfd
 *.vkusnyy-tvoy-tvoy-vkus-lordfilm.cfd
+*.vlastelin-kolec-3-lordfilm.cfd
 *.vlastelin-kolets-3-lordfilm.cfd
 *.vlastelini-vselennoi-lordfilm.cfd
 *.vlasteliny-vozdukha-lordfilm.cfd
@@ -6917,6 +7211,7 @@
 *.volchya-yama-3-lordfilm.cfd
 *.volczya-yama-3-lordfilm.cfd
 *.voleibol-film-protiv-malenkogo-giganta-lordfilm.cfd
+*.voleibol-reshayushchaya-igra-lordfilm.cfd
 *.voleybol-film-protiv-malenkogo-giganta-lordfilm.cfd
 *.voleybol-film-protiv-malenkogo-giganta-lordfilm2.cfd
 *.voleybol-film-protiv-malenkogo-giganta-lordfilm3.cfd
@@ -6925,6 +7220,7 @@
 *.voleybol-reshayushchaya-igra-lordfilm.cfd
 *.voljeybol-film-protiv-malenkogo-giganta-lordfilm.cfd
 *.volleyball-film-protiv-malenkogo-giganta-lordfilm.cfd
+*.volny-zhizni-lordfilm.cfd
 *.volshebnyy-uchitel-negima-lordfilm.cfd
 *.volt-lordfilm.cfd
 *.voltchia-yama-3-lordfilm.cfd
@@ -7007,7 +7303,9 @@
 *.xmovies3-com.cfd
 *.xmovies8-to.cfd
 *.xokum-lordfilm.cfd
+*.ya-budu-tvoey-nochyu-lordfilm.cfd
 *.ya-idu-iskat-2-lordfilm.cfd
+*.ya-idu-iskat-lordfilm.cfd
 *.ya-idu-yskat-2-lordfilm.cfd
 *.ya-khochu-derzhat-tebya-za-ruku-lordfilm.cfd
 *.ya-legenda-lordfilm.cfd
@@ -7070,6 +7368,8 @@
 *.zakulyse-ryealnosti-lordfilm.cfd
 *.zakulysje-realnosti-lordfilm.cfd
 *.zakulysye-realnosti-lordfilm.cfd
+*.zamok-dyavola-lordfilm.cfd
+*.zamok-i-klyuch-klyuchi-lokkov-lordfilm.cfd
 *.zapakh-klubniki-lordfilm.cfd
 *.zatishe-pered-burei-lordfilm.cfd
 *.zaveti-lordfilm.cfd
@@ -7106,6 +7406,7 @@
 *.zhutiki-lordfilm.cfd
 *.zhutykki-lordfilm.cfd
 *.zllodeykka-99-urovnya-lordfilms.cfd
+*.zloveshchie-mertvecy-lordfilm.cfd
 *.zloveshchie-mertvetsy-lordfilm.cfd
 *.zlye-ptichki-lordfilm.cfd
 *.znakomstvo-s-fakerami-4-lordfilm.cfd
@@ -7133,6 +7434,8 @@
 *.zverolyutsiya-lordfilm.cfd
 *.zveropolis-lordfilm.cfd
 *.zvezdnoe-ditya-rebenok-idola-lordfilm.cfd
+*.zvezdnyy-kreyser-galaktika-lordfilm.cfd
+*.zvezdnyy-put-lordfilm.cfd
 *.zvjozdnii-put-akademija-zvyozdnogo-flota-lordfilm.cfd
 *.zvjozdnoe-ditja-rebenok-idola-lordfilm.cfd
 *.zvonok-0-rozhdenie-lordfilm.cfd
@@ -7144,6 +7447,7 @@
 *.zvyozdnii-put-akademiya-zvyozdnogo-flota-lordfilm.cfd
 *.zvyozdniy-put-akademija-zvyozdnogo-flota-lordfilm.cfd
 *.zvyozdnoe-ditya-rebenok-idola-lordfilm.cfd
+*.zvyozdnye-voyny-epizod-iv-lordfilm.cfd
 *.zvyozdnyj-put-akademija-zvyozdnogo-flota-lordfilm.cfd
 *.cyberhitz.2ix.ch
 *.mytoplist.2ix.ch
@@ -7205,6 +7509,7 @@
 *.coflix.chat
 *.dood.chat
 *.eurostreaming.chat
+*.frenchstream.chat
 *.hdmoviehub.chat
 *.moviesmod.chat
 *.multicanaishd.chat
@@ -7323,6 +7628,7 @@
 *.altadefinizione-nuovo.click
 *.altadefinizione01.click
 *.altadefinizionepremium.click
+*.altadefinizionew.click
 *.altadefinizionex.click
 *.animex.click
 *.cakmadizipal.click
@@ -7426,10 +7732,17 @@
 *.lordfilm-ru-z.click
 *.lordfilm-turk.click
 *.lordfilm2025.click
+*.lordfilman.click
+*.lordfilmcv.click
 *.lordfilme.click
 *.lordfilmfm.click
 *.lordfilmgo.click
+*.lordfilmhj.click
+*.lordfilmhp.click
+*.lordfilmif.click
 *.lordfilmll.click
+*.lordfilmmf.click
+*.lordfilmmu.click
 *.lordfilmo.click
 *.lordfilmp.click
 *.lordfilmred.click
@@ -7437,6 +7750,7 @@
 *.lordfilms-sport.click
 *.lordfilmss.click
 *.lordfilmu.click
+*.lordfilmwb.click
 *.lordfilmxr.click
 *.lordfilmy.click
 *.lordfilmz.click
@@ -7554,6 +7868,7 @@
 *.balkanio.cloud
 *.bedro.cloud
 *.cineblog001.cloud
+*.cineblog01.cloud
 *.cineby.cloud
 *.coflix.cloud
 *.couchtuner.cloud
@@ -7735,6 +8050,7 @@
 *.hypeflix.club
 *.i123movies.club
 *.icouchtuner.club
+*.igravkalmara-lordfilmtv.club
 *.il-geniodellostreaming.club
 *.interstellar-lordfilm.club
 *.iplive.club
@@ -7892,6 +8208,7 @@
 *.solarmoviehd.club
 *.solarmovies.club
 *.solarmovies7.club
+*.spider-man-lordfilm.club
 *.sportsonline.club
 *.sportsupa.club
 *.sportsurge.club
@@ -7977,7 +8294,6 @@
 *.hdmovie7.cn
 *.tracker.hismz.cn
 *.tracker.hiyj.cn
-*.jshdtv.cn
 *.tracker.home.kmzs123.cn
 *.tracker.kmzs123.cn
 *.tracker.loligirl.cn
@@ -8436,6 +8752,7 @@
 *.123movies4.com
 *.123movies404.com
 *.123movies45.com
+*.123movies4ever.com
 *.123movies4free.com
 *.123movies4fun.com
 *.123movies4k.com
@@ -9118,6 +9435,7 @@
 *.bdvid.com
 *.tracker.beeimg.com
 *.befutbol.com
+*.bekinox.com
 *.bellator.com
 *.besstyzhie-lordfilm.com
 *.best123movies.com
@@ -9373,6 +9691,7 @@
 *.cdn-novflix.com
 *.cdnwish.com
 *.cdromance.com
+*.cekinox.com
 *.celerystresser.com
 *.cg-gamespc.com
 *.cgpeers.com
@@ -9430,6 +9749,7 @@
 *.cinefreakbd.com
 *.cinefreaknet.com
 *.cinehub24.com
+*.cinema21fullmovie.com
 *.cinemaapk.com
 *.cinemaboxx.com
 *.cinemadeck.com
@@ -9985,45 +10305,7 @@
 *.dizipal2158.com
 *.dizipal2159.com
 *.dizipal2160.com
-*.dizipal2161.com
-*.dizipal2162.com
-*.dizipal2163.com
-*.dizipal2164.com
-*.dizipal2165.com
-*.dizipal2166.com
 *.dizipal2167.com
-*.dizipal2168.com
-*.dizipal2169.com
-*.dizipal2170.com
-*.dizipal2171.com
-*.dizipal2172.com
-*.dizipal2173.com
-*.dizipal2174.com
-*.dizipal2175.com
-*.dizipal2176.com
-*.dizipal2177.com
-*.dizipal2178.com
-*.dizipal2179.com
-*.dizipal2180.com
-*.dizipal2181.com
-*.dizipal2182.com
-*.dizipal2183.com
-*.dizipal2184.com
-*.dizipal2185.com
-*.dizipal2186.com
-*.dizipal2187.com
-*.dizipal2188.com
-*.dizipal2189.com
-*.dizipal2190.com
-*.dizipal2191.com
-*.dizipal2192.com
-*.dizipal2193.com
-*.dizipal2194.com
-*.dizipal2195.com
-*.dizipal2196.com
-*.dizipal2197.com
-*.dizipal2198.com
-*.dizipal2199.com
 *.dizipal22.com
 *.dizipal2200.com
 *.dizipal2203.com
@@ -10281,6 +10563,7 @@
 *.ds-reloaded.com
 *.ds2play.com
 *.ds2video.com
+*.dsimgcdn.com
 *.dsoap2day.com
 *.dsxystopp.com
 *.duboku.com
@@ -10365,7 +10648,6 @@
 *.eshiel.com
 *.esmeraldatorrent.com
 *.espace-ekinoxe.com
-*.etorrentsmexico.com
 *.etproxy.com
 *.ettvcentral.com
 *.ettvdl.com
@@ -10560,6 +10842,7 @@
 *.fmovies24-to.com
 *.fmovies247.com
 *.fmovies24to.com
+*.fmovies2to.com
 *.fmovies3.com
 *.fmovies365.com
 *.fmovies4k.com
@@ -10901,6 +11184,7 @@
 *.gomoviesco.com
 *.gomoviesflix.com
 *.gomoviesfull.com
+*.gomoviesgo.com
 *.gomoviesi.com
 *.gomoviesn.com
 *.gomoviesongs.com
@@ -10930,14 +11214,17 @@
 *.gostreamlineagency.com
 *.gostreamlineco.com
 *.gostreamlinedlaw.com
+*.gostreamlinedsymplelending.com
 *.gostreamlinemedia.com
 *.gostreamlinesolution.com
 *.gostreamlinesped.com
+*.gostreamlinesymplelending.com
 *.gostreampay.com
 *.gostreamplayer.com
 *.gostreamrogue.com
 *.gostreamv.com
 *.gostreamvault.com
+*.gostreamz.com
 *.graceaddresscommunity.com
 *.gradehgplus.com
 *.grand-turk.com
@@ -11794,6 +12081,7 @@
 *.lordfilm2027.com
 *.lordfilm5.com
 *.lordfilm7.com
+*.lordfilmas.com
 *.lordfilmf.com
 *.lordfilmgo.com
 *.lordfilmh.com
@@ -12046,6 +12334,7 @@
 *.motchill29.com
 *.motchill3.com
 *.motchill4k.com
+*.motchill53.com
 *.motchill57.com
 *.motchill58.com
 *.motchill59.com
@@ -13624,6 +13913,8 @@
 *.tapeblocker.com
 *.tapedown.com
 *.taraftarium24-aslan.com
+*.taraftarium24-fb1.com
+*.taraftarium24-lgnmtk1.com
 *.taraftarium24-lgnmtk99.com
 *.taraftarium24-mhsn.com
 *.taraftarium24-off13.com
@@ -13813,6 +14104,7 @@
 *.torrent-client.com
 *.torrent-diagnostic.com
 *.torrent-diagnostics.com
+*.torrent-disk.com
 *.torrent-download-rj.com
 *.torrent-edge-reports.com
 *.torrent-finder.com
@@ -14009,6 +14301,7 @@
 *.torrentlt.com
 *.torrentmarine.com
 *.torrentmas.com
+*.torrentmate.com
 *.torrentmatrix.com
 *.torrentmax15.com
 *.torrentmedicine.com
@@ -14282,6 +14575,11 @@
 *.torrenttop229.com
 *.torrenttop230.com
 *.torrenttop231.com
+*.torrenttop232.com
+*.torrenttop233.com
+*.torrenttop234.com
+*.torrenttop235.com
+*.torrenttop236.com
 *.torrenttop78.com
 *.torrenttop89.com
 *.torrenttop94.com
@@ -14352,6 +14650,11 @@
 *.torrentzota209.com
 *.torrentzota210.com
 *.torrentzota211.com
+*.torrentzota212.com
+*.torrentzota213.com
+*.torrentzota214.com
+*.torrentzota215.com
+*.torrentzota216.com
 *.torrentzota69.com
 *.torrentzota96.com
 *.torrentzozo.com
@@ -15322,6 +15625,7 @@
 *.1moviestv.cyou
 *.321movies-offcial.cyou
 *.4movierulz.cyou
+*.5-santimetrov-v-sekundu-lordfilm.cyou
 *.5movierulz.cyou
 *.5moviestv.cyou
 *.7movierulz.cyou
@@ -15329,6 +15633,9 @@
 *.9kmovies-offcial.cyou
 *.advokaty-serialy-lordfilm.cyou
 *.afdah2.cyou
+*.akademiia-ambrella-lordfilm.cyou
+*.akademija-ambrella-lordfilm.cyou
+*.akademiya-ambrella-lordfilm.cyou
 *.akuly-lordfilm.cyou
 *.altadefinizione-01.cyou
 *.altadefinizionegratis.cyou
@@ -15342,6 +15649,7 @@
 *.annas-archive.cyou
 *.antihero-lordfilm.cyou
 *.apunkagames.cyou
+*.aviator-lordfilm.cyou
 *.bogatyri-filmy-lordfilm.cyou
 *.boks-lordfilm.cyou
 *.bollyflixtv.cyou
@@ -15357,8 +15665,10 @@
 *.chem-my-zaniaty-v-teni-lordfilm.cyou
 *.chem-my-zanjaty-v-teni-lordfilm.cyou
 *.chem-my-zanyaty-v-teni-lordfilm.cyou
+*.cherepashki-nindzya-lordfilm.cyou
 *.chernoe-zerkalo-lordfilm.cyou
 *.chicago-fire-lordfilm.cyou
+*.chuzhoy-lordfilm.cyou
 *.cineblog001.cyou
 *.cineblog01.cyou
 *.cineby.cyou
@@ -15368,6 +15678,7 @@
 *.cinebytv-offcial.cyou
 *.cinepulse-official.cyou
 *.cinevood.cyou
+*.clean-with-passion-for-now-lordfilm.cyou
 *.clearteamsoftwarezone4.cyou
 *.cmoviestv.cyou
 *.coflixtv.cyou
@@ -15396,6 +15707,7 @@
 *.filmstreaminghd-official.cyou
 *.flemmix.cyou
 *.flemmix-offcial.cyou
+*.flesh-lordfilm.cyou
 *.flixarena.cyou
 *.flixbeam.cyou
 *.flixblast.cyou
@@ -15496,6 +15808,8 @@
 *.fullmoviehub-offcial.cyou
 *.fullstream.cyou
 *.fzmoviestv.cyou
+*.gangsterlend-lordfilm.cyou
+*.geunom-eun-heug-yeomlyong-lordfilm.cyou
 *.golovolomka-lordfilm.cyou
 *.gomovies-gg.cyou
 *.gomovies-ms.cyou
@@ -15528,6 +15842,8 @@
 *.himoviestv.cyou
 *.hindmovie-offcial.cyou
 *.hypeflix.cyou
+*.izvne-lordfilm.cyou
+*.jojo-no-kimy-na-b-ken-lordfilm.cyou
 *.juraganfilm.cyou
 *.juraganfilm-official.cyou
 *.katastrofy-lordfilm.cyou
@@ -15536,6 +15852,7 @@
 *.kinoxax-official.cyou
 *.komediynye-serialy-lordfilm.cyou
 *.korol-talsy-lordfilm.cyou
+*.koshmar-pered-rozhdestvom-lordfilm.cyou
 *.kosmos-filmy-lordfilm.cyou
 *.kosmos-serialy-lordfilm.cyou
 *.koty-mult-lordfilm.cyou
@@ -15620,12 +15937,16 @@
 *.magiya-filmy-lordfilm.cyou
 *.mallumv.cyou
 *.manyaki-serialy-lordfilm.cyou
+*.mato-seihei-no-slave-lordfilm.cyou
 *.megashare.cyou
 *.milliardy-lordfilm.cyou
+*.mister-robot-lordfilm.cyou
 *.mistika-serialy-lordfilm.cyou
 *.mkvcinema-offcial.cyou
 *.mkvcinemas1.cyou
+*.moana-lordfilm.cyou
 *.molodezh-serialy-lordfilm.cyou
+*.monstr-v-parizhe-lordfilm.cyou
 *.monstry-lordfilm.cyou
 *.monstry-mult-lordfilm.cyou
 *.monstry-na-kanikulah-lordfilm.cyou
@@ -15677,13 +15998,17 @@
 *.myflixtor-offcial.cyou
 *.myflixtor-tv.cyou
 *.myvegamovies.cyou
+*.ne-smotrite-naverkh-lordfilm.cyou
 *.nepu-offcial.cyou
 *.novorossiya-potyomkin-lordfilm.cyou
 *.oborotni-filmy-lordfilm.cyou
 *.oborotni-serialy-lordfilm.cyou
+*.odin-doma-lordfilm.cyou
 *.ogrableniya-lordfilm.cyou
 *.ono-lordfilm.cyou
 *.openloadmovies-official.cyou
+*.otel-del-luna-lordfilm.cyou
+*.passazhiry-lordfilm.cyou
 *.pelisflix1.cyou
 *.pelisflix2.cyou
 *.pelisflix20.cyou
@@ -15711,11 +16036,13 @@
 *.radi-vsego-chelovechestva-lordfilm.cyou
 *.roboty-filmy-lordfilm.cyou
 *.romantika-filmy-lordfilm.cyou
+*.schaste-lordfilm.cyou
 *.screenfetch4.cyou
 *.serienstream.cyou
 *.series9-offcial.cyou
 *.seriesflix-official.cyou
 *.shitts-krik-lordfilm.cyou
+*.shkola-front-lordfilm.cyou
 *.shpiony-filmy-lordfilm.cyou
 *.shpiony-serialy-lordfilm.cyou
 *.shugar-lordfilm.cyou
@@ -15744,6 +16071,7 @@
 *.solarmoviesz.cyou
 *.solarmovietv.cyou
 *.solarmoviez-offcial.cyou
+*.spartak-spartak-krov-i-pesok-lordfilm.cyou
 *.spletnitsa-lordfilm.cyou
 *.sport-filmy-lordfilm.cyou
 *.sportsurgenfl.cyou
@@ -15813,6 +16141,7 @@
 *.streamzuzu.cyou
 *.sumerki-lordfilm.cyou
 *.superflixapi.cyou
+*.supermen-lordfilm.cyou
 *.tachki-lordfilm.cyou
 *.tanti-film.cyou
 *.tantifilmhd.cyou
@@ -15820,6 +16149,7 @@
 *.ted-lasso-lordfilm.cyou
 *.tetrad-smerti-lordfilm.cyou
 *.thepb.cyou
+*.tor-lordfilm.cyou
 *.torrent9-offcial.cyou
 *.torrentdosfilmes.cyou
 *.torrentialight.cyou
@@ -15829,6 +16159,7 @@
 *.ukrytie-lordfilm.cyou
 *.unblocked.cyou
 *.unblockedtech.cyou
+*.v-filadelfii-vsegda-solnechno-lordfilm.cyou
 *.vampiry-filmy-lordfilm.cyou
 *.vampiry-serialy-lordfilm.cyou
 *.van-pis-lordfilm.cyou
@@ -16198,6 +16529,7 @@
 *.xmovies.dev
 *.z-lib.dev
 *.zone-telechargement.dev
+*.5movierulz.diamonds
 *.123movies.digital
 *.123movies-tv.digital
 *.123movies9.digital
@@ -16295,6 +16627,7 @@
 *.bollyflix.diy
 *.cineblog01.diy
 *.dontorrent.diy
+*.guardaserie.diy
 *.hdmovieshub.diy
 *.mkvcinemass.diy
 *.motchill.diy
@@ -16393,6 +16726,7 @@
 *.tb-cdn.earth
 *.uhdmovies.earth
 *.vegamovies.earth
+*.hdmovieshub.eat
 *.kinogo.ec
 *.streameast.ec
 *.uakinogo.ec
@@ -16421,6 +16755,7 @@
 *.myflixer.email
 *.prmovies.email
 *.soap2day.email
+*.soap2days.email
 *.solarmovie.email
 *.solarmovies.email
 *.torrent.email
@@ -16602,6 +16937,7 @@
 *.bollyflix.faith
 *.filmyfly.faith
 *.thepiratebay-org.proxydude.faith
+*.ssoap2day.faith
 *.streaming-community.faith
 *.hdhub4u.family
 *.multicanais.family
@@ -16677,6 +17013,7 @@
 *.flemmix.fast
 *.futemax.fast
 *.hdmovie2.fast
+*.hdmovie2r.fast
 *.kinox.fast
 *.futemax.feedback
 *.hdmovie2.feedback
@@ -16746,6 +17083,7 @@
 *.hindmovie.fit
 *.il-geniodellostreaming.fit
 *.kkiste.fit
+*.lookmovie.fit
 *.lookmovie2.fit
 *.lookmovies2.fit
 *.lordfilm1.fit
@@ -17025,6 +17363,7 @@
 *.rep-art.ynh.fr
 *.tamas3.ynh.fr
 *.zone-streaming.fr
+*.9kmovies.free
 *.bollyflix.free
 *.futemax.free
 *.motchilltv.free
@@ -17509,6 +17848,7 @@
 *.cb01one.guru
 *.cineblog001.guru
 *.cineblog01.guru
+*.cineby.guru
 *.crichd.guru
 *.eurostreamings.guru
 *.filmoflixi.guru
@@ -17521,6 +17861,7 @@
 *.hdfilmcehennemi.guru
 *.lookmovie.guru
 *.lookmovie2.guru
+*.lookmoviee2.guru
 *.lookmovies2.guru
 *.lordfilm.guru
 *.lordfilmwll.guru
@@ -17569,6 +17910,7 @@
 *.brigada-lordfilm.hair
 *.tainanleba.btchichi.hair
 *.bunker-lordfilm.hair
+*.cb01one.hair
 *.chernobyl-zona-otchuzhdeniya-lordfilm.hair
 *.chuzhoy-rayon-lordfilm.hair
 *.cineblog001.hair
@@ -17713,6 +18055,7 @@
 *.watchmovierulz.haus
 *.cineblog001.health
 *.movierulz.health
+*.streaming-community.health
 *.torrent.health
 *.xalaflix.health
 *.123moviesfree.help
@@ -17735,6 +18078,7 @@
 *.full4movies.help
 *.gomovies.help
 *.gomovies123.help
+*.guardaseriex.help
 *.hdfilme.help
 *.hdfilme-tv.help
 *.hdmovie2.help
@@ -17799,6 +18143,7 @@
 *.multicanaistv.help
 *.myflixer.help
 *.newhdmovie2.help
+*.pelisflix.help
 *.pelisflix20.help
 *.pelisflix200.help
 *.privatemoviez.help
@@ -18073,6 +18418,7 @@
 *.novaya-zemlya-lordfilm.homes
 *.obsession-lordfilm.homes
 *.odiindoma-lordfilm.homes
+*.odin-doma-lordfilm.homes
 *.odisseya-lordfilm.homes
 *.odyssey-lordfilm.homes
 *.oldboy-lordfilms.homes
@@ -18210,6 +18556,7 @@
 *.zootopia-online-lordfilm.homes
 *.filmoflix.horse
 *.mycima.horse
+*.streamingcommunityz.horse
 *.5movierulz.host
 *.altadefinizionegratis.host
 *.cineblog001.host
@@ -18543,6 +18890,7 @@
 *.lordfilmblady.icu
 *.lordfilmblesk.icu
 *.lordfilmbntyy.icu
+*.lordfilmbogatstvo.icu
 *.lordfilmbonus.icu
 *.lordfilmbpc.icu
 *.lordfilmbqi.icu
@@ -18620,6 +18968,8 @@
 *.lordfilmdko.icu
 *.lordfilmdlt.icu
 *.lordfilmdogy.icu
+*.lordfilmdostat.icu
+*.lordfilmdosttok.icu
 *.lordfilmdpd.icu
 *.lordfilmdpeboo47.icu
 *.lordfilmdream.icu
@@ -18781,6 +19131,7 @@
 *.lordfilmiskorka.icu
 *.lordfilmiuurh86.icu
 *.lordfilmiweq.icu
+*.lordfilmizobilie.icu
 *.lordfilmj3x8v.icu
 *.lordfilmj5v2c.icu
 *.lordfilmj7k8l.icu
@@ -19046,6 +19397,7 @@
 *.lordfilmpedll44.icu
 *.lordfilmpepel.icu
 *.lordfilmper.icu
+*.lordfilmpervocvet.icu
 *.lordfilmpeskar.icu
 *.lordfilmpexon.icu
 *.lordfilmpft.icu
@@ -19064,6 +19416,7 @@
 *.lordfilmpluto.icu
 *.lordfilmpnjn.icu
 *.lordfilmpnw.icu
+*.lordfilmpodnezhnik.icu
 *.lordfilmpok.icu
 *.lordfilmpokolenie.icu
 *.lordfilmpolen.icu
@@ -19168,9 +19521,11 @@
 *.lordfilmryven.icu
 *.lordfilms-90x.icu
 *.lordfilmsamocvet.icu
+*.lordfilmsamorodok.icu
 *.lordfilmsby.icu
 *.lordfilmsen.icu
 *.lordfilmserdolik.icu
+*.lordfilmserebryak.icu
 *.lordfilmsez.icu
 *.lordfilmseza4.icu
 *.lordfilmshatyor.icu
@@ -19472,11 +19827,13 @@
 *.lordfilmziuut5.icu
 *.lordfilmziygf.icu
 *.lordfilmzkt.icu
+*.lordfilmzlatnik.icu
 *.lordfilmzlatoust.icu
 *.lordfilmzmu.icu
 *.lordfilmznd.icu
 *.lordfilmznqaw20.icu
 *.lordfilmzodorm9.icu
+*.lordfilmzolotnik.icu
 *.lordfilmzon.icu
 *.lordfilmzoran.icu
 *.lordfilmzpfyww64.icu
@@ -19507,6 +19864,7 @@
 *.myflixer.icu
 *.netmirror.icu
 *.newhdmovie2.icu
+*.pelisflix2.icu
 *.pelisflix200.icu
 *.piratebay.icu
 *.piratebays.icu
@@ -19523,7 +19881,9 @@
 *.soap2days.icu
 *.solarmoviehd.icu
 *.sportsurge.icu
+*.ssoap2day.icu
 *.streaming-community.icu
+*.streaming-communityz.icu
 *.streamingcommunityz.icu
 *.strumyki.icu
 *.strumykl.icu
@@ -19605,6 +19965,7 @@
 *.123movies.in
 *.123moviesofficial.in
 *.123moviestv.in
+*.1k21.in
 *.1vegamovies.in
 *.3movierulz.in
 *.67movies.in
@@ -20907,7 +21268,6 @@
 *.larozaa.lat
 *.lf-9-lordfilm.lat
 *.lf9-lordfilm.lat
-*.limetorrents.lat
 *.limontorrents.lat
 *.llordfilmhall22.lat
 *.lookmovie.lat
@@ -20963,6 +21323,7 @@
 *.lordfilm-h-5.lat
 *.lordfilm-h-6.lat
 *.lordfilm-hd11.lat
+*.lordfilm-hd39.lat
 *.lordfilm-hd74.lat
 *.lordfilm-hdtv.lat
 *.lordfilm-jex.lat
@@ -21007,6 +21368,7 @@
 *.lordfilm-rus15-film.lat
 *.lordfilm-rus2-film.lat
 *.lordfilm-rus22.lat
+*.lordfilm-rus46.lat
 *.lordfilm-rus97.lat
 *.lordfilm-ruskino.lat
 *.lordfilm-russ.lat
@@ -21112,7 +21474,9 @@
 *.lordfilm26-kino26.lat
 *.lordfilm26-kino27.lat
 *.lordfilm26-kino28.lat
+*.lordfilm26-kino29.lat
 *.lordfilm26-kino3.lat
+*.lordfilm26-kino30.lat
 *.lordfilm26-kino7.lat
 *.lordfilm26-kino8.lat
 *.lordfilm26-kino9.lat
@@ -21425,6 +21789,7 @@
 *.lordfilmcdoq.lat
 *.lordfilmcdsl.lat
 *.lordfilmcecy.lat
+*.lordfilmcend.lat
 *.lordfilmcev.lat
 *.lordfilmcfj.lat
 *.lordfilmcfm.lat
@@ -22319,7 +22684,9 @@
 *.lordfilmhtcc.lat
 *.lordfilmhth.lat
 *.lordfilmhtk.lat
+*.lordfilmhub0.lat
 *.lordfilmhuh.lat
+*.lordfilmhui.lat
 *.lordfilmhvc.lat
 *.lordfilmhwu.lat
 *.lordfilmhx9.lat
@@ -23335,6 +23702,7 @@
 *.lordfilmpr2.lat
 *.lordfilmpra.lat
 *.lordfilmprime.lat
+*.lordfilmpro0.lat
 *.lordfilmpro1.lat
 *.lordfilmpsh.lat
 *.lordfilmpsql.lat
@@ -24411,6 +24779,7 @@
 *.lordfilmxwi.lat
 *.lordfilmxws.lat
 *.lordfilmxxn.lat
+*.lordfilmxxs.lat
 *.lordfilmxzh.lat
 *.lordfilmy-com.lat
 *.lordfilmy-com1.lat
@@ -24594,11 +24963,13 @@
 *.lordfilmzkwq.lat
 *.lordfilmzld.lat
 *.lordfilmzlf.lat
+*.lordfilmzlo.lat
 *.lordfilmzlq.lat
 *.lordfilmzmbb.lat
 *.lordfilmzmc.lat
 *.lordfilmzmnv.lat
 *.lordfilmzncr.lat
+*.lordfilmzone0.lat
 *.lordfilmzop.lat
 *.lordfilmzow.lat
 *.lordfilmzpa.lat
@@ -24743,6 +25114,7 @@
 *.streamm4utv.lat
 *.streamzy.lat
 *.superflixapi.lat
+*.svaty-lordfilm.lat
 *.tanti-film.lat
 *.telohraniteli-lordfilm.lat
 *.torrent.lat
@@ -24891,6 +25263,7 @@
 *.landishy-lordfilm.life
 *.laroza.life
 *.livestreaminghd.life
+*.lookmovie.life
 *.lookmovie2.life
 *.lookmovie2plus.life
 *.lookmovies.life
@@ -26359,6 +26732,7 @@
 *.frenchstreams.live
 *.frenchstreamtv.live
 *.frmovies.live
+*.full123movies.live
 *.fullmovieswatch.live
 *.fullmoviez.live
 *.futbollibree.live
@@ -26822,6 +27196,7 @@
 *.motchillc.live
 *.motchillco.live
 *.motchille.live
+*.motchilli.live
 *.motchillk.live
 *.motchilll.live
 *.motchilln.live
@@ -26963,6 +27338,7 @@
 *.topflix.live
 *.torlock.live
 *.torrent-anlagholm.live
+*.torrent-hub.live
 *.torrent9.live
 *.torrenthub.live
 *.trackerstatus.live
@@ -27038,6 +27414,7 @@
 *.soap2day.living
 *.solarmovie.living
 *.solarmovies.living
+*.streamingcommunityz.living
 *.streamm4u.living
 *.tvlordfilms365.living
 *.vegamovies.living
@@ -27251,6 +27628,7 @@
 *.fmovies-too.lol
 *.fmovies123.lol
 *.fmovies2.lol
+*.fmovies24.lol
 *.fmovies24-to.lol
 *.fmovies3.lol
 *.fmovieshd.lol
@@ -27283,6 +27661,7 @@
 *.glukhar-lordfilm.lol
 *.go-lordfilm.lol
 *.golova-lordfilm.lol
+*.golovolomka-lordfilm.lol
 *.gomovies.lol
 *.gomovies-app.lol
 *.gomovies-tv.lol
@@ -27378,6 +27757,7 @@
 *.lookmovies2.lol
 *.lookmovieto.lol
 *.lordfilm.lol
+*.lordfilm-100.lol
 *.lordfilm-2.lol
 *.lordfilm-2026year.lol
 *.lordfilm-2027.lol
@@ -27839,7 +28219,6 @@
 *.lordfilmarchon.lol
 *.lordfilmardc.lol
 *.lordfilmarea.lol
-*.lordfilmarray.lol
 *.lordfilmas.lol
 *.lordfilmasb.lol
 *.lordfilmascs.lol
@@ -29418,6 +29797,7 @@
 *.lordfilmlihf.lol
 *.lordfilmlije.lol
 *.lordfilmlilih.lol
+*.lordfilmlimbo.lol
 *.lordfilmlin.lol
 *.lordfilmline.lol
 *.lordfilmlink.lol
@@ -31124,6 +31504,7 @@
 *.lordfilmwoq.lol
 *.lordfilmworks.lol
 *.lordfilmworld.lol
+*.lordfilmworship.lol
 *.lordfilmwow.lol
 *.lordfilmwpav.lol
 *.lordfilmwpl.lol
@@ -31596,6 +31977,7 @@
 *.multicanaishd1.lol
 *.multicanaishd2.lol
 *.multicanaistv.lol
+*.multimovies.lol
 *.multimovies-official.lol
 *.munkivuori-lordfilm.lol
 *.myatezhnyy-dukh-lordfilm.lol
@@ -31609,6 +31991,7 @@
 *.myflixerto.lol
 *.myflixerz.lol
 *.myflixerz-official.lol
+*.myflixor.lol
 *.myflixr.lol
 *.myflixter.lol
 *.myflixtor.lol
@@ -31718,6 +32101,8 @@
 *.streamcloudvectorpro.lol
 *.streaming-communityz.lol
 *.streamingcommunityapp.lol
+*.streamingcommunityz.lol
+*.streamm4u.lol
 *.streamm4u-com.lol
 *.streamm4u-official.lol
 *.streamm4uhd.lol
@@ -32342,6 +32727,7 @@
 *.gomovies.media
 *.guardaserie.media
 *.hdfilme.media
+*.hdmovie2.media
 *.himovies.media
 *.lookmovie2.media
 *.lookmovies.media
@@ -32653,6 +33039,7 @@
 *.motchillr.mom
 *.motchills.mom
 *.motchillsc.mom
+*.motchillsd.mom
 *.motchillse.mom
 *.motchillt.mom
 *.motchillth.mom
@@ -32667,6 +33054,7 @@
 *.motchillza.mom
 *.motchillzc.mom
 *.motchillze.mom
+*.movie4k.mom
 *.moviesmod.mom
 *.multicanaishd.mom
 *.multicanaistv.mom
@@ -32765,13 +33153,18 @@
 *.lordfilm-online.monster
 *.lordfilm-pauk-nuar.monster
 *.lordfilm-smotret.monster
+*.lordfilm10.monster
 *.lordfilm14.monster
 *.lordfilm19.monster
 *.lordfilm2026.monster
 *.lordfilm2027.monster
 *.lordfilm24.monster
+*.lordfilm36.monster
+*.lordfilm39.monster
 *.lordfilmaby.monster
 *.lordfilmbs.monster
+*.lordfilmbv.monster
+*.lordfilmcai.monster
 *.lordfilmcb.monster
 *.lordfilmdb.monster
 *.lordfilmfbh.monster
@@ -32782,17 +33175,20 @@
 *.lordfilmfy.monster
 *.lordfilmgdy.monster
 *.lordfilmhl.monster
+*.lordfilmho.monster
 *.lordfilmhy.monster
 *.lordfilmibt.monster
 *.lordfilmixchub.monster
 *.lordfilmixdrun.monster
 *.lordfilmjd.monster
 *.lordfilmjp.monster
+*.lordfilmkxh.monster
 *.lordfilmlf.monster
 *.lordfilmls.monster
 *.lordfilmnm.monster
 *.lordfilmnp.monster
 *.lordfilmok.monster
+*.lordfilmqa.monster
 *.lordfilmqb.monster
 *.lordfilmrab.monster
 *.lordfilmrcf.monster
@@ -32808,6 +33204,7 @@
 *.lordfilmvi.monster
 *.lordfilmvj.monster
 *.lordfilmwmo.monster
+*.lordfilmxt.monster
 *.lordfilmxv.monster
 *.lordfilmzz.monster
 *.mkvcinemas.monster
@@ -32861,6 +33258,7 @@
 *.mycima.motorcycles
 *.soap2day.motorcycles
 *.streaming-community.motorcycles
+*.streamingcommunityz.motorcycles
 *.tanti-film.motorcycles
 *.vegamovies.motorcycles
 *.xalaflix.motorcycles
@@ -32878,6 +33276,7 @@
 *.flickystream.mov
 *.futbol-libre.mov
 *.gidonline.mov
+*.gomovies.mov
 *.gomovies123.mov
 *.hdfilmcehennemi.mov
 *.hdmovie2r.mov
@@ -33176,6 +33575,7 @@
 *.socceron.name
 *.soccerstreams.name
 *.streamingcommunity.name
+*.streamingcommunityz.name
 *.tantifilm.name
 *.torrentmac.name
 *.newalbumreleases.unblockit.name
@@ -34020,6 +34420,7 @@
 *.motchillfn.net
 *.motchillga.net
 *.motchillgd.net
+*.motchillii.net
 *.motchilliw.net
 *.motchilliz.net
 *.motchillizz.net
@@ -34422,6 +34823,7 @@
 *.solarmovies1.net
 *.solarmovies123.net
 *.solarmoviesz.net
+*.solidtorrents.net
 *.sosulki.net
 *.bnbteasytracker.sourceforge.net
 *.spaider.net
@@ -34910,6 +35312,7 @@
 *.motchille.now
 *.motchilli.now
 *.motchilln.now
+*.motchillni.now
 *.motchillo.now
 *.motchilltv.now
 *.motchillv.now
@@ -34931,7 +35334,6 @@
 *.720pstream.nu
 *.cuevana.nu
 *.flixtor.nu
-*.gamestorrents.nu
 *.gnula.nu
 *.gnulahd.nu
 *.newvoyages.mine.nu
@@ -35667,6 +36069,7 @@
 *.lookmovies2.online
 *.lordfilm-black.online
 *.lordfilm-green.online
+*.lordfilm-hd.online
 *.lordfilm-jaga.online
 *.lordfilm-premiers.online
 *.lordfilm-red.online
@@ -35691,6 +36094,7 @@
 *.lordfilmbsd.online
 *.lordfilmbyi.online
 *.lordfilmcorrect.online
+*.lordfilmec67u.online
 *.lordfilmfine.online
 *.lordfilmfire.online
 *.lordfilmgdc.online
@@ -35738,6 +36142,7 @@
 *.mkvcinemas4u.online
 *.motchill-vip.online
 *.motchill1.online
+*.motchill10.online
 *.motchilli.online
 *.motchillk.online
 *.motchillkd.online
@@ -35906,6 +36311,7 @@
 *.streaming-academy.online
 *.streaming-communityz.online
 *.streamingcommunity01.online
+*.streamingcommunityz.online
 *.streamm4u.online
 *.streamwatch.online
 *.streamzy.online
@@ -35942,6 +36348,7 @@
 *.torrentlabs-demo11.online
 *.torrentsave.online
 *.torrentsearchweb.online
+*.torrentsfilmes.online
 *.torrentshub.online
 *.torrentsplus.online
 *.torrentx.online
@@ -36043,6 +36450,7 @@
 *.eurostreaming.ooo
 *.fmovies.ooo
 *.streamingcommunity.ooo
+*.streamingcommunityz.ooo
 *.0123movies.org
 *.0123moviesfree.org
 *.0123movieshub.org
@@ -36057,6 +36465,7 @@
 *.123movies-go.org
 *.123movies-is.org
 *.123movies-to.org
+*.123movies-website.org
 *.123movies00.org
 *.123movies1.org
 *.123movies123.org
@@ -36616,6 +37025,7 @@
 *.hdmovies14.org
 *.hdmovies2.org
 *.hdmovieswatch.org
+*.hdmoviez.org
 *.hdpopcorns.org
 *.hdreactor.org
 *.hdroad.org
@@ -37328,6 +37738,7 @@
 *.torrenteer.org
 *.torrentehautecouture.org
 *.torrentfilm.org
+*.torrentfilme.org
 *.torrentfilmehd.org
 *.torrentfilmehds.org
 *.torrentfilmes.org
@@ -37850,6 +38261,7 @@
 *.zaluknij.pl
 *.tracker.run.place
 *.streaming-community.place
+*.streamingcommunityz.place
 *.5movierulz.plumbing
 *.hdmovie2.plumbing
 *.streamingcommunity.plumbing
@@ -37873,6 +38285,7 @@
 *.lookmovie.plus
 *.lookmovies.plus
 *.megakino.plus
+*.motchilli.plus
 *.motchillv.plus
 *.moviesjoy.plus
 *.mybuffstreams.plus
@@ -38690,6 +39103,7 @@
 *.zlib.quest
 *.cineblog01.racing
 *.dontorrent.racing
+*.streamingcommunityz.racing
 *.unblocked.racing
 *.vegamovies.racing
 *.cineblog01.re
@@ -38839,6 +39253,7 @@
 *.eurostreamings.rest
 *.eyforiya-lordfilm.rest
 *.filin-lordfilm.rest
+*.film-pertutti.rest
 *.filmoflixi.rest
 *.filmoflixtv.rest
 *.fizruk-lordfilm.rest
@@ -38883,6 +39298,7 @@
 *.laroza.rest
 *.laroza1.rest
 *.likhie-lordfilm.rest
+*.lookmovie.rest
 *.lookmovie2.rest
 *.lord-lordfilm.rest
 *.lord-lordfilm1.rest
@@ -39043,6 +39459,7 @@
 *.vegamovies.restaurant
 *.123movies.review
 *.dontorrent.review
+*.motchill.review
 *.streaming-community.review
 *.5movierulz.rich
 *.33seriestreaming.rip
@@ -40010,6 +40427,7 @@
 *.asteriks-i-abeliks-lordfilm.ru
 *.asteriks-i-abelikse-lordfilm.ru
 *.asteriks-i-abeliksf-lordfilm.ru
+*.asteriks-i-abeliksq-lordfilm.ru
 *.asteriks-i-obeliks-lordfilm3.ru
 *.asteriks-i-obeliks-smotret-lordfilm.ru
 *.asteriks-obeliks-lordfilme.ru
@@ -40160,6 +40578,7 @@
 *.bakhubali-india-lordfilm.ru
 *.bakia-lordfilm.ru
 *.bakii-lordfilm.ru
+*.bakiq-lordfilm.ru
 *.bakis-lordfilm.ru
 *.bakise-lordfilm.ru
 *.bakisez-lordfilm.ru
@@ -40354,6 +40773,7 @@
 *.ben-10-lordfilme.ru
 *.ben-10-ten-lordfilm.ru
 *.ben-10-tenf-lordfilm.ru
+*.ben-10-tenq-lordfilm.ru
 *.ben-10a-lordfilm.ru
 *.ben-10s-lordfilm.ru
 *.ben-afflek-lordfilm.ru
@@ -40852,6 +41272,7 @@
 *.bridzheerttony-lordfilms.ru
 *.bridzherrtony-lordfilm.ru
 *.bridzherrtony-lordfilms.ru
+*.bridzhertony-lordfilm.ru
 *.bridzhertony-lordfilm3.ru
 *.bridzhertony-serial-lordfilm.ru
 *.bridzhertony-smotret-lordfilm2.ru
@@ -40986,6 +41407,7 @@
 *.cap-america-lordfilme.ru
 *.captain-americae-lordfilm.ru
 *.captain-americag-lordfilm.ru
+*.captain-americaq-lordfilm.ru
 *.captain-americas-lordfilm.ru
 *.captain-americat-lordfilm.ru
 *.captain-americau-lordfilm.ru
@@ -41480,6 +41902,7 @@
 *.communityd-lordfilm.ru
 *.communitye-lordfilm.ru
 *.communityl-lordfilm.ru
+*.communityr-lordfilm.ru
 *.communitys-lordfilm.ru
 *.conan-the-barbariana-lordfilm.ru
 *.conan-the-barbariane-lordfilm.ru
@@ -41519,6 +41942,7 @@
 *.cracks.ru
 *.crasota-lordfilm.ru
 *.creepshowa-lordfilm.ru
+*.creepshowas-lordfilm.ru
 *.creepshowe-lordfilm.ru
 *.creepshowo-lordfilm.ru
 *.creepshowr-lordfilm.ru
@@ -41645,6 +42069,7 @@
 *.davleniye-lordfilm.ru
 *.dawlenie-lordfilme.ru
 *.dawn-of-the-deada-lordfilm.ru
+*.dawn-of-the-deadas-lordfilm.ru
 *.dc-films-serialsz-lordfilm.ru
 *.dc-legends-tomorovw-lordfilm.ru
 *.dc-legends-tomorowr-lordfilm.ru
@@ -42146,6 +42571,7 @@
 *.donni-darko-film-lordfilm.ru
 *.dont-breather-lordfilm.ru
 *.dont-breathera-lordfilm.ru
+*.dont-breatherq-lordfilm.ru
 *.dont-breatheu-lordfilm.ru
 *.doom-patrolu-lordfilm.ru
 *.dorama-world-lordfilm.ru
@@ -42334,6 +42760,7 @@
 *.dunag-lordfilm.ru
 *.dunah-lordfilm.ru
 *.dunao-lordfilm.ru
+*.dunaq-lordfilm.ru
 *.dunar-lordfilm.ru
 *.dunas-lordfilm.ru
 *.dune-film-lordfilm.ru
@@ -43995,6 +44422,7 @@
 *.hichnikis-lordfilm.ru
 *.hichniko-lordfilm.ru
 *.hichnikp-lordfilm.ru
+*.hichnikr-lordfilm.ru
 *.hichniks-lordfilm.ru
 *.hichniku-lordfilm.ru
 *.high-potential-lordfilm.ru
@@ -44198,6 +44626,7 @@
 *.hroniki-narniyk-lordfilm.ru
 *.hroniki-narniyq-lordfilm.ru
 *.hroniki-narniyr-lordfilm.ru
+*.hroniki-narniyw-lordfilm.ru
 *.hroniki-rewolyutsii-lordfilme.ru
 *.hroniki-riddika-lordfilme.ru
 *.hroniki-russkoy-revolyutsii-serial-lordfilm.ru
@@ -44412,6 +44841,7 @@
 *.invincible-lordfilme.ru
 *.invincible-multserial-lordfilm.ru
 *.invincibled-lordfilm.ru
+*.invincibleq-lordfilm.ru
 *.invincibleu-lordfilm.ru
 *.invinsible-lordfilm.ru
 *.inwonderland-lordfilme.ru
@@ -44589,6 +45019,7 @@
 *.jakii-chann-lordfilm.ru
 *.jakii-chhann-lordfilm.ru
 *.jamaes-bondc-lordfilm.ru
+*.jamaes-bondg-lordfilm.ru
 *.jamaes-bondt-lordfilm.ru
 *.james-bondf-007-lordfilm.ru
 *.james-bondg-007-lordfilm.ru
@@ -45784,6 +46215,7 @@
 *.livetv.ru
 *.lleggenda-o-korre-lordfilm.ru
 *.lleprecon-lordfilm.ru
+*.llordfilms.ru
 *.lluana-lordfilm.ru
 *.locke-and-kejj-lordfilm.ru
 *.lockke-and-kej-lordfilm.ru
@@ -46469,6 +46901,7 @@
 *.madogaskara-lordfilm.ru
 *.madogaskarc-lordfilm.ru
 *.madogaskaro-lordfilm.ru
+*.madogaskarq-lordfilm.ru
 *.madogaskarr-lordfilm.ru
 *.madogaskars-lordfilm.ru
 *.madogaskaru-lordfilm.ru
@@ -46785,6 +47218,7 @@
 *.megaminde-lordfilm.ru
 *.megamindk-lordfilm.ru
 *.megamindp-lordfilm.ru
+*.megamindr-lordfilm.ru
 *.megamindt-lordfilm.ru
 *.megamindv-lordfilm.ru
 *.megamosg-lordfilm.ru
@@ -47332,6 +47766,7 @@
 *.mstiteli-vse-chasti-lordfilm6.ru
 *.mstiteli-vse-chasti-lordfilm7.ru
 *.mstitelii-lordfilms.ru
+*.mstiteliq-lordfilm.ru
 *.mstitels-lordfilm.ru
 *.mstitteli-lordfilm.ru
 *.mstrrobot-lordfilm.ru
@@ -48254,6 +48689,7 @@
 *.once-upon-a-times-lordfilm.ru
 *.once-upon-a-timeu-lordfilm.ru
 *.ondskan-lordfilm.ru
+*.ondskanq-lordfilm.ru
 *.ondskanr-lordfilm.ru
 *.ondskanw-lordfilm.ru
 *.one-pic-lordfilm.ru
@@ -48604,6 +49040,7 @@
 *.pacific-rimq-lordfilm.ru
 *.pacific-rimr-lordfilm.ru
 *.pacific-rimu-lordfilm.ru
+*.pacific-rimw-lordfilm.ru
 *.pacific-rimz-lordfilm.ru
 *.pacifiik-riim-lordfilm.ru
 *.pacifiik-rym-lordfilm.ru
@@ -49007,6 +49444,7 @@
 *.pitt-lordfilmtv.ru
 *.pitter-dzhekson-lordfilm.ru
 *.pixar-filmq-lordfilm.ru
+*.pixar-filmw-lordfilm.ru
 *.pixard-lordfilm.ru
 *.pixare-lordfilm.ru
 *.pixarie-lordfilm.ru
@@ -49166,6 +49604,7 @@
 *.podzemele-i-drakony-film-lordfilm.ru
 *.poesd-v-pusand-lordfilm.ru
 *.poesd-v-pusane-lordfilm.ru
+*.poesd-v-pusanq-lordfilm.ru
 *.poezd-dinozawrow-lordfilme.ru
 *.poezd-pusan-lordfilme.ru
 *.poezd-v-pusan-lordfilm3.ru
@@ -50017,6 +50456,7 @@
 *.resident-evilk-lordfilm.ru
 *.resident-evilq-lordfilm.ru
 *.resident-evilr-lordfilm.ru
+*.resident-evilw-lordfilm.ru
 *.resident-evily-lordfilm.ru
 *.resident-evilz-lordfilm.ru
 *.cdn.retget.ru
@@ -50422,6 +50862,7 @@
 *.se7ena-lordfilm.ru
 *.se7end-lordfilm.ru
 *.se7eno-lordfilm.ru
+*.se7enr-lordfilm.ru
 *.seasonvar.ru
 *.secret-life-of-pets-lordfilm.ru
 *.see-lordfilms.ru
@@ -50796,6 +51237,7 @@
 *.silent-hill-2026-lordfilm.ru
 *.silent-hill-film-lordfilm.ru
 *.silent-hilla-lordfilm.ru
+*.silent-hillas-lordfilm.ru
 *.silent-hillsh-lordfilm.ru
 *.silent-voice-lordfilm.ru
 *.silenthill-lordfilms.ru
@@ -51550,6 +51992,7 @@
 *.streamzone.ru
 *.street-fightd-lordfilm.ru
 *.street-fightere-lordfilm.ru
+*.street-fightr-lordfilm.ru
 *.street-khana-lordfilm.ru
 *.strela-lordfilm3.ru
 *.strela-lordfilme.ru
@@ -51911,6 +52354,7 @@
 *.tayna-zhiwotnyh2-lordfilme.ru
 *.tayny-mako-lordfilme.ru
 *.tayny-sledstwiya-lordfilme.ru
+*.tayny-smolvilya-lordfilmtv.ru
 *.tayny-smolvilya-serial-lordfilm.ru
 *.tayny-smolwilya-lordfilme.ru
 *.taynyy-millioner-lordfilme.ru
@@ -52273,6 +52717,7 @@
 *.the-hobbit-lordfilm.ru
 *.the-hunger-gamesd-lordfilm.ru
 *.the-hunger-gamesi-lordfilm.ru
+*.the-hunger-gamesr-lordfilm.ru
 *.the-hunger-gamesu-lordfilm.ru
 *.the-institute-lordfilme.ru
 *.the-invisible-manz-lordfilm.ru
@@ -52314,6 +52759,7 @@
 *.the-mask-lordfilms.ru
 *.the-matrixe-lordfilm.ru
 *.the-matrixf-lordfilm.ru
+*.the-matrixq-lordfilm.ru
 *.the-matrixw-lordfilm.ru
 *.the-matrixww-lordfilm.ru
 *.the-matrixxq-lordfilm.ru
@@ -52448,6 +52894,7 @@
 *.the-tudord-lordfilm.ru
 *.the-tudore-lordfilm.ru
 *.the-tudoro-lordfilm.ru
+*.the-tudorq-lordfilm.ru
 *.the-tudoru-lordfilm.ru
 *.the-vampire-diarieso-lordfilm.ru
 *.the-vampire-diariesr-lordfilm.ru
@@ -52505,6 +52952,7 @@
 *.thriller-world-lordfilm2.ru
 *.throne-lordfilm.ru
 *.thronq-lordfilm.ru
+*.thronw-lordfilm.ru
 *.ti-lordfilme.ru
 *.ti-serial-lordfilm.ru
 *.tihiy-don-lordfilme.ru
@@ -54810,7 +55258,9 @@
 *.cineblog01.run
 *.cineby.run
 *.cpasbien.run
+*.dizipalfix.run
 *.dizipalking.run
+*.dizipalorjinal.run
 *.dizipalove.run
 *.dizipaltr.run
 *.dizipalvip.run
@@ -54829,6 +55279,7 @@
 *.katmoviehd.run
 *.kinox.run
 *.kooora.run
+*.lookmovie.run
 *.lordfilm.run
 *.lordfilm5.run
 *.lordfilmdesign.run
@@ -54884,6 +55335,7 @@
 *.prmovies.sarl
 *.soap2day.sarl
 *.streaming-community.sarl
+*.streamingcommunityz.sarl
 *.worldfree4u.sarl
 *.mixdrop.sb
 *.putlocker.sb
@@ -54963,6 +55415,7 @@
 *.bluemediafile.sbs
 *.bohemian-rhapsody-lordfilm.sbs
 *.bollyflix1.sbs
+*.bolnitsa-pitt-lordfilm.sbs
 *.bonno-lordfilm.sbs
 *.breakfast-club-lordfilm.sbs
 *.breaking-bed-lordfilm.sbs
@@ -54984,6 +55437,7 @@
 *.chelovek-pauk-novyj-den-lordfilm.sbs
 *.chelusti-lordfilms.sbs
 *.cherepaschki-nindzya-lordfilm.sbs
+*.chernoe-zerkalo-lordfilm.sbs
 *.chocolat-lordfilm.sbs
 *.christmas-story-lordfilm.sbs
 *.cineblog001.sbs
@@ -55069,6 +55523,7 @@
 *.filmpertutti.sbs
 *.five-nights-at-freddy-lordfilm.sbs
 *.flemmix.sbs
+*.flesh-lordfilm.sbs
 *.flixmomo.sbs
 *.fmovies-to.sbs
 *.fmovies123.sbs
@@ -55099,6 +55554,7 @@
 *.godzila-monstrverse-lordfilm.sbs
 *.golden-compass-lordfilm.sbs
 *.golodnye-igri-lordfilm.sbs
+*.golovolomka-lordfilm.sbs
 *.golvar549.sbs
 *.golvar668.sbs
 *.gomovies.sbs
@@ -55131,6 +55587,7 @@
 *.heat-lordfilm.sbs
 *.hell-house-lordfilm.sbs
 *.hellraiser-saga-lordfilm.sbs
+*.henry-fitz-fitzgerald-lordfilm.sbs
 *.hercules-verse-lordfilm.sbs
 *.hexed-lordfilm.sbs
 *.hitch-lordfilm.sbs
@@ -55155,6 +55612,7 @@
 *.invitation-to-murder-lordfilm.sbs
 *.ip-man-saga-lordfilm.sbs
 *.izlemac529.sbs
+*.izvne-lordfilm.sbs
 *.jack-ryan-lordfilm.sbs
 *.james-bond-lordfilm.sbs
 *.johnnyenglish-lordfilm.sbs
@@ -55191,6 +55649,7 @@
 *.lookmovie.sbs
 *.lookmovie-foundation.sbs
 *.lookmovie2.sbs
+*.lookmoviehd.sbs
 *.lookmovies.sbs
 *.lordfilm-1080.sbs
 *.lordfilm-4k.sbs
@@ -55247,6 +55706,7 @@
 *.lordfilmblind.sbs
 *.lordfilmbox.sbs
 *.lordfilmbright.sbs
+*.lordfilmcitizen.sbs
 *.lordfilmclash.sbs
 *.lordfilmclass.sbs
 *.lordfilmclr.sbs
@@ -55310,6 +55770,7 @@
 *.lordfilmplay.sbs
 *.lordfilmportal.sbs
 *.lordfilmpost.sbs
+*.lordfilmproduct.sbs
 *.lordfilmprofit.sbs
 *.lordfilmproxy.sbs
 *.lordfilmpunk.sbs
@@ -55375,6 +55836,7 @@
 *.marley-and-me-lordfilm.sbs
 *.maska-zorro-lordfilm.sbs
 *.matilda-lordfilm.sbs
+*.mato-seihei-no-slave-lordfilm.sbs
 *.matrix-lordfilm.sbs
 *.meangirls-lordfilm.sbs
 *.megamind-mult-lordfilm.sbs
@@ -55390,6 +55852,7 @@
 *.mist-lordfilm.sbs
 *.mkvcinemas.sbs
 *.moana-disney-lordfilm.sbs
+*.moana-lordfilm.sbs
 *.moneyhub-iwarezoxuba.sbs
 *.monsters-vs-aliens-lordfilm.sbs
 *.mortal-kombat-lordfilm.sbs
@@ -55430,11 +55893,13 @@
 *.oceans-lordfilm.sbs
 *.ochen-stranie-dela-lordfilm.sbs
 *.odiindoma-lordfilm.sbs
+*.odin-doma-lordfilm.sbs
 *.odisseya-lordfilm.sbs
 *.odnazhdy-v-gollivude-lordfilm.sbs
 *.office-lordfilm.sbs
 *.one-flew-over-the-cuckoo-s-nest-lordfilm.sbs
 *.only-the-brave-lordfilm.sbs
+*.ono-lordfilm.sbs
 *.other-mommy-lordfilm.sbs
 *.pacific-rim-lordfilm.sbs
 *.paddington-bear-lordfilm.sbs
@@ -55508,7 +55973,9 @@
 *.seven-lordfilms.sbs
 *.sexfullmovies.sbs
 *.shameless-lordfilm.sbs
+*.shaun-the-sheep-lordfilm.sbs
 *.sherlock-lordfilm.sbs
+*.shugar-lordfilm.sbs
 *.sikario-lordfilms.sbs
 *.sister-act-lordfilm.sbs
 *.slumdog-millionaire-lordfilm.sbs
@@ -55547,6 +56014,7 @@
 *.sumerki-lordfilm.sbs
 *.sumerkii-lordfilm.sbs
 *.sumerky-lordfilm.sbs
+*.superflixapi.sbs
 *.supernatural-lordfilm.sbs
 *.supreheroes-lordfilms.sbs
 *.svaty-lordfilm.sbs
@@ -55555,6 +56023,7 @@
 *.tainyi-dnevnik-veryty-lordfilm.sbs
 *.taken-lordfilm.sbs
 *.tantifilm.sbs
+*.tantsor-lordfilm.sbs
 *.taxi-lordfilm.sbs
 *.teddy-daniels-lordfilms.sbs
 *.tenzing-lordfilm.sbs
@@ -55572,6 +56041,8 @@
 *.thing-lordfilm.sbs
 *.to-all-boys-i-loved-lordfilm.sbs
 *.top-gear-lordfilm.sbs
+*.top-gun-lordfilm.sbs
+*.tor-lordfilm.sbs
 *.torrentgames.sbs
 *.town-lordfilm.sbs
 *.training-day-lordfilm.sbs
@@ -55586,6 +56057,7 @@
 *.us-lordfilm.sbs
 *.us-lordfilm-lordfilm.sbs
 *.van-helsing-lordfilm.sbs
+*.vanpanchmen-lordfilm.sbs
 *.varkraft-lordfilm.sbs
 *.vedmak-lordfilm.sbs
 *.vegamovies4.sbs
@@ -55729,7 +56201,6 @@
 *.zlibrary-africa.se
 *.cineblog01.services
 *.tracker.darkness.services
-*.filmapik.services
 *.softoemdownloadcheapg.services
 *.softoemdownloadcheapj.services
 *.softoemdownloadfastg.services
@@ -55789,14 +56260,18 @@
 *.4movierulz.shop
 *.9kmovies.shop
 *.a1movies.shop
+*.akademiya-ambrella-lordfilm.shop
 *.altadefinizionegratis.shop
 *.altadefinizionehd.shop
 *.altadefinizionex.shop
+*.bolnica-pitt-lordfilm.shop
 *.bolnitsa-pitt-lordfilm.shop
 *.bonsaiprolink.shop
 *.casacinema.shop
 *.cb01.shop
 *.cb01one.shop
+*.chem-my-zanjaty-v-teni-lordfilm.shop
+*.chem-my-zanyaty-v-teni-lordfilm.shop
 *.cineblog001.shop
 *.cineby.shop
 *.cineby1.shop
@@ -55810,6 +56285,7 @@
 *.dnevniki-vampira-lordfilm.shop
 *.dontorrent.shop
 *.dzhek-richer-lordfilm.shop
+*.enkanto-lordfilm.shop
 *.eurostream.shop
 *.eurostreaming.shop
 *.eurostreamings.shop
@@ -55836,6 +56312,7 @@
 *.tr.highstar.shop
 *.himoviess.shop
 *.klejfejs-lordfilm.shop
+*.korol-talsy-lordfilm.shop
 *.krik-lordfilm.shop
 *.landiewarez.shop
 *.laroza.shop
@@ -55902,7 +56379,10 @@
 *.m4ufree1.shop
 *.m4ufreehd.shop
 *.megakino.shop
+*.milliardy-lordfilm.shop
 *.mkvcinemas.shop
+*.monstry-lordfilm.shop
+*.monstry-na-kanikulakh-lordfilm.shop
 *.motchilltv.shop
 *.motchillv.shop
 *.movierulz.shop
@@ -55910,6 +56390,7 @@
 *.movies123.shop
 *.multicanais1.shop
 *.multicanaistop.shop
+*.multimovie.shop
 *.my-123movies.shop
 *.my123movies.shop
 *.my123movies2.shop
@@ -55918,11 +56399,13 @@
 *.myflixer.shop
 *.myflixers.shop
 *.myflixertv.shop
+*.myflixerz.shop
 *.mylordfilm1080.shop
 *.nbastreamlive.shop
 *.nhlstreamguide.shop
 *.novichok-lordfilm2.shop
 *.novicok-lordfilm.shop
+*.odin-doma-lordfilm.shop
 *.olamovies.shop
 *.ono-lordfilm.shop
 *.optimizedadstream.shop
@@ -55986,6 +56469,7 @@
 *.van-pis-lordfilm.shop
 *.vanpanchmen-lordfilm.shop
 *.vegamovies.shop
+*.vegamovies10.shop
 *.vegamovies2.shop
 *.vegamovies3.shop
 *.vegamoviesdenji.shop
@@ -56073,7 +56557,6 @@
 *.zlib.si
 *.123movies.singles
 *.5movierulz.singles
-*.filmapik.singles
 *.filmoflix.singles
 *.streaming-community.singles
 *.yesmovies.singles
@@ -56329,6 +56812,7 @@
 *.limetorrents.site
 *.limontorrents.site
 *.livestreamingvideo.site
+*.lnbastreams.site
 *.lookmovie.site
 *.lookmovie-web.site
 *.lookmovie2.site
@@ -56349,6 +56833,7 @@
 *.mobiletvshows.site
 *.mokmobi.site
 *.motchill.site
+*.motchilli.site
 *.motchilll.site
 *.motchillv.site
 *.moviedokan.site
@@ -56468,6 +56953,7 @@
 *.ssoap2day.site
 *.startflix.site
 *.streamingcommunity.site
+*.streamingcommunityz.site
 *.streamingservices.site
 *.streamkiste.site
 *.streamlivetv.site
@@ -57034,6 +57520,7 @@
 *.9kmovies.store
 *.aimovies123.store
 *.akdescargas.store
+*.altadefinizionex.store
 *.androeed.store
 *.antenacentral.store
 *.antenawest.store
@@ -57102,7 +57589,6 @@
 *.lookmovie2.store
 *.lookmovies2.store
 *.lordfilm-jack-potrashitel.store
-*.lordfilm-patsan.store
 *.losmovies.store
 *.m4ufree.store
 *.m4ufreetv.store
@@ -57155,6 +57641,7 @@
 *.torrent9.store
 *.torrent911.store
 *.torrentbasetest.store
+*.torrentcaresolutions.store
 *.torrentcdn.store
 *.torrentech.store
 *.torrentehautecouture.store
@@ -57189,6 +57676,7 @@
 *.123movieshub.stream
 *.123moviess.stream
 *.1movies.stream
+*.altadefinizionex.stream
 *.bdiptv.stream
 *.bollyflix.stream
 *.cb01one.stream
@@ -57292,12 +57780,14 @@
 *.french-stream.study
 *.frenchstream.study
 *.fzmovies.study
+*.guardaflix.study
 *.guardaserie.study
 *.guardaserietv.study
 *.guardoserie.study
 *.il-geniodellostreaming.study
 *.katmoviefix.study
 *.laroza.study
+*.laroza1.study
 *.larozaa.study
 *.lookmovie.study
 *.lookmovie2.study
@@ -57555,6 +58045,7 @@
 *.5movierulz.systems
 *.hdmovie2.systems
 *.hdmovie2i.taipei
+*.5movierulzto.talk
 *.altadefinizione.talk
 *.lordfilm.talk
 *.123movies.tattoo
@@ -57624,6 +58115,7 @@
 *.moviesmod.team
 *.multicanais.team
 *.myflixer.team
+*.pelisflix1.team
 *.serienjunkies.team
 *.seriesflixhd.team
 *.skymovieshd.team
@@ -58271,6 +58763,7 @@
 *.2026-lordfilmy.top
 *.tracker.23794.top
 *.24hours.top
+*.27-dresses-lordfilm.top
 *.47-meters-down-lordfilm.top
 *.5movies.top
 *.5moviestv.top
@@ -58346,6 +58839,7 @@
 *.black-box-lordfilm.top
 *.black-swan-lordfilm.top
 *.blackphone-lordfilm.top
+*.blade-runner-lordfilm.top
 *.blagie-znameniya-lordfilm.top
 *.bodies-bodies-bodies-lordfilm.top
 *.boevoy-kontinent-lordfilm.top
@@ -58369,6 +58863,7 @@
 *.cb01q3y2.top
 *.challengers-lordfilm.top
 *.charlie-chocolate-factory-lordfilm.top
+*.chas-peak-lordfilm.top
 *.chas-pik-lordfilm.top
 *.chast-lordfilm.top
 *.chelovek-pauk-lordfilm.top
@@ -58564,6 +59059,7 @@
 *.hatiko-lordfilm.top
 *.hazbro-lordfilm.top
 *.hdfilm.top
+*.hdfilm-miks.top
 *.hdfilmadresi.top
 *.hdfilmcehennemi1.top
 *.hdfilme.top
@@ -58737,6 +59233,7 @@
 *.lordfilm-ggg.top
 *.lordfilm-gran.top
 *.lordfilm-hj.top
+*.lordfilm-j8.top
 *.lordfilm-kino.top
 *.lordfilm-kinobay.top
 *.lordfilm-kubik.top
@@ -58783,6 +59280,7 @@
 *.lordfilm-terapiya.top
 *.lordfilm-tut.top
 *.lordfilm-tvs.top
+*.lordfilm-v68.top
 *.lordfilm-v7.top
 *.lordfilm-vins.top
 *.lordfilm-vse-chasti.top
@@ -58820,6 +59318,7 @@
 *.lordfilm95tv.top
 *.lordfilm999.top
 *.lordfilmacross.top
+*.lordfilmaffair.top
 *.lordfilmakkord.top
 *.lordfilmambarok.top
 *.lordfilmap.top
@@ -59085,6 +59584,7 @@
 *.lordfilmstudio.top
 *.lordfilmstupeni.top
 *.lordfilmsubtle.top
+*.lordfilmsudoku.top
 *.lordfilmsugrob.top
 *.lordfilmsun.top
 *.lordfilmsvetilnik.top
@@ -59632,6 +60132,7 @@
 *.transylvania-hotel-lordfilm.top
 *.tremors-lordfilm.top
 *.trigger-lordfilm.top
+*.triiksa-lordfilms.top
 *.troy-lordfilm.top
 *.tsikl-zveria-lordfilm.top
 *.tsikl-zverya-lordfilm.top
@@ -59658,6 +60159,7 @@
 *.vacation-lordfilm.top
 *.valamhub.top
 *.van-pis-lordfilm.top
+*.varkraft-lordfilm.top
 *.varshava21-lordfilm.top
 *.vavoo.top
 *.vegamovies4u.top
@@ -59746,7 +60248,7 @@
 *.gomovies.town
 *.hdmovie2.town
 *.lordfilms.town
-*.mega-torrent.town
+*.www.mega-torrent.town
 *.moviesmode.town
 *.nextorrent.town
 *.nortorrent.town
@@ -60281,6 +60783,7 @@
 *.123movie.uno
 *.123movies.uno
 *.123moviesfree9.uno
+*.123moviesgo.uno
 *.altadefiniziones.uno
 *.altadefinizionex.uno
 *.cb01-ai.uno
@@ -60507,6 +61010,7 @@
 *.pelisflix1.video
 *.pelisflix2.video
 *.phimmoi.video
+*.putlocker.video
 *.putlocker123.video
 *.rojadirecta.video
 *.seriesflix.video
@@ -60536,6 +61040,7 @@
 *.lordfilm2026.vin
 *.mkvcinemas.vin
 *.motchilll.vin
+*.motchillv.vin
 *.motchillx.vin
 *.mycima.vin
 *.soap2day.vin
@@ -60850,6 +61355,7 @@
 *.myflixerz.vip
 *.myflixtor.vip
 *.myfreemp3.vip
+*.nbastreams.vip
 *.netflytv.vip
 *.nhlstreams.vip
 *.noveflix.vip
@@ -61337,6 +61843,7 @@
 *.katmoviehd.watch
 *.letmewatchthis.watch
 *.lookmovie.watch
+*.lookmovie2.watch
 *.lookmovies2.watch
 *.lordfilm-2026.watch
 *.lordfilm-kino.watch
@@ -61624,6 +62131,7 @@
 *.lordfilm24.win
 *.lordfilmi.win
 *.m4ufree.win
+*.motchill.win
 *.motchilltv.win
 *.motchillv.win
 *.movie2k.win
@@ -61680,6 +62188,7 @@
 *.67movies.work
 *.altadefinizionegratis.work
 *.cb01.work
+*.cb01one.work
 *.cineblog001.work
 *.cineblog01.work
 *.cineby.work
@@ -61692,6 +62201,7 @@
 *.fmoviesto.work
 *.frembed.work
 *.french-stream.work
+*.gomovies.work
 *.guardaseriex.work
 *.hdmovieshub.work
 *.il-geniodellostreaming.work
@@ -62965,6 +63475,7 @@
 *.motchillss.xyz
 *.motchillv.xyz
 *.motchillvv.xyz
+*.motchillx.xyz
 *.motchillz.xyz
 *.motchillzc.xyz
 *.motchillzz.xyz
@@ -63705,6 +64216,8 @@
 *.laroza.yachts
 *.larozaa.yachts
 *.lordfilm.yachts
+*.lordfilmik.yachts
+*.lordfilmj.yachts
 *.lordfilms.yachts
 *.mkvcinemas.yachts
 *.movierulz.yachts

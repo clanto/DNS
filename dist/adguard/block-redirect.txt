@@ -535,6 +535,7 @@
 ||unblock.at^
 ||urlcut.at^
 ||urlshortener.at^
+||urlshortner.at^
 ||urlz.at^
 ||uurl.at^
 ||wildc.at^
@@ -37758,6 +37759,7 @@
 ||5xq.info^
 ||5ya.info^
 ||5yu.info^
+||5z8.info^
 ||60hr.info^
 ||60surfer.info^
 ||60usprox.info^
@@ -76737,7 +76739,6 @@
 ||netevader.org^
 ||netizen303.org^
 ||netrabbit.org^
-||casa.netsons.org^
 ||netsurfers.org^
 ||proxy.netuno.org^
 ||newproxysites.org^

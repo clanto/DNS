@@ -609,6 +609,7 @@
 *.freeproxyserver.biz
 *.freeproxysites.biz
 *.freesurf.biz
+*.gacora.biz
 *.gaidem.biz
 *.gascreditcard.biz
 *.gavial.biz
