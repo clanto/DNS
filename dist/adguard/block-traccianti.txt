@@ -4111,6 +4111,7 @@
 ||stat.fly.codes^
 ||stats.petr.codes^
 ||ssm.codes^
+||ingest.t3.codes^
 ||stats.beanr.coffee^
 ||link.poputi.coffee^
 ||app.th3rdwave.coffee^
@@ -12588,6 +12589,7 @@
 ||ftuart.chomedeynissan.com^
 ||a8.choomia.com^
 ||marketing.choosechicago.com^
+||choosehobby.com^
 ||fpc.choosemylo.com^
 ||images.guidance.choosemylo.com^
 ||pages.e.chooseumpquabank.com^
@@ -38262,6 +38264,7 @@
 ||dl.tablelist.com^
 ||dl-dev.tablelist.com^
 ||tabletpcreviewspot.com^
+||trc-events.taboola.com^
 ||tachomtr.com^
 ||smetrics.tackntogs.com^
 ||tackytrains.com^
@@ -55793,6 +55796,7 @@
 ||seniorliving.mooringsatlewes.org^
 ||membership.mortonarb.org^
 ||mouseflow.org^
+||gtm.mozilla.org^
 ||telemetry.mozilla.org^
 ||marketing.mrcaff.org^
 ||seniorliving.mrcaff.org^

@@ -1228,7 +1228,6 @@ dns.ha-dvin.pp.ua
 dns.hahnjo.de
 dns.haka.se
 dns.hakim.one
-dns.hakutakucn.com
 dns.hanahira.dev
 dns.hanmey.de
 dns.hannielzhang.com
@@ -1773,6 +1772,7 @@ dns.w3ctag.org
 dns.wael.name
 dns.walker.id
 dns.walshnet.co.uk
+dns.wang.art
 dns.wantfreedom.eu.org
 dns.wargan.io
 dns.warma.me

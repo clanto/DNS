@@ -1226,6 +1226,7 @@
 ||cineblog01.bet^
 ||coflix.bet^
 ||eurostreaming.bet^
+||filmpertutti.bet^
 ||futbollibretv.bet^
 ||guardaserie.bet^
 ||hdmovie2.bet^
@@ -7706,6 +7707,7 @@
 ||hdmoviesflix.click^
 ||hdmovieshub.click^
 ||hdmoviesplus.click^
+||hindmoviez.click^
 ||hotspurstreamna.click^
 ||hypeflix.click^
 ||ilgeniodellostreaming.click^
@@ -8042,7 +8044,6 @@
 ||hdmoviehubs.club^
 ||hdmovies2.club^
 ||hdmoviesfeed.club^
-||hdmoviespoint.club^
 ||tracker.hdstreet.club^
 ||himovies.club^
 ||holod-lordfilm.club^
@@ -16769,7 +16770,6 @@
 ||yomovies.energy^
 ||zone-telechargement.energy^
 ||futemax.engineer^
-||hdmovie2.engineering^
 ||vegamovies.engineering^
 ||hdmovie2.enterprises^
 ||multicanaishd.enterprises^
@@ -16781,7 +16781,6 @@
 ||channelstream.es^
 ||descargaswarez.es^
 ||dontorrent.es^
-||freebookspot.es^
 ||futemax.es^
 ||gostream.es^
 ||hdcity.es^
@@ -16889,7 +16888,6 @@
 ||torrentz2.eu^
 ||ultimate-warez.eu^
 ||unblocked.eu^
-||urbanproxy.eu^
 ||tracker.vectahosting.eu^
 ||vidics.eu^
 ||watchonlineseries.eu^
@@ -17289,7 +17287,6 @@
 ||unblockedgames.forum^
 ||yesmovies.forum^
 ||futemax.foundation^
-||hdmovie2.foundation^
 ||lookmovie.foundation^
 ||lookmovie2.foundation^
 ||lookmovies.foundation^
@@ -18636,7 +18633,6 @@
 ||cb01uno.icu^
 ||cima-free.icu^
 ||cineblog001.icu^
-||cineby.icu^
 ||coflix.icu^
 ||ddizipal.icu^
 ||deporte-libre.icu^
@@ -20233,7 +20229,6 @@
 ||cineblog001.info^
 ||cineblog01.info^
 ||cineblog01hd.info^
-||cineby.info^
 ||cinefreak.info^
 ||cinepulse.info^
 ||cmovies.info^
@@ -21101,6 +21096,8 @@
 ||1337x.la^
 ||1movies.la^
 ||animeflv.la^
+||anti.c.la^
+||digitalwarez.c.la^
 ||divxtotal.la^
 ||dood.la^
 ||lookmovie.la^
@@ -32279,6 +32276,7 @@
 ||watchseries.lu^
 ||lordfilm.luxe^
 ||streamingcommunity.luxe^
+||streamingcommunityz.luxe^
 ||futemax.luxury^
 ||hdmovie2.luxury^
 ||lordfilm.luxury^
@@ -32801,6 +32799,7 @@
 ||bollyflix.miami^
 ||fmovies.miami^
 ||hdmovie2.miami^
+||streamingcommunityz.miami^
 ||vegamovies.miami^
 ||futemax.mk^
 ||67movies.ml^
@@ -33524,6 +33523,7 @@
 ||putlockertv.my^
 ||sdmoviespoint.my^
 ||series-flixhd.my^
+||seriesflix.my^
 ||soap2day-hd.my^
 ||soap2day-to.my^
 ||soap2dayc.my^
@@ -39130,6 +39130,7 @@
 ||cineby.red^
 ||coflix.red^
 ||corsaro.red^
+||dood.red^
 ||eurostreaming.red^
 ||filmapik.red^
 ||gomovies.red^
@@ -56443,6 +56444,7 @@
 ||storyfullstream.shop^
 ||streamcloud.shop^
 ||streamingcommunity.shop^
+||streamingcommunityz.shop^
 ||streamzy.shop^
 ||strngiptv8k.shop^
 ||suomi-iptv.shop^
@@ -56623,7 +56625,6 @@
 ||4umoviesmod.site^
 ||tracker.52pt.site^
 ||5movies.site^
-||abbasport.site^
 ||allinonedownloadzz.site^
 ||altadefinizione01.site^
 ||altadefinizionex.site^
@@ -57391,7 +57392,6 @@
 ||hdmoviespoint.space^
 ||hdmovieverse.space^
 ||hesgoal-tv.space^
-||ifilmsenzalimiti.space^
 ||ilgeniodellostreaming.space^
 ||jasp-nox-warez.space^
 ||juraganfilm.space^
@@ -61058,7 +61058,6 @@
 ||123movieshd.vip^
 ||123moviesla.vip^
 ||1movies.vip^
-||5movierulz.vip^
 ||5movies.vip^
 ||altadefinizione.vip^
 ||altadefinizionew.vip^
@@ -63560,6 +63559,7 @@
 ||ncdn22.xyz^
 ||neighboranime.xyz^
 ||net123movies.xyz^
+||networkstress.xyz^
 ||neural-warez.xyz^
 ||nevskiy-lordfilm.xyz^
 ||new-123movies.xyz^

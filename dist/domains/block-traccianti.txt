@@ -11223,6 +11223,7 @@ chloro.trip.com
 choicebump.com
 choose.adelaide.edu.au
 choose.nu.edu
+choosehobby.com
 chooseupfluence.com
 chord.co
 chosendata.com
@@ -20434,6 +20435,7 @@ gtm-a2b4.com
 gtm.diamond.jp
 gtm.lercio.it
 gtm.mandesager.dk
+gtm.mozilla.org
 gtm.wise.com
 gtm.xtb.com
 gtmforshopify.com
@@ -23173,6 +23175,7 @@ ingest.in.signoz.cloud
 ingest.make.rvapps.io
 ingest.make.rvohealth.com
 ingest.promptwatch.com
+ingest.t3.codes
 ingesteer.services-prod.nsvcs.net
 ingredients.firmenich.com
 ingress.linktr.ee
@@ -55849,6 +55852,7 @@ trbo.com
 trboapp.com
 trbohq.com
 trbohub.com
+trc-events.taboola.com
 trc.gpcdn.pl
 trccvt.dhc.co.jp
 trck.accredible.com

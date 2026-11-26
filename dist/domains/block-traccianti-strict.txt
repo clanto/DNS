@@ -8731,6 +8731,7 @@ chloro.trip.com
 choicebump.com
 choose.adelaide.edu.au
 choose.nu.edu
+choosehobby.com
 choymp.pooldawg.com
 chpspb.bubbleroom.fi
 chrczt.vite-envogue.de
@@ -15416,6 +15417,7 @@ gtgvze.chintai.net
 gtm.diamond.jp
 gtm.lercio.it
 gtm.mandesager.dk
+gtm.mozilla.org
 gtm.wise.com
 gtm.xtb.com
 gtmfsstatic.getgoogletagmanager.com
@@ -17541,6 +17543,7 @@ ingest.in.signoz.cloud
 ingest.make.rvapps.io
 ingest.make.rvohealth.com
 ingest.promptwatch.com
+ingest.t3.codes
 ingesteer.services-prod.nsvcs.net
 ingredients.firmenich.com
 ingress.linktr.ee
@@ -39778,6 +39781,7 @@ travel.x.unikoom.com
 travelerpic.com
 travelmarketreport.actonservice.com
 traxex.gannettdigital.com
+trc-events.taboola.com
 trc.gpcdn.pl
 trccvt.dhc.co.jp
 trck.accredible.com

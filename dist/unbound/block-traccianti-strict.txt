@@ -3403,6 +3403,7 @@
 *.s.fission.codes
 *.stat.fly.codes
 *.stats.petr.codes
+*.ingest.t3.codes
 *.stats.beanr.coffee
 *.link.poputi.coffee
 *.app.th3rdwave.coffee
@@ -10372,6 +10373,7 @@
 *.ftuart.chomedeynissan.com
 *.a8.choomia.com
 *.marketing.choosechicago.com
+*.choosehobby.com
 *.fpc.choosemylo.com
 *.images.guidance.choosemylo.com
 *.pages.e.chooseumpquabank.com
@@ -26196,6 +26198,7 @@
 *.tableleaders.com
 *.dl.tablelist.com
 *.dl-dev.tablelist.com
+*.trc-events.taboola.com
 *.smetrics.tackntogs.com
 *.tackytrains.com
 *.metrics.tacobell.com
@@ -40214,6 +40217,7 @@
 *.todayintheword.moodybible.org
 *.seniorliving.mooringsatlewes.org
 *.membership.mortonarb.org
+*.gtm.mozilla.org
 *.marketing.mrcaff.org
 *.seniorliving.mrcaff.org
 *.content.msufcu.org

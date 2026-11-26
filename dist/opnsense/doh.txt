@@ -130,7 +130,6 @@ adguard.abd.ong
 adguard.acrobyte.org
 adguard.adrianofrongillo.ovh
 adguard.aenth.com
-adguard.ajinga.net
 adguard.alu.dog
 adguard.aminetwork.biz
 adguard.amscenter.net
@@ -187,7 +186,6 @@ adguard.kitakitsune.xyz
 adguard.landropunk.xyz
 adguard.lege.despagne.net
 adguard.llf520.dpdns.org
-adguard.londonwebnerd.cloud
 adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
@@ -1164,7 +1162,6 @@ dns.my-softwares.me
 dns.mydas.online
 dns.myhomeassistant.ru
 dns.myhomezoo.com
-dns.mymachinepanda.online
 dns.mytest.cc
 dns.mzjtechnology.com
 dns.mzrme.cn
@@ -1584,7 +1581,6 @@ dnsupstream02.familieberfelo.nl
 dnsvps.familiamv.net
 dnswebvsn.com
 dnx.niko-sem.com
-do-39574-tr.xyz
 do.dnscrypt.uk
 do.shimul.me
 docker-hub.ir
@@ -2166,7 +2162,6 @@ kronos.plan9-dns.com
 krtekvpn.duckdns.org
 kubinet.duckdns.org
 kudns.kescher.at
-kx-97795-tr.xyz
 kz-pav-w-p-1.nashkan.net
 la-doh.stuptech.com
 lamdtl.giize.com
@@ -2462,7 +2457,6 @@ pihole.datamatter.co.za
 pihole1.hoerli.net
 pihole2.hoerli.net
 pihole3.hoerli.net
-pingbi.xyz
 pips.kpsn.org
 pitchforkwaydns.duckdns.org
 pl-waw-w-p-2.nashkan.net

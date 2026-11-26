@@ -29,6 +29,7 @@
 ||homec92.dns.army^
 ||dnsdoh.art^
 ||dns.sogemoge.art^
+||dns.wang.art^
 ||dns.sarak.as^
 ||dns1.sarak.as^
 ||dns2.sarak.as^
@@ -552,7 +553,6 @@
 ||adg-nl.h4nt3r.com^
 ||adguard.h4nt3r.com^
 ||secure.hafnova.com^
-||dns.hakutakucn.com^
 ||adguard.haneulo.com^
 ||dns.hannielzhang.com^
 ||jp.hannielzhang.com^

@@ -255,6 +255,7 @@ atlassian-3p-us-gov-mod.com
 atlassian-3p.com
 atlassian-isolated-3p.com
 atmeta.com
+atoms.world
 au.eu.org
 au.ngrok.io
 auiusercontent.com
@@ -389,6 +390,7 @@ bellevue.wa.us
 beta.wmcloud.org
 better-than.tv
 bg.eu.org
+bg5.net
 bielsko.pl
 bir.ru
 bitbucket.io
@@ -415,6 +417,7 @@ bnr.la
 boldlygoingnowhere.org
 bolt.host
 bona.jp
+bonto.page
 boo.jp
 book.online
 boomla.net
@@ -1036,6 +1039,7 @@ endoftheinternet.org
 enscaled.sg
 ent.platform.sh
 enterprisecloud.nu
+entrypages.net
 erp.dev
 es-1.axarnet.cloud
 es.eu.org
@@ -1277,11 +1281,13 @@ from-wy.com
 from.tv
 frontend.encr.app
 frusky.de
+fs.kg
 fspages.org
 ftpaccess.cc
 fuettertdasnetz.de
 functions.fnc.fr-par.scw.cloud
 funnels.cx
+fusebase.site
 futurecms.at
 futurehosting.at
 futuremailing.at
@@ -1439,6 +1445,8 @@ hostedpi.com
 hosting-cluster.nl
 hosting.myjino.ru
 hosting.ovh.net
+hostney.app
+hostney.cloud
 hostyhosting.io
 hotelwithflight.com
 hr.eu.org
@@ -1500,6 +1508,7 @@ indiasouthcentral-01.azurewebsites.net
 indonesiacentral-01.azurewebsites.net
 inf.ua
 info.cx
+infusion-ai.cloud
 instance.datadetect.com
 instances.spawn.cc
 int.apple
@@ -1575,6 +1584,7 @@ is-a-teacher.com
 is-a-techie.com
 is-a-therapist.com
 is-a.dev
+is-a.si
 is-an-accountant.com
 is-an-actor.com
 is-an-actress.com
@@ -1800,7 +1810,6 @@ lcl.dev
 lclstage.dev
 lcube-server.de
 leadpages.co
-leapcell.app
 lebtimnetz.de
 leczna.pl
 leitungsen.de
@@ -2052,6 +2061,7 @@ myspreadshop.se
 mysynology.net
 mytabit.co.il
 mytabit.com
+mythex.app
 mytis.ru
 mytuleap.com
 myvnc.com
@@ -2360,6 +2370,7 @@ prvcy.page
 prvw.eu
 pstmn.io
 pt.eu.org
+pub.atoms.world
 pub.instances.scw.cloud
 public-inquiry.uk
 pubtls.org
@@ -2372,6 +2383,7 @@ puter.work
 pvf.cc
 pya.jp
 pyatigorsk.ru
+pymaia.app
 pymnt.uk
 pythonanywhere.com
 qa2.com
@@ -3017,6 +3029,7 @@ streakusercontent.com
 streamlit.app
 streamlitapp.com
 stripper.jp
+strw.app
 studio-fips.us-gov-east-1.sagemaker.aws
 studio-fips.us-gov-west-1.sagemaker.aws
 studio.af-south-1.sagemaker.aws
@@ -3448,6 +3461,7 @@ whm.nl-ams.scw.cloud
 wien.funkfeuer.at
 windsurf.app
 windsurf.build
+wirechunk.site
 wiredbladehosting.com
 with.playit.plus
 withgoogle.com
