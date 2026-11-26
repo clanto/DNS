@@ -1,4 +1,3 @@
-0815cloud.de
 1.0rz.space
 1.11i.eu
 1.dns.noridev.moe
@@ -426,7 +425,6 @@ at.pzhg.me
 atelier.alica.idv.tw
 atl01.dnscry.pt
 atlantic.dyn1.de
-atris.cyou
 atsilva.link
 au-syd-w-f-1.nashkan.net
 au-syd-w-p-1.nashkan.net
@@ -560,7 +558,6 @@ cubedns.com
 curser.dev
 cvt01.dnscry.pt
 cyliu.idv.tw
-cynntex.fun
 d.adguard-dns.com
 d.apemlegit.my.id
 d.gametechnet.com
@@ -606,7 +603,6 @@ de01.dns4me.net
 de51.tcpdoor.net
 decloudus.com
 dedidl.com
-deep-henchman-excuse.cfd
 deflectordns.com
 dehb.ru
 deic-lgb.anycast.censurfridns.dk
@@ -824,7 +820,6 @@ dns.crystalyx.net
 dns.csa-rz.de
 dns.csaonline.de
 dns.csswg.org
-dns.cybertonic.tech
 dns.d365.in
 dns.d4d.moe
 dns.d94.xyz
@@ -1333,7 +1328,6 @@ dns.stevenz.net
 dns.stirringphoto.com
 dns.stormycloud.org
 dns.strassmair.org
-dns.streamsmoke.com
 dns.struchkov.dev
 dns.stud.cloud
 dns.surfsharkdns.com
@@ -2162,6 +2156,7 @@ kronos.plan9-dns.com
 krtekvpn.duckdns.org
 kubinet.duckdns.org
 kudns.kescher.at
+kx-97795-tr.xyz
 kz-pav-w-p-1.nashkan.net
 la-doh.stuptech.com
 lamdtl.giize.com
@@ -2177,7 +2172,6 @@ le-mesle.fr
 ledns.eu
 lelux.fi
 lena.vpn.i81.ru
-lesuo.top
 lfbn-gre-1-319-7.w90-112.abo.wanadoo.fr
 libredns.gr
 lifeisa.live
@@ -2214,6 +2208,10 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
+mask-canary.icloud.com
+mask-h2.icloud.com
+mask.apple-dns.net
+mask.icloud.com
 masters-of-cloud.de
 math.netlab.my.id
 mavalleenumerique.hopto.org
@@ -2748,6 +2746,7 @@ tecworx.at
 teknorota.com
 telex.app
 tenclubamst.ru
+tenmei.casacam.net
 test.143.sh
 test.adg.siudzinski.net
 test.businessconnect.com.tr
@@ -2879,7 +2878,6 @@ usxui.13142233.xyz
 uw-dns.rubyfish.cn
 v.dnscrypt.uk
 v.yuhui.eu.org
-v0dka.ru
 v1552270.hosted-by-vdsina.ru
 v2-1.huwenqiang.xyz
 v2.xx3210766.live
@@ -2990,7 +2988,6 @@ xbcpb668.com
 xbox-dns.ru
 xenergy.cc
 xfer.au
-xholgm.top
 xiaoxie.pro
 xiaoxinhui.cn
 xie.ke

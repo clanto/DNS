@@ -12785,6 +12785,7 @@ bigface.ml
 bigfi.sh
 bigfilters.info
 bigfishholder.info
+bigfk.com
 bigflash.tk
 bigflaship.info
 bigfree.info

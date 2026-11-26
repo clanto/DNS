@@ -8809,6 +8809,7 @@
 *.trk.berger-levrault.com
 *.stats.bernardobordadagua.com
 *.app.berrydates.com
+*.berrytots.com
 *.berserkhydrant.com
 *.rqjjdi.bershka.com
 *.stats.bertwagner.com
@@ -15598,6 +15599,7 @@
 *.smetrics.heathrow.com
 *.metrics.heathrowexpress.com
 *.smetrics.heathrowexpress.com
+*.heathstyle.com
 *.heatrave.com
 *.heavydetail.com
 *.heavyplayground.com
@@ -16005,6 +16007,7 @@
 *.ml.houzz.com
 *.tracking.houzz.com
 *.howdoesthislook.com
+*.howglam.com
 *.smetrics.howifightms.com
 *.cdp.howtotrade.com
 *.sadbmetrics.hoycinema.com
@@ -19096,6 +19099,7 @@
 *.go.mashery.com
 *.a8cv.mashumaro-bra.com
 *.stats.mashword.com
+*.maskdomains.com
 *.maskedadmin.com
 *.qyuzwd.maskworld.com
 *.masondown.com

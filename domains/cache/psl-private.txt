@@ -2309,6 +2309,7 @@ pgafan.net
 pgfog.com
 pgw.jp
 pharmacien.fr
+phronusercontent.com
 phx.enscaled.us
 pi.leg.br
 piebox.site
@@ -2437,6 +2438,7 @@ relay.evervault.app
 relay.evervault.dev
 reliantlabs.dev
 reliantpreview.dev
+relumesite.ai
 remotewd.com
 renton.wa.us
 repl.co
@@ -2962,6 +2964,7 @@ sn.mynetname.net
 snowflake.app
 soc.srcf.net
 sochi.su
+softr.app
 sol.site
 solidres.page
 sopot.pl
@@ -2985,6 +2988,7 @@ spdns.de
 spdns.eu
 spdns.org
 spectrum.myjino.ru
+spheron.live
 sphinx.mythic-beasts.com
 sprites.app
 spryt.net
@@ -3012,6 +3016,7 @@ static-access.net
 static.hf.space
 static.observableusercontent.com
 statichost.page
+staticrun.app
 statics.cloud
 stg-builder.code.com
 stg.dev
@@ -3512,6 +3517,9 @@ xn--hkkinen-5wa.fi
 xn--j1adp.xn--p1acf
 xn--j1aef.xn--p1acf
 xn--j1ael8b.xn--p1acf
+xport.free
+xport.host
+xport.sh
 xs4all.space
 xtooldevice.com
 xwx.me

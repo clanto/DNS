@@ -70348,6 +70348,7 @@
 *.linkjp.org
 *.linkshrink.org
 *.linktrack.org
+*.linkvip88.org
 *.lionsmeet.org
 *.listaproxy.org
 *.listproxypro.org

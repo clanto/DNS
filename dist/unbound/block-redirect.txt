@@ -15419,6 +15419,7 @@
 *.blog2.bigciti.com
 *.surf.bigde.com
 *.browse.bigfatservers.com
+*.bigfk.com
 *.surf.bigfreehost.com
 *.biggerproxy.com
 *.biggestproxy.com

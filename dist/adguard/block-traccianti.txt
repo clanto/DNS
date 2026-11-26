@@ -10522,6 +10522,7 @@
 ||trk.berger-levrault.com^
 ||stats.bernardobordadagua.com^
 ||app.berrydates.com^
+||berrytots.com^
 ||berserkhydrant.com^
 ||rqjjdi.bershka.com^
 ||stats.bertwagner.com^
@@ -19582,6 +19583,7 @@
 ||smetrics.heathrow.com^
 ||metrics.heathrowexpress.com^
 ||smetrics.heathrowexpress.com^
+||heathstyle.com^
 ||heatjug.com^
 ||heatmap.com^
 ||heatmapcore.com^
@@ -20117,6 +20119,7 @@
 ||hovercd.com^
 ||hoverowl.com^
 ||howdoesthislook.com^
+||howglam.com^
 ||smetrics.howifightms.com^
 ||howmachineswork.com^
 ||cdp.howtotrade.com^
@@ -24262,6 +24265,7 @@
 ||mashery.com^
 ||a8cv.mashumaro-bra.com^
 ||stats.mashword.com^
+||maskdomains.com^
 ||maskedadmin.com^
 ||qyuzwd.maskworld.com^
 ||masondown.com^
