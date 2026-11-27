@@ -1,14 +1,14 @@
 {
   "feed": {
-    "doh-v4.txt": 1374,
+    "doh-v4.txt": 1382,
     "doh-v6.txt": 727,
-    "tor-v4.txt": 5247,
-    "tor-v6.txt": 2588,
-    "threat-v4.txt": 26719,
+    "tor-v4.txt": 5245,
+    "tor-v6.txt": 2585,
+    "threat-v4.txt": 26836,
     "threat-v6.txt": 0,
-    "c2-v4.txt": 1229,
+    "c2-v4.txt": 1236,
     "c2-v6.txt": 0,
-    "vpn-v4.txt": 9336,
+    "vpn-v4.txt": 9373,
     "vpn-v6.txt": 591,
     "social-v4.txt": 213,
     "social-v6.txt": 119,
@@ -16,14 +16,14 @@
     "file-sharing-v6.txt": 5,
     "cloud-storage-v4.txt": 4,
     "cloud-storage-v6.txt": 1,
-    "inbound-v4.txt": 91735,
+    "inbound-v4.txt": 91403,
     "inbound-v6.txt": 0,
     "bogon-v4.txt": 14,
     "bogon-v6.txt": 11,
-    "all-v4.txt": 34448,
-    "all-v6.txt": 3315,
-    "all-scuole-v4.txt": 43350,
-    "all-scuole-v6.txt": 3823
+    "all-v4.txt": 34577,
+    "all-v6.txt": 3312,
+    "all-scuole-v4.txt": 43509,
+    "all-scuole-v6.txt": 3821
   },
   "fonti": [
     {
@@ -33,7 +33,7 @@
       "homepage": "https://github.com/dibdot/DoH-IP-blocklists",
       "enabled": true,
       "status": "ok",
-      "entries": 1700,
+      "entries": 1703,
       "detail": ""
     },
     {
@@ -53,7 +53,7 @@
       "homepage": "https://metrics.torproject.org/",
       "enabled": true,
       "status": "ok",
-      "entries": 1263,
+      "entries": 1262,
       "detail": ""
     },
     {
@@ -63,7 +63,7 @@
       "homepage": "https://metrics.torproject.org/onionoo.html",
       "enabled": true,
       "status": "ok",
-      "entries": 10278,
+      "entries": 10233,
       "detail": "Tutti i relay attivi (guard, middle, exit)"
     },
     {
@@ -83,7 +83,7 @@
       "homepage": "https://github.com/ShadowWhisperer/IPs",
       "enabled": true,
       "status": "ok",
-      "entries": 18750,
+      "entries": 18907,
       "detail": "Honeypot propri: exploit, sistemi compromessi, dropper"
     },
     {
@@ -113,7 +113,7 @@
       "homepage": "https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist",
       "enabled": true,
       "status": "ok",
-      "entries": 110561,
+      "entries": 110271,
       "detail": "Sonde e SIEM propri, non aggregatore"
     },
     {
@@ -163,7 +163,7 @@
       "homepage": "https://github.com/0xDanielLopez/TweetFeed",
       "enabled": true,
       "status": "ok",
-      "entries": 1242,
+      "entries": 1249,
       "detail": "IoC degli ultimi 30 giorni condivisi da ricercatori di sicurezza"
     },
     {
@@ -183,7 +183,7 @@
       "homepage": "https://github.com/X4BNet/lists_vpn",
       "enabled": true,
       "status": "ok",
-      "entries": 11157,
+      "entries": 11194,
       "detail": ""
     },
     {
@@ -194,7 +194,7 @@
       "enabled": true,
       "status": "ok",
       "entries": 591,
-      "detail": "scartate 127 troppo ampia"
+      "detail": "scartate 128 troppo ampia"
     },
     {
       "id": "et-compromised",
@@ -272,15 +272,15 @@
     }
   },
   "allowlist": {
-    "voci": 214,
+    "voci": 250,
     "reti_modificate": 1
   },
   "condivisi": {
     "intervalli": 11074,
-    "voci_escluse": 5405
+    "voci_escluse": 5400
   },
   "protetti": {
-    "ip_risolti": 204,
+    "ip_risolti": 240,
     "voci_escluse": [
       "doh: 94.23.71.64/32 usato da dns.clanto.cloud"
     ]

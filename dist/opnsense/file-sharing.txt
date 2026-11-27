@@ -110,7 +110,6 @@ files-express.com
 files-upload.com
 files.catbox.moe
 files.mail.ru
-files.to
 files6.com
 filesanywhere.com
 filesavr.com
@@ -309,7 +308,6 @@ seyvet.com
 share-online.biz
 share.am
 share.live.com
-sharedzilla.com
 sharefiles.ru
 shareimages.com
 sharelor.com

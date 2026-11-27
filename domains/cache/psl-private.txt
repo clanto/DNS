@@ -3517,6 +3517,9 @@ xn--hkkinen-5wa.fi
 xn--j1adp.xn--p1acf
 xn--j1aef.xn--p1acf
 xn--j1ael8b.xn--p1acf
+xport.free
+xport.host
+xport.sh
 xs4all.space
 xtooldevice.com
 xwx.me

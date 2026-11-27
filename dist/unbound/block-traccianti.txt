@@ -24320,6 +24320,7 @@
 *.math-trend.com
 *.matheranalytics.com
 *.mathilde-ads.com
+*.mathrevolt.com
 *.mathtag.com
 *.images.go.mathworks.com
 *.go2.mathworks.com
@@ -24661,6 +24662,7 @@
 *.melodiousharmony.com
 *.melodioussymphony.com
 *.melodyglobe.com
+*.melodyivory.com
 *.open.melomm.com
 *.meltmilk.com
 *.info.membercoverage.com
@@ -24761,6 +24763,7 @@
 *.messagesystems.com
 *.mff.messefrankfurt.com
 *.messmonster.com
+*.messrod.com
 *.messyoranges.com
 *.mesvr.com
 *.metabrown.com
@@ -32807,6 +32810,7 @@
 *.www3s.pitstopautoparts.com
 *.app.pittsburghpanthers.com
 *.t.pittsburghpanthers.com
+*.pivotfresh.com
 *.act.pivotpointsecurity.com
 *.piwikly.com
 *.piwikpro.com
@@ -40675,6 +40679,7 @@
 *.userpilot.com
 *.userreplay.com
 *.userreport.com
+*.usersays.com
 *.usersonlinecounter.com
 *.userstatics.com
 *.usersurge.com

@@ -177,6 +177,7 @@ adguard.infralink.space
 adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
+adguard.jodatacenter.com
 adguard.k-likhachev.ru
 adguard.kantinyoyok.xyz
 adguard.kiboko.it
@@ -184,6 +185,7 @@ adguard.kitakitsune.xyz
 adguard.landropunk.xyz
 adguard.lege.despagne.net
 adguard.llf520.dpdns.org
+adguard.londonwebnerd.cloud
 adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
@@ -231,7 +233,6 @@ adguard.theil.dev
 adguard.tiags.fr
 adguard.timoz.fr
 adguard.titov.es
-adguard.tmdproject.nl
 adguard.treexhd.me
 adguard.trevorpease.me
 adguard.tver-tech.ru
@@ -424,6 +425,7 @@ at.pzhg.me
 atelier.alica.idv.tw
 atl01.dnscry.pt
 atlantic.dyn1.de
+atris.cyou
 atsilva.link
 au-syd-w-f-1.nashkan.net
 au-syd-w-p-1.nashkan.net
@@ -557,6 +559,7 @@ cubedns.com
 curser.dev
 cvt01.dnscry.pt
 cyliu.idv.tw
+cynntex.fun
 d.adguard-dns.com
 d.apemlegit.my.id
 d.gametechnet.com
@@ -944,7 +947,6 @@ dns.ginovs.nl
 dns.girino.org
 dns.giriprabhat.com
 dns.glampool.cloud
-dns.glorydns.com
 dns.glsoft.ai
 dns.gnb09.id
 dns.goldplate.org
@@ -1576,7 +1578,6 @@ dnsupstream02.familieberfelo.nl
 dnsvps.familiamv.net
 dnswebvsn.com
 dnx.niko-sem.com
-do-39574-tr.xyz
 do.dnscrypt.uk
 do.shimul.me
 docker-hub.ir
@@ -1730,7 +1731,6 @@ doh.xorlet.ru
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
-doh1.b-cdn.net
 doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
@@ -1818,7 +1818,6 @@ family-filter-dns.cleanbrowsing.org
 family.adguard-dns.com
 family.canadianshield.cira.ca
 family.cloudflare-dns.com
-family.dns.doubleangels.com
 family.dns.dremaxx.com
 family.dns.mullvad.net
 family.dns.ningkelle.id
@@ -1938,6 +1937,7 @@ helios.plan9-dns.com
 helsh0ru5.mooo.com
 herkes.online
 hexxitcompany.com
+hfgx.shop
 hgrps.eu
 hieutrang-99.duckdns.org
 himedns.com
@@ -1970,7 +1970,6 @@ hkt.kozow.com
 hnsdoh.com
 hockaday.synology.me
 hole.elbschloss.xyz
-home-server.store
 home.azagra.dev
 home.basthorst.eu
 home.dlinkddns.com
@@ -2157,7 +2156,6 @@ kronos.plan9-dns.com
 krtekvpn.duckdns.org
 kubinet.duckdns.org
 kudns.kescher.at
-kx-97795-tr.xyz
 kz-pav-w-p-1.nashkan.net
 la-doh.stuptech.com
 lamdtl.giize.com
@@ -2197,7 +2195,10 @@ luba.vpn.i81.ru
 lukscasino-929-tr.xyz
 lunar-dns.de
 luxembourg.privacy-dns.pw
+mabuktogel.builders
+mabuktogel.creditcard
 mabuktogel.enterprises
+mabuktogel.immobilien
 mabuktogel.ltd
 mad01.dnscry.pt
 maherhost.uk
@@ -2210,7 +2211,6 @@ malanser.ru
 man01.dnscry.pt
 maqgie.xyz
 maradns.org
-mask-canary.icloud.com
 masters-of-cloud.de
 math.netlab.my.id
 mavalleenumerique.hopto.org
@@ -2746,6 +2746,7 @@ tecworx.at
 teknorota.com
 telex.app
 tenclubamst.ru
+tenmei.casacam.net
 test.143.sh
 test.adg.siudzinski.net
 test.businessconnect.com.tr
@@ -2877,6 +2878,7 @@ use-application-dns.net
 usxui.13142233.xyz
 uw-dns.rubyfish.cn
 v.dnscrypt.uk
+v.qdev.cc
 v.yuhui.eu.org
 v1552270.hosted-by-vdsina.ru
 v2-1.huwenqiang.xyz

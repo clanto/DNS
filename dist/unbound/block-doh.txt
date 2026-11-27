@@ -13,7 +13,6 @@
 *.doh.disconnect.app
 *.dns.frguthrie.app
 *.doh.futa.app
-*.dns.gearworks.app
 *.dns-01.hir.app
 *.dns.narl.app
 *.dns.nieto.app
@@ -30,7 +29,6 @@
 *.homec92.dns.army
 *.dnsdoh.art
 *.dns.sogemoge.art
-*.dns.wang.art
 *.dns.sarak.as
 *.dns1.sarak.as
 *.dns2.sarak.as
@@ -73,7 +71,6 @@
 *.polisitogel.beauty
 *.ad.tzockt.beer
 *.dns.schlagheck.berlin
-*.doh.361.best
 *.doh.best
 *.appart.yoannchappaz.best
 *.oracle001.330k.biz
@@ -101,6 +98,7 @@
 *.us.lfac.net.br
 *.dflexy.house.nom.br
 *.dns-br.leonardo.tec.br
+*.mabuktogel.builders
 *.mabuktogel.business
 *.doh.buzz
 *.doh.datahata.by
@@ -145,11 +143,11 @@
 *.irrelevant.cc
 *.bt.luoo.cc
 *.maxfong.cc
-*.nl-nod2.mineweb.cc
 *.dns.mytest.cc
 *.dns.niccoli.cc
 *.dns.nonomi.cc
 *.doh.plop.cc
+*.v.qdev.cc
 *.resolve2.r9x.cc
 *.dns.redroot.cc
 *.dns.seaotter.cc
@@ -555,7 +553,6 @@
 *.adg-nl.h4nt3r.com
 *.adguard.h4nt3r.com
 *.secure.hafnova.com
-*.dns.hakutakucn.com
 *.adguard.haneulo.com
 *.dns.hannielzhang.com
 *.jp.hannielzhang.com
@@ -677,7 +674,6 @@
 *.adguard.manmademagic.com
 *.dns.maomaovpn.com
 *.doh.maskab.com
-*.dns.matthias-prost.com
 *.mcttechs.com
 *.dns.me7878.com
 *.dns.megaong.com
@@ -696,7 +692,6 @@
 *.query.mobyds.com
 *.dns.mochalka.com
 *.dns.moonssif.com
-*.disinformer.mooo.com
 *.e23a.mooo.com
 *.feellike.mooo.com
 *.helsh0ru5.mooo.com
@@ -826,7 +821,6 @@
 *.ns2.ravdns.com
 *.dns.rayanbab.com
 *.hk.reaticle.com
-*.adg.rednetline.com
 *.dns.renardyre.com
 *.dns.repinger.com
 *.dns.retakecs.com
@@ -971,6 +965,7 @@
 *.dns1.luan.contact
 *.polisitogel.contractors
 *.noad.kipp.cool
+*.mabuktogel.creditcard
 *.dns.lexnet.cy
 *.atris.cyou
 *.adguard.dantynes.cyou
@@ -1358,7 +1353,6 @@
 *.dns.qkc.fr
 *.home.r01.fr
 *.rayneau.fr
-*.wg.req1.fr
 *.dns.sellan.fr
 *.pates.services.sfr.fr.casepp.sfr.fr
 *.dns.spirio.fr
@@ -1498,6 +1492,7 @@
 *.1a.ns.ozer.im
 *.1b.ns.ozer.im
 *.unp.im
+*.mabuktogel.immobilien
 *.y3suyx0cg2lewi2dmn.advaitghaisas.in
 *.rootdns.anir0y.in
 *.next.atomix.in
@@ -1524,7 +1519,6 @@
 *.dns.jkey.in
 *.dns.joindns4.in
 *.dns.kapite.in
-*.dns.mailcastle.in
 *.dns.mcnerds.in
 *.doh.micronets.in
 *.dns.nic.in
@@ -1641,7 +1635,6 @@
 *.dns.flatuslifir.is
 *.ricko.is
 *.block.abstergo.it
-*.home.bruckmoser.it
 *.doh.ccb-net.it
 *.dns.home.daniil.it
 *.dns2.guidocioni.it
@@ -1691,6 +1684,7 @@
 *.rajs.life
 *.dns.txq.life
 *.solution.w10.life
+*.mabuktogel.limited
 *.atsilva.link
 *.dns-free.link
 *.eth.link
@@ -1882,7 +1876,6 @@
 *.adguard.amscenter.net
 *.dns.andersonr.net
 *.adguard01.apexhost.net
-*.mask-api.fe.apple-dns.net
 *.mask.apple-dns.net
 *.applied-privacy.net
 *.doh.appliedprivacy.net
@@ -1994,7 +1987,6 @@
 *.takhtakh.domyah.net
 *.ccadguard.dynu.net
 *.adguard.ekhozie.dynu.net
-*.flyloadguard.dynu.net
 *.quangdo92.dynu.net
 *.gustamadh.dynv6.net
 *.dnscache.e-utp.net
@@ -2350,7 +2342,6 @@
 *.okado.online
 *.pdnssrvagh.online
 *.petinom.online
-*.dns.romareyme.online
 *.dns.sales-kbr.online
 *.shadowart.online
 *.vadim.online
@@ -2560,7 +2551,6 @@
 *.hshh.org
 *.hkg.hytec.org
 *.ur.hytec.org
-*.serv0.ingener002.ip-dynamic.org
 *.josephfamily.org
 *.joshberg.org
 *.dns.jundev.org
@@ -2927,7 +2917,6 @@
 *.dns.echpochmak-club.ru
 *.doh.edifiels.ru
 *.dns.engineer-lib.ru
-*.vm596152.eurodir.ru
 *.dns.farshmc.ru
 *.dns.fidbonteam.ru
 *.doh.fullhosting.ru
@@ -3208,7 +3197,6 @@
 *.us44nas.top
 *.mdns.vseti.top
 *.pdns.vseti.top
-*.dns.wahr.top
 *.wankey.top
 *.bwh.why4free.top
 *.wiqi.top

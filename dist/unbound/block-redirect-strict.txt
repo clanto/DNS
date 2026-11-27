@@ -325,7 +325,6 @@
 *.gamecopyworld.be
 *.gamedaemons.be
 *.getproxies.be
-*.s.ggwp.be
 *.greekradio.be
 *.greekwaves.be
 *.hd-gaming.be
@@ -16310,7 +16309,6 @@
 *.elektromercado.com
 *.elementalproxy.com
 *.elfarcha.com
-*.elfdirect.com
 *.proxy.elgrupolobo.com
 *.tunnel.elisanford.com
 *.proxy.eliseuborges.com
@@ -26680,7 +26678,6 @@
 *.urlbrowse.com
 *.urlbucks.com
 *.urlburst.com
-*.urlcover.com
 *.urlcut.com
 *.urlday.com
 *.urlencoded.com
@@ -28025,7 +28022,6 @@
 *.swirl.4u2.de
 *.73x.de
 *.9u9.de
-*.airshort.de
 *.alternativeplans.de
 *.proxy.amicos.de
 *.anon.de
@@ -32557,7 +32553,6 @@
 *.toliveal.ie
 *.unblockbebo.ie
 *.url.ie
-*.urls.ie
 *.urlx.ie
 *.zuki.ie
 *.123123.co.il
@@ -47617,7 +47612,6 @@
 *.layermask.info
 *.lazyfoo.info
 *.lcloak.info
-*.ldgr.info
 *.ldirection.info
 *.leachip.info
 *.leaningatschool.info
@@ -63416,7 +63410,6 @@
 *.nofnec.live
 *.nowtrade.live
 *.unc.live
-*.videopro.live
 *.wishct.live
 *.wolftravels.live
 *.cb.lk
@@ -63560,7 +63553,6 @@
 *.wartsi.ly
 *.yoox.ly
 *.zeep.ly
-*.30na.ma
 *.abe.ma
 *.gproxy.blueloft.ma
 *.cr.ma
@@ -69532,7 +69524,6 @@
 *.high-general.online
 *.internet-view.online
 *.kissproxy.online
-*.linkshortner.online
 *.medusa88.online
 *.mjp88.online
 *.my-ip-web.online
@@ -71548,7 +71539,6 @@
 *.antena.pro
 *.bitli.pro
 *.byli.pro
-*.changelink.pro
 *.cleverlink.pro
 *.davisonbarker.pro
 *.elamal.pro
@@ -111273,7 +111263,6 @@
 *.hyipforums.us
 *.i13.us
 *.ibypass.us
-*.idvip.us
 *.ifile.us
 *.ihide.us
 *.ileech.us

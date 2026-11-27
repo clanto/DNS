@@ -18662,6 +18662,7 @@
 ||loyaltymatrix.com^
 ||metrics.lpl.com^
 ||smetrics.lpl.com^
+||r.lr-hv-in.com^
 ||lrkt-in.com^
 ||solutions.lseg.com^
 ||tracking.lseg.com^
@@ -19144,6 +19145,7 @@
 ||materialparcel.com^
 ||matheranalytics.com^
 ||mathilde-ads.com^
+||mathrevolt.com^
 ||images.go.mathworks.com^
 ||go2.mathworks.com^
 ||metrics.mathworks.com^
@@ -19395,6 +19397,7 @@
 ||melodiousharmony.com^
 ||melodioussymphony.com^
 ||melodyglobe.com^
+||melodyivory.com^
 ||open.melomm.com^
 ||meltmilk.com^
 ||info.membercoverage.com^
@@ -19474,6 +19477,7 @@
 ||messagelists.com^
 ||mff.messefrankfurt.com^
 ||messmonster.com^
+||messrod.com^
 ||messyoranges.com^
 ||smetrics.metacam.com^
 ||aa.metacritic.com^
@@ -22307,6 +22311,7 @@
 ||www3s.pitstopautoparts.com^
 ||app.pittsburghpanthers.com^
 ||t.pittsburghpanthers.com^
+||pivotfresh.com^
 ||act.pivotpointsecurity.com^
 ||axp.pix11.com^
 ||app.pixapp.com^
@@ -27030,6 +27035,7 @@
 ||stats.timkhoury.com^
 ||marketing.timmons.com^
 ||engage.tines.com^
+||wkbrs1.tingyun.com^
 ||tinybluewhale.com^
 ||tinybodega.com^
 ||sp.tinymce.com^
@@ -27924,6 +27930,7 @@
 ||metrics.userguiding.com^
 ||user.userguiding.com^
 ||eq.userneeds.com^
+||usersays.com^
 ||e.usesneakpeek.com^
 ||communications.usfleettracking.com^
 ||metrics.usfoods.com^

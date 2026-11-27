@@ -1640,7 +1640,6 @@
 307186proxy.tk
 30hr.info
 30i.info
-30na.ma
 30proxy.com
 30proxybrowser.info
 30q.info
@@ -5202,7 +5201,6 @@ airpursuit.tk
 airraid.info
 airroute.tk
 airship.tk
-airshort.de
 airskysafe.tk
 airspaceone.co.cc
 airspread.tk
@@ -18078,7 +18076,6 @@ changeips.info
 changeips.tk
 changeitsip.info
 changeji.com
-changelink.pro
 changelogode.tk
 changelogodes.tk
 changelogodeus9.tk
@@ -26562,7 +26559,6 @@ elevated.clawed.info
 elevensurfersp.tk
 elfanonymous.tk
 elfarcha.com
-elfdirect.com
 elforja.net
 elhombre.info
 eliableprox.tk
@@ -45987,7 +45983,6 @@ idstock.tk
 idtheftprotect.tk
 iducation.info
 idvanish.com
-idvip.us
 idz-do.pl
 idzap.com
 ie9now.tk
@@ -51672,7 +51667,6 @@ lcmargin.tk
 lcproxy.com
 lcschoolproxy.tk
 lcslearn.tk
-ldgr.info
 ldiablo.com
 ldirection.info
 ldjet.io
@@ -52729,7 +52723,6 @@ linkshortenerfree.com
 linkshorteners.com
 linkshortify.com
 linkshortner.net
-linkshortner.online
 linkshrink.org
 linkslut.tk
 linksneak.com
@@ -82139,7 +82132,6 @@ s.et4.de
 s.free.fr
 s.g123.jp
 s.gdngs.de
-s.ggwp.be
 s.id
 s.jumpingcrab.com
 s.lovestylish.com
@@ -104088,7 +104080,6 @@ urlchecker.info
 urlcloakr.info
 urlcoat.info
 urlcode.info
-urlcover.com
 urlcut.com
 urlcut.link
 urlday.cc
@@ -104153,7 +104144,6 @@ urlroute.com
 urls-shortener.eu
 urls.by
 urls.fr
-urls.ie
 urls.kr
 urlsafe.info
 urlsafe.tk
@@ -105482,7 +105472,6 @@ videomreza.com
 videon.ed.mu
 videonow.hu.tl
 videopaths.com
-videopro.live
 videoproxy.info
 videoproxy.online
 videoproxy.site
