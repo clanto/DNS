@@ -13,6 +13,7 @@
 ||doh.disconnect.app^
 ||dns.frguthrie.app^
 ||doh.futa.app^
+||dns.gearworks.app^
 ||dns-01.hir.app^
 ||dns.narl.app^
 ||dns.nieto.app^
@@ -72,6 +73,7 @@
 ||polisitogel.beauty^
 ||ad.tzockt.beer^
 ||dns.schlagheck.berlin^
+||doh.361.best^
 ||doh.best^
 ||appart.yoannchappaz.best^
 ||oracle001.330k.biz^
@@ -143,6 +145,7 @@
 ||irrelevant.cc^
 ||bt.luoo.cc^
 ||maxfong.cc^
+||nl-nod2.mineweb.cc^
 ||dns.mytest.cc^
 ||dns.niccoli.cc^
 ||dns.nonomi.cc^
@@ -552,6 +555,7 @@
 ||adg-nl.h4nt3r.com^
 ||adguard.h4nt3r.com^
 ||secure.hafnova.com^
+||dns.hakutakucn.com^
 ||adguard.haneulo.com^
 ||dns.hannielzhang.com^
 ||jp.hannielzhang.com^
@@ -673,6 +677,7 @@
 ||adguard.manmademagic.com^
 ||dns.maomaovpn.com^
 ||doh.maskab.com^
+||dns.matthias-prost.com^
 ||mcttechs.com^
 ||dns.me7878.com^
 ||dns.megaong.com^
@@ -683,12 +688,15 @@
 ||mendozasdelivery.com^
 ||ss.microbaidu.com^
 ||mikewaddick.com^
+||dns.mipauns.com^
 ||httpdns.browser.miui.com^
+||dns.miyun1.com^
 ||doh.mmmalia.com^
 ||dnstls.mobik.com^
 ||query.mobyds.com^
 ||dns.mochalka.com^
 ||dns.moonssif.com^
+||disinformer.mooo.com^
 ||e23a.mooo.com^
 ||feellike.mooo.com^
 ||helsh0ru5.mooo.com^
@@ -775,6 +783,7 @@
 ||dns.p55k.com^
 ||dns.pacificmonster.com^
 ||pashagame456.com^
+||doh.gcp.pathofgrace.com^
 ||dns.paxavemedia.com^
 ||dns.periactes.com^
 ||dns0.permafrostmiami.com^
@@ -817,6 +826,7 @@
 ||ns2.ravdns.com^
 ||dns.rayanbab.com^
 ||hk.reaticle.com^
+||adg.rednetline.com^
 ||dns.renardyre.com^
 ||dns.repinger.com^
 ||dns.retakecs.com^
@@ -1263,6 +1273,7 @@
 ||dns.michaldusek.eu^
 ||dns.mihalcea.eu^
 ||mydevpn.eu^
+||n0.eu^
 ||personal-proj-by-me.eu^
 ||dns.rhscz.eu^
 ||dns1.rhscz.eu^
@@ -1347,6 +1358,7 @@
 ||dns.qkc.fr^
 ||home.r01.fr^
 ||rayneau.fr^
+||wg.req1.fr^
 ||dns.sellan.fr^
 ||pates.services.sfr.fr.casepp.sfr.fr^
 ||dns.spirio.fr^
@@ -1512,6 +1524,7 @@
 ||dns.jkey.in^
 ||dns.joindns4.in^
 ||dns.kapite.in^
+||dns.mailcastle.in^
 ||dns.mcnerds.in^
 ||doh.micronets.in^
 ||dns.nic.in^
@@ -1628,6 +1641,7 @@
 ||dns.flatuslifir.is^
 ||ricko.is^
 ||block.abstergo.it^
+||home.bruckmoser.it^
 ||doh.ccb-net.it^
 ||dns.home.daniil.it^
 ||dns2.guidocioni.it^
@@ -1868,6 +1882,7 @@
 ||adguard.amscenter.net^
 ||dns.andersonr.net^
 ||adguard01.apexhost.net^
+||mask-api.fe.apple-dns.net^
 ||mask.apple-dns.net^
 ||applied-privacy.net^
 ||doh.appliedprivacy.net^
@@ -1979,6 +1994,7 @@
 ||takhtakh.domyah.net^
 ||ccadguard.dynu.net^
 ||adguard.ekhozie.dynu.net^
+||flyloadguard.dynu.net^
 ||quangdo92.dynu.net^
 ||gustamadh.dynv6.net^
 ||dnscache.e-utp.net^
@@ -2334,6 +2350,7 @@
 ||okado.online^
 ||pdnssrvagh.online^
 ||petinom.online^
+||dns.romareyme.online^
 ||dns.sales-kbr.online^
 ||shadowart.online^
 ||vadim.online^
@@ -2543,6 +2560,7 @@
 ||hshh.org^
 ||hkg.hytec.org^
 ||ur.hytec.org^
+||serv0.ingener002.ip-dynamic.org^
 ||josephfamily.org^
 ||joshberg.org^
 ||dns.jundev.org^
@@ -2909,6 +2927,7 @@
 ||dns.echpochmak-club.ru^
 ||doh.edifiels.ru^
 ||dns.engineer-lib.ru^
+||vm596152.eurodir.ru^
 ||dns.farshmc.ru^
 ||dns.fidbonteam.ru^
 ||doh.fullhosting.ru^
@@ -3189,6 +3208,7 @@
 ||us44nas.top^
 ||mdns.vseti.top^
 ||pdns.vseti.top^
+||dns.wahr.top^
 ||wankey.top^
 ||bwh.why4free.top^
 ||wiqi.top^
@@ -3449,6 +3469,7 @@
 ||echooff.xyz^
 ||hole.elbschloss.xyz^
 ||adguard.eximpius.xyz^
+||fra1.eyecay.xyz^
 ||dns.f97.xyz^
 ||agent.frankutils.xyz^
 ||performance.gosami.xyz^

@@ -23421,6 +23421,7 @@
 *.app.link.livibank.com
 *.ogpdwe.livin24.com
 *.somniture.livingdirect.com
+*.livingoff.com
 *.livingsleet.com
 *.tracking.livingsocial.com
 *.uvzrtq.livingspaces.com

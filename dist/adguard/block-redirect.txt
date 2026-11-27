@@ -24,6 +24,7 @@
 ||shortlink.ad^
 ||zim.ad^
 ||2h.ae^
+||4i.ae^
 ||abre.ae^
 ||clic.ae^
 ||hyp.ae^
@@ -59,11 +60,13 @@
 ||tns.agency^
 ||2short.ai^
 ||4ja.ai^
+||77.ai^
 ||abr.ai^
 ||abre.ai^
 ||bcns.ai^
 ||beacons.ai^
 ||biofy.ai^
+||bosslinks.ai^
 ||centi.ai^
 ||clica.ai^
 ||dailym.ai^
@@ -122,7 +125,9 @@
 ||less.al^
 ||url.nfc.al^
 ||ringcentr.al^
+||share.al^
 ||shkurt.al^
+||short.al^
 ||sosi.al^
 ||sosy.al^
 ||topt.al^
@@ -185,9 +190,11 @@
 ||findmini.app^
 ||grey-sphere-536600.framer.app^
 ||gacor.app^
+||gigbridge.app^
 ||gosnip.app^
 ||hisc.app^
 ||i-mg.app^
+||ibio.app^
 ||knz.app^
 ||l-n.app^
 ||lhg.app^
@@ -521,6 +528,7 @@
 ||shortly.at^
 ||shortr.at^
 ||shorturl.at^
+||shorturls.at^
 ||shurli.at^
 ||party.sleep.at^
 ||proxy.sm-s.at^
@@ -568,6 +576,7 @@
 ||free.universal.edu.au^
 ||wvw.universal.edu.au^
 ||go.vic.gov.au^
+||lnkr.au^
 ||webproxy.250.net.au^
 ||unblock.freehost.net.au^
 ||cecid.labyrinthdata.net.au^
@@ -770,6 +779,7 @@
 ||acesso.bio^
 ||aduke.bio^
 ||applink.bio^
+||baba.bio^
 ||bezt.bio^
 ||biofy.bio^
 ||bitx.bio^
@@ -813,9 +823,11 @@
 ||pops.bio^
 ||qlink.bio^
 ||redirect.bio^
+||rkt.bio^
 ||roketlink.bio^
 ||rolink.bio^
 ||sayhi.bio^
+||seez.bio^
 ||shortlab.bio^
 ||shorty.bio^
 ||stick.bio^
@@ -1470,6 +1482,7 @@
 ||linksbr.com.br^
 ||links.luckreceptivo.com.br^
 ||conteudo.megasoft.com.br^
+||nabio.com.br^
 ||digital.rumori.com.br^
 ||shortlinks.com.br^
 ||solinks.com.br^
@@ -1572,6 +1585,7 @@
 ||1ql.ca^
 ||3ft.ca^
 ||2fast.allcanadacollect.ca^
+||alpinehr.ca^
 ||annihilator.ca^
 ||anonymousproxy.ca^
 ||yourls.irex.aretex.ca^
@@ -1768,6 +1782,7 @@
 ||4url.cc^
 ||5or.cc^
 ||645.cc^
+||7fth.cc^
 ||88nb.cc^
 ||89bet69.cc^
 ||98pro.cc^
@@ -8967,6 +8982,7 @@
 ||srturl.cc^
 ||srv.cc^
 ||ssur.cc^
+||stalk.cc^
 ||swr1.cc^
 ||swtt.cc^
 ||taplink.cc^
@@ -10872,11 +10888,13 @@
 ||cuturl.cloud^
 ||davidepuzzo.cloud^
 ||golinks.cloud^
+||lined.cloud^
 ||lsoft.cloud^
 ||lukes.cloud^
 ||megadownload.cloud^
 ||go.popoway.cloud^
 ||provte.cloud^
+||kutt.schantli.cloud^
 ||tanzx.cloud^
 ||vdr.cloud^
 ||vietnamproxy.cloud^
@@ -13216,6 +13234,7 @@
 ||yucepr.cn^
 ||yumi58.cn^
 ||proxy.z-blog8.cn^
+||z5h.cn^
 ||zaixian86.cn^
 ||zebraproxy.cn^
 ||zerofilters.cn^
@@ -13300,6 +13319,7 @@
 ||cnvrge.co^
 ||coinclix.co^
 ||tinyurl.smart-home.com.co^
+||vm88.com.co^
 ||covertbrowsing.co^
 ||cplink.co^
 ||crdrv.co^
@@ -13631,6 +13651,7 @@
 ||urlbit.co^
 ||urlco.co^
 ||urlio.co^
+||urlshort.co^
 ||urlty.co^
 ||urly.co^
 ||usaproxy.co^
@@ -13920,6 +13941,7 @@
 ||2s32.com^
 ||2s72.com^
 ||2sap.com^
+||2shorter.com^
 ||2t37.com^
 ||2the-best.com^
 ||proxy.2tinker.com^
@@ -13993,6 +14015,7 @@
 ||4freeproxy.com^
 ||blog2.4glenview.com^
 ||4ine.com^
+||4insurancejobs.com^
 ||proxy.4lx.com^
 ||proxyaway.4mg.com^
 ||4myspaceproxy.com^
@@ -14264,6 +14287,7 @@
 ||adflydsp.com^
 ||adflyfly.com^
 ||adfreeproxy.com^
+||buy.adhitan.com^
 ||adialerts.com^
 ||proxy.adidasgoods.com^
 ||adiestrado.com^
@@ -14573,6 +14597,7 @@
 ||survey.andyic.com^
 ||proxy.aneisa.com^
 ||anekadonat.com^
+||anetbio.com^
 ||anewproxy.com^
 ||angelprox.com^
 ||anglersfish.com^
@@ -15279,6 +15304,7 @@
 ||bebosurf.com^
 ||bebounlocker.com^
 ||beboxy.com^
+||bebuiltllc.com^
 ||becauseimbored.com^
 ||proxy.becauseitspossible.com^
 ||becomehidden.com^
@@ -16366,6 +16392,7 @@
 ||cestu.com^
 ||cetrondigicontech.com^
 ||cetsohbet.com^
+||cfons.com^
 ||cfunnel.com^
 ||cgatx.com^
 ||cgibrowser.com^
@@ -17340,6 +17367,7 @@
 ||dnusers.com^
 ||dnyan.com^
 ||do57.com^
+||doaistri.com^
 ||doburl.com^
 ||docoja.com^
 ||docproxy.com^
@@ -19144,6 +19172,7 @@
 ||glasmanua.com^
 ||auto.glasshousetheband.com^
 ||glassnestoftables.com^
+||glattly.com^
 ||glbass.com^
 ||tunnel.glennkuczer.com^
 ||glideuk.com^
@@ -19292,6 +19321,7 @@
 ||gopastit.com^
 ||gophonez.com^
 ||goplaceshere.com^
+||gopreply.com^
 ||goprocy.com^
 ||goprookies.com^
 ||goproxies.com^
@@ -19434,6 +19464,7 @@
 ||proxy.gwcashwell.com^
 ||surf.gwcashwell.com^
 ||gxvve.com^
+||gyanilinks.com^
 ||fastsurf.gybclan.com^
 ||gymarab.com^
 ||gyntekbusiness.com^
@@ -19443,6 +19474,7 @@
 ||h-talk.com^
 ||h-tunnel.com^
 ||h2apz.com^
+||h2mhridayff.com^
 ||h2oproxy.com^
 ||links.h4stack.com^
 ||h5bio.com^
@@ -19893,6 +19925,7 @@
 ||homeproxy.com^
 ||homeratesloans.com^
 ||homeswappings.com^
+||honda800storage.com^
 ||proxy.hoodiaisnotsafe.com^
 ||proxy.hoopheads.com^
 ||hooturl.com^
@@ -20227,6 +20260,7 @@
 ||ikull.com^
 ||ikwer.com^
 ||ikww.com^
+||ikztf.com^
 ||ilekk.com^
 ||ilell.com^
 ||proxy.ilikegirlswholikegirls.com^
@@ -21376,6 +21410,7 @@
 ||linkalp.com^
 ||linkasd.com^
 ||linkatra.com^
+||linkbby.com^
 ||linkbee.com^
 ||linkbirdy.com^
 ||linkbirligi.com^
@@ -21487,6 +21522,7 @@
 ||linksumo.com^
 ||linksvid.com^
 ||linktgd.com^
+||linktransform.com^
 ||linkulb.com^
 ||linkunshorten.com^
 ||linkurltiny.com^
@@ -21665,6 +21701,7 @@
 ||proxy.loudsoftware.com^
 ||proxy.louis-ip.com^
 ||on.louisvuitton.com^
+||love-url.com^
 ||love2bunk.com^
 ||lovea4.com^
 ||lovebypass.com^
@@ -21729,6 +21766,7 @@
 ||updates.lzio.com^
 ||proxy.m-sac.com^
 ||m-tunnel.com^
+||m3mi.com^
 ||proxy.m4lt.com^
 ||m6kkt.com^
 ||mablet.com^
@@ -22693,6 +22731,7 @@
 ||website.nankou.com^
 ||xy01.nannorian.com^
 ||nanoyuan.com^
+||nanuba.com^
 ||naomi-kute.com^
 ||blog2.naplezjoe.com^
 ||napmkt.com^
@@ -23807,6 +23846,7 @@
 ||pizzamarinara.com^
 ||pizzaviennese.com^
 ||pizzavirtual.com^
+||pjspo.com^
 ||pk-salon.com^
 ||pktunnel.com^
 ||placecalled.com^
@@ -25727,6 +25767,7 @@
 ||qrre.com^
 ||qrride.com^
 ||qrtli.com^
+||qrybaan.com^
 ||qtgv.com^
 ||qtproxy.com^
 ||qtunnel.com^
@@ -26125,6 +26166,7 @@
 ||ripyou.com^
 ||riquezaz.com^
 ||ritmarket.com^
+||rizchi.com^
 ||rizooox.com^
 ||rjmy.com^
 ||rjnox.com^
@@ -26226,6 +26268,7 @@
 ||rsshort.com^
 ||rsswin.com^
 ||antispam.rsvpit.com^
+||rtedq.com^
 ||rtunnel.com^
 ||rtvote.com^
 ||goo-gl.ru.com^
@@ -26608,6 +26651,7 @@
 ||surf.seogeekz.com^
 ||seoread.com^
 ||seorumahtoto.com^
+||seotoolify.com^
 ||seotoolsaudit.com^
 ||seowatt.com^
 ||seoyour.com^
@@ -26750,6 +26794,7 @@
 ||shortclick.com^
 ||shortduck.com^
 ||shorteasy.com^
+||shortelinks.com^
 ||shorten-url.com^
 ||shortenedlinks.com^
 ||app.shorteneo.com^
@@ -26966,6 +27011,7 @@
 ||sizzlingbypass.com^
 ||sjamankurs.com^
 ||sjostudio.com^
+||skanshort.com^
 ||proxy.skeetre.com^
 ||skenk.com^
 ||proxy.skiingreno.com^
@@ -27066,6 +27112,7 @@
 ||smartunblock.com^
 ||smartunfilter.com^
 ||smashadmin.com^
+||smdisc.com^
 ||proxy.smecb.com^
 ||url.smeirat.com^
 ||dreamscapedesigns.smfforfree.com^
@@ -27330,6 +27377,7 @@
 ||spiderproxy.com^
 ||spidersneak.com^
 ||spidyproxy.com^
+||spidyurl.com^
 ||assured.spiegs.com^
 ||spiffyproxy.com^
 ||spinkerweb.com^
@@ -27852,6 +27900,7 @@
 ||swetgame.com^
 ||swiftation.com^
 ||swifthide.com^
+||swiftlnx.com^
 ||swiftoxy.com^
 ||swifttopia.com^
 ||swiftunblock.com^
@@ -27871,6 +27920,7 @@
 ||sydflames.com^
 ||sydkings.com^
 ||sydney4dogs.com^
+||goto.synapse.com^
 ||sync-gaming.com^
 ||synonym24.com^
 ||sysclicks.com^
@@ -28064,6 +28114,7 @@
 ||testamentfendsounding.com^
 ||testars.com^
 ||tested-speed.com^
+||texas88register.com^
 ||auto.texashotoilers.com^
 ||hosting.texashotoilers.com^
 ||texasproxy.com^
@@ -28390,6 +28441,7 @@
 ||tinlyy.com^
 ||proxy.tinos-tinos.com^
 ||unblockism.tinos-tinos.com^
+||tiny-l.com^
 ||tiny-links.com^
 ||tiny123.com^
 ||tiny1z.com^
@@ -29363,6 +29415,7 @@
 ||uqwy.com^
 ||uqxu.com^
 ||uqzu.com^
+||ur301.com^
 ||ur4l.com^
 ||kutt.ural-agro.com^
 ||uraniuminvest.com^
@@ -29390,7 +29443,12 @@
 ||url127x.com^
 ||url12xx.com^
 ||app.url180.com^
+||url28x.com^
 ||url2s.com^
+||url36x.com^
+||url37x.com^
+||url38x.com^
+||url39x.com^
 ||url50.com^
 ||url56x.com^
 ||url666x.com^
@@ -29465,6 +29523,8 @@
 ||urlro.com^
 ||urlroot.com^
 ||urlroute.com^
+||urlrw.com^
+||urls1xx.com^
 ||proxy.urls247.com^
 ||urlshor.com^
 ||urlshort4.com^
@@ -29491,6 +29551,7 @@
 ||urltools.com^
 ||urltoshort.com^
 ||urltrax.com^
+||urltronic.com^
 ||urlunicorn.com^
 ||urluno.com^
 ||urlvanish.com^
@@ -29502,6 +29563,7 @@
 ||urlz.com^
 ||urlzen.com^
 ||urlzly.com^
+||urlzones.com^
 ||urlzs.com^
 ||urstoron.com^
 ||degree.uruha.com^
@@ -29741,6 +29803,7 @@
 ||vipswingclub.com^
 ||viraatlabs.com^
 ||viralbanner.com^
+||viralblade.com^
 ||viralpep.com^
 ||viralproxy.com^
 ||virginiaproxy.com^
@@ -29911,6 +29974,7 @@
 ||warptraffic.com^
 ||warriorproxy.com^
 ||fr.wasalive.com^
+||wasapbro.com^
 ||wasblocked.com^
 ||washingtol.com^
 ||q.wastedman.com^
@@ -30047,6 +30111,7 @@
 ||webschool1.com^
 ||websenseavoid.com^
 ||websensebypass.com^
+||webshon.com^
 ||webshortner.com^
 ||website-unblock.com^
 ||website-unblocker.com^
@@ -30335,6 +30400,7 @@
 ||wpaccm.com^
 ||wpicproxies.com^
 ||links.wpmhs.com^
+||wpshort.com^
 ||wptiklayazz.com^
 ||wptrckr.com^
 ||wrdsdaily.com^
@@ -30546,6 +30612,7 @@
 ||ygudy.com^
 ||yhqapp.com^
 ||yidbio.com^
+||yigza.com^
 ||yixxoo.com^
 ||yjmva.com^
 ||ykbofo.com^
@@ -31326,6 +31393,7 @@
 ||v0.dev^
 ||wavesnetwork.dev^
 ||wp-lib.dev^
+||akses.digital^
 ||ampifire.digital^
 ||augustinus.digital^
 ||diju.digital^
@@ -31337,6 +31405,7 @@
 ||sieduc.digital^
 ||lnk.direct^
 ||sub.direct^
+||tinyurl.direct^
 ||urls.direct^
 ||brandedstoragereview.directory^
 ||directorytechstoragepoint.directory^
@@ -32016,6 +32085,7 @@
 ||yourproxy.eu^
 ||zoombrowse.eu^
 ||gscc.events^
+||jackson.events^
 ||jwl.events^
 ||mbx.events^
 ||scm.events^
@@ -32088,6 +32158,7 @@
 ||go.ford^
 ||proxy.forsale^
 ||1un.fr^
+||2la.fr^
 ||42l.fr^
 ||jeuxsexy.9online.fr^
 ||a0.fr^
@@ -32215,6 +32286,7 @@
 ||p3rso.ns11-wistee.fr^
 ||li.nuabee.fr^
 ||o-x.fr^
+||okok.fr^
 ||lien.paribal.fr^
 ||phpproxy.fr^
 ||phproxy.fr^
@@ -32227,7 +32299,6 @@
 ||psilo.fr^
 ||qrtag.fr^
 ||real-debrid.fr^
-||redir.fr^
 ||relink.fr^
 ||fb.richie.fr^
 ||rwz.fr^
@@ -32247,6 +32318,7 @@
 ||app.univ-cotedazur.fr^
 ||unlink.fr^
 ||upfull.fr^
+||url-sh.fr^
 ||url2.fr^
 ||urlgo.fr^
 ||urls.fr^
@@ -34116,6 +34188,7 @@
 ||lmg.gg^
 ||ludia.gg^
 ||m.gg^
+||murl.gg^
 ||naa.gg^
 ||go.navi.gg^
 ||njit.gg^
@@ -35987,6 +36060,7 @@
 ||come.biz.id^
 ||dnl.biz.id^
 ||url.nafi.biz.id^
+||opetsalman.biz.id^
 ||bpk.id^
 ||clickurl.id^
 ||shorturl.co.id^
@@ -36044,6 +36118,7 @@
 ||unyku.id^
 ||mee.arrowmedia.web.id^
 ||freeproxy.web.id^
+||xcard.id^
 ||bung.ie^
 ||cnnmon.ie^
 ||gw.ie^
@@ -36073,6 +36148,7 @@
 ||bypass.im^
 ||openfxcompany.cc.im^
 ||ccj.im^
+||ctc.im^
 ||curl.im^
 ||due.im^
 ||dus.im^
@@ -36101,6 +36177,7 @@
 ||proxysites.im^
 ||prx.im^
 ||qrcode.im^
+||qrx.im^
 ||quik.im^
 ||r.im^
 ||ragv.im^
@@ -36474,6 +36551,7 @@
 ||jvn.in^
 ||karunadu.in^
 ||kha.in^
+||knext.in^
 ||koc.in^
 ||koinko.in^
 ||kotl.in^
@@ -36807,6 +36885,7 @@
 ||url1.in^
 ||url2.in^
 ||urlhide.in^
+||urli.in^
 ||urlo.in^
 ||urltamil.in^
 ||urlzs.in^
@@ -36823,6 +36902,7 @@
 ||vipshort.in^
 ||virtualsurf.in^
 ||viviendas.in^
+||vlnq.in^
 ||vplink.in^
 ||vpnfree.in^
 ||vprozone.in^
@@ -66168,6 +66248,7 @@
 ||yourinternetproxy.info^
 ||yourinvisible.info^
 ||yourkitty.info^
+||yourls.info^
 ||yourmask.info^
 ||yournewdirectory.info^
 ||yournewpower.info^
@@ -66576,6 +66657,7 @@
 ||njfl.ink^
 ||pbs.ink^
 ||prel.ink^
+||qurrl.ink^
 ||rcl.ink^
 ||rool.ink^
 ||rpd.ink^
@@ -66649,6 +66731,7 @@
 ||chmpn.io^
 ||chopurl.io^
 ||clearstream.io^
+||clickspot.io^
 ||clkd.io^
 ||cnfl.io^
 ||cofe.io^
@@ -66666,6 +66749,7 @@
 ||diwi.io^
 ||doturl.io^
 ||drpsnd.io^
+||dsgfs.io^
 ||dsn.io^
 ||dti.io^
 ||dtsx.io^
@@ -66690,6 +66774,7 @@
 ||ggle.io^
 ||gh.io^
 ||git.io^
+||glatt.io^
 ||golinkfy.io^
 ||grem.io^
 ||greyhive.io^
@@ -66707,6 +66792,7 @@
 ||ilnk.io^
 ||ilog.io^
 ||link.intract.io^
+||jmeet.io^
 ||jmpz.io^
 ||jpjp.io^
 ||jujubots.io^
@@ -66798,7 +66884,9 @@
 ||qr-codes.io^
 ||qrcc.io^
 ||qrcodes.io^
+||qrcs.io^
 ||qrfy.io^
+||qrly.io^
 ||qrsu.io^
 ||quickchart.io^
 ||radaar.io^
@@ -66935,6 +67023,7 @@
 ||wun.io^
 ||wurl.io^
 ||xdomain.io^
+||xshort.io^
 ||xut.io^
 ||yohn.io^
 ||yorl.io^
@@ -66954,12 +67043,14 @@
 ||zuitte.io^
 ||1da.ir^
 ||1ea.ir^
+||1fy.ir^
 ||1o2.ir^
 ||1zx.ir^
 ||20l.ir^
 ||2ad.ir^
 ||2w3.ir^
 ||2wo.ir^
+||301l.ir^
 ||3d-ul.ir^
 ||48l.ir^
 ||4eq.ir^
@@ -66983,7 +67074,9 @@
 ||dehe.ir^
 ||deheh.ir^
 ||drnx.ir^
+||e9e.ir^
 ||ebbco.ir^
+||ee9.ir^
 ||fi9.ir^
 ||fna.ir^
 ||go2l.ir^
@@ -67027,6 +67120,7 @@
 ||go.poweren.ir^
 ||proshare.ir^
 ||radly.ir^
+||razi-link.ir^
 ||rizy.ir^
 ||sarmadinst.ir^
 ||shxi.ir^
@@ -67203,6 +67297,7 @@
 ||tech.undo.it^
 ||go.unoblog.it^
 ||unshorten.it^
+||urlin.it^
 ||urwebs.it^
 ||utml.it^
 ||google.valledigioia.it^
@@ -67570,6 +67665,7 @@
 ||cwg.li^
 ||deb.li^
 ||dho.li^
+||dhu.li^
 ||did.li^
 ||diek.li^
 ||djp.li^
@@ -67603,6 +67699,7 @@
 ||jif.li^
 ||jpde.li^
 ||k-p.li^
+||kuik.li^
 ||l2l.li^
 ||prox.legalize.li^
 ||go.lga.li^
@@ -67664,6 +67761,7 @@
 ||vav.li^
 ||vim.li^
 ||vov.li^
+||w33.li^
 ||webi.li^
 ||wec.li^
 ||wed.li^
@@ -67671,6 +67769,7 @@
 ||xem.li^
 ||xip.li^
 ||xpr.li^
+||yrl.li^
 ||d.yzh.li^
 ||zdrive.li^
 ||zebra.li^
@@ -68060,6 +68159,7 @@
 ||domi.link^
 ||dpb.link^
 ||drafthound.link^
+||dropl.link^
 ||dub.link^
 ||dwdl.link^
 ||ecrane.link^
@@ -68080,6 +68180,7 @@
 ||f44.link^
 ||fandom.link^
 ||faras.link^
+||fastfilehost.link^
 ||fattoincasadabenedetta.link^
 ||fbstw.link^
 ||ffxiv.link^
@@ -68092,9 +68193,11 @@
 ||gandi.link^
 ||gek.link^
 ||gemy.link^
+||generating.link^
 ||gfl2exilium.link^
 ||gfmt.link^
 ||ggl.link^
+||gibi.link^
 ||giraffeweb.link^
 ||giris724.link^
 ||gnosis.link^
@@ -68116,6 +68219,7 @@
 ||hide-me.link^
 ||hider.link^
 ||hocmai.link^
+||hokiku.link^
 ||hopework.link^
 ||hux.link^
 ||idch.link^
@@ -68168,6 +68272,7 @@
 ||minify.link^
 ||minimy.link^
 ||minny.link^
+||mktg8.link^
 ||modash.link^
 ||molok.link^
 ||mt77.link^
@@ -68242,6 +68347,7 @@
 ||shiny.link^
 ||short-url.link^
 ||short1.link^
+||shortbio.link^
 ||shortest.link^
 ||shortin.link^
 ||shortino.link^
@@ -68271,6 +68377,7 @@
 ||sonoran.link^
 ||speedproxy.link^
 ||spotify.link^
+||stedi.link^
 ||steveendow.link^
 ||strk12.link^
 ||superxavier.link^
@@ -68321,6 +68428,7 @@
 ||urlb.link^
 ||urlbutter.link^
 ||urlcut.link^
+||urlify.link^
 ||urllink.link^
 ||urlplus.link^
 ||urlshorten.link^
@@ -68620,6 +68728,7 @@
 ||spotifypigeon.live^
 ||srwedding.live^
 ||startupperks.live^
+||stor.live^
 ||sumpahdokteruph52.live^
 ||supporticket231.live^
 ||syl83otk.live^
@@ -68644,6 +68753,7 @@
 ||unc.live^
 ||unknown123.live^
 ||urllink.live^
+||urlshortenerr.live^
 ||vellygearswiki.live^
 ||vendoagora.live^
 ||videopro.live^
@@ -68880,6 +68990,7 @@
 ||rebrand.ly^
 ||ru.ly^
 ||scrb.ly^
+||short.ly^
 ||shorturl.ly^
 ||simp.ly^
 ||sincere.ly^
@@ -69425,6 +69536,7 @@
 ||sniply.me^
 ||z.sodomise.me^
 ||somee.me^
+||sorc.me^
 ||sorkale.me^
 ||sotly.me^
 ||spoo.me^
@@ -69471,6 +69583,7 @@
 ||tu4.me^
 ||tyns.me^
 ||tyny.me^
+||tyx.me^
 ||uabio.me^
 ||ucam.me^
 ||uclck.me^
@@ -69558,6 +69671,7 @@
 ||yamantap.me^
 ||yogh.me^
 ||yoiz.me^
+||youfap.me^
 ||youngster.me^
 ||youproxy.me^
 ||youshouldhide.me^
@@ -71826,6 +71940,7 @@
 ||tinyurl.my^
 ||tpaper.my^
 ||tr.my^
+||tritri.my^
 ||tzv.my^
 ||urlz.my^
 ||use.my^
@@ -72494,6 +72609,9 @@
 ||ccurl.net^
 ||ccx1.net^
 ||cdclub.net^
+||cdn-n.net^
+||cdn-x.net^
+||cdn-z.net^
 ||ce0.net^
 ||celestialstudios.net^
 ||cell44.net^
@@ -72642,6 +72760,7 @@
 ||proxy.daysago.net^
 ||proxy.dc-telemach.net^
 ||buffel.ddns.net^
+||ddp.net^
 ||deal-with-me.net^
 ||hosted.dealjee.net^
 ||decentproxy.net^
@@ -73616,6 +73735,7 @@
 ||my5k.net^
 ||myairtools.net^
 ||proxy.myauthority.net^
+||mybiopage.net^
 ||mycashsaver.net^
 ||hosting.mydellcomputerstore.net^
 ||tunnel.myeweb.net^
@@ -74298,6 +74418,7 @@
 ||reviewof.net^
 ||reviews-blog.net^
 ||rewebber.net^
+||rgister.net^
 ||rh7.net^
 ||rickjames.net^
 ||surf.rickyoung.net^
@@ -74333,6 +74454,7 @@
 ||russberger.net^
 ||links.russian-mail-order-bride.net^
 ||proxy.ruv.net^
+||rwrd.net^
 ||broadband.rwsservices.net^
 ||go.s1ol.net^
 ||s3w.net^
@@ -74420,6 +74542,7 @@
 ||shorteners.net^
 ||shortenly.net^
 ||shorterurl.net^
+||shortey.net^
 ||shortfires.net^
 ||shortl.net^
 ||shortlink.net^
@@ -74467,6 +74590,7 @@
 ||proxy.smjc.net^
 ||hosting.smokergals.net^
 ||toplist.smsgrup.net^
+||snapadd.net^
 ||sneak2.net^
 ||sneak9.net^
 ||sneakanon.net^
@@ -75193,6 +75317,7 @@
 ||apple.news^
 ||arab.news^
 ||blstg.news^
+||bsg.news^
 ||lnk.news^
 ||mlog.news^
 ||msai.news^
@@ -75577,7 +75702,9 @@
 ||pdy.one^
 ||poy.one^
 ||r2c.one^
+||shoco.one^
 ||shortlink.one^
+||shorty.one^
 ||sld.one^
 ||sosyal.one^
 ||stargate.one^
@@ -75591,6 +75718,7 @@
 ||unl.one^
 ||uptolink.one^
 ||urltiny.one^
+||urlys.one^
 ||vioshortlink.one^
 ||youz.one^
 ||ali.onl^
@@ -75606,6 +75734,7 @@
 ||t2m.onl^
 ||tinylink.onl^
 ||ttt.onl^
+||vai.onl^
 ||anonyme.online^
 ||aroundeu.online^
 ||ativado.online^
@@ -75680,6 +75809,7 @@
 ||unblocksites.online^
 ||unblockwebsite.online^
 ||upyun.online^
+||url88.online^
 ||urlbit.online^
 ||vejacomo.online^
 ||vibegaming.online^
@@ -75688,6 +75818,7 @@
 ||witly.online^
 ||wplinks.online^
 ||xboys.online^
+||yulllu01.online^
 ||sah.ooo^
 ||0-b.org^
 ||0000opengate.org^
@@ -75829,6 +75960,7 @@
 ||adclickring.org^
 ||admarkservices.org^
 ||advercash.org^
+||agentassistcrm.org^
 ||agiledirectory.org^
 ||albn.org^
 ||dating.allowed.org^
@@ -76045,6 +76177,7 @@
 ||cloakme.org^
 ||proxy.cmang.org^
 ||proxy.cnd.org^
+||coachstudio.org^
 ||go.coccert.org^
 ||proxy.coccertification.org^
 ||cognivi.org^
@@ -76080,6 +76213,7 @@
 ||proxy.cultureservice.org^
 ||cup.org^
 ||curlproxy.org^
+||curriculumsystem.org^
 ||cuty.org^
 ||cvvv.org^
 ||cyberbay.org^
@@ -77037,6 +77171,7 @@
 ||proxy.publicrealty.org^
 ||proxy.pumawifi.org^
 ||purpleproxy.org^
+||pushlimit.org^
 ||freeproxy.pwner.org^
 ||ipswitcher.pwnz.org^
 ||proxy.pwnz.org^
@@ -77441,6 +77576,7 @@
 ||virusinfo.org^
 ||visnk.org^
 ||vista-files.org^
+||vm88bet.org^
 ||vorxed.org^
 ||vpnproxy.org^
 ||vugao.org^
@@ -77570,6 +77706,7 @@
 ||proxy.zsomb.org^
 ||ztunnel.org^
 ||zunereactor.org^
+||zyva.org^
 ||arcade.zzl.org^
 ||surfman.zzl.org^
 ||unzipped.zzl.org^
@@ -77703,6 +77840,7 @@
 ||proxyserver.pk^
 ||safuretech.pk^
 ||schoolproxy.pk^
+||short.pk^
 ||surl.pk^
 ||unblockproxy.pk^
 ||unblockyoutube.pk^
@@ -77741,6 +77879,7 @@
 ||anonimowo.com.pl^
 ||w3cache.daewoo.com.pl^
 ||url.elmark.com.pl^
+||daa.pl^
 ||darkgate.pl^
 ||darmoweproxy.pl^
 ||dee.pl^
@@ -77980,6 +78119,7 @@
 ||shortwave.pro^
 ||shrinkme.pro^
 ||shrinky.pro^
+||shrtct.pro^
 ||socialbio.pro^
 ||st3.pro^
 ||surl.pro^
@@ -77989,6 +78129,7 @@
 ||tnyurl.pro^
 ||url2go.pro^
 ||urlbit.pro^
+||urlfy.pro^
 ||urlshortener.pro^
 ||urly.pro^
 ||urlys.pro^
@@ -78320,6 +78461,7 @@
 ||li-nk.ro^
 ||lnk2.ro^
 ||away.logicdream.ro^
+||loy.ro^
 ||url.lumeapresei.ro^
 ||sahclub.lx.ro^
 ||microlink.ro^
@@ -78867,7 +79009,6 @@
 ||url.deep.sg^
 ||for.edu.sg^
 ||for.sg^
-||go.gov.sg^
 ||nsk.sg^
 ||air.o2.sg^
 ||proxy.sg^
@@ -78978,6 +79119,7 @@
 ||blocklist.site^
 ||bprl.site^
 ||chocobo.site^
+||cryptowidgets.site^
 ||duitwow.site^
 ||earnshort.site^
 ||easyurl.site^
@@ -116641,6 +116783,7 @@
 ||ovh.to^
 ||paths.to^
 ||paut.to^
+||link.peds.to^
 ||philips.to^
 ||pjps.to^
 ||pke.to^
@@ -117087,6 +117230,7 @@
 ||shortclient.top^
 ||shorte.top^
 ||shortenurl.top^
+||shortyurl.top^
 ||showgirl2015.top^
 ||shrinkme.top^
 ||simolife.top^
@@ -117601,6 +117745,7 @@
 ||cmy.tw^
 ||url.hle.com.tw^
 ||ctbc.tw^
+||datenami.tw^
 ||dna360.tw^
 ||bypass.don.tw^
 ||away.dreams-link.tw^
@@ -118140,6 +118285,7 @@
 ||referer.uk^
 ||shortlink.uk^
 ||tnflink.uk^
+||tnij.uk^
 ||unroxy.uk^
 ||url4.uk^
 ||vodafone.uk^
@@ -118438,6 +118584,7 @@
 ||gate8.us^
 ||gate9.us^
 ||proxy.gateshare.us^
+||gemilink.us^
 ||gen11.us^
 ||geni.us^
 ||getpast.us^
@@ -118721,6 +118868,7 @@
 ||rdee.us^
 ||cover.realitytvshows.us^
 ||rec-law.us^
+||redtext.us^
 ||referer.us^
 ||replaceip.us^
 ||resmiteratai888.us^
@@ -118780,6 +118928,7 @@
 ||live.smartfox.us^
 ||smartproxy.us^
 ||2008.smithfurniture.us^
+||smlnk.us^
 ||su.smoz.us^
 ||surf-proxy.smoz.us^
 ||smsng.us^
@@ -118835,6 +118984,7 @@
 ||thecolorgreen.us^
 ||thefreeproxy.us^
 ||theproxy.us^
+||thesa.us^
 ||thexite.us^
 ||thinkpl.us^
 ||campus.timewaster.us^
@@ -119074,6 +119224,7 @@
 ||go.hvn.vn^
 ||sl.duyluandethuong.id.vn^
 ||enter.id.vn^
+||bom.io.vn^
 ||shorter.io.vn^
 ||stali.io.vn^
 ||jll.vn^
@@ -119629,6 +119780,7 @@
 ||geography-group.xyz^
 ||geographyweb.xyz^
 ||get-online.xyz^
+||ggapps.xyz^
 ||googleproxy.xyz^
 ||greetingpaper.xyz^
 ||groupeastonline.xyz^
@@ -119851,6 +120003,7 @@
 ||navigate-online.xyz^
 ||needassist.xyz^
 ||network-east-online.xyz^
+||newswrap.xyz^
 ||ninjabig.xyz^
 ||ninjagroup.xyz^
 ||ninjaweb.xyz^
@@ -120093,6 +120246,7 @@
 ||tls.yt^
 ||fast.webproxy.yt^
 ||acsafrica.co.za^
+||aptly.co.za^
 ||school.calno.co.za^
 ||glype.co.za^
 ||iproxy.co.za^

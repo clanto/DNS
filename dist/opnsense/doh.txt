@@ -18,7 +18,6 @@
 2.dns.noridev.moe
 2.dnscrypt-cert.ffmuc.net
 20010114.xyz
-2024.laijy.top
 220913.xyz
 23.106.141.137.16clouds.com
 2plus2equal80-dns.duckdns.org
@@ -150,6 +149,7 @@ adguard.dantynes.cyou
 adguard.depieri.net
 adguard.dervart.ru
 adguard.devel.win
+adguard.discounthost.co.uk
 adguard.diylab.in
 adguard.doranpierst.com.tr
 adguard.dragonlab.work
@@ -177,7 +177,6 @@ adguard.infralink.space
 adguard.infrapod.nl
 adguard.itclogic.cloud
 adguard.jaydub.cloud
-adguard.jodatacenter.com
 adguard.k-likhachev.ru
 adguard.kantinyoyok.xyz
 adguard.kiboko.it
@@ -298,8 +297,8 @@ adrubik.duckdns.org
 ads-doh.securedns.eu
 ads.hunga1k47.com
 ads.hunga1k47.win
-ads.therman.eu
 ads.wordlez.com
+ads.x88.in
 adsl.viettel.vn
 adult-filter-dns.cleanbrowsing.org
 ae-agh1.dns.cryptroute.net
@@ -603,6 +602,7 @@ de01.dns4me.net
 de51.tcpdoor.net
 decloudus.com
 dedidl.com
+deep-henchman-excuse.cfd
 deflectordns.com
 dehb.ru
 deic-lgb.anycast.censurfridns.dk
@@ -820,6 +820,7 @@ dns.crystalyx.net
 dns.csa-rz.de
 dns.csaonline.de
 dns.csswg.org
+dns.cybertonic.tech
 dns.d365.in
 dns.d4d.moe
 dns.d94.xyz
@@ -1575,6 +1576,7 @@ dnsupstream02.familieberfelo.nl
 dnsvps.familiamv.net
 dnswebvsn.com
 dnx.niko-sem.com
+do-39574-tr.xyz
 do.dnscrypt.uk
 do.shimul.me
 docker-hub.ir
@@ -1865,7 +1867,6 @@ fuchur.pentament.de
 fukuda.ccnt.fr
 funti.cc
 funtikspb.ru
-furrytech.io
 futurearts.cc
 fwgw.orangepipc.mywire.org
 gaia.plonknet.com
@@ -1937,7 +1938,6 @@ helios.plan9-dns.com
 helsh0ru5.mooo.com
 herkes.online
 hexxitcompany.com
-hfgx.shop
 hgrps.eu
 hieutrang-99.duckdns.org
 himedns.com
@@ -1970,6 +1970,7 @@ hkt.kozow.com
 hnsdoh.com
 hockaday.synology.me
 hole.elbschloss.xyz
+home-server.store
 home.azagra.dev
 home.basthorst.eu
 home.dlinkddns.com
@@ -2172,6 +2173,7 @@ le-mesle.fr
 ledns.eu
 lelux.fi
 lena.vpn.i81.ru
+lesuo.top
 lfbn-gre-1-319-7.w90-112.abo.wanadoo.fr
 libredns.gr
 lifeisa.live
@@ -2209,9 +2211,6 @@ man01.dnscry.pt
 maqgie.xyz
 maradns.org
 mask-canary.icloud.com
-mask-h2.icloud.com
-mask.apple-dns.net
-mask.icloud.com
 masters-of-cloud.de
 math.netlab.my.id
 mavalleenumerique.hopto.org
@@ -2327,6 +2326,7 @@ noads.imbuffering.com
 noads.joindns4.eu
 noads.jpsrvr.com
 noadsdomain.space
+node9.servernode.store
 noip4.de
 nop.mobi
 notebait.ddnsfree.com
@@ -2746,7 +2746,6 @@ tecworx.at
 teknorota.com
 telex.app
 tenclubamst.ru
-tenmei.casacam.net
 test.143.sh
 test.adg.siudzinski.net
 test.businessconnect.com.tr
@@ -2790,6 +2789,7 @@ totoland.eu
 tpa01.dnscry.pt
 tpe01.dnscry.pt
 tr-ist-w-p-2.nashkan.net
+tr.league1.xyz
 travis90x.ddns.net
 trf01.dnscry.pt
 tri-dns.net
