@@ -47,7 +47,6 @@ chungo.net
 clipser.com
 cloudshare.cz
 cocoimage.com
-cocoshare.cc
 cramit.in
 cybernetic1995.acc.de
 dada.net
@@ -110,6 +109,7 @@ files-express.com
 files-upload.com
 files.catbox.moe
 files.mail.ru
+files.to
 files6.com
 filesanywhere.com
 filesavr.com
@@ -240,7 +240,6 @@ nakido.com
 ndfreehost.com
 netload.in
 netu.tv
-nexmicrosystems.com
 novamov.com
 nowvideo.eu
 onlinedisk.ru
@@ -269,7 +268,6 @@ picvalley.net
 pixagogo.com
 pixali.com
 pixeldrain.com
-pixhost.me
 pixshock.net
 premify.com
 putfile.com

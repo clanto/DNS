@@ -63409,6 +63409,7 @@
 *.my-club.live
 *.nofnec.live
 *.nowtrade.live
+*.premierbet.live
 *.unc.live
 *.wishct.live
 *.wolftravels.live

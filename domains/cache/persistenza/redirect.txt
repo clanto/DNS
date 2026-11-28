@@ -109929,7 +109929,6 @@ biolook.net
 biolynx.net
 biopagina.com
 bioprofile.link
-bioqr.me
 bioqrs.com
 bioreling.com
 biosite.info
@@ -117137,7 +117136,6 @@ sibly.ir
 sibutathemba120.life
 sic.onl
 sicax.net
-sicepat.link
 sidji.link
 sie.ag
 sieduc.digital
@@ -117712,7 +117710,6 @@ taggpro.me
 tagli.net
 tagly.us
 tahmil.net
-tahuplay.urlklik.com
 tailurl.com
 taiwangov.com
 tak.to
@@ -120289,3 +120286,6 @@ youfap.me
 yourls.info
 yrl.li
 z5h.cn
+@498847
+igit.me
+qrbiolink.com

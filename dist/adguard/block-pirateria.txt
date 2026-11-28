@@ -5522,7 +5522,6 @@
 ||lordfilm789.cfd^
 ||lordfilm795.cfd^
 ||lordfilm796.cfd^
-||lordfilmabrupt.cfd^
 ||lordfilmaether.cfd^
 ||lordfilmalong.cfd^
 ||lordfilmarcane.cfd^
@@ -5599,7 +5598,6 @@
 ||lordfilmintrigue.cfd^
 ||lordfilmintrude.cfd^
 ||lordfilmivk.cfd^
-||lordfilmkicker.cfd^
 ||lordfilmkitchen.cfd^
 ||lordfilmknight.cfd^
 ||lordfilmkno.cfd^
@@ -10513,7 +10511,6 @@
 ||didarit.com^
 ||didiaokanlivetv-qq.com^
 ||dididave.com^
-||dietdinnerrecipes.com^
 ||bflix.digiomg.com^
 ||digital-eliteboard.com^
 ||digitalsoftwareza.com^
@@ -10625,6 +10622,7 @@
 ||dizipal1433.com^
 ||dizipal1434.com^
 ||dizipal1456.com^
+||dizipal1521.com^
 ||dizipal152d.com^
 ||dizipal1532.com^
 ||dizipal1542.com^
@@ -11056,6 +11054,7 @@
 ||domahi.com^
 ||dominicanchannels.com^
 ||dominiospelisflix.com^
+||donaldlineelse.com^
 ||donevideo.com^
 ||dontorrents.com^
 ||dood.com^
@@ -16100,6 +16099,7 @@
 ||watchseries.cool^
 ||yggtorrent.cool^
 ||cineblog001.coupons^
+||filmapik.coupons^
 ||hdmovie2.coupons^
 ||motchill.coupons^
 ||multicanaishd.coupons^
@@ -16117,6 +16117,7 @@
 ||coflix.courses^
 ||eurostreamings.courses^
 ||film-pertutti.courses^
+||filmapik.courses^
 ||filmoflix.courses^
 ||filmoflixi.courses^
 ||filmpertutti.courses^
@@ -16538,7 +16539,6 @@
 ||lordfilma.cyou^
 ||lordfilmabyme.cyou^
 ||lordfilmahp.cyou^
-||lordfilmalchemy.cyou^
 ||lordfilmaqp.cyou^
 ||lordfilmb.cyou^
 ||lordfilmber.cyou^
@@ -19323,6 +19323,7 @@
 ||mycima.host^
 ||myflixer.host^
 ||putlocker.host^
+||soap2day.host^
 ||soccerstreams.host^
 ||sportsurge.host^
 ||totalsporteki.host^
@@ -21287,6 +21288,7 @@
 ||torrentdownloads.info^
 ||torrentgamesps2.info^
 ||torrentmania.info^
+||torrentmovie.info^
 ||torrentpos.info^
 ||torrentsnipe.info^
 ||torrentsoftruth.info^
@@ -29595,7 +29597,6 @@
 ||lordfilmdqso.lol^
 ||lordfilmdrdb.lol^
 ||lordfilmdrdg.lol^
-||lordfilmdresser.lol^
 ||lordfilmdrive.lol^
 ||lordfilmdrme.lol^
 ||lordfilmdrvk.lol^
@@ -33961,6 +33962,7 @@
 ||filmoflixi.mom^
 ||filmsenzalimiti.mom^
 ||filmstreaming.mom^
+||flemmix.mom^
 ||fmoviess.mom^
 ||fmoviesto.mom^
 ||french-streams.mom^
@@ -36050,6 +36052,7 @@
 ||motchilliz.net^
 ||motchillizz.net^
 ||motchillj.net^
+||motchillje.net^
 ||motchillka.net^
 ||motchillkb.net^
 ||motchillkc.net^
@@ -36745,6 +36748,7 @@
 ||wobno.net^
 ||world-in-hd.net^
 ||worldmags.net^
+||worldofp2p.net^
 ||worldsrc.net^
 ||worldwrestlingtorrents.net^
 ||ww-123moviesfree.net^
@@ -42388,6 +42392,7 @@
 ||basic-instincktu-lordfilm.ru^
 ||basketball-kuroko-lordfilm.ru^
 ||basketbol-kuroko-lordfilme.ru^
+||basketbol-kuroko-smotret-lordfilm.ru^
 ||basketbol-kurokoo-lordfilm.ru^
 ||baskettbol-kurokoo-lordfilm.ru^
 ||baskettboll-kurokoo-lordfilm.ru^
@@ -44875,6 +44880,7 @@
 ||etim-letom-ya-stala-krasivoy-lordfilm.ru^
 ||eto-mmy-lordfilms.ru^
 ||eto-more-perepolnitsya-lordfilm.ru^
+||eto-more-perepolnitsya-smotret-lordfilm.ru^
 ||eto-my-lordfilm3.ru^
 ||eto-my-smotret-lordfilm.ru^
 ||eto-samoe-lordfilme.ru^
@@ -47532,6 +47538,7 @@
 ||krepki-oreshek-lordfilm.ru^
 ||krepkiiy-oreshek-lordfilme.ru^
 ||krepkij-oreshek-lordfilm3.ru^
+||krepkij-oreshek-smotret-lordfilm.ru^
 ||krepkiy-oreshek-film-lordfilm.ru^
 ||krepkiy-oreshek-lordfilme.ru^
 ||krepkiy-oreshekd-lordfilm.ru^
@@ -48577,6 +48584,7 @@
 ||lyubov-i-golubi-film-lordfilm.ru^
 ||lyubov-i-golubi-smotret-lordfilm.ru^
 ||lyubov-naprokat-lordfilm.ru^
+||lyubov-naprokat-smotret-lordfilm.ru^
 ||lyubov-ne-ponimaet-slov-serial-lordfilm.ru^
 ||lyubov-oblakakh-lordfilm.ru^
 ||lyubov-smerrt-roboty-lordfilm.ru^
@@ -51231,6 +51239,7 @@
 ||pitt-lordfilme.ru^
 ||pitt-lordfilms.ru^
 ||pitt-lordfilmtv.ru^
+||pitt-smotret-lordfilm.ru^
 ||pitter-dzhekson-lordfilm.ru^
 ||pixar-filmq-lordfilm.ru^
 ||pixar-filmw-lordfilm.ru^
@@ -51954,6 +51963,7 @@
 ||put-domoy-lordfilme.ru^
 ||puteshestvennik-vrema-lordfilm.ru^
 ||puteshestvenniki-lordfilme.ru^
+||puteshestvie-k-bessmertiyu-smotret-lordfilm.ru^
 ||puteshestvie-k-centru-zemli-lordfilm3.ru^
 ||puteshestvie-k-tcentru-zemli-lordfilm.ru^
 ||puteshestvie-k-tsentru-zemli-lordfilm.ru^
@@ -54848,6 +54858,7 @@
 ||toch-wtoch-lordfilme.ru^
 ||tochka-otscheta-lordfilme.ru^
 ||togo-smotret-lordfilm.ru^
+||tokijskij-gul-smotret-lordfilm.ru^
 ||tokiyskie-mstiteeli-lordfilm.ru^
 ||tokiyskie-mstiteli-lordfilme.ru^
 ||tokiyskiy-drift-film-lordfilm.ru^
@@ -55540,6 +55551,7 @@
 ||v-boy-idut-odni-stariki-film-lordfilm.ru^
 ||v-chuzhoy-shkure-lordfilm.ru^
 ||v-dome-smotret-lordfilm.ru^
+||v-eyo-glazah-smotret-lordfilm.ru^
 ||v-filadelfii-vsegda-solnechno-lordfilm3.ru^
 ||v-gllushi-lordfilm.ru^
 ||v-glushhi-lordfilm.ru^
@@ -55550,6 +55562,7 @@
 ||v-h-si-lordfilm.ru^
 ||v-h-sr-lordfilm.ru^
 ||v-h-sx-lordfilm.ru^
+||v-lovushke-smotret-lordfilm.ru^
 ||v-luchshem-mire-lordfilm.ru^
 ||v-osade-film-lordfilm.ru^
 ||v-parke-chair-lordfilm.ru^
@@ -57565,7 +57578,6 @@
 ||lordfilmczs.sbs^
 ||lordfilmdailies.sbs^
 ||lordfilmdiscourse.sbs^
-||lordfilmdiverse.sbs^
 ||lordfilmdwe.sbs^
 ||lordfilmdystopia.sbs^
 ||lordfilmealing.sbs^
@@ -58174,6 +58186,7 @@
 ||1jour1film1126.shop^
 ||1jour1film1126b.shop^
 ||1vegamovies.shop^
+||31vaqti.shop^
 ||4movierulz.shop^
 ||9kmovies.shop^
 ||a1movies.shop^
@@ -58325,7 +58338,6 @@
 ||olamovies.shop^
 ||ono-lordfilm.shop^
 ||optimizedadstream.shop^
-||pelisflix2.shop^
 ||pelisflix20.shop^
 ||pembawarezeki.shop^
 ||piratebayseafood.shop^
@@ -59434,7 +59446,6 @@
 ||streamed.st^
 ||strmfree.st^
 ||tb-cdn.st^
-||thepiratebay.st^
 ||tvlibreonline.st^
 ||unblockninja.st^
 ||vegamovies.st^
@@ -60117,6 +60128,7 @@
 ||sportsurge.tech^
 ||streaming-community.tech^
 ||streamingcommunity.tech^
+||streamingcommunityz.tech^
 ||streamsports.tech^
 ||torrentclub.tech^
 ||torrentdiagnostic.tech^
@@ -60446,6 +60458,7 @@
 ||ololo.to^
 ||onionplay.to^
 ||onstreamapp.to^
+||openloadmovies.to^
 ||pdalife.to^
 ||pdfdrive.to^
 ||pepecine.to^
@@ -60521,6 +60534,7 @@
 ||strmup.to^
 ||supernova.to^
 ||swatchseries.to^
+||swefilmer.to^
 ||tata.to^
 ||tb-cdn.to^
 ||tfpdl.to^
@@ -61236,9 +61250,7 @@
 ||lordfilm-plustv.top^
 ||lordfilm-qa.top^
 ||lordfilm-qb.top^
-||lordfilm-qc.top^
 ||lordfilm-qd.top^
-||lordfilm-qf.top^
 ||lordfilm-qg.top^
 ||lordfilm-qi.top^
 ||lordfilm-qj.top^
@@ -61636,7 +61648,6 @@
 ||lordfilmstrelec.top^
 ||lordfilmstrizh.top^
 ||lordfilmstruna.top^
-||lordfilmstudio.top^
 ||lordfilmstupeni.top^
 ||lordfilmsubplot.top^
 ||lordfilmsubtle.top^
@@ -62330,7 +62341,7 @@
 ||moviesmode.town^
 ||nextorrent.town^
 ||nortorrent.town^
-||oxtorrent.town^
+||www.oxtorrent.town^
 ||prmovies.town^
 ||sdmoviespoint.town^
 ||soap2day.town^

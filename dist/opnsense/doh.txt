@@ -1,3 +1,4 @@
+0815cloud.de
 1.0rz.space
 1.11i.eu
 1.dns.noridev.moe
@@ -128,6 +129,7 @@ adguard.abd.ong
 adguard.acrobyte.org
 adguard.adrianofrongillo.ovh
 adguard.aenth.com
+adguard.ajinga.net
 adguard.alu.dog
 adguard.aminetwork.biz
 adguard.amscenter.net
@@ -185,7 +187,6 @@ adguard.kitakitsune.xyz
 adguard.landropunk.xyz
 adguard.lege.despagne.net
 adguard.llf520.dpdns.org
-adguard.londonwebnerd.cloud
 adguard.lucarius.nl
 adguard.maison.gifino.fr
 adguard.mapor.co
@@ -559,7 +560,6 @@ cubedns.com
 curser.dev
 cvt01.dnscry.pt
 cyliu.idv.tw
-cynntex.fun
 d.adguard-dns.com
 d.apemlegit.my.id
 d.gametechnet.com
@@ -760,7 +760,6 @@ dns.bermeitinger.eu
 dns.beta.gandi.net
 dns.bezmezhau.com
 dns.bgeneto.com
-dns.bibica.net
 dns.bitdefender.net
 dns.bitgeek.in
 dns.bitservices.io
@@ -823,7 +822,6 @@ dns.crystalyx.net
 dns.csa-rz.de
 dns.csaonline.de
 dns.csswg.org
-dns.cybertonic.tech
 dns.d365.in
 dns.d4d.moe
 dns.d94.xyz
@@ -947,6 +945,7 @@ dns.ginovs.nl
 dns.girino.org
 dns.giriprabhat.com
 dns.glampool.cloud
+dns.glorydns.com
 dns.glsoft.ai
 dns.gnb09.id
 dns.goldplate.org
@@ -1276,7 +1275,6 @@ dns.rjls.me
 dns.rl-analytix.de
 dns.roedel.cloud
 dns.rogpurs.com
-dns.romain.tech
 dns.ronc.ru
 dns.rubyfish.cn
 dns.safesurfer.co.nz
@@ -1731,6 +1729,7 @@ doh.xorlet.ru
 doh.zhongbr.uk
 doh.zknt.org
 doh003.280blocker.net
+doh1.b-cdn.net
 doh2.b-cdn.net
 doh2.gslb2.xfinity.com
 doh3.kekew.info
@@ -2156,6 +2155,7 @@ kronos.plan9-dns.com
 krtekvpn.duckdns.org
 kubinet.duckdns.org
 kudns.kescher.at
+kx-97795-tr.xyz
 kz-pav-w-p-1.nashkan.net
 la-doh.stuptech.com
 lamdtl.giize.com
@@ -2196,7 +2196,6 @@ lukscasino-929-tr.xyz
 lunar-dns.de
 luxembourg.privacy-dns.pw
 mabuktogel.builders
-mabuktogel.creditcard
 mabuktogel.enterprises
 mabuktogel.immobilien
 mabuktogel.ltd
@@ -2455,6 +2454,7 @@ pihole.datamatter.co.za
 pihole1.hoerli.net
 pihole2.hoerli.net
 pihole3.hoerli.net
+pingbi.xyz
 pips.kpsn.org
 pitchforkwaydns.duckdns.org
 pl-waw-w-p-2.nashkan.net
@@ -2746,7 +2746,6 @@ tecworx.at
 teknorota.com
 telex.app
 tenclubamst.ru
-tenmei.casacam.net
 test.143.sh
 test.adg.siudzinski.net
 test.businessconnect.com.tr
@@ -2998,7 +2997,6 @@ xjpdns.354688.xyz
 xkariak.asuscomm.com
 xlmhzs.com
 xm.ln7371.top
-xn--80aeak3akfgk.xn--p1acf
 xpen.ns01.info
 y3suyx0cg2lewi2dmn.advaitghaisas.in
 yandex.cloud.cifra-dn.ru

@@ -13132,7 +13132,6 @@ bioprofile.link
 bioproxies.co.cc
 bioproxies.info
 bioproxy.tk
-bioqr.me
 bioqrs.com
 bioreling.com
 biosite.info
@@ -48654,6 +48653,7 @@ igeno.info
 igetuthere.info
 iggod.info
 ighost.info
+igit.me
 iglype.info
 ignatureelvoeproxy.ga
 ignaturesafeunblock.ml
@@ -83945,6 +83945,7 @@ qrab.eu
 qraus.com
 qrb.us
 qrbee.net
+qrbiolink.com
 qrcaard.com
 qrcc.io
 qrcc.me
@@ -91446,7 +91447,6 @@ sibly.ir
 sibutathemba120.life
 sic.onl
 sicax.net
-sicepat.link
 sicher.cz.cc
 sick.cervejolas.de
 sick.msw-technologies.de
@@ -100927,7 +100927,6 @@ tahi-tyweb.tk
 tahmil.net
 tahoesurf.tk
 tahukecrot.co.cc
-tahuplay.urlklik.com
 tailbaool-proxys.tk
 tailbaoolat.tk
 tailbaoolnow.tk

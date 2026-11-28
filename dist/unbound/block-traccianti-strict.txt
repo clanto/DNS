@@ -120,6 +120,7 @@
 *.analytics.superstructure.ai
 *.hi.syllable.ai
 *.link.szl.ai
+*.monitor.tapper.ai
 *.p.teamily.ai
 *.app.trainfitness.ai
 *.l.unfy.ai
@@ -22045,6 +22046,7 @@
 *.images.nwinsurance.pemco.com
 *.omni.pemco.com
 *.somni.pemco.com
+*.penbuzz.com
 *.mdws.penfinancial.com
 *.app.pennathletics.com
 *.t.pennathletics.com
@@ -22926,6 +22928,7 @@
 *.qldvnj.purepara.com
 *.utiq.purepeople.com
 *.marketing.puretechltd.com
+*.affiliates.purevpn.com
 *.omnit.pureyoga.com
 *.app.profile.purina.com
 *.register.purina.com
@@ -34540,6 +34543,7 @@
 *.money.clerkie.io
 *.open.clerkie.io
 *.click360.io
+*.data.clickocean.io
 *.cloudwp.io
 *.zion-telemetry.api.cnn.io
 *.zion-telemetry-nonprod.api.cnn.io
@@ -38696,6 +38700,7 @@
 *.ssc.muji.net
 *.rqyxdk.myanimelist.net
 *.smetrics.mymercy.net
+*.mythweaver.net
 *.mlfolu.nabava.net
 *.banstat.nadavi.net
 *.marketing.nanthealth.net

@@ -86,6 +86,7 @@ af-south-1.rds.amazonaws.com
 af.crm.dev
 affinitylottery.org.uk
 africa.com
+agental.site
 agilevibes.app
 ai.studio
 airflow.af-south-1.on.aws
@@ -124,6 +125,7 @@ airflow.us-west-2.on.aws
 airoapp.ai
 aiven.app
 aivencloud.com
+aiwebinfra.app
 akadns.net
 akamai-staging.net
 akamai.net
@@ -1094,6 +1096,7 @@ eu.org
 eu.platform.sh
 eu.pythonanywhere.com
 eu1-plenit.com
+eureka.zone
 eurodir.ru
 ewp.live
 ex.futurecms.at
@@ -1801,6 +1804,7 @@ lambda-url.us-east-1.on.aws
 lambda-url.us-east-2.on.aws
 lambda-url.us-west-1.on.aws
 lambda-url.us-west-2.on.aws
+lambforge.app
 land-4-sale.us
 landing.myjino.ru
 laravel.cloud

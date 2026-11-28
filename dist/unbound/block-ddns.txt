@@ -1269,6 +1269,7 @@
 *.no-ip.me
 *.noip.me
 *.oray.me
+*.serveto.me
 *.skipurl.me
 *.soundcast.me
 *.swoop2.me

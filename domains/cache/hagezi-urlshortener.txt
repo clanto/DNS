@@ -1085,7 +1085,6 @@ biolnk.in
 biolook.net
 biopagina.com
 bioprofile.link
-bioqr.me
 bioqrs.com
 bioreling.com
 biosite.info
@@ -3403,6 +3402,7 @@ ift.cx
 ift.tt
 ifwni.com
 ige.li
+igit.me
 iherb.co
 ihnpo.com
 ihor.se
@@ -5927,6 +5927,7 @@ pre.la
 preferredds.com
 prel.ink
 premex.link
+premierbet.live
 preml.ge
 prendre-rendezvous.com
 prephe.ro
@@ -6101,6 +6102,7 @@ qrab.eu
 qraus.com
 qrb.us
 qrbee.net
+qrbiolink.com
 qrcaard.com
 qrcc.io
 qrcc.me
@@ -7226,7 +7228,6 @@ shylnk.com
 sibly.ir
 sic.onl
 sicax.net
-sicepat.link
 sidji.link
 sie.ag
 sieduc.digital
@@ -7749,7 +7750,6 @@ taggpro.me
 tagli.net
 tagly.us
 tahmil.net
-tahuplay.urlklik.com
 tailurl.com
 taiwangov.com
 tak.to

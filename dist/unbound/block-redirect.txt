@@ -25725,6 +25725,7 @@
 *.qr-url.com
 *.qr4pro.com
 *.qraus.com
+*.qrbiolink.com
 *.qrcaard.com
 *.qrcin.com
 *.qrcodedynamic.com
@@ -29469,7 +29470,6 @@
 *.urlki.com
 *.urlkiss.com
 *.henslot.urlklik.com
-*.tahuplay.urlklik.com
 *.tap.urlklik.com
 *.twg.urlklik.com
 *.urlklix.com
@@ -68316,7 +68316,6 @@
 *.shrnk.link
 *.shrtme.link
 *.shrtq.link
-*.sicepat.link
 *.sidji.link
 *.siguiente.link
 *.simpleurl.link
@@ -69057,7 +69056,6 @@
 *.bfol.me
 *.bg4.me
 *.biohub.me
-*.bioqr.me
 *.biourl.me
 *.bisakale.me
 *.bitfly.me
@@ -69236,6 +69234,7 @@
 *.ictv.me
 *.go.id.me
 *.idmail.me
+*.igit.me
 *.imatch.me
 *.imspecial.me
 *.indonesiaproxy.me
